@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Usnesení zastupitelstva – Horní Domaslavice v datech</title>
+<meta name="description" content="Databáze 547 usnesení zastupitelstva obce Horní Domaslavice z let 2022–2026: znění, výsledek hlasování, počty hlasů, téma a částka.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details open><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-rozpocet-2026.html">Rozpočet 2026</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+<li><a href="hd-usneseni.html" aria-current="page">Usnesení zastupitelstva</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Usnesení zastupitelstva</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Na této stránce najdete všechna usnesení, která zastupitelstvo obce Horní Domaslavice (ZO) přijalo nebo o kterých hlasovalo ve volebním období 2022–2026. To trvalo od ustavujícího zasedání 20. 10. 2022 do posledního zasedání 6. 10. 2026. Databáze zahrnuje i 62 usnesení z 25.–28. zasedání předchozího období 2018–2022, která proběhla od února do srpna 2022. Celkem obsahuje <strong>547 usnesení ze 37 zasedání</strong>:</p>
+<ul>
+<li>485 usnesení z období 2022–2026 z 33 zasedání, na kterých se jednalo. Ze 34 svolaných zasedání se 33. zasedání nekonalo, protože nebylo usnášeníschopné, viz níže.</li>
+<li>62 usnesení z dojezdu období 2018–2022 ze 4 zasedání.</li>
+</ul>
+<p>U každého usnesení je uvedeno číslo, datum, plné znění, druh rozhodnutí, výsledek, počty hlasů pro, proti a zdržel se, téma a hlavní částka, pokud ji usnesení obsahuje. Podkladem jsou zápisy ze zasedání, které obec zveřejňuje na svém webu jako skeny. Jedinou výjimkou je poslední, 34. zasedání. Jeho zápis obec nezveřejnila, a údaje proto pocházejí z přepisu zvukového záznamu.</p>
+<p>Jména fyzických osob jsou v textech nahrazena funkcí („starosta obce“, „člen ZO“, „předseda finančního výboru“) nebo označením „fyzická osoba“. Názvy firem, spolků a úřadů zůstaly beze změny. Data lze stáhnout jako <a href="data/usneseni_zo_2022-2026.csv">CSV</a>.</p>
+<h2 id="vyhledávání-v-usneseních">Vyhledávání v usneseních</h2>
+<div id="usneseni-app"></div>
+
+<h2 id="1-souhrnné-přehledy">1. Souhrnné přehledy</h2>
+<h3 id="usnesení-podle-roku">Usnesení podle roku</h3>
+<p>Rok se počítá podle data zasedání. „Bez hlasování“ označuje usnesení, kterými zastupitelstvo jen vzalo něco na vědomí a zápis u nich hlasování neuvádí.</p>
+<table>
+<thead>
+<tr>
+<th>Rok (období)</th>
+<th style="text-align: right;">Zasedání s usneseními</th>
+<th style="text-align: right;">Usnesení</th>
+<th style="text-align: right;">Přijato</th>
+<th style="text-align: right;">Nepřijato</th>
+<th style="text-align: right;">Výsledek neuveden</th>
+<th style="text-align: right;">Z přijatých bez hlasování</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022 (2018–2022, 25.–28. zasedání)</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr>
+<td>2022 (2022–2026, od 20. 10.)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">126</td>
+<td style="text-align: right;">118</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">26</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">32</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr>
+<td>2026</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr>
+<td><strong>Období 2022–2026 celkem</strong></td>
+<td style="text-align: right;"><strong>33</strong></td>
+<td style="text-align: right;"><strong>485</strong></td>
+<td style="text-align: right;"><strong>449</strong></td>
+<td style="text-align: right;"><strong>35</strong></td>
+<td style="text-align: right;"><strong>1</strong></td>
+<td style="text-align: right;"><strong>94</strong></td>
+</tr>
+<tr>
+<td><strong>Databáze celkem</strong></td>
+<td style="text-align: right;"><strong>37</strong></td>
+<td style="text-align: right;"><strong>547</strong></td>
+<td style="text-align: right;"><strong>500</strong></td>
+<td style="text-align: right;"><strong>46</strong></td>
+<td style="text-align: right;"><strong>1</strong></td>
+<td style="text-align: right;"><strong>107</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Roky 2022 a 2026 nejsou celé. Období 2022–2026 začalo v říjnu 2022 a v roce 2026 se po 6. 10. už nezasedalo.</p>
+<h3 id="usnesení-podle-typu">Usnesení podle typu</h3>
+<p>Typ odpovídá slovesu, kterým usnesení začíná. Do „jiné“ patří hlavně vydání obecně závazných vyhlášek („vydává“), stanovení odměn („stanovuje“) a kroky při změně územního plánu („rozhodlo“, „konstatuje“). Nepřijaté návrhy mají typ podle toho, co navrhovaly.</p>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th style="text-align: right;">2022–2026</th>
+<th style="text-align: right;">2018–2022 (2022)</th>
+<th style="text-align: right;">Celkem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>schvaluje</td>
+<td style="text-align: right;">308</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">356</td>
+</tr>
+<tr>
+<td>bere na vědomí</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">107</td>
+</tr>
+<tr>
+<td>jiné</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">37</td>
+</tr>
+<tr>
+<td>volí</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">23</td>
+</tr>
+<tr>
+<td>pověřuje</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr>
+<td>ukládá</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>ruší</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>neschvaluje</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td><strong>Celkem</strong></td>
+<td style="text-align: right;"><strong>485</strong></td>
+<td style="text-align: right;"><strong>62</strong></td>
+<td style="text-align: right;"><strong>547</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="usnesení-podle-tématu">Usnesení podle tématu</h3>
+<p>Jedno usnesení může mít až dvě témata, součet je proto vyšší než počet usnesení. Do „volby a orgány obce“ patří i schvalování programu a ověřovatelů zápisu na každém zasedání. V období 2022–2026 je těchto procedurálních usnesení 82, zhruba polovina tématu.</p>
+<table>
+<thead>
+<tr>
+<th>Téma</th>
+<th style="text-align: right;">2022–2026</th>
+<th style="text-align: right;">2018–2022 (2022)</th>
+<th style="text-align: right;">Celkem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>volby a orgány obce</td>
+<td style="text-align: right;">160</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">169</td>
+</tr>
+<tr>
+<td>kultura, spolky a dotace</td>
+<td style="text-align: right;">99</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">118</td>
+</tr>
+<tr>
+<td>rozpočet a finance</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">76</td>
+</tr>
+<tr>
+<td>smlouvy a zakázky</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">49</td>
+</tr>
+<tr>
+<td>silnice a doprava</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr>
+<td>školství</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">39</td>
+</tr>
+<tr>
+<td>pozemky a majetek</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">37</td>
+</tr>
+<tr>
+<td>investice a stavby</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr>
+<td>vyhlášky</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr>
+<td>územní plán a výstavba</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr>
+<td>odpady</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr>
+<td>ostatní</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr>
+<td>voda a kanalizace</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6</td>
+</tr>
+</tbody>
+</table>
+<h3 id="nepřijaté-návrhy-podle-roku">Nepřijaté návrhy podle roku</h3>
+<p>Návrh je nepřijatý, když pro něj nehlasovala nadpoloviční většina všech 13 členů zastupitelstva, tedy aspoň 7 zastupitelů. Na zasedání s malou účastí proto neprojde ani návrh bez jediného hlasu proti, například 5 pro, 0 proti a 3 zdržení.</p>
+<table>
+<thead>
+<tr>
+<th>Rok (období)</th>
+<th style="text-align: right;">Nepřijato</th>
+<th style="text-align: right;">z toho dotace a dary z rozpočtu obce</th>
+<th style="text-align: right;">z toho volby do výborů</th>
+<th style="text-align: right;">ostatní</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022 (2018–2022)</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>2022 (2022–2026)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>2026</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td><strong>Celkem</strong></td>
+<td style="text-align: right;"><strong>46</strong></td>
+<td style="text-align: right;"><strong>21</strong></td>
+<td style="text-align: right;"><strong>6</strong></td>
+<td style="text-align: right;"><strong>19</strong></td>
+</tr>
+</tbody>
+</table>
+<p>U dotací spolkům se podle zápisů hlasuje nejprve o částce, o kterou žadatel požádal. Když ta neprojde, hlasuje se o nižší částce. Většina nepřijatých dotací proto nebyla zamítnuta úplně, na stejném zasedání pak prošla nižší částka. Bez náhrady zůstaly například dotace pro Centrum pro zdravotně postižené MSK (2024 i 2025) a pro Linku bezpečí (2022 a 2025).</p>
+<p>Mezi ostatními nepřijatými návrhy jsou:</p>
+<ul>
+<li>odměna 0 Kč, 1 805 Kč a 3 010 Kč měsíčně pro neuvolněné zastupitele a členy výborů (2022);</li>
+<li>varianta jednacího řádu navržená členem ZO (2022);</li>
+<li>návrh na změnu programu 2. zasedání (2022);</li>
+<li>první hlasování o smlouvě s ČEZ Distribuce na přeložku u mateřské školy (2022), napodruhé schválená v únoru 2023;</li>
+<li>tři procedurální návrhy na změnu programu (2023);</li>
+<li>souhlas s užíváním vodních ploch pro firmu Heli4U (2023);</li>
+<li>nájem tiskárny na 60 měsíců (2024), poté schválen na 48 měsíců;</li>
+<li>nájem prostor pro výdejní box PPL (2024);</li>
+<li>objednávka oprav cest metodou JetPatcher (březen 2025), schválena v dubnu 2025;</li>
+<li>zařazení bodu o odvodnění lokality „Amerika“ do programu (listopad 2025);</li>
+<li>služebnost pro hasiče na dobu nájemní smlouvy (2026), poté schválena na 10 let;</li>
+<li>vzetí rozpočtových opatření na vědomí na 34. zasedání (2026).</li>
+</ul>
+<h3 id="zasedání-která-se-nekonala-nebo-nebyla-usnášeníschopná">Zasedání, která se nekonala nebo nebyla usnášeníschopná</h3>
+<table>
+<thead>
+<tr>
+<th>Zasedání</th>
+<th>Datum</th>
+<th>Co uvádí zápis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>33. zasedání</td>
+<td>17. 9. 2026</td>
+<td>Přítomno bylo 6 ze 13 zastupitelů a 7 se omluvilo. Zastupitelstvo nebylo usnášeníschopné. Zasedání bylo zahájeno v 17:34 a ukončeno v 17:36, žádný bod se neprojednal a žádné usnesení nebylo přijato. Neprojednány zůstaly rozpočtová opatření, průkazy energetické náročnosti budov, záložní datové úložiště (NAS) a zpráva kontrolního výboru. Většina těchto bodů se projednala na 34. zasedání 6. 10. 2026.</td>
+</tr>
+<tr>
+<td>plánované říjnové zasedání</td>
+<td>říjen 2025</td>
+<td>Podle zápisu z 25. zasedání (18. 11. 2025) se zasedání v říjnu 2025 nekonalo kvůli nedostatku podkladů.</td>
+</tr>
+</tbody>
+</table>
+<p>Jen s minimálním počtem zastupitelů proběhla tato zasedání:</p>
+<ul>
+<li><strong>24. zasedání (18. 9. 2025):</strong> přítomno 7 ze 13, všechna usnesení byla přijata poměrem 7 : 0 : 0.</li>
+<li><strong>21. zasedání (27. 3. 2025):</strong> přítomno 8 zastupitelů. Proto neprošla objednávka oprav cest, pro kterou hlasovalo 5 přítomných a 3 se zdrželi.</li>
+<li><strong>22. zasedání (24. 4. 2025):</strong> v závěru odešli tři zastupitelé a poslední usnesení bylo přijato poměrem 8 : 0 : 0.</li>
+</ul>
+<p>V dojezdu období 2018–2022 se 25.–27. zasedání účastnilo 7–10 zastupitelů. Na 27. zasedání (7. 6. 2022) proto neprošlo několik dotací spolkům, například 6 : 0 : 2.</p>
+<h2 id="2-nejdůležitější-rozhodnutí-období-20222026">2. Nejdůležitější rozhodnutí období 2022–2026</h2>
+<p>Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení samo neuvádí, pocházejí ze zápisu, kde zazněly na zasedání, nebo z profilu zadavatele (viz <a href="hd-zakazky.html">veřejné zakázky</a>). Čísla v závorkách jsou hlasy pro : proti : zdržel se.</p>
+<ol type="1">
+<li><p><strong>Roční rozpočty obce.</strong> Rozpočet na rok 2023 činil 46 258 452 Kč (30/2/2022, 9 : 4 : 0) a na rok 2024 47 760 902 Kč (158/10/2023, 9 : 0 : 2). Rozpočet na rok 2025 činil 54 104 202 Kč (279/19/2024, 9 : 0 : 1) a na rok 2026 65 431 102 Kč (380/26/2025, 8 : 0 : 3). Podle zápisu z prosince 2025 obsahuje rozpočet 2026 finanční rezervu téměř 25 mil. Kč. Celkové částky pocházejí ze zápisů, usnesení je neuvádějí. Rozbor výdajů je na stránce <a href="hd-vydaje.html">výdaje</a>.</p></li>
+<li><p><strong>Oprava místní komunikace MK 1.</strong> Zastupitelstvo schválilo zadávací dokumentaci (42/2/2022) a žádost o dotaci Ministerstva pro místní rozvoj (44/2/2022). V březnu 2023 pak schválilo smlouvu o dílo s vítězem zakázky (72/4/2023, 8 : 0 : 4). Zakázku vyhrála STRABAG a.s. za 7 581 200 Kč bez DPH podle profilu zadavatele.</p></li>
+<li><p><strong>Oprava MK 5 a MK 10.</strong> Zastupitelstvo schválilo projektovou dokumentaci (134/8/2023) a zadávací dokumentaci (243/15/2024, 9 : 0 : 2). Podle profilu zadavatele zakázku vyhrála firma Strojírny a stavby Třinec, a.s., za 4 705 961 Kč bez DPH.</p></li>
+<li><p><strong>Mateřská škola: přístavba místo novostavby.</strong> V září 2024 zastupitelstvo schválilo žádost o dotaci na projektovou dokumentaci k přístavbě a snížení energetické náročnosti stávající budovy (261/17/2024, 11 : 0 : 0). Podle zápisu byla přístavba odhadnuta na 25–28 mil. Kč a novostavba na 45–50 mil. Kč. V dubnu 2026 zastupitelstvo schválilo změnu konstrukce přístavby ze dřevostavby na zděné řešení (423/30/2026, 12 : 0 : 0). Podle zápisu se tím odhad snížil z 34–41 mil. Kč na 23–27 mil. Kč. K volbám 2026 byla přístavba ve fázi projektové dokumentace.</p></li>
+<li><p><strong>Mateřská škola: studie a projektová dokumentace.</strong> Smlouva na architektonickou studii s firmou d21 architekti, s.r.o., stála podle zápisu 284 000 Kč bez DPH (296/20/2025). Zastupitelstvo dále schválilo:</p>
+<ul>
+<li>koncept studie (315/22/2025) a finální studii (351/23/2025, 9 : 0 : 2);</li>
+<li>zadávací dokumentaci na projektovou dokumentaci (361/24/2025). Zakázku vyhrála KANIA a.s. za 1 600 000 Kč bez DPH podle profilu zadavatele;</li>
+<li>smlouvu o dotaci Moravskoslezského kraje (371/25/2025);</li>
+<li>dva dodatky s posunem termínů (398/27/2026 a 468/31/2026).</li>
+</ul>
+<p>Souvislosti jsou na stránkách <a href="hd-dotace.html">dotace</a> a <a href="hd-skolstvi-socialni.html">školství</a>.</p></li>
+<li><p><strong>Sportoviště u Obecního domu a u hasičské klubovny.</strong> V prosinci 2025 zastupitelstvo schválilo zadávací dokumentace obou zakázek (388/26/2025, 8 : 0 : 3). Předpokládaná hodnota byla podle zápisu 5 775 075 Kč a 1 180 000 Kč bez DPH. V dubnu 2026 pověřilo starostu odstoupením od smlouvy, případně neposkytnutím součinnosti, s firmou Merat u hřiště u Obecního domu (425/30/2026, 11 : 0 : 1). V červnu 2026 vzalo na vědomí, že smlouva byla uzavřena s druhou firmou v pořadí, Sportovní podlahy Zlín s.r.o., za 6 602 928 Kč s DPH (466/31/2026).</p></li>
+<li><p><strong>Spádová základní škola.</strong> V roce 2023 zastupitelstvo pověřilo starostku zadáním studie proveditelnosti vlastní základní školy (114/6/2023, 8 : 1 : 2) a podáním žádosti na krajský úřad o určení spádové školy (142/8/2023). Zadalo také demografickou studii do 150 000 Kč (125/7/2023), jejíž výsledky vzalo na vědomí v lednu 2024 (176/11/2024). V březnu 2024 schválilo dohodu o společném školském obvodu se statutárním městem Frýdek-Místek a příslušnou vyhlášku (185/12/2024 a 186/12/2024, obojí 8 : 0 : 4). O prodloužení této dohody se jednalo na 34. zasedání. Výsledek ze záznamu není znám.</p></li>
+<li><p><strong>Termínovaný vklad 9 mil. Kč.</strong> V říjnu 2023 zastupitelstvo schválilo převod 9 000 000 Kč na termínovaný účet u Komerční banky na 6 měsíců (150/9/2023, 9 : 0 : 2).</p></li>
+<li><p><strong>Změna č. 1 územního plánu.</strong> V červenci 2023 zastupitelstvo rozhodlo o námitkách (121/7/2023) a vydalo změnu formou opatření obecné povahy č. 1/2023 (124/7/2023, 9 : 1 : 2). Zpracování změny bylo objednáno v dubnu 2022 (404/26/2022). Další informace jsou na stránce <a href="hd-vystavba.html">výstavba</a>.</p></li>
+<li><p><strong>Strategický plán rozvoje obce 2024–2030.</strong> Plán byl schválen v červnu 2024 (250/16/2024, 10 : 0 : 0). Připravoval ho výbor pro rozvoj obce, zřízený v únoru 2023 (63/3/2023), jehož činnost zastupitelstvo ukončilo k 30. 6. 2024 (244/15/2024).</p></li>
+<li><p><strong>Dary.</strong> Zastupitelstvo schválilo dar 500 000 Kč obcím zasaženým povodněmi prostřednictvím sbírky Českého červeného kříže (262/17/2024, 11 : 0 : 0). Schválilo také dar 100 000 Kč Farnosti Domaslavice (288/19/2024, 7 : 0 : 3), který podle zápisu směřoval na opravu varhan. Pravidelné dotace spolkům a organizacím schvaluje každé jaro. V období 2022–2026 hlasovalo o 74 návrzích dotací z rozpočtu obce a 62 z nich přijalo. Podrobnosti jsou na stránce <a href="hd-spolky.html">spolky</a>.</p></li>
+<li><p><strong>Pravidla zadávání zakázek.</strong> V červnu 2025 zastupitelstvo zrušilo směrnici k zakázkám malého rozsahu a svěřilo starostce a místostarostovi uzavírání smluv a objednávek do 250 000 Kč bez DPH (352/23/2025, 8 : 3 : 0). Novou směrnici schválilo v prosinci 2025 (389/26/2025, 8 : 3 : 0).</p></li>
+<li><p><strong>Obecní dům.</strong> Zastupitelstvo schválilo:</p>
+<ul>
+<li>zakázku na elektroinstalaci (374/25/2025, 12 : 0 : 1), kterou podle profilu zadavatele vyhrála ELBAU-MONT s.r.o. za 759 516 Kč bez DPH;</li>
+<li>objednávky akustických prvků a obkladů u LF Interiéry s. r. o. (390/26/2025 a 391/26/2025, obojí 7 : 3 : 1);</li>
+<li>zakázku na stavební úpravy (400/27/2026, 10 : 0 : 1);</li>
+<li>nového nájemce Obecního domu (422/30/2026, 11 : 0 : 1).</li>
+</ul></li>
+<li><p><strong>Změna vedení obce v lednu 2026.</strong> Starostka 15. 1. 2026 rezignovala na funkci i mandát. Rezignace je uvedena v zápisu, usnesení se k ní nepřijímá. Na mimořádném zasedání 27. 1. 2026 zastupitelstvo rozhodlo, že funkce starosty bude neuvolněná (405/28/2026, 12 : 0 : 1). Zvolilo nového starostu (406/28/2026, 9 : 0 : 4) a stanovilo neuvolněným členům odměny v maximální zákonné výši (407/28/2026, 9 : 3 : 1).</p></li>
+<li><p><strong>Kontrolní výbor a nápravná opatření.</strong> V roce 2026 zastupitelstvo:</p>
+<ul>
+<li>pověřilo kontrolní výbor kontrolou směrnic obce (417/29/2026);</li>
+<li>uložilo starostovi zveřejnit zprávu kontrolního výboru a předložit návrh nápravných opatření (443/30/2026 a 444/30/2026);</li>
+<li>v červnu přijalo usnesení o dokončení postupu podle § 119 zákona o obcích, které zveřejnění zprávy odložilo (462/31/2026);</li>
+<li>v červenci vzalo na vědomí návrh nápravných opatření (472/32/2026);</li>
+<li>na 34. zasedání vzalo na vědomí doplněnou zprávu a pověřilo starostu jejím zveřejněním do 7. 10. 2026.</li>
+</ul></li>
+</ol>
+<h2 id="3-pozor">3. Pozor</h2>
+<ol type="1">
+<li><p><strong>34. zasedání (6. 10. 2026) nemá zveřejněný zápis.</strong> Zastupitelstvo na něm rozhodlo, že místo zápisu zveřejní zvukový záznam. Devět usnesení tohoto zasedání proto pochází z automatického přepisu záznamu a nemá oficiální čísla, v databázi jsou uvedena jako „bez čísla (34/2026, bod …)“. Výsledek hlasování o školském obvodu v záznamu chybí, část audia je nesrozumitelná. U daru 10 000 Kč pro KAFIRA o.p.s. zazněl jen souhlas všech přítomných, počty hlasů proto nejsou vyplněny. U zprávy kontrolního výboru je známo jen 7 hlasů pro. Není jasné, zda se samostatně hlasovalo o ověřovatelích zápisu.</p></li>
+<li><p><strong>Duplicitní a chybná čísla v zápisech.</strong> Čísla jsou ponechána tak, jak je uvádí zápis:</p>
+<ul>
+<li>Číslo 436/30/2026 má v zápisu dvě různá usnesení, dotaci pro SH ČMS a pro TJ Sokol. V databázi jsou obě se stejným číslem.</li>
+<li>Číslo 469 bylo použito na 31. i 32. zasedání (469/31/2026 a 469/32/2026).</li>
+<li>Usnesení 374/25/2025 je v návrhu chybně označeno 374/23/2025.</li>
+<li>Návrh 236/15/2024 je v zápisu označen jako 234/15/2024.</li>
+</ul>
+<p>Kromě toho jsou čísla průběžná a bez mezer. V období 2022–2026 jde o řadu 1–474, v dojezdu předchozího období o řadu 387–448.</p></li>
+<li><p><strong>Texty jsou převzaty ze zápisu včetně jeho chyb.</strong> Například usnesení 18/1/2022 začíná bez podmětu, u 56/3/2023 a 420/30/2026 chybí sloveso a 398/27/2026 uvádí smlouvu „ze dne 15. 10. 2026“, zřejmě místo 15. 10. 2025. Výčty příloh a poznámky přepisovatele byly odstraněny.</p></li>
+<li><p><strong>„Bere na vědomí“ bez hlasování.</strong> Většinu informací zastupitelstvo bere na vědomí bez hlasování. Jde o 107 usnesení s prázdnými počty hlasů a výsledkem „přijato“. Stejně je v zápisu zapsáno i pětibodové usnesení 462/31/2026, které kontrolnímu výboru a starostovi ukládá úkoly a mění dřívější usnesení.</p></li>
+<li><p><strong>Hlasování podle jednacího řádu.</strong> Na 31. zasedání kontrolní výbor uvedl, že hlasování o dotacích 429, 430 a 436/30/2026 neproběhlo v souladu s jednacím řádem, protože se hlasovalo nejdřív o žádosti, a ne o protinávrhu. Platnost usnesení přitom nezpochybnil.</p></li>
+<li><p><strong>Částka (<code>castka_kc</code>) je vyplněna jen tehdy, když ji obsahuje text usnesení.</strong> U usnesení s více částkami je uvedena nejvyšší. Jednotkové ceny (Kč/m², Kč/měsíc, Kč/den) a měsíční odměny se nevyplňují, aby se daly částky sčítat. Ceny smluv, rozpočtů a zakázek usnesení většinou neuvádějí, jsou v příslušných zápisech a na stránce <a href="hd-zakazky.html">veřejné zakázky</a>.</p></li>
+<li><p><strong>Téma a typ</strong> jsou přiřazeny podle klíčových slov a ručně zkontrolovány. Jde o pomůcku pro vyhledávání, ne o úřední třídění.</p></li>
+<li><p><strong>Anonymizace.</strong> Jména zastupitelů a dalších fyzických osob jsou nahrazena funkcí nebo označením „fyzická osoba“. Platí to i pro ověřovatele, členy hodnotících komisí, zvolené funkcionáře a smluvní strany. Jméno nadačního fondu, který nese jméno fyzické osoby, je nahrazeno popisem jeho účelu. Kdo zastával jakou funkci, je doloženo v původních zápisech na webu obce a na stránce <a href="hd-volby.html">volby</a>.</p></li>
+<li><p><strong>Rok 2022</strong> v souhrnech zahrnuje dvě volební období. Řádky z let 2018–2022 jsou v datech označeny ve sloupci <code>obdobi</code>.</p></li>
+</ol>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<ul>
+<li><strong>Zápisy ze zasedání zastupitelstva</strong> z let 2022–2026 (25.–28. zasedání období 2018–2022 a 1.–33. zasedání období 2022–2026), zveřejněné na webu obce jako naskenované PDF. Ze zápisů vznikly strojově čitelné přepisy, ze kterých byla usnesení vytažena skriptem. Do databáze jde znění usnesení, číslo a výsledek hlasování.</li>
+<li><strong>Ověření proti PDF.</strong> Všechny skeny zápisů a samostatných výpisů usnesení byly znovu převedeny na text (OCR). U každého zasedání sedí rozsah a počet čísel usnesení s přepisem a v číslování nejsou mezery. Výjimky popisuje oddíl Pozor. Počty hlasů byly porovnány u 419 usnesení, kde je OCR dokázalo přečíst. Všechny zjištěné rozdíly vznikly chybným čtením znaků „1“ a „–“ při OCR, v přepisech žádný rozdíl nebyl.</li>
+<li><strong>34. zasedání (6. 10. 2026):</strong> zvukový záznam zveřejněný obcí, přepsaný automaticky (whisper). Mluvčí ani některá čísla nejsou v záznamu jednoznačná.</li>
+<li><strong>Výsledek</strong> je „přijato“, pokud zápis uvádí „schváleno“ nebo „bere ZO na vědomí“, a „nepřijato“, pokud uvádí „neschváleno“ nebo „nebylo schváleno“. Počty „---“ nebo „—“ v zápisu znamenají 0.</li>
+<li><strong>Typ</strong> je určen podle prvního slovesa usnesení. <strong>Téma</strong> (nejvýše dvě) je určeno podle klíčových slov a u sporných případů ručně.</li>
+<li><strong>Částky</strong> v přehledu nejdůležitějších rozhodnutí pocházejí ze zápisů (rozpočty, odhady, předpokládané hodnoty) a z profilu zadavatele obce na vhodne-uverejneni.cz (ceny vítězných nabídek, viz <a href="hd-zakazky.html">veřejné zakázky</a>).</li>
+<li>Data k 31. 10. 2026. Usnesení nového zastupitelstva zvoleného 9.–10. 10. 2026 v databázi zatím nejsou.</li>
+</ul>
+<script src="static/usneseni.js" defer></script>
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

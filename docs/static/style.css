@@ -179,3 +179,14 @@ dialog.report::backdrop { background: rgba(0,0,0,.45); }
 .report-privacy { margin: 0; color: var(--muted); font-size: .8rem; }
 .report-actions { display: flex; justify-content: flex-end; gap: 8px; }
 .report-done { margin: 0; }
+
+/* resolutions table */
+.usn-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+.usn-filters input, .usn-filters select { font: inherit; font-size: .92rem; color: var(--ink); background: var(--card); border: 1px solid var(--axis); border-radius: 6px; padding: 6px 9px; }
+.usn-filters input { flex: 1 1 260px; }
+.usn-info { color: var(--muted); font-size: .85rem; margin: 4px 0; }
+.usn-table td.nowrap { white-space: nowrap; font-size: .85rem; }
+.usn-table td:nth-child(4) { font-size: .82rem; color: var(--ink-2); }
+.usn-meta { color: var(--muted); font-size: .8rem; margin-top: 3px; }
+.usn-no { color: #d03b3b; font-weight: 600; }
+.usn-more { margin: 4px 0 16px; }

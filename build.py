@@ -32,6 +32,7 @@ NAV = [
     ('Obec v číslech', [
         ('hd-obyvatelstvo', 'Obyvatelstvo'),
         ('hd-prijmy', 'Příjmy ze sdílených daní'),
+        ('hd-rozpocet-2026', 'Rozpočet 2026'),
         ('hd-vydaje', 'Výdaje, investice a opravy'),
         ('hd-ucty', 'Peníze na účtech'),
         ('hd-majetek', 'Majetek a účetnictví'),
@@ -42,6 +43,8 @@ NAV = [
         ('hd-skolstvi-socialni', 'Školství, sociální data, ovzduší'),
         ('hd-spolky', 'Spolky a subjekty'),
         ('hd-volby', 'Volby'),
+        ('hd-usneseni', 'Usnesení zastupitelstva'),
+        ('mapa', 'Mapa obce'),
     ]),
     ('Srovnání se sousedy', [
         ('srovnani-souhrn', 'Souhrn srovnání'),
@@ -360,6 +363,14 @@ DATA_DESC = {
     'RUIAN_souhrn_4obce_stav_20260930.csv': 'Budovy, byty a napojení na vodovod, kanalizaci a plyn podle RÚIAN (stav 30. 9. 2026).',
     'CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv': 'Výměry druhů pozemků po katastrálních územích, 2004, 2014 a 2026 (ČÚZK).',
     'roztrisenost_4obce.csv': 'Ukazatele roztříštěnosti zástavby (skupiny domů, vzdálenosti, délka propojení).',
+    'usneseni_zo_2022-2026.csv': 'Usnesení zastupitelstva 2022–2026 (a dojezd 2018–2022): číslo, datum, znění bez jmen osob, typ, výsledek, hlasy, téma, částka.',
+    'rozpocet_2026_srovnani_k_30_9.csv': 'Rozpočet 2026: plnění příjmů a čerpání výdajů k 30. 9. proti stejnému období 2023–2025.',
+    'rozpocet_2026_vydaje_podle_ucelu.csv': 'Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30. 9.',
+    'rozpocet_2026_investice_opravy.csv': 'Rozpočet 2026: plánované a zaplacené investice a opravy podle akcí.',
+    'rozpocet_2026_odhad_prijmu.csv': 'Rozpočtované a skutečné příjmy 2023–2026.',
+    'rozpocet_2026_rozpoctova_opatreni.csv': 'Rozpočtová opatření 2026.',
+    'rozpocet_2026_stav_uctu.csv': 'Peníze na účtech obce po čtvrtletích 2023–2026.',
+    'rozpocet_2026_strednedoby_vyhled.csv': 'Střednědobý výhled rozpočtu 2025–2028.',
 }
 
 
@@ -424,6 +435,8 @@ def build_md_pages():
         meta, text = front_matter(open(os.path.join(ROOT, 'obsah', f), encoding='utf-8').read())
         text = re.sub(r'^#\s+.*\n', '', text.lstrip(), count=1)  # H1 comes from the template
         body = md_to_html(text)
+        if 'id="usneseni-app"' in body:
+            body += '<script src="static/usneseni.js" defer></script>'
         if meta.get('updated'):
             d = meta['updated']
             m = re.match(r'(\d{4})-(\d{2})-(\d{2})$', d)
