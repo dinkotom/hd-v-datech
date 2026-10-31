@@ -28,6 +28,8 @@ Tato stránka ukazuje, kolik peněz měla obec na bankovních účtech vždy k 3
 ² Obec 24. 10. 2023 převedla 9 mil. Kč na šestiměsíční termínovaný vklad u Komerční banky s úrokem 5,58 % p. a. (usnesení zastupitelstva obce 9/2023). Vklad se v roce 2024 vrátil na běžný účet, závěrečný účet 2024 ho vykazuje v položce 8117 (+9 000 000). Samotný běžný účet proto v roce 2023 klesl o 8,18 mil. a v roce 2024 vzrostl o 12,37 mil. Skutečné změny celkových prostředků jsou ve sloupci „Změna za rok“.
 ³ Saldo 2024 podle Monitoru státní pokladny (výkaz FIN 2-12 M). Starší přepis ze skenu závěrečného účtu uváděl 3 207 299,62 Kč; rozdíl 159 042 Kč odpovídá chybě čtení daňových příjmů, která byla opravena podle dat MF.
 
+<!--chart:hd-ucty-->
+
 ## Co z řady plyne
 - Za 12 let vzrostly úspory obce z 0,7 na 39,5 mil. Kč. Jediný pokles byl v roce 2018 (−0,8 mil.).
 - **Volební období 2018–2022** (do 31. 12. 2022): z 10,0 na 27,3 mil., tedy +17,3 mil.

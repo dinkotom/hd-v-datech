@@ -11,6 +11,9 @@ import shutil
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import charts  # noqa: E402
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'docs')
 SITE = 'Horní Domaslavice v datech'
@@ -435,6 +438,7 @@ def build_md_pages():
         meta, text = front_matter(open(os.path.join(ROOT, 'obsah', f), encoding='utf-8').read())
         text = re.sub(r'^#\s+.*\n', '', text.lstrip(), count=1)  # H1 comes from the template
         body = md_to_html(text)
+        body = re.sub(r'<!--\s*chart:([\w-]+)\s*-->', lambda m: charts.CHARTS[m.group(1)](), body)
         if 'id="usneseni-app"' in body:
             body += '<script src="static/usneseni.js" defer></script>'
         if meta.get('updated'):

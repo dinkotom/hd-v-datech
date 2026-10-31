@@ -12,6 +12,8 @@ Obec Horní Domaslavice má IČO 00536008 (kód obce 512192), Mateřská škola 
 
 ## 1. Přijaté dotace po letech
 
+<!--chart:hd-dotace-roky-->
+
 Tabulka uvádí peníze, které skutečně přišly obci. Nezahrnuje příspěvek na výkon státní správy (4112), dotace na volby a kompenzační příspěvky (4111). Nezahrnuje ani normativní financování MŠ z MŠMT přes kraj, tedy mzdy učitelek (3,2–4,6 mil. ročně; Hlídač státu je v letech 2021–2023 vede jako „dotace MSK“).
 
 | Rok | Poskytovatel / program | Projekt | Přiděleno | Přijato | Typ | Doložení |

@@ -15,6 +15,8 @@ Stránka porovnává Horní Domaslavice (HD) se sousedními obcemi Pazderna, Dol
 
 ## 1. Počet obyvatel 2000–2025
 
+<!--chart:srov-obyv-->
+
 | Rok (k 31. 12.) | HD | Pazderna | DD | Lučina | Okres F-M | ČR |
 |---|---:|---:|---:|---:|---:|---:|
 | 2000 | 564 | 274 | 925 | 1 141 | 228 116 | 10 266 546 |

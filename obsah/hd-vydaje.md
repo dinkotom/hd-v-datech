@@ -10,6 +10,8 @@ Ověřit si data můžete sami na https://monitor.statnipokladna.gov.cz (vyhleda
 
 ## 1. Výdaje podle účelu
 
+<!--chart:hd-vydaje-ucel-->
+
 | Kategorie | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | **Σ 2014–17** | **Σ 2018–21** | **Σ 2022–25** |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Správa obce (úřad, zastupitelstvo, volby) | 2,89 | 2,52 | 3,41 | 3,65 | 4,06 | 4,59 | 5,51 | 4,98 | 10,79 | 12,46 | **19,13** |
@@ -69,6 +71,8 @@ Obec od roku 2017 každý rok zapojuje celý zůstatek z minulých let do rozpo�
 8. **Mimořádná jednorázová položka:** zeleň 2022 (2,54 mil.) jsou kompostéry pro občany, 1,57 mil. na drobný majetek (3799/5137) a 0,35 mil. na dary fyzickým osobám (3799/5492). Projekt byl dotovaný, viz [dotace](hd-dotace.html).
 
 ## 5. Investice a opravy dohromady vs. příjmy
+
+<!--chart:hd-io-roky-->
 
 Investice = třída 6. Opravy = položka 5171. Příjmy = třídy 1–4 bez převodů z vlastních účtů (4134).
 

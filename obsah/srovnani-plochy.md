@@ -27,6 +27,8 @@ Okres Frýdek-Místek má zhruba 175 obyvatel na km² (asi 214 tis. obyvatel na 
 
 ## Druhy pozemků 2026 (ha a podíl z rozlohy)
 
+<!--chart:srov-plochy-->
+
 | | HD | PA | DD | LU |
 |---|---:|---:|---:|---:|
 | Orná půda | **280,3 (55 %)** | 178,9 (56 %) | 384,8 (52 %) | 275,5 (37 %) |

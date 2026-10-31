@@ -45,6 +45,12 @@
     return isNaN(n) ? v : n.toLocaleString('cs-CZ') + ' Kč';
   }
 
+  function typeClass(t) {
+    var m = { 'schvaluje': 'schvaluje', 'neschvaluje': 'neschvaluje', 'bere na vědomí': 'bere', 'volí': 'voli',
+      'pověřuje': 'poveruje', 'ukládá': 'uklada', 'ruší': 'rusi' };
+    return m[t] || 'jine';
+  }
+
   function norm(s) {
     return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
   }
@@ -70,6 +76,17 @@
     })).filter(Boolean))).sort(function (a, b) { return a.localeCompare(b, 'cs'); });
     var types = Array.from(new Set(data.map(function (d) { return d.typ; }).filter(Boolean))).sort();
 
+    var nOk = data.filter(function (d) { return d.vysledek === 'přijato'; }).length;
+    var nNo = data.filter(function (d) { return d.vysledek === 'nepřijato'; }).length;
+    var nMeet = new Set(data.map(function (d) { return d.datum; })).size;
+    var stats = el('div', { 'class': 'usn-stats' });
+    [[data.length, 'usnesení celkem'], [nOk, 'přijato'], [nNo, 'nepřijato'], [nMeet, 'zasedání']].forEach(function (s) {
+      var t = el('div', { 'class': 'tile' });
+      t.appendChild(el('div', { 'class': 'v' }, s[0].toLocaleString('cs-CZ')));
+      t.appendChild(el('div', { 'class': 'l' }, s[1]));
+      stats.appendChild(t);
+    });
+    root.appendChild(stats);
     var bar = el('div', { 'class': 'usn-filters' });
     var q = el('input', { type: 'search', placeholder: 'Hledat v usneseních (např. chodník, MŠ, 872/2)…', 'aria-label': 'Hledat' });
     function select(label, opts) {
@@ -87,13 +104,8 @@
 
     var info = el('p', { 'class': 'usn-info' });
     root.appendChild(info);
-    var wrap = el('div', { 'class': 'table-wrap' });
-    var table = el('table', { 'class': 'usn-table' });
-    table.innerHTML = '<thead><tr><th>Číslo</th><th>Datum</th><th>Usnesení</th><th>Téma</th><th>Výsledek</th></tr></thead>';
-    var tbody = el('tbody');
-    table.appendChild(tbody);
-    wrap.appendChild(table);
-    root.appendChild(wrap);
+    var tbody = el('div', { 'class': 'usn-list' });
+    root.appendChild(tbody);
     var more = el('button', { type: 'button', 'class': 'btn-ghost usn-more' }, 'Zobrazit další');
     root.appendChild(more);
 
@@ -113,21 +125,30 @@
     function render() {
       tbody.textContent = '';
       current.slice(0, shown).forEach(function (d) {
-        var tr = el('tr');
-        tr.appendChild(el('td', { 'class': 'nowrap' }, d.cislo));
-        tr.appendChild(el('td', { 'class': 'nowrap' }, fmtDate(d.datum)));
-        var td = el('td');
-        td.appendChild(el('div', null, d.text));
-        var meta = [d.typ, fmtKc(d.castka_kc), d.zdroj].filter(Boolean).join(' · ');
-        td.appendChild(el('div', { 'class': 'usn-meta' }, meta));
-        tr.appendChild(td);
-        tr.appendChild(el('td', null, d.tema));
-        var votes = (d.pro || d.proti || d.zdrzel) ? ' (' + [d.pro || '–', d.proti || '–', d.zdrzel || '–'].join(' : ') + ')' : '';
-        tr.appendChild(el('td', { 'class': d.vysledek === 'nepřijato' ? 'usn-no' : '' }, d.vysledek + votes));
-        tbody.appendChild(tr);
+        var r = d.vysledek === 'přijato' ? 'ok' : d.vysledek === 'nepřijato' ? 'no' : 'na';
+        var card = el('article', { 'class': 'usn-card r-' + r });
+        var head = el('div', { 'class': 'usn-head' });
+        head.appendChild(el('span', { 'class': 'badge b-' + r }, (r === 'ok' ? '✓ ' : r === 'no' ? '✗ ' : '? ') + d.vysledek));
+        if (d.typ) head.appendChild(el('span', { 'class': 'chip chip-typ t-' + typeClass(d.typ) }, d.typ));
+        head.appendChild(el('span', { 'class': 'usn-num' }, d.cislo));
+        head.appendChild(el('span', { 'class': 'usn-date' }, fmtDate(d.datum)));
+        if (d.castka_kc) head.appendChild(el('span', { 'class': 'usn-kc' }, fmtKc(d.castka_kc)));
+        card.appendChild(head);
+        card.appendChild(el('p', { 'class': 'usn-text' }, d.text));
+        var foot = el('div', { 'class': 'usn-foot' });
+        d.tema.split(';').map(function (s) { return s.trim(); }).filter(Boolean).forEach(function (s) {
+          foot.appendChild(el('span', { 'class': 'chip' }, s));
+        });
+        if (d.pro || d.proti || d.zdrzel) {
+          foot.appendChild(el('span', { 'class': 'usn-votes' },
+            'hlasování: pro ' + (d.pro || '–') + ' · proti ' + (d.proti || '–') + ' · zdržel se ' + (d.zdrzel || '–')));
+        }
+        foot.appendChild(el('span', { 'class': 'usn-src' }, d.zdroj));
+        card.appendChild(foot);
+        tbody.appendChild(card);
       });
       info.textContent = 'Nalezeno ' + current.length.toLocaleString('cs-CZ') + ' z ' + data.length.toLocaleString('cs-CZ') +
-        ' usnesení. Hlasování je uvedeno jako pro : proti : zdržel se.';
+        ' usnesení.';
       more.hidden = shown >= current.length;
     }
     more.addEventListener('click', function () { shown += PAGE; render(); });

@@ -15,6 +15,14 @@ Stránka porovnává hospodaření Horních Domaslavic (HD) se sousedními obcem
 | Dolní Domaslavice | DD | 00494241 | 598101 | 1 168 | 1 467 |
 | Lučina | Lučina | 00296899 | 598399 | 1 223 | 1 596 |
 
+<!--chart:srov-dane-->
+
+<!--chart:srov-io-->
+
+<!--chart:srov-penize-->
+
+<!--chart:srov-dotace-->
+
 ## 1. Počet obyvatel
 
 Všechny čtyři obce rostou. HD rostla nejrychleji: z 681 obyvatel na konci roku 2010 na 1 109 na konci roku 2025 (+63 %). Pazderna vzrostla o 55 %, Lučina o 30 % a Dolní Domaslavice o 26 %. Protože HD rostla nejrychleji, její ukazatele na obyvatele rostou pomaleji než absolutní částky.

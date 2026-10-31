@@ -19,6 +19,10 @@ Jména fyzických osob jsou v textech nahrazena funkcí („starosta obce“, �
 
 ## 1. Souhrnné přehledy
 
+<!--chart:usn-roky-->
+
+<!--chart:usn-temata-->
+
 ### Usnesení podle roku
 
 Rok se počítá podle data zasedání. „Bez hlasování“ označuje usnesení, kterými zastupitelstvo jen vzalo něco na vědomí a zápis u nich hlasování neuvádí.

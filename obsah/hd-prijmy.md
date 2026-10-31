@@ -25,6 +25,8 @@ RUD zde zahrnuje položky 1111 (daň z příjmů fyzických osob ze závislé č
 
 „Třída 1 celkem“ jsou všechny daňové příjmy obce včetně místních poplatků. Přesné částky v Kč (skutečnost 2025): 1111 = 3 426 429,38 · 1112 = 330 504,90 · 1113 = 669 953,56 · 1121 = 5 071 752,12 · 1211 = 9 463 687,16 · 1122 = 193 410,00 · 1511 = 815 620,87.
 
+<!--chart:hd-prijmy-roky-->
+
 ## Co z toho plyne
 - Za 11 let vzrostl příjem z RUD trojnásobně, z 6,2 na 19,0 mil. Kč ročně. Tvoří zhruba 90 % daňových příjmů. Na vlastních příjmech obce (třídy 1–3) má od roku 2017 podíl 86–91 %. V roce 2014 to bylo jen 61 %, protože obec tehdy měla 2,75 mil. kapitálových příjmů (prodej pozemků).
 - Největší skoky jsou v letech 2021 a 2022 (+14 % a +26 %). Stojí za nimi novela RUD od roku 2021, která obcím zvýšila podíl na sdílených daních, a k tomu inflace 2022, která zvedla výběr DPH a daně z příjmů firem. V roce 2020 byl kvůli covidu pokles o 3 %.

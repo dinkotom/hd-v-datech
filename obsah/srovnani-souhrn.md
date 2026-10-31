@@ -19,6 +19,10 @@ Tato stránka shrnuje dílčí srovnání Horních Domaslavic (HD) se třemi sou
 
 Horní Domaslavice jsou ze čtyř obcí nejrychleji rostoucí, spolu s Pazdernou nejmladší, mají nejvyšší podíl vysokoškoláků a nejnižší podíl osob v exekuci. Daňové příjmy na obyvatele mají srovnatelné se sousedy. **Do investic a oprav ale v letech 2023–2025 daly na obyvatele třikrát až pětkrát méně a mají nejméně majetku na obyvatele.** Zároveň mají nejvíc peněz na účtech na obyvatele a jako jediné ze čtyř obcí v letech 2010–2025 nevydaly nic na vodovod ani kanalizaci. Ostatní obce získaly za stejné období třikrát až pětkrát víc investičních dotací a dvě z nich si na stavby vzaly úvěr.
 
+<!--chart:srov-io-->
+
+<!--chart:srov-obyv-->
+
 ## Klíčová čísla vedle sebe
 
 ### Lidé

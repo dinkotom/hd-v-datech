@@ -48,6 +48,8 @@ Podle zápisu ze zasedání ZO č. 34 ze dne 6. 10. 2026 se na zasedání inform
 
 ## 3. Výdaje podle účelu k 30. 9.
 
+<!--chart:rozp-ucel-->
+
 Paragrafy rozpočtové skladby jsou sloučené do srozumitelných skupin. Poslední čtyři sloupce ukazují, kolik obec v dané oblasti zaplatila do 30. 9. v letech 2023–2026.
 
 | Oblast | Schválený 2026 | Upravený 2026 | **Skutečnost 9/2026** | Čerpání | 9/2025 | 9/2024 | 9/2023 | Celý rok 2025 |
@@ -136,6 +138,8 @@ Podle zápisu ze zasedání ZO č. 26 ze dne 11. 12. 2025 vychází odhad příj
 Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených daní](hd-prijmy.html).
 
 ## 7. Peníze na účtech během roku
+
+<!--chart:rozp-ucty-->
 
 | K datu | Běžný účet | Pro srovnání o rok dříve |
 |---|---:|---:|

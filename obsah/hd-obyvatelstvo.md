@@ -33,6 +33,8 @@ Srovnání se sousedními obcemi je na stránce [Srovnání: obyvatelstvo a výs
 
 ## 2. Odkud přírůstek pochází: stěhování, ne porody
 
+<!--chart:hd-obyvatele-pohyb-->
+
 Souhrn za roky 2002–2025:
 - narodilo se **203** dětí a zemřelo **187** lidí, přirozený přírůstek je tedy jen **+16**;
 - přistěhovalo se **930** lidí a vystěhovalo **398**, saldo stěhování je **+532**.
