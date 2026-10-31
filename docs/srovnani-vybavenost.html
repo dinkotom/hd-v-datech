@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Občanská vybavenost – Horní Domaslavice v datech</title>
+<meta name="description" content="Jaké služby a zařízení mají Horní Domaslavice a sousední obce a jak sousedé pořídili to, co HD chybí.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details open><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="srovnani-vybavenost.html" aria-current="page">Občanská vybavenost</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Občanská vybavenost</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Stránka porovnává, jaké služby a zařízení mají Horní Domaslavice (HD) a sousední Pazderna (PA), Dolní Domaslavice (DD) a Lučina (LU): školy, zdravotní a sociální služby, obchody, komunitní a sportovní zázemí, technickou infrastrukturu a autobusovou dopravu. U věcí, které sousedé mají a HD ne, ukazuje, jak je obce pořídily a z čeho je financovaly. Data pocházejí z veřejných registrů (rejstřík škol, registr zdravotnických a sociálních služeb, RÚIAN, jízdní řády, Monitor MF, profily zadavatelů), z webů a zpravodajů obcí a doplňkově z OpenStreetMap. Zpracováno 31. 10. 2026.</p>
+<p><strong>Stavy v tabulkách:</strong> <strong>má</strong> / <strong>nemá</strong> / <strong>částečně</strong> / <strong>neověřeno</strong>. U údaje je v hranaté závorce kód zdroje (seznam v oddílu 4). Typ zdroje je rozlišen: oficiální registr (R), dokument nebo web obce (O), OpenStreetMap a komerční adresáře (M). Výpočty a úsudky jsou označeny <em>(odvozeno)</em>.</p>
+<p>Počet obyvatel k 31. 12. 2025: HD 1 109, PA 422, DD 1 467, LU 1 596 (ČSÚ).</p>
+<hr />
+<h2 id="1-shrnutí-co-hd-chybí-oproti-sousedům">1. Shrnutí: co HD chybí oproti sousedům</h2>
+<p>Horní Domaslavice mají základní vybavení venkovské obce: mateřskou školu (44 míst), Obecní dům se sálem a hospodou, obecní úřad s pobočkou knihovny, kostel, kapli, hřbitov, hasičskou zbrojnici, dvě dětská hřiště, Z-Box a mobilní rozhlas. Víceúčelové hřiště se staví (dokončení plánováno na 11/2026). Proti sousedům HD chybí hlavně tyto věci:</p>
+<ol type="1">
+<li><strong>Kanalizace a čištění odpadních vod.</strong> DD a LU mají obecní kanalizaci, kterou provozuje SmVaK, a vodu čistí na ČOV. Na obou kanalizacích mají velký podíl státní programy na ochranu Žermanické přehrady, obce k nim přidávaly vlastní peníze. HD (stejně jako PA) kanalizaci nemá. K tomu se v HD přidává poddimenzovaný vodovod v několika částech obce.</li>
+<li><strong>Chodníky podél hlavní silnice.</strong> DD, LU i PA postavily v letech 2017–2025 kilometry chodníků podél silnic III. třídy, převážně s dotací SFDI nebo IROP (u doložených akcí asi 70–95 % nákladů). HD má jen krátký chodník mezi hřbitovy (2018). Chodník podél III/4735 je teprve ve fázi dohody se Správou silnic MSK.</li>
+<li><strong>Základní škola a navazující zařízení.</strong> Úplnou ZŠ má DD, ZŠ pro 1.–5. ročník LU. S nimi jde školní družina, jídelna a tělocvična, kterou ve volném čase využívají i spolky. HD a PA ZŠ nemají.</li>
+<li><strong>Lékař v obci.</strong> Praktického lékaře mají DD a LU, pediatra LU a domov se zvláštním režimem DD (soukromý, 46 lůžek). V HD ani PA neordinuje žádný registrovaný poskytovatel.</li>
+<li><strong>Obchod s potravinami a pošta.</strong> DD i LU mají obchod s potravinami (soukromé provozovny) a poštu: DD partnerskou pobočku v budově OÚ, LU pobočku České pošty v budově OÚ. HD ani PA obchod a poštu nemají.</li>
+<li><strong>Sběrný dvůr.</strong> LU provozuje sběrný dvůr od roku 2015 a smluvně ho otevřela i občanům DD (od 1/2024). HD má jen sběrná hnízda a sběrný dvůr je ve strategickém plánu.</li>
+<li><strong>Sportoviště.</strong> Fotbalové hřiště mají DD a LU, víceúčelové hřiště PA, DD i LU, workout DD. HD má víceúčelové hřiště zatím jen ve výstavbě.</li>
+<li><strong>Péče o malé děti nad rámec MŠ.</strong> PA a LU otevřely v 9/2026 dětské skupiny (20 a 48 míst) z dotací Národního plánu obnovy. HD má MŠ s převisem poptávky a přístavbu teprve projektuje.</li>
+<li><strong>Komunitní prostor a zázemí pro mládež.</strong> Komunitní centrum má jen LU, a to spolkové (Klubík Lučina, z. s.). Klubovnu pro mládež nebo nízkoprahový klub nemá ověřeně žádná ze čtyř obcí, takže v tom HD nezaostává za sousedy, ale ani jim to nemá podle čeho převzít.</li>
+<li><strong>Hasiči.</strong> JSDH DD a LU mají kategorii JPO III (vyšší akceschopnost, zařazení krajem). HD a PA v seznamu JPO II/III nejsou <em>(odvozeno: JPO V)</em>.</li>
+<li><strong>Autobusová obsluha.</strong> HD obsluhuje v pracovní den 23 spojů jedné hlavní linky (912365). DD jich má 44 a PA i LU 49 (oba směry dohromady, JDF k 3. 11. 2026). Ve všech obcích jezdí autobus jak do Frýdku-Místku, tak do Havířova.</li>
+</ol>
+<p>V čem je HD na tom stejně nebo lépe: má Obecní dům se sálem a hospodou (DD ani LU kulturní dům nemají), kostel a hlavní hřbitov oblasti (využívá ho i DD), naučnou stezku a mobilní rozhlas. Lékárnu, zubaře (v LU skončil k 31. 12. 2025), ZUŠ, dům s pečovatelskou službou, senior taxi, pumptrack ani skatepark nemá ověřeně žádná ze čtyř obcí.</p>
+<hr />
+<h2 id="2-hlavní-tabulka">2. Hlavní tabulka</h2>
+<h3 id="21-školství">2.1 Školství</h3>
+<table>
+<thead>
+<tr>
+<th>Položka</th>
+<th>HD</th>
+<th>PA</th>
+<th>DD</th>
+<th>LU</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mateřská škola</td>
+<td><strong>má</strong>: 44 míst, obec zřizuje p. o., plná; přístavba se projektuje (KANIA a.s.)</td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: 75 míst (nová budova 2025)</td>
+<td><strong>má</strong>: 28 míst od 9/2026 (dříve 48)</td>
+<td>[S1] R, [PZ] R</td>
+</tr>
+<tr>
+<td>Základní škola</td>
+<td><strong>nemá</strong> (spád ZŠ J. Čapka F-M)</td>
+<td><strong>nemá</strong> (spád ZŠ Dobrá)</td>
+<td><strong>má</strong>: úplná, kapacita 250</td>
+<td><strong>má</strong>: 1.–5. ročník, kapacita 100</td>
+<td>[S1] R</td>
+</tr>
+<tr>
+<td>Školní jídelna</td>
+<td><strong>částečně</strong>: jen ŠJ MŠ (44)</td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: ŠJ 500, výdejna 75</td>
+<td><strong>má</strong>: ŠJ 150, výdejna 28</td>
+<td>[S1] R</td>
+</tr>
+<tr>
+<td>Družina / školní klub</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: ŠD 90, školní klub 40</td>
+<td><strong>má</strong>: ŠD 60</td>
+<td>[S1] R</td>
+</tr>
+<tr>
+<td>Dětská skupina</td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: 20 dětí 2–6 let, obec zřizovatel, od 9/2026</td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: 2 × 24 míst, od 9/2026</td>
+<td>[PA] O, [LU] O, R (NPO)</td>
+</tr>
+<tr>
+<td>ZUŠ</td>
+<td><strong>nemá</strong> (nenalezeno)</td>
+<td><strong>nemá</strong> (nenalezeno)</td>
+<td><strong>nemá</strong> (RIS: 0)</td>
+<td><strong>nemá</strong></td>
+<td>[DD], [LU] O, R</td>
+</tr>
+<tr>
+<td>Knihovna</td>
+<td><strong>má</strong>: pobočka Místní knihovny Dobrá v budově OÚ (Po, St)</td>
+<td><strong>nemá</strong> (zrušena k 31. 12. 2019)</td>
+<td><strong>má</strong>: obecní, v budově OÚ</td>
+<td><strong>má</strong>: obecní, v č. p. 265</td>
+<td>[HD1] O, [PA], [DD], [LU] O</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22-zdraví-a-sociální-služby">2.2 Zdraví a sociální služby</h3>
+<table>
+<thead>
+<tr>
+<th>Položka</th>
+<th>HD</th>
+<th>PA</th>
+<th>DD</th>
+<th>LU</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Praktický lékař</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: ordinace v DD 31 (od 1993)</td>
+<td><strong>má</strong>: ordinace v Lučině 1 (od 2022)</td>
+<td>[S1] R (NRPZS)</td>
+</tr>
+<tr>
+<td>Pediatr</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: POLMEDICANA s.r.o.</td>
+<td>[S1] R</td>
+</tr>
+<tr>
+<td>Zubař</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong> od 1. 1. 2026 (ordinace ukončena), dentální hygiena ano</td>
+<td>[S1] R, [LU] O</td>
+</tr>
+<tr>
+<td>Lékárna</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong> (nenalezeno)</td>
+<td>[S1] R, [DD], [LU] O</td>
+</tr>
+<tr>
+<td>Pečovatelská služba</td>
+<td><strong>částečně</strong>: Charita Český Těšín (2 klienti v roce 2023), obec jí přispívá; obec rozváží obědy seniorům 70+</td>
+<td><strong>neověřeno</strong></td>
+<td><strong>neověřeno</strong>: Charita Český Těšín inzeruje v Měsíčníku</td>
+<td><strong>neověřeno</strong>: obec přispívá Charitě Frýdek-Místek 40 tis. ročně</td>
+<td>[HD1] O, [DD], [LU], [PA] O</td>
+</tr>
+<tr>
+<td>Domov pro seniory / DZR / DPS</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: DZR Pohoda, z. ú., 46 lůžek (od 2018), soukromý</td>
+<td><strong>nemá</strong>: „Dům pro seniory“ (10 bytů) připraven, dotace zatím nepřiznána</td>
+<td>[S1] R (RPSS), [LU] O</td>
+</tr>
+<tr>
+<td>Sociální / senior taxi</td>
+<td><strong>nemá</strong> (jen námět v ZO 2024)</td>
+<td><strong>neověřeno</strong> (nenalezeno)</td>
+<td><strong>nemá</strong> (nenalezeno)</td>
+<td><strong>neověřeno</strong> (nenalezeno)</td>
+<td>[HD1], [PA], [DD], [LU] O</td>
+</tr>
+</tbody>
+</table>
+<h3 id="23-obchod-a-služby">2.3 Obchod a služby</h3>
+<table>
+<thead>
+<tr>
+<th>Položka</th>
+<th>HD</th>
+<th>PA</th>
+<th>DD</th>
+<th>LU</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obchod s potravinami</td>
+<td><strong>nemá</strong> (žádný zdroj obchod neuvádí; zmínka „naproti obchodu“ v zápisu ze zasedání ZO č. 22 z roku 2025 neověřena)</td>
+<td><strong>nemá</strong> (prostor bývalého obchodu přestavěn 2019)</td>
+<td><strong>má</strong>: „Můj obchod“ (franšíza) a prodejna pekárny</td>
+<td><strong>má</strong>: 2 prodejny (soukromé)</td>
+<td>[HD1] O, [PA] O, [DD] M+O, [LU] O</td>
+</tr>
+<tr>
+<td>Pojízdná prodejna</td>
+<td><strong>neověřeno</strong></td>
+<td><strong>neověřeno</strong></td>
+<td><strong>neověřeno</strong> (nenalezeno)</td>
+<td><strong>neověřeno</strong></td>
+<td>–</td>
+</tr>
+<tr>
+<td>Pošta / Pošta Partner</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong> (příslušná Dobrá)</td>
+<td><strong>má</strong>: partnerská pobočka (Balíkovna) v budově OÚ</td>
+<td><strong>má</strong>: pobočka České pošty v budově OÚ, Balíkovna</td>
+<td>[DD] R, [LU] R (postaonline), [PA] O</td>
+</tr>
+<tr>
+<td>Výdejní boxy</td>
+<td><strong>má</strong>: Z-Box (smlouva se Zásilkovnou 2021/22)</td>
+<td><strong>neověřeno</strong> (v OSM žádný)</td>
+<td><strong>má</strong>: Z-Box</td>
+<td><strong>má</strong>: Z-Box, Balíkovna</td>
+<td>[HD1] O, [DD], [LU] M</td>
+</tr>
+<tr>
+<td>Restaurace / hospoda</td>
+<td><strong>má</strong>: Hospoda U Splavu v Obecním domě (od 2026 nájemce PERTIMA CZ, s.r.o.)</td>
+<td><strong>nemá</strong> stálou; bufet ve výletišti při akcích</td>
+<td><strong>má</strong>: Hospůdka Pod Schody (č. p. 4), sezonně kemp</td>
+<td><strong>má</strong>: více podniků (OSM: restaurace, cyklorest, kemp, penzion)</td>
+<td>[HD1] O, [PA] O, [DD] M, [LU] M</td>
+</tr>
+<tr>
+<td>Ubytování</td>
+<td><strong>neověřeno</strong></td>
+<td><strong>neověřeno</strong></td>
+<td><strong>částečně</strong>: kemp s chatkami</td>
+<td><strong>má</strong>: obecní kemp (Kemp Lučina s.r.o.), penziony</td>
+<td>[DD], [LU] M+O</td>
+</tr>
+<tr>
+<td>Kadeřnictví</td>
+<td><strong>neověřeno</strong></td>
+<td><strong>neověřeno</strong></td>
+<td><strong>neověřeno</strong> (jen kosmetika)</td>
+<td><strong>nemá</strong> („zrušeno“ 2025)</td>
+<td>[DD], [LU] O</td>
+</tr>
+</tbody>
+</table>
+<h3 id="24-komunita-a-kultura">2.4 Komunita a kultura</h3>
+<table>
+<thead>
+<tr>
+<th>Položka</th>
+<th>HD</th>
+<th>PA</th>
+<th>DD</th>
+<th>LU</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obecní / kulturní dům a sál</td>
+<td><strong>má</strong>: Obecní dům se sálem, extrovnou a hospodou; rekonstrukce 2025–2026</td>
+<td><strong>má</strong>: kulturní zařízení č. p. 61, sál asi 60 osob (rekonstrukce 2019–2020)</td>
+<td><strong>částečně</strong>: KD nemá (PD 2018 nerealizována), kulturní místnost v Hasičském domě; amfiteátr se staví</td>
+<td><strong>nemá</strong> KD: akce v kempu, v soukromém penzionu, na OÚ</td>
+<td>[HD1] O, [PA] O, [DD] O+R, [LU] O</td>
+</tr>
+<tr>
+<td>Komunitní centrum</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong> (nenalezeno)</td>
+<td><strong>má</strong> (spolkové): „Zelený domeček“, Klubík Lučina, z. s., od 2024</td>
+<td>[PA], [DD], [LU] O</td>
+</tr>
+<tr>
+<td>Klubovna pro mládež</td>
+<td><strong>nemá</strong></td>
+<td><strong>částečně</strong>: obecní klubovna pro spolky</td>
+<td><strong>nemá</strong> (nenalezeno)</td>
+<td><strong>nemá</strong> (jen záměr ve strategii)</td>
+<td>[PA], [DD], [LU] O</td>
+</tr>
+<tr>
+<td>Nízkoprahový klub</td>
+<td><strong>nemá</strong></td>
+<td><strong>neověřeno</strong> (nenalezeno)</td>
+<td><strong>nemá</strong> (nenalezeno)</td>
+<td><strong>neověřeno</strong> (nenalezeno)</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Spolkové prostory</td>
+<td><strong>má</strong>: hasičská klubovna; klubovna v Obecním domě (Klub žen)</td>
+<td><strong>má</strong>: klubovna a sál kulturního zařízení, zbrojnice</td>
+<td><strong>má</strong>: Dům ovocnářů č. p. 17, Sokolovna, místnost v Hasičském domě</td>
+<td><strong>částečně</strong>: Sokolovna (šatny 2025), multifunkční objekt, č. p. 265</td>
+<td>[HD1], [PA], [DD], [LU] O</td>
+</tr>
+<tr>
+<td>Kostel</td>
+<td><strong>má</strong>: sv. Jakuba st. (kulturní památka), na hranici s DD</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong> (kostel sv. Jakuba stojí na hranici, fara má adresu HD)</td>
+<td><strong>nemá</strong></td>
+<td>[HD1] O (ÚP), [DD] O</td>
+</tr>
+<tr>
+<td>Kaple</td>
+<td><strong>má</strong>: sv. Anny (od 2025 obecní, oprava 2026 bez dotace)</td>
+<td><strong>má</strong>: sv. Jana Nepomuckého (obecní)</td>
+<td><strong>má</strong>: evangelická kaple</td>
+<td><strong>má</strong>: sv. Anny a Jáchyma</td>
+<td>[HD1], [PA], [DD], [LU] O</td>
+</tr>
+<tr>
+<td>Hřbitov</td>
+<td><strong>má</strong>: hřbitov u kostela (ÚP: plocha OH v HD); obec vydává hřbitovní řád</td>
+<td><strong>má</strong>: obecní, revitalizace 2023–2025, kolumbárium</td>
+<td><strong>částečně</strong>: evangelický hřbitov; hlavní hřbitov je v HD</td>
+<td><strong>nemá</strong>: používá hřbitov v Pazderně a přispívá na něj</td>
+<td>[HD1] O, [PA] O, [DD] O+M, [LU] O</td>
+</tr>
+</tbody>
+</table>
+<h3 id="25-sport-a-volný-čas">2.5 Sport a volný čas</h3>
+<table>
+<thead>
+<tr>
+<th>Položka</th>
+<th>HD</th>
+<th>PA</th>
+<th>DD</th>
+<th>LU</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fotbalové hřiště</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: revitalizace a běžecká dráha 2025</td>
+<td><strong>má</strong>: se Sokolovnou, tribuna 150 diváků; provozuje Finstal Lučina z. s.</td>
+<td>[DD], [LU] O+R</td>
+</tr>
+<tr>
+<td>Víceúčelové hřiště</td>
+<td><strong>částečně</strong>: ve výstavbě u Obecního domu (dokončení plánováno 11/2026); plocha u hasičské klubovny v řízení</td>
+<td><strong>má</strong>: tartan 2022, tenisové kurty</td>
+<td><strong>má</strong>: od 2009, oprava 2021</td>
+<td><strong>částečně</strong>: hřiště a dráha u ZŠ</td>
+<td>[PZ] R, [PA], [DD], [LU]</td>
+</tr>
+<tr>
+<td>Dětská hřiště</td>
+<td><strong>má</strong>: 2 ověřená (za Obecním domem 2017, u MŠ 2021, veřejné)</td>
+<td><strong>má</strong>: 1 (výletiště)</td>
+<td><strong>má</strong>: nejméně 2 (dětské a workoutové 2021, u nové MŠ)</td>
+<td><strong>částečně</strong>: 1 veřejné ověřeno (u MŠ)</td>
+<td>[DOT] R+O, [PA], [DD], [LU]</td>
+</tr>
+<tr>
+<td>Tělocvična / hala</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: při ZŠ</td>
+<td><strong>má</strong>: při ZŠ (modernizace 2021)</td>
+<td>[DD], [LU] O+R</td>
+</tr>
+<tr>
+<td>Workout</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong> (2021)</td>
+<td><strong>neověřeno</strong> (nenalezeno)</td>
+<td>[DD] O</td>
+</tr>
+<tr>
+<td>Pumptrack / skatepark</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong> (nenalezeno)</td>
+<td><strong>neověřeno</strong> (nenalezeno)</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Koupání</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong>: přírodní koupací místo, provozovatel obec</td>
+<td><strong>má</strong>: pláž a molo u obecního kempu</td>
+<td>[DD] R (MZe), [LU] O</td>
+</tr>
+<tr>
+<td>Naučná stezka</td>
+<td><strong>má</strong>: Naučná stezka HD (Mořské oko, kaple sv. Anny)</td>
+<td><strong>neověřeno</strong></td>
+<td><strong>částečně</strong>: nové panely mezi Prašivou a Domaslavicemi (2025)</td>
+<td><strong>neověřeno</strong></td>
+<td>[HD1] O (ÚP, ZO), [DD] O</td>
+</tr>
+<tr>
+<td>Cyklostezka / cyklotrasy</td>
+<td><strong>částečně</strong>: dvě regionální cyklotrasy, cyklostezka ne</td>
+<td><strong>částečně</strong>: jen značené cyklotrasy</td>
+<td><strong>částečně</strong>: cyklotrasy, cyklostezka kolem Žermanic se staví</td>
+<td><strong>má</strong>: cyklostezka kolem Žermanic (levý břeh hotov)</td>
+<td>[HD1], [PA], [DD], [LU] O+R</td>
+</tr>
+</tbody>
+</table>
+<h3 id="26-technická-infrastruktura">2.6 Technická infrastruktura</h3>
+<table>
+<thead>
+<tr>
+<th>Položka</th>
+<th>HD</th>
+<th>PA</th>
+<th>DD</th>
+<th>LU</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vodovod</td>
+<td><strong>má</strong> (napojení podle RÚIAN 374 z 411 budov s č. p.); provozuje SmVaK, vlastnictví nejasné; řad DN 63 poddimenzovaný, redimenze 4 mil. Kč se odkládá</td>
+<td><strong>má</strong> (122/129); SmVaK, obecní část v pachtu SmVaK, prodloužení 2025</td>
+<td><strong>má</strong> (480/514); vodné účtuje SmVaK, vlastník neověřen</td>
+<td><strong>má</strong> (536/544); část řadů vlastní SmVaK, obec prodlužuje (2019, 2023)</td>
+<td>[RU] R, [V] O, [PA], [DD], [LU]</td>
+</tr>
+<tr>
+<td>Kanalizace a ČOV</td>
+<td><strong>nemá</strong>: 0 přípojek, 290 žump, 94 domovních ČOV; obec dává příspěvek až 50 tis. Kč na domovní ČOV</td>
+<td><strong>nemá</strong></td>
+<td><strong>má</strong> (část obce): obecní, 13 km, provozuje SmVaK (koncese), čištění na ČOV Soběšovice; podle RÚIAN 62 budov na síti</td>
+<td><strong>má</strong>: obecní stoky, provozuje SmVaK; podle RÚIAN 284 budov na síti; ČOV neověřena</td>
+<td>[RU] R, [V] O, [DD] R (SmVaK), [LU] O</td>
+</tr>
+<tr>
+<td>Plyn</td>
+<td><strong>částečně</strong>: RÚIAN 57 z 411 budov (sčítání 2021: 11 % bytů)</td>
+<td><strong>má</strong>: 63/129</td>
+<td><strong>má</strong>: 254/514</td>
+<td><strong>má</strong>: 256/544</td>
+<td>[RU] R, [O2] R</td>
+</tr>
+<tr>
+<td>Sběrný dvůr / sběrné místo</td>
+<td><strong>částečně</strong>: sběrná hnízda a místo u OÚ, sběrný dvůr ve strategickém plánu</td>
+<td><strong>částečně</strong>: 7 hnízd, nové sběrné místo se připravuje</td>
+<td><strong>částečně</strong>: vlastní nemá (PD 2020), smluvně využívá dvůr v LU</td>
+<td><strong>má</strong>: od 2015, kapacita rozšířena 2023</td>
+<td>[HD1], [PA], [DD], [LU] O</td>
+</tr>
+<tr>
+<td>Chodníky podél hlavní silnice</td>
+<td><strong>nemá</strong> (jen chodník mezi hřbitovy 2018); III/4735 v jednání se SSMSK</td>
+<td><strong>má</strong> na části trasy III/4733 (2021–2025)</td>
+<td><strong>má</strong>: většina (2017, 2023, 2024–25)</td>
+<td><strong>má</strong>: 2018, 2022, 2025 (až k hřbitovu v PA)</td>
+<td>[PZ] R, [NEN] R, [PA], [DD], [LU]</td>
+</tr>
+<tr>
+<td>Veřejné osvětlení</td>
+<td><strong>má</strong>: obnova 2021 (EFEKT)</td>
+<td><strong>má</strong></td>
+<td><strong>má</strong>: rekonstrukce 2020 (EFEKT II)</td>
+<td><strong>má</strong>: rekonstrukce 2020 (EFEKT)</td>
+<td>[DOT] R, [DD], [LU] O+R</td>
+</tr>
+<tr>
+<td>Rozhlas / aplikace</td>
+<td><strong>částečně</strong>: MUNIPOLIS (Mobilní rozhlas) od 2022; venkovní rozhlas neověřen</td>
+<td><strong>neověřeno</strong> (nenalezeno)</td>
+<td><strong>má</strong>: MUNIPOLIS od 10/2024 včetně amplionů, aplikace V OBRAZE</td>
+<td><strong>částečně</strong>: aplikace V OBRAZE, venkovní rozhlas neověřen</td>
+<td>[HD1], [DD], [LU] O</td>
+</tr>
+<tr>
+<td>Hasičská zbrojnice a JSDH</td>
+<td><strong>má</strong>: zbrojnice (rekonstrukce 2018) a klubovna SDH; JSDH <strong>JPO V</strong> <em>(odvozeno)</em></td>
+<td><strong>má</strong>: zbrojnice u OÚ, CAS 25; <strong>JPO V</strong> <em>(odvozeno)</em></td>
+<td><strong>má</strong>: Hasičský dům č. p. 5, CAS 15, DA-L1Z 2025; <strong>JPO III</strong></td>
+<td><strong>má</strong>: zbrojnice (modernizace 2024/25), CAS Tatra 815; <strong>JPO III</strong></td>
+<td>[JPO] R, [DOT], [PA], [DD], [LU]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="27-doprava">2.7 Doprava</h3>
+<p>Pracovní den 3. 11. 2026 (úterý), autobusy podle celostátních dat jízdních řádů (JDF). Počet spojů je součet obou směrů, které zastaví aspoň v jedné zastávce obce.</p>
+<table>
+<thead>
+<tr>
+<th>Položka</th>
+<th>HD</th>
+<th>PA</th>
+<th>DD</th>
+<th>LU</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zastávky v obci</td>
+<td><strong>7</strong>: Amerika, Obecní úřad, Příčnice, kaple, nocovna ČSAD, statek, točna</td>
+<td><strong>3</strong>: kaple, u kříže, Špok</td>
+<td><strong>8</strong>: Vidíkov, Zvonek, Závadovice, obecní úřad, střed, u kříže, u Číže, škola</td>
+<td><strong>4</strong>: Kocurovice, kemp, přehrada, střed</td>
+<td>[JDF] R</td>
+</tr>
+<tr>
+<td>Linky</td>
+<td>912365 (F-M – Dobrá – HD – Soběšovice – Havířov), 863365 (školní spoje)</td>
+<td>912366, 912367, 912461, 863387</td>
+<td>912365, 912465, 863365, 912392</td>
+<td>912366, 912367, 912461, 863387, 912391</td>
+<td>[JDF] R</td>
+</tr>
+<tr>
+<td>Spoje v obci za pracovní den</td>
+<td><strong>23</strong></td>
+<td>49</td>
+<td>44</td>
+<td>49</td>
+<td>[JDF] R</td>
+</tr>
+<tr>
+<td>z toho dál do Frýdku-Místku</td>
+<td>12</td>
+<td>15</td>
+<td>12</td>
+<td>15</td>
+<td>[JDF] R</td>
+</tr>
+<tr>
+<td>z toho dál do Havířova</td>
+<td>8</td>
+<td>14</td>
+<td>15</td>
+<td>14</td>
+<td>[JDF] R</td>
+</tr>
+<tr>
+<td>Železnice</td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong></td>
+<td><strong>nemá</strong> (ověřeno v OSM)</td>
+<td>[LU] M; u ostatních <em>(odvozeno)</em>: obce neleží na trati</td>
+</tr>
+</tbody>
+</table>
+<p>Spoje, které pokračují „jako jiná linka“, jsou ve sloupcích „do F-M / do Havířova“ počítány jen v rámci své linky. U PA a LU (linka 366 pokračuje na lince 365 přes Soběšovice do F-M) proto mohou být čísla do F-M podhodnocená.</p>
+<hr />
+<h2 id="3-jak-sousedé-pořídili-to-co-hd-nemá">3. Jak sousedé pořídili to, co HD nemá</h2>
+<p>Částky jsou v Kč, „bez DPH“ / „s DPH“ jsou podle zdroje. Kde zdroj rozlišuje rozhodnutí o dotaci a skutečně přijatou částku, je uvedena přijatá.</p>
+<h3 id="31-kanalizace">3.1 Kanalizace</h3>
+<table>
+<thead>
+<tr>
+<th>Obec</th>
+<th>Rok</th>
+<th>Náklady</th>
+<th>Financování</th>
+<th>Provozní model</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DD</td>
+<td>kolaudace 2016</td>
+<td>celkové náklady neověřeny; vlastní investice obce do § 2321 v letech 2010–2021 asi 11,8 mil.</td>
+<td>stavba „Rozšíření odkanalizování pravého břehu Žermanické přehrady, I. a II. etapa“ byla podle SmVaK součástí projektu odstranění ekologické újmy (státní peníze, výše neověřena); obec přispívá občanům na přípojky</td>
+<td>kanalizace je obecní, SmVaK ji provozuje na základě koncesní smlouvy (výběr 2016); čištění na ČOV Soběšovice; 2022: 222 přípojek</td>
+<td>[DD] R (SmVaK), [FIN] R</td>
+</tr>
+<tr>
+<td>LU</td>
+<td>dostavba 1.–3. etapy, kolaudace 12/2020; rozšíření 2022–2023</td>
+<td>dostavba: odhad 73,5 mil. (vládní seznam 2017); rozšíření: 3,14 + 5,91 mil. (2022–2023)</td>
+<td>dostavba z vládního programu Revitalizace Moravskoslezského kraje (garant MPO, zakázky vede MF, platí se přímo zhotoviteli, mimo rozpočet obce); rozšíření 2022–2023 z rozpočtu obce bez dotace</td>
+<td>stoky obecní, provoz SmVaK</td>
+<td>[LU] R+O, [FIN] R</td>
+</tr>
+<tr>
+<td>PA</td>
+<td>–</td>
+<td>–</td>
+<td>nemá</td>
+<td>–</td>
+<td>[PA] O</td>
+</tr>
+</tbody>
+</table>
+<p><em>Pro HD (odvozeno):</em> oba sousedé měli kanalizaci zahrnutou ve státním programu na ochranu vodní nádrže Žermanice. HD v těchto programech není. Vlastní rozšiřování (LU 2022–2023, asi 9 mil.) ale obce platí samy.</p>
+<h3 id="32-chodníky-podél-hlavní-silnice">3.2 Chodníky podél hlavní silnice</h3>
+<table>
+<thead>
+<tr>
+<th>Obec</th>
+<th>Akce</th>
+<th>Náklady</th>
+<th>Financování</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DD</td>
+<td>Chodníky 2017 (3 etapy, asi 3,3 km a 4 zastávky), HOCHTIEF CZ a.s.</td>
+<td>16,34 mil. bez DPH (SoD)</td>
+<td>IROP, dotace 11,75 mil. (Hlídač státu)</td>
+<td>[PZ] R, [DD] R</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>Chodníky 2023 podél III/4735 a MK 14 (asi 603 m), K2 stavební Moravia s.r.o.</td>
+<td>neověřeno</td>
+<td>IROP, dotace asi 5,2 mil. (čerpání podle Hlídače státu)</td>
+<td>[PZ] R, [DD] R</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>Vidíkov – hřbitov (454 m a 6 parkovacích stání), 2024–2025</td>
+<td>neověřeno</td>
+<td>bez dotace</td>
+<td>[PZ] R, [DD] O</td>
+</tr>
+<tr>
+<td>LU</td>
+<td>Přestavba náměstí se zálivy (2018), JANKOSTAV s.r.o.</td>
+<td>4,02 mil. bez DPH</td>
+<td>SFDI 2,84 mil.</td>
+<td>[LU] R+O</td>
+</tr>
+<tr>
+<td>LU</td>
+<td>Rozšíření chodníků (2022, 800 m), ELORA GROUP s.r.o.</td>
+<td>9,995 mil. bez DPH</td>
+<td>SFDI 9,04 mil.</td>
+<td>[PZ] R, [LU] R</td>
+</tr>
+<tr>
+<td>LU</td>
+<td>Chodník k hřbitovu v PA (2025, 1 024 m), SWIETELSKY stavební s.r.o.</td>
+<td>11,75 mil. bez DPH</td>
+<td>SFDI až 9,906 mil. (čerpáno 9,73 mil.)</td>
+<td>[LU] R+O</td>
+</tr>
+<tr>
+<td>PA</td>
+<td>Chodník, část A a B (2021–2022), SWIETELSKY stavební s.r.o.</td>
+<td>11,14 + 6,43 mil. bez DPH (smlouvy)</td>
+<td>SFDI (výše neověřena)</td>
+<td>[NEN] R, [PA] O</td>
+</tr>
+<tr>
+<td>PA</td>
+<td>2. část, úsek 3 (2024, 263 m), Verone synergy s.r.o.</td>
+<td>2,76 mil. bez DPH</td>
+<td>IROP (přes MAS), přijato 3,17 mil.</td>
+<td>[NEN] R, [PA] O</td>
+</tr>
+<tr>
+<td>PA</td>
+<td>2. část, úseky 1 a 2 (2025), Verone synergy s.r.o.</td>
+<td>4,40 mil. bez DPH</td>
+<td>SFDI 4,24 mil.</td>
+<td>[NEN] R, [PA] O</td>
+</tr>
+</tbody>
+</table>
+<p><em>Pro HD (odvozeno):</em> sousedé stavěli chodníky na svých pozemcích nebo podél krajských silnic III. třídy a u akcí, kde je známa cena i dotace, platili z vlastních zdrojů zhruba 5–30 %. Dotace SFDI (program na bezpečnost chodců) a IROP (i přes MAS Pobeskydí) se opakují u všech tří obcí. HD čerpala IROP přes MAS jen na chodník mezi hřbitovy (1,79 mil., 2018).</p>
+<h3 id="33-základní-škola-tělocvična-družina">3.3 Základní škola, tělocvična, družina</h3>
+<p>ZŠ v DD a LU jsou dlouholeté příspěvkové organizace obcí, nejde o nově pořízené zařízení. Novější investice ukazují, jak je obce rozvíjejí:</p>
+<ul>
+<li><strong>DD:</strong> zateplení a nový zdroj vytápění ZŠ a MŠ (2014, SFŽP 12,9 mil.). Učebny s virtuální realitou (2024–2025, IROP 8,1 mil. z 9,0 mil.). Rekonstrukce jídelny (2025, SZIF přes MAS Pobeskydí 0,34 mil. z 0,81 mil.). Nová budova MŠ za 33,17 mil. bez DPH (MH - STAVBY, s.r.o., soutěž 6/2023, IROP; přesnou výši dotace Hlídač státu uvádí rozporně). [PZ] R, [DD] O+R, [FIN] R</li>
+<li><strong>LU:</strong> modernizace tělocvičny ZŠ (2021, MYTIEN s.r.o., 4,69 mil. bez DPH, státní dotace 3,57 mil.). Odborné a multimediální učebny (IROP 2017–2020). [LU] R+O</li>
+</ul>
+<h3 id="34-lékař-a-domov-se-zvláštním-režimem">3.4 Lékař a domov se zvláštním režimem</h3>
+<ul>
+<li><strong>LU:</strong> praktik, pediatr a dentální hygiena ordinují v č. p. 1. To je i adresa obecního úřadu a pošty, obec tedy zřejmě poskytuje prostory v obecní budově <em>(odvozeno, nájemní podmínky neověřeny)</em>. Zubní ordinace ve stejné budově skončila k 31. 12. 2025. [S1] R, [LU] O</li>
+<li><strong>DD:</strong> praktický lékař v č. p. 31 (od 1993, ordinuje i v Nošovicích a Vojkovicích). Komu patří budova, neověřeno. DZR Pohoda, z. ú. (od 2018) je soukromý poskytovatel, obec ho nezřizuje. [S1] R, [DD] O</li>
+</ul>
+<h3 id="35-obchod-a-pošta">3.5 Obchod a pošta</h3>
+<ul>
+<li>Obchody v DD a LU provozují soukromé subjekty. Obecní provoz ani dotaci obce na obchod se nepodařilo najít. [DD], [LU] O+M</li>
+<li><strong>DD:</strong> partnerská pobočka pošty (Balíkovna) je v budově OÚ a prodává i drobné zboží. Kdo je partnerem (zda obec), neověřeno. [DD] R+O</li>
+<li><strong>LU:</strong> pobočka České pošty, s.p. v budově OÚ. [LU] R</li>
+</ul>
+<h3 id="36-sběrný-dvůr">3.6 Sběrný dvůr</h3>
+<ul>
+<li><strong>LU:</strong> otevřen 1. 9. 2015. Investice v § 3722 v roce 2015 činila 4,24 mil. <em>(odvozeno z výkazu)</em>. Na stránce dvora je logo OPŽP, výši dotace se nepodařilo dohledat. V roce 2015 přijala obec investiční dotace celkem 3,9 mil., přiřazení ke dvoru neověřeno. Kapacita se rozšířila v roce 2023. Od 11. 1. 2024 ho na základě smlouvy využívají i občané DD. Transfery „od obcí“ 0,74 mil. (2024) a 0,61 mil. (2025) mohou se sdílením souviset <em>(odvozeno, neověřeno)</em>. [LU] O, [FIN] R, [DD] O</li>
+<li><strong>DD:</strong> projektová dokumentace vlastního dvora (2020, ASA expert a.s., 445 tis. bez DPH) zůstala nerealizovaná, místo toho obec uzavřela smlouvu s LU. [PZ] R, [DD] O</li>
+</ul>
+<p><em>Pro HD (odvozeno):</em> sdílení dvora s LU je doložený model. Zápis ze zasedání ZO HD č. 4 z roku 2023 uvádí, že LU jako možnost už jednou zazněla.</p>
+<h3 id="37-sportoviště">3.7 Sportoviště</h3>
+<table>
+<thead>
+<tr>
+<th>Obec</th>
+<th>Akce</th>
+<th>Náklady</th>
+<th>Financování</th>
+<th>Provoz</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA</td>
+<td>Rekonstrukce víceúčelového hřiště (2021–2022), GLOBAL SPORT ČUPA s.r.o.</td>
+<td>1,59 mil. bez DPH (smlouva); celkový rozpočet 1,92 mil.</td>
+<td>MMR, Podpora obnovy a rozvoje venkova 1,31 mil. (79 %)</td>
+<td>obec, akce Sportovního klubu</td>
+<td>[NEN] R, [PA] O</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>Víceúčelové hřiště (asi 2009)</td>
+<td>neověřeno</td>
+<td>dotace ze státního rozpočtu 3,71 mil. (Hlídač státu, poskytovatel Všeobecná pokladní správa)</td>
+<td>obec</td>
+<td>[DD] R</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>Oprava oplocení a lavic víceúčelového hřiště (2021)</td>
+<td>0,52 mil.</td>
+<td>POV MSK 0,21 mil. (40 %)</td>
+<td>obec</td>
+<td>[DD] O</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>Dětské a workoutové hřiště u MŠ (2021), Lesostavby Frýdek-Místek a. s.</td>
+<td>2,38 mil. bez DPH</td>
+<td>MMR, dotace 2,0 mil. (Hlídač státu, program neověřen)</td>
+<td>obec, veřejné</td>
+<td>[PZ] R, [DD] R</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>Revitalizace fotbalového hřiště a běžecká dráha (2025), VIVID stavby s.r.o.</td>
+<td>5,48 mil. bez DPH</td>
+<td>rozpočet obce a příspěvek Nadace OKD (výše neuvedena)</td>
+<td>škola i veřejnost</td>
+<td>[PZ] R, [DD] O</td>
+</tr>
+<tr>
+<td>LU</td>
+<td>Rekonstrukce fotbalového areálu s tribunou (2014–2020)</td>
+<td>investice § 3412 v letech 2012–2016 asi 8,4 mil. <em>(odvozeno)</em></td>
+<td>neověřeno</td>
+<td>provoz Finstal Lučina z. s. s dotací obce (500 tis. v roce 2025)</td>
+<td>[LU] O, [FIN] R</td>
+</tr>
+<tr>
+<td>LU</td>
+<td>Šatny Sokolovny (2024–2025), EMstav s.r.o.</td>
+<td>4,45 mil. bez DPH</td>
+<td>žádost NSA a MSK, příjem dotace v účtech nenalezen (neověřeno)</td>
+<td>Finstal Lučina z. s.</td>
+<td>[LU] R+O</td>
+</tr>
+</tbody>
+</table>
+<p><em>Pro HD (odvozeno):</em> NSA podporuje jen tam, kde existuje sportovní klub. HD proto staví víceúčelové hřiště z vlastních zdrojů (5,46 mil. bez DPH). Sousedé u menších sportovišť využili MMR (Podpora obnovy a rozvoje venkova) a POV MSK.</p>
+<h3 id="38-dětské-skupiny">3.8 Dětské skupiny</h3>
+<table>
+<thead>
+<tr>
+<th>Obec</th>
+<th>Akce</th>
+<th>Náklady</th>
+<th>Financování</th>
+<th>Provoz</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA</td>
+<td>Nákup bývalého pohostinství č. p. 68 (2023) a jeho přestavba (2025–2026), INTOZA s.r.o.</td>
+<td>nákup 6,4 mil., stavba 12,48 mil. bez DPH (po dodatku), vybavení 1,16 mil. bez DPH</td>
+<td>MPSV, NPO výzva 31_22_045, až 23,54 mil. (ex post, v roce 2025 přišlo 11,9 mil.); předfinancování úvěrem ČS 4 mil.</td>
+<td>obec je zřizovatelem, 20 míst, od 9/2026</td>
+<td>[PA] O+R, [NEN] R</td>
+</tr>
+<tr>
+<td>LU</td>
+<td>Přístavba pro dvě dětské skupiny u ZŠ a MŠ (2025–2026), BDSTAV MORAVA s.r.o.</td>
+<td>28,84 mil. bez DPH, celkem 42,66 mil.</td>
+<td>MPSV, NPO výzva 31_22_045, 38,70 mil. po snížení v 4/2026; předfinancování úvěrem ČS 20 mil.</td>
+<td>obec <em>(odvozeno)</em>, 48 míst, od 9/2026</td>
+<td>[LU] R+O</td>
+</tr>
+</tbody>
+</table>
+<p><em>Pro HD (odvozeno):</em> obě obce využily jednorázovou výzvu NPO, která kryla většinu nákladů včetně nákupu budovy (PA). Mezeru mezi uznáním a výplatou dotace obě obce překlenuly úvěrem.</p>
+<h3 id="39-komunitní-centrum-lu">3.9 Komunitní centrum (LU)</h3>
+<p>„Zelený domeček“ (Lučina 4, vedle OÚ) otevřel spolek Klubík Lučina, z. s. v dubnu 2024. Rekonstrukci podle zpravodaje financoval soukromý dárce. Metodicky ho podpořila MAS Pobeskydí v projektu SPOKO Pobeskydí (EU). Nejde o obecní zařízení. [LU] O</p>
+<h3 id="310-hasiči-jpo-iii-dd-lu">3.10 Hasiči JPO III (DD, LU)</h3>
+<p>Kategorii JPO určuje kraj nařízením o plošném pokrytí, obec ji sama nezíská. DD a LU jsou v seznamu JPO III (nařízení MSK č. 2/2023). Obě jednotky mají cisternu i dopravní automobil. DD koupila DA-L1Z v letech 2024–2025 (EMBEFOR s.r.o., 1,88 mil. bez DPH, IROP asi 2,1 mil.), LU kupuje dopravní automobil v roce 2026 (dotace MSK 180 tis.). [JPO] R, [PZ] R, [DD], [LU] O</p>
+<h3 id="311-kemp-pláž-cyklostezka-dd-lu">3.11 Kemp, pláž, cyklostezka (DD, LU)</h3>
+<p>Tato vybavenost souvisí s polohou u Žermanické přehrady. Pro HD je srovnatelná jen částečně.</p>
+<ul>
+<li><strong>LU:</strong> modernizace obecního kempu 2018–2019 za asi 33,2 mil. bez DPH (VOJKOVSKÝ - STAVBY s.r.o., KROLSTAV BESKYD s.r.o.). Zaplaceno z rozpočtu a z úvěru ČS 15 mil., dotace nenalezena. Areál obec pronajímá své stoprocentní firmě Kemp Lučina s.r.o. (od 2020). Molo (2024): 2,30 mil., dotace MSK 2,5 mil. [LU] R+O</li>
+<li><strong>Cyklostezka kolem VN Žermanice, II. etapa:</strong> zakázku vede Ministerstvo financí, zhotovitel MOBIKO plus a.s., asi 105,5 mil. bez DPH. Financuje ji MPO z programu Revitalizace MSK, mimo rozpočty obcí. DD a LU zadávaly jen technický dozor a BOZP. [LU] R, [DD] O</li>
+</ul>
+<hr />
+<h2 id="4-zdroje-a-omezení">4. Zdroje a omezení</h2>
+<h3 id="41-kódy-zdrojů">4.1 Kódy zdrojů</h3>
+<table>
+<thead>
+<tr>
+<th>Kód</th>
+<th>Zdroj</th>
+<th>Typ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[S1]</td>
+<td>Rejstřík škol a školských zařízení MŠMT (stav 30. 10. 2026), Národní registr poskytovatelů zdravotních služeb (nrpzs.uzis.cz), Registr poskytovatelů sociálních služeb MPSV; viz <a href="srovnani-skolstvi-socialni.html">Srovnání: školství a sociální data</a></td>
+<td>R</td>
+</tr>
+<tr>
+<td>[RU]</td>
+<td>RÚIAN, výměnný formát za obce k 30. 9. 2026 (vdp.cuzk.gov.cz); budovy s č. p.: HD 411, PA 129, DD 514, LU 544; souhrn je mezi <a href="data.html">daty ke stažení</a></td>
+<td>R</td>
+</tr>
+<tr>
+<td>[O2]</td>
+<td>Sčítání lidu, domů a bytů 2021 (ČSÚ); viz <a href="srovnani-obyvatelstvo-vystavba.html">Srovnání: obyvatelstvo a výstavba</a></td>
+<td>R</td>
+</tr>
+<tr>
+<td>[V]</td>
+<td>Územní plán HD 2011, strategický plán HD 2024–2030; viz <a href="hd-vystavba.html">Výstavba a infrastruktura</a></td>
+<td>O</td>
+</tr>
+<tr>
+<td>[FIN]</td>
+<td>Monitor státní pokladny MF, výkaz FIN 2-12 M; viz <a href="srovnani-finance.html">Srovnání: finance</a></td>
+<td>R</td>
+</tr>
+<tr>
+<td>[PZ]</td>
+<td>Profily zadavatelů obcí (vhodne-uverejneni.cz); viz <a href="srovnani-majetek-zakazky.html">Srovnání: majetek, smlouvy, zakázky</a> a <a href="hd-zakazky.html">Veřejné zakázky HD</a></td>
+<td>R</td>
+</tr>
+<tr>
+<td>[NEN]</td>
+<td>Národní elektronický nástroj (nen.nipez.cz), zakázky Pazderny</td>
+<td>R</td>
+</tr>
+<tr>
+<td>[DOT]</td>
+<td>Závěrečné účty HD a Monitor MF; viz <a href="hd-dotace.html">Dotace HD</a></td>
+<td>R + O</td>
+</tr>
+<tr>
+<td>[JPO]</td>
+<td>Nařízení Moravskoslezského kraje č. 2/2023 o plošném pokrytí území jednotkami požární ochrany, příloha č. 1</td>
+<td>R</td>
+</tr>
+<tr>
+<td>[JDF]</td>
+<td>Celostátní informační systém o jízdních řádech, data JDF (portal.cisjr.cz), stav 30. 10. 2026</td>
+<td>R</td>
+</tr>
+<tr>
+<td>[HD1]</td>
+<td>Web obce horni-domaslavice.cz, zápisy ze zasedání zastupitelstva, zpravodaj Informátor, územní plán 2011</td>
+<td>O</td>
+</tr>
+<tr>
+<td>[PA]</td>
+<td>Web pazderna.eu, zpravodaje, strategický plán 2021–2027, závěrečné účty, RIS, OSM</td>
+<td>O, R, M</td>
+</tr>
+<tr>
+<td>[DD]</td>
+<td>Web ddomaslavice.cz, Měsíčník, strategický plán 2020–2030, SmVaK, Česká pošta, MZe, Hlídač státu, OSM</td>
+<td>O, R, M</td>
+</tr>
+<tr>
+<td>[LU]</td>
+<td>Web lucina.cz, zpravodaje, strategie, závěrečné účty, registr smluv, MS2014+/NPO, ARES, Česká pošta, OSM</td>
+<td>O, R, M</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-pozor">4.2 Pozor</h3>
+<ol type="1">
+<li><strong>OSM a komerční adresáře jsou nejslabší zdroj.</strong> U PA je v OSM dosud obchod i knihovna, které už neexistují. Obchody, restaurace a ubytování v DD a LU jsou ověřené jen z OSM a webů obcí, ne z živnostenského rejstříku (RŽP provozovny podle obce strojově nenabízí). Za HD se data z OSM nepodařilo získat.</li>
+<li><strong>„Nenalezeno“ neznamená „neexistuje“.</strong> U pojízdné prodejny, kadeřnictví, ubytování, nízkoprahového klubu, workoutu nebo pečovatelské služby v PA, DD a LU jde jen o to, že je zdroje obcí nezmiňují.</li>
+<li><strong>Obchod v HD:</strong> stav „nemá“ vychází z toho, že obchod neuvádí žádný zdroj. Zápis ze zasedání ZO č. 22 z roku 2025 ale zmiňuje místo „naproti obchodu“ u MŠ. Neověřeno, zda tam je prodejna (třeba nepotravinářská nebo farmářská).</li>
+<li><strong>Kategorie JPO V u HD a PA je odvozená</strong> z toho, že obce nejsou v seznamu JPO II/III. Pozdější změny nařízení nebyly hledány.</li>
+<li><strong>Spoje (JDF)</strong> platí pro jeden pracovní den (3. 11. 2026). Spoje navazující jako jiná linka nejsou započteny do směru F-M nebo Havířov. Při výluce nebo změně JŘ 13. 12. 2026 se čísla mohou změnit.</li>
+<li><strong>RÚIAN u vody, kanalizace a plynu</strong> vychází z údajů stavebníků a nerozlišuje veřejný vodovod od studny. Část budov má údaj „nezjištěno“ (DD 133, LU 188 u kanalizace). Čísla jsou řádová.</li>
+<li><strong>Financování:</strong> u řady akcí je známo jen rozhodnutí o dotaci nebo jen přijatou částku. Hlídač státu má u některých projektů duplicitní záznamy. Kde se zdroje liší (MŠ DD, kapacita DS v LU 48 / 50 / 52), je uveden rozpor. Částky v závěrečných účtech LU jsou z OCR. Zhotovitel a cena MŠ DD (MH - STAVBY, s.r.o., 33,17 mil. bez DPH) jsou z profilu zadavatele; na webu obce je dohledat nelze.</li>
+<li><strong>Kanalizace DD a LU:</strong> celkové náklady státních programů (odstranění ekologické újmy, Revitalizace MSK) nejsou v rozpočtech obcí. U LU je jen odhad z vládního seznamu (73,5 mil.), u DD výše není známa.</li>
+<li><strong>Hřbitov a kostel:</strong> že hlavní hřbitov u kostela sv. Jakuba leží v HD, vychází z ÚP HD 2011 a strategického plánu DD 2020. V RÚIAN ani v katastru to ověřeno není. Zakázka HD „chodník mezi hřbitovy“ naznačuje dvě části hřbitova, ale počet neověřeno.</li>
+<li><strong>Lékaři:</strong> NRPZS uvádí místo poskytování, ne ordinační hodiny. Že obec v LU poskytuje ordinacím prostory, je jen odvozeno z adresy.</li>
+<li><strong>Srovnatelnost:</strong> DD a LU leží u Žermanické přehrady. Kemp, pláž a cyklostezka i kanalizace financovaná státem souvisí s ochranou nádrže a cestovním ruchem. Na HD se tyto modely nedají přenést přímo.</li>
+</ol>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>
