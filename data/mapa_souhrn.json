@@ -1,0 +1,63 @@
+{
+ "obec": "Horní Domaslavice",
+ "kod_obce": "512192",
+ "kod_ku": "642789",
+ "stav_ruian": "2026-09-30",
+ "osm_stav": "2026-10-31T16:55:04Z",
+ "zastavba": {
+  "domy": 408,
+  "vodovod_pct": 98.7,
+  "vodovod_n": 377,
+  "plyn_pct": 15.1,
+  "plyn_n": 377,
+  "kanalizace_pct": 0.0,
+  "kanalizace_n": 382,
+  "cov_zumpa_pct": 99.5,
+  "cov_zumpa_n": 382,
+  "rok_median": 2009,
+  "rok_n": 377,
+  "dokonceno_od_2010": 182,
+  "ctverce": 218,
+  "ctverce_male": 206,
+  "domy_v_malych_ctvercich": 344,
+  "max_domu_ve_ctverci": 7,
+  "skupiny": 34,
+  "domy_ve_skupinach": 280,
+  "domy_bez_atributu": 64
+ },
+ "prevod": {
+  "adresni_body_porovnano": 416,
+  "odchylka_median_m": 0.92,
+  "odchylka_p95_m": 7.34,
+  "odchylka_max_m": 12.65,
+  "podil_do_0_1_m_pct": 25.0,
+  "podil_do_1_m_pct": 50.7,
+  "definicni_bod_obce_wgs84": [
+   49.695699,
+   18.45926
+  ],
+  "definicni_bod_vs_osm_place_m": 0.0,
+  "zbrojnice_osm_vs_parcely_1010_44_80_m": [
+   16.0,
+   19.5
+  ]
+ },
+ "zastavky_jdf": {
+  "Amerika": 23,
+  "Obecní úřad": 23,
+  "Příčnice": 23,
+  "kaple": 23,
+  "nocovna ČSAD": 23,
+  "statek": 23,
+  "točna": 23
+ },
+ "zastavky_bez_polohy": [
+  "Amerika",
+  "Příčnice",
+  "kaple",
+  "nocovna ČSAD",
+  "statek"
+ ],
+ "spoje_v_obci_celkem": 23,
+ "hranice_obce_a_ku_shodne": true
+}

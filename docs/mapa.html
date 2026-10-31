@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa obce – Horní Domaslavice v datech</title>
+<meta name="description" content="Interaktivní mapa Horních Domaslavic: hranice obce, zástavba ve čtvercích 100 × 100 m s napojením na vodovod, plyn a odpady, veřejné budovy a autobusové zastávky.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details open><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-rozpocet-2026.html">Rozpočet 2026</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+<li><a href="hd-usneseni.html">Usnesení zastupitelstva</a></li>
+<li><a href="mapa.html" aria-current="page">Mapa obce</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Mapa obce</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Mapa ukazuje, kde v obci Horní Domaslavice stojí domy k bydlení, jak jsou napojené na vodovod, plyn a kanalizaci a kdy byly dokončené. Zástavba je sečtená do čtverců 100 × 100 m, jednotlivé domy mapa neukazuje. Kromě toho jsou v mapě hranice obce, veřejné budovy a místa a autobusové zastávky. Data pocházejí z Registru územní identifikace, adres a nemovitostí (RÚIAN, stav k 30. 9. 2026), z OpenStreetMap a z jízdních řádů. Čtverec nebo bod otevřete kliknutím. Myší kolečkem se mapa přibližuje až po kliknutí do mapy, na mobilu ji posunete a přiblížíte dvěma prsty.</p>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="static/mapa.css">
+<div class="mapa-wrap">
+<form class="mapa-ctrl" aria-label="Ovládání mapy" onsubmit="return false">
+<fieldset><legend>Vrstvy</legend>
+<label><input type="checkbox" data-mapa-layer="ctverce" checked> Zástavba</label>
+<label><input type="checkbox" data-mapa-layer="hranice" checked> Hranice obce</label>
+<label><input type="checkbox" data-mapa-layer="mista" checked> Veřejná místa</label>
+<label><input type="checkbox" data-mapa-layer="zastavky" checked> Zastávky</label>
+</fieldset>
+<fieldset><legend>Barva čtverců</legend>
+<select id="mapa-barva" aria-label="Barva čtverců podle">
+<option value="domy">Počet domů</option>
+<option value="rok">Období dokončení (medián roku)</option>
+<option value="vodovod">Veřejný vodovod</option>
+<option value="plyn">Plyn z veřejné sítě</option>
+<option value="kanalizace">Kanalizace</option>
+<option value="cov_zumpa">Domovní ČOV nebo žumpa</option>
+</select>
+</fieldset>
+<fieldset><legend>Podklad</legend>
+<label><input type="radio" name="mapa-podklad" value="osm" checked> Mapa</label>
+<label><input type="radio" name="mapa-podklad" value="orto"> Letecký snímek</label>
+</fieldset>
+</form>
+<div id="mapa" role="region" aria-label="Mapa obce Horní Domaslavice"><noscript><p class="mapa-noscript">Mapa potřebuje JavaScript. Stejné údaje jsou v tabulce pod mapou a v souborech GeoJSON ke stažení.</p></noscript></div>
+<div class="mapa-legend" id="mapa-legenda" aria-live="polite"></div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="static/mapa-data.js"></script>
+<script src="static/mapa.js"></script>
+
+<h2 id="obec-v-číslech">Obec v číslech</h2>
+<p>Souhrn za celou obec, včetně domů ve čtvercích, u kterých mapa podrobnosti neukazuje.</p>
+<table>
+<thead>
+<tr>
+<th>Ukazatel</th>
+<th style="text-align: right;">Hodnota</th>
+<th>Poznámka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Domy k bydlení</td>
+<td style="text-align: right;">408</td>
+<td>407 rodinných domů a budova MŠ č. p. 78 s jedním bytem; bytový dům v obci není</td>
+</tr>
+<tr>
+<td>Čtverce 100 × 100 m se zástavbou</td>
+<td style="text-align: right;">218</td>
+<td>49 čtverců má 3 a více domů, nejvíc je 7 domů v jednom čtverci</td>
+</tr>
+<tr>
+<td>Napojení na veřejný vodovod</td>
+<td style="text-align: right;">98,7 %</td>
+<td>372 domů z 377 se zjištěným údajem; 5 bez vodovodu, u 31 údaj chybí</td>
+</tr>
+<tr>
+<td>Plyn z veřejné sítě</td>
+<td style="text-align: right;">15,1 %</td>
+<td>57 domů z 377; dalších 16 má domovní zásobník</td>
+</tr>
+<tr>
+<td>Napojení na kanalizaci</td>
+<td style="text-align: right;">0 %</td>
+<td>v obci není veřejná kanalizace (0 z 382)</td>
+</tr>
+<tr>
+<td>Domovní ČOV nebo žumpa</td>
+<td style="text-align: right;">99,5 %</td>
+<td>380 z 382: 94 vlastní ČOV, 286 žumpa, jímka nebo septik; 2 domy nemají ani jedno</td>
+</tr>
+<tr>
+<td>Medián roku dokončení</td>
+<td style="text-align: right;">2009</td>
+<td>polovina domů je dokončená v roce 2009 nebo později (údaj má 377 domů)</td>
+</tr>
+<tr>
+<td>Domy dokončené od roku 2010</td>
+<td style="text-align: right;">182</td>
+<td>48 % domů se zjištěným rokem dokončení</td>
+</tr>
+<tr>
+<td>Veřejná místa v mapě</td>
+<td style="text-align: right;">10</td>
+<td>viz seznam níže</td>
+</tr>
+<tr>
+<td>Autobusové zastávky</td>
+<td style="text-align: right;">7</td>
+<td>v mapě 2, u ostatních není ověřená poloha</td>
+</tr>
+<tr>
+<td>Spoje v pracovní den</td>
+<td style="text-align: right;">23</td>
+<td>oba směry, linky 863365 a 912365; všechny projíždějí všemi 7 zastávkami</td>
+</tr>
+</tbody>
+</table>
+<h2 id="co-mapa-ukazuje">Co mapa ukazuje</h2>
+<h3 id="hranice-obce">Hranice obce</h3>
+<p>Hranice obce Horní Domaslavice (kód 512192) podle RÚIAN. Obec má jedno katastrální území Horní Domaslavice (kód 642789) a jeho hranice je s hranicí obce totožná, proto je v mapě jen jedna čára. Plocha uvnitř hranice je asi 507 ha.</p>
+<h3 id="zástavba-ve-čtvercích-100--100-m">Zástavba ve čtvercích 100 × 100 m</h3>
+<p>Každý barevný čtverec obsahuje aspoň jeden dům k bydlení. Barvu lze přepnout nad mapou:</p>
+<ul>
+<li><strong>Počet domů</strong> ve čtverci.</li>
+<li><strong>Období dokončení:</strong> medián roku dokončení domů ve čtverci. Tmavší barva znamená novější zástavbu.</li>
+<li><strong>Veřejný vodovod, plyn z veřejné sítě, kanalizace, domovní ČOV nebo žumpa:</strong> podíl domů ve čtverci, u kterých RÚIAN tento způsob napojení uvádí. Tmavší barva znamená vyšší podíl.</li>
+</ul>
+<p>Kvůli ochraně soukromí platí:</p>
+<ul>
+<li>Čtverec s 1 až 4 domy ukazuje jen „méně než 5“. Vlastní podíly ani rok dokončení nemá.</li>
+<li>Čtverce s méně než 5 domy ve stejném bloku 300 × 300 m se pro podíly a rok dokončení sečtou dohromady. Pokud mají společně aspoň 5 domů, mají všechny stejné hodnoty za celou skupinu a popup to uvádí. Takových skupin je 39 a je v nich 190 domů.</li>
+<li>Kde ani skupina nemá 5 domů, zůstane čtverec bez údajů (čárkovaný okraj). Týká se to 64 domů.</li>
+<li>Podíl se neuvádí, ani když údaj chybí u tolika domů, že zbývá méně než 5 se zjištěnou hodnotou.</li>
+</ul>
+<h3 id="veřejná-místa">Veřejná místa</h3>
+<table>
+<thead>
+<tr>
+<th>Místo</th>
+<th>Odkud je poloha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obecní úřad, č. p. 212</td>
+<td>adresní místo RÚIAN</td>
+</tr>
+<tr>
+<td>Obecní dům, č. p. 232</td>
+<td>adresní místo RÚIAN</td>
+</tr>
+<tr>
+<td>Mateřská škola, č. p. 78</td>
+<td>adresní místo RÚIAN</td>
+</tr>
+<tr>
+<td>Hasičská klubovna, č. ev. 346</td>
+<td>adresní místo RÚIAN</td>
+</tr>
+<tr>
+<td>Kostel sv. Jakuba Staršího</td>
+<td>definiční bod budovy v RÚIAN; budovu jako kostel označuje OpenStreetMap</td>
+</tr>
+<tr>
+<td>Hřbitov u kostela a druhá hřbitovní plocha</td>
+<td>střed ploch v OpenStreetMap (převzaté z katastru)</td>
+</tr>
+<tr>
+<td>Dětské hřiště za Obecním domem</td>
+<td>střed plochy hřiště v OpenStreetMap</td>
+</tr>
+<tr>
+<td>Víceúčelové hřiště, staveniště</td>
+<td>definiční bod parcely 249/3 v RÚIAN; číslo parcely uvádí zpráva o uplatňování územního plánu</td>
+</tr>
+<tr>
+<td>Hasičská zbrojnice</td>
+<td>bod v OpenStreetMap převzatý ze ZABAGED; pozemky 1010/44 a 1010/80, které zápis zastupitelstva z 2/2025 popisuje jako „pozemky u hasičské zbrojnice“, leží 16 a 20 m od něj</td>
+</tr>
+</tbody>
+</table>
+<p>V mapě chybí <strong>kaple sv. Anny</strong> a <strong>dětské hřiště u MŠ</strong>. Jejich polohu se z RÚIAN, OpenStreetMap ani z dokumentů obce nepodařilo doložit. Kaple nemá číslo popisné, v dokumentech není číslo pozemku a v OpenStreetMap není zakreslená. U hřiště u MŠ je známé jen to, že je „u MŠ“.</p>
+<h3 id="autobusové-zastávky">Autobusové zastávky</h3>
+<p>V obci je 7 zastávek: Amerika, Obecní úřad, Příčnice, kaple, nocovna ČSAD, statek a točna. V úterý 3. 11. 2026 jimi projede 23 spojů linek 863365 a 912365. Každý spoj zastaví na všech sedmi zastávkách, takže všechny mají stejný počet spojů. V mapě jsou jen zastávky <strong>Obecní úřad</strong> a <strong>točna</strong>, protože ostatních pět v OpenStreetMap zakreslených není. Jízdní řády ve formátu JDF souřadnice zastávek neobsahují.</p>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li>Bod domu je definiční bod budovy v RÚIAN, obvykle zhruba uprostřed půdorysu. Dům na hranici čtverce může patřit do sousedního čtverce.</li>
+<li>Údaje o napojení vyplňuje do RÚIAN stavební úřad, většinou při kolaudaci. Pozdější změny, třeba výměna žumpy za domovní ČOV, se do registru nemusí dostat.</li>
+<li>„Plyn z veřejné sítě“ znamená přípojku, ne to, že dům plynem topí.</li>
+<li>Medián roku ve čtverci se starými i novými domy nemusí odpovídat žádnému skutečnému domu.</li>
+<li>Body z OpenStreetMap zakreslili dobrovolníci. Jejich polohu jsme ověřili jen tam, kde je to v tabulce uvedeno.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p><strong>Zdroje dat</strong></p>
+<ul>
+<li>RÚIAN, výměnný formát pro obec 512192 se standardně generalizovanou hranicí (soubor <code>20260930_OB_512192_UKSH.xml</code> z <a href="https://vdp.cuzk.gov.cz/">vdp.cuzk.gov.cz</a>), stav k 30. 9. 2026. Z RÚIAN je hranice obce a katastrálního území, definiční body stavebních objektů s jejich údaji, adresní místa a definiční body parcel.</li>
+<li>Číselníky RÚIAN: způsob využití objektu, připojení k vodovodu, plynu a kanalizaci.</li>
+<li><a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> přes Overpass API, stav 31. 10. 2026 (licence ODbL).</li>
+<li>Jízdní řády linek ve formátu JDF (CIS JŘ), platné 3. 11. 2026.</li>
+<li>Podklad mapy: OpenStreetMap, letecký snímek: ortofoto ČÚZK (dlaždicová služba ORTOFOTO_WM).</li>
+</ul>
+<p><strong>Co se počítá jako dům k bydlení:</strong> stavební objekt se způsobem využití rodinný dům (kód 7) nebo bytový dům (6) a dále budova s číslem popisným, která má aspoň jeden byt. Rekreační chaty (kód 8) a garáže se nepočítají.</p>
+<p><strong>Napojení:</strong> vodovod = kód 1 „s vodovodem“; plyn = kód 1 „plyn z veřejné sítě“; kanalizace = kód 1 „přípoj na kanalizační síť“; ČOV nebo žumpa = kódy 2 „vlastní čistička odpadních vod“ a 3 „žumpa, jímka, septik“. Podíly jsou z domů, u kterých je údaj vyplněný. Kódy 8 (nedefinováno), 9 (nezjištěno) a prázdný údaj se nepočítají.</p>
+<p><strong>Čtverce</strong> jsou čtverce 100 × 100 m sítě S-JTSK zarovnané na celé stovky metrů. Ve WGS84 jsou proto nepatrně pootočené.</p>
+<p><strong>Převod souřadnic:</strong> RÚIAN používá souřadnice S-JTSK (EPSG:5514). Do WGS84 je převádí skript v čistém Pythonu. Skript nejdřív inverzním Křovákovým zobrazením spočítá zeměpisné souřadnice na Besselově elipsoidu, pak je sedmiprvkovou Helmertovou transformací převede do WGS84 (parametry EPSG:1623: posun 570,8 / 85,7 / 462,8 m, rotace 4,998″ / 1,587″ / 5,261″, měřítko 3,56 ppm) a nakonec spočítá zeměpisné souřadnice na elipsoidu WGS84. Souřadnice jsou zaokrouhlené na 6 desetinných míst (asi 0,1 m). Ověření:</p>
+<ul>
+<li>Testovací bod Křovákova zobrazení z dokumentace EPSG (Guidance Note 7-2): odchylka 0,01 m.</li>
+<li>Definiční bod obce vyšel 49,695699° s. š., 18,459260° v. d. Uzel „Horní Domaslavice“ v OpenStreetMap, převzatý z registru ÚIR-ZSJ, leží na stejném místě (odchylka pod 1 cm).</li>
+<li>416 adresních míst RÚIAN jsme porovnali s adresními body v OpenStreetMap, které se do OSM převzaly z RÚIAN. Medián odchylky je 0,9 m a bez systematického posunu (medián posunu je pod 1 cm). 25 % bodů leží do 0,1 m a 51 % do 1 m. Větší odchylky, nejvýš 12,6 m, mají body, které v OSM někdo ručně posunul.</li>
+<li>Samotná transformace EPSG:1623 má podle EPSG přesnost asi 1 m. Celková odchylka od skutečné polohy je tedy do 1–2 m, což je pro čtverce 100 m a body budov zanedbatelné.</li>
+</ul>
+<p><strong>Zastávky:</strong> počet spojů je počet spojů, které v úterý 3. 11. 2026 na zastávce zastaví, v obou směrech. Spočítán je z jízdních řádů stejně jako v datech pro stránku <a href="srovnani-vybavenost.html">Občanská vybavenost</a>.</p>
+<p><strong>Územní plán:</strong> zastavitelné plochy územního plánu v mapě nejsou. Územní plán Horních Domaslavic je zveřejněný jen jako PDF (výkresy a textová část). Strojově čitelná data ploch (vektorová vrstva nebo služba WMS/WFS) se na webu obce, v Národním geoportálu územního plánování ani na geoportálu Moravskoslezského kraje dohledat nepodařilo. Výměru zastavitelných ploch uvádí stránka <a href="hd-vystavba.html">Výstavba a infrastruktura</a>.</p>
+<p><strong>Data ke stažení</strong> (GeoJSON, WGS84):</p>
+<ul>
+<li><a href="data/mapa_hranice.geojson">data/mapa_hranice.geojson</a>: hranice obce;</li>
+<li><a href="data/mapa_ctverce.geojson">data/mapa_ctverce.geojson</a>: čtverce zástavby s počty a podíly;</li>
+<li><a href="data/mapa_mista.geojson">data/mapa_mista.geojson</a>: veřejná místa se zdrojem polohy;</li>
+<li><a href="data/mapa_zastavky.geojson">data/mapa_zastavky.geojson</a>: zastávky s počtem spojů;</li>
+<li><a href="data/mapa_souhrn.json">data/mapa_souhrn.json</a>: čísla za obec a výsledky kontroly převodu souřadnic.</li>
+</ul>
+<p>Vrstvy vytváří skript <code>tools/mapa_data.py</code> (převod souřadnic je v <code>tools/krovak.py</code>, stažení z OpenStreetMap v <code>tools/mapa_osm.py</code>).</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

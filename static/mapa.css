@@ -1,0 +1,48 @@
+/* Mapa obce – doplněk ke style.css; barvy jen z CSS proměnných webu. */
+.mapa-wrap { max-width: 100%; margin: 14px 0 22px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.mapa-ctrl { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; padding: 10px 14px; border-bottom: 1px solid var(--border); font-size: .9rem; }
+.mapa-ctrl fieldset { border: 0; margin: 0; padding: 0; min-width: 0; max-width: 100%; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+.mapa-ctrl legend { float: left; padding: 0 8px 0 0; font-weight: 600; color: var(--ink); }
+.mapa-ctrl label { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; color: var(--ink-2); white-space: nowrap; }
+.mapa-ctrl input { accent-color: var(--accent); margin: 0; }
+.mapa-ctrl select { font: inherit; font-size: .9rem; color: var(--ink); background: var(--page); border: 1px solid var(--axis); border-radius: 6px; padding: 3px 6px; max-width: 100%; }
+#mapa { height: 70vh; min-height: 360px; max-height: 760px; background: var(--surface); }
+.mapa-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; padding: 8px 14px 10px; border-top: 1px solid var(--border); font-size: .84rem; color: var(--ink-2); }
+.mapa-legend b { color: var(--ink); font-weight: 600; margin-right: 2px; }
+.mapa-legend .sw { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.mapa-legend .sw i { display: inline-block; width: 16px; height: 12px; border-radius: 2px; border: 1px solid var(--border); }
+.mapa-legend .sw i.none { background: transparent; border: 1px dashed var(--axis); }
+.mapa-legend .sw i.line { height: 0; border: 0; border-top: 2px dashed var(--ink); border-radius: 0; }
+.mapa-legend .note { flex-basis: 100%; color: var(--muted); font-size: .8rem; }
+.mapa-noscript { padding: 12px 14px; color: var(--ink-2); }
+
+/* značky bodů */
+.mapa-poi, .mapa-bus { display: flex; align-items: center; justify-content: center; box-sizing: border-box; font: 700 10px/1 system-ui, sans-serif; }
+.mapa-poi { width: 14px; height: 14px; border-radius: 50%; background: var(--ink); border: 2px solid var(--card); box-shadow: 0 0 0 1px var(--ink); }
+.mapa-bus { width: 18px; height: 18px; border-radius: 4px; background: var(--card); color: var(--accent-ink); border: 2px solid var(--accent-ink); }
+.mapa-legend .sw .mapa-poi, .mapa-legend .sw .mapa-bus { display: inline-flex; }
+
+/* Leaflet v barvách webu */
+.leaflet-container { font: inherit; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--ink); box-shadow: 0 3px 14px rgba(0,0,0,.25); }
+.leaflet-popup-content { margin: 10px 14px; font-size: .88rem; line-height: 1.45; }
+.leaflet-popup-content h4 { margin: 0 0 4px; font-size: .95rem; }
+.leaflet-popup-content table { font-size: .84rem; margin: 4px 0; }
+.leaflet-popup-content td, .leaflet-popup-content th { padding: 2px 8px 2px 0; border: 0; background: none; }
+.leaflet-popup-content td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.leaflet-popup-content .src { color: var(--muted); font-size: .78rem; margin: 4px 0 0; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
+.leaflet-bar a, .leaflet-bar a:hover { background: var(--card); color: var(--ink); border-bottom-color: var(--border); }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--card) 85%, transparent) !important; color: var(--ink-2); }
+.leaflet-control-attribution a { color: var(--accent-ink); }
+:root[data-theme="dark"] .mapa-tiles-osm { filter: brightness(.75) contrast(1.1) saturate(.8); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .mapa-tiles-osm { filter: brightness(.75) contrast(1.1) saturate(.8); }
+}
+
+@media (max-width: 560px) {
+  .mapa-ctrl { padding: 8px 10px; gap: 6px 12px; font-size: .86rem; }
+  .mapa-ctrl fieldset { gap: 2px 10px; }
+  .mapa-ctrl legend { flex-basis: 100%; float: none; }
+  #mapa { min-height: 320px; }
+}
