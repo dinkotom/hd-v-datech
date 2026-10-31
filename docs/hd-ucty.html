@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stavy účtů obce – Horní Domaslavice v datech</title>
+<meta name="description" content="Kolik peněz měla obec Horní Domaslavice na bankovních účtech na konci každého roku 2013–2025 a jak úspory rostly.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details open><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html" aria-current="page">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Stavy účtů obce</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Tato stránka ukazuje, kolik peněz měla obec na bankovních účtech vždy k 31. prosinci v letech 2013–2025. Údaje pocházejí ze závěrečných účtů obce (bod „Stavy a obraty na bankovních účtech“) a jsou ověřené proti rozvaze obce v Monitoru státní pokladny Ministerstva financí; shodují se na haléř. Částky jsou v Kč.</p>
+<p>Řada navazuje bez mezery: konečný stav roku N se rovná počátečnímu stavu roku N+1.</p>
+<table>
+<thead>
+<tr>
+<th>K datu</th>
+<th style="text-align: right;">Běžný účet (231)</th>
+<th style="text-align: right;">Termínovaný vklad</th>
+<th style="text-align: right;"><strong>Celkem</strong></th>
+<th style="text-align: right;">Změna za rok</th>
+<th style="text-align: right;">Saldo příjmů a výdajů</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>31. 12. 2013</td>
+<td style="text-align: right;">701 889,49</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>0,70 mil.</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>31. 12. 2014</td>
+<td style="text-align: right;">3 856 382,19</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>3,86 mil.</strong></td>
+<td style="text-align: right;">+3 154 492,70</td>
+<td style="text-align: right;">4 154 500,70 ¹</td>
+</tr>
+<tr>
+<td>31. 12. 2015</td>
+<td style="text-align: right;">5 404 470,67</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>5,40 mil.</strong></td>
+<td style="text-align: right;">+1 548 088,48</td>
+<td style="text-align: right;">1 881 408,48 ¹</td>
+</tr>
+<tr>
+<td>31. 12. 2016</td>
+<td style="text-align: right;">8 253 770,36</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>8,25 mil.</strong></td>
+<td style="text-align: right;">+2 849 299,69</td>
+<td style="text-align: right;">2 849 299,69</td>
+</tr>
+<tr>
+<td>31. 12. 2017</td>
+<td style="text-align: right;">10 017 313,19</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>10,02 mil.</strong></td>
+<td style="text-align: right;">+1 763 542,83</td>
+<td style="text-align: right;">1 763 542,83</td>
+</tr>
+<tr>
+<td>31. 12. 2018</td>
+<td style="text-align: right;">9 203 253,48</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>9,20 mil.</strong></td>
+<td style="text-align: right;">−814 059,71</td>
+<td style="text-align: right;">−814 059,71</td>
+</tr>
+<tr>
+<td>31. 12. 2019</td>
+<td style="text-align: right;">13 892 762,32</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>13,89 mil.</strong></td>
+<td style="text-align: right;">+4 689 508,84</td>
+<td style="text-align: right;">4 689 508,84</td>
+</tr>
+<tr>
+<td>31. 12. 2020</td>
+<td style="text-align: right;">14 089 112,62</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>14,09 mil.</strong></td>
+<td style="text-align: right;">+196 350,30</td>
+<td style="text-align: right;">196 350,30</td>
+</tr>
+<tr>
+<td>31. 12. 2021</td>
+<td style="text-align: right;">19 100 174,41</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>19,10 mil.</strong></td>
+<td style="text-align: right;">+5 011 061,79</td>
+<td style="text-align: right;">5 011 061,79</td>
+</tr>
+<tr>
+<td>31. 12. 2022</td>
+<td style="text-align: right;">27 289 755,38</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>27,29 mil.</strong></td>
+<td style="text-align: right;">+8 189 580,97</td>
+<td style="text-align: right;">8 189 580,97</td>
+</tr>
+<tr>
+<td>31. 12. 2023</td>
+<td style="text-align: right;">19 109 865,09</td>
+<td style="text-align: right;">9 000 000,00 (KB) ²</td>
+<td style="text-align: right;"><strong>28,11 mil.</strong></td>
+<td style="text-align: right;">+820 109,71 ²</td>
+<td style="text-align: right;">820 109,71</td>
+</tr>
+<tr>
+<td>31. 12. 2024</td>
+<td style="text-align: right;">31 476 206,88</td>
+<td style="text-align: right;">– ²</td>
+<td style="text-align: right;"><strong>31,48 mil.</strong></td>
+<td style="text-align: right;">+3 366 341,79 ²</td>
+<td style="text-align: right;">3 366 341,79 ³</td>
+</tr>
+<tr>
+<td>31. 12. 2025</td>
+<td style="text-align: right;">39 494 904,53</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;"><strong>39,49 mil.</strong></td>
+<td style="text-align: right;">+8 018 697,65</td>
+<td style="text-align: right;">8 018 697,65</td>
+</tr>
+</tbody>
+</table>
+<p>¹ V letech 2014 a 2015 je saldo vyšší než změna stavu účtu. Rozdíl tvoří splátky starého dlouhodobého úvěru (položka 8124): 1 000 008 Kč v roce 2014 a 333 320 Kč v roce 2015. Úvěr byl tím splacen. Rozvahy ale do roku 2017 ukazují ještě jiný dlouhodobý závazek (účet 459) s neuvedeným věřitelem, viz <a href="hd-majetek.html">majetek a účetnictví</a>. ² Obec 24. 10. 2023 převedla 9 mil. Kč na šestiměsíční termínovaný vklad u Komerční banky s úrokem 5,58 % p. a. (usnesení zastupitelstva obce 9/2023). Vklad se v roce 2024 vrátil na běžný účet, závěrečný účet 2024 ho vykazuje v položce 8117 (+9 000 000). Samotný běžný účet proto v roce 2023 klesl o 8,18 mil. a v roce 2024 vzrostl o 12,37 mil. Skutečné změny celkových prostředků jsou ve sloupci „Změna za rok“. ³ Saldo 2024 podle Monitoru státní pokladny (výkaz FIN 2-12 M). Starší přepis ze skenu závěrečného účtu uváděl 3 207 299,62 Kč; rozdíl 159 042 Kč odpovídá chybě čtení daňových příjmů, která byla opravena podle dat MF.</p>
+<h2 id="co-z-řady-plyne">Co z řady plyne</h2>
+<ul>
+<li>Za 12 let vzrostly úspory obce z 0,7 na 39,5 mil. Kč. Jediný pokles byl v roce 2018 (−0,8 mil.).</li>
+<li><strong>Volební období 2018–2022</strong> (do 31. 12. 2022): z 10,0 na 27,3 mil., tedy +17,3 mil.</li>
+<li><strong>Volební období 2022–2026</strong> (do 31. 12. 2025): z 27,3 na 39,5 mil., tedy +12,2 mil. Formálně obec čerpala jen 26–29 % upraveného rozpočtu výdajů, to je ale zkresleno nečerpanou rezervou. Bez ní vychází čerpání 48–76 % (viz <a href="hd-vydaje.html">výdaje obce</a>).</li>
+<li>Úvěr 8,6 mil. Kč od České spořitelny na rekonstrukci MŠ (smlouva z 19. 2. 2020) se nikdy nečerpal. Rozpočet s ním počítal (položka 8113), ale skutečné čerpání je nulové. Nárůst úspor tedy nepochází z úvěru.</li>
+<li>Kromě běžného účtu měla obec do roku 2019 jen „ostatní dlouhodobý finanční majetek“ za zhruba 21 000 Kč, nejspíš členský podíl. Peněžní fondy nemá.</li>
+</ul>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li>Inventarizační zpráva za rok 2021 uvádí u účtu 231 částku 19 089 112,62 Kč. Je to zřejmě překlep, protože závěrečný účet i rozvaha vykazují 19 100 174,41 Kč. Stejný soupis obsahuje i další chyby: účet 021 je uveden dvakrát a u účtu 079 je místo konečné hodnoty počáteční.</li>
+<li>Stavy během roku (například ke změně ve vedení obce v lednu 2026 nebo k volbám) z veřejných dokumentů zjistit nejde. Ukázaly by je jen výpisy z účtů, které obec nezveřejňuje.</li>
+<li>Stav k 31. 12. 2026 bude v závěrečném účtu 2026, ten se schvaluje zhruba v červnu 2027.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Stavy účtů jsou převzaté ze závěrečných účtů obce (roky 2014–2021 ze skenů ověřených přes OCR, 2022–2025 z textových PDF) a ověřené proti rozvaze obce (účty 231 a 244) z otevřených dat MF, Monitor státní pokladny (<a href="https://monitor.statnipokladna.gov.cz">https://monitor.statnipokladna.gov.cz</a>). Saldo je rozdíl příjmů a výdajů podle výkazu FIN 2-12 M. Zpracováno 28. 10. 2026, saldo 2024 opraveno 31. 10. 2026.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

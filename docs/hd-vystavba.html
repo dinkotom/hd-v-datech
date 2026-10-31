@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Výstavba a infrastruktura – Horní Domaslavice v datech</title>
+<meta name="description" content="Kolik domů se v Horních Domaslavicích staví, jaký majetek obec vykazuje, jak je to s vodovodem a kanalizací a kolik ploch pro bydlení zbývá.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details open><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html" aria-current="page">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Výstavba a infrastruktura</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Stránka ukazuje tempo bytové výstavby v obci Horní Domaslavice od roku 2001, její vztah k přistěhování, hodnotu majetku obce v účetní rozvaze, stav vodovodu a kanalizace a rezervu zastavitelných ploch v územním plánu. Data pocházejí z Registru územní identifikace, adres a nemovitostí (RÚIAN), z ČSÚ, z Monitoru státní pokladny Ministerstva financí a z dokumentů územního plánu a strategického plánu obce. Zpracováno 30. 10. 2026. Obec Horní Domaslavice má kód obce 512192 a IČO 00536008, katastrální území Horní Domaslavice má kód 642789.</p>
+<p>V textu rozlišujeme, co je <strong>doloženo</strong> (číslo nebo věta přímo ze zdroje) a co je <strong>odvozeno</strong> (výpočet nebo úsudek z doložených údajů).</p>
+<h2 id="1-tempo-výstavby">1. Tempo výstavby</h2>
+<h3 id="11-co-je-v-rúian-stav-k-30-9-2026">1.1 Co je v RÚIAN (stav k 30. 9. 2026)</h3>
+<p><strong>Doloženo:</strong></p>
+<ul>
+<li>V obci je evidováno <strong>500 stavebních objektů</strong>. Z nich <strong>411 má číslo popisné</strong>, <strong>6 číslo evidenční</strong> a 83 nemá žádné číslo (garáže, zemědělské a jiné stavby).</li>
+<li>Způsob využití budov s číslem popisným: <strong>407 rodinných domů</strong> a 4 stavby občanského vybavení. Bytový dům v RÚIAN není žádný.</li>
+<li>Evidovaných <strong>adresních míst je 417</strong>, což přesně odpovídá 411 číslům popisným a 6 evidenčním.</li>
+<li>Nejvyšší přidělené číslo popisné je <strong>431</strong>. Přibližně 20 čísel tedy dnes není obsazeno, pravděpodobně jde o zbořené nebo zaniklé domy.</li>
+<li>Katastrální území má <strong>2 828 parcel</strong>: 921 orná půda, 524 zastavěná plocha, 520 ostatní plocha, 366 zahrada, 315 trvalý travní porost, 160 lesní pozemek a 22 vodní plocha.</li>
+</ul>
+<p><strong>Kontrola:</strong> RISY uvádí pro rok 2025 412 čísel popisných a RÚIAN dnes 411. Počty ale nejsou srovnatelné. Podle RÚIAN přibylo od začátku roku 2025 devatenáct nových domů (č. p. 413–431), takže počet obsazených čísel na začátku roku 2025 byl asi 392. <strong>Odvozeno:</strong> číslo 412 je přesně nejvyšší číslo popisné přidělené do konce roku 2024. RISY tedy nejspíš uvádí nejvyšší přidělené číslo, ne počet domů.</p>
+<h3 id="12-nové-rodinné-domy-po-letech">1.2 Nové rodinné domy po letech</h3>
+<p>Tabulka uvádí rodinné domy s číslem popisným podle data dokončení v RÚIAN a vedle toho dokončené byty podle ČSÚ. Ve sloupci „nové č. p.“ jsou jen domy s číslem 225 a vyšším. Taková čísla se přidělují postupně až po roce 2000. Zbytek tvoří domy se starším číslem, které bylo nejspíš znovu přiděleno, nebo jde o náhradu za původní dům.</p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">RD dokončené (RÚIAN)</th>
+<th style="text-align: right;">z toho nové č. p.</th>
+<th style="text-align: right;">Dokončené byty (ČSÚ)</th>
+<th style="text-align: right;">Nejvyšší nové č. p. v roce</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2001</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">226</td>
+</tr>
+<tr>
+<td>2002</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">228</td>
+</tr>
+<tr>
+<td>2003</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">230</td>
+</tr>
+<tr>
+<td>2004</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2005</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">234</td>
+</tr>
+<tr>
+<td>2006</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">237</td>
+</tr>
+<tr>
+<td>2007</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">241</td>
+</tr>
+<tr>
+<td>2008</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">247</td>
+</tr>
+<tr>
+<td>2009</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">255</td>
+</tr>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">259</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">280</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">276</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">288</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">293</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">294</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">312</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">325</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">338</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">352</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">367</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">384</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">397</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">403</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">412</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">10 ¹</td>
+<td style="text-align: right;">422</td>
+</tr>
+<tr>
+<td>2026 (do 30. 9.)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">431</td>
+</tr>
+</tbody>
+</table>
+<p>¹ ČSÚ, tab. 14 ze 7. 9. 2026. Rok 2025 je tam označen poznámkou 2), nejspíš jde o předběžný údaj.</p>
+<p>Podle ČSÚ se v letech 1997–2000 dokončilo 2, 6, 3 a 1 byt. Žádný dokončený byt v obci za celou řadu 1997–2025 nebyl v bytovém domě.</p>
+<p><strong>Doloženo:</strong> Obě řady se téměř shodují. Za roky 2001–2025 eviduje RÚIAN 218 dokončených rodinných domů a ČSÚ 209 dokončených bytů.</p>
+<p><strong>Odvozeno:</strong></p>
+<ul>
+<li><strong>Vrchol výstavby byl v letech 2017–2022</strong>, kdy se dokončovalo 13 až 20 bytů ročně.</li>
+<li><strong>Od roku 2023 se tempo zhruba zpolovičilo</strong> na 9–10 bytů ročně. Rok 2026 (9 domů do konce září) ukazuje na podobné nebo mírně vyšší tempo.</li>
+<li>Odpovídá tomu i návrh zprávy o uplatňování územního plánu z roku 2025. Podle ní bylo od 1. 9. 2022 do 3. 9. 2025 povoleno umístění 31 rodinných domů, tedy asi 10 ročně. Pořizovatel v ní „očekává mírný pokles výstavby“.</li>
+</ul>
+<p>Data dokončení u starých domů jsou v RÚIAN jen orientační. Hodnoty jako 31. 12. 1919, 1945, 1960, 1970, 1980, 1990 nebo 2000 jsou zástupná data z převodu evidence, ne skutečné roky. Řada je proto spolehlivá až od roku 2001.</p>
+<h3 id="13-srovnání-s-přistěhovalými">1.3 Srovnání s přistěhovalými</h3>
+<table>
+<thead>
+<tr>
+<th>Období</th>
+<th style="text-align: right;">RD (RÚIAN)</th>
+<th style="text-align: right;">Byty (ČSÚ)</th>
+<th style="text-align: right;">Přistěhovalí</th>
+<th style="text-align: right;">Saldo stěhování</th>
+<th style="text-align: right;">Saldo na 1 byt</th>
+<th style="text-align: right;">Bytů ročně</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2001–2010</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">237</td>
+<td style="text-align: right;">+141</td>
+<td style="text-align: right;">3,0</td>
+<td style="text-align: right;">4,7</td>
+</tr>
+<tr>
+<td>2011–2015</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">207</td>
+<td style="text-align: right;">+107</td>
+<td style="text-align: right;">3,2</td>
+<td style="text-align: right;">6,6</td>
+</tr>
+<tr>
+<td>2016–2021</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">319</td>
+<td style="text-align: right;">+193</td>
+<td style="text-align: right;">2,2</td>
+<td style="text-align: right;">14,7</td>
+</tr>
+<tr>
+<td>2022–2025</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">186</td>
+<td style="text-align: right;">+101</td>
+<td style="text-align: right;">2,5</td>
+<td style="text-align: right;">10,2</td>
+</tr>
+<tr>
+<td><strong>2001–2025</strong></td>
+<td style="text-align: right;"><strong>218</strong></td>
+<td style="text-align: right;"><strong>209</strong></td>
+<td style="text-align: right;"><strong>949</strong></td>
+<td style="text-align: right;"><strong>+542</strong></td>
+<td style="text-align: right;"><strong>2,6</strong></td>
+<td style="text-align: right;"><strong>8,4</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Údaje o stěhování pocházejí z ČSÚ (tabulka OBY01B01), podrobněji na stránce <a href="hd-obyvatelstvo.html">Obyvatelstvo</a>.</p>
+<p><strong>Odvozeno:</strong></p>
+<ul>
+<li>Na jeden dokončený byt připadá v průměru zhruba 2,6 člověka čistého přírůstku stěhováním. To odpovídá rodině s dítětem a ukazuje, že růst obce prakticky celý stojí na nových domech.</li>
+<li>Roky s velkou výstavbou a roky s velkým přistěhováním se kryjí jen přibližně. V roce 2018 se dokončilo 20 bytů a přistěhovalo 82 lidí. V roce 2020 se dokončilo 16 bytů a přistěhovalo jen 30 lidí, v roce 2021 při 16 bytech 67 lidí. Lidé se často hlásí k pobytu se zpožděním vůči kolaudaci, takže jednotlivé roky nelze porovnávat jeden k jednomu.</li>
+<li>Rok 2025 má vyšší saldo (+35) při 10 bytech. To může souviset s domy dokončenými v roce 2024, do kterých se lidé nastěhovali až později.</li>
+</ul>
+<p><strong>Kontrola se sčítáním 2021:</strong> Sčítání uvádí 73 obydlených domů postavených v letech 2016–2021 a 75 domů z let 2001–2015. RÚIAN eviduje 77 domů dokončených v letech 2016–2020 a 83 v letech 2001–2015. Rozdíl dává smysl: sčítání počítá jen obydlené domy ke dni 26. 3. 2021 a bere období výstavby podle odpovědí obyvatel.</p>
+<h3 id="14-zahájené-byty">1.4 Zahájené byty</h3>
+<p>ČSÚ za obce zveřejňuje <strong>jen dokončené byty</strong>. Zahájené byty a stavební povolení vydává jen za ČR a kraje (sady STA09A1, STA08A2). Řadu zahájených bytů za obec proto z otevřených dat získat nelze. Nejbližší náhradou je údaj ze zprávy o uplatňování ÚP o 31 povolených RD za období 9/2022–9/2025.</p>
+<h2 id="2-majetek-obce-v-rozvaze">2. Majetek obce v rozvaze</h2>
+<p>Seznam pozemků a staveb ve vlastnictví obce z veřejně dostupných otevřených dat sestavit nelze: RÚIAN vlastníky neobsahuje a Nahlížení do katastru nemovitostí neumožňuje vyhledávat podle vlastníka. Z veřejných dat lze hned zjistit hodnotu majetku v účetní rozvaze obce (Ministerstvo financí, Monitor státní pokladny). Další údaje o majetku jsou na stránce <a href="hd-majetek.html">Majetek obce</a>.</p>
+<p>Hodnoty jsou v mil. Kč k 31. 12., u staveb jde o zůstatkovou hodnotu.</p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Pozemky (účet 031)</th>
+<th style="text-align: right;">Stavby netto (021)</th>
+<th style="text-align: right;">Stavby brutto</th>
+<th style="text-align: right;">Nedokončený majetek (042)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">1,17</td>
+<td style="text-align: right;">6,69</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">3,30</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">1,18</td>
+<td style="text-align: right;">10,76</td>
+<td style="text-align: right;">15,56</td>
+<td style="text-align: right;">0,80</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">1,12</td>
+<td style="text-align: right;">13,03</td>
+<td style="text-align: right;">18,13</td>
+<td style="text-align: right;">1,14</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">1,54</td>
+<td style="text-align: right;">15,40</td>
+<td style="text-align: right;">21,10</td>
+<td style="text-align: right;">1,29</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">1,79</td>
+<td style="text-align: right;">18,23</td>
+<td style="text-align: right;">24,55</td>
+<td style="text-align: right;">1,15</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">1,82</td>
+<td style="text-align: right;">18,81</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">6,37</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">1,82</td>
+<td style="text-align: right;">32,49</td>
+<td style="text-align: right;">39,79</td>
+<td style="text-align: right;">0,39</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">1,90</td>
+<td style="text-align: right;">31,54</td>
+<td style="text-align: right;">40,15</td>
+<td style="text-align: right;">0,31</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">1,97</td>
+<td style="text-align: right;">30,59</td>
+<td style="text-align: right;">40,53</td>
+<td style="text-align: right;">1,00</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Odvozeno:</strong></p>
+<ul>
+<li><strong>Hodnota pozemků obce vzrostla za 13 let asi o 0,8 mil. Kč</strong>, z 1,17 na 1,97 mil. Kč. Obec tedy pozemky získávala jen v malém rozsahu, například při výkupech pro komunikace nebo bezúplatných převodech od státu. Informátor 2023 zmiňuje usnesení 152/9/2023 o převodu parcel 185/67 a 195/36 od Státního pozemkového úřadu.</li>
+<li>Pozemky jsou ale vedeny v historických cenách, proto <strong>hodnota neříká nic o počtu ani výměře parcel</strong>.</li>
+<li>Skok u staveb v roce 2021 (+13,7 mil. Kč) odpovídá zařazení velké investice z nedokončeného majetku. Nedokončený majetek v roce 2020 činil 6,37 mil. Kč, takže pravděpodobně jde o rekonstrukci MŠ nebo komunikace. Co přesně to bylo, by ukázal závěrečný účet za rok 2021.</li>
+</ul>
+<h2 id="3-vodovod-a-kanalizace">3. Vodovod a kanalizace</h2>
+<h3 id="31-kdo-vodovod-vlastní-a-provozuje">3.1 Kdo vodovod vlastní a provozuje</h3>
+<p><strong>Doloženo:</strong></p>
+<ul>
+<li>Provozovatelem je <strong>SmVaK Ostrava a.s.</strong> Vyplývá to z oznámení o odstávce SmVaK č. 11097 v Horních Domaslavicích (2023), z ceníků vodného a stočného SmVaK v Informátoru (2022–2025) i z dodatku nájemní smlouvy Obecního domu („voda přefakturována dle SmVaK“, zápis ze zasedání ZO č. 32 ze dne 16. 7. 2026).</li>
+<li>Zdroje vody popisuje územní plán 2011 i návrh zprávy o uplatňování 2025. Obec je zásobována z <strong>Ostravského oblastního vodovodu (OOV)</strong>. Západní část jde ze zemního vodojemu <strong>Dobrá</strong> (2 × 150 m³). Východní část jde z věžového vodojemu <strong>Soběšovice</strong> (250 m³) přes síť Dolních Domaslavic. Malá část u Lučiny je napojena přímo z přivaděče OOV Vyšní Lhoty – Bludovice.</li>
+<li>Podle Strategického plánu rozvoje obce 2024–2030 se vodovod budoval od roku 1979 (Vidíkov) a dokončen byl v roce 2000 u Lučiny. Napojeno je asi <strong>96 % domácností</strong>.</li>
+<li>Vlastnictví vodovodu z veřejných dokumentů jednoznačně nevyplývá. Strategický plán 2024–2030 řadí „inženýrské sítě (vodovod, plynovod)“ mezi majetek obce. Obec má ve svůj prospěch zapsaná věcná břemena „z důvodu vedení vodovodního řadu“ (zápis ze zasedání ZO č. 29 ze dne 17. 2. 2026). Ve střednědobých výhledech rozpočtu plánuje vlastní investici „redimenze vodovodu“ za 4 mil. Kč, a to na rok 2023 ve výhledu 2022–2024 a na rok 2026 ve výhledu 2025–2028.</li>
+<li>V rozpočtu obce za roky 2010–2025 (MF, výkaz FIN 2-12 M) <strong>není jediný příjem ani výdaj v paragrafu 2310 (pitná voda)</strong>. Není tam tedy ani nájemné od provozovatele, ani investice. Hlídač státu neeviduje žádnou smlouvu mezi obcí a SmVaK.</li>
+</ul>
+<p><strong>Odvozeno:</strong> Buď celou síť nebo její podstatnou část vlastní SmVaK, nebo obec vlastní část řadů a provozuje je SmVaK bez nájemného. Z veřejných dat to rozhodnout nelze. Odpověď by mohla dát obec (kdo vlastní které řady a podle jaké smlouvy je SmVaK provozuje), případně údaje majetkové evidence vodovodů (VÚME), které vlastník každoročně hlásí vodoprávnímu úřadu (Magistrát Frýdek-Místek).</p>
+<h3 id="32-tvrzení-na-některých-větvích-se-z-kapacitních-důvodů-několik-let-nepovolují-nové-přípojky">3.2 Tvrzení „na některých větvích se z kapacitních důvodů několik let nepovolují nové přípojky“</h3>
+<p><strong>Doloženo:</strong></p>
+<ul>
+<li>Tvrzení je doslovně ve <strong>Strategickém plánu rozvoje obce 2024–2030</strong>, kapitola 3.7. Už Program rozvoje obce 2016–2022 obsahoval aktivitu 3.4 „Redimenze vodovodu“.</li>
+<li>Obsahově ho podporují:
+<ul>
+<li><strong>Územní plán 2011:</strong> „Vodovodní rozvody jsou dostatečné … vyjma vodovodního řadu DN 63 mm vedoucího z centra obce do zástavby na levém břehu Lučiny. Tento vodovod je poddimenzovaný, proto je navržena jeho rekonstrukce na větší průměr.“</li>
+<li><strong>Připomínka vlastníků pozemků ke Změně č. 1 územního plánu (9. 3. 2023):</strong> domácnosti se nemohou připojit, berou vodu ze studny u obecního úřadu a od jara 2020 žádají obec o rozšíření kapacity vodovodu.</li>
+<li><strong>Strategický plán 2024–2030</strong>, projekt s vysokou prioritou na roky 2025–2027 za 4 mil. Kč: „Redimenze kapacitně vyčerpané části vodovodu v oblasti pod Obecním úřadem a kolem přivaděče.“ V anketě k plánu označilo kapacitu vodovodu a elektřiny za palčivý problém 69 % respondentů.</li>
+</ul></li>
+<li><strong>Změna č. 1 územního plánu (2023) větu o rekonstrukci řadu DN 63 vypustila.</strong> Pořizovatel to zdůvodnil tím, že dimenze potrubí nepatří do územního plánu. Připomínce obyvatel nevyhověl.</li>
+<li>Návrh zprávy o uplatňování 2025 přesto opakuje starý text o poddimenzovaném řadu DN 63. Změna č. 1 přitom uvádí, že „dimenze vodovodních řadů je dostatečná pro navržený rozvoj“ a že všechny zastavitelné plochy kromě Z1/1 jsou napojitelné na stávající řady. <strong>Dokumenty územního plánu si v tomto bodě odporují.</strong></li>
+</ul>
+<p>Pro východní část obce je relevantní i územní plán Dolních Domaslavic (2013). Ten s odkazem na Plán rozvoje vodovodů a kanalizací Moravskoslezského kraje (PRVKÚK MSK) uvádí, že akumulace ve vodojemu Soběšovice „pokryje jen cca 55 % denní potřeby pitné vody“ Soběšovic a Dolních Domaslavic. Podle PRVKÚK je navržen druhý věžový vodojem o objemu 250 m³. Zda byl postaven, ověřeno není.</p>
+<p><strong>Odvozeno:</strong></p>
+<ul>
+<li>Tvrzení o nepovolování přípojek je doloženo jen dokumentem obce. Od provozovatele SmVaK není k dispozici žádný veřejný údaj, ani seznam lokalit, ani rozhodnutí o odmítnutých přípojkách.</li>
+<li>Nepřímo ho podporuje RÚIAN: 7 domů je vedeno „bez vodovodu“ a 6 z nich bylo dokončeno v letech 2013–2024. U novostaveb je to neobvyklé. Atribut RÚIAN ale nerozlišuje veřejný vodovod od vlastní studny, takže jde o slabý doklad.</li>
+<li>Obec za 16 let (2010–2025) podle rozpočtových dat do vodovodu nevydala nic (viz <a href="hd-vydaje.html">Výdaje obce</a>). Investice 4 mil. Kč se v rozpočtových výhledech posouvá z roku 2023 na rok 2026. Ve schváleném rozpočtu 2026 uvedena není.</li>
+</ul>
+<h3 id="33-tvrzení-kanalizace-neexistuje">3.3 Tvrzení „kanalizace neexistuje“</h3>
+<p><strong>Doloženo, platí.</strong></p>
+<ul>
+<li>V RÚIAN nemá <strong>žádná</strong> ze 417 budov s číslem „přípoj na kanalizační síť“. Má jich 290 žumpu, jímku nebo septik, 94 vlastní ČOV, 2 nemají nic a u zbytku údaj chybí.</li>
+<li>Sčítání 2021 uvádí 0 % domů napojených na kanalizační síť, 76 % se žumpou a 21 % s vlastní ČOV.</li>
+<li>Návrh zprávy o uplatňování 2025: „kanalizace ani ČOV dosud není vybudována“. V územně analytických podkladech (ÚAP) 2024 se uvádí „absence kanalizační sítě s ČOV … vzhledem k velikosti území obce a k jeho rozptýlené zástavbě je budování kanalizace pro obec neekonomické“.</li>
+<li>Územní plán 2011 navrhuje gravitační splaškovou kanalizaci se třemi výtlačnými úseky a dvě ČOV. ČOV 1 u Lučiny je spojená s Vojkovicemi (710 EO), ČOV 2 u centra má 260 EO, celkem 970 EO. Ve Změně č. 1 jsou vedeny jako VT3 a VT4 mezi veřejně prospěšnými stavbami. Změna č. 1 navíc doplnila, že do jejich výstavby se odpadní vody řeší decentrálně, přednostně domovními ČOV.</li>
+<li>Obec přispívá na výměnu žumpy nebo septiku za domovní ČOV částkou až 50 tis. Kč (usnesení 104/5/2023, znovu zasedání ZO č. 24 ze dne 18. 9. 2025). Viz též <a href="hd-dotace.html">Dotace</a>.</li>
+</ul>
+<p><strong>Odvozeno:</strong> U novostaveb se domovní ČOV prosadily. U domů z let 2022–2026 má vlastní ČOV 34 ze 48 (71 %). U domů z let 2016–2021 je to 40 %, u let 2001–2015 23 % a u domů do roku 2000 méně než 1 %.</p>
+<table>
+<thead>
+<tr>
+<th>Období dokončení</th>
+<th style="text-align: right;">Domů</th>
+<th style="text-align: right;">Žumpa/septik</th>
+<th style="text-align: right;">Vlastní ČOV</th>
+<th style="text-align: right;">Bez vodovodu (RÚIAN)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>do 2000</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">148</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>2001–2015</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>2016–2021</td>
+<td style="text-align: right;">98</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>2022–2026</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+<p>Tabulka zahrnuje všechny budovy s číslem popisným nebo evidenčním, proto se počty mírně liší od řady rodinných domů v oddílu 1.</p>
+<h3 id="34-plán-rozvoje-vodovodů-a-kanalizací-msk">3.4 Plán rozvoje vodovodů a kanalizací MSK</h3>
+<p>Kartu obce z PRVKÚK MSK se nepodařilo získat: web <a href="https://prvk.msk.cz">https://prvk.msk.cz</a> 30. 10. 2026 opakovaně vracel chybu 503 a archivní kopie nebyla dostupná. Nepřímo je známo, že Změna č. 1 územního plánu vychází z PRVKÚK MSK „včetně aktualizací č. 1 až č. 15“ a že územní plán Dolních Domaslavic cituje z PRVKÚK návrh druhého vodojemu v Soběšovicích (viz 3.2). Údaje z karty obce budou doplněny, až bude zdroj dostupný.</p>
+<h2 id="4-územní-plán-kolik-ploch-pro-bydlení-zbývá">4. Územní plán: kolik ploch pro bydlení zbývá</h2>
+<p><strong>Doloženo:</strong></p>
+<ul>
+<li><strong>Návrh zprávy o uplatňování ÚP (2025), tabulka 1:</strong> zastavitelné plochy smíšené obytné (SB) mají celkem <strong>53,61 ha</strong>. Územními rozhodnutími a souhlasy z období 1. 9. 2022 – 3. 9. 2025 se využilo <strong>2,23 ha</strong>, k zastavění tedy zbývá <strong>51,38 ha</strong>.
+<ul>
+<li>Ze 56 ploch je 42 nevyužitých, 13 částečně využitých a jedna (Z55) zcela využitá.</li>
+<li>Největší rezervy mají plochy Z1 (6,02 ha), Z50 (5,84 ha), Z53 (4,89 ha), Z52 (3,91 ha), Z27 (2,82 ha), Z31 (2,31 ha), Z45 (1,99 ha), Z5 (1,63 ha) a Z2 (1,38 ha).</li>
+</ul></li>
+<li><strong>Změna č. 1 (2023):</strong> zastavitelné plochy pro bydlení klesly ze 70,95 ha na <strong>54,20 ha</strong>. To podle podmínek ÚP umožňuje <strong>asi 271 RD</strong>. Projektant počítal s potřebou <strong>asi 80 bytů za 15 let</strong>, převis nabídky tak vychází na 239 %. Územní plán z roku 2011 měl převis asi 450 % a počítal s 55 RD a 780 obyvateli do roku 2025. Skutečnost do roku 2025 byla 1 109 obyvatel a podle ČSÚ 162 dokončených bytů v letech 2011–2025.</li>
+<li>Změna č. 1 předpokládá růst na <strong>1 250–1 300 obyvatel do roku 2037</strong>.</li>
+<li>Podle zprávy 2025 obec obdržela <strong>20 podnětů na nové zastavitelné plochy</strong>. Kvůli dostatku ploch není žádný zařazen do zadání Změny č. 2, která má být jen technická (nový stavební zákon a jednotný standard).</li>
+</ul>
+<p><strong>Odvozeno:</strong></p>
+<ul>
+<li>Při hustotě ze Změny č. 1 (271 RD na 54,20 ha, tedy asi 2 000 m² na dům) odpovídá zbylých 51,38 ha zhruba <strong>257 rodinným domům</strong>.</li>
+<li>Při tempu 10 RD ročně by plochy vystačily asi na 25 let, při tempu z let 2017–2022 (asi 16 ročně) na 16 let.</li>
+<li>Nabídka ploch tedy růst obce neomezuje. Omezením může být infrastruktura (vodovod, silnice, MŠ) a ochota vlastníků prodávat. Změna č. 1 sama zmiňuje, že část vlastníků s prodejem „spekulativně čeká“.</li>
+<li>257 domů by při 2,6 obyvatele čistého přírůstku na byt znamenalo asi +670 obyvatel, tedy zhruba 1 780 obyvatel. To je výrazně víc než výhled 1 250–1 300 do roku 2037. Výpočet je jen ilustrační horní mez.</li>
+</ul>
+<p>Srovnání ploch a zástavby se sousedními obcemi je na stránkách <a href="srovnani-plochy.html">Srovnání: plochy</a>, <a href="srovnani-zastavba.html">Srovnání: zástavba</a> a <a href="srovnani-obyvatelstvo-vystavba.html">Srovnání: obyvatelstvo a výstavba</a>.</p>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li><strong>RÚIAN je stav k jednomu datu.</strong> Nezahrnuje zbořené domy ani rozestavěné stavby. Pro staré domy má jen zástupná data dokončení (1919, 1945, 1960 …). Řada po letech je spolehlivá od roku 2001. U 31 RD datum dokončení chybí úplně a jde převážně o starší domy.</li>
+<li><strong>„RD dokončené“ podle RÚIAN a „dokončené byty“ podle ČSÚ nejsou totéž.</strong> ČSÚ počítá byty z kolaudací včetně nástaveb a přístaveb, RÚIAN počítá budovy podle zapsaného data dokončení. V jednotlivých letech se liší o 1–4.</li>
+<li><strong>Rok 2025 je u ČSÚ zřejmě předběžný</strong> (poznámka 2 v tabulce 14) a datová sada „Dokončené byty v obcích“ se od roku 2026 už nebude aktualizovat. Zahájené byty za obce ČSÚ nezveřejňuje.</li>
+<li><strong>Atribut „S vodovodem“ v RÚIAN nerozlišuje</strong> veřejný vodovod a vlastní studnu. Na ověření kapacitních problémů vodovodu se nedá použít.</li>
+<li><strong>Kdo vlastní vodovod, není doloženo.</strong> Doložen je jen provozovatel SmVaK. Údaje strategického plánu („vodovod v majetku obce“) a nulové rozpočtové položky 2310 si odporují.</li>
+<li><strong>Podíl napojených domácností na vodovod</strong> se liší podle zdroje: strategický plán uvádí asi 96 % domácností, sčítání 2021 93 % obydlených domů.</li>
+<li><strong>Hodnota pozemků v rozvaze</strong> je v historických cenách a o počtu ani výměře parcel ve vlastnictví obce nic neříká.</li>
+<li><strong>Kartu PRVKÚK MSK se nepodařilo získat.</strong> Údaj o vodojemu Soběšovice (55 % potřeby) pochází z územního plánu sousední obce z roku 2013 a může být zastaralý.</li>
+<li><strong>Zpráva o uplatňování ÚP je zatím jen návrh</strong>, který se má projednat a schválit. Tabulka zbývajících ploch počítá jen vydaná územní rozhodnutí a souhlasy za tři roky. Plochy zastavěné před 9/2022 už jsou zohledněné ve výměrách ze Změny č. 1.</li>
+<li>Odhad 257 RD a výpočty „na kolik let ploch vystačí“ jsou odvozené výpočty, ne údaje ze zdrojů.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Údaje o stavebních objektech, adresních místech a parcelách pocházejí z výměnného formátu RÚIAN za obec ve stavu k 30. 9. 2026 (<a href="https://vdp.cuzk.gov.cz/vymenny_format/soucasna/20260930_OB_512192_UKSH.xml.zip">https://vdp.cuzk.gov.cz/vymenny_format/soucasna/20260930_OB_512192_UKSH.xml.zip</a>) a z číselníků atributů stavebního objektu ČÚZK (<a href="https://www.cuzk.gov.cz/ruian/Poskytovani-udaju-ISUI-RUIAN-VDP/Ciselniky-ISUI/Atributy-stavebniho-objektu.aspx">https://www.cuzk.gov.cz/ruian/Poskytovani-udaju-ISUI-RUIAN-VDP/Ciselniky-ISUI/Atributy-stavebniho-objektu.aspx</a>). Dokončené byty jsou z datové sady ČSÚ „Dokončené byty v obcích 1997–2024“ (200068-25, <a href="https://csu.gov.cz/produkty/dokoncene-byty-v-obcich">https://csu.gov.cz/produkty/dokoncene-byty-v-obcich</a>, aktualizace 8. 9. 2025) a z publikace ČSÚ Bytová výstavba, tab. 14 (<a href="https://csu.gov.cz/produkty/bvz_cr">https://csu.gov.cz/produkty/bvz_cr</a>, vydáno 7. 9. 2026). Rozvahové položky majetku obce 2010–2025 jsou z extraktů rozvah obcí v Monitoru státní pokladny MF (<a href="https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Rozvaha/">https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Rozvaha/</a>). Údaje o vodovodu a kanalizaci vycházejí z územního plánu obce (2011), Změny č. 1 (2023), návrhu zprávy o uplatňování ÚP (2025), Strategického plánu rozvoje obce 2024–2030, střednědobých výhledů rozpočtu, zápisů ze zasedání zastupitelstva a obecního zpravodaje Informátor, dále z oznámení SmVaK o odstávce č. 11097 (<a href="https://www.hornidomaslavice.cz/obec/aktuality/informace-ou-pro-obcany/smvak-planovana-odstavka-c-11097-horni-domaslavice-275cs.html">https://www.hornidomaslavice.cz/obec/aktuality/informace-ou-pro-obcany/smvak-planovana-odstavka-c-11097-horni-domaslavice-275cs.html</a>), z odůvodnění územního plánu Dolních Domaslavic (<a href="https://www.ddomaslavice.cz/evt_file.php?file=2937">https://www.ddomaslavice.cz/evt_file.php?file=2937</a>, září 2013) a z vyhledávání smluv obce se SmVaK (IČO 45193665) na Hlídači státu (<a href="https://www.hlidacstatu.cz/hledatSmlouvy?Q=ico:00536008%20AND%20ico:45193665">https://www.hlidacstatu.cz/hledatSmlouvy?Q=ico:00536008%20AND%20ico:45193665</a>, bez výsledku). Nahlížení do katastru nemovitostí (<a href="https://nahlizenidokn.cuzk.gov.cz">https://nahlizenidokn.cuzk.gov.cz</a>) bylo 30. 10. 2026 pro strojové dotazy chráněno captchou a karty obcí PRVKÚK MSK (<a href="https://prvk.msk.cz/prvkuk/prvk/karty/prehled">https://prvk.msk.cz/prvkuk/prvk/karty/prehled</a>) byly nedostupné. Úplný seznam majetku obce by bylo možné získat z katastru (API KN ČÚZK po registraci, placený dálkový přístup) nebo z inventurních soupisů obce. Všechna data byla stažena 30. 10. 2026.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

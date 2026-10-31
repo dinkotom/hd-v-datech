@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Školství a sociální situace – Horní Domaslavice v datech</title>
+<meta name="description" content="Mateřská škola, spádové základní školy, nezaměstnanost, exekuce, kriminalita, ovzduší a dostupnost zdravotních a sociálních služeb v Horních Domaslavicích.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details open><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html" aria-current="page">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Školství a sociální situace</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Stránka shrnuje veřejně dostupná data o školství, sociální situaci, bezpečnosti a ovzduší v obci Horní Domaslavice (kód obce 512192, IČO 00536008, okres Frýdek-Místek). Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv České školní inspekce, Sbírky právních předpisů, ČSÚ a MPSV, Exekutorské komory ČR, mapy kriminality Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb MPSV. Data byla stažena 30. 10. 2026; pokud není uvedeno jinak, platí u všech odkazů toto datum přístupu.</p>
+<h2 id="shrnutí">Shrnutí</h2>
+<ul>
+<li><strong>Mateřská škola</strong> má zapsanou kapacitu 44 dětí. Kapacita v rejstříku rostla ve čtyřech krocích: 25 (2012), 28 (od 1. 9. 2018), 41 (od 1. 4. 2021) a 44 (od 1. 9. 2023). Při zápisech v letech 2022–2024 škola zveřejnila 7–11 nepřijatých dětí ročně. V roce 2023 tak nepřijala víc dětí (11), než přijala (8).</li>
+<li><strong>Spádová ZŠ</strong> je od 29. 3. 2024 podle OZV č. 2/2024 ZŠ Frýdek-Místek, Jana Čapka 2555. Dohoda s městem platí do 31. 8. 2027. O jejím prodloužení jednalo zastupitelstvo 6. 10. 2026; výsledek hlasování zatím nebyl ověřen.</li>
+<li><strong>Nezaměstnanost</strong> v obci byla v letech 2018–2024 mezi 2,2 a 3,2 % (průměr roku). V nové řadě MPSV vychází v roce 2025 na 4,6 %, což je zhruba úroveň okresu (4,4 %) a ČR (4,4 %). Přechod mezi oběma řadami je ale nesouvislý, viz oddíl 3.</li>
+<li><strong>Exekuce:</strong> k 1. 10. 2026 bylo v exekuci 13 obyvatel obce s 50 exekucemi. To je zhruba 1,7 % obyvatel starších 15 let, zatímco v okrese je to 4,7 %, v kraji 8,0 % a v ČR 6,6 %.</li>
+<li><strong>Kriminalita:</strong> policejní mapa eviduje v obci 19–23 deliktů ročně (2022–2026). Z nich jsou 3–8 vybrané trestné činy, nejčastěji podvody a jiná majetková trestná činnost. Ostatní jsou přestupky.</li>
+<li><strong>Ovzduší:</strong> podle pětiletého průměru 2020–2024 je v obci benzo(a)pyren 1,2–1,3 ng/m³, tedy nad imisním limitem 1 ng/m³. PM10 (20 µg/m³) a PM2,5 (15 µg/m³) jsou pod limity. Hodnoty od období 2015–2019 výrazně klesají.</li>
+<li><strong>Zdravotní a sociální služby:</strong> v obci nesídlí ani neposkytuje služby žádný registrovaný poskytovatel zdravotních ani sociálních služeb. Nejbližší praktický lékař, pediatr, gynekolog a zubař ordinují v Dobré (č. p. 78). Nejbližší sociální služba je domov se zvláštním režimem DZR Pohoda v Dolních Domaslavicích (46 lůžek).</li>
+</ul>
+<p>Srovnání se sousedními obcemi je na stránce <a href="srovnani-skolstvi-socialni.html">Srovnání: školství a sociální situace</a>.</p>
+<hr />
+<h2 id="1-mateřská-škola-horní-domaslavice-příspěvková-organizace">1. Mateřská škola Horní Domaslavice, příspěvková organizace</h2>
+<h3 id="11-identifikace-v-rejstříku-škol">1.1 Identifikace v rejstříku škol</h3>
+<table>
+<thead>
+<tr>
+<th>Údaj</th>
+<th>Hodnota</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Název</td>
+<td>Mateřská škola Horní Domaslavice, příspěvková organizace</td>
+</tr>
+<tr>
+<td>IČO</td>
+<td>72547839</td>
+</tr>
+<tr>
+<td>RED_IZO</td>
+<td>691003378</td>
+</tr>
+<tr>
+<td>IZO mateřské školy / školní jídelny</td>
+<td>181031680 / 181031698</td>
+</tr>
+<tr>
+<td>Sídlo</td>
+<td>Horní Domaslavice 78, 739 51</td>
+</tr>
+<tr>
+<td>Zřizovatel</td>
+<td>Obec Horní Domaslavice (IČO 00536008)</td>
+</tr>
+<tr>
+<td>Statutární orgán</td>
+<td>ředitelka (ve funkci od 5. 9. 2016)</td>
+</tr>
+<tr>
+<td>Zápis do rejstříku / zahájení činnosti</td>
+<td>11. 10. 2011 / 1. 9. 2012</td>
+</tr>
+<tr>
+<td>Zapsaná kapacita MŠ (stav k 30. 10. 2026)</td>
+<td><strong>44 dětí</strong> (školní jídelna 44 stravovaných)</td>
+</tr>
+</tbody>
+</table>
+<p>Zdroj: otevřená data MŠMT, Rejstřík škol a školských zařízení, Moravskoslezský kraj, datum výstupu 30. 10. 2026, <a href="https://lkod-ftp.msmt.gov.cz/00022985/11f1f670-1a8a-4a8a-b188-0eed2d01fca7/RSSZ-Moravskoslezsky-kraj.jsonld">https://lkod-ftp.msmt.gov.cz/00022985/11f1f670-1a8a-4a8a-b188-0eed2d01fca7/RSSZ-Moravskoslezsky-kraj.jsonld</a>.</p>
+<h3 id="12-vývoj-zapsané-kapacity">1.2 Vývoj zapsané kapacity</h3>
+<table>
+<thead>
+<tr>
+<th>Platnost od</th>
+<th style="text-align: right;">Kapacita MŠ</th>
+<th>Číslo rozhodnutí v rejstříku</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. 9. 2012</td>
+<td style="text-align: right;">25</td>
+<td>MSK 114335/2012</td>
+</tr>
+<tr>
+<td>1. 9. 2018</td>
+<td style="text-align: right;">28</td>
+<td>MSK 85889/2018</td>
+</tr>
+<tr>
+<td>1. 4. 2021</td>
+<td style="text-align: right;">41</td>
+<td>MSK 61262/2020</td>
+</tr>
+<tr>
+<td>1. 9. 2023</td>
+<td style="text-align: right;">44</td>
+<td>MSK 122923/2022</td>
+</tr>
+</tbody>
+</table>
+<p>Kapacita školní jídelny se měnila vždy souběžně. Navýšení o 3 místa, které podle zápisu ze zasedání ZO č. 28 ze dne 9. 8. 2022 a podle Informátoru 2022 povolila krajská hygienická stanice, odpovídá změně 41 → 44. Rozhodnutí má číslo z roku 2022, ale podle rejstříku platí až od 1. 9. 2023. Informátor 2022 přitom uvádí navýšení „v září“ 2022. Tento rozpor z veřejných dat vysvětlit nelze. Inspekční zpráva z roku 2024 spojuje navýšení kapacity a otevření druhé třídy s kompletní rekonstrukcí vnitřních prostor školy po roce 2018. Kapacitu 44 dětí uvádí i demografická studie (EduRegio, 12/2023).</p>
+<h3 id="13-počty-dětí">1.3 Počty dětí</h3>
+<p>Výkonové výkazy MŠMT (S 1-01) se za jednotlivé školy veřejně nepublikují. Počty dětí proto vycházejí z dostupných veřejných dokumentů:</p>
+<table>
+<thead>
+<tr>
+<th>Období</th>
+<th style="text-align: right;">Počet dětí</th>
+<th style="text-align: right;">Kapacita</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>školní rok 2012/13 (inspekce 15.–17. 4. 2013)</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">25</td>
+<td>Inspekční zpráva ČŠIT-819/13-T</td>
+</tr>
+<tr>
+<td>inspekce 4.–6. 12. 2018</td>
+<td style="text-align: right;">28 (jedna třída)</td>
+<td style="text-align: right;">28</td>
+<td>Inspekční zpráva ČŠIT-2456/18-T</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">44</td>
+<td>Demografická studie, tab. 7 (naplněnost 100 %)</td>
+</tr>
+<tr>
+<td>inspekce 25.–27. 9. 2024</td>
+<td style="text-align: right;">42 (dvě věkově smíšené třídy, z toho 5 dětí mladších 3 let)</td>
+<td style="text-align: right;">44</td>
+<td>Inspekční zpráva ČŠIT-1985/24-T</td>
+</tr>
+</tbody>
+</table>
+<p>Vývoj počtu narozených dětí v obci je na stránce <a href="hd-obyvatelstvo.html">Obyvatelstvo</a>.</p>
+<h3 id="14-zápisy-přijaté-a-nepřijaté-děti">1.4 Zápisy: přijaté a nepřijaté děti</h3>
+<p>Škola po každém zápisu zveřejňuje na svém webu seznamy přijatých a nepřijatých dětí pod registračními čísly a předem vyhlašuje, kolik míst je k dispozici. Údaje v tabulce pocházejí z těchto zveřejněných dokumentů.</p>
+<table>
+<thead>
+<tr>
+<th>Zápis pro školní rok</th>
+<th style="text-align: right;">Vyhlášený počet míst</th>
+<th style="text-align: right;">Přijato</th>
+<th style="text-align: right;">Nepřijato (zveřejněný seznam)</th>
+<th style="text-align: right;">Nejvyšší registrační číslo</th>
+<th>Datum zveřejnění</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022/23</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">HD22/18</td>
+<td>25. 5. 2022</td>
+</tr>
+<tr>
+<td>2023/24</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">11 (12 řádků, jedno číslo je v originále uvedeno dvakrát)</td>
+<td style="text-align: right;">HD23/30</td>
+<td>23. 5. 2023</td>
+</tr>
+<tr>
+<td>2024/25</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">HD24/29</td>
+<td>27. 5. 2024</td>
+</tr>
+<tr>
+<td>2025/26</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">seznam nepřijatých nebyl zveřejněn</td>
+<td style="text-align: right;">HD25/18</td>
+<td>21. 5. 2025</td>
+</tr>
+<tr>
+<td>2026/27</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">výsledky na webu nejsou</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+<td>(zápis 24. 3. 2026)</td>
+</tr>
+</tbody>
+</table>
+<p>Nejvyšší registrační číslo ukazuje řádově, kolik žádostí škola přijala. Nemusí se ale rovnat počtu dětí, protože část žádostí mohla být vzata zpět a čísla mohla zůstat neobsazená. Podle kritérií mají přednost děti s povinným předškolním vzděláváním, sourozenci dětí z MŠ, děti s trvalým pobytem v obci (10 bodů) a v Pazderné (9 bodů).</p>
+<p>Dokumenty na webu školy:</p>
+<ul>
+<li>Kritéria 2022/23: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2022/03/SKM_C224e22032810090.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2022/03/SKM_C224e22032810090.pdf</a></li>
+<li>Výsledky 2022/23: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2022/05/SKM_C224e22052414560.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2022/05/SKM_C224e22052414560.pdf</a></li>
+<li>Kritéria 2023/24: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2023/02/Zapis-kriteria-prijeti-23-24.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2023/02/Zapis-kriteria-prijeti-23-24.pdf</a></li>
+<li>Seznamy 2023: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2023/05/Seznam-prijatych-deti-do-MS-k-1.9.2023.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2023/05/Seznam-prijatych-deti-do-MS-k-1.9.2023.pdf</a> a …/Seznam-neprijatych-deti-do-MS-k-1.9.2023.pdf</li>
+<li>Kritéria 2024/25: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2024/04/Zapis-kriteria-prijeti-23-24.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2024/04/Zapis-kriteria-prijeti-23-24.pdf</a> (název souboru uvádí 23-24, obsah se týká roku 2024/25)</li>
+<li>Seznamy 2024: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2024/05/Seznam-prijatych-deti.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2024/05/Seznam-prijatych-deti.pdf</a> a …/Seznam-neprijatych-deti.pdf</li>
+<li>Kritéria 2025/26: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2025/04/Kriteria_pro_prijeti.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2025/04/Kriteria_pro_prijeti.pdf</a></li>
+<li>Výsledky 2025/26: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2025/05/vyskedky-zapisu-deti-do-MS.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2025/05/vyskedky-zapisu-deti-do-MS.pdf</a></li>
+<li>Kritéria 2026/27: <a href="https://mshornidomaslavice.cz/wp-content/uploads/2026/02/Zapis-kriteria-26-27.pdf">https://mshornidomaslavice.cz/wp-content/uploads/2026/02/Zapis-kriteria-26-27.pdf</a></li>
+</ul>
+<h3 id="15-inspekční-zprávy-čši">1.5 Inspekční zprávy ČŠI</h3>
+<p>ČŠI eviduje u MŠ Horní Domaslavice tři inspekční zprávy (InspIS PORTÁL, <a href="https://portal.csicr.cz/School/691003378">https://portal.csicr.cz/School/691003378</a>).</p>
+<ul>
+<li><strong>2013 (15.–17. 4. 2013, ČŠIT-819/13-T):</strong> zpráva popisuje první školní rok provozu. Školu tehdy navštěvovalo 15 dětí při kapacitě 25 a pomůcky i nábytek byly zastaralé.</li>
+<li><strong>2018 (4.–6. 12. 2018, ČŠIT-2456/18-T):</strong> zpráva zmiňuje jednu třídu s 28 dětmi a uvádí, že zřizovatel kvůli demografickému vývoji plánuje rekonstrukci a další třídu. Mezi silné stránky patří tělocvična, dopravní hřiště a spolupráce s obcí. Mezi slabé stránky patří nesystematický rozvoj pedagogů, sporadické inovativní metody, formální pedagogická diagnostika a podceňování nejstarších dětí.</li>
+<li><strong>2024 (25.–27. 9. 2024, ČŠIT-1985/24-T):</strong> zpráva popisuje 42 dětí ve dvou třídách, kompletní rekonstrukci vnitřních prostor, navýšení kapacity a výraznou obměnu sboru. Silnými stránkami jsou empatický přístup a společné závěrečné hodnocení. Přetrvává slabá provázanost diagnostiky s diferencovanou nabídkou. ČŠI také našla dílčí nedostatky při přijímání dětí mladších 3 let a doporučila „ve správním řízení při přijímání dětí důsledně uplatňovat platné právní předpisy“.</li>
+</ul>
+<p>Zprávy: <a href="https://portal.csicr.cz/Files/Get/332a07e62f57485d828b13aed24be9f0">https://portal.csicr.cz/Files/Get/332a07e62f57485d828b13aed24be9f0</a> (2024), <a href="https://portal.csicr.cz/Files/Get/8db09cffe9094b399238a41ad981fd3e">https://portal.csicr.cz/Files/Get/8db09cffe9094b399238a41ad981fd3e</a> (2018) a <a href="https://portal.csicr.cz/Files/Get/EDE154A4-9DB8-4335-8A23-8C7790E125F5?db=Archive">https://portal.csicr.cz/Files/Get/EDE154A4-9DB8-4335-8A23-8C7790E125F5?db=Archive</a> (2013).</p>
+<hr />
+<h2 id="2-spádové-a-okolní-základní-školy">2. Spádové a okolní základní školy</h2>
+<h3 id="21-platná-školská-obvodová-vyhláška">2.1 Platná školská obvodová vyhláška</h3>
+<p>Ve Sbírce právních předpisů ÚSC je pro obec platná <strong>OZV č. 2/2024, kterou se stanoví část společného školského obvodu základní školy</strong>. Vydána byla 12. 3. 2024 usnesením č. 186/12/2024, vyhlášena 14. 3. 2024 a účinná je od 29. 3. 2024. Podle ní je území obce částí školského obvodu <strong>Základní školy Frýdek-Místek, Jana Čapka 2555, p. o.</strong> na základě dohody se statutárním městem Frýdek-Místek. Vyhláška zároveň ruší OZV č. 3/2019, která obec přiřazovala ke ZŠ Dobrá.</p>
+<ul>
+<li>Detail vyhlášky: <a href="https://sbirkapp.gov.cz/detail/SPPS2EH7OQ5TCUUA">https://sbirkapp.gov.cz/detail/SPPS2EH7OQ5TCUUA</a></li>
+<li>Přehled předpisů obce: <a href="https://sbirkapp.gov.cz/vydavatel/gr4bkxm">https://sbirkapp.gov.cz/vydavatel/gr4bkxm</a> (17 podání, žádná novější školská vyhláška).</li>
+<li>Průběh podle zápisů ze zasedání zastupitelstva: Dobrá vypověděla dohodu 12. 6. 2023 (zápis ze zasedání ZO č. 6 ze dne 20. 6. 2023). Rada Dolních Domaslavic uzavření dohody nedoporučila a obec požádala Krajský úřad MSK o určení spádové školy (zasedání ZO č. 8 ze dne 19. 9. 2023 a č. 9 ze dne 24. 10. 2023). Dohodu s Frýdkem-Místkem na 3 roky schválilo zastupitelstvo 12. 3. 2024 (zasedání ZO č. 12). Na zasedání ZO č. 34 dne 6. 10. 2026 se projednávala žádost magistrátu o stanovisko k prodloužení dohody, která platí do 31. 8. 2027. <strong>Výsledek hlasování zatím nebyl ověřen z usnesení.</strong></li>
+</ul>
+<h3 id="22-kapacity-podle-rejstříku">2.2 Kapacity podle rejstříku</h3>
+<table>
+<thead>
+<tr>
+<th>Škola</th>
+<th>RED_IZO / IČO</th>
+<th>ZŠ: kapacita (vývoj)</th>
+<th>MŠ: kapacita (vývoj)</th>
+<th>Družina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ZŠ a MŠ Dolní Domaslavice</td>
+<td>600133681 / 75026465</td>
+<td>250 žáků (beze změny od 2007)</td>
+<td>25 (2007) → 35 (2009) → 40 (2011) → 49 (1. 9. 2021) → <strong>75 (1. 9. 2025)</strong></td>
+<td>45 → 60 → 80 → 90 (2026); nově i školní klub 40</td>
+</tr>
+<tr>
+<td>ZŠ Dobrá</td>
+<td>600133664 / 68334273</td>
+<td>650 → <strong>675 (1. 9. 2020)</strong></td>
+<td>–</td>
+<td>75 → 90 → 120 → 150 → 180 (2023) → 210 (2026)</td>
+</tr>
+<tr>
+<td>MŠ Dobrá</td>
+<td>600132340 / 75027526</td>
+<td>–</td>
+<td>120 → 136 (2012) → 151 (2014) → <strong>183 (1. 9. 2022)</strong></td>
+<td>–</td>
+</tr>
+<tr>
+<td>ZŠ F-M, Jana Čapka 2555 (spádová)</td>
+<td>600134504 / 64120341</td>
+<td>540</td>
+<td>–</td>
+<td>150</td>
+</tr>
+</tbody>
+</table>
+<p>Zdroj: otevřená data rejstříku škol k 30. 10. 2026 a API rejstříku na isv.gov.cz pro historii. Na zasedání ZO č. 11 dne 16. 1. 2024 zazněl údaj, že kapacita ZŠ Dolní Domaslavice je 258 žáků. Rejstřík ale od roku 2007 uvádí 250.</p>
+<h3 id="23-počty-žáků-a-dětí">2.3 Počty žáků a dětí</h3>
+<table>
+<thead>
+<tr>
+<th>Škola</th>
+<th>Údaj</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ZŠ Dolní Domaslavice</td>
+<td>212 žáků / 250 (2023)</td>
+<td>demografická studie, tab. 8</td>
+</tr>
+<tr>
+<td></td>
+<td>214 žáků (leden 2024)</td>
+<td>zápis ze zasedání ZO č. 11 ze dne 16. 1. 2024 (údaj obce Dolní Domaslavice)</td>
+</tr>
+<tr>
+<td></td>
+<td>210 žáků, 49 dětí v MŠ (únor 2024)</td>
+<td>ČŠIT-234/24-T, <a href="https://portal.csicr.cz/Files/Get/79e1b1e5761a4ac3b8d7a8f31a17224e">https://portal.csicr.cz/Files/Get/79e1b1e5761a4ac3b8d7a8f31a17224e</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>230 žáků ve 12 třídách, 69 dětí v MŠ ve 3 třídách</strong> (květen 2026); „přibližně polovina žáků dojíždí z jiných obcí“</td>
+<td>ČŠIT-1337/26-T, <a href="https://portal.csicr.cz/Files/Get/cd3f957c37c54d36b9895f1c2058ab7e">https://portal.csicr.cz/Files/Get/cd3f957c37c54d36b9895f1c2058ab7e</a></td>
+</tr>
+<tr>
+<td></td>
+<td>školu navštěvuje 54 dětí z Horních Domaslavic</td>
+<td>zápis ze zasedání ZO č. 31 ze dne 18. 6. 2026 (žádost Dolních Domaslavic o příspěvek 2 000 Kč na žáka)</td>
+</tr>
+<tr>
+<td>ZŠ Dobrá</td>
+<td>636 žáků ve 28 třídách, naplněnost 97 % (únor 2020)</td>
+<td>ČŠIT-225/20-T, <a href="https://portal.csicr.cz/Files/Get/ad2595cecf9a4230899bdcfb4c2fc19b">https://portal.csicr.cz/Files/Get/ad2595cecf9a4230899bdcfb4c2fc19b</a></td>
+</tr>
+<tr>
+<td></td>
+<td>642 žáků / 675 (2023)</td>
+<td>demografická studie, tab. 8</td>
+</tr>
+<tr>
+<td>MŠ Dobrá</td>
+<td>181 dětí / 183 (2023)</td>
+<td>demografická studie, tab. 7</td>
+</tr>
+</tbody>
+</table>
+<p>Poslední inspekce ZŠ Dobrá proběhla v roce 2020.</p>
+<hr />
+<h2 id="3-nezaměstnanost">3. Nezaměstnanost</h2>
+<p><strong>Ukazatel:</strong> podíl nezaměstnaných osob (PNO) je podíl dosažitelných uchazečů o zaměstnání ve věku 15–64 let na obyvatelstvu 15–64 let.</p>
+<h3 id="31-řada-20152024-čsú-roční-průměr-měsíčních-hodnot">3.1 Řada 2015–2024 (ČSÚ, roční průměr měsíčních hodnot)</h3>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">HD: PNO (%)</th>
+<th>HD: dosažitelní uchazeči (průměr / prosinec)</th>
+<th style="text-align: right;">Město F-M: PNO (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2015*</td>
+<td style="text-align: right;">4,65</td>
+<td>25,5 / 25</td>
+<td style="text-align: right;">7,42</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">4,46</td>
+<td>24,4 / 19</td>
+<td style="text-align: right;">6,58</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">3,11</td>
+<td>16,9 / 12</td>
+<td style="text-align: right;">5,37</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">2,20</td>
+<td>12,2 / 14</td>
+<td style="text-align: right;">4,26</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">2,21</td>
+<td>12,9 / 17</td>
+<td style="text-align: right;">3,59</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">2,63</td>
+<td>16,0 / 23</td>
+<td style="text-align: right;">4,27</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">3,23</td>
+<td>20,0 / 19</td>
+<td style="text-align: right;">4,29</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">2,21</td>
+<td>14,2 / 14</td>
+<td style="text-align: right;">3,98</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">2,20</td>
+<td>14,5 / 15</td>
+<td style="text-align: right;">4,38</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">2,16</td>
+<td>14,7 / 18</td>
+<td style="text-align: right;">5,06</td>
+</tr>
+</tbody>
+</table>
+<p>* 2015 jen 6 měsíců (březen, červen, září–prosinec).</p>
+<h3 id="32-řada-od-2025-mpsv-roční-průměr">3.2 Řada od 2025 (MPSV, roční průměr)</h3>
+<table>
+<thead>
+<tr>
+<th>Území</th>
+<th style="text-align: right;">2025</th>
+<th style="text-align: right;">2026 (1–9)</th>
+<th style="text-align: right;">30. 9. 2026</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Horní Domaslavice</td>
+<td style="text-align: right;">4,63 % (28–40 uchazečů)</td>
+<td style="text-align: right;">4,61 %</td>
+<td style="text-align: right;">3,71 % (27 uchazečů, 728 obyv. 15–64)</td>
+</tr>
+<tr>
+<td>Dolní Domaslavice</td>
+<td style="text-align: right;">4,31 %</td>
+<td style="text-align: right;">3,66 %</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>ORP Frýdek-Místek</td>
+<td style="text-align: right;">4,71 %</td>
+<td style="text-align: right;">5,27 %</td>
+<td style="text-align: right;">5,19 %</td>
+</tr>
+<tr>
+<td>okres Frýdek-Místek</td>
+<td style="text-align: right;">4,38 %</td>
+<td style="text-align: right;">4,97 %</td>
+<td style="text-align: right;">4,93 %</td>
+</tr>
+<tr>
+<td>Moravskoslezský kraj</td>
+<td style="text-align: right;">6,29 %</td>
+<td style="text-align: right;">7,04 %</td>
+<td style="text-align: right;">7,10 %</td>
+</tr>
+<tr>
+<td>Česko</td>
+<td style="text-align: right;">4,43 %</td>
+<td style="text-align: right;">4,98 %</td>
+<td style="text-align: right;">4,97 %</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Pozor na zlom řady.</strong> V prosinci 2024 uvádí ČSÚ pro obec 18 dosažitelných uchazečů (PNO 2,6 %). V lednu 2025 uvádí MPSV 30 (PNO 4,4 %). U města Frýdek-Místek na sebe obě řady plynule navazují (5,4 % → 5,7 %). Skok v obci tedy může být reálný nárůst, nebo může jít o rozdíl v metodice či přiřazení adres. Při malých číslech (desítky osob) to z veřejných dat rozhodnout nelze. Řady 3.1 a 3.2 proto nelze bez upozornění spojovat do jednoho grafu.</p>
+<hr />
+<h2 id="4-exekuce">4. Exekuce</h2>
+<p>Údaje jsou z otevřených dat Exekutorské komory ČR, sady „Počet exekucí fyzických osob evidovaných v jednotlivých obcích ČR“, stav k <strong>1. 10. 2026</strong>. Podíl osob je dopočítán k obyvatelům starším 15 let podle Sčítání 2021, protože novější věkové složení za všechna srovnávaná území není k dispozici.</p>
+<table>
+<thead>
+<tr>
+<th>Území</th>
+<th style="text-align: right;">Osoby v exekuci</th>
+<th style="text-align: right;">Počet exekucí</th>
+<th style="text-align: right;">Exekucí na osobu</th>
+<th style="text-align: right;">Obyvatelé 15+ (SLDB 2021)</th>
+<th style="text-align: right;">Podíl osob v exekuci</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Horní Domaslavice</strong></td>
+<td style="text-align: right;"><strong>13</strong></td>
+<td style="text-align: right;"><strong>50</strong></td>
+<td style="text-align: right;">3,8</td>
+<td style="text-align: right;">758</td>
+<td style="text-align: right;"><strong>1,7 %</strong></td>
+</tr>
+<tr>
+<td>Dolní Domaslavice</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">4,7</td>
+<td style="text-align: right;">1 133</td>
+<td style="text-align: right;">2,0 %</td>
+</tr>
+<tr>
+<td>Dobrá</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">346</td>
+<td style="text-align: right;">4,7</td>
+<td style="text-align: right;">2 563</td>
+<td style="text-align: right;">2,9 %</td>
+</tr>
+<tr>
+<td>Dobratice</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">3,3</td>
+<td style="text-align: right;">1 060</td>
+<td style="text-align: right;">0,9 %</td>
+</tr>
+<tr>
+<td>Soběšovice</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">4,2</td>
+<td style="text-align: right;">803</td>
+<td style="text-align: right;">2,2 %</td>
+</tr>
+<tr>
+<td>Lučina</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">183</td>
+<td style="text-align: right;">4,3</td>
+<td style="text-align: right;">1 209</td>
+<td style="text-align: right;">3,6 %</td>
+</tr>
+<tr>
+<td>Nošovice</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">142</td>
+<td style="text-align: right;">5,7</td>
+<td style="text-align: right;">823</td>
+<td style="text-align: right;">3,0 %</td>
+</tr>
+<tr>
+<td>Pazderna</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">5,5</td>
+<td style="text-align: right;">240</td>
+<td style="text-align: right;">4,6 %</td>
+</tr>
+<tr>
+<td>město Frýdek-Místek</td>
+<td style="text-align: right;">3 712</td>
+<td style="text-align: right;">18 465</td>
+<td style="text-align: right;">5,0</td>
+<td style="text-align: right;">45 640</td>
+<td style="text-align: right;">8,1 %</td>
+</tr>
+<tr>
+<td>okres Frýdek-Místek</td>
+<td style="text-align: right;">8 166</td>
+<td style="text-align: right;">38 427</td>
+<td style="text-align: right;">4,7</td>
+<td style="text-align: right;">175 284</td>
+<td style="text-align: right;">4,7 %</td>
+</tr>
+<tr>
+<td>Moravskoslezský kraj</td>
+<td style="text-align: right;">78 553</td>
+<td style="text-align: right;">404 808</td>
+<td style="text-align: right;">5,2</td>
+<td style="text-align: right;">982 717</td>
+<td style="text-align: right;">8,0 %</td>
+</tr>
+<tr>
+<td>Česko</td>
+<td style="text-align: right;">586 014</td>
+<td style="text-align: right;">2 972 107</td>
+<td style="text-align: right;">5,1</td>
+<td style="text-align: right;">8 832 407</td>
+<td style="text-align: right;">6,6 %</td>
+</tr>
+</tbody>
+</table>
+<p>Obec dnes má víc obyvatel (1 074 k 31. 12. 2024, z toho 837 ve věku 15+). Se jmenovatelem z roku 2024 by podíl byl 1,55 %. Ať se použije kterýkoli jmenovatel, obec patří k nejméně zatíženým v okolí. Řadu po letech z tohoto zdroje získat nelze, protože sada obsahuje jen aktuální stav.</p>
+<hr />
+<h2 id="5-kriminalita">5. Kriminalita</h2>
+<h3 id="51-příslušnost">5.1 Příslušnost</h3>
+<p>Obec spadá pod <strong>Obvodní oddělení Policie ČR Nošovice</strong> (Nošovice 155), Územní odbor Frýdek-Místek. Územní působnost OOP Nošovice: Dobrá, Žermanice, Bruzovice, Horní Domaslavice, Kaňovice, Lučina, Nižní Lhoty, Nošovice, Pazderná, Sedliště, Krásná, Raškovice, Morávka, Pražmo, Vyšní Lhoty, Dobratice, Horní a Dolní Tošanovice, Třanovice, Vojkovice, Soběšovice, Dolní Domaslavice. Zdroj: <a href="https://policie.gov.cz/moravskoslezsky-kraj/obvodni-oddeleni-nosovice">https://policie.gov.cz/moravskoslezsky-kraj/obvodni-oddeleni-nosovice</a>. Historicky šlo o OOP Dobrá, které od 1. 1. 2009 nahradilo OOP Nošovice (<a href="https://policie.gov.cz/clanek/informace-o-organizacnich-zmenach.aspx">https://policie.gov.cz/clanek/informace-o-organizacnich-zmenach.aspx</a>).</p>
+<h3 id="52-delikty-v-obci-20132026">5.2 Delikty v obci 2013–2026</h3>
+<p>Údaje jsou z otevřených dat Mapy kriminality Policie ČR po obcích (aktualizace roku 2026 z 26. 9. 2026). Každý delikt je počítán jednou, i když může mít v datech více typů.</p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Delikty celkem</th>
+<th style="text-align: right;">Přestupky</th>
+<th style="text-align: right;">Vybrané trestné činy</th>
+<th>Složení trestných činů</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td>–</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td>krádež</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td>–</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">3</td>
+<td>podvod, požár, obecně nebezpečná, jiná majetková</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td>jiná majetková 3, krádeže 2, vloupání 1, toxikomanie 1</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
+<td>podvody 2, jiná majetková 1</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">1</td>
+<td>podvod</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">2</td>
+<td>násilný, vloupání, obecně nebezpečná</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">2</td>
+<td>toxikomanie, jiná majetková, násilný</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">3</td>
+<td>násilné 2, krádež 1</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">8</td>
+<td>podvody 5, jiná majetková, násilný, obecně nebezpečná, vloupání</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">3</td>
+<td>jiná majetková 2, podvody 2</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">8 (+1 dopravní nehoda)</td>
+<td>jiná majetková 5, podvody 3, násilné 2, krádež, toxikomanie</td>
+</tr>
+<tr>
+<td>2026 (do září)</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">4 (+1 dopravní nehoda)</td>
+<td>vloupání 2, krádeže 2, obecně nebezpečná 2, jiná majetková, násilný</td>
+</tr>
+</tbody>
+</table>
+<p>Jeden trestný čin může patřit do více skupin, proto se součet složení může lišit od počtu. Při 1 109 obyvatelích (2025) vychází asi 7 vybraných trestných činů na 1 000 obyvatel.</p>
+<h3 id="53-srovnání-s-okolními-obcemi-stejný-zdroj">5.3 Srovnání s okolními obcemi (stejný zdroj)</h3>
+<table>
+<thead>
+<tr>
+<th>Obec (obyv. SLDB 2021)</th>
+<th>2023: delikty / z toho TČ</th>
+<th>2024</th>
+<th>2025</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Horní Domaslavice (978)</td>
+<td>21 / 8</td>
+<td>21 / 3</td>
+<td>23 / 8</td>
+</tr>
+<tr>
+<td>Dolní Domaslavice (1 393)</td>
+<td>32 / 5</td>
+<td>42 / 3</td>
+<td>119 / 7</td>
+</tr>
+<tr>
+<td>Dobrá (3 049)</td>
+<td>854 / 29</td>
+<td>758 / 34</td>
+<td>518 / 34</td>
+</tr>
+<tr>
+<td>Pazderna (322)</td>
+<td>55 / 3</td>
+<td>75 / 1</td>
+<td>54 / 0</td>
+</tr>
+<tr>
+<td>Dobratice (1 304)</td>
+<td>46 / 3</td>
+<td>39 / 1</td>
+<td>50 / 3</td>
+</tr>
+<tr>
+<td>Lučina (1 477)</td>
+<td>55 / 7</td>
+<td>41 / 11</td>
+<td>41 / 6</td>
+</tr>
+</tbody>
+</table>
+<p>Přestupky převažují v obcích s frekventovanými silnicemi (Dobrá, Pazderna) a jejich počet závisí hlavně na dopravních kontrolách. Pro srovnání bezpečnosti je proto vhodnější sloupec trestných činů.</p>
+<p><strong>Omezení:</strong> data obsahují jen vybrané druhy trestných činů (u nichž má zveřejnění preventivní smysl) a všechny přestupky. Polohy jsou anonymizované a obce s méně než 25 delikty (což je i Horní Domaslavice) nejsou dál děleny. Údaje odpovídají poslednímu stavu u policie a nezohledňují výsledek řízení u státního zastupitelství nebo soudu. Souhrnná statistika za OOP Nošovice ani za okres v otevřené podobě k dispozici není.</p>
+<hr />
+<h2 id="6-ovzduší">6. Ovzduší</h2>
+<h3 id="61-pětileté-průměry-koncentrací-čhmú">6.1 Pětileté průměry koncentrací (ČHMÚ)</h3>
+<p>ČHMÚ zveřejňuje pětileté průměry koncentrací ve čtvercové síti 1 × 1 km. Území obce zasahuje do 12 čtverců sítě, ze kterých připadá na obec 5,09 km². Hodnoty v tabulce jsou průměry vážené podílem plochy čtverce v obci, v závorce je rozpětí mezi čtverci.</p>
+<table>
+<thead>
+<tr>
+<th>Období</th>
+<th>Benzo(a)pyren roční (ng/m³), limit 1</th>
+<th>PM10 roční (µg/m³), limit 40</th>
+<th>PM10 36. nejvyšší denní (µg/m³), limit 50</th>
+<th>PM2,5 roční (µg/m³), limit 20</th>
+<th>NO2 roční (µg/m³), limit 40</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2015–2019</td>
+<td><strong>2,48</strong> (2,3–2,6)</td>
+<td>27,8</td>
+<td><strong>53,0</strong></td>
+<td><strong>22,1</strong></td>
+<td>12,7</td>
+</tr>
+<tr>
+<td>2016–2020</td>
+<td><strong>2,28</strong> (2,2–2,4)</td>
+<td>26,0</td>
+<td>48,8</td>
+<td><strong>20,6</strong></td>
+<td>12,3</td>
+</tr>
+<tr>
+<td>2017–2021</td>
+<td><strong>2,09</strong> (2,0–2,2)</td>
+<td>24,7</td>
+<td>46,5</td>
+<td>19,5</td>
+<td>12,1</td>
+</tr>
+<tr>
+<td>2018–2022</td>
+<td><strong>1,79</strong> (1,7–1,8)</td>
+<td>23,1</td>
+<td>41,0</td>
+<td>18,2</td>
+<td>11,8</td>
+</tr>
+<tr>
+<td>2019–2023</td>
+<td><strong>1,49</strong> (1,4–1,5)</td>
+<td>20,8</td>
+<td>35,5</td>
+<td>16,0</td>
+<td>11,0</td>
+</tr>
+<tr>
+<td>2020–2024</td>
+<td><strong>1,29</strong> (1,2–1,3)</td>
+<td>20,1 (19,8–20,5)</td>
+<td>34,5</td>
+<td>15,3 (15,2–15,5)</td>
+<td>10,3</td>
+</tr>
+</tbody>
+</table>
+<p>Tučně jsou hodnoty nad imisním limitem podle přílohy č. 1 zákona č. 201/2012 Sb. Benzo(a)pyren je v obci nad limitem ve všech pětiletých obdobích, ale od 2015–2019 klesl skoro o polovinu. Denní limit PM10 (36. nejvyšší hodnota) a roční limit PM2,5 byly překročeny ještě v průměrech 2015–2019 a 2016–2020, dnes jsou pod limitem. Pro kontext: evropská směrnice (EU) 2024/2881 zavádí od roku 2030 přísnější roční limity (PM2,5 10 µg/m³, PM10 20 µg/m³), které by obec s dnešními hodnotami nesplnila. Tento údaj vychází z textu směrnice, nikoli z dat ČHMÚ.</p>
+<h3 id="62-oblast-se-zhoršenou-kvalitou-ovzduší">6.2 Oblast se zhoršenou kvalitou ovzduší</h3>
+<p>ČHMÚ každoročně vymezuje oblasti s překročením imisních limitů. Podle Grafické ročenky 2025 (<a href="https://opendata.chmi.cz/air_quality/products/yearbooks/CHMU_grafroc2025.pdf">https://opendata.chmi.cz/air_quality/products/yearbooks/CHMU_grafroc2025.pdf</a>, kap. VII) bylo v roce 2025 vymezeno 1,1 % území ČR (6,6 % obyvatel), téměř výhradně kvůli benzo(a)pyrenu. Obec leží v <strong>aglomeraci CZ08A Ostrava/Karviná/Frýdek-Místek</strong>, kterou tvoří tři celé okresy včetně okresu Frýdek-Místek. V aglomeraci byl limit pro benzo(a)pyren v roce 2025 překročen na 32,03 % plochy a nadlimitním koncentracím bylo vystaveno asi 59 % obyvatel (tab. VII.1.2 a VII.1.3). Ročenka uvádí, že v okrese Frýdek-Místek se pevnými palivy topí v blížících se 20 % bytů (SLDB 2021), a dává to do souvislosti s emisemi benzo(a)pyrenu.</p>
+<p>Ročenka vymezení publikuje mapou a tabulkami za zóny, aglomerace a kraje. Seznam obcí ani hodnotu za samotnou obec neuvádí. <strong>Že území obce leží nad limitem pro benzo(a)pyren, dokládá proto pětiletý průměr 2020–2024 (oddíl 6.1), ne přímo roční vymezení za rok 2025.</strong></p>
+<h3 id="63-vytápění-a-kotlíkové-dotace">6.3 Vytápění a kotlíkové dotace</h3>
+<ul>
+<li>Podle Sčítání 2021 topí uhlím, koksem nebo uhelnými briketami <strong>69 z 324 obydlených bytů (21 %)</strong>, dřevem 72 (22 %), elektřinou 85, zemním plynem 37, tepelným čerpadlem 27 a peletami 13. V okrese je to uhlím 6 897 z 83 270 bytů (8 %), v kraji 5 % a v ČR 5 %. Podrobněji na stránce <a href="hd-obyvatelstvo.html">Obyvatelstvo</a>.</li>
+<li>Kotlíkové dotace MSK, 4. výzva: obec se zavázala přispět 7 500 Kč na každou výměnu kotle a vyčlenila celkem 75 000 Kč (Informátor 2022, zápis ze zasedání ZO č. 26 ze dne 7. 4. 2022). Hlídač státu eviduje vztah obce ke „Kotlíkovým dotacím v MSK – 4. grantové schéma“ s částkami 15 000 Kč (2022) a 19 500 Kč (2023). Jde o příspěvek obce kraji, ne o příjem obce (viz <a href="hd-dotace.html">Dotace</a>). V roce 2023 obec na položce 6342 vydala 30 000 Kč, což by odpovídalo 4 kotlům. <strong>Počet vyměněných kotlů v obci podle krajských dat dohledat nelze.</strong></li>
+</ul>
+<hr />
+<h2 id="7-zdravotnictví-a-sociální-služby">7. Zdravotnictví a sociální služby</h2>
+<h3 id="71-poskytovatelé-zdravotních-služeb-nrpzs">7.1 Poskytovatelé zdravotních služeb (NRPZS)</h3>
+<p><strong>V Horních Domaslavicích není registrováno žádné místo poskytování zdravotních služeb a žádný poskytovatel tu nemá sídlo.</strong> Nejbližší místa poskytování péče:</p>
+<table>
+<thead>
+<tr>
+<th>Obec, adresa</th>
+<th>Zařízení</th>
+<th>Obor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dobrá 78</td>
+<td>Doktor Moravec s.r.o.</td>
+<td>všeobecné praktické lékařství</td>
+</tr>
+<tr>
+<td>Dobrá 78</td>
+<td>poskytovatel – fyzická osoba</td>
+<td>praktický lékař pro děti a dorost</td>
+</tr>
+<tr>
+<td>Dobrá 78</td>
+<td>GYN-PREN s.r.o.</td>
+<td>gynekologie a porodnictví</td>
+</tr>
+<tr>
+<td>Dobrá 78</td>
+<td>poskytovatel – fyzická osoba</td>
+<td>zubní lékařství</td>
+</tr>
+<tr>
+<td>Dobrá 230</td>
+<td>Lékárna Zdraví s.r.o.</td>
+<td>lékárna</td>
+</tr>
+<tr>
+<td>Dobrá 1130</td>
+<td>Dr. Max Lékárna</td>
+<td>lékárna (od 4/2024)</td>
+</tr>
+<tr>
+<td>Dolní Domaslavice 31</td>
+<td>poskytovatel – fyzická osoba</td>
+<td>všeobecné praktické lékařství (pracoviště i v Nošovicích a Vojkovicích)</td>
+</tr>
+<tr>
+<td>Dolní Domaslavice 249</td>
+<td>DZR Pohoda, z. ú.</td>
+<td>ošetřovatelská péče v pobytovém zařízení sociálních služeb</td>
+</tr>
+<tr>
+<td>Nošovice (areál Hyundai)</td>
+<td>Zdravotnická záchranná služba MSK</td>
+<td>výjezdová základna</td>
+</tr>
+</tbody>
+</table>
+<h3 id="72-registr-poskytovatelů-sociálních-služeb-mpsv">7.2 Registr poskytovatelů sociálních služeb (MPSV)</h3>
+<ul>
+<li><strong>Žádná registrovaná sociální služba nemá zařízení ani kontaktní adresu v Horních Domaslavicích.</strong></li>
+<li>Nejbližší pobytová služba je <strong>DZR Pohoda, z. ú.</strong> (IČO 07174357), domov se zvláštním režimem v Dolních Domaslavicích, 46 lůžek, poskytuje od 1. 9. 2018. V Dobré, Pazderně, Nošovicích, Dobraticích, Lučině ani Soběšovicích registr žádné zařízení neuvádí.</li>
+<li>Územní působnost terénních služeb (například pečovatelské služby) je v otevřených datech uvedena jen na úrovni kraje. Které terénní služby do obce skutečně dojíždějí, se z registru zjistit nedá.</li>
+<li>Na zasedání ZO č. 31 dne 18. 6. 2026 poprvé žádal obec o příspěvek domov se zvláštním režimem Adámkova vila v Raškovicích. V registru je vedena služba „Adámkova vila, Domov se zvláštním režimem, z. ú.“ (identifikátor 6378079, od 1. 1. 2021, 37 lůžek). Zápis ZO uvádí právní formu s.r.o., registr z. ú.</li>
+</ul>
+<hr />
+<h2 id="pozor--omezení-a-zdroje-které-nešly-získat">Pozor – omezení a zdroje, které nešly získat</h2>
+<ol type="1">
+<li><strong>rejstrik.msmt.cz</strong> k 30. 10. 2026 nefunguje. Rejstřík škol se přesunul na <a href="https://isv.gov.cz/rssz/prehled">https://isv.gov.cz/rssz/prehled</a>. Historie kapacit pochází z jeho API, které vrací stav k datu, ne datum podání nebo vydání rozhodnutí.</li>
+<li><strong>Výkonové výkazy MŠMT (S 1-01) po školách</strong> nejsou veřejně publikované. Řada počtů dětí v MŠ po letech je proto složena z inspekčních zpráv a studie. Úplnou řadu i počet podaných a zamítnutých žádostí lze vyžádat od MŠ nebo obce podle zákona č. 106/1999 Sb.</li>
+<li><strong>Výsledky zápisu do MŠ pro 2026/27</strong> a seznam nepřijatých za 2025/26 nejsou na webu školy zveřejněny. Počet žádostí lze odhadnout jen z nejvyšších registračních čísel, což není ověřený údaj.</li>
+<li><strong>Rozpor u kapacity 44:</strong> zápis ze zasedání ZO a Informátor 2022 mluví o navýšení v září 2022, rejstřík ho vede až od 1. 9. 2023. Nevyjasněno.</li>
+<li><strong>Hlasování o prodloužení dohody o školském obvodu s Frýdkem-Místkem (zasedání ZO č. 34, 6. 10. 2026)</strong> zatím nebylo ověřeno z usnesení.</li>
+<li><strong>Nezaměstnanost:</strong> mezi řadou ČSÚ (do 12/2024) a řadou MPSV (od 1/2025) je u obce nevysvětlený skok z 18 na 30 uchazečů. Okresní a krajské srovnání pro roky 2015–2024 z obecní sady spočítat nelze, protože neobsahuje počty obyvatel 15–64. Za tyto roky je proto obec srovnána jen s městem Frýdek-Místek.</li>
+<li><strong>Exekuce:</strong> mapaexekuci.cz byla 30. 10. 2026 nedostupná. Exekutorská komora publikuje jen aktuální stav (1. 10. 2026). Podíly osob v exekuci jsou dopočítány se jmenovatelem ze sčítání 2021, takže se mohou mírně lišit od podílů na mapaexekuci.cz.</li>
+<li><strong>Kriminalita:</strong> data mapy kriminality obsahují jen vybrané trestné činy, nejsou to úplné policejní statistiky.</li>
+<li><strong>Ovzduší:</strong> pětileté průměry jsou modelová pole v síti 1 km, ne měření v obci. Pětiletý průměr 2021–2025 zatím ČHMÚ nezveřejnil. Seznam obcí v oblastech se zhoršenou kvalitou ovzduší ročenka neuvádí.</li>
+<li><strong>Kotlíkové dotace po obcích:</strong> v otevřených datech není počet vyměněných kotlů za obec. Údaj by mohl poskytnout Krajský úřad MSK nebo obec.</li>
+<li><strong>Sociální služby:</strong> registr neumožňuje zjistit, které terénní služby obsluhují obec. Ověřena byla zařízení v Horních a Dolních Domaslavicích, Dobré, Pazderně, Nošovicích, Dobraticích, Lučině a Soběšovicích, Adámkova vila zvlášť.</li>
+<li>Údaje ze zápisů ze zasedání zastupitelstva, obecního zpravodaje Informátor a demografické studie jsou převzaty včetně jejich výhrad.</li>
+</ol>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<ul>
+<li><strong>Rejstřík škol:</strong> otevřená data MŠMT (Rejstřík škol a školských zařízení, Moravskoslezský kraj, <a href="https://lkod-ftp.msmt.gov.cz/00022985/11f1f670-1a8a-4a8a-b188-0eed2d01fca7/RSSZ-Moravskoslezsky-kraj.jsonld">https://lkod-ftp.msmt.gov.cz/00022985/11f1f670-1a8a-4a8a-b188-0eed2d01fca7/RSSZ-Moravskoslezsky-kraj.jsonld</a>). Historie kapacit z veřejného API rejstříku, které vrací stav ke zvolenému dni (<a href="https://isv.gov.cz/rssz/api/v1/sub/red-izo/691003378?stavKeDni=RRRR-MM-DD">https://isv.gov.cz/rssz/api/v1/sub/red-izo/691003378?stavKeDni=RRRR-MM-DD</a>); data změn byla dohledána postupným zužováním intervalu.</li>
+<li><strong>Zápisy do MŠ:</strong> dokumenty zveřejněné na webu školy (<a href="https://mshornidomaslavice.cz">https://mshornidomaslavice.cz</a>), naskenované seznamy převedené na text a zkontrolované.</li>
+<li><strong>Inspekční zprávy:</strong> InspIS PORTÁL ČŠI (<a href="https://portal.csicr.cz">https://portal.csicr.cz</a>).</li>
+<li><strong>Školská vyhláška:</strong> Sbírka právních předpisů ÚSC (<a href="https://sbirkapp.gov.cz">https://sbirkapp.gov.cz</a>).</li>
+<li><strong>Nezaměstnanost:</strong> 2015–2024 ČSÚ, „Uchazeči o zaměstnání dosažitelní a podíl nezaměstnaných osob podle obcí“ (kód 250169, <a href="https://csu.gov.cz/produkty/uchazeci-o-zamestnani-dosazitelni-a-podil-nezamestnanych-osob-podle-obci_090417">https://csu.gov.cz/produkty/uchazeci-o-zamestnani-dosazitelni-a-podil-nezamestnanych-osob-podle-obci_090417</a>; produkt ČSÚ k roku 2024 ukončil). Od 1/2025 datový portál MPSV, sada „podil_nezamestnanych_osob_trvala_kontaktni_adresa“ (<a href="https://data.mpsv.cz/portal/api/reports/by-table/evid_pno_adresa_agr_frz_odata/data/csv?fileName=x&amp;unbounded=true">https://data.mpsv.cz/portal/api/reports/by-table/evid_pno_adresa_agr_frz_odata/data/csv?fileName=x&amp;unbounded=true</a>, popis <a href="https://data.mpsv.cz/portal">https://data.mpsv.cz/portal</a>). Agregace za okres, kraj a ČR jsou spočítány součtem obcí.</li>
+<li><strong>Exekuce:</strong> otevřená data Exekutorské komory ČR (<a href="https://statistiky.ekcr.info/otevrena-data/data/obce.json">https://statistiky.ekcr.info/otevrena-data/data/obce.json</a>, katalog <a href="https://statistiky.ekcr.info/otevrena-data">https://statistiky.ekcr.info/otevrena-data</a>); jmenovatel z věkového složení SLDB 2021 (<a href="https://csu.gov.cz/docs/107508/4317620c-7502-7dc1-5c96-0cdb9affb540/sldb2021_vek.csv">https://csu.gov.cz/docs/107508/4317620c-7502-7dc1-5c96-0cdb9affb540/sldb2021_vek.csv</a>).</li>
+<li><strong>Kriminalita:</strong> Mapa kriminality Policie ČR, otevřená data po obcích (<a href="https://kriminalita.policie.gov.cz/api/v2/downloads?municipality=512192">https://kriminalita.policie.gov.cz/api/v2/downloads?municipality=512192</a>).</li>
+<li><strong>Ovzduší:</strong> ČHMÚ, pětileté průměry koncentrací ve čtvercové síti 1 × 1 km (<a href="https://opendata.chmi.cz/air_quality/products/5year_avg/">https://opendata.chmi.cz/air_quality/products/5year_avg/</a>); hranice obce z vrstvy MSK (<a href="https://services8.arcgis.com/jfWD14yYevYeDEj7/arcgis/rest/services/vz_tp_trh_prace/FeatureServer/0">https://services8.arcgis.com/jfWD14yYevYeDEj7/arcgis/rest/services/vz_tp_trh_prace/FeatureServer/0</a>); Grafická ročenka ČHMÚ 2025.</li>
+<li><strong>Zdravotnictví:</strong> ÚZIS, Národní registr poskytovatelů zdravotních služeb – místa poskytování (<a href="https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv">https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv</a>).</li>
+<li><strong>Sociální služby:</strong> MPSV, Registr poskytovatelů sociálních služeb (<a href="https://data.mpsv.cz/od/soubory/rpss/rpss.json">https://data.mpsv.cz/od/soubory/rpss/rpss.json</a>, číselník druhů <a href="https://data.mpsv.cz/od/soubory/ciselniky/druhy-socialni-sluzby.json">https://data.mpsv.cz/od/soubory/ciselniky/druhy-socialni-sluzby.json</a>).</li>
+<li><strong>Další:</strong> zápisy ze zasedání zastupitelstva obce, obecní zpravodaj Informátor, demografická studie EduRegio (12/2023), Hlídač státu.</li>
+</ul>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

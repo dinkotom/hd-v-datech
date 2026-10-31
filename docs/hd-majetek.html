@@ -1,0 +1,1759 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Majetek a účetnictví obce – Horní Domaslavice v datech</title>
+<meta name="description" content="Co obec Horní Domaslavice vlastní, jaké má náklady, výnosy, pohledávky a závazky a jak hospodaří mateřská škola, 2010–2025.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details open><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html" aria-current="page">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Majetek a účetnictví obce</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Rozpočet ukazuje, kolik peněz obec přijala a vydala (viz <a href="hd-vydaje.html">výdaje obce</a>). Účetnictví ukazuje něco jiného: jaký majetek obec má (budovy, pozemky, peníze), komu dluží a kdo dluží jí, a jaký má účetní výsledek hospodaření. Tato stránka shrnuje rozvahu, výkaz zisku a ztráty a přílohu účetní závěrky obce Horní Domaslavice a její Mateřské školy za roky 2010–2025. Data pocházejí z otevřených dat Ministerstva financí (Monitor státní pokladny). Částky jsou v mil. Kč, zaokrouhlené na dvě desetinná místa, stav vždy k 31. 12. daného roku.</p>
+<p><strong>Účetní jednotky:</strong> obec Horní Domaslavice, IČO 00536008, a Mateřská škola Horní Domaslavice, příspěvková organizace, IČO 72547839 (podle ARES vznikla 15. 6. 2011, sídlo č. p. 78). Obec má výkazy za všechny roky 2010–2025, MŠ až od roku 2012.</p>
+<h2 id="ověření-rozvaha-sedí">Ověření: rozvaha sedí</h2>
+<ul>
+<li><strong>Bilance:</strong> aktiva se ve všech 16 letech rovnají pasivům na haléř.</li>
+<li><strong>Peníze:</strong> účet 231 (základní běžný účet) v rozvaze odpovídá na haléř stavům ze závěrečných účtů ve všech letech 2013–2025. K 31. 12. 2025 je to <strong>39 494 904,53 Kč</strong>, tedy 39,49 mil. Kč. V roce 2023 je navíc 9,00 mil. Kč na účtu 244 (termínovaný vklad), celkem tedy 28,11 mil. (viz <a href="hd-ucty.html">stavy účtů</a>). V roce 2016 rozvaha navíc ukazuje pokladnu 11 360 Kč.</li>
+<li><strong>Inventarizační překlep 2021:</strong> rozvaha 2021 uvádí na účtu 231 19 100 174,41 Kč. Tím se potvrzuje, že částka 19 089 112,62 Kč v inventarizační zprávě je chyba.</li>
+<li><strong>Výsledek hospodaření</strong> v rozvaze se na haléř rovná výsledku ve výkazu zisku a ztráty ve všech letech kromě roku 2011. Tam rozvaha uvádí 1 194 674,23 Kč a výkaz 1 196 461,26 Kč; rozdíl 1 787 Kč je ztráta z hospodářské (podnikatelské) činnosti obce v roce 2011, kterou rozvaha zahrnuje a výsledek hlavní činnosti ve výkazu ne. V ostatních letech je hospodářská činnost obce i MŠ nulová.</li>
+</ul>
+<h2 id="1-majetek-obce-v-čase">1. Majetek obce v čase</h2>
+<h3 id="aktiva-netto-není-li-uvedeno-jinak">Aktiva (netto, není-li uvedeno jinak)</h3>
+<p>„Netto“ znamená hodnotu po odečtení odpisů (oprávek), „brutto“ pořizovací cenu.</p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Pozemky</th>
+<th style="text-align: right;">Stavby brutto</th>
+<th style="text-align: right;">Oprávky staveb</th>
+<th style="text-align: right;">Stavby netto</th>
+<th style="text-align: right;">Movité věci netto</th>
+<th style="text-align: right;">Nehmotný maj.</th>
+<th style="text-align: right;">Nedokonč. inv. (042)</th>
+<th style="text-align: right;">Zálohy na DHM (052)</th>
+<th style="text-align: right;">Oprávky celkem</th>
+<th style="text-align: right;">Krátk. pohledávky</th>
+<th style="text-align: right;">Peníze</th>
+<th style="text-align: right;">Aktiva netto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">10,45</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">10,45</td>
+<td style="text-align: right;">1,05</td>
+<td style="text-align: right;">0,66</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,06</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">15,77</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">1,09</td>
+<td style="text-align: right;">11,33</td>
+<td style="text-align: right;">4,49</td>
+<td style="text-align: right;">6,84</td>
+<td style="text-align: right;">0,49</td>
+<td style="text-align: right;">0,48</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">6,78</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,73</td>
+<td style="text-align: right;">10,56</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">1,17</td>
+<td style="text-align: right;">11,33</td>
+<td style="text-align: right;">4,64</td>
+<td style="text-align: right;">6,69</td>
+<td style="text-align: right;">0,39</td>
+<td style="text-align: right;">0,40</td>
+<td style="text-align: right;">3,30</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">7,12</td>
+<td style="text-align: right;">0,62</td>
+<td style="text-align: right;">0,85</td>
+<td style="text-align: right;">13,44</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">1,18</td>
+<td style="text-align: right;">15,56</td>
+<td style="text-align: right;">4,80</td>
+<td style="text-align: right;">10,76</td>
+<td style="text-align: right;">0,29</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">7,45</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,70</td>
+<td style="text-align: right;">14,11</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">1,12</td>
+<td style="text-align: right;">15,56</td>
+<td style="text-align: right;">4,98</td>
+<td style="text-align: right;">10,59</td>
+<td style="text-align: right;">0,45</td>
+<td style="text-align: right;">0,24</td>
+<td style="text-align: right;">0,97</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">7,78</td>
+<td style="text-align: right;">0,47</td>
+<td style="text-align: right;">3,86</td>
+<td style="text-align: right;">17,72</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">1,12</td>
+<td style="text-align: right;">18,13</td>
+<td style="text-align: right;">5,10</td>
+<td style="text-align: right;">13,03</td>
+<td style="text-align: right;">0,56</td>
+<td style="text-align: right;">0,24</td>
+<td style="text-align: right;">1,14</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">9,32</td>
+<td style="text-align: right;">0,28</td>
+<td style="text-align: right;">5,40</td>
+<td style="text-align: right;">21,80</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">1,31</td>
+<td style="text-align: right;">18,59</td>
+<td style="text-align: right;">5,40</td>
+<td style="text-align: right;">13,19</td>
+<td style="text-align: right;">0,50</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">1,10</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">9,91</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">8,27</td>
+<td style="text-align: right;">24,85</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">1,54</td>
+<td style="text-align: right;">21,10</td>
+<td style="text-align: right;">5,70</td>
+<td style="text-align: right;">15,40</td>
+<td style="text-align: right;">0,41</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">1,29</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">9,86</td>
+<td style="text-align: right;">0,33</td>
+<td style="text-align: right;">10,02</td>
+<td style="text-align: right;">29,13</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">1,61</td>
+<td style="text-align: right;">24,55</td>
+<td style="text-align: right;">6,04</td>
+<td style="text-align: right;">18,51</td>
+<td style="text-align: right;">0,57</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,89</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">10,20</td>
+<td style="text-align: right;">2,70</td>
+<td style="text-align: right;">9,20</td>
+<td style="text-align: right;">33,60</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">1,79</td>
+<td style="text-align: right;">24,55</td>
+<td style="text-align: right;">6,32</td>
+<td style="text-align: right;">18,23</td>
+<td style="text-align: right;">0,55</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">1,15</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">10,16</td>
+<td style="text-align: right;">0,69</td>
+<td style="text-align: right;">13,89</td>
+<td style="text-align: right;">36,35</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">1,82</td>
+<td style="text-align: right;">25,62</td>
+<td style="text-align: right;">6,81</td>
+<td style="text-align: right;">18,81</td>
+<td style="text-align: right;">0,47</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">6,37</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">10,43</td>
+<td style="text-align: right;">5,12</td>
+<td style="text-align: right;">14,09</td>
+<td style="text-align: right;">46,71</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">1,82</td>
+<td style="text-align: right;">39,79</td>
+<td style="text-align: right;">7,30</td>
+<td style="text-align: right;">32,49</td>
+<td style="text-align: right;">0,87</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,39</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">11,20</td>
+<td style="text-align: right;">0,38</td>
+<td style="text-align: right;">19,10</td>
+<td style="text-align: right;">55,07</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">1,90</td>
+<td style="text-align: right;">39,84</td>
+<td style="text-align: right;">7,95</td>
+<td style="text-align: right;">31,88</td>
+<td style="text-align: right;">0,79</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,51</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">12,75</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">27,29</td>
+<td style="text-align: right;">62,71</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">1,90</td>
+<td style="text-align: right;">40,15</td>
+<td style="text-align: right;">8,61</td>
+<td style="text-align: right;">31,54</td>
+<td style="text-align: right;">0,79</td>
+<td style="text-align: right;">0,23</td>
+<td style="text-align: right;">0,31</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">13,47</td>
+<td style="text-align: right;">0,87</td>
+<td style="text-align: right;">28,11</td>
+<td style="text-align: right;">63,75</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">1,93</td>
+<td style="text-align: right;">40,26</td>
+<td style="text-align: right;">9,28</td>
+<td style="text-align: right;">30,98</td>
+<td style="text-align: right;">1,25</td>
+<td style="text-align: right;">0,19</td>
+<td style="text-align: right;">0,83</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">14,68</td>
+<td style="text-align: right;">0,67</td>
+<td style="text-align: right;">31,48</td>
+<td style="text-align: right;">67,36</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">1,97</td>
+<td style="text-align: right;">40,53</td>
+<td style="text-align: right;">9,95</td>
+<td style="text-align: right;">30,59</td>
+<td style="text-align: right;">1,72</td>
+<td style="text-align: right;">0,15</td>
+<td style="text-align: right;">1,00</td>
+<td style="text-align: right;">0,51</td>
+<td style="text-align: right;">15,73</td>
+<td style="text-align: right;">1,16</td>
+<td style="text-align: right;">39,49</td>
+<td style="text-align: right;">76,62</td>
+</tr>
+</tbody>
+</table>
+<p>„Oprávky celkem“ zahrnují i drobný majetek (účet 028, 4,28 mil. brutto v roce 2025), který se odepisuje celý hned při pořízení. Dlouhodobý finanční majetek je 21–22 tis. Kč (do roku 2019), od roku 2020 je nulový. Dlouhodobé pohledávky (469) jsou 0,04 mil. v roce 2024 a 0,02 mil. v roce 2025.</p>
+<h3 id="stavby-a-pozemky-podle-druhu-příloha-účetní-závěrky-oddíly-g-a-h">Stavby a pozemky podle druhu (příloha účetní závěrky, oddíly G a H)</h3>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Bytové domy</th>
+<th style="text-align: right;">Budovy pro služby obyvatelstvu (brutto)</th>
+<th style="text-align: right;">z toho oprávky</th>
+<th style="text-align: right;">Komunikace a veřejné osvětlení</th>
+<th style="text-align: right;">Jiné inž. sítě</th>
+<th style="text-align: right;">Ostatní stavby</th>
+<th style="text-align: right;">Jiné nebytové domy</th>
+<th style="text-align: right;">Stavby brutto</th>
+<th style="text-align: right;">Pozemky ostatní</th>
+<th style="text-align: right;">Pozemky lesní, zahrady, louky</th>
+<th style="text-align: right;">Pozemky zastavěné / stavební</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">11,23</td>
+<td style="text-align: right;">1,93</td>
+<td style="text-align: right;">4,99</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">0,54</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">18,13</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">1,12</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">11,23</td>
+<td style="text-align: right;">2,06</td>
+<td style="text-align: right;">4,99</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">0,54</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">18,59</td>
+<td style="text-align: right;">0,21</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">1,11</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">12,68</td>
+<td style="text-align: right;">2,17</td>
+<td style="text-align: right;">5,38</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">1,20</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">21,10</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">1,54</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">0,77</td>
+<td style="text-align: right;">12,71</td>
+<td style="text-align: right;">2,33</td>
+<td style="text-align: right;">8,40</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">1,30</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">24,55</td>
+<td style="text-align: right;">1,04</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">13,48</td>
+<td style="text-align: right;">2,50</td>
+<td style="text-align: right;">8,40</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">1,30</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">24,55</td>
+<td style="text-align: right;">1,23</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">13,89</td>
+<td style="text-align: right;">2,72</td>
+<td style="text-align: right;">8,40</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">1,95</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">25,62</td>
+<td style="text-align: right;">1,25</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;"><strong>11,78</strong></td>
+<td style="text-align: right;">13,89</td>
+<td style="text-align: right;">2,98</td>
+<td style="text-align: right;">10,78</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">1,95</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">39,79</td>
+<td style="text-align: right;">1,27</td>
+<td style="text-align: right;">0,44</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"><strong>25,68</strong></td>
+<td style="text-align: right;">3,34</td>
+<td style="text-align: right;">10,78</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">2,00</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">39,84</td>
+<td style="text-align: right;">1,35</td>
+<td style="text-align: right;">0,44</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">25,68</td>
+<td style="text-align: right;">3,71</td>
+<td style="text-align: right;">10,90</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">2,19</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">40,15</td>
+<td style="text-align: right;">1,44</td>
+<td style="text-align: right;">0,35</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">25,72</td>
+<td style="text-align: right;">4,07</td>
+<td style="text-align: right;">10,90</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">2,26</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">40,26</td>
+<td style="text-align: right;">1,47</td>
+<td style="text-align: right;">0,35</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">25,72</td>
+<td style="text-align: right;">4,43</td>
+<td style="text-align: right;">10,90</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">2,54</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">40,53</td>
+<td style="text-align: right;">1,51</td>
+<td style="text-align: right;">0,35</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+</tbody>
+</table>
+<p>V letech 2010–2014 obec vykazovala všechny stavby v řádku „bytové domy“ a všechny pozemky jako „stavební pozemky“. Skutečné členění tedy existuje až od roku 2015 a starší roky tabulka neuvádí.</p>
+<h3 id="hlavní-zjištění-k-majetku">Hlavní zjištění k majetku</h3>
+<ol type="1">
+<li><strong>Majetek se za 15 let téměř zpětinásobil, hlavně kvůli penězům.</strong> Aktiva netto vzrostla z 15,8 mil. (2010) na 76,6 mil. (2025). Z toho 39,5 mil., tedy 52 %, tvoří peníze na účtu. Stavby netto vzrostly z 10,5 na 30,6 mil. Od roku 2021 ale mírně klesají (32,5 → 30,6 mil.), protože odpisy (0,8 mil. ročně) jsou vyšší než nové investice. Podíl peněz na aktivech stoupl z 2 % (2010) na 35 % (2021) a 52 % (2025).</li>
+<li><strong>Největší skok v majetku přinesla rekonstrukce MŠ v roce 2021.</strong> Stavby brutto vzrostly za rok o 14,17 mil. Z toho 11,78 mil. obec v roce 2021 vykázala jako „bytové domy“ a v roce 2022 to přeřadila do „budov pro služby obyvatelstvu“ (13,89 → 25,68 mil.). Zbylých 2,38 mil. přibylo v komunikacích a veřejném osvětlení (8,40 → 10,78 mil.), což odpovídá investici do veřejného osvětlení v roce 2021. Podrobnosti o MŠ jsou v oddílu 4.</li>
+<li><strong>Druhý velký přírůstek staveb byl v roce 2018</strong> (+3,45 mil.). Šlo hlavně o komunikace a veřejné osvětlení (5,38 → 8,40 mil.), časově to sedí s chodníky a hřbitovem z rozpočtových dat. Jednotlivé stavby výkazy nerozlišují.</li>
+<li><strong>Opravy silnic v majetku nejsou.</strong> Opravy MK 1 (2023, 8,5 mil.) a MK 5 + MK 10 (2024, 5,2 mil.) obec zaúčtovala jako náklad (účet 511, viz oddíl 2). Řádek „komunikace a VO“ se v letech 2022–2025 téměř nezměnil (10,78 → 10,90 mil.). Pro hodnocení investiční aktivity je to důležité: tyto peníze se v rozvaze neprojeví jako majetek.</li>
+<li><strong>Pozemky mají jen malou účetní hodnotu, 1,97 mil.</strong> Rostou pomalu, za 2015–2025 o 0,85 mil. V roce 2011 klesly o 0,20 mil. a v letech 2012, 2014 a 2015 obec pozemky prodávala (výnosy z prodeje 1,72, 3,03 a 0,68 mil.).</li>
+<li><strong>Nehmotný majetek</strong> (účet 019, pravděpodobně územní plán; z výkazů to ověřit nejde): 0,80 mil. brutto do roku 2018. V roce 2019 bylo vyřazeno 0,52 mil. brutto a v roce 2024 přibylo 0,28 mil. brutto. Časově by to mohlo souviset se změnou územního plánu, ale ověřené to není.</li>
+</ol>
+<h3 id="nedokončené-investice-účet-042">Nedokončené investice (účet 042)</h3>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Stav 042</th>
+<th style="text-align: right;">Změna</th>
+<th style="text-align: right;">Přírůstek staveb brutto v roce</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,88</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">3,30</td>
+<td style="text-align: right;">+2,50</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;">−2,50</td>
+<td style="text-align: right;">4,24</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">0,97</td>
+<td style="text-align: right;">+0,17</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">1,14</td>
+<td style="text-align: right;">+0,17</td>
+<td style="text-align: right;">2,57</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">1,10</td>
+<td style="text-align: right;">−0,04</td>
+<td style="text-align: right;">0,46</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">1,29</td>
+<td style="text-align: right;">+0,19</td>
+<td style="text-align: right;">2,51</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">0,89</td>
+<td style="text-align: right;">−0,41</td>
+<td style="text-align: right;">3,45</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">1,15</td>
+<td style="text-align: right;">+0,26</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;"><strong>6,37</strong></td>
+<td style="text-align: right;">+5,22</td>
+<td style="text-align: right;">1,07</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">0,39</td>
+<td style="text-align: right;">−5,98</td>
+<td style="text-align: right;"><strong>14,17</strong></td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0,51</td>
+<td style="text-align: right;">+0,11</td>
+<td style="text-align: right;">0,05</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0,31</td>
+<td style="text-align: right;">−0,20</td>
+<td style="text-align: right;">0,31</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">0,83</td>
+<td style="text-align: right;">+0,52</td>
+<td style="text-align: right;">0,11</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">1,00</td>
+<td style="text-align: right;">+0,17</td>
+<td style="text-align: right;">0,28</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Dlouho vedená položka:</strong> v letech 2010–2013 je na účtu 042 stále stejná částka <strong>799 490 Kč</strong> (2010 zaokrouhleně, 2011 a 2013 přesně 799 490,90 Kč). Byla tam tedy nejméně čtyři roky a nejspíš vznikla už před rokem 2010. V letech 2014–2017 se k ní jen přičítaly další částky (0,97 → 1,29 mil.), takže tam pravděpodobně zůstávala až do roku 2017. Zda byla v roce 2018 (−0,41 mil.) nebo 2021 zařazena do majetku, nebo odepsána, z výkazů vyčíst nelze. Typicky jde o projektové dokumentace staveb, které se nerealizovaly. Co to bylo, by ukázal inventurní soupis účtu 042.</li>
+<li><strong>2012–2013:</strong> 2,50 mil. investice z roku 2012 (podle rozpočtu paragraf 3319, ostatní kultura) se na rok „zaparkovaly“ v 042 a v roce 2013 byly zařazeny do staveb. Stavby brutto tehdy vzrostly o 4,24 mil., což odpovídá investici 2012 a opravě 1,99 mil. v roce 2013, kterou obec zjevně zčásti aktivovala.</li>
+<li><strong>2020:</strong> 6,37 mil. je rozestavěná rekonstrukce MŠ. Částka je vyšší než investice zaplacené v roce 2020 (4,61 mil.), protože k 31. 12. 2020 obec dlužila dodavatelům 2,28 mil. (viz závazky). V roce 2021 se stavba dokončila a zařadila.</li>
+<li><strong>2024–2025:</strong> v 042 je opět 0,83 a 1,00 mil. a nově 0,51 mil. záloh na dlouhodobý majetek (052). Jde o rozpracované akce, nejspíš hlavně projektovou dokumentaci MŠ a hřiště (viz <a href="hd-zakazky.html">veřejné zakázky</a>). Které konkrétní akce to jsou, výkaz neuvádí.</li>
+</ul>
+<h2 id="2-náklady-a-výnosy-obce-výkaz-zisku-a-ztráty">2. Náklady a výnosy obce (výkaz zisku a ztráty)</h2>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Osobní</th>
+<th style="text-align: right;">Služby (518)</th>
+<th style="text-align: right;">Opravy (511)</th>
+<th style="text-align: right;">Materiál + energie</th>
+<th style="text-align: right;">Odpisy</th>
+<th style="text-align: right;">Drobný maj. (558)</th>
+<th style="text-align: right;">Transfery (572)</th>
+<th style="text-align: right;">Dary (543)</th>
+<th style="text-align: right;">Daň z příjmů (591)</th>
+<th style="text-align: right;">Ostatní</th>
+<th style="text-align: right;"><strong>NÁKLADY</strong></th>
+<th style="text-align: right;">Daně a poplatky</th>
+<th style="text-align: right;">Transfery (672)</th>
+<th style="text-align: right;">Ostatní výnosy</th>
+<th style="text-align: right;"><strong>VÝNOSY</strong></th>
+<th style="text-align: right;"><strong>VH</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">1,49</td>
+<td style="text-align: right;">1,22</td>
+<td style="text-align: right;">1,71</td>
+<td style="text-align: right;">0,84</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,34</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,06</td>
+<td style="text-align: right;">5,71</td>
+<td style="text-align: right;">4,62</td>
+<td style="text-align: right;">0,29</td>
+<td style="text-align: right;">0,44</td>
+<td style="text-align: right;">5,35</td>
+<td style="text-align: right;">−0,39</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">1,35</td>
+<td style="text-align: right;">0,53</td>
+<td style="text-align: right;">1,14</td>
+<td style="text-align: right;">0,52</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,47</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,09</td>
+<td style="text-align: right;">4,10</td>
+<td style="text-align: right;">4,53</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,65</td>
+<td style="text-align: right;">5,30</td>
+<td style="text-align: right;">1,20</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">1,43</td>
+<td style="text-align: right;">1,22</td>
+<td style="text-align: right;">0,41</td>
+<td style="text-align: right;">0,93</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,56</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">4,64</td>
+<td style="text-align: right;">4,73</td>
+<td style="text-align: right;">0,15</td>
+<td style="text-align: right;">2,27</td>
+<td style="text-align: right;">7,15</td>
+<td style="text-align: right;">2,51</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">1,52</td>
+<td style="text-align: right;">1,58</td>
+<td style="text-align: right;">0,70</td>
+<td style="text-align: right;">0,93</td>
+<td style="text-align: right;">0,34</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,72</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">0,17</td>
+<td style="text-align: right;">6,22</td>
+<td style="text-align: right;">6,23</td>
+<td style="text-align: right;">0,22</td>
+<td style="text-align: right;">0,59</td>
+<td style="text-align: right;">7,05</td>
+<td style="text-align: right;">0,83</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">1,94</td>
+<td style="text-align: right;">1,18</td>
+<td style="text-align: right;">0,81</td>
+<td style="text-align: right;">0,51</td>
+<td style="text-align: right;">0,36</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,58</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,65</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">6,42</td>
+<td style="text-align: right;">6,46</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">4,01</td>
+<td style="text-align: right;">10,78</td>
+<td style="text-align: right;">4,37</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">1,72</td>
+<td style="text-align: right;">1,56</td>
+<td style="text-align: right;">0,49</td>
+<td style="text-align: right;">0,43</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">1,12</td>
+<td style="text-align: right;">0,56</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,18</td>
+<td style="text-align: right;">0,18</td>
+<td style="text-align: right;">6,56</td>
+<td style="text-align: right;">7,77</td>
+<td style="text-align: right;">1,18</td>
+<td style="text-align: right;">1,33</td>
+<td style="text-align: right;">10,28</td>
+<td style="text-align: right;">3,73</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">1,98</td>
+<td style="text-align: right;">1,50</td>
+<td style="text-align: right;">0,65</td>
+<td style="text-align: right;">0,28</td>
+<td style="text-align: right;">0,49</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">0,58</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,25</td>
+<td style="text-align: right;">6,01</td>
+<td style="text-align: right;">7,64</td>
+<td style="text-align: right;">0,48</td>
+<td style="text-align: right;">0,53</td>
+<td style="text-align: right;">8,65</td>
+<td style="text-align: right;">2,64</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">2,08</td>
+<td style="text-align: right;">1,43</td>
+<td style="text-align: right;">1,35</td>
+<td style="text-align: right;">0,38</td>
+<td style="text-align: right;">0,43</td>
+<td style="text-align: right;">0,09</td>
+<td style="text-align: right;">0,62</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">−0,04</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">6,46</td>
+<td style="text-align: right;">8,69</td>
+<td style="text-align: right;">0,55</td>
+<td style="text-align: right;">0,73</td>
+<td style="text-align: right;">9,97</td>
+<td style="text-align: right;">3,51</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">2,79</td>
+<td style="text-align: right;">1,71</td>
+<td style="text-align: right;">3,67</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,41</td>
+<td style="text-align: right;">0,20</td>
+<td style="text-align: right;">0,68</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">9,81</td>
+<td style="text-align: right;">9,83</td>
+<td style="text-align: right;">1,71</td>
+<td style="text-align: right;">0,67</td>
+<td style="text-align: right;">12,21</td>
+<td style="text-align: right;">2,39</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">2,27</td>
+<td style="text-align: right;">3,22</td>
+<td style="text-align: right;">3,21</td>
+<td style="text-align: right;">0,53</td>
+<td style="text-align: right;">0,38</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,66</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,15</td>
+<td style="text-align: right;">10,62</td>
+<td style="text-align: right;">11,56</td>
+<td style="text-align: right;">0,33</td>
+<td style="text-align: right;">0,95</td>
+<td style="text-align: right;">12,84</td>
+<td style="text-align: right;">2,23</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">3,02</td>
+<td style="text-align: right;">1,87</td>
+<td style="text-align: right;">1,32</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">0,20</td>
+<td style="text-align: right;">0,90</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">8,31</td>
+<td style="text-align: right;">11,17</td>
+<td style="text-align: right;">1,63</td>
+<td style="text-align: right;">0,76</td>
+<td style="text-align: right;">13,55</td>
+<td style="text-align: right;">5,24</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">3,07</td>
+<td style="text-align: right;">2,19</td>
+<td style="text-align: right;">0,61</td>
+<td style="text-align: right;">0,53</td>
+<td style="text-align: right;">0,57</td>
+<td style="text-align: right;">0,25</td>
+<td style="text-align: right;">0,90</td>
+<td style="text-align: right;">0,39</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">8,58</td>
+<td style="text-align: right;">12,67</td>
+<td style="text-align: right;">0,57</td>
+<td style="text-align: right;">0,88</td>
+<td style="text-align: right;">14,11</td>
+<td style="text-align: right;">5,53</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">3,27</td>
+<td style="text-align: right;">2,40</td>
+<td style="text-align: right;">0,71</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">0,74</td>
+<td style="text-align: right;">1,84</td>
+<td style="text-align: right;">1,13</td>
+<td style="text-align: right;">0,69</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">11,43</td>
+<td style="text-align: right;">16,10</td>
+<td style="text-align: right;">2,00</td>
+<td style="text-align: right;">1,06</td>
+<td style="text-align: right;">19,16</td>
+<td style="text-align: right;">7,72</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">3,64</td>
+<td style="text-align: right;">3,17</td>
+<td style="text-align: right;"><strong>8,50</strong></td>
+<td style="text-align: right;">0,75</td>
+<td style="text-align: right;">0,77</td>
+<td style="text-align: right;">0,23</td>
+<td style="text-align: right;">1,48</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">18,83</td>
+<td style="text-align: right;">18,16</td>
+<td style="text-align: right;">0,66</td>
+<td style="text-align: right;">1,23</td>
+<td style="text-align: right;">20,06</td>
+<td style="text-align: right;">1,23</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">3,80</td>
+<td style="text-align: right;">3,97</td>
+<td style="text-align: right;"><strong>5,24</strong></td>
+<td style="text-align: right;">0,78</td>
+<td style="text-align: right;">0,79</td>
+<td style="text-align: right;">0,14</td>
+<td style="text-align: right;">2,19</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">0,25</td>
+<td style="text-align: right;">17,35</td>
+<td style="text-align: right;">18,75</td>
+<td style="text-align: right;">0,78</td>
+<td style="text-align: right;">1,54</td>
+<td style="text-align: right;">21,07</td>
+<td style="text-align: right;">3,73</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">4,16</td>
+<td style="text-align: right;">4,35</td>
+<td style="text-align: right;">0,89</td>
+<td style="text-align: right;">0,69</td>
+<td style="text-align: right;">0,83</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">1,74</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,19</td>
+<td style="text-align: right;">0,09</td>
+<td style="text-align: right;">13,32</td>
+<td style="text-align: right;">20,39</td>
+<td style="text-align: right;">0,68</td>
+<td style="text-align: right;">1,45</td>
+<td style="text-align: right;">22,52</td>
+<td style="text-align: right;"><strong>9,20</strong></td>
+</tr>
+</tbody>
+</table>
+<p>„Osobní“ jsou účty 521–528: mzdy, odměny zastupitelů, pojistné a sociální náklady. „Daně a poplatky“ jsou sdílené daně (681–688), v letech 2010–2011 účty 631–636. Místní poplatky (606, například za odpady) jsou v „ostatních výnosech“: 0,30 mil. (2010), 0,44 (2020), 0,80 (2023) a 0,85 mil. (2025). „Ostatní výnosy“ v letech 2012, 2014 a 2015 navyšují prodeje pozemků (1,72, 3,03 a 0,68 mil.). VH = výsledek hospodaření (zisk nebo ztráta).</p>
+<h3 id="hlavní-zjištění-k-nákladům-a-výsledku">Hlavní zjištění k nákladům a výsledku</h3>
+<ol type="1">
+<li><strong>Obec je každý rok v účetním zisku, v roce 2025 nejvyšším</strong> (9,20 mil.). Jediná ztráta je z roku 2010 (−0,39 mil.). Součet výsledků 2014–2025 je 51,5 mil. Kč, z toho 15,4 mil. v letech 2018–2021 a 21,9 mil. v letech 2022–2025.</li>
+<li><strong>Služby (518) se od roku 2018 zhruba zdvojnásobily až ztrojnásobily</strong>, z 1,71 mil. na 4,35 mil. v roce 2025. Rostou rychleji než osobní náklady (2,79 → 4,16 mil.). To souhlasí s rozpočtovými daty (IT, nájemné, akce, správa).</li>
+<li><strong>Opravy jsou nejrozkolísanější položka:</strong> 3,67 a 3,21 mil. v letech 2018–2019 (hřbitov, chodníky), 8,50 mil. v roce 2023 a 5,24 mil. v roce 2024 (silnice), potom 0,89 mil. v roce 2025. Výsledek 2023 (1,23 mil.) je nízký právě kvůli opravě MK 1.</li>
+<li><strong>Odpisy</strong> vzrostly z 0,4 mil. (do roku 2020) na 0,83 mil. (2025), hlavně kvůli zařazení rekonstruované MŠ. V letech 2022–2025 odpisy (3,13 mil.) téměř odpovídaly investicím (3,72 mil. podle rozpočtu), takže majetek se jen udržoval.</li>
+<li><strong>Jednorázové položky:</strong> v roce 2015 drobný majetek 1,12 mil. a v roce 2022 1,84 mil. (v roce 2022 jsou to kompostéry pro občany, k tomu dary 0,69 mil.). V roce 2016 jsou <strong>manka a škody 0,17 mil. Kč</strong> (účet 547) a odpis nedobytných pohledávek 0,02 mil. Co bylo předmětem manka, výkaz neuvádí; vysvětlení by mohla obsahovat inventarizační zpráva za rok 2016.</li>
+<li><strong>Daň z příjmů (591)</strong> platí obec sama sobě (daň z příjmů právnických osob za obec). Nejvyšší byla v roce 2014 (0,65 mil., v roce s velkým prodejem pozemků) a v roce 2025 (0,19 mil.).</li>
+</ol>
+<h3 id="výsledek-hospodaření-vs-rozpočtové-saldo-a-peníze">Výsledek hospodaření vs. rozpočtové saldo a peníze</h3>
+<table>
+<thead>
+<tr>
+<th>Období</th>
+<th style="text-align: right;">VH (výkaz zisku a ztráty)</th>
+<th style="text-align: right;">Saldo příjmů a výdajů (rozpočet)</th>
+<th style="text-align: right;">Investice (rozpočet, třída 6)</th>
+<th style="text-align: right;">Odpisy</th>
+<th style="text-align: right;">Investiční dotace připsané na účet 403</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2014–2017</td>
+<td style="text-align: right;">14,25</td>
+<td style="text-align: right;">11,48</td>
+<td style="text-align: right;">6,54</td>
+<td style="text-align: right;">1,60</td>
+<td style="text-align: right;">2,64</td>
+</tr>
+<tr>
+<td>2018–2021</td>
+<td style="text-align: right;">15,39</td>
+<td style="text-align: right;">9,30</td>
+<td style="text-align: right;">19,01</td>
+<td style="text-align: right;">1,82</td>
+<td style="text-align: right;">11,99</td>
+</tr>
+<tr>
+<td>2022–2025</td>
+<td style="text-align: right;">21,88</td>
+<td style="text-align: right;">20,81</td>
+<td style="text-align: right;">3,72</td>
+<td style="text-align: right;">3,13</td>
+<td style="text-align: right;">0,42</td>
+</tr>
+<tr>
+<td><strong>2014–2025</strong></td>
+<td style="text-align: right;"><strong>51,52</strong></td>
+<td style="text-align: right;"><strong>41,59</strong></td>
+<td style="text-align: right;"><strong>29,27</strong></td>
+<td style="text-align: right;"><strong>6,55</strong></td>
+<td style="text-align: right;"><strong>15,05</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Saldo a investice jsou převzaté z rozpočtových dat (viz <a href="hd-vydaje.html">výdaje obce</a>), ostatní je z rozvahy, výkazu zisku a ztráty a přílohy. Účetní výsledek je za 12 let o 9,9 mil. vyšší než rozpočtové saldo. Rozdíl zhruba vysvětlují investice, které nejsou nákladem (29,3 mil.), minus odpisy (6,6 mil.) a minus investiční dotace, které nejdou do výnosů, ale na účet 403 (15,1 mil.). Dohromady je to 7,7 mil. K tomu přistupuje rozpouštění účtu 403 do výnosů (1,65 mil. za 2014–2025) a časové rozlišení. Peníze na účtu vzrostly za stejné období o 38,8 mil. (0,70 → 39,49 mil.), o něco méně než saldo kvůli splátkám úvěrů a dalších závazků (viz oddíl 3).</p>
+<p>V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu (21,9 proti 20,8 mil.). Obec totiž skoro neinvestovala a velké akce (silnice) šly do nákladů jako opravy.</p>
+<h2 id="3-pohledávky-závazky-a-vlastní-kapitál-obce">3. Pohledávky, závazky a vlastní kapitál obce</h2>
+<h3 id="pohledávky">Pohledávky</h3>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Odběratelé (311)</th>
+<th style="text-align: right;">Zálohy (314)</th>
+<th style="text-align: right;">Pohl. z hlavní činnosti (315) brutto</th>
+<th style="text-align: right;">Opravná položka k 315</th>
+<th style="text-align: right;">Zálohy na transfery (373)</th>
+<th style="text-align: right;">Dohadné účty (388)</th>
+<th style="text-align: right;">Ostatní</th>
+<th style="text-align: right;">Krátk. pohledávky netto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,13</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,47</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,19</td>
+<td style="text-align: right;">0,28</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,30</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,21</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,33</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">2,57</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">2,70</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">0,55</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,69</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,13</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">4,84</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">5,12</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,38</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,06</td>
+<td style="text-align: right;">0,14</td>
+<td style="text-align: right;">0,32</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">0,06</td>
+<td style="text-align: right;">0,17</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,25</td>
+<td style="text-align: right;">0,87</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">0,34</td>
+<td style="text-align: right;">0,09</td>
+<td style="text-align: right;">0,20</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">0,67</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,29</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">0,22</td>
+<td style="text-align: right;">0,34</td>
+<td style="text-align: right;">0,14</td>
+<td style="text-align: right;">1,16</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Nedoplatky občanů:</strong> účet 315 („jiné pohledávky z hlavní činnosti“) u obcí obvykle obsahuje nedoplatky místních poplatků, tedy hlavně za odpad a psy. Rozvaha je ale dál nerozepisuje. Do roku 2022 šlo o 0,02–0,13 mil. V letech 2023–2024 vyskočily na 0,32–0,34 mil. a v roce 2025 klesly na 0,26 mil. Od roku 2020 k nim obec tvoří opravnou položku (pochybné pohledávky), v roce 2024 0,09 mil. a v roce 2025 0,08 mil. Nárůst v roce 2023 časově sedí se zvýšením poplatku za odpad. Že jde právě o odpad, by potvrdil jen rozpis pohledávek v inventarizaci.</li>
+<li><strong>Velké dohadné položky v letech 2018 a 2020</strong> (2,57 a 4,84 mil.) jsou dotace, na které vznikl nárok, ale peníze ještě nepřišly. V roce 2020 jde o dotaci na MŠ. V roce 2021 ji obec dostala (investiční dotace 9,86 mil., viz <a href="hd-dotace.html">dotace</a>).</li>
+<li>Zálohy na transfery (373, vyúčtovávané dotace spolkům a podobně) vzrostly v letech 2023–2025 na 0,17–0,22 mil.</li>
+</ul>
+<h3 id="závazky">Závazky</h3>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Krátk. úvěr (281)</th>
+<th style="text-align: right;">Dodavatelé</th>
+<th style="text-align: right;">Mzdy, pojistné, daně</th>
+<th style="text-align: right;">Přijaté zálohy na transfery</th>
+<th style="text-align: right;">Dohadné účty pas.</th>
+<th style="text-align: right;">Ostatní</th>
+<th style="text-align: right;">Krátk. závazky</th>
+<th style="text-align: right;">Dlouhod. závazky</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">0,50</td>
+<td style="text-align: right;">0,62</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,15</td>
+<td style="text-align: right;">1,39</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,08</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,19</td>
+<td style="text-align: right;">1,61</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">0,68</td>
+<td style="text-align: right;">0,25</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,04</td>
+<td style="text-align: right;">1,12</td>
+<td style="text-align: right;">1,39</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,17</td>
+<td style="text-align: right;">0,13</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,34</td>
+<td style="text-align: right;">2,50</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,17</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,66</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,86</td>
+<td style="text-align: right;">1,23</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,09</td>
+<td style="text-align: right;">0,14</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,19</td>
+<td style="text-align: right;">0,43</td>
+<td style="text-align: right;">0,65</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,13</td>
+<td style="text-align: right;">0,18</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,49</td>
+<td style="text-align: right;">0,55</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,14</td>
+<td style="text-align: right;">0,14</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,39</td>
+<td style="text-align: right;">0,36</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,21</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,43</td>
+<td style="text-align: right;">0,32</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,14</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">0,50</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,38</td>
+<td style="text-align: right;">1,20</td>
+<td style="text-align: right;">0,14</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"><strong>2,28</strong></td>
+<td style="text-align: right;">0,24</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">2,56</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,45</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,09</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,64</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">0,29</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,25</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,72</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,23</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,28</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,88</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,23</td>
+<td style="text-align: right;">0,35</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,91</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+</tbody>
+</table>
+<p>„Dlouhodobé závazky“ jsou: úvěr 451 (1,33 mil. v roce 2013, 0,33 v roce 2014), ostatní dlouhodobé závazky 459 (2011: 1,61 → 2017: 0,18 mil.) a v letech 2016–2019 dlouhodobé přijaté zálohy na transfery 472 (0,13–0,32 mil., to není dluh).</p>
+<ul>
+<li><strong>Dluhy obce:</strong> bankovní úvěr zmizel v roce 2015. Rozvaha ale ukazuje ještě jiný dlouhodobý závazek (účet 459, „ostatní dlouhodobé závazky“). V roce 2011 činil 1,61 mil. a pravidelně klesal o 0,22–0,24 mil. ročně: 1,39 (2012), 1,17 (2013), 0,89 (2014), 0,65 (2015), 0,42 (2016), 0,18 (2017) a 0 (2018). Obec ho tedy splácela až do roku 2017. Komu a za co, výkazy neuvádějí; mohlo jít třeba o splátkový prodej nebo návratnou výpomoc. Rozvaha také ukazuje krátkodobé úvěry 0,50 mil. (2010) a 0,68 mil. (2012).</li>
+<li><strong>Dnes je obec prakticky bez závazků:</strong> 0,91 mil. v roce 2025, tedy běžné prosincové faktury, mzdy a dohadné položky (typicky zálohy na energie). Výjimkou je konec roku 2020, kdy obec dlužila dodavatelům 2,28 mil. za rekonstrukci MŠ.</li>
+</ul>
+<h3 id="vlastní-kapitál">Vlastní kapitál</h3>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Jmění (401)</th>
+<th style="text-align: right;">Transfery na DM (403)</th>
+<th style="text-align: right;">Oceň. rozdíly a opravy (406–408)</th>
+<th style="text-align: right;">VH běžného roku</th>
+<th style="text-align: right;">VH minulých let</th>
+<th style="text-align: right;">Vlastní kapitál</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">14,27</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,21</td>
+<td style="text-align: right;">−0,39</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">14,38</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">14,19</td>
+<td style="text-align: right;">0,18</td>
+<td style="text-align: right;">−6,41</td>
+<td style="text-align: right;">1,19</td>
+<td style="text-align: right;">−0,39</td>
+<td style="text-align: right;">8,76</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">14,20</td>
+<td style="text-align: right;">0,17</td>
+<td style="text-align: right;">−7,25</td>
+<td style="text-align: right;">0,83</td>
+<td style="text-align: right;">3,32</td>
+<td style="text-align: right;">11,27</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">14,13</td>
+<td style="text-align: right;">1,54</td>
+<td style="text-align: right;">−7,19</td>
+<td style="text-align: right;">3,73</td>
+<td style="text-align: right;">8,51</td>
+<td style="text-align: right;">20,72</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">14,47</td>
+<td style="text-align: right;">4,79</td>
+<td style="text-align: right;">−7,20</td>
+<td style="text-align: right;">2,39</td>
+<td style="text-align: right;">18,39</td>
+<td style="text-align: right;">32,84</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">14,48</td>
+<td style="text-align: right;">9,43</td>
+<td style="text-align: right;">−8,00</td>
+<td style="text-align: right;">5,24</td>
+<td style="text-align: right;">23,00</td>
+<td style="text-align: right;">44,15</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">14,48</td>
+<td style="text-align: right;">14,37</td>
+<td style="text-align: right;">−8,00</td>
+<td style="text-align: right;">5,53</td>
+<td style="text-align: right;">28,25</td>
+<td style="text-align: right;">54,62</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">14,49</td>
+<td style="text-align: right;">13,57</td>
+<td style="text-align: right;">−8,00</td>
+<td style="text-align: right;">9,20</td>
+<td style="text-align: right;">46,46</td>
+<td style="text-align: right;">75,71</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Obec <strong>nemá žádné peněžní fondy</strong> (oddíl „fondy účetní jednotky“ je ve všech letech nulový). Nashromážděný přebytek se projevuje jen jako „výsledek hospodaření minulých let“, v roce 2025 46,5 mil.</li>
+<li>Účet 403 (investiční dotace, které se postupně „rozpouštějí“ do výnosů spolu s odpisy) vzrostl skokem v letech 2020–2021 o 9,6 mil. kvůli dotaci na MŠ. Od té doby jen klesá a nové investiční dotace prakticky nepřibyly: 0,12 mil. v roce 2022 a 0,30 mil. v roce 2025.</li>
+<li><strong>Opravy minulých období (408):</strong> v roce 2013 −0,83 mil. a v roce 2020 <strong>−0,81 mil.</strong> (z −0,87 na −1,68 mil.). Takové opravy přes vlastní kapitál znamenají, že obec dodatečně opravovala účetnictví předchozích let. Co se opravovalo v roce 2020, výkaz neuvádí. Vysvětlení by mělo být v příloze účetní závěrky 2020 nebo ve zprávě o přezkumu hospodaření 2020.</li>
+</ul>
+<h3 id="podrozvaha-co-v-rozvaze-není-ale-obec-eviduje">Podrozvaha (co v rozvaze není, ale obec eviduje)</h3>
+<ul>
+<li><strong>Ostatní majetek 1,54 mil.</strong> vedený v podrozvaze v letech 2010–2024. V roce 2025 zmizel. Co to bylo a proč se v roce 2025 vyřadil, výkaz neříká.</li>
+<li><strong>Ostatní dlouhodobá podmíněná aktiva 1,32 mil.</strong>, beze změny od roku 2012 do roku 2025. Obsah výkaz neuvádí.</li>
+<li><strong>Podmíněné pohledávky z přislíbených dotací:</strong> 3,11 mil. (2018 a 2019), 10,87 mil. (2020), 1,44 mil. (2021) a pak nic až do roku 2025, kdy se objevuje <strong>2,70 mil. Kč dlouhodobé podmíněné pohledávky z transferů</strong>. Na konci roku 2025 tedy měla obec přislíbenou dotaci ve výši 2,70 mil. Kč. Výše odpovídá smlouvě s Moravskoslezským krajem na projektovou dokumentaci MŠ (max. 2 696 897 Kč, viz <a href="hd-dotace.html">dotace</a>); výkaz ale účel neuvádí.</li>
+<li>Jiný drobný hmotný majetek v operativní evidenci: 0,05 mil. (2016) → 0,52 mil. (2025).</li>
+</ul>
+<h2 id="4-budova-mš-a-rekonstrukce-20202021">4. Budova MŠ a rekonstrukce 2020–2021</h2>
+<ul>
+<li><strong>Před rekonstrukcí:</strong> obec vykazuje budovy pro služby obyvatelstvu (kam patří MŠ, Obecní dům a podobně) v pořizovací ceně 11,23 mil. (2015) až 13,89 mil. (2020). Samotnou budovu MŠ výkazy neoddělují.</li>
+<li><strong>Na straně MŠ:</strong> příspěvková organizace měla v rozvaze v letech 2012–2017 stavbu v hodnotě 1,29 mil. Kč, nikdy ji neodepisovala (oprávky nulové) a měla k ní odpovídající jmění. V roce 2018 stavba z rozvahy MŠ zmizela a MŠ ji od té doby eviduje jen v podrozvaze jako „ostatní majetek“ 1,29 mil. (stav 2025 beze změny). V obecní rozvaze se v roce 2018 budovy pro služby zvýšily jen o 0,03 mil. Stavba tedy k obci nebyla „přeúčtována“. Buď ji obec vedla souběžně, nebo šlo o technické zhodnocení. Z výkazů to rozhodnout nejde.</li>
+<li><strong>Rekonstrukce:</strong> na konci roku 2020 bylo v nedokončených investicích 6,37 mil. V roce 2021 obec zařadila do staveb <strong>11,78 mil. Kč</strong>. Nejdřív chybně do řádku „bytové domy“, v roce 2022 do „budov pro služby obyvatelstvu“, které vzrostly z 13,89 na 25,68 mil. To odpovídá rozpočtovým výdajům na rekonstrukci (12,1 mil. investice v letech 2020–21) po odečtení vybavení, které šlo do movitých věcí (+0,48 mil. v roce 2021) a drobného majetku.</li>
+<li><strong>Dotace:</strong> investiční dotace na MŠ šla na účet 403. Proto se v letech 2020–2021 zvýšil o 4,7 + 4,9 mil. Od roku 2022 se z něj každoročně rozpouští do výnosů zhruba 0,27–0,39 mil.</li>
+<li><strong>Odpisy budov pro služby</strong> (přírůstek oprávek) vzrostly z 0,21–0,26 mil. ročně (2020–2021) na 0,36–0,37 mil. ročně (2022–2025), tedy zhruba o 0,1 mil. ročně kvůli rekonstruované MŠ. Netto hodnota budov pro služby je k 31. 12. 2025 <strong>21,28 mil. Kč</strong> (brutto 25,72, oprávky 4,43).</li>
+</ul>
+<h2 id="5-mateřská-škola-hospodaření-20122025">5. Mateřská škola: hospodaření 2012–2025</h2>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Náklady</th>
+<th style="text-align: right;">z toho osobní</th>
+<th style="text-align: right;">Výnosy</th>
+<th style="text-align: right;">Výnosy z transferů (672)</th>
+<th style="text-align: right;">Příspěvek obce na provoz (3111/5331)</th>
+<th style="text-align: right;">Průtokové dotace přes obec (3111/5336)</th>
+<th style="text-align: right;">Zbytek 672 (hlavně státní prostředky přes kraj)</th>
+<th style="text-align: right;">Vlastní výnosy</th>
+<th style="text-align: right;">VH</th>
+<th style="text-align: right;">Fondy celkem</th>
+<th style="text-align: right;">Rezervní fond (413+414)</th>
+<th style="text-align: right;">Fond investic (416)</th>
+<th style="text-align: right;">Peníze</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">0,51</td>
+<td style="text-align: right;">0,35</td>
+<td style="text-align: right;">0,57</td>
+<td style="text-align: right;">0,45</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,35</td>
+<td style="text-align: right;">0,13</td>
+<td style="text-align: right;">0,06</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,20</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">1,69</td>
+<td style="text-align: right;">1,12</td>
+<td style="text-align: right;">1,63</td>
+<td style="text-align: right;">1,35</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">1,05</td>
+<td style="text-align: right;">0,28</td>
+<td style="text-align: right;">−0,06</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,18</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">1,73</td>
+<td style="text-align: right;">1,16</td>
+<td style="text-align: right;">1,74</td>
+<td style="text-align: right;">1,42</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">1,10</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,22</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">1,53</td>
+<td style="text-align: right;">1,14</td>
+<td style="text-align: right;">1,70</td>
+<td style="text-align: right;">1,37</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">1,06</td>
+<td style="text-align: right;">0,32</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,36</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">1,82</td>
+<td style="text-align: right;">1,16</td>
+<td style="text-align: right;">1,94</td>
+<td style="text-align: right;">1,57</td>
+<td style="text-align: right;">0,42</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">1,14</td>
+<td style="text-align: right;">0,37</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,20</td>
+<td style="text-align: right;">0,15</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,44</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">2,45</td>
+<td style="text-align: right;">1,59</td>
+<td style="text-align: right;">2,48</td>
+<td style="text-align: right;">2,04</td>
+<td style="text-align: right;">0,42</td>
+<td style="text-align: right;">0,17</td>
+<td style="text-align: right;">1,46</td>
+<td style="text-align: right;">0,44</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,37</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,56</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">3,04</td>
+<td style="text-align: right;">2,20</td>
+<td style="text-align: right;">3,04</td>
+<td style="text-align: right;">2,57</td>
+<td style="text-align: right;">0,42</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">2,02</td>
+<td style="text-align: right;">0,47</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,27</td>
+<td style="text-align: right;">0,18</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,46</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">3,27</td>
+<td style="text-align: right;">2,53</td>
+<td style="text-align: right;">3,31</td>
+<td style="text-align: right;">2,90</td>
+<td style="text-align: right;">0,45</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">2,43</td>
+<td style="text-align: right;">0,41</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,09</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,01</td>
+<td style="text-align: right;">0,25</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">3,32</td>
+<td style="text-align: right;">2,76</td>
+<td style="text-align: right;">3,50</td>
+<td style="text-align: right;">3,29</td>
+<td style="text-align: right;">0,55</td>
+<td style="text-align: right;">0,43</td>
+<td style="text-align: right;">2,31</td>
+<td style="text-align: right;">0,20</td>
+<td style="text-align: right;">0,18</td>
+<td style="text-align: right;">0,30</td>
+<td style="text-align: right;">0,18</td>
+<td style="text-align: right;">0,03</td>
+<td style="text-align: right;">0,80</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">4,40</td>
+<td style="text-align: right;">3,41</td>
+<td style="text-align: right;">4,42</td>
+<td style="text-align: right;">3,84</td>
+<td style="text-align: right;">0,55</td>
+<td style="text-align: right;">0,27</td>
+<td style="text-align: right;">3,02</td>
+<td style="text-align: right;">0,59</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">0,35</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,90</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">5,64</td>
+<td style="text-align: right;">4,39</td>
+<td style="text-align: right;">5,71</td>
+<td style="text-align: right;">5,10</td>
+<td style="text-align: right;">0,70</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">4,35</td>
+<td style="text-align: right;">0,61</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,22</td>
+<td style="text-align: right;">0,12</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,87</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">6,33</td>
+<td style="text-align: right;">4,88</td>
+<td style="text-align: right;">6,39</td>
+<td style="text-align: right;">5,68</td>
+<td style="text-align: right;">0,82</td>
+<td style="text-align: right;">0,46</td>
+<td style="text-align: right;">4,40</td>
+<td style="text-align: right;">0,70</td>
+<td style="text-align: right;">0,05</td>
+<td style="text-align: right;">0,21</td>
+<td style="text-align: right;">0,10</td>
+<td style="text-align: right;">0,09</td>
+<td style="text-align: right;">1,20</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">6,45</td>
+<td style="text-align: right;">4,97</td>
+<td style="text-align: right;">6,56</td>
+<td style="text-align: right;">5,84</td>
+<td style="text-align: right;">0,86</td>
+<td style="text-align: right;">0,02</td>
+<td style="text-align: right;">4,95</td>
+<td style="text-align: right;">0,72</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">0,31</td>
+<td style="text-align: right;">0,16</td>
+<td style="text-align: right;">0,11</td>
+<td style="text-align: right;">1,11</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">6,56</td>
+<td style="text-align: right;">5,06</td>
+<td style="text-align: right;">6,63</td>
+<td style="text-align: right;">5,92</td>
+<td style="text-align: right;">0,90</td>
+<td style="text-align: right;">0,36</td>
+<td style="text-align: right;">4,66</td>
+<td style="text-align: right;">0,71</td>
+<td style="text-align: right;">0,07</td>
+<td style="text-align: right;">0,45</td>
+<td style="text-align: right;">0,25</td>
+<td style="text-align: right;">0,13</td>
+<td style="text-align: right;">1,39</td>
+</tr>
+</tbody>
+</table>
+<p>„Fondy celkem“ zahrnují i fond odměn (411) a FKSP (412: 0,05 mil. v roce 2025). Sloupec „Zbytek 672“ je jen odhad (výnosy z transferů minus platby obce podle rozpočtu). Časové rozlišení dotací mezi roky může čísla mírně posunout.</p>
+<h3 id="hlavní-zjištění-k-mš">Hlavní zjištění k MŠ</h3>
+<ol type="1">
+<li><strong>MŠ hospodaří vyrovnaně až mírně ziskově.</strong> Výsledek se pohybuje mezi −0,06 mil. (2013, jediná ztráta) a +0,18 mil. (2020). Zisk převádí do rezervního fondu (příděl ze zlepšeného výsledku až 0,18 mil. ročně).</li>
+<li><strong>Náklady MŠ se od roku 2016 více než ztrojnásobily</strong> (1,82 → 6,56 mil.). Tahounem jsou osobní náklady (1,16 → 5,06 mil., v roce 2025 77 % nákladů). Tyto mzdy platí hlavně stát přes kraj, což je zbytek výnosů z transferů 4,66 mil. v roce 2025.</li>
+<li><strong>Příspěvek obce na provoz se ztrojnásobil:</strong> 0,30 mil. (2013–2015), 0,42 mil. (2016–2018), 0,55 mil. (2020–2021), 0,70 mil. (2022) a <strong>0,90 mil. (2025)</strong>. Obec navíc přes svůj rozpočet posílá MŠ průtokové dotace (5336, 0,02–0,46 mil. ročně, nejspíš šablony a podobné projekty). Jejich obsah rozpočtový výkaz nerozlišuje.</li>
+<li><strong>Investiční příspěvek:</strong> v roce 2019 měla obec v upraveném rozpočtu investiční příspěvek MŠ 30 000 Kč (6351) se skutečností 0. Fond investic MŠ ale v roce 2019 vykazuje přijetí investičního příspěvku od zřizovatele 0,03 mil. Provozní příspěvek 5331 byl ve skutečnosti 450 000 Kč místo rozpočtovaných 420 000 Kč. Investiční příspěvek tedy obec nejspíš zaplatila z položky na provoz. Je to drobná nesrovnalost v třídění rozpočtu, ne v penězích. V roce 2019 MŠ pořídila movitý majetek za 0,20 mil. (fond investic + převod z rezervního fondu 0,17 mil.).</li>
+<li><strong>Vlastní výnosy MŠ</strong> (úplata a stravné, účty 601/602) jsou stabilně 0,4–0,7 mil. V roce 2020 klesly na 0,20 mil., což odpovídá omezenému provozu při rekonstrukci a covidu.</li>
+<li><strong>Peníze MŠ</strong> jsou 1,39 mil. v roce 2025. Proti nim stojí fondy (0,45 mil.), krátkodobé závazky (0,55 mil., hlavně prosincové mzdy) a dlouhodobé přijaté zálohy na transfery (0,74 mil., předem obdržená dotace). Volné peníze tedy MŠ nehromadí.</li>
+</ol>
+<p>Další údaje o škole jsou na stránce <a href="hd-skolstvi-socialni.html">školství a sociální oblast</a>.</p>
+<h2 id="pozor-metodika-a-omezení">Pozor (metodika a omezení)</h2>
+<ul>
+<li><strong>Účetní reforma 2010–2013:</strong> obce začaly odpisovat majetek až po reformě. V roce 2010 jsou oprávky prakticky nulové. V roce 2011 obec jednorázově doúčtovala oprávky 6,78 mil. proti vlastnímu kapitálu (účet 407/406 −6,45 mil.), proto aktiva v roce 2011 „klesla“ z 15,8 na 10,6 mil. Odpisy jako náklad jsou ve výkazu zisku a ztráty až od roku 2013. V letech 2011–2013 se oprávky dopočítávaly přes vlastní kapitál (406, 408). Roky 2010–2012 proto nejsou s pozdějšími plně srovnatelné.</li>
+<li><strong>Rok 2010</strong> je v datech zaokrouhlený (částky končí nulou) a má jinou strukturu výkazů. Pasiva 2010–2011 nemají syntetické účty, takže jsou přiřazena podle řádků výkazu. Výkaz zisku a ztráty 2010–2011 vykazuje daně jako vlastní výnosy obce (631–636), od roku 2012 jako sdílené daně (681–688).</li>
+<li><strong>Členění staveb a pozemků</strong> (příloha G a H) je použitelné až od roku 2015. Předtím obec všechno dávala do „bytových domů“ a „stavebních pozemků“. V roce 2021 je MŠ chybně v řádku „bytové domy“.</li>
+<li><strong>Rozvaha neukazuje jednotlivé stavby ani akce.</strong> Co přesně je v nedokončených investicích, co je „ostatní majetek“ 1,54 mil. a „podmíněná aktiva“ 1,32 mil. v podrozvaze a komu obec splácela závazek 459, zjistí jen inventurní soupisy (inventarizační zprávy), příloha účetní závěrky v textové podobě nebo zprávy o přezkumu hospodaření.</li>
+<li><strong>Pohledávky za odpady:</strong> výkaz pohledávky podle druhu poplatku nerozlišuje. Účet 315 je pro ně jen pravděpodobné místo.</li>
+<li><strong>MŠ:</strong> za roky 2010–2011 v Monitoru výkazy MŠ nejsou, přestože MŠ jako právnická osoba vznikla v červnu 2011. Rok 2012 má jen 0,51 mil. nákladů proti 1,69 mil. v roce 2013, takže zřejmě nepokrývá celý rok provozu. Proč, data nevysvětlují. V ARES je navíc vedena <strong>Základní škola Horní Domaslavice (IČO 70997691)</strong>, která v Monitoru za roky 2010–2025 nemá žádné účetní výkazy.</li>
+<li><strong>Rok 2026 chybí</strong>, výkazy k 31. 12. 2026 MF zveřejní zhruba v březnu 2027.</li>
+<li>Čísla v textu jsou zaokrouhlená. Součty v tabulkách se proto mohou lišit o 0,01.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Zdrojem jsou datové extrakty Monitoru státní pokladny Ministerstva financí za prosinec každého roku: rozvaha (<a href="https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Rozvaha/">https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Rozvaha/</a>), výkaz zisku a ztráty (<a href="https://monitor.statnipokladna.gov.cz/data/extrakty/csv/ZiskZtraty/">https://monitor.statnipokladna.gov.cz/data/extrakty/csv/ZiskZtraty/</a>) a příloha účetní závěrky (<a href="https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Priloha/">https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Priloha/</a>), názvy řádků podle číselníku <a href="https://monitor.statnipokladna.gov.cz/data/xml/polvyk.xml">https://monitor.statnipokladna.gov.cz/data/xml/polvyk.xml</a>. Z extraktů byly vybrány řádky obce (IČO 00536008) a MŠ (IČO 72547839). Rozpočtová čísla (investice, saldo, příspěvky MŠ) pocházejí z výkazu FIN 2-12 M ze stejného zdroje. Rok 2009 v Monitoru není. Zpracováno 30. 10. 2026.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

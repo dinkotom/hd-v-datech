@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roztříštěnost zástavby – Horní Domaslavice v datech</title>
+<meta name="description" content="Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pazdernou, Dolními Domaslavicemi a Lučinou a co to znamená pro délku sítí.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details open><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html" aria-current="page">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Roztříštěnost zástavby</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Stránka ukazuje, jestli domy v obci tvoří jedno souvislé sídlo, nebo několik oddělených částí, a jak dlouhá síť (cesty, vodovod, kanalizace) by musela být, aby propojila všechny domy. Vychází z polohy budov v registru RÚIAN (výměnný formát za obce ke 30. 9. 2026, vdp.cuzk.gov.cz).</p>
+<p>Za dům k bydlení se počítá stavební objekt evidovaný jako rodinný nebo bytový dům, případně stavba s číslem popisným a aspoň jedním bytem. Rekreační objekty (chaty s číslem evidenčním) jsou zvlášť.</p>
+<p><img src="img/mapa_zastavby_4obce.png" alt="Mapa zástavby čtyř obcí" /></p>
+<h2 id="jak-se-roztříštěnost-měřila">Jak se roztříštěnost měřila</h2>
+<ul>
+<li><strong>Skupiny domů:</strong> domy, mezi kterými je mezera nejvýš 75, 100 nebo 150 m, tvoří jednu souvislou skupinu. Podle toho, kolik skupin vznikne a jak velký podíl domů je v té největší, je vidět, jestli je obec jedno sídlo, nebo několik oddělených částí.</li>
+<li><strong>Vzdálenost od středu:</strong> jak daleko jsou domy od středu zástavby obce (medián souřadnic).</li>
+<li><strong>Nejkratší propojení všech domů:</strong> nejkratší síť přímých spojnic, která propojí všechny domy (minimální kostra). Je to dolní odhad délky jakékoli sítě, která má vést ke každému domu, tedy cest, vodovodu nebo kanalizace. Skutečná síť vede po cestách a je delší.</li>
+<li><strong>Obálka zástavby:</strong> plocha, kterou pokryjí kruhy o poloměru 50 m kolem všech domů.</li>
+</ul>
+<h2 id="výsledky">Výsledky</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">PA</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">LU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Domy k bydlení</td>
+<td style="text-align: right;">408</td>
+<td style="text-align: right;">125</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">532</td>
+</tr>
+<tr>
+<td>Rekreační objekty</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">116</td>
+<td style="text-align: right;">178</td>
+</tr>
+<tr>
+<td><strong>Podíl domů v největší skupině (mezera do 150 m)</strong></td>
+<td style="text-align: right;"><strong>43 %</strong></td>
+<td style="text-align: right;">83 %</td>
+<td style="text-align: right;">83 %</td>
+<td style="text-align: right;">74 %</td>
+</tr>
+<tr>
+<td>Počet skupin aspoň s 5 domy (do 150 m)</td>
+<td style="text-align: right;"><strong>9</strong></td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr>
+<td>Velikost největších skupin (do 150 m)</td>
+<td style="text-align: right;">174, 119, 31, 20, 18, 10</td>
+<td style="text-align: right;">104, 6</td>
+<td style="text-align: right;">416, 25, 6</td>
+<td style="text-align: right;">392, 42, 23, 17, 17</td>
+</tr>
+<tr>
+<td>Podíl domů v největší skupině (do 100 m)</td>
+<td style="text-align: right;">16 %</td>
+<td style="text-align: right;">39 %</td>
+<td style="text-align: right;">40 %</td>
+<td style="text-align: right;">70 %</td>
+</tr>
+<tr>
+<td>Samoty a dvojice (mezera nad 150 m)</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr>
+<td><strong>Medián vzdálenosti domu od středu</strong></td>
+<td style="text-align: right;"><strong>1 219 m</strong></td>
+<td style="text-align: right;">473 m</td>
+<td style="text-align: right;">795 m</td>
+<td style="text-align: right;">448 m</td>
+</tr>
+<tr>
+<td>90 % domů do vzdálenosti</td>
+<td style="text-align: right;">1 768 m</td>
+<td style="text-align: right;">1 234 m</td>
+<td style="text-align: right;">1 333 m</td>
+<td style="text-align: right;">1 439 m</td>
+</tr>
+<tr>
+<td>Medián vzdálenosti k nejbližšímu sousedovi</td>
+<td style="text-align: right;">40 m</td>
+<td style="text-align: right;">37 m</td>
+<td style="text-align: right;">34 m</td>
+<td style="text-align: right;">26 m</td>
+</tr>
+<tr>
+<td>Nejkratší propojení všech domů</td>
+<td style="text-align: right;">25,1 km</td>
+<td style="text-align: right;">8,0 km</td>
+<td style="text-align: right;">29,4 km</td>
+<td style="text-align: right;">23,1 km</td>
+</tr>
+<tr>
+<td><strong>…na jeden dům</strong></td>
+<td style="text-align: right;"><strong>61 m</strong></td>
+<td style="text-align: right;">64 m</td>
+<td style="text-align: right;">59 m</td>
+<td style="text-align: right;"><strong>43 m</strong></td>
+</tr>
+<tr>
+<td>…z toho v úsecích delších než 150 m</td>
+<td style="text-align: right;">3,6 km (14 %)</td>
+<td style="text-align: right;">2,2 km (28 %)</td>
+<td style="text-align: right;">5,5 km (19 %)</td>
+<td style="text-align: right;">4,9 km (21 %)</td>
+</tr>
+<tr>
+<td>Obálka zástavby (ha)</td>
+<td style="text-align: right;">192</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">212</td>
+<td style="text-align: right;">159</td>
+</tr>
+<tr>
+<td>Domy na hektar obálky</td>
+<td style="text-align: right;">2,1</td>
+<td style="text-align: right;">2,2</td>
+<td style="text-align: right;">2,4</td>
+<td style="text-align: right;">3,4</td>
+</tr>
+</tbody>
+</table>
+<h2 id="co-z-toho-plyne">Co z toho plyne</h2>
+<ol type="1">
+<li><strong>Pazderna je jedno sídlo podél cesty.</strong> 83 % domů tvoří jednu souvislou řadu, kde mezi sousedy není víc než 150 m. Mimo ni je jen pár domů. Při přísnějším měřítku (100 m) se řada rozpadá na několik úseků, protože domy podél cesty mají mezi sebou mezery. Typická silniční nebo lánová ves.</li>
+<li><strong>HD nejsou jedno sídlo, ale několik oddělených částí.</strong> Ani při mezeře 150 m největší část nemá ani polovinu domů. Obec tvoří dvě velké části (174 a 119 domů) a čtyři menší osady po 10–31 domech, mezi nimi samoty. Polovina domů je dál než 1,2 km od středu zástavby, ve srovnání s 0,45–0,8 km v ostatních obcích.</li>
+<li><strong>Uvnitř jednotlivých částí ale HD rozptýlené nejsou.</strong> Na jeden dům připadá 61 m nejkratšího propojení, prakticky stejně jako v DD (59 m) a Pazderně (64 m). Dlouhé úseky mezi částmi tvoří jen 14 % délky propojení, nejméně ze čtyř obcí. Roztříštěnost HD je tedy v tom, že obec má několik vzdálených těžišť, ne v tom, že by domy stály každý zvlášť.</li>
+<li><strong>Lučina je nejkompaktnější:</strong> 43 m propojení na dům, sousedé nejblíž (26 m) a největší hustota v obálce zástavby. Je to dané hustou zástavbou v jádru a bytovými domy.</li>
+<li><strong>Dopad na infrastrukturu:</strong> délka sítě na dům, která rozhoduje o nákladech na kanalizaci nebo vodovod, je v HD srovnatelná s DD a Pazdernou. HD znevýhodňuje spíš potřeba několika samostatných řešení (nebo dlouhých propojovacích stok) pro oddělené části. Odpovídá to tomu, že v obci je dnes podle RÚIAN 94 domů s vlastní domovní ČOV a 290 se žumpou.</li>
+</ol>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li>Výsledky závisí na zvolené mezeře. Proto jsou uvedeny tři (75, 100, 150 m). HD jsou ve všech třech variantách nejroztříštěnější (největší skupina 13 %, 16 % a 43 % domů). Lučina je nejkompaktnější při mezeře 75 a 100 m. Při 150 m ji předstihnou Pazderna a DD, kde se jednotlivé úseky podél cest propojí.</li>
+<li>Nejkratší propojení počítá přímé spojnice. Skutečné cesty a sítě kopírují terén a vlastnické hranice a jsou delší, u všech obcí podobně.</li>
+<li>Bod domu je definiční bod budovy z RÚIAN, ne vjezd z ulice.</li>
+<li>„Střed“ zástavby je statistický střed rozmístění domů, ne náves ani obecní úřad.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Zdroj: RÚIAN, výměnný formát za obce (soubory OB_&lt;kód&gt;_UKSH na vdp.cuzk.gov.cz), stav ke 30. 9. 2026, definiční body stavebních objektů. Skupiny domů jsou spočítané jako shluky bodů s maximální mezerou 75, 100 a 150 m. Nejkratší propojení je minimální kostra nad body domů s přímými (vzdušnými) spojnicemi. Obálka zástavby je sjednocení kruhů o poloměru 50 m kolem všech domů. Rekreační objekty do výpočtů nevstupují.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

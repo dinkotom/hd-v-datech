@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Srovnání se sousedními obcemi – Horní Domaslavice v datech</title>
+<meta name="description" content="Souhrn klíčových čísel Horních Domaslavic vedle Pazderny, Dolních Domaslavic a Lučiny: lidé, finance, majetek, služby, zakázky a volby.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details open><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html" aria-current="page">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Srovnání se sousedními obcemi</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Tato stránka shrnuje dílčí srovnání Horních Domaslavic (HD) se třemi sousedními obcemi: Pazdernou (PA), Dolními Domaslavicemi (DD) a Lučinou (LU). Všechny čtyři leží v okrese Frýdek-Místek. Data jsou veřejná a pocházejí z ČSÚ, Monitoru státní pokladny Ministerstva financí, RÚIAN, ČÚZK, rejstříku škol, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, volby.cz, ARES, registru smluv a profilů zadavatelů. Srovnání je věcné: porovnává čísla, nehodnotí vedení jednotlivých obcí. Podrobnosti, metodika a výhrady jsou na dílčích stránkách:</p>
+<ul>
+<li><a href="srovnani-finance.html">Finance</a>: příjmy, výdaje, investice a opravy, dotace, rezervy, peníze na účtech</li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek a zakázky</a>: rozvaha, výsledek hospodaření, registr smluv, veřejné zakázky</li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a>: vývoj obyvatel, sčítání 2021, výstavba, plochy pro bydlení</li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální oblast</a>: školy, nezaměstnanost, exekuce, kriminalita, ovzduší, služby</li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a>: volby, subjekty a spolky, výdaje na spolky</li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul>
+<h2 id="hlavní-závěr">Hlavní závěr</h2>
+<p>Horní Domaslavice jsou ze čtyř obcí nejrychleji rostoucí, spolu s Pazdernou nejmladší, mají nejvyšší podíl vysokoškoláků a nejnižší podíl osob v exekuci. Daňové příjmy na obyvatele mají srovnatelné se sousedy. <strong>Do investic a oprav ale v letech 2023–2025 daly na obyvatele třikrát až pětkrát méně a mají nejméně majetku na obyvatele.</strong> Zároveň mají nejvíc peněz na účtech na obyvatele a jako jediné ze čtyř obcí v letech 2010–2025 nevydaly nic na vodovod ani kanalizaci. Ostatní obce získaly za stejné období třikrát až pětkrát víc investičních dotací a dvě z nich si na stavby vzaly úvěr.</p>
+<h2 id="klíčová-čísla-vedle-sebe">Klíčová čísla vedle sebe</h2>
+<h3 id="lidé">Lidé</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">PA</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">LU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obyvatelé 2025</td>
+<td style="text-align: right;">1 109</td>
+<td style="text-align: right;">422</td>
+<td style="text-align: right;">1 467</td>
+<td style="text-align: right;">1 596</td>
+</tr>
+<tr>
+<td>Růst 2000–2025</td>
+<td style="text-align: right;"><strong>+97 %</strong></td>
+<td style="text-align: right;">+54 %</td>
+<td style="text-align: right;">+59 %</td>
+<td style="text-align: right;">+40 %</td>
+</tr>
+<tr>
+<td>Index stáří 2024 (okres 135)</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;"><strong>49</strong></td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">105</td>
+</tr>
+<tr>
+<td>Vysokoškoláci 2021</td>
+<td style="text-align: right;"><strong>21,9 %</strong></td>
+<td style="text-align: right;">17,5 %</td>
+<td style="text-align: right;">19,9 %</td>
+<td style="text-align: right;">18,9 %</td>
+</tr>
+<tr>
+<td>Nové byty 2016–2025 na 1 000 obyvatel (okres 31)</td>
+<td style="text-align: right;"><strong>116</strong></td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">65</td>
+</tr>
+<tr>
+<td>Nezaměstnanost 2024 (ČSÚ)</td>
+<td style="text-align: right;"><strong>2,2 %</strong></td>
+<td style="text-align: right;">2,9 %</td>
+<td style="text-align: right;">2,6 %</td>
+<td style="text-align: right;">3,8 %</td>
+</tr>
+<tr>
+<td>Osoby v exekuci (15+, okres 4,7 %)</td>
+<td style="text-align: right;"><strong>1,7 %</strong></td>
+<td style="text-align: right;">4,6 %</td>
+<td style="text-align: right;">2,0 %</td>
+<td style="text-align: right;">3,6 %</td>
+</tr>
+</tbody>
+</table>
+<h3 id="peníze-kč-na-obyvatele-a-rok-20232025-pokud-není-uvedeno-jinak">Peníze (Kč na obyvatele a rok, 2023–2025, pokud není uvedeno jinak)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">PA</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">LU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Daňové příjmy</td>
+<td style="text-align: right;">18 513</td>
+<td style="text-align: right;">18 196</td>
+<td style="text-align: right;">22 115</td>
+<td style="text-align: right;">20 256</td>
+</tr>
+<tr>
+<td>Investice a opravy</td>
+<td style="text-align: right;"><strong>5 634</strong></td>
+<td style="text-align: right;">30 673</td>
+<td style="text-align: right;">22 588</td>
+<td style="text-align: right;">18 050</td>
+</tr>
+<tr>
+<td>Investice a opravy 2011–2025</td>
+<td style="text-align: right;"><strong>4 964</strong></td>
+<td style="text-align: right;">16 418</td>
+<td style="text-align: right;">10 243</td>
+<td style="text-align: right;">10 264</td>
+</tr>
+<tr>
+<td>Vlastní investice a opravy, podíl na daňových příjmech</td>
+<td style="text-align: right;"><strong>30 %</strong></td>
+<td style="text-align: right;">70 %</td>
+<td style="text-align: right;">62 %</td>
+<td style="text-align: right;">74 %</td>
+</tr>
+<tr>
+<td>Investiční dotace 2011–2025 celkem (mil. Kč)</td>
+<td style="text-align: right;"><strong>14,7</strong></td>
+<td style="text-align: right;">41,9</td>
+<td style="text-align: right;">67,7</td>
+<td style="text-align: right;">48,6</td>
+</tr>
+<tr>
+<td>Vodovod a kanalizace 2011–2025 (mil. Kč)</td>
+<td style="text-align: right;"><strong>0</strong></td>
+<td style="text-align: right;">0,9</td>
+<td style="text-align: right;">11,8</td>
+<td style="text-align: right;">15,4</td>
+</tr>
+<tr>
+<td>Čerpání upraveného rozpočtu výdajů (2023–2025)</td>
+<td style="text-align: right;"><strong>27–40 %</strong></td>
+<td style="text-align: right;">80–93 %</td>
+<td style="text-align: right;">50–86 %</td>
+<td style="text-align: right;">65–76 %</td>
+</tr>
+<tr>
+<td>Peníze na účtech 31. 12. 2025 na obyvatele</td>
+<td style="text-align: right;"><strong>35 613</strong></td>
+<td style="text-align: right;">7 694</td>
+<td style="text-align: right;">30 739</td>
+<td style="text-align: right;">3 252</td>
+</tr>
+<tr>
+<td>Úvěry 2025 (mil. Kč)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4,0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">17,25</td>
+</tr>
+</tbody>
+</table>
+<h3 id="majetek-2025-kč-na-obyvatele">Majetek (2025, Kč na obyvatele)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">PA</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">LU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aktiva celkem</td>
+<td style="text-align: right;"><strong>69 tis.</strong></td>
+<td style="text-align: right;">220 tis.</td>
+<td style="text-align: right;">214 tis.</td>
+<td style="text-align: right;">174 tis.</td>
+</tr>
+<tr>
+<td>Stavby netto</td>
+<td style="text-align: right;"><strong>28 tis.</strong></td>
+<td style="text-align: right;">105 tis.</td>
+<td style="text-align: right;">151 tis.</td>
+<td style="text-align: right;">116 tis.</td>
+</tr>
+<tr>
+<td>Přírůstek staveb brutto 2014–2025 (mil. Kč)</td>
+<td style="text-align: right;"><strong>+25</strong></td>
+<td style="text-align: right;">+44</td>
+<td style="text-align: right;">+206</td>
+<td style="text-align: right;">+172</td>
+</tr>
+</tbody>
+</table>
+<h3 id="infrastruktura-a-bydlení-sčítání-2021">Infrastruktura a bydlení (sčítání 2021)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">PA</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">LU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Napojení na kanalizaci</td>
+<td style="text-align: right;"><strong>0 %</strong></td>
+<td style="text-align: right;">0 %</td>
+<td style="text-align: right;">8 %</td>
+<td style="text-align: right;">51 %</td>
+</tr>
+<tr>
+<td>Topení uhlím</td>
+<td style="text-align: right;"><strong>21 %</strong></td>
+<td style="text-align: right;">9 %</td>
+<td style="text-align: right;">17 %</td>
+<td style="text-align: right;">12 %</td>
+</tr>
+<tr>
+<td>Topení plynem</td>
+<td style="text-align: right;"><strong>11 %</strong></td>
+<td style="text-align: right;">39 %</td>
+<td style="text-align: right;">39 %</td>
+<td style="text-align: right;">42 %</td>
+</tr>
+<tr>
+<td>Domy postavené po roce 2000</td>
+<td style="text-align: right;"><strong>50 %</strong></td>
+<td style="text-align: right;">33 %</td>
+<td style="text-align: right;">39 %</td>
+<td style="text-align: right;">34 %</td>
+</tr>
+<tr>
+<td>Benzo(a)pyren 2020–24 (limit 1 ng/m³)</td>
+<td style="text-align: right;">1,29</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">1,33</td>
+<td style="text-align: right;">1,33</td>
+</tr>
+</tbody>
+</table>
+<h3 id="školy-a-služby">Školy a služby</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>HD</th>
+<th>PA</th>
+<th>DD</th>
+<th>LU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mateřská škola</td>
+<td>44 míst, plná</td>
+<td>žádná</td>
+<td>75 míst</td>
+<td>28 míst (od 9/2026, dřív 48)</td>
+</tr>
+<tr>
+<td>Základní škola</td>
+<td>žádná (spádová ZŠ Jana Čapka, Frýdek-Místek)</td>
+<td>žádná (spádová ZŠ Dobrá)</td>
+<td>úplná, 250 míst</td>
+<td>1.–5. ročník, 100 míst</td>
+</tr>
+<tr>
+<td>Lékař / sociální služba v obci</td>
+<td>žádný / žádná</td>
+<td>žádný / žádná</td>
+<td>praktický lékař / domov se zvláštním režimem (46 lůžek)</td>
+<td>praktický lékař, pediatr / žádná</td>
+</tr>
+</tbody>
+</table>
+<h3 id="transparentnost-a-zakázky-20142026">Transparentnost a zakázky (2014–2026)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">PA</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">LU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vlastní smlouvy v registru smluv</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">16 (od 2021 jen 1)</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Veřejné zakázky na profilu zadavatele</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">36</td>
+</tr>
+<tr>
+<td>Průměrný počet nabídek</td>
+<td style="text-align: right;">5,3</td>
+<td style="text-align: right;">5,0</td>
+<td style="text-align: right;">7,0</td>
+<td style="text-align: right;">7,1</td>
+</tr>
+<tr>
+<td>Medián vysoutěžené ceny proti předpokladu</td>
+<td style="text-align: right;">82 %</td>
+<td style="text-align: right;">63 %</td>
+<td style="text-align: right;">66 %</td>
+<td style="text-align: right;">80 %</td>
+</tr>
+<tr>
+<td>Výdaje na spolky (Kč na obyvatele, 2022–25)</td>
+<td style="text-align: right;">172</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">207</td>
+<td style="text-align: right;">350</td>
+</tr>
+<tr>
+<td>Spolky na 1 000 obyvatel</td>
+<td style="text-align: right;">3,6</td>
+<td style="text-align: right;">4,8</td>
+<td style="text-align: right;">10,2</td>
+<td style="text-align: right;">11,3</td>
+</tr>
+</tbody>
+</table>
+<h3 id="komunální-volby-2026">Komunální volby 2026</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">PA</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">LU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Účast</td>
+<td style="text-align: right;"><strong>63,9 %</strong></td>
+<td style="text-align: right;">46,0 %</td>
+<td style="text-align: right;">60,3 %</td>
+<td style="text-align: right;">63,2 %</td>
+</tr>
+<tr>
+<td>Nejsilnější kandidátka</td>
+<td style="text-align: right;">25 %</td>
+<td style="text-align: right;">jediná kandidátka</td>
+<td style="text-align: right;">78 % (12/15)</td>
+<td style="text-align: right;">47 % (8/15)</td>
+</tr>
+<tr>
+<td>Zastupitelé zvolení i v roce 2022</td>
+<td style="text-align: right;"><strong>3–4 z 13</strong></td>
+<td style="text-align: right;">7 ze 7</td>
+<td style="text-align: right;">9 z 15</td>
+<td style="text-align: right;">10 z 15</td>
+</tr>
+</tbody>
+</table>
+<h2 id="co-ze-srovnání-plyne">Co ze srovnání plyne</h2>
+<ol type="1">
+<li><strong>Rozdíl mezi HD a sousedy není v příjmech, ale ve výdajích na investice a opravy.</strong> Daňové příjmy na obyvatele jsou v HD srovnatelné s Pazdernou a o 9–16 % nižší než v Lučině a DD. Výdaje na investice a opravy na obyvatele jsou v letech 2023–2025 v HD třikrát až pětkrát nižší.</li>
+<li><strong>HD získaly výrazně méně investičních dotací.</strong> Za roky 2011–2025 to bylo 14,7 mil. Kč. Pazderna, která má zhruba dva a půlkrát méně obyvatel, získala 41,9 mil. Kč a DD 67,7 mil. Kč. V letech 2023–2025 HD investiční dotaci nezískaly.</li>
+<li><strong>HD mají nejvíc peněz na účtech na obyvatele a nejméně majetku.</strong> Lučina a Pazderna mají nejméně peněz na účtech a na stavby si vzaly úvěr. DD mají podobnou hotovost na obyvatele jako HD a přitom trojnásobný majetek na obyvatele.</li>
+<li><strong>Vodovod a kanalizace:</strong> HD jsou spolu s Pazdernou bez kanalizace. Na rozdíl od ostatních obcí ale v letech 2010–2025 nevydaly na vodovod ani kanalizaci nic, přestože rostou nejrychleji.</li>
+<li><strong>Čerpání rozpočtu je v HD nejnižší.</strong> Velký rezervní řádek v rozpočtu a čerpání upraveného rozpočtu výdajů pod 40 % mají v letech 2023–2025 jen HD.</li>
+<li><strong>Zastupitelstvo HD je nejroztříštěnější</strong> (pět kandidátek, nejsilnější s 25 % hlasů) a v roce 2026 se ze čtyř obcí obměnilo nejvíc. HD přitom měly v roce 2026 nejvyšší volební účast.</li>
+</ol>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li>Obce nejsou plně srovnatelné. DD a Lučina provozují základní školy. Lučina má výdaje spojené s rekreační oblastí u nádrže Žermanice (stavba za 41,5 mil. Kč v paragrafu cestovní ruch v letech 2019–2020). Pazderna je malá a jednotlivé velké akce s jejími čísly výrazně hýbou.</li>
+<li>Částky nejsou očištěné o inflaci a rok 2026 zatím v datech chybí. Projektová dokumentace MŠ a hřiště v HD se do čísel promítnou až v datech za rok 2026.</li>
+<li>Malá čísla (zejména u Pazderny) mohou kolísat. U zakázek jsou vzorky malé (3–13 zakázek s uvedenou předpokládanou hodnotou).</li>
+<li>U Lučiny se hodnota smluv v registru nesčítá, protože v něm figuruje smlouva Ministerstva financí za zhruba 105 mil. Kč, kde je obec jen jednou ze stran.</li>
+<li>Údaje o zbývajících plochách pro bydlení pocházejí z dokumentů různého data a stavu a nejsou plně srovnatelné.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Identifikace obcí (IČO / kód obce): Horní Domaslavice 00536008 / 512192, Pazderna 00577073 / 552500, Dolní Domaslavice 00494241 / 598101, Lučina 00296899 / 598399. Finanční údaje jsou z výkazů FIN 2-12 M a rozvahy v Monitoru státní pokladny (<a href="https://monitor.statnipokladna.gov.cz">https://monitor.statnipokladna.gov.cz</a>), počty obyvatel z ČSÚ (datová sada OBY01B01). Údaje „na obyvatele a rok“ za období jsou součtem částek dělených součtem počtů obyvatel k 1. 7. týchž let. Volební období 2022–2026 zahrnuje zatím jen rozpočtové roky 2023–2025. Čerpání rozpočtu je skutečnost výdajů dělená upraveným rozpočtem výdajů. Podíl domů postavených po roce 2000 a topení plynem jsou údaje sčítání 2021 (ČSÚ). Definice všech ukazatelů a zdroje jsou uvedeny na dílčích stránkách.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

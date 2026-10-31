@@ -1,0 +1,474 @@
+"""Build the static site into docs/ (served by GitHub Pages).
+
+Usage: /usr/bin/python3 -I build.py
+Markdown pages live in obsah/, datasets in data/, images in img/.
+"""
+import csv
+import html
+import os
+import re
+import shutil
+import subprocess
+import sys
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(ROOT, 'docs')
+SITE = 'Horní Domaslavice v datech'
+UPDATED = '31. 10. 2026'
+REPO_URL = 'https://github.com/dinkotom/hd-v-datech'
+
+# Google Form for error reports. Fill in after creating the form (see README.md);
+# while empty, reports open a prefilled GitHub issue instead.
+REPORT_FORM = {
+    'action': '',   # https://docs.google.com/forms/d/e/<ID>/formResponse
+    'page': '',     # entry.NNNN – Stránka
+    'quote': '',    # entry.NNNN – Citovaný text
+    'text': '',     # entry.NNNN – Co je špatně
+    'source': '',   # entry.NNNN – Správný údaj a zdroj
+    'email': '',    # entry.NNNN – E-mail
+}
+
+NAV = [
+    ('Obec v číslech', [
+        ('hd-obyvatelstvo', 'Obyvatelstvo'),
+        ('hd-prijmy', 'Příjmy ze sdílených daní'),
+        ('hd-vydaje', 'Výdaje, investice a opravy'),
+        ('hd-ucty', 'Peníze na účtech'),
+        ('hd-majetek', 'Majetek a účetnictví'),
+        ('hd-dotace', 'Dotace'),
+        ('hd-zakazky', 'Veřejné zakázky'),
+        ('hd-registr-smluv', 'Registr smluv'),
+        ('hd-vystavba', 'Výstavba a infrastruktura'),
+        ('hd-skolstvi-socialni', 'Školství, sociální data, ovzduší'),
+        ('hd-spolky', 'Spolky a subjekty'),
+        ('hd-volby', 'Volby'),
+    ]),
+    ('Srovnání se sousedy', [
+        ('srovnani-souhrn', 'Souhrn srovnání'),
+        ('srovnani-finance', 'Finance'),
+        ('srovnani-majetek-zakazky', 'Majetek, smlouvy, zakázky'),
+        ('srovnani-obyvatelstvo-vystavba', 'Obyvatelstvo a výstavba'),
+        ('srovnani-skolstvi-socialni', 'Školství a sociální data'),
+        ('srovnani-volby-spolky', 'Volby a spolky'),
+        ('srovnani-plochy', 'Rozloha a druhy pozemků'),
+        ('srovnani-zastavba', 'Roztříštěnost zástavby'),
+        ('srovnani-dan-nemovitosti', 'Daň z nemovitostí'),
+        ('srovnani-vybavenost', 'Občanská vybavenost'),
+    ]),
+]
+
+OBCE = [('HD', 'Horní Domaslavice'), ('PA', 'Pazderna'), ('DD', 'Dolní Domaslavice'), ('LU', 'Lučina')]
+
+
+# ---------- helpers ----------
+
+def esc(s):
+    return html.escape(str(s), quote=True)
+
+
+def num(v, dec=0):
+    s = f'{v:,.{dec}f}'.replace(',', ' ').replace('.', ',')
+    return s
+
+
+def read_csv(name):
+    with open(os.path.join(ROOT, 'data', name), encoding='utf-8') as f:
+        return list(csv.DictReader(f))
+
+
+def front_matter(text):
+    meta = {}
+    if text.startswith('---'):
+        end = text.find('\n---', 3)
+        for line in text[3:end].strip().splitlines():
+            if ':' in line:
+                k, v = line.split(':', 1)
+                meta[k.strip()] = v.strip().strip('"')
+        text = text[end + 4:]
+    return meta, text
+
+
+def md_to_html(text):
+    r = subprocess.run(['pandoc', '-f', 'gfm', '-t', 'html5', '--wrap=none'],
+                       input=text, capture_output=True, text=True, check=True)
+    return r.stdout
+
+
+def nav_html(current):
+    parts = ['<nav class="side" aria-label="Obsah webu">',
+             f'<a class="top-link" href="index.html"{" aria-current=page" if current == "index" else ""}>Úvod</a>']
+    for group, items in NAV:
+        present = [(s, t) for s, t in items if os.path.exists(os.path.join(ROOT, 'obsah', s + '.md'))]
+        if not present:
+            continue
+        is_open = current in [s for s, _ in present] or current == 'index'
+        parts.append(f'<details{" open" if is_open else ""}><summary>{esc(group)}</summary><ul>')
+        for s, t in present:
+            cur = ' aria-current="page"' if s == current else ''
+            parts.append(f'<li><a href="{s}.html"{cur}>{esc(t)}</a></li>')
+        parts.append('</ul></details>')
+    for s, t in [('data', 'Data ke stažení'), ('opravy', 'Opravy'), ('o-webu', 'O webu a metodika')]:
+        cur = ' aria-current="page"' if s == current else ''
+        parts.append(f'<a class="top-link" href="{s}.html"{cur}>{t}</a>')
+    parts.append('</nav>')
+    return '\n'.join(parts)
+
+
+def body_attrs():
+    a = f' data-repo="{esc(REPO_URL)}"'
+    for k, v in REPORT_FORM.items():
+        if v:
+            a += f' data-form-{k}="{esc(v)}"'
+    return a
+
+
+def page(slug, title, body, description='', lede=''):
+    desc = esc(description or lede or SITE)
+    head_title = SITE if slug == 'index' else f'{title} – {SITE}'
+    lede_html = f'<p class="lede">{esc(lede)}</p>' if lede else ''
+    return f'''<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(head_title)}</title>
+<meta name="description" content="{desc}">
+<link rel="stylesheet" href="static/style.css">
+<script>try{{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
+</head>
+<body{body_attrs()}>
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">{SITE} <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+{nav_html(slug)}
+<main>
+<h1>{esc(title)}</h1>
+{lede_html}
+{body}
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno {UPDATED}.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>
+'''
+
+
+# ---------- charts (inline SVG, colors via CSS classes) ----------
+
+def round_bar(x, y, w, h, r=4):
+    """Horizontal bar anchored at x, rounded only on the data end."""
+    if w <= 0:
+        return ''
+    r = min(r, w, h / 2)
+    return (f'M{x:.1f},{y:.1f} h{w - r:.1f} a{r},{r} 0 0 1 {r},{r} '
+            f'v{h - 2 * r:.1f} a{r},{r} 0 0 1 -{r},{r} h-{w - r:.1f} z')
+
+
+def round_col(x, base, w, h, r=4):
+    """Vertical column anchored at baseline, rounded only on top."""
+    if h <= 0:
+        return ''
+    r = min(r, h, w / 2)
+    return (f'M{x:.1f},{base:.1f} v-{h - r:.1f} a{r},{r} 0 0 1 {r},-{r} '
+            f'h{w - 2 * r:.1f} a{r},{r} 0 0 1 {r},{r} v{h - r:.1f} z')
+
+
+def table_view(headers, rows):
+    th = ''.join(f'<th>{esc(h)}</th>' for h in headers)
+    trs = ''.join('<tr>' + ''.join(f'<td>{esc(c)}</td>' for c in r) + '</tr>' for r in rows)
+    return f'<details><summary>Zobrazit jako tabulku</summary><table><thead><tr>{th}</tr></thead><tbody>{trs}</tbody></table></details>'
+
+
+def chart_hbar(title, sub, rows, unit, dec=0):
+    """rows: [(label, value, highlight)]"""
+    W, lw, rh, gap = 640, 170, 28, 10
+    vmax = max(v for _, v, _ in rows) or 1
+    plot = W - lw - 90
+    H = len(rows) * (rh + gap) + 6
+    out = [f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}">']
+    for i, (lab, v, hl) in enumerate(rows):
+        y = i * (rh + gap) + 3
+        w = plot * v / vmax
+        tip = f'{lab}: {num(v, dec)} {unit}'
+        out.append(f'<text x="{lw - 10}" y="{y + rh / 2 + 4}" text-anchor="end">{esc(lab)}</text>')
+        if w > 0:
+            out.append(f'<path class="{"s1" if hl else "so"}" d="{round_bar(lw, y, w, rh)}"/>')
+        out.append(f'<text class="val" x="{lw + w + 6}" y="{y + rh / 2 + 4}">{num(v, dec)}</text>')
+        out.append(f'<rect class="hit" x="0" y="{y - 4}" width="{W}" height="{rh + 8}" data-tip="{esc(tip)}"/>')
+    out.append(f'<line class="axis" x1="{lw}" y1="0" x2="{lw}" y2="{H}"/>')
+    out.append('</svg>')
+    tv = table_view(['Obec', unit], [(l, num(v, dec)) for l, v, _ in rows])
+    return f'<figure class="chart"><h3>{esc(title)}</h3><p class="sub">{esc(sub)}</p>{"".join(out)}{tv}</figure>'
+
+
+def nice_scale(v, max_ticks=5):
+    """Round axis maximum up to a nice step; returns (vmax, step)."""
+    import math
+    mag = 10 ** math.floor(math.log10(v)) if v > 0 else 1
+    for m in (0.1, 0.2, 0.25, 0.5, 1, 2, 2.5, 5, 10):
+        step = m * mag
+        if math.ceil(v / step) <= max_ticks:
+            return math.ceil(v / step) * step, step
+    return v, v
+
+
+def ticks(vmax, step):
+    n = round(vmax / step)
+    return [step * i for i in range(n + 1)]
+
+
+def chart_columns(title, sub, xs, ys, unit, dec=1, label_every=1):
+    W, H, l, b, t = 640, 230, 46, 26, 10
+    vmax, step = nice_scale(max(ys))
+    pw, ph = W - l - 8, H - b - t
+    n = len(xs)
+    slot = pw / n
+    cw = max(4, slot - 4)
+    out = [f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}">']
+    for tv in ticks(vmax, step):
+        y = t + ph - ph * tv / vmax
+        out.append(f'<line class="grid" x1="{l}" y1="{y:.1f}" x2="{W - 8}" y2="{y:.1f}"/>')
+        out.append(f'<text x="{l - 6}" y="{y + 4:.1f}" text-anchor="end">{num(tv, 0)}</text>')
+    base = t + ph
+    for i, (x, v) in enumerate(zip(xs, ys)):
+        cx = l + i * slot + (slot - cw) / 2
+        h = ph * v / vmax
+        out.append(f'<path class="s1" d="{round_col(cx, base, cw, h)}"/>')
+        out.append(f'<rect class="hit" x="{l + i * slot:.1f}" y="{t}" width="{slot:.1f}" height="{ph}" data-tip="{esc(f"{x}: {num(v, dec)} {unit}")}"/>')
+        if i % label_every == 0 or i == n - 1:
+            out.append(f'<text x="{cx + cw / 2:.1f}" y="{H - 8}" text-anchor="middle">{esc(x)}</text>')
+    out.append(f'<line class="axis" x1="{l}" y1="{base}" x2="{W - 8}" y2="{base}"/>')
+    out.append('</svg>')
+    tv = table_view(['Rok', unit], [(x, num(v, dec)) for x, v in zip(xs, ys)])
+    return f'<figure class="chart"><h3>{esc(title)}</h3><p class="sub">{esc(sub)}</p>{"".join(out)}{tv}</figure>'
+
+
+def chart_line(title, sub, xs, ys, unit, dec=0, label_every=5):
+    W, H, l, b, t = 640, 230, 46, 26, 12
+    vmax, step = nice_scale(max(ys))
+    pw, ph = W - l - 14, H - b - t
+    n = len(xs)
+    px = lambda i: l + pw * i / (n - 1)
+    py = lambda v: t + ph - ph * v / vmax
+    out = [f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)}">']
+    for tv in ticks(vmax, step):
+        y = py(tv)
+        out.append(f'<line class="grid" x1="{l}" y1="{y:.1f}" x2="{W - 14}" y2="{y:.1f}"/>')
+        out.append(f'<text x="{l - 6}" y="{y + 4:.1f}" text-anchor="end">{num(tv, 0)}</text>')
+    pts = ' '.join(f'{px(i):.1f},{py(v):.1f}' for i, v in enumerate(ys))
+    out.append(f'<polyline class="line" points="{pts}"/>')
+    out.append(f'<circle class="s1" cx="{px(n - 1):.1f}" cy="{py(ys[-1]):.1f}" r="4"/>')
+    out.append(f'<text class="val" x="{px(n - 1) - 6:.1f}" y="{py(ys[-1]) - 9:.1f}" text-anchor="end">{num(ys[-1], dec)}</text>')
+    for i, (x, v) in enumerate(zip(xs, ys)):
+        if i % label_every == 0 or i == n - 1:
+            out.append(f'<text x="{px(i):.1f}" y="{H - 8}" text-anchor="middle">{esc(x)}</text>')
+        sw = pw / (n - 1)
+        out.append(f'<rect class="hit" x="{px(i) - sw / 2:.1f}" y="{t}" width="{sw:.1f}" height="{ph}" data-tip="{esc(f"{x}: {num(v, dec)} {unit}")}"/>')
+    out.append(f'<line class="axis" x1="{l}" y1="{t + ph}" x2="{W - 14}" y2="{t + ph}"/>')
+    out.append('</svg>')
+    tv = table_view(['Rok', unit], [(x, num(v, dec)) for x, v in zip(xs, ys)])
+    return f'<figure class="chart"><h3>{esc(title)}</h3><p class="sub">{esc(sub)}</p>{"".join(out)}{tv}</figure>'
+
+
+# ---------- pages ----------
+
+def build_index():
+    per = {}
+    for r in read_csv('souhrn_po_obdobich_4obce.csv'):
+        if r['roky'] == '2023–2025':
+            per[(r['obec'], r['ukazatel'])] = float(r['kc_na_obyv_a_rok'] or 0)
+    names = [n for _, n in OBCE]
+    hd = read_csv('finance_HD_2010-2025.csv')
+    years = [r['rok'] for r in hd]
+    cash = [float(r['penize_231_244_245']) / 1e6 for r in hd]
+    io = [float(r['io']) / 1e6 for r in hd]
+    pop = [r for r in read_csv('souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv') if r['uzemi'] == 'HD']
+
+    tiles = f'''<div class="tiles">
+<div class="tile"><div class="v">{num(int(pop[-1]["obyvatel_31_12"]))}</div><div class="l">obyvatel ke konci roku 2025, téměř dvakrát víc než v roce 2000 ({pop[0]["obyvatel_31_12"]})</div></div>
+<div class="tile"><div class="v">{num(cash[-1], 1)} mil. Kč</div><div class="l">na účtech obce ke konci roku 2025</div></div>
+<div class="tile"><div class="v">{num(per[("Horní Domaslavice", "io")])} Kč</div><div class="l">na investice a opravy na obyvatele a rok (2023–2025); sousední obce 18–31 tis. Kč</div></div>
+<div class="tile"><div class="v">0 Kč</div><div class="l">investičních dotací v letech 2023–2025</div></div>
+</div>'''
+
+    c_io = chart_hbar('Investice a opravy na obyvatele a rok, 2023–2025',
+                      'Kč na obyvatele a rok; investice (třída 6) + opravy (položka 5171). Zdroj: Monitor státní pokladny MF.',
+                      [(n, per[(n, 'io')], n == names[0]) for n in names], 'Kč na obyvatele a rok')
+    c_tax = chart_hbar('Daňové příjmy na obyvatele a rok, 2023–2025',
+                       'Kč na obyvatele a rok; třída 1 rozpočtu. Zdroj: Monitor státní pokladny MF.',
+                       [(n, per[(n, 'trida1')], n == names[0]) for n in names], 'Kč na obyvatele a rok')
+    c_cash = chart_line('Peníze na účtech obce Horní Domaslavice',
+                        'Mil. Kč ke 31. 12. (účty 231, 244, 245). Zdroj: Monitor státní pokladny MF.',
+                        years, cash, 'mil. Kč', dec=1, label_every=3)
+    c_io_hd = chart_columns('Investice a opravy obce Horní Domaslavice po letech',
+                            'Mil. Kč ročně. Zdroj: Monitor státní pokladny MF.',
+                            years, io, 'mil. Kč', dec=1, label_every=3)
+    c_pop = chart_line('Počet obyvatel Horních Domaslavic',
+                       'Stav ke 31. 12. Zdroj: ČSÚ.',
+                       [r['rok'] for r in pop], [float(r['obyvatel_31_12']) for r in pop], 'obyvatel', label_every=5)
+
+    def cards(group):
+        items = [it for g, its in NAV if g == group for it in its]
+        out = []
+        for s, t in items:
+            p = os.path.join(ROOT, 'obsah', s + '.md')
+            if not os.path.exists(p):
+                continue
+            meta, _ = front_matter(open(p, encoding='utf-8').read())
+            out.append(f'<a class="card" href="{s}.html"><b>{esc(t)}</b><span>{esc(meta.get("description", ""))}</span></a>')
+        return '<div class="cards">' + ''.join(out) + '</div>'
+
+    body = f'''{tiles}
+<div class="note">Tento web je soukromá občanská iniciativa. Shromažďuje veřejně dostupná data o obci Horní Domaslavice
+a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice a Lučina. Nehodnotí osoby, ukazuje čísla a jejich zdroje.
+Všechna data lze stáhnout a ověřit.</div>
+<h2>Hlavní zjištění</h2>
+<p>Horní Domaslavice jsou ze čtyř sousedních obcí nejrychleji rostoucí. Daňové příjmy na obyvatele mají srovnatelné se sousedy,
+do investic a oprav ale dávají na obyvatele třikrát až pětkrát méně a mají nejvíc peněz na účtech.
+Podrobnosti a výhrady ke srovnatelnosti jsou v <a href="srovnani-souhrn.html">souhrnu srovnání</a>.</p>
+{c_io}
+{c_tax}
+{c_io_hd}
+{c_cash}
+{c_pop}
+<h2>Obec v číslech</h2>
+{cards("Obec v číslech")}
+<h2>Srovnání se sousedy</h2>
+{cards("Srovnání se sousedy")}
+'''
+    return page('index', SITE, body, lede='Veřejná data o obci na jednom místě: lidé, peníze, majetek, výstavba a srovnání se sousedními obcemi.')
+
+
+DATA_DESC = {
+    'finance_HD_2010-2025.csv': 'Horní Domaslavice: příjmy, výdaje, investice, opravy, dotace, peníze a úvěry po letech 2010–2025 (Monitor MF).',
+    'finance_PAZ_2010-2025.csv': 'Pazderna: totéž.',
+    'finance_DD_2010-2025.csv': 'Dolní Domaslavice: totéž.',
+    'finance_LUC_2010-2025.csv': 'Lučina: totéž.',
+    'souhrn_po_obdobich_4obce.csv': 'Souhrny ukazatelů za volební období, celkem a na obyvatele a rok (4 obce).',
+    'ukazatele_4obce_2010-2025.csv': 'Ukazatele po letech v dlouhém formátu (4 obce).',
+    'investice_opravy_podle_paragrafu_4obce.csv': 'Investice a opravy podle účelu výdaje (paragrafu rozpočtové skladby).',
+    'ukazatele_rozvaha_vzz_4_obce.csv': 'Rozvaha a výkaz zisku a ztráty: majetek, peníze, úvěry, odpisy (4 obce, 2010–2025).',
+    'souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv': 'Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (4 obce, okres, ČR; ČSÚ).',
+    'RUIAN_souhrn_4obce_stav_20260930.csv': 'Budovy, byty a napojení na vodovod, kanalizaci a plyn podle RÚIAN (stav 30. 9. 2026).',
+    'CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv': 'Výměry druhů pozemků po katastrálních územích, 2004, 2014 a 2026 (ČÚZK).',
+    'roztrisenost_4obce.csv': 'Ukazatele roztříštěnosti zástavby (skupiny domů, vzdálenosti, délka propojení).',
+}
+
+
+def build_data_page():
+    rows = []
+    for f in sorted(os.listdir(os.path.join(ROOT, 'data'))):
+        if f.endswith('.csv'):
+            size = os.path.getsize(os.path.join(ROOT, 'data', f)) / 1024
+            rows.append(f'<tr><td><a href="data/{esc(f)}">{esc(f)}</a></td><td>{esc(DATA_DESC.get(f, ""))}</td><td style="text-align:right">{num(size, 0)} kB</td></tr>')
+    body = f'''<p>Data, ze kterých stránky vycházejí, jsou ke stažení ve formátu CSV (UTF-8, oddělovač čárka). Jsou to výřezy
+a výpočty z veřejných zdrojů. Při dalším použití uveďte původní zdroj: Ministerstvo financí (Monitor státní pokladny),
+Český statistický úřad, ČÚZK (RÚIAN, katastr nemovitostí).</p>
+<table><thead><tr><th>Soubor</th><th>Obsah</th><th>Velikost</th></tr></thead><tbody>{"".join(rows)}</tbody></table>
+<p>Původní zdroje:</p>
+<ul>
+<li><a href="https://monitor.statnipokladna.gov.cz/">Monitor státní pokladny</a> – rozpočty a účetnictví obcí</li>
+<li><a href="https://csu.gov.cz/">Český statistický úřad</a> – obyvatelstvo, sčítání 2021, bytová výstavba</li>
+<li><a href="https://vdp.cuzk.gov.cz/">RÚIAN</a> a <a href="https://services.cuzk.cz/sestavy/UHDP/">ČÚZK – úhrnné hodnoty druhů pozemků</a></li>
+<li><a href="https://www.volby.cz/">volby.cz</a> – výsledky voleb</li>
+<li><a href="https://smlouvy.gov.cz/">Registr smluv</a>, profily zadavatelů, ARES a další rejstříky</li>
+</ul>'''
+    return page('data', 'Data ke stažení', body, lede='Všechna čísla na webu lze ověřit ve zdrojových datech.')
+
+
+def build_about():
+    body = f'''<h2>Co je tento web</h2>
+<p>Soukromá, nadstranická občanská iniciativa. Cílem je, aby měl každý občan Horních Domaslavic po ruce veřejná data o své obci
+v srozumitelné podobě a mohl je porovnat se sousedními obcemi. Web není stránkou obce a nevyjadřuje stanovisko žádné politické strany, hnutí ani kandidátky.</p>
+<h2>Zásady</h2>
+<ul>
+<li>Jen veřejně dostupné zdroje. U každé stránky je uvedeno, odkud data jsou.</li>
+<li>Hodnotí se čísla, ne lidé. Stránky nejmenují zastupitele ani jiné osoby.</li>
+<li>Výhrady k datům a ke srovnatelnosti obcí jsou uvedeny u každé stránky v části „Pozor“.</li>
+<li>Chyby opravujeme. Na konci každé stránky je tlačítko „Nahlásit chybu“; chybu lze nahlásit i přímo v označeném textu.
+Provedené opravy jsou zveřejněné na stránce <a href="opravy.html">Opravy</a>.</li>
+</ul>
+<h2>Metodika v kostce</h2>
+<ul>
+<li><b>Finance</b> vycházejí z výkazu FIN 2-12 M a účetních výkazů obcí v Monitoru státní pokladny, roky 2010–2025.
+Výdaje bez převodů mezi vlastními účty (položky 6330, 6399), příjmy bez převodů z vlastních fondů (413x).
+„Investice a opravy“ = investiční výdaje (třída 6) + opravy a udržování (položka 5171).</li>
+<li><b>Na obyvatele</b> se přepočítává průměrným počtem obyvatel podle ČSÚ.</li>
+<li><b>Částky</b> nejsou očištěné o inflaci. Rok 2026 zatím v datech chybí.</li>
+<li><b>Srovnávané obce</b> nejsou zcela srovnatelné (např. Dolní Domaslavice a Lučina zřizují základní školu,
+Lučina má výdaje spojené s nádrží Žermanice). Výhrady jsou uvedeny u jednotlivých stránek.</li>
+</ul>
+<h2>Hlášení chyb a osobní údaje</h2>
+<p>Hlášení odeslaná formulářem „Nahlásit chybu“ se ukládají do Google Formuláře autora webu. Obsahují stránku, citovaný text a váš popis.
+E-mail je nepovinný a použije se jen k odpovědi na hlášení. Web nepoužívá cookies ani analytické nástroje.</p>
+<h2>Autor</h2>
+<p>Tomáš Dinkov</p>
+<p>Poslední aktualizace: {UPDATED}.</p>'''
+    return page('o-webu', 'O webu a metodika', body, lede='Kdo web dělá, z čeho vychází a jak se počítají čísla.')
+
+
+def build_md_pages():
+    built = []
+    for f in sorted(os.listdir(os.path.join(ROOT, 'obsah'))):
+        if not f.endswith('.md'):
+            continue
+        slug = f[:-3]
+        meta, text = front_matter(open(os.path.join(ROOT, 'obsah', f), encoding='utf-8').read())
+        text = re.sub(r'^#\s+.*\n', '', text.lstrip(), count=1)  # H1 comes from the template
+        body = md_to_html(text)
+        if meta.get('updated'):
+            d = meta['updated']
+            m = re.match(r'(\d{4})-(\d{2})-(\d{2})$', d)
+            if m:
+                d = f'{int(m.group(3))}. {int(m.group(2))}. {m.group(1)}'
+            body = f'<p class="meta">Aktualizováno {esc(d)}</p>' + body
+        with open(os.path.join(OUT, slug + '.html'), 'w', encoding='utf-8') as fh:
+            fh.write(page(slug, meta.get('title', slug), body, description=meta.get('description', '')))
+        built.append(slug)
+    return built
+
+
+def check_links(slugs):
+    known = set(slugs) | {'index', 'data', 'o-webu', 'opravy'}
+    bad = []
+    for f in os.listdir(OUT):
+        if not f.endswith('.html'):
+            continue
+        t = open(os.path.join(OUT, f), encoding='utf-8').read()
+        for href in re.findall(r'href="([^"#:]+?)\.html', t):
+            if href not in known:
+                bad.append((f, href))
+        for src in re.findall(r'(?:src|href)="((?:img|data)/[^"]+)"', t):
+            if not os.path.exists(os.path.join(OUT, src)):
+                bad.append((f, src))
+    return bad
+
+
+def main():
+    if os.path.exists(OUT):
+        shutil.rmtree(OUT)
+    os.makedirs(OUT)
+    for d in ('static', 'img', 'data'):
+        shutil.copytree(os.path.join(ROOT, d), os.path.join(OUT, d))
+    open(os.path.join(OUT, '.nojekyll'), 'w').close()
+    slugs = build_md_pages()
+    for name, html_ in (('index', build_index()), ('data', build_data_page()), ('o-webu', build_about())):
+        with open(os.path.join(OUT, name + '.html'), 'w', encoding='utf-8') as fh:
+            fh.write(html_)
+    bad = check_links(slugs)
+    print(f'{len(slugs)} stránek z obsah/, výstup v docs/')
+    for f, h in bad:
+        print(f'  ROZBITÝ ODKAZ: {f} -> {h}')
+    return 1 if bad else 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

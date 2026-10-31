@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data ke stažení – Horní Domaslavice v datech</title>
+<meta name="description" content="Všechna čísla na webu lze ověřit ve zdrojových datech.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html" aria-current="page">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Data ke stažení</h1>
+<p class="lede">Všechna čísla na webu lze ověřit ve zdrojových datech.</p>
+<p>Data, ze kterých stránky vycházejí, jsou ke stažení ve formátu CSV (UTF-8, oddělovač čárka). Jsou to výřezy
+a výpočty z veřejných zdrojů. Při dalším použití uveďte původní zdroj: Ministerstvo financí (Monitor státní pokladny),
+Český statistický úřad, ČÚZK (RÚIAN, katastr nemovitostí).</p>
+<table><thead><tr><th>Soubor</th><th>Obsah</th><th>Velikost</th></tr></thead><tbody><tr><td><a href="data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv">CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv</a></td><td>Výměry druhů pozemků po katastrálních územích, 2004, 2014 a 2026 (ČÚZK).</td><td style="text-align:right">2 kB</td></tr><tr><td><a href="data/RUIAN_souhrn_4obce_stav_20260930.csv">RUIAN_souhrn_4obce_stav_20260930.csv</a></td><td>Budovy, byty a napojení na vodovod, kanalizaci a plyn podle RÚIAN (stav 30. 9. 2026).</td><td style="text-align:right">1 kB</td></tr><tr><td><a href="data/finance_DD_2010-2025.csv">finance_DD_2010-2025.csv</a></td><td>Dolní Domaslavice: totéž.</td><td style="text-align:right">11 kB</td></tr><tr><td><a href="data/finance_HD_2010-2025.csv">finance_HD_2010-2025.csv</a></td><td>Horní Domaslavice: příjmy, výdaje, investice, opravy, dotace, peníze a úvěry po letech 2010–2025 (Monitor MF).</td><td style="text-align:right">10 kB</td></tr><tr><td><a href="data/finance_LUC_2010-2025.csv">finance_LUC_2010-2025.csv</a></td><td>Lučina: totéž.</td><td style="text-align:right">11 kB</td></tr><tr><td><a href="data/finance_PAZ_2010-2025.csv">finance_PAZ_2010-2025.csv</a></td><td>Pazderna: totéž.</td><td style="text-align:right">10 kB</td></tr><tr><td><a href="data/investice_opravy_podle_paragrafu_4obce.csv">investice_opravy_podle_paragrafu_4obce.csv</a></td><td>Investice a opravy podle účelu výdaje (paragrafu rozpočtové skladby).</td><td style="text-align:right">21 kB</td></tr><tr><td><a href="data/roztrisenost_4obce.csv">roztrisenost_4obce.csv</a></td><td>Ukazatele roztříštěnosti zástavby (skupiny domů, vzdálenosti, délka propojení).</td><td style="text-align:right">1 kB</td></tr><tr><td><a href="data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv">souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv</a></td><td>Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (4 obce, okres, ČR; ČSÚ).</td><td style="text-align:right">10 kB</td></tr><tr><td><a href="data/souhrn_po_obdobich_4obce.csv">souhrn_po_obdobich_4obce.csv</a></td><td>Souhrny ukazatelů za volební období, celkem a na obyvatele a rok (4 obce).</td><td style="text-align:right">17 kB</td></tr><tr><td><a href="data/ukazatele_4obce_2010-2025.csv">ukazatele_4obce_2010-2025.csv</a></td><td>Ukazatele po letech v dlouhém formátu (4 obce).</td><td style="text-align:right">155 kB</td></tr><tr><td><a href="data/ukazatele_rozvaha_vzz_4_obce.csv">ukazatele_rozvaha_vzz_4_obce.csv</a></td><td>Rozvaha a výkaz zisku a ztráty: majetek, peníze, úvěry, odpisy (4 obce, 2010–2025).</td><td style="text-align:right">19 kB</td></tr></tbody></table>
+<p>Původní zdroje:</p>
+<ul>
+<li><a href="https://monitor.statnipokladna.gov.cz/">Monitor státní pokladny</a> – rozpočty a účetnictví obcí</li>
+<li><a href="https://csu.gov.cz/">Český statistický úřad</a> – obyvatelstvo, sčítání 2021, bytová výstavba</li>
+<li><a href="https://vdp.cuzk.gov.cz/">RÚIAN</a> a <a href="https://services.cuzk.cz/sestavy/UHDP/">ČÚZK – úhrnné hodnoty druhů pozemků</a></li>
+<li><a href="https://www.volby.cz/">volby.cz</a> – výsledky voleb</li>
+<li><a href="https://smlouvy.gov.cz/">Registr smluv</a>, profily zadavatelů, ARES a další rejstříky</li>
+</ul>
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

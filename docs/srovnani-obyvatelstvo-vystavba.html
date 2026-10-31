@@ -1,0 +1,1901 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Srovnání obyvatelstva a výstavby – Horní Domaslavice v datech</title>
+<meta name="description" content="Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a sousedních obcích.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details open><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html" aria-current="page">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Srovnání obyvatelstva a výstavby</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Stránka porovnává Horní Domaslavice (HD) se sousedními obcemi Pazderna, Dolní Domaslavice (DD) a Lučina z hlediska obyvatelstva, výsledků sčítání 2021 a bytové výstavby. Všechny čtyři obce leží v okrese i ve správním obvodu ORP Frýdek-Místek. Data pocházejí z ČSÚ (demografie, sčítání 2021, bytová výstavba), z RÚIAN a z územně plánovacích dokumentů obcí. Metodika je stejná jako na stránkách o <a href="hd-obyvatelstvo.html">obyvatelstvu HD</a> a <a href="hd-vystavba.html">výstavbě v HD</a>. V textu se rozlišuje, co je <strong>doloženo</strong> (číslo přímo ze zdroje) a co je <strong>odvozeno</strong> (výpočet z doložených čísel).</p>
+<table>
+<thead>
+<tr>
+<th>Obec</th>
+<th>Kód obce (ZÚJ)</th>
+<th style="text-align: right;">Obyvatel k 31. 12. 2025</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Horní Domaslavice</td>
+<td>512192</td>
+<td style="text-align: right;">1 109</td>
+</tr>
+<tr>
+<td>Pazderna</td>
+<td>552500</td>
+<td style="text-align: right;">422</td>
+</tr>
+<tr>
+<td>Dolní Domaslavice</td>
+<td>598101</td>
+<td style="text-align: right;">1 467</td>
+</tr>
+<tr>
+<td>Lučina</td>
+<td>598399</td>
+<td style="text-align: right;">1 596</td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-počet-obyvatel-20002025">1. Počet obyvatel 2000–2025</h2>
+<table>
+<thead>
+<tr>
+<th>Rok (k 31. 12.)</th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2000</td>
+<td style="text-align: right;">564</td>
+<td style="text-align: right;">274</td>
+<td style="text-align: right;">925</td>
+<td style="text-align: right;">1 141</td>
+<td style="text-align: right;">228 116</td>
+<td style="text-align: right;">10 266 546</td>
+</tr>
+<tr>
+<td>2005</td>
+<td style="text-align: right;">614</td>
+<td style="text-align: right;">251</td>
+<td style="text-align: right;">1 032</td>
+<td style="text-align: right;">1 164</td>
+<td style="text-align: right;">227 264</td>
+<td style="text-align: right;">10 251 079</td>
+</tr>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">681</td>
+<td style="text-align: right;">273</td>
+<td style="text-align: right;">1 168</td>
+<td style="text-align: right;">1 223</td>
+<td style="text-align: right;">212 100</td>
+<td style="text-align: right;">10 532 770</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">780</td>
+<td style="text-align: right;">285</td>
+<td style="text-align: right;">1 288</td>
+<td style="text-align: right;">1 286</td>
+<td style="text-align: right;">212 987</td>
+<td style="text-align: right;">10 538 275</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">894</td>
+<td style="text-align: right;">304</td>
+<td style="text-align: right;">1 378</td>
+<td style="text-align: right;">1 400</td>
+<td style="text-align: right;">214 187</td>
+<td style="text-align: right;">10 649 800</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">1 020</td>
+<td style="text-align: right;">367</td>
+<td style="text-align: right;">1 445</td>
+<td style="text-align: right;">1 537</td>
+<td style="text-align: right;">214 669</td>
+<td style="text-align: right;">10 827 529</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">1 074</td>
+<td style="text-align: right;">408</td>
+<td style="text-align: right;">1 472</td>
+<td style="text-align: right;">1 618</td>
+<td style="text-align: right;">213 997</td>
+<td style="text-align: right;">10 909 500</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;"><strong>1 109</strong></td>
+<td style="text-align: right;"><strong>422</strong></td>
+<td style="text-align: right;"><strong>1 467</strong></td>
+<td style="text-align: right;"><strong>1 596</strong></td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Růst za období (odvozeno):</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2000–2025 (okres a ČR do 2024)</td>
+<td style="text-align: right;"><strong>+97 %</strong></td>
+<td style="text-align: right;">+54 %</td>
+<td style="text-align: right;">+59 %</td>
+<td style="text-align: right;">+40 %</td>
+<td style="text-align: right;">−6 % ¹</td>
+<td style="text-align: right;">+6 %</td>
+</tr>
+<tr>
+<td>2010–2024</td>
+<td style="text-align: right;"><strong>+58 %</strong></td>
+<td style="text-align: right;">+49 %</td>
+<td style="text-align: right;">+26 %</td>
+<td style="text-align: right;">+32 %</td>
+<td style="text-align: right;">+1 %</td>
+<td style="text-align: right;">+4 %</td>
+</tr>
+<tr>
+<td>2014–2024</td>
+<td style="text-align: right;">+38 %</td>
+<td style="text-align: right;"><strong>+43 %</strong></td>
+<td style="text-align: right;">+14 %</td>
+<td style="text-align: right;">+26 %</td>
+<td style="text-align: right;">+0,5 %</td>
+<td style="text-align: right;">+3,5 %</td>
+</tr>
+<tr>
+<td>2024–2025 (jeden rok)</td>
+<td style="text-align: right;">+35 os.</td>
+<td style="text-align: right;">+14 os.</td>
+<td style="text-align: right;"><strong>−5 os.</strong></td>
+<td style="text-align: right;"><strong>−22 os.</strong></td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+</tr>
+</tbody>
+</table>
+<p>¹ Pokles okresu je hlavně metodický. V roce 2007 se změnily hranice okresů a okres F-M přišel asi o 17 tisíc obyvatel (z 227 846 na 210 369). Srovnávat okres lze až od roku 2007.</p>
+<p>Všechny čtyři obce rostou, zatímco okres stagnuje. HD roste za 25 let ze všech čtyř nejrychleji a jako jediná se téměř zdvojnásobila. V posledních deseti letech ji relativně předběhla malá Pazderna (+43 %), absolutně ale HD přibylo 294 lidí, Pazderně 123. DD a Lučina v roce 2025 poprvé po dlouhé době klesly.</p>
+<h2 id="2-věková-struktura">2. Věková struktura</h2>
+<p><strong>Rok 2024 (ČSÚ 130149):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Ukazatel</th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–14 let (osob)</td>
+<td style="text-align: right;">237</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">281</td>
+<td style="text-align: right;">292</td>
+<td style="text-align: right;">33 277</td>
+<td style="text-align: right;">1 690 783</td>
+</tr>
+<tr>
+<td>0–14 let (podíl)</td>
+<td style="text-align: right;">22,1 %</td>
+<td style="text-align: right;"><strong>25,2 %</strong></td>
+<td style="text-align: right;">19,1 %</td>
+<td style="text-align: right;">18,0 %</td>
+<td style="text-align: right;">15,6 %</td>
+<td style="text-align: right;">15,5 %</td>
+</tr>
+<tr>
+<td>15–64 let (osob)</td>
+<td style="text-align: right;">700</td>
+<td style="text-align: right;">255</td>
+<td style="text-align: right;">929</td>
+<td style="text-align: right;">1 018</td>
+<td style="text-align: right;">135 796</td>
+<td style="text-align: right;">6 962 830</td>
+</tr>
+<tr>
+<td>15–64 let (podíl)</td>
+<td style="text-align: right;">65,2 %</td>
+<td style="text-align: right;">62,5 %</td>
+<td style="text-align: right;">63,1 %</td>
+<td style="text-align: right;">62,9 %</td>
+<td style="text-align: right;">63,5 %</td>
+<td style="text-align: right;">63,8 %</td>
+</tr>
+<tr>
+<td>65+ let (osob)</td>
+<td style="text-align: right;">137</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">262</td>
+<td style="text-align: right;">308</td>
+<td style="text-align: right;">44 924</td>
+<td style="text-align: right;">2 255 887</td>
+</tr>
+<tr>
+<td>65+ let (podíl)</td>
+<td style="text-align: right;">12,8 %</td>
+<td style="text-align: right;"><strong>12,3 %</strong></td>
+<td style="text-align: right;">17,8 %</td>
+<td style="text-align: right;">19,0 %</td>
+<td style="text-align: right;">21,0 %</td>
+<td style="text-align: right;">20,7 %</td>
+</tr>
+<tr>
+<td><strong>Index stáří</strong> (65+ na 100 dětí 0–14)</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;"><strong>49</strong></td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">105</td>
+<td style="text-align: right;">135</td>
+<td style="text-align: right;">133</td>
+</tr>
+<tr>
+<td>Index stáří v roce 2014</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">116</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">117</td>
+</tr>
+<tr>
+<td>Průměrný věk (SLDB 2021)</td>
+<td style="text-align: right;">37,7</td>
+<td style="text-align: right;"><strong>36,9</strong></td>
+<td style="text-align: right;">42,1</td>
+<td style="text-align: right;">42,0</td>
+<td style="text-align: right;">43,0</td>
+<td style="text-align: right;">42,7</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>HD a Pazderna jsou výrazně mladší než okres.</strong> Na 100 dětí připadá 58 (HD), resp. 49 (Pazderna) seniorů, v okrese 135. DD a Lučina mají index stáří kolem 100, ale i tak pod okresem.</li>
+<li><strong>Pazderna je podle indexu stáří i průměrného věku nejmladší ze čtyř.</strong> Program rozvoje obce HD (2024) uvádí, že HD je nejmladší obcí okresu (index stáří 52,2). Podle dat ČSÚ za rok 2024 má ale sousední Pazderna index stáří 49, tedy nižší než HD (58). Údaj z programu rozvoje se tedy zřejmě vztahuje k jinému roku či ukazateli. (Odvozeno.)</li>
+<li>Ve všech čtyřech obcích klesl index stáří mezi roky 2014 a 2024, nejvíc v Pazderně (89 → 49) a v HD (79 → 58). V okrese a v ČR ve stejné době rostl.</li>
+</ul>
+<p>Za rok 2025 ČSÚ věkové složení obcí zatím nezveřejnil.</p>
+<h2 id="3-pohyb-obyvatel-narození-zemřelí-stěhování">3. Pohyb obyvatel: narození, zemřelí, stěhování</h2>
+<h3 id="po-volebních-obdobích">Po volebních obdobích</h3>
+<p>Volební období jsou mapována na roky 2011–2014, 2015–2018, 2019–2022 a 2023–2025 (poslední období má zatím jen 3 roky).</p>
+<table>
+<thead>
+<tr>
+<th>Obec</th>
+<th>Období</th>
+<th style="text-align: right;">Narození</th>
+<th style="text-align: right;">Zemřelí</th>
+<th style="text-align: right;">Přistěhovalí</th>
+<th style="text-align: right;">Vystěhovalí</th>
+<th style="text-align: right;">Přirozený přírůstek</th>
+<th style="text-align: right;">Saldo stěhování</th>
+<th style="text-align: right;">Celkem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HD</td>
+<td>2011–2014</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">181</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">+6</td>
+<td style="text-align: right;">+102</td>
+<td style="text-align: right;">+108</td>
+</tr>
+<tr>
+<td>HD</td>
+<td>2015–2018</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">198</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">+9</td>
+<td style="text-align: right;">+105</td>
+<td style="text-align: right;">+114</td>
+</tr>
+<tr>
+<td>HD</td>
+<td>2019–2022</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">179</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">+9</td>
+<td style="text-align: right;">+107</td>
+<td style="text-align: right;">+116</td>
+</tr>
+<tr>
+<td>HD</td>
+<td>2023–2025</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">+87</td>
+<td style="text-align: right;">+89</td>
+</tr>
+<tr>
+<td>Pazderna</td>
+<td>2011–2014</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+4</td>
+<td style="text-align: right;">+5</td>
+</tr>
+<tr>
+<td>Pazderna</td>
+<td>2015–2018</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+18</td>
+<td style="text-align: right;">+19</td>
+</tr>
+<tr>
+<td>Pazderna</td>
+<td>2019–2022</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">+7</td>
+<td style="text-align: right;">+56</td>
+<td style="text-align: right;">+63</td>
+</tr>
+<tr>
+<td>Pazderna</td>
+<td>2023–2025</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">+11</td>
+<td style="text-align: right;">+44</td>
+<td style="text-align: right;">+55</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>2011–2014</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">224</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">+4</td>
+<td style="text-align: right;">+121</td>
+<td style="text-align: right;">+125</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>2015–2018</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">287</td>
+<td style="text-align: right;">179</td>
+<td style="text-align: right;">−18</td>
+<td style="text-align: right;">+108</td>
+<td style="text-align: right;">+90</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>2019–2022</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">228</td>
+<td style="text-align: right;">142</td>
+<td style="text-align: right;">−7</td>
+<td style="text-align: right;">+86</td>
+<td style="text-align: right;">+79</td>
+</tr>
+<tr>
+<td>DD</td>
+<td>2023–2025</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">128</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">−3</td>
+<td style="text-align: right;">+25</td>
+<td style="text-align: right;">+22</td>
+</tr>
+<tr>
+<td>Lučina</td>
+<td>2011–2014</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">236</td>
+<td style="text-align: right;">169</td>
+<td style="text-align: right;">−9</td>
+<td style="text-align: right;">+67</td>
+<td style="text-align: right;">+58</td>
+</tr>
+<tr>
+<td>Lučina</td>
+<td>2015–2018</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">256</td>
+<td style="text-align: right;">137</td>
+<td style="text-align: right;">−5</td>
+<td style="text-align: right;">+119</td>
+<td style="text-align: right;">+114</td>
+</tr>
+<tr>
+<td>Lučina</td>
+<td>2019–2022</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">312</td>
+<td style="text-align: right;">144</td>
+<td style="text-align: right;">−9</td>
+<td style="text-align: right;">+168</td>
+<td style="text-align: right;">+159</td>
+</tr>
+<tr>
+<td>Lučina</td>
+<td>2023–2025</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">217</td>
+<td style="text-align: right;">159</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+58</td>
+<td style="text-align: right;">+59</td>
+</tr>
+</tbody>
+</table>
+<h3 id="souhrn-20022025">Souhrn 2002–2025</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Narození</td>
+<td style="text-align: right;">203</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">303</td>
+<td style="text-align: right;">286</td>
+</tr>
+<tr>
+<td>Zemřelí</td>
+<td style="text-align: right;">187</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">326</td>
+<td style="text-align: right;">315</td>
+</tr>
+<tr>
+<td><strong>Přirozený přírůstek</strong></td>
+<td style="text-align: right;"><strong>+16</strong></td>
+<td style="text-align: right;"><strong>+12</strong></td>
+<td style="text-align: right;"><strong>−23</strong></td>
+<td style="text-align: right;"><strong>−29</strong></td>
+</tr>
+<tr>
+<td>Přistěhovalí</td>
+<td style="text-align: right;">930</td>
+<td style="text-align: right;">297</td>
+<td style="text-align: right;">1 276</td>
+<td style="text-align: right;">1 345</td>
+</tr>
+<tr>
+<td>Vystěhovalí</td>
+<td style="text-align: right;">398</td>
+<td style="text-align: right;">159</td>
+<td style="text-align: right;">704</td>
+<td style="text-align: right;">864</td>
+</tr>
+<tr>
+<td><strong>Saldo stěhování</strong></td>
+<td style="text-align: right;"><strong>+532</strong></td>
+<td style="text-align: right;"><strong>+138</strong></td>
+<td style="text-align: right;"><strong>+572</strong></td>
+<td style="text-align: right;"><strong>+481</strong></td>
+</tr>
+<tr>
+<td>Saldo stěhování na 1 000 obyv. ročně, průměr 2021–2025 ¹</td>
+<td style="text-align: right;">28,7</td>
+<td style="text-align: right;"><strong>44,2</strong></td>
+<td style="text-align: right;">11,4</td>
+<td style="text-align: right;">18,6</td>
+</tr>
+<tr>
+<td>Narození na 1 000 obyv. ročně, průměr 2021–2025 ¹</td>
+<td style="text-align: right;">9,7</td>
+<td style="text-align: right;">12,5</td>
+<td style="text-align: right;">10,7</td>
+<td style="text-align: right;">8,9</td>
+</tr>
+</tbody>
+</table>
+<p>¹ Odvozeno: součet za 5 let děleno pěti a průměrným stavem k 31. 12. v letech 2021–2025. U Pazderny jde o malá čísla (24 narozených za 5 let).</p>
+<h3 id="po-letech-20152025">Po letech 2015–2025</h3>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">2015</th>
+<th style="text-align: right;">2016</th>
+<th style="text-align: right;">2017</th>
+<th style="text-align: right;">2018</th>
+<th style="text-align: right;">2019</th>
+<th style="text-align: right;">2020</th>
+<th style="text-align: right;">2021</th>
+<th style="text-align: right;">2022</th>
+<th style="text-align: right;">2023</th>
+<th style="text-align: right;">2024</th>
+<th style="text-align: right;">2025</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HD narození</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>Pazderna narození</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>DD narození</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>Lučina narození</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr>
+<td>HD přistěhovalí</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">62</td>
+</tr>
+<tr>
+<td>Pazderna přistěhovalí</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>DD přistěhovalí</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">37</td>
+</tr>
+<tr>
+<td>Lučina přistěhovalí</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">42</td>
+</tr>
+<tr>
+<td>HD vystěhovalí</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">27</td>
+</tr>
+<tr>
+<td>Pazderna vystěhovalí</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr>
+<td>DD vystěhovalí</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr>
+<td>Lučina vystěhovalí</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">53</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Co z toho plyne (odvozeno):</strong></p>
+<ul>
+<li><strong>Všechny čtyři obce rostou jen stěhováním.</strong> Přirozený přírůstek je za 24 let u všech blízko nule (od −29 do +16). V DD a Lučině lidé spíš umírají, než se rodí.</li>
+<li><strong>HD má ze čtyř obcí nejstabilnější přírůstek stěhováním.</strong> Ve třech celých volebních obdobích to bylo vždy kolem +105 lidí. U DD saldo stěhování klesá (+121, +108, +86, +25). Lučina měla vrchol v letech 2019–2022 (+168), od roku 2024 se z ní ale stěhuje výrazně víc lidí (61 a 53 ročně).</li>
+<li><strong>HD má nejméně vystěhovalých vůči přistěhovalým.</strong> Na 100 přistěhovalých připadá za roky 2002–2025 v HD 43 vystěhovalých, v Pazderně 54, v DD 55 a v Lučině 64.</li>
+<li><strong>Pokles počtu narozených v HD v letech 2024–2025 (6 a 8 dětí) se v sousedních obcích opakuje jen částečně.</strong> V Lučině klesl počet narozených v roce 2025 na 9, v DD na 10–11. Pazderna kolísá mezi 4 a 7.</li>
+</ul>
+<h2 id="4-sčítání-2021-stav-k-26-3-2021">4. Sčítání 2021 (stav k 26. 3. 2021)</h2>
+<p>Sčítání počítá obyvatele s obvyklým pobytem: HD 978, Pazderna 322, DD 1 393, Lučina 1 477.</p>
+<h3 id="vzdělání-osoby-15">Vzdělání (osoby 15+)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Osob 15+</td>
+<td style="text-align: right;">758</td>
+<td style="text-align: right;">240</td>
+<td style="text-align: right;">1 133</td>
+<td style="text-align: right;">1 209</td>
+<td style="text-align: right;">175 284</td>
+<td style="text-align: right;">8 832 407</td>
+</tr>
+<tr>
+<td>Vysokoškolské</td>
+<td style="text-align: right;"><strong>21,9 %</strong> (166)</td>
+<td style="text-align: right;">17,5 % (42)</td>
+<td style="text-align: right;">19,9 % (225)</td>
+<td style="text-align: right;">18,9 % (228)</td>
+<td style="text-align: right;">17,1 %</td>
+<td style="text-align: right;">17,6 %</td>
+</tr>
+<tr>
+<td>Maturita vč. VOŠ</td>
+<td style="text-align: right;">30,6 % (232)</td>
+<td style="text-align: right;">29,2 % (70)</td>
+<td style="text-align: right;">32,5 % (368)</td>
+<td style="text-align: right;">33,7 % (407)</td>
+<td style="text-align: right;">33,0 %</td>
+<td style="text-align: right;">32,5 %</td>
+</tr>
+<tr>
+<td>Vyučení, střední bez maturity</td>
+<td style="text-align: right;">32,3 % (245)</td>
+<td style="text-align: right;">38,8 % (93)</td>
+<td style="text-align: right;">31,8 % (360)</td>
+<td style="text-align: right;">32,0 % (387)</td>
+<td style="text-align: right;">32,6 %</td>
+<td style="text-align: right;">31,0 %</td>
+</tr>
+<tr>
+<td>Základní a neukončené</td>
+<td style="text-align: right;">10,0 % (76)</td>
+<td style="text-align: right;">8,8 % (21)</td>
+<td style="text-align: right;">9,4 % (106)</td>
+<td style="text-align: right;">10,2 % (123)</td>
+<td style="text-align: right;">12,2 %</td>
+<td style="text-align: right;">12,5 %</td>
+</tr>
+</tbody>
+</table>
+<p>Procenta jsou počítána ze všech osob 15+, včetně odpovědi „nezjištěno“ (5–6 %).</p>
+<h3 id="ekonomická-aktivita">Ekonomická aktivita</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zaměstnaní (osob)</td>
+<td style="text-align: right;">468</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">671</td>
+<td style="text-align: right;">725</td>
+<td style="text-align: right;">101 476</td>
+<td style="text-align: right;">5 290 071</td>
+</tr>
+<tr>
+<td>Zaměstnaní na všech obyvatelích</td>
+<td style="text-align: right;">47,9 %</td>
+<td style="text-align: right;">47,8 %</td>
+<td style="text-align: right;">48,2 %</td>
+<td style="text-align: right;">49,1 %</td>
+<td style="text-align: right;">48,5 %</td>
+<td style="text-align: right;">50,3 %</td>
+</tr>
+<tr>
+<td>Nezaměstnaní (osob)</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">4 935</td>
+<td style="text-align: right;">273 187</td>
+</tr>
+<tr>
+<td>Nezaměstnaní na pracovní síle</td>
+<td style="text-align: right;">3,5 %</td>
+<td style="text-align: right;">2,5 %</td>
+<td style="text-align: right;">4,1 %</td>
+<td style="text-align: right;">3,2 %</td>
+<td style="text-align: right;">4,6 %</td>
+<td style="text-align: right;">4,9 %</td>
+</tr>
+<tr>
+<td>Nepracující důchodci na obyvatelích</td>
+<td style="text-align: right;">17,1 %</td>
+<td style="text-align: right;">16,1 %</td>
+<td style="text-align: right;">22,8 %</td>
+<td style="text-align: right;">22,4 %</td>
+<td style="text-align: right;">23,8 %</td>
+<td style="text-align: right;">21,7 %</td>
+</tr>
+<tr>
+<td>Na rodičovské dovolené na obyvatelích</td>
+<td style="text-align: right;">3,6 %</td>
+<td style="text-align: right;"><strong>4,7 %</strong></td>
+<td style="text-align: right;">2,2 %</td>
+<td style="text-align: right;">2,7 %</td>
+<td style="text-align: right;">2,1 %</td>
+<td style="text-align: right;">2,1 %</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vyjížďka-za-prací-a-do-škol">Vyjížďka za prací a do škol</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zaměstnaní vyjíždějící mimo obec (osob)</td>
+<td style="text-align: right;">358</td>
+<td style="text-align: right;">109</td>
+<td style="text-align: right;">459</td>
+<td style="text-align: right;">501</td>
+<td style="text-align: right;">53 578</td>
+<td style="text-align: right;">2 103 623</td>
+</tr>
+<tr>
+<td>Podíl na zaměstnaných</td>
+<td style="text-align: right;"><strong>76,5 %</strong></td>
+<td style="text-align: right;">70,8 %</td>
+<td style="text-align: right;">68,4 %</td>
+<td style="text-align: right;">69,1 %</td>
+<td style="text-align: right;">52,8 %</td>
+<td style="text-align: right;">39,8 %</td>
+</tr>
+<tr>
+<td>Pracuje na adrese bydliště</td>
+<td style="text-align: right;">11,3 %</td>
+<td style="text-align: right;">14,3 %</td>
+<td style="text-align: right;">13,7 %</td>
+<td style="text-align: right;">13,1 %</td>
+<td style="text-align: right;">16,5 %</td>
+<td style="text-align: right;">19,1 %</td>
+</tr>
+<tr>
+<td>Vyjíždějící celkem, práce i škola (osob)</td>
+<td style="text-align: right;">523</td>
+<td style="text-align: right;">165</td>
+<td style="text-align: right;">703</td>
+<td style="text-align: right;">748</td>
+<td style="text-align: right;">104 072</td>
+<td style="text-align: right;">5 073 543</td>
+</tr>
+<tr>
+<td>Autem, řidič i spolujezdec</td>
+<td style="text-align: right;"><strong>66,9 %</strong> (350)</td>
+<td style="text-align: right;">61,2 % (101)</td>
+<td style="text-align: right;">63,0 % (443)</td>
+<td style="text-align: right;">61,8 % (462)</td>
+<td style="text-align: right;">50,1 %</td>
+<td style="text-align: right;">44,0 %</td>
+</tr>
+<tr>
+<td>Autobusem (mimo MHD)</td>
+<td style="text-align: right;">17,2 % (90)</td>
+<td style="text-align: right;"><strong>21,8 %</strong> (36)</td>
+<td style="text-align: right;">11,1 % (78)</td>
+<td style="text-align: right;">18,4 % (138)</td>
+<td style="text-align: right;">9,1 %</td>
+<td style="text-align: right;">8,2 %</td>
+</tr>
+<tr>
+<td>Jen pěšky</td>
+<td style="text-align: right;">1,3 % (7)</td>
+<td style="text-align: right;">2,4 % (4)</td>
+<td style="text-align: right;"><strong>5,7 %</strong> (40)</td>
+<td style="text-align: right;">2,4 % (18)</td>
+<td style="text-align: right;">10,7 %</td>
+<td style="text-align: right;">11,9 %</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Hlavní cíle vyjížďky (práce + škola, osob, SLDB 2021):</strong></p>
+<table>
+<thead>
+<tr>
+<th>HD</th>
+<th>Pazderna</th>
+<th>DD</th>
+<th>Lučina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frýdek-Místek 123</td>
+<td>Dobrá 56</td>
+<td>Ostrava 131</td>
+<td>Frýdek-Místek 166</td>
+</tr>
+<tr>
+<td>Ostrava 77</td>
+<td>Frýdek-Místek 42</td>
+<td>Frýdek-Místek 87</td>
+<td>Ostrava 144</td>
+</tr>
+<tr>
+<td>Dobrá 58 (z toho škola 46)</td>
+<td>Ostrava 18</td>
+<td>Havířov 85</td>
+<td>Havířov 73</td>
+</tr>
+<tr>
+<td>Dolní Domaslavice 53 (škola 49)</td>
+<td>Nošovice 10</td>
+<td>Český Těšín 26</td>
+<td>Dobrá 53 (škola 42)</td>
+</tr>
+<tr>
+<td>Nošovice 34</td>
+<td>Lučina 5</td>
+<td>Nošovice 20</td>
+<td>Nošovice 32</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dojížďka do obce:</strong> do HD dojíždí za prací 9 lidí a do školy nikdo, do Pazderny 12 za prací. Do DD dojíždí 73 lidí za prací a <strong>123 dětí do školy</strong>. Do Lučiny 86 za prací a 17 do školy. DD jsou tedy pro okolí školním centrem (včetně 49 dětí z HD a 23 z Lučiny). HD a Pazderna jsou čistě rezidenční obce.</p>
+<h3 id="domácnosti">Domácnosti</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Průměrný počet osob na obydlený byt</td>
+<td style="text-align: right;"><strong>2,99</strong></td>
+<td style="text-align: right;">2,96</td>
+<td style="text-align: right;">2,76</td>
+<td style="text-align: right;">2,66</td>
+<td style="text-align: right;">2,40</td>
+<td style="text-align: right;">2,26</td>
+</tr>
+<tr>
+<td>Hospodařících domácností</td>
+<td style="text-align: right;">364</td>
+<td style="text-align: right;">119</td>
+<td style="text-align: right;">526</td>
+<td style="text-align: right;">606</td>
+<td style="text-align: right;">92 024</td>
+<td style="text-align: right;">4 813 103</td>
+</tr>
+<tr>
+<td>Domácnosti jednotlivců</td>
+<td style="text-align: right;">23,1 % (84)</td>
+<td style="text-align: right;">26,9 % (32)</td>
+<td style="text-align: right;">23,8 % (125)</td>
+<td style="text-align: right;">28,1 % (170)</td>
+<td style="text-align: right;">35,7 %</td>
+<td style="text-align: right;">39,1 %</td>
+</tr>
+<tr>
+<td>Domácnosti se 4 a více členy</td>
+<td style="text-align: right;"><strong>30,2 %</strong> (110)</td>
+<td style="text-align: right;">29,4 % (35)</td>
+<td style="text-align: right;">26,0 % (137)</td>
+<td style="text-align: right;">23,8 % (144)</td>
+<td style="text-align: right;">19,0 %</td>
+<td style="text-align: right;">16,8 %</td>
+</tr>
+</tbody>
+</table>
+<h3 id="domy-a-byty">Domy a byty</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obydlené domy</td>
+<td style="text-align: right;">298</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">416</td>
+<td style="text-align: right;">440</td>
+<td style="text-align: right;">43 012</td>
+<td style="text-align: right;">1 952 668</td>
+</tr>
+<tr>
+<td>Postavené do roku 1945</td>
+<td style="text-align: right;">15,1 % (45)</td>
+<td style="text-align: right;">12,9 % (11)</td>
+<td style="text-align: right;">9,4 % (39)</td>
+<td style="text-align: right;">4,1 % (18)</td>
+<td style="text-align: right;">12,7 %</td>
+<td style="text-align: right;">24,3 %</td>
+</tr>
+<tr>
+<td><strong>Postavené po roce 2000</strong></td>
+<td style="text-align: right;"><strong>49,7 %</strong> (148)</td>
+<td style="text-align: right;">32,9 % (28)</td>
+<td style="text-align: right;">38,7 % (161)</td>
+<td style="text-align: right;">33,6 % (148)</td>
+<td style="text-align: right;">26,8 %</td>
+<td style="text-align: right;">23,5 %</td>
+</tr>
+<tr>
+<td>z toho 2016–2021</td>
+<td style="text-align: right;"><strong>24,5 %</strong> (73)</td>
+<td style="text-align: right;">10,6 % (9)</td>
+<td style="text-align: right;">12,3 % (51)</td>
+<td style="text-align: right;">12,7 % (56)</td>
+<td style="text-align: right;">7,5 %</td>
+<td style="text-align: right;">5,6 %</td>
+</tr>
+<tr>
+<td>Byty celkem</td>
+<td style="text-align: right;">416</td>
+<td style="text-align: right;">131</td>
+<td style="text-align: right;">549</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;">99 027</td>
+<td style="text-align: right;">5 340 033</td>
+</tr>
+<tr>
+<td>Neobydlené byty</td>
+<td style="text-align: right;"><strong>22,1 %</strong> (92)</td>
+<td style="text-align: right;">18,3 % (24)</td>
+<td style="text-align: right;">13,5 % (74)</td>
+<td style="text-align: right;">14,5 % (87)</td>
+<td style="text-align: right;">15,9 %</td>
+<td style="text-align: right;">16,1 %</td>
+</tr>
+</tbody>
+</table>
+<p>V HD je polovina obydlených domů z doby po roce 2000. V ostatních třech obcích je to zhruba třetina. Okres má čtvrtinu.</p>
+<h3 id="kanalizace-a-vodovod-obydlené-domy">Kanalizace a vodovod (obydlené domy)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Napojeno na kanalizační síť</strong></td>
+<td style="text-align: right;"><strong>0 %</strong> (0)</td>
+<td style="text-align: right;"><strong>0 %</strong> (0)</td>
+<td style="text-align: right;">8,4 % (35)</td>
+<td style="text-align: right;"><strong>50,7 %</strong> (223)</td>
+<td style="text-align: right;">32,1 %</td>
+<td style="text-align: right;">61,7 %</td>
+</tr>
+<tr>
+<td>Žumpa</td>
+<td style="text-align: right;">76,2 % (227)</td>
+<td style="text-align: right;">82,4 % (70)</td>
+<td style="text-align: right;">74,8 % (311)</td>
+<td style="text-align: right;">36,1 % (159)</td>
+<td style="text-align: right;">58,1 %</td>
+<td style="text-align: right;">30,7 %</td>
+</tr>
+<tr>
+<td>Vlastní ČOV</td>
+<td style="text-align: right;">21,1 % (63)</td>
+<td style="text-align: right;">17,6 % (15)</td>
+<td style="text-align: right;">13,5 % (56)</td>
+<td style="text-align: right;">10,7 % (47)</td>
+<td style="text-align: right;">7,4 %</td>
+<td style="text-align: right;">3,6 %</td>
+</tr>
+<tr>
+<td>Vodovod z veřejné sítě (i kombinovaně)</td>
+<td style="text-align: right;">93,0 % (277)</td>
+<td style="text-align: right;">95,3 % (81)</td>
+<td style="text-align: right;">95,4 % (397)</td>
+<td style="text-align: right;">95,0 % (418)</td>
+<td style="text-align: right;">85,5 %</td>
+<td style="text-align: right;">87,2 %</td>
+</tr>
+<tr>
+<td>Jen domácí vodovod (studna)</td>
+<td style="text-align: right;">4,4 % (13)</td>
+<td style="text-align: right;">4,7 % (4)</td>
+<td style="text-align: right;">1,0 % (4)</td>
+<td style="text-align: right;">3,4 % (15)</td>
+<td style="text-align: right;">12,9 %</td>
+<td style="text-align: right;">10,7 %</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kanalizaci nemá HD ani Pazderna.</strong> V DD je napojeno 8 % domů, v Lučině polovina. Vodovod je ve všech čtyřech obcích rozšířený podobně (93–95 %).</p>
+<h3 id="hlavní-zdroj-vytápění-obydlené-byty">Hlavní zdroj vytápění (obydlené byty)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obydlené byty</td>
+<td style="text-align: right;">324</td>
+<td style="text-align: right;">107</td>
+<td style="text-align: right;">475</td>
+<td style="text-align: right;">513</td>
+<td style="text-align: right;">83 270</td>
+<td style="text-align: right;">4 480 139</td>
+</tr>
+<tr>
+<td><strong>Uhlí, koks, brikety</strong></td>
+<td style="text-align: right;"><strong>21,3 %</strong> (69)</td>
+<td style="text-align: right;">9,3 % (10)</td>
+<td style="text-align: right;">17,3 % (82)</td>
+<td style="text-align: right;">11,5 % (59)</td>
+<td style="text-align: right;">8,3 %</td>
+<td style="text-align: right;">5,4 %</td>
+</tr>
+<tr>
+<td><strong>Zemní plyn</strong></td>
+<td style="text-align: right;"><strong>11,4 %</strong> (37)</td>
+<td style="text-align: right;">39,3 % (42)</td>
+<td style="text-align: right;">38,7 % (184)</td>
+<td style="text-align: right;">42,3 % (217)</td>
+<td style="text-align: right;">29,4 %</td>
+<td style="text-align: right;">34,3 %</td>
+</tr>
+<tr>
+<td>Dřevo</td>
+<td style="text-align: right;">22,2 % (72)</td>
+<td style="text-align: right;">23,4 % (25)</td>
+<td style="text-align: right;">13,1 % (62)</td>
+<td style="text-align: right;">12,1 % (62)</td>
+<td style="text-align: right;">9,5 %</td>
+<td style="text-align: right;">8,0 %</td>
+</tr>
+<tr>
+<td>Elektřina</td>
+<td style="text-align: right;">26,2 % (85)</td>
+<td style="text-align: right;">9,3 % (10)</td>
+<td style="text-align: right;">12,8 % (61)</td>
+<td style="text-align: right;">17,5 % (90)</td>
+<td style="text-align: right;">7,5 %</td>
+<td style="text-align: right;">8,7 %</td>
+</tr>
+<tr>
+<td>Tepelné čerpadlo</td>
+<td style="text-align: right;">8,3 % (27)</td>
+<td style="text-align: right;">7,5 % (8)</td>
+<td style="text-align: right;">8,4 % (40)</td>
+<td style="text-align: right;">7,4 % (38)</td>
+<td style="text-align: right;">3,9 %</td>
+<td style="text-align: right;">2,3 %</td>
+</tr>
+<tr>
+<td>Pelety</td>
+<td style="text-align: right;">4,0 % (13)</td>
+<td style="text-align: right;">0 %</td>
+<td style="text-align: right;">1,9 % (9)</td>
+<td style="text-align: right;">2,1 % (11)</td>
+<td style="text-align: right;">1,3 %</td>
+<td style="text-align: right;">0,5 %</td>
+</tr>
+</tbody>
+</table>
+<p><strong>HD se od sousedů nejvíc liší topením.</strong> Uhlím topí v HD 21 % bytů, v DD 17 %, v Lučině 12 % a v Pazderně 9 %. Plynem v HD topí jen 11 % bytů, v ostatních třech obcích kolem 40 %. Stejný rozdíl ukazuje RÚIAN: plyn z veřejné sítě má podle něj v HD 57 budov s číslem (14 %), v Pazderně 63 (48 %), v DD 254 (41 %) a v Lučině 256 (35 %). Rozdíl je tedy pravděpodobně dán dostupností plynovodu, ne jen volbou domácností. (Odvozeno.)</p>
+<h3 id="cizinci-a-náboženství">Cizinci a náboženství</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cizí státní občanství ¹</td>
+<td style="text-align: right;">1,0 % (10)</td>
+<td style="text-align: right;">0,3 % (1)</td>
+<td style="text-align: right;">1,5 % (21)</td>
+<td style="text-align: right;">0,7 % (10)</td>
+<td style="text-align: right;">1,6 %</td>
+<td style="text-align: right;">4,7 %</td>
+</tr>
+<tr>
+<td>Bez náboženské víry</td>
+<td style="text-align: right;">35,6 %</td>
+<td style="text-align: right;">30,4 %</td>
+<td style="text-align: right;">35,0 %</td>
+<td style="text-align: right;">45,2 %</td>
+<td style="text-align: right;">35,7 %</td>
+<td style="text-align: right;">47,8 %</td>
+</tr>
+<tr>
+<td>Víru neuvedlo</td>
+<td style="text-align: right;">31,9 %</td>
+<td style="text-align: right;">32,3 %</td>
+<td style="text-align: right;">26,6 %</td>
+<td style="text-align: right;">29,9 %</td>
+<td style="text-align: right;">27,5 %</td>
+<td style="text-align: right;">30,1 %</td>
+</tr>
+<tr>
+<td>Římskokatolická církev a „katolická víra“</td>
+<td style="text-align: right;">18,8 % (184)</td>
+<td style="text-align: right;"><strong>25,5 %</strong> (82)</td>
+<td style="text-align: right;">16,0 % (223)</td>
+<td style="text-align: right;">11,4 % (169)</td>
+<td style="text-align: right;">16,4 %</td>
+<td style="text-align: right;">9,3 %</td>
+</tr>
+<tr>
+<td>Slezská evangelická církev a protestanté</td>
+<td style="text-align: right;">0,9 % (9)</td>
+<td style="text-align: right;">0 %</td>
+<td style="text-align: right;"><strong>5,9 %</strong> (82)</td>
+<td style="text-align: right;">0,4 % (6)</td>
+<td style="text-align: right;">4,6 %</td>
+<td style="text-align: right;">0,3 %</td>
+</tr>
+</tbody>
+</table>
+<p>¹ Odvozeno: obyvatelé bez českého občanství, bez dvojího občanství a bez „nezjištěno“. Stránka o <a href="hd-obyvatelstvo.html">obyvatelstvu HD</a> uvádí 11, protože započítává i jednu osobu s dvojím občanstvím.</p>
+<h2 id="5-výstavba">5. Výstavba</h2>
+<h3 id="51-dokončené-byty-podle-čsú">5.1 Dokončené byty podle ČSÚ</h3>
+<table>
+<thead>
+<tr>
+<th>Období</th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+<th style="text-align: right;">Okres F-M (součet obcí)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1997–2000</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1 597</td>
+</tr>
+<tr>
+<td>2001–2010</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">6 007</td>
+</tr>
+<tr>
+<td>2011–2014</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">2 685</td>
+</tr>
+<tr>
+<td>2015–2018</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">2 514</td>
+</tr>
+<tr>
+<td>2019–2022</td>
+<td style="text-align: right;"><strong>58</strong></td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">2 824</td>
+</tr>
+<tr>
+<td>2023–2025</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">1 833</td>
+</tr>
+<tr>
+<td><strong>2001–2025</strong></td>
+<td style="text-align: right;"><strong>209</strong></td>
+<td style="text-align: right;"><strong>56</strong></td>
+<td style="text-align: right;"><strong>172</strong></td>
+<td style="text-align: right;"><strong>183</strong></td>
+<td style="text-align: right;"><strong>15 863</strong></td>
+</tr>
+<tr>
+<td>Na 1 000 obyvatel (2016–2025 / stav 2025) ¹</td>
+<td style="text-align: right;"><strong>116</strong></td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">31</td>
+</tr>
+</tbody>
+</table>
+<p>¹ Odvozeno: součet dokončených bytů 2016–2025 (HD 129, Pazderna 38, DD 85, Lučina 104, okres 6 665) dělený počtem obyvatel k 31. 12. 2025 (u okresu 2024).</p>
+<p>Po letech 2015–2025:</p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">2015</th>
+<th style="text-align: right;">2016</th>
+<th style="text-align: right;">2017</th>
+<th style="text-align: right;">2018</th>
+<th style="text-align: right;">2019</th>
+<th style="text-align: right;">2020</th>
+<th style="text-align: right;">2021</th>
+<th style="text-align: right;">2022</th>
+<th style="text-align: right;">2023</th>
+<th style="text-align: right;">2024</th>
+<th style="text-align: right;">2025 ²</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HD</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>Pazderna</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>DD</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>Lučina</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">7</td>
+</tr>
+</tbody>
+</table>
+<p>² Rok 2025 je ve zdrojové tabulce ČSÚ označen poznámkou, jde nejspíš o předběžný údaj.</p>
+<p>Podle ČSÚ nevznikl v letech 1997–2024 v žádné ze čtyř obcí jediný byt v bytovém domě. Všechno jsou rodinné domy.</p>
+<p><strong>Odvozeno:</strong></p>
+<ul>
+<li><strong>HD stavěla v přepočtu na obyvatele nejvíc.</strong> V letech 2016–2025 dokončila 116 bytů na 1 000 dnešních obyvatel, téměř dvakrát víc než DD a Lučina a čtyřikrát víc než okres.</li>
+<li><strong>Vrchol výstavby měla HD v letech 2017–2022, Lučina a Pazderna později.</strong> Lučina měla nejvíc v roce 2023 (17 bytů), Pazderna v letech 2022–2024. V DD výstavba od roku 2023 klesá na 5–7 bytů ročně.</li>
+<li>Saldo stěhování 2002–2025 připadající na 1 dokončený byt téhož období je v HD 2,6, v Pazderně 2,5, v DD 3,3 a v Lučině 2,6 (saldo 532, 138, 572 a 481 osob na 207, 55, 171 a 182 bytů). DD tedy rostou i přistěhováním do starších domů, ne jen do novostaveb.</li>
+</ul>
+<h3 id="52-stavební-objekty-v-rúian-stav-k-30-9-2026">5.2 Stavební objekty v RÚIAN (stav k 30. 9. 2026)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stavebních objektů celkem</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">180</td>
+<td style="text-align: right;">762</td>
+<td style="text-align: right;">858</td>
+</tr>
+<tr>
+<td>s číslem popisným</td>
+<td style="text-align: right;">411</td>
+<td style="text-align: right;">129</td>
+<td style="text-align: right;">514</td>
+<td style="text-align: right;">544</td>
+</tr>
+<tr>
+<td>s číslem evidenčním</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;"><strong>178</strong></td>
+</tr>
+<tr>
+<td>bez čísla (garáže, kůlny aj.)</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">148</td>
+<td style="text-align: right;">136</td>
+</tr>
+<tr>
+<td><strong>Rodinné domy</strong> (způsob využití „rodinný dům“)</td>
+<td style="text-align: right;"><strong>407</strong></td>
+<td style="text-align: right;"><strong>125</strong></td>
+<td style="text-align: right;"><strong>494</strong></td>
+<td style="text-align: right;"><strong>520</strong></td>
+</tr>
+<tr>
+<td>Stavby pro rodinnou rekreaci</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">116</td>
+<td style="text-align: right;"><strong>169</strong></td>
+</tr>
+<tr>
+<td>Bytové domy</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>Bytů podle RÚIAN</td>
+<td style="text-align: right;">480</td>
+<td style="text-align: right;">162</td>
+<td style="text-align: right;">584</td>
+<td style="text-align: right;">649</td>
+</tr>
+<tr>
+<td>Adresních míst</td>
+<td style="text-align: right;">417</td>
+<td style="text-align: right;">132</td>
+<td style="text-align: right;">614</td>
+<td style="text-align: right;">722</td>
+</tr>
+<tr>
+<td>Nejvyšší přidělené číslo popisné</td>
+<td style="text-align: right;">431</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">523</td>
+<td style="text-align: right;">605</td>
+</tr>
+</tbody>
+</table>
+<p>DD a Lučina mají výrazně víc rekreačních chat (116 a 169), především kolem Žermanické přehrady. To vysvětluje vyšší počet čísel evidenčních.</p>
+<p><strong>Připojení podle RÚIAN (budovy s č. p. nebo č. e.):</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Budov s číslem</td>
+<td style="text-align: right;">417</td>
+<td style="text-align: right;">132</td>
+<td style="text-align: right;">614</td>
+<td style="text-align: right;">722</td>
+</tr>
+<tr>
+<td>Přípoj na kanalizační síť</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">284</td>
+</tr>
+<tr>
+<td>Žumpa, jímka, septik</td>
+<td style="text-align: right;">290</td>
+<td style="text-align: right;">104</td>
+<td style="text-align: right;">372</td>
+<td style="text-align: right;">211</td>
+</tr>
+<tr>
+<td>Vlastní ČOV</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">39</td>
+</tr>
+<tr>
+<td>Údaj chybí nebo nezjištěno</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">133</td>
+<td style="text-align: right;">188</td>
+</tr>
+<tr>
+<td>Plyn z veřejné sítě</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">254</td>
+<td style="text-align: right;">256</td>
+</tr>
+</tbody>
+</table>
+<p>U DD a Lučiny chybí údaj o kanalizaci u 22 %, resp. 26 % budov, hlavně u chat. Procenta proto nejsou spočítána, srovnatelné podíly dává sčítání 2021 výše.</p>
+<h3 id="53-rodinné-domy-dokončené-po-letech-rúian">5.3 Rodinné domy dokončené po letech (RÚIAN)</h3>
+<p>Rodinné domy s číslem popisným podle data dokončení v RÚIAN:</p>
+<table>
+<thead>
+<tr>
+<th>Období</th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Pazderna</th>
+<th style="text-align: right;">DD</th>
+<th style="text-align: right;">Lučina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2001–2010</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">59</td>
+</tr>
+<tr>
+<td>2011–2014</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">33</td>
+</tr>
+<tr>
+<td>2015–2018</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr>
+<td>2019–2022</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">51</td>
+</tr>
+<tr>
+<td>2023–2025</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">33</td>
+</tr>
+<tr>
+<td><strong>2001–2025</strong></td>
+<td style="text-align: right;"><strong>218</strong></td>
+<td style="text-align: right;"><strong>60</strong></td>
+<td style="text-align: right;"><strong>208</strong></td>
+<td style="text-align: right;"><strong>200</strong></td>
+</tr>
+<tr>
+<td>2026 (do 30. 9.)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+</tr>
+</tbody>
+</table>
+<p>Pro HD, Pazdernu a Lučinu se obě řady (RÚIAN a ČSÚ) za 2001–2025 liší jen o 4–17 domů. V DD eviduje RÚIAN o 36 domů víc než ČSÚ bytů, hlavně v letech 2001–2010 (76 proti 55). Pravděpodobně jde o domy se zástupným datem dokončení nebo o přestavby chat na rodinné domy; ověřeno to není.</p>
+<h2 id="6-zbývající-zastavitelné-plochy-pro-bydlení-územní-plány">6. Zbývající zastavitelné plochy pro bydlení (územní plány)</h2>
+<p>Územní plány všech čtyř obcí pořizuje Magistrát města Frýdku-Místku. Ve zprávách o uplatňování proto vyhodnocuje využití ploch podobně: z údajů stavebního úřadu o vydaných územních rozhodnutích a souhlasech pro rodinné domy. Data se ale vztahují k různým datům a výchozím plochám.</p>
+<table>
+<thead>
+<tr>
+<th>Obec</th>
+<th style="text-align: right;">Zastavitelné plochy pro bydlení (SO/SB) celkem</th>
+<th style="text-align: right;">Využito</th>
+<th style="text-align: right;"><strong>Zbývá</strong></th>
+<th>Stav k</th>
+<th>Zdroj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HD</td>
+<td style="text-align: right;">53,61 ha (po Změně č. 1, 2023)</td>
+<td style="text-align: right;">2,23 ha (9/2022–9/2025)</td>
+<td style="text-align: right;"><strong>51,38 ha</strong></td>
+<td>3. 9. 2025</td>
+<td>Návrh zprávy o uplatňování ÚP (2025), tab. 1</td>
+</tr>
+<tr>
+<td>Pazderna</td>
+<td style="text-align: right;">23,17 ha</td>
+<td style="text-align: right;">8,15 ha (od vydání ÚP 2009)</td>
+<td style="text-align: right;"><strong>≈ 15,0 ha</strong> ¹</td>
+<td>31. 8. 2022</td>
+<td>Návrh zprávy o uplatňování ÚP Pazderna (říjen 2022), pazderna.eu</td>
+</tr>
+<tr>
+<td>DD</td>
+<td style="text-align: right;">56,19 ha</td>
+<td style="text-align: right;">18,51 ha (od vydání ÚP 2013)</td>
+<td style="text-align: right;"><strong>≈ 37,7 ha</strong> ¹</td>
+<td>31. 5. 2023</td>
+<td>Zpráva o uplatňování ÚP DD 2019–2023 (říjen 2023), ddomaslavice.cz</td>
+</tr>
+<tr>
+<td>Lučina</td>
+<td style="text-align: right;">55,10 ha (po digitalizaci)</td>
+<td style="text-align: right;">11,05 ha (od Změny č. 1, 2016)</td>
+<td style="text-align: right;"><strong>44,05 ha</strong> (+ 3,76 ha navržených Změnou č. 2)</td>
+<td>1. 11. 2021</td>
+<td>Odůvodnění návrhu Změny č. 2 ÚP Lučina (03/2022), lucina.cz</td>
+</tr>
+</tbody>
+</table>
+<p>¹ Odvozeno: celkem minus využito. Zpráva samotná zbývající výměru neuvádí.</p>
+<p><strong>Doloženo z dokumentů:</strong></p>
+<ul>
+<li><strong>Pazderna:</strong> zpráva uvádí, že od vydání ÚP bylo využito asi 35 % ploch smíšených obytných. V období 1/2017–8/2022 bylo umístěno 37 rodinných domů (30 v zastavitelných plochách), tedy asi 6,5 ročně. Změna č. 1 počítala s potřebou 30–35 bytů do roku 2030. Stejný dokument ale na jiném místě uvádí celkovou výměru ploch SO 25,05 ha a využití „cca 4,47 ha ve sledovaném období“. Čísla si v rámci zprávy úplně neodpovídají.</li>
+<li><strong>DD:</strong> v období 2/2019–5/2023 bylo vydáno asi 39 souhlasů či rozhodnutí na rodinný dům, z toho 11 v zastavěném území, tedy asi 9 domů ročně. Původní ÚP (2013) počítal se 70 RD na nových plochách do roku 2025 a s „převisem nabídky větším než 180 %“. Plocha 1/Z6 (2,32 ha) je podmíněna územní studií, která nebyla v termínu zpracována.</li>
+<li><strong>Lučina:</strong> podle odůvodnění Změny č. 2 se od roku 2016 využilo asi 20 % ploch. Na zbývajících plochách (33,47 ha po odečtení 30 % na komunikace a vybavenost) je podle dokumentu možná výstavba 257 rodinných domů, převis nabídky je 162 %. Změna č. 2 přidává 17 menších ploch o výměře 3,76 ha pro asi 25 RD. Veřejná vyhláška z 4. 4. 2022 oznamuje projednání návrhu Změny č. 2. Zda byla změna vydána, ověřeno nebylo.</li>
+</ul>
+<p><strong>Odvozeno:</strong></p>
+<ul>
+<li>HD má ze čtyř obcí nejvíc nevyužitých ploch pro bydlení v absolutní výměře (51 ha) i na obyvatele (asi 4,6 ha na 100 obyvatel). Pazderna má asi 3,6 ha, Lučina 2,8 ha a DD 2,6 ha na 100 obyvatel.</li>
+<li>Hodnoty nejsou plně srovnatelné. U HD je „celkem“ už plocha zmenšená Změnou č. 1 (2023), takže „využito“ pokrývá jen tři roky. U Pazderny a DD se „využito“ počítá od vydání ÚP. Lučina počítá od roku 2016.</li>
+</ul>
+<h2 id="7-hlavní-rozdíly">7. Hlavní rozdíly</h2>
+<ol type="1">
+<li><strong>Všechny čtyři obce rostou stěhováním, HD nejrychleji a nejstabilněji.</strong> Za 25 let má HD +97 %, DD +59 %, Pazderna +54 % a Lučina +40 %. Přirozená měna je u všech kolem nuly. V roce 2025 DD a Lučina mírně klesly, HD a Pazderna dál rostly.</li>
+<li><strong>HD a Pazderna jsou výrazně mladší než DD a Lučina.</strong> Index stáří je 58 a 49, proti 93 a 105. Pazderna má podle dat ČSÚ za rok 2024 nižší index stáří než HD, ale jde o malou obec (103 dětí, 50 seniorů).</li>
+<li><strong>HD stavěla nejvíc.</strong> Na 1 000 obyvatel dokončila za 10 let 116 bytů, DD 58 a Lučina 65. Polovina obydlených domů v HD je z doby po roce 2000, v sousedních obcích třetina.</li>
+<li><strong>Infrastruktura: HD a Pazderna nemají kanalizaci.</strong> V Lučině je napojena polovina domů a v DD 8 %. HD má ze čtyř obcí nejméně plynu (11 % bytů topí plynem, v sousedních obcích asi 40 %) a nejvíc uhlí (21 %).</li>
+<li><strong>HD je nejvíc „dojížďková“.</strong> Mimo obec pracuje 76,5 % zaměstnaných, v ostatních obcích 68–71 %. Autem jezdí dvě třetiny. Do HD skoro nikdo nedojíždí. DD jsou pro okolí školním centrem (123 dojíždějících žáků).</li>
+<li><strong>HD má nejvíc vysokoškoláků (21,9 %),</strong> DD 19,9 %, Lučina 18,9 %, Pazderna 17,5 %.</li>
+<li><strong>DD a Lučina mají velké rekreační zázemí</strong> (116 a 169 chat podle RÚIAN), HD a Pazderna prakticky žádné.</li>
+</ol>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li><strong>Malá čísla.</strong> Pazderna má 422 obyvatel a 4–7 narozených ročně, HD 6–19. Jednotlivé roky a procenta z nich je lepší neinterpretovat, sledovat trendy a součty za období. U Pazderny se index stáří 49 opírá o 50 seniorů a 103 dětí. Jedna rodina ho posune o několik bodů.</li>
+<li><strong>Přepočty podle sčítání.</strong> Na přelomech let 2010/2011 a 2020/2021 se stav obyvatel přepočítal podle výsledků sčítání. Proto se součet přirozené měny a stěhování v obdobích 2011–2014 a 2019–2022 neshoduje přesně se změnou stavu (např. HD 2019–2022: součet +116, změna stavu +126; Lučina +159 proti +137).</li>
+<li><strong>Okres Frýdek-Místek</strong> změnil v roce 2007 hranice (pokles z 227 846 na 210 369 obyvatel). Růst okresu je proto srovnáván až od roku 2010. Součet dokončených bytů za okres je počítán z obcí, které ČSÚ vede v okrese F-M.</li>
+<li><strong>Sčítání 2021 počítá obvyklý pobyt</strong>, evidence ČSÚ trvalý pobyt. Čísla se liší (HD 978 proti 999 k 31. 12. 2021). U části odpovědí je „nezjištěno“, procenta jsou počítána ze všech.</li>
+<li><strong>Rok 2025</strong> pochází z datové sady OBY01B01 (stav a pohyb). U dokončených bytů je rok 2025 předběžný. Věkové složení za rok 2025 zatím není.</li>
+<li><strong>RÚIAN</strong> je stav k jednomu datu (30. 9. 2026). U starších domů používá zástupná data dokončení (1990, 2000 aj.), proto řada po letech platí až od roku 2001 a i tak je v DD méně spolehlivá. „Rodinné domy dokončené“ (RÚIAN) a „dokončené byty“ (ČSÚ) nejsou totéž.</li>
+<li><strong>Údaje o připojení v RÚIAN</strong> u DD a Lučiny chybí u čtvrtiny budov (hlavně chat). Pro podíly se proto používá sčítání 2021.</li>
+<li><strong>Zastavitelné plochy</strong> pocházejí z dokumentů různého stáří (2021–2025) a různého stavu. U HD a Pazderny jde o návrhy zpráv, u Lučiny o návrh změny ÚP, jen u DD o zprávu po projednání. Zbývající výměry u Pazderny a DD jsou dopočítané. Schválení zpráv zastupitelstvy ověřeno nebylo.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<table>
+<thead>
+<tr>
+<th>Zdroj</th>
+<th>Co z něj je</th>
+<th>Stav dat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ČSÚ 130149, věkové složení obyvatel obcí</td>
+<td>počet obyvatel a skupiny 0–14, 15–64, 65+ za roky 2000–2024</td>
+<td>soubor z 15. 5. 2025</td>
+</tr>
+<tr>
+<td>ČSÚ 130141, pohyb obyvatel</td>
+<td>narození, zemřelí, přistěhovalí, vystěhovalí za roky 2000–2024 (za obce od 2002)</td>
+<td>roky 2000–2024</td>
+</tr>
+<tr>
+<td>ČSÚ, data.csu.gov.cz, sada OBY01B01</td>
+<td>rok 2025 (stav a pohyb) a kontrola řady 2002–2024</td>
+<td>staženo 30. 10. 2026</td>
+</tr>
+<tr>
+<td>ČSÚ, otevřená data SLDB 2021</td>
+<td>22 tabulek za obce, okres a ČR, dojížďka mezi obcemi</td>
+<td>stav k 26. 3. 2021</td>
+</tr>
+<tr>
+<td>ČSÚ, Bytová výstavba, tab. 14 „Dokončené byty v obcích 1997–2025“</td>
+<td>dokončené byty po letech</td>
+<td>vydáno 7. 9. 2026, rok 2025 předběžně</td>
+</tr>
+<tr>
+<td>ČSÚ 200068-25</td>
+<td>rozdělení dokončených bytů na rodinné a bytové domy 1997–2024</td>
+<td>8. 9. 2025</td>
+</tr>
+<tr>
+<td>RÚIAN, výměnný formát za obec (vdp.cuzk.gov.cz)</td>
+<td>stavební objekty, rodinné domy, data dokončení, adresní místa</td>
+<td>stav k 30. 9. 2026</td>
+</tr>
+<tr>
+<td>Územní plány a zprávy o jejich uplatňování</td>
+<td>zbývající zastavitelné plochy pro bydlení</td>
+<td>2021–2025</td>
+</tr>
+</tbody>
+</table>
+<p>Roční údaje o počtu obyvatel, narozených, zemřelých, přistěhovalých a vystěhovalých za roky 2002–2024 ze sad 130141/130149 a z OBY01B01 se u všech čtyř obcí shodují. Kódy území (Pazderna 552500, Dolní Domaslavice 598101, Lučina 598399) jsou ověřené v datech ČSÚ i RÚIAN; okres Frýdek-Místek má v datech ČSÚ kód 40878, ČR kód 19.</p>
+<p>Územně plánovací dokumenty sousedních obcí:</p>
+<ul>
+<li>Pazderna: <a href="https://www.pazderna.eu/uzemni-plan">https://www.pazderna.eu/uzemni-plan</a> (veřejná vyhláška k návrhu zprávy o uplatňování Územního plánu Pazderna)</li>
+<li>Dolní Domaslavice: <a href="https://www.ddomaslavice.cz/nase-obec/uzemni-plan/zprava-o-uplatnovani-uzemniho-planu-dolni-domaslavice-2019-2023-1148cs.html">https://www.ddomaslavice.cz/nase-obec/uzemni-plan/zprava-o-uplatnovani-uzemniho-planu-dolni-domaslavice-2019-2023-1148cs.html</a></li>
+<li>Lučina: <a href="https://www.lucina.cz/obec/uzemni-plan-lucina/">https://www.lucina.cz/obec/uzemni-plan-lucina/</a> (odůvodnění Změny č. 2, 03/2022; návrh zprávy o uplatňování 2016–2021)</li>
+<li>Horní Domaslavice: Změna č. 1 územního plánu a návrh zprávy o uplatňování ÚP (2025), zveřejněné obcí.</li>
+</ul>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

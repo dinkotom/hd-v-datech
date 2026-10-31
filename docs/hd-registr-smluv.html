@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registr smluv – Horní Domaslavice v datech</title>
+<meta name="description" content="Které smlouvy obce Horní Domaslavice a její mateřské školy jsou veřejně dostupné v registru smluv a na profilu zadavatele a proč jich v registru není víc.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details open><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html" aria-current="page">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Registr smluv</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Tato stránka ukazuje, které smlouvy obce Horní Domaslavice a Mateřské školy Horní Domaslavice lze dohledat ve veřejných zdrojích: ve státním registru smluv (smlouvy.gov.cz), na Hlídači státu a na profilu zadavatele obce (vhodne-uverejneni.cz). Vysvětluje také, jaké povinnosti zveřejňovat smlouvy obec ze zákona má. Rešerše proběhla 30. 10. 2026 a pracovala jen s veřejnými zdroji.</p>
+<p>Obec Horní Domaslavice: IČO 00536008, datová schránka gr4bkxm. Mateřská škola Horní Domaslavice, příspěvková organizace: IČO 72547839, datová schránka jgk42xj.</p>
+<h2 id="1-shrnutí">1. Shrnutí</h2>
+<ol type="1">
+<li><strong>Obec sama do registru smluv od roku 2016 nevložila ani jednu smlouvu.</strong> Vyhledávání podle IČO, datové schránky i názvu publikujícího subjektu vrací nulu (doloženo exportem z registru).</li>
+<li>V registru je <strong>9 smluv, kde je obec smluvní stranou</strong>. Všechny vložila protistrana: SFŽP (2), KVIC Nový Jičín (4), TS a.s. (2) a SZIF (1). Celková uvedená hodnota je <strong>569 048 Kč</strong> a z převážné části jde o dotace, které obec dostala. Jako dodávku obci registr eviduje jen jednu smlouvu s cenou: objednávku u TS a.s. z roku 2018 za 93 004 Kč s DPH.</li>
+<li>U MŠ je v registru <strong>10 smluv</strong> (mzdová agenda a vzdělávání u KVIC, plavání ve Sportplexu Frýdek-Místek). Všechny vložila protistrana a ani jedna nemá uvedenou cenu.</li>
+<li><strong>Velké smlouvy obce v registru nejsou</strong> (např. KANIA, d21 architekti, Sportovní podlahy Zlín, TISPOL, ALPINE, LOMPARK, smlouvy s bankami ani se svozovou firmou FCC).</li>
+<li><strong>Obec ale tuto povinnost nemá:</strong> podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. se povinnost zveřejnit smlouvu v registru <strong>nevztahuje</strong> na smlouvy, jejichž stranou je obec bez rozšířené působnosti nebo její příspěvková organizace. Horní Domaslavice obcí s rozšířenou působností (ORP) nejsou; ORP je Frýdek-Místek. <strong>Chybějící smlouvy proto podle doslovného znění zákona porušením zákona o registru smluv nejsou.</strong> Podrobnosti jsou v oddílu 2.</li>
+<li>Obec zveřejňuje smlouvy na veřejné zakázky na <strong>profilu zadavatele</strong> (vhodne-uverejneni.cz). Je tam <strong>17 smluv z let 2015–2026</strong> v hodnotě zhruba <strong>30,5 mil. Kč bez DPH</strong> a k tomu rekonstrukce MŠ za 10,7 mil. Kč (viz <a href="hd-zakazky.html">veřejné zakázky</a>). Profil sám u všech 17 smluv uvádí „Stav v ISRS: Nezveřejněna“, tedy že nejsou v registru smluv.</li>
+<li>Ze závěrečného účtu za rok 2025 jsou známy smlouvy a objednávky nad 50 000 Kč, které nejsou ani v registru, ani na profilu: d21 architekti (284 000 Kč bez DPH), LF Interiéry (514 733 Kč), opravy komunikací (194 810 Kč) a TISPOL (54 450 Kč, pravděpodobně s DPH). Zákonnou povinnost je zveřejnit obec nemá; jde o otázku dobrovolné transparentnosti.</li>
+</ol>
+<h2 id="2-právní-rámec-proč-v-registru-nic-není">2. Právní rámec: proč v registru nic není</h2>
+<p><strong>Text zákona:</strong> zákon č. 340/2015 Sb., § 3 odst. 2: „Povinnost uveřejnění prostřednictvím registru smluv se nevztahuje na … k) smlouvu, jejíž alespoň jednou smluvní stranou je obec, která nevykonává rozšířenou působnost, příspěvková organizace touto obcí zřízená nebo právnická osoba, v níž má taková obec sama nebo s jinými takovými obcemi většinovou účast“.</p>
+<p>Častý předpoklad, že povinnost platí pro všechny obce a výjimku mají jen ORP, je tedy opačný, než říká zákon. Výjimku mají obce, které rozšířenou působnost <strong>nevykonávají</strong>, a to je případ Horních Domaslavic. Výjimka navíc pokrývá celou smlouvu („alespoň jednou smluvní stranou“). Ani protistrana typu SFŽP, SZIF nebo KVIC tak zveřejňovat nemusela. Těch 9 smluv v registru je proto podle všeho dobrovolné nebo preventivní zveřejnění ze strany protistran. Hlídač státu u kontrolovaných smluv obce shodně píše „Smlouva nepodléhá možné sankci neplatnosti“.</p>
+<p><strong>Nepřímé potvrzení:</strong> krajský přezkum hospodaření za rok 2025 výslovně uvádí mezi použitými předpisy zákon 340/2015 Sb. a nemá žádné výhrady. Kdyby obec povinnost měla a 10 let nic nezveřejnila, přezkum by to s velkou pravděpodobností zachytil.</p>
+<p><strong>Co obec povinně zveřejňuje jinde:</strong> podle § 219 odst. 1 zákona č. 134/2016 Sb. (zákon o zadávání veřejných zakázek) zveřejňuje veřejný zadavatel smlouvu na veřejnou zakázku včetně změn a dodatků na <strong>profilu zadavatele</strong>, a to do <strong>30 dnů</strong> od uzavření. V aktuálním znění (od 3. 4. 2025) to neplatí pro smlouvy s cenou do <strong>1 000 000 Kč bez DPH</strong> a pro smlouvy zveřejněné v registru. Starší znění měla pravděpodobně nižší hranici (500 000 Kč) a kratší lhůtu (15 dní); historické znění ale nebylo ověřeno. Tuto povinnost má i obec bez ORP.</p>
+<p>Hranice 50 000 Kč bez DPH je výjimka podle § 3 odst. 2 písm. h) zákona o registru smluv. Platí pro subjekty, které povinnost zveřejňovat mají, obcí bez ORP se ale netýká, protože ty jsou vyjmuty celé podle písm. k).</p>
+<h2 id="3-souhrnná-tabulka-po-letech">3. Souhrnná tabulka po letech</h2>
+<p>Roky jsou podle data uzavření smlouvy.</p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Registr: obec (počet)</th>
+<th style="text-align: right;">Registr: obec (Kč s DPH, kde uvedeno)</th>
+<th style="text-align: right;">Registr: MŠ (počet)</th>
+<th style="text-align: right;">Profil zadavatele: obec (počet)</th>
+<th style="text-align: right;">Profil: obec (Kč bez DPH, kde uvedeno)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">cena neuvedena</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">77 066</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1 425 521</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">93 004</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4 656 954</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0 (bez ceny)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">398 978</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">(10 738 397 s DPH)</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1 890 050 (nabídková cena)</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0 (bez ceny)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1 285 000</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">7 581 200</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0 (bez ceny)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4 705 961 (+ FCC, cena skryta)</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2 359 516</td>
+</tr>
+<tr>
+<td>2026</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">6 577 084</td>
+</tr>
+<tr>
+<td><strong>Celkem</strong></td>
+<td style="text-align: right;"><strong>9</strong></td>
+<td style="text-align: right;"><strong>569 048</strong></td>
+<td style="text-align: right;"><strong>10</strong></td>
+<td style="text-align: right;"><strong>17</strong></td>
+<td style="text-align: right;"><strong>≈ 30 481 287 bez DPH + 10 738 397 s DPH (MŠ)</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-kompletní-seznam-smluv-v-registru-smluv">4. Kompletní seznam smluv v registru smluv</h2>
+<h3 id="41-obec-horní-domaslavice-9-smluv-obec-vždy-jako-protistrana-nikdy-jako-zveřejňovatel">4.1 Obec Horní Domaslavice (9 smluv; obec vždy jako protistrana, nikdy jako zveřejňovatel)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Uzavřeno</th>
+<th>Zveřejněno</th>
+<th>Zveřejnil (protistrana obce)</th>
+<th>IČO</th>
+<th>Předmět</th>
+<th style="text-align: right;">Hodnota</th>
+<th>Odkaz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>23. 2. 2016</td>
+<td>7. 11. 2016</td>
+<td>Státní fond životního prostředí ČR</td>
+<td>00020729</td>
+<td>Smlouva č. 14196543 o poskytnutí podpory ze SFŽP ČR</td>
+<td style="text-align: right;">77 066 Kč s DPH</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/531293">https://smlouvy.gov.cz/smlouva/531293</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>3. 11. 2016</td>
+<td>8. 11. 2016</td>
+<td>Státní fond životního prostředí ČR</td>
+<td>00020729</td>
+<td>Dodatek č. 1</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/542385">https://smlouvy.gov.cz/smlouva/542385</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>20. 12. 2016</td>
+<td>13. 1. 2017</td>
+<td>KVIC Nový Jičín, p. o.</td>
+<td>62330403</td>
+<td>Zpracování mzdové agendy</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/1020769">https://smlouvy.gov.cz/smlouva/1020769</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>2. 8. 2018</td>
+<td>3. 8. 2018</td>
+<td>TS a.s. (Frýdek-Místek)</td>
+<td>60793716</td>
+<td>Objednávka</td>
+<td style="text-align: right;">93 004 Kč s DPH</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/6325639">https://smlouvy.gov.cz/smlouva/6325639</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>15. 7. 2019</td>
+<td>16. 7. 2019</td>
+<td>TS a.s.</td>
+<td>60793716</td>
+<td>Objednávka (Hlídač státu: stavebnictví)</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/9631927">https://smlouvy.gov.cz/smlouva/9631927</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>16. 12. 2019</td>
+<td>7. 1. 2020</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Smlouva o zpracování mzdové agendy</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/11292872">https://smlouvy.gov.cz/smlouva/11292872</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>30. 11. 2020</td>
+<td>30. 11. 2020</td>
+<td>Státní zemědělský intervenční fond</td>
+<td>48133981</td>
+<td>Dohoda o poskytnutí dotace z PRV ČR 20/005/19210/780/068/001497 (č. SZIF/2020/0655913)</td>
+<td style="text-align: right;">398 978 Kč</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/14679685">https://smlouvy.gov.cz/smlouva/14679685</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>30. 11. 2022</td>
+<td>22. 12. 2022</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Dodatek ke smlouvě o zpracování mzdové agendy</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/22851409">https://smlouvy.gov.cz/smlouva/22851409</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>8. 7. 2024</td>
+<td>12. 7. 2024</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Dodatek č. 2 smlouvy ZMA (zpracování mzdové agendy)</td>
+<td style="text-align: right;">neuvedena (důvod: „konkurenční znevýhodnění“)</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/29453228">https://smlouvy.gov.cz/smlouva/29453228</a></td>
+</tr>
+</tbody>
+</table>
+<p>Smlouvy č. 1, 2 a 7 jsou dotace pro obec (viz <a href="hd-dotace.html">dotace</a>). Č. 3, 6, 8 a 9 jsou mzdová agenda u krajského zařízení. Č. 4 a 5 jsou objednávky u TS a.s. Stejného dne jako objednávku obce z roku 2018 (93 004 Kč) vložila TS a.s. i objednávku pro Římskokatolickou farnost Domaslavice (99 550 Kč, <a href="https://smlouvy.gov.cz/smlouva/6325567">https://smlouvy.gov.cz/smlouva/6325567</a>). Předmět obou objednávek z metadat registru zjistit nelze.</p>
+<h3 id="42-mateřská-škola-horní-domaslavice-10-smluv-mš-vždy-jako-protistrana">4.2 Mateřská škola Horní Domaslavice (10 smluv; MŠ vždy jako protistrana)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Uzavřeno</th>
+<th>Zveřejněno</th>
+<th>Zveřejnil</th>
+<th>IČO</th>
+<th>Předmět</th>
+<th style="text-align: right;">Hodnota</th>
+<th>Odkaz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1. 9. 2016</td>
+<td>23. 2. 2017</td>
+<td>Sportplex Frýdek-Místek, s.r.o.</td>
+<td>26829495</td>
+<td>Zabezpečení plaveckého výcviku žáků 2016/2017</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/1318689">https://smlouvy.gov.cz/smlouva/1318689</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>20. 12. 2016</td>
+<td>27. 1. 2017</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Zpracování mzdové agendy</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/1125865">https://smlouvy.gov.cz/smlouva/1125865</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>20. 9. 2017</td>
+<td>29. 9. 2017</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Smlouva o vzdělávání (mzdové prostředky)</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/3288370">https://smlouvy.gov.cz/smlouva/3288370</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>8. 10. 2018</td>
+<td>12. 10. 2018</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Dodatek ke smlouvě o vzdělávání</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/6969887">https://smlouvy.gov.cz/smlouva/6969887</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>6. 5. 2019</td>
+<td>10. 5. 2019</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Dodatek ke smlouvě o vzdělávání</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/8995391">https://smlouvy.gov.cz/smlouva/8995391</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>12. 12. 2019</td>
+<td>8. 1. 2020</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Smlouva o zpracování mzdové agendy</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/11307604">https://smlouvy.gov.cz/smlouva/11307604</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>18. 12. 2020</td>
+<td>12. 1. 2021</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Smlouva o vzdělávání – dodatek prodloužení</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/15159295">https://smlouvy.gov.cz/smlouva/15159295</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>14. 12. 2022</td>
+<td>22. 12. 2022</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Dodatek ke smlouvě o zpracování mzdové agendy</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/22862905">https://smlouvy.gov.cz/smlouva/22862905</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>7. 3. 2024</td>
+<td>8. 3. 2024</td>
+<td>Sportplex Frýdek-Místek, s.r.o.</td>
+<td>26829495</td>
+<td>Zabezpečení výuky plávání dětí MŠ (VP-PUŠ 2024/15)</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/27910927">https://smlouvy.gov.cz/smlouva/27910927</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>12. 8. 2024</td>
+<td>19. 8. 2024</td>
+<td>KVIC Nový Jičín</td>
+<td>62330403</td>
+<td>Dodatek č. 2 smlouvy o zpracování mzdové agendy</td>
+<td style="text-align: right;">neuvedena</td>
+<td><a href="https://smlouvy.gov.cz/smlouva/29845612">https://smlouvy.gov.cz/smlouva/29845612</a></td>
+</tr>
+</tbody>
+</table>
+<p>Fulltextové hledání „Horní Domaslavice“ v registru (632 výsledků) bylo prošlé celé. Kromě výše uvedených smluv jde o smlouvy jiných subjektů, kde se obec jen zmiňuje v textu: VZP, ODIS, Lesy ČR, Povodí Odry, Správa silnic MSK a další. Obec v nich stranou není. Dvě z nich se obce týkají věcně: Správa silnic MSK uzavřela smlouvu o dílo na projektovou dokumentaci rozšíření silnice III/4735 Horní Domaslavice (Geoengineering, 391 470 Kč, 2021, a dodatek 66 550 Kč, 2022). Krajské dotace spolkům v obci (SDH, Klub žen, zahrádkáři) jsou smlouvy spolků, ne obce (viz <a href="hd-spolky.html">spolky</a>).</p>
+<h2 id="5-statistiky-hlídače-státu">5. Statistiky Hlídače státu</h2>
+<p>Stav k 30. 10. 2026:</p>
+<ul>
+<li>Registr smluv: <strong>9 smluv od roku 2016 za 569 048 Kč</strong> (jen obec). Včetně podřízené MŠ je to 19 smluv za stejnou částku. V letech 2025 a 2026 nepřibyla žádná smlouva.</li>
+<li>Nejčastější dodavatel obce podle Hlídače státu: <strong>TS a.s.</strong>, 1 smlouva za 93 004 Kč. Jiného dodavatele Hlídač z registru nezná, protože obec v registru nic nezveřejňuje.</li>
+<li>Sledovaná rizika: Hlídač hlásí jen „smlouvy bez uvedené ceny“, a to v roce 2019 (2 smlouvy, 100 %) a v roce 2022 (1 smlouva, 100 %), obojí jako střední riziko. Rejstřík trestů právnických osob je bez záznamu.</li>
+<li>Nedostatky u jednotlivých smluv: nulová hodnota v metadatech (6 smluv) a strojově nečitelné přílohy (3 smlouvy). Všechny jdou za zveřejňovatelem, tedy protistranou.</li>
+<li>Sponzoring politických stran: „Tento úřad žádnou politickou stranu v posledních 10 letech nesponzoroval.“</li>
+<li>Osoby s vazbou: 0.</li>
+<li><strong>Napojení dodavatelů na politiky:</strong> u jediného dodavatele z registru Hlídač nic neuvádí. U dodavatelů ze zakázek (KANIA, STRABAG, Sportovní podlahy Zlín a další) vazby ověřovány nebyly; na Hlídači jsou dostupné jen po přihlášení a evidence skutečných majitelů je podle upozornění Hlídače od 17. 12. 2025 veřejnosti nepřístupná.</li>
+<li>Veřejné zakázky: obec je zadavatelem u 25 záznamů na podstránce a 18 na přehledu. Rozdíl dělají duplicity mezi Věstníkem veřejných zakázek a profilem. Jako dodavatel nefiguruje. Profil zadavatele je od 28. 1. 2015.</li>
+<li>Dotace: 43 přijatých dotací za zhruba 30 mil. Kč (2010–2025), s MŠ 48 dotací za zhruba 41 mil. Kč. Tato čísla nadhodnocují skutečně přijaté peníze, viz <a href="hd-dotace.html">dotace</a>.</li>
+<li>Vozový park: 5 vozidel.</li>
+</ul>
+<h2 id="6-smlouvy-na-profilu-zadavatele-vhodne-uverejnenicz">6. Smlouvy na profilu zadavatele (vhodne-uverejneni.cz)</h2>
+<p>Profil uvádí u všech 17 smluv „Stav v ISRS: Nezveřejněna“. Ceny i dodavatelé jsou z detailu smlouvy na profilu.</p>
+<table>
+<thead>
+<tr>
+<th>Uzavřeno</th>
+<th>Vloženo na profil</th>
+<th>Předmět</th>
+<th>Dodavatel</th>
+<th>IČO</th>
+<th style="text-align: right;">Cena bez DPH</th>
+<th style="text-align: right;">Cena s DPH</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14. 1. 2015</td>
+<td>23. 11. 2017</td>
+<td>Snížení energetické náročnosti Obecního domu (SoD č. 201501/C01 + dodatek č. 1)</td>
+<td>neuvedeno</td>
+<td>–</td>
+<td style="text-align: right;">neuvedena</td>
+<td style="text-align: right;">neuvedena</td>
+</tr>
+<tr>
+<td>5. 6. 2015</td>
+<td>17. 10. 2017</td>
+<td>Kompostéry pro občany obce (kupní smlouva)</td>
+<td>neuvedeno</td>
+<td>–</td>
+<td style="text-align: right;">neuvedena</td>
+<td style="text-align: right;">neuvedena</td>
+</tr>
+<tr>
+<td>3. 4. 2017</td>
+<td>17. 10. 2017</td>
+<td>Snížení energetické náročnosti objektu OÚ (SoD + dodatek č. 1)</td>
+<td>BESKYDGROUP s.r.o.</td>
+<td>28614321</td>
+<td style="text-align: right;">929 756</td>
+<td style="text-align: right;">1 125 005</td>
+</tr>
+<tr>
+<td>27. 9. 2017</td>
+<td>23. 11. 2017</td>
+<td>Oprava vozovky ÚK 23</td>
+<td>ALPINE Bau CZ a.s.</td>
+<td>02604795</td>
+<td style="text-align: right;">495 765</td>
+<td style="text-align: right;">599 875</td>
+</tr>
+<tr>
+<td>12. 1. 2018</td>
+<td>18. 1. 2018</td>
+<td>Oplocení hřbitova (SoD + dodatek č. 1)</td>
+<td>BESKYDGROUP s.r.o.</td>
+<td>28614321</td>
+<td style="text-align: right;">1 612 813</td>
+<td style="text-align: right;">1 951 503</td>
+</tr>
+<tr>
+<td>2. 5. 2018</td>
+<td>2. 5. 2018</td>
+<td>Chodník mezi hřbitovy podél MK 6 (SoD + dodatek č. 1)</td>
+<td>LOMPARK s.r.o.</td>
+<td>01914235</td>
+<td style="text-align: right;">1 707 167</td>
+<td style="text-align: right;">2 065 672</td>
+</tr>
+<tr>
+<td>17. 9. 2018</td>
+<td>24. 9. 2018</td>
+<td>Oprava chodníků uvnitř hřbitova (SoD + dodatek č. 1)</td>
+<td>LOMPARK s.r.o.</td>
+<td>01914235</td>
+<td style="text-align: right;">1 336 974</td>
+<td style="text-align: right;">1 617 739</td>
+</tr>
+<tr>
+<td>17. 7. 2020</td>
+<td>19. 7. 2020</td>
+<td>Rekonstrukce vnitřní části MŠ (SoD + dodatky č. 1–3)</td>
+<td>Haospol s.r.o.</td>
+<td>25855506</td>
+<td style="text-align: right;">neuvedena</td>
+<td style="text-align: right;">10 738 397</td>
+</tr>
+<tr>
+<td>4. 8. 2021</td>
+<td>11. 8. 2021</td>
+<td>Obnova soustavy veřejného osvětlení</td>
+<td>ENCO group, s.r.o.</td>
+<td>26828570</td>
+<td style="text-align: right;">1 890 050 (nabídka)</td>
+<td style="text-align: right;">2 286 961</td>
+</tr>
+<tr>
+<td>24. 1. 2022</td>
+<td>1. 2. 2022</td>
+<td>Podpora domácího kompostování (kupní smlouva + dodatek č. 1)</td>
+<td>SDO Technika s.r.o.</td>
+<td>29446619</td>
+<td style="text-align: right;">1 285 000</td>
+<td style="text-align: right;">1 554 850</td>
+</tr>
+<tr>
+<td>5. 4. 2023</td>
+<td>9. 4. 2023</td>
+<td>Oprava MK1</td>
+<td>STRABAG a.s.</td>
+<td>60838744</td>
+<td style="text-align: right;">7 581 200</td>
+<td style="text-align: right;">9 173 252</td>
+</tr>
+<tr>
+<td>18. 3. 2024</td>
+<td>8. 4. 2024</td>
+<td>SoD č. S074200003 (cenová příloha č. 1 od 1. 4. 2024, nakládání s komunálním odpadem)</td>
+<td>FCC Česká republika, s.r.o.*</td>
+<td>45809712</td>
+<td style="text-align: right;">skryto*</td>
+<td style="text-align: right;">skryto*</td>
+</tr>
+<tr>
+<td>14. 8. 2024</td>
+<td>19. 8. 2024</td>
+<td>Oprava MK 5 a MK 10</td>
+<td>Strojírny a stavby Třinec, a.s.</td>
+<td>47674539</td>
+<td style="text-align: right;">4 705 961</td>
+<td style="text-align: right;">5 694 213</td>
+</tr>
+<tr>
+<td>15. 10. 2025</td>
+<td>24. 10. 2025</td>
+<td>Projektová dokumentace – MŠ (SoD + dodatek č. 1 vložen 2. 2. 2026 + dodatek č. 2 vložen 7. 7. 2026)</td>
+<td>KANIA a.s.</td>
+<td>26817853</td>
+<td style="text-align: right;">1 600 000</td>
+<td style="text-align: right;">1 936 000</td>
+</tr>
+<tr>
+<td>11. 12. 2025</td>
+<td>21. 1. 2026</td>
+<td>Obecní dům – elektroinstalace</td>
+<td>ELBAU-MONT s.r.o.</td>
+<td>17485819</td>
+<td style="text-align: right;">759 516</td>
+<td style="text-align: right;">919 014</td>
+</tr>
+<tr>
+<td>20. 2. 2026</td>
+<td>23. 2. 2026</td>
+<td>Stavební úpravy obecního domu</td>
+<td>Aklera Corp s.r.o.</td>
+<td>22451749</td>
+<td style="text-align: right;">1 120 119</td>
+<td style="text-align: right;">1 120 119</td>
+</tr>
+<tr>
+<td>7. 5. 2026</td>
+<td>7. 7. 2026</td>
+<td>Víceúčelové hřiště</td>
+<td>SPORTOVNÍ PODLAHY ZLÍN, s.r.o.</td>
+<td>25560191</td>
+<td style="text-align: right;">5 456 965</td>
+<td style="text-align: right;">6 602 928</td>
+</tr>
+</tbody>
+</table>
+<p>* U FCC profil v metadatech místo ceny i dodavatele uvádí „Údaj není veřejný na základě § 5 odst. 6 zákona č. 340/2015 Sb.“. Dodavatel je doplněn z přiloženého skenu: Cenová příloha č. 1 ke SoD č. S074200003 ze dne 28. 6. 2011, podepsáno 18. 3. 2024. Samotná smlouva z roku 2011 na profilu není.</p>
+<p><strong>Postřehy z profilu</strong> (doložená data; co je z nich vyvozeno, je výslovně uvedeno):</p>
+<ul>
+<li><strong>Projektová dokumentace MŠ:</strong> soutěžili 4 účastníci: KANIA 1 600 000, d21 architekti 1 733 000, MAZOK 1 797 400 a SD Ateliér 4 873 000 Kč bez DPH. Vyhrála nejnižší nabídka. Předpokládaná hodnota byla 1 918 000 Kč. Zakázka je dotovaná z programu „Vouchery pro veřejný sektor“ MSK.</li>
+<li><strong>Stavební úpravy obecního domu:</strong> vybrán byl Aklera Corp (1 120 119 Kč) a ten <strong>nebyl nejlevnější bez DPH</strong>. Levnější byly Kowollik s.r.o. (941 153), ELBAU-MONT (942 232) a Kantora s.r.o. (1 049 308 Kč bez DPH). Nabídka Akleru má stejnou cenu bez DPH i s DPH. <strong>Odvozeno:</strong> dodavatel je zřejmě neplátce DPH, a pokud obec u této akce nemá nárok na odpočet DPH, může být jeho nabídka pro obec ve skutečnosti nejlevnější (1 120 119 proti 1 138 795 Kč s DPH u Kowollik). Hodnoticí kritéria nebyla ověřována.</li>
+<li><strong>Oprava chodníků uvnitř hřbitova:</strong> nabídka byla 1 127 426 Kč, smluvní cena po dodatku 1 336 974 Kč bez DPH, tedy o 18,6 % víc.</li>
+<li><strong>Hřiště:</strong> smlouva je uzavřená 7. 5. 2026 a na profil vložená 7. 7. 2026, tedy po 61 dnech. Zákonná lhůta je 30 dní (§ 219 ZZVZ, cena nad 1 mil. Kč). <strong>Odvozeno:</strong> pokud je datum vložení správné, mohlo jít o opožděné zveřejnění; datum ale může odrážet nahrání nové verze (viz Pozor, bod 4).</li>
+<li><strong>Zpevněná sportovní plocha u hasičské klubovny:</strong> první řízení (2025) bylo zrušeno, druhé je bez výsledku a smlouva zatím není (viz <a href="hd-zakazky.html">veřejné zakázky</a>).</li>
+</ul>
+<h2 id="7-srovnání-s-dalšími-známými-smlouvami">7. Srovnání s dalšími známými smlouvami</h2>
+<table>
+<thead>
+<tr>
+<th>Smlouva</th>
+<th>V registru smluv?</th>
+<th>Na profilu zadavatele?</th>
+<th>Poznámka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KANIA a.s. (IČO 26817853), projektová dokumentace MŠ, 1 600 000 Kč bez DPH, 15. 10. 2025</td>
+<td><strong>ne</strong></td>
+<td><strong>ano</strong></td>
+<td>dodatek č. 1 (2. 2. 2026) i dodatek č. 2 (vložen 7. 7. 2026) jsou na profilu, v registru ne</td>
+</tr>
+<tr>
+<td>d21 architekti s.r.o. (IČO 27850862), studie MŠ, 284 000 Kč bez DPH, 28. 2. 2025 + dodatek č. 1 z 26. 5. 2025</td>
+<td><strong>ne</strong></td>
+<td><strong>ne</strong></td>
+<td>pod hranicí pro profil (§ 219), údaje jsou známy jen ze závěrečného účtu 2025</td>
+</tr>
+<tr>
+<td>Sportovní podlahy Zlín (IČO 25560191), hřiště, 5 456 965 bez DPH / 6 602 928 Kč s DPH, 7. 5. 2026</td>
+<td><strong>ne</strong></td>
+<td><strong>ano</strong></td>
+<td>vloženo po 61 dnech (viz výše)</td>
+</tr>
+<tr>
+<td>TISPOL s.r.o., administrace zakázky, SoD č. 05-09/25 z 5. 9. 2025, úhrada 54 450 Kč</td>
+<td><strong>ne</strong></td>
+<td><strong>ne</strong></td>
+<td>54 450 = 45 000 × 1,21. <strong>Odvozeno:</strong> šlo o 45 000 Kč bez DPH, tedy pod hranicí 50 000 Kč i podle obecného pravidla registru</td>
+</tr>
+<tr>
+<td>Zimní údržba komunikací (smlouva od 2013) + dodatky</td>
+<td><strong>ne</strong></td>
+<td><strong>ne</strong></td>
+<td>smlouva ani částka nejsou veřejně dostupné; výdaje 2212/5169 (silnice – služby) rostly ze 172 tis. (2018) na 1 175 tis. Kč (2025), ale kolik z toho je zimní údržba, z dat MF poznat nelze</td>
+</tr>
+<tr>
+<td>ALPINE Bau CZ a.s. (IČO 02604795), oprava vozovky ÚK 23, 495 765 Kč bez DPH, 27. 9. 2017</td>
+<td><strong>ne</strong></td>
+<td><strong>ano</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>LOMPARK s.r.o. (IČO 01914235), chodník mezi hřbitovy 1 707 167 Kč a chodníky uvnitř hřbitova 1 336 974 Kč bez DPH, 2018</td>
+<td><strong>ne</strong></td>
+<td><strong>ano</strong> (obě i s dodatky)</td>
+<td></td>
+</tr>
+<tr>
+<td>Česká spořitelna, úvěr 8,6 mil. Kč, 19. 2. 2020</td>
+<td><strong>ne</strong></td>
+<td><strong>ne</strong></td>
+<td>nejde o veřejnou zakázku podle ZZVZ, takže na profil nepatří; úvěr nebyl čerpán (viz <a href="hd-ucty.html">stavy účtů</a>)</td>
+</tr>
+<tr>
+<td>Komerční banka, termínovaný vklad 9 mil. Kč, 10/2023</td>
+<td><strong>ne</strong></td>
+<td><strong>ne</strong></td>
+<td>dtto</td>
+</tr>
+<tr>
+<td>FCC Česká republika (odpady)</td>
+<td><strong>ne</strong></td>
+<td><strong>částečně</strong>: jen cenová příloha 2024, cena i dodavatel skryty v metadatech</td>
+<td>výdaje na odpady 3722/5169: 559 tis. (2016) → 1 419 tis. Kč (2025)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="8-velké-platby-bez-smlouvy-v-registru">8. Velké platby bez smlouvy v registru</h2>
+<p>Žádná smlouva obce na dodávky v registru není, takže v registru chybí <strong>všechny</strong> velké výdaje obce. Smlouvy nad zhruba 0,5–1 mil. Kč jsou z velké části na profilu zadavatele (oddíl 6). Mimo registr <strong>i mimo profil</strong> zůstávají tyto známé platby a smlouvy:</p>
+<table>
+<thead>
+<tr>
+<th>Platba / smlouva</th>
+<th style="text-align: right;">Částka</th>
+<th>Zdroj</th>
+<th>Poznámka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LF Interiéry s.r.o., akustické panely, objednávka č. 252100156 (16. 12. 2025)</td>
+<td style="text-align: right;">514 733 Kč (záloha 100 % zaplacena 22. 12. 2025)</td>
+<td>závěrečný účet 2025</td>
+<td>zda jde o částku s DPH, není uvedeno; pod 1 mil. Kč, takže na profil nepatří</td>
+</tr>
+<tr>
+<td>d21 architekti, studie MŠ</td>
+<td style="text-align: right;">284 000 Kč bez DPH</td>
+<td>závěrečný účet 2025</td>
+<td></td>
+</tr>
+<tr>
+<td>Opravy komunikací technologií Jet Patcher, objednávka 28. 4. 2025</td>
+<td style="text-align: right;">194 810 Kč (59 290 + 135 520)</td>
+<td>závěrečný účet 2025</td>
+<td></td>
+</tr>
+<tr>
+<td>Sběrné místo u MŠ, práce bagrem, obruby a dlažba</td>
+<td style="text-align: right;">155 606 Kč (dodavatel neuveden)</td>
+<td>závěrečný účet 2025</td>
+<td></td>
+</tr>
+<tr>
+<td>TISPOL s.r.o.</td>
+<td style="text-align: right;">54 450 Kč</td>
+<td>závěrečný účet 2025</td>
+<td>pravděpodobně pod hranicí</td>
+</tr>
+<tr>
+<td>Zimní údržba</td>
+<td style="text-align: right;">neznámá, roční řádek 2212/5169 činí 0,45–1,18 mil. Kč (2022–2025)</td>
+<td>Monitor MF</td>
+<td>co přesně řádek obsahuje, není ověřeno</td>
+</tr>
+<tr>
+<td>Odpady (FCC)</td>
+<td style="text-align: right;">0,93–1,42 mil. Kč ročně (2022–2025)</td>
+<td>Monitor MF 3722/5169</td>
+<td>smlouva z 2011 není nikde zveřejněna, jen příloha 2024</td>
+</tr>
+<tr>
+<td>Nákup obecního auta 2024</td>
+<td style="text-align: right;">≈ 0,75 mil. Kč (6171/6122)</td>
+<td>Monitor MF</td>
+<td>smlouva není ani na profilu</td>
+</tr>
+</tbody>
+</table>
+<p>Kontrola řádů (odvozeno): výdaje v Monitoru MF velikostí odpovídají smlouvám z profilu. Oprava MK1 (9,17 mil. s DPH) odpovídá 2212/5171 v roce 2023 (8,27 mil.) s částečným doplatkem v roce 2024. Hřbitov 2018–2019 (3632/5171: 2,98 + 1,10 mil.) odpovídá oplocení a chodníkům (1,95 + 1,62 mil. s DPH). Rekonstrukce MŠ 2020–2021 (3111/6121: 4,18 + 7,97 mil.) odpovídá smlouvě s Haospol (10,74 mil.) a dalším nákladům. Podrobné párování faktur bez knihy faktur udělat nejde.</p>
+<h2 id="9-pozor-výhrady">9. Pozor: výhrady</h2>
+<ol type="1">
+<li><strong>Hlavní výhrada:</strong> „není v registru“ <strong>neznamená porušení zákona</strong>. Obec bez ORP a její příspěvková organizace mají výjimku podle § 3 odst. 2 písm. k) zákona 340/2015 Sb. Téma je proto namístě chápat jako otázku <strong>dobrovolné transparentnosti</strong>, ne nezákonnosti. Některé obce bez ORP zveřejňují dobrovolně; např. sousední Dolní Domaslavice mají v registru nejméně 16 vlastních smluv z let 2016–2026 (viz <a href="srovnani-majetek-zakazky.html">srovnání majetku a zakázek</a>).</li>
+<li>Že Horní Domaslavice nejsou ORP, je obecně známý údaj (ORP Frýdek-Místek). V registru územní identifikace nebyl zvlášť ověřován.</li>
+<li>Hranice v § 219 ZZVZ: aktuální znění (1 mil. Kč, 30 dní) je ověřené. Starší hodnoty (500 000 Kč, 15 dní) ověřené nejsou, proto u starších smluv není hodnoceno, zda byly vloženy včas.</li>
+<li>„Datum vložení“ na profilu může odrážet nahrání nové verze, ne první zveřejnění. Všechny zakázky mají poslední verzi ze 7. 7. 2026. Údaj o 61 dnech u hřiště je proto třeba brát s rezervou, dokud se neověří v historii profilu.</li>
+<li>U rekonstrukce MŠ (Haospol) profil uvádí 10 738 397,03 Kč jako cenu s DPH a cenu bez DPH nemá. Předpokládaná hodnota byla 10 041 149 Kč bez DPH. Podle oznámení ve Věstníku veřejných zakázek je původní cena 8 874 708,29 Kč bez DPH (10 738 397,03 Kč s DPH), viz <a href="hd-zakazky.html">veřejné zakázky</a>.</li>
+<li>U veřejného osvětlení (ENCO) chybí cena na stránce smlouvy. Uvedena je nabídková cena vybraného účastníka.</li>
+<li>Detaily zakázek na Hlídači státu (ceny, dodavatelé, vazby na politiky) jsou jen pro přihlášené. Ceny jsou proto z profilu zadavatele. Vazby dodavatelů na politiky ověřeny nebyly.</li>
+<li>Výpočty bez DPH u TISPOLu jsou odvozené z podílu 1,21. Skutečné doklady k dispozici nebyly.</li>
+<li>Obsah dodatku č. 2 se společností KANIA ani dodatků s firmami LOMPARK a BESKYDGROUP nebyl rozebírán. PDF jsou na profilu ke stažení.</li>
+<li>Vyhledávání v registru proběhlo na „poslední verzi“ i na „všechny verze“ (obec jako zveřejňovatel: 0 v obou případech). Smlouvu, kterou by protistrana vložila s chybným IČO a bez názvu obce, by to nezachytilo. Fulltext „Horní Domaslavice“ (632 záznamů) byl ale prošlý celý.</li>
+</ol>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Staženo 30. 10. 2026:</p>
+<ul>
+<li><strong>Registr smluv</strong>, podrobné vyhledávání s exportem: <a href="https://smlouvy.gov.cz/vyhledavani">https://smlouvy.gov.cz/vyhledavani</a> (vyhledávání podle IČO, datové schránky, názvu subjektu a fulltextu). Měsíční XML exporty registru (data.smlouvy.gov.cz) stahovány nebyly; čtou ze stejné databáze.</li>
+<li><strong>Hlídač státu</strong>: profil obce <a href="https://www.hlidacstatu.cz/subjekt/00536008">https://www.hlidacstatu.cz/subjekt/00536008</a> (statistiky, rizika, sponzoring, vazby, zakázky) a hledání smluv <a href="https://www.hlidacstatu.cz/hledatSmlouvy?Q=ico%3A00536008">https://www.hlidacstatu.cz/hledatSmlouvy?Q=ico%3A00536008</a>.</li>
+<li><strong>Profil zadavatele obce</strong>: <a href="https://www.vhodne-uverejneni.cz/profil/obec-horni-domaslavice">https://www.vhodne-uverejneni.cz/profil/obec-horni-domaslavice</a> a <a href="https://www.vhodne-uverejneni.cz/smlouvy-organizace/obec-horni-domaslavice">https://www.vhodne-uverejneni.cz/smlouvy-organizace/obec-horni-domaslavice</a> (17 smluv, ceny, dodavatelé, účastníci a nabídky).</li>
+<li><strong>ARES</strong> (<a href="https://ares.gov.cz">https://ares.gov.cz</a>): IČO MŠ.</li>
+<li><strong>Zákon o registru smluv</strong> č. 340/2015 Sb. (<a href="https://www.zakonyprolidi.cz/cs/2015-340">https://www.zakonyprolidi.cz/cs/2015-340</a>, znění od 1. 1. 2025) a <strong>zákon o zadávání veřejných zakázek</strong> č. 134/2016 Sb. (<a href="https://www.zakonyprolidi.cz/cs/2016-134">https://www.zakonyprolidi.cz/cs/2016-134</a>, znění od 3. 4. 2025).</li>
+<li><strong>Závěrečný účet obce za rok 2025</strong> (smlouvy a objednávky nad 50 000 Kč) a <strong>Monitor státní pokladny MF</strong>, výkaz FIN 2-12 M (výdaje podle paragrafů a položek).</li>
+</ul>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

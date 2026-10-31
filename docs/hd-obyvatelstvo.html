@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Obyvatelstvo – Horní Domaslavice v datech</title>
+<meta name="description" content="Jak se v letech 2000–2025 měnil počet a složení obyvatel Horních Domaslavic a co o obci říká sčítání 2021.">
+<link rel="stylesheet" href="static/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details open><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html" aria-current="page">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+</ul></details>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Obyvatelstvo</h1>
+
+<p class="meta">Aktualizováno 31. 10. 2026</p><p>Stránka ukazuje, jak rostl počet obyvatel obce Horní Domaslavice (kód obce 512192), odkud přírůstek pochází, jaká je věková struktura a co o vzdělání, práci, domácnostech a bydlení říká Sčítání lidu, domů a bytů 2021. Data pocházejí z otevřených dat Českého statistického úřadu (ČSÚ), ze sčítání 2021, z profilu obce v Regionálním informačním servisu (RISY) a z demografické studie EduRegio (12/2023). Zpracováno 30. 10. 2026.</p>
+<h2 id="1-počet-obyvatel-20002025">1. Počet obyvatel 2000–2025</h2>
+<table>
+<thead>
+<tr>
+<th>Rok (k 31. 12.)</th>
+<th style="text-align: right;">Obyvatel</th>
+<th style="text-align: right;">0–14 let</th>
+<th style="text-align: right;">15–64 let</th>
+<th style="text-align: right;">65+ let</th>
+<th style="text-align: right;">Index stáří ¹</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2000</td>
+<td style="text-align: right;">564</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">383</td>
+<td style="text-align: right;">98</td>
+<td style="text-align: right;">118</td>
+</tr>
+<tr>
+<td>2005</td>
+<td style="text-align: right;">614</td>
+<td style="text-align: right;">98</td>
+<td style="text-align: right;">413</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">105</td>
+</tr>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">681</td>
+<td style="text-align: right;">107</td>
+<td style="text-align: right;">468</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">99</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">780</td>
+<td style="text-align: right;">128</td>
+<td style="text-align: right;">551</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">79</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">789</td>
+<td style="text-align: right;">141</td>
+<td style="text-align: right;">542</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">75</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">894</td>
+<td style="text-align: right;">184</td>
+<td style="text-align: right;">599</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">60</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">942</td>
+<td style="text-align: right;">199</td>
+<td style="text-align: right;">623</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">60</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">1 020</td>
+<td style="text-align: right;">230</td>
+<td style="text-align: right;">670</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">52</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">1 053</td>
+<td style="text-align: right;">236</td>
+<td style="text-align: right;">683</td>
+<td style="text-align: right;">134</td>
+<td style="text-align: right;">57</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">1 074</td>
+<td style="text-align: right;">237</td>
+<td style="text-align: right;">700</td>
+<td style="text-align: right;">137</td>
+<td style="text-align: right;">58</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;"><strong>1 109</strong></td>
+<td style="text-align: right;">– ²</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">–</td>
+</tr>
+</tbody>
+</table>
+<p>¹ Počet osob 65+ na 100 dětí 0–14 let. ² Věkové složení za rok 2025 ČSÚ za obce zatím nezveřejnil.</p>
+<ul>
+<li><strong>Za 25 let se obec téměř zdvojnásobila</strong> (564 → 1 109, +97 %). V období 2011–2024 vzrostla obec o 51 %, okres Frýdek-Místek o 1 %, Moravskoslezský kraj o 4 % klesl a ČR o 4 % vzrostla.</li>
+<li>Pro srovnání historie: v roce 1930 měla obec asi 860 obyvatel a v roce 1991 jen 521 (podle demografické studie). Při sčítáních to bylo 556 (2001), 667 (2011) a 978 (2021).</li>
+<li>Na přelomech let 2010/2011 a 2020/2021 jsou v řadě malé skoky (−9 a +10). Jde o přepočet podle výsledků sčítání, ne o skutečný pohyb.</li>
+</ul>
+<p>Srovnání se sousedními obcemi je na stránce <a href="srovnani-obyvatelstvo-vystavba.html">Srovnání: obyvatelstvo a výstavba</a>.</p>
+<h2 id="2-odkud-přírůstek-pochází-stěhování-ne-porody">2. Odkud přírůstek pochází: stěhování, ne porody</h2>
+<p>Souhrn za roky 2002–2025:</p>
+<ul>
+<li>narodilo se <strong>203</strong> dětí a zemřelo <strong>187</strong> lidí, přirozený přírůstek je tedy jen <strong>+16</strong>;</li>
+<li>přistěhovalo se <strong>930</strong> lidí a vystěhovalo <strong>398</strong>, saldo stěhování je <strong>+532</strong>.</li>
+</ul>
+<p>Růst obce je tedy prakticky celý dán přistěhováním, které souvisí s výstavbou rodinných domů (viz <a href="hd-vystavba.html">Výstavba a infrastruktura</a>).</p>
+<table>
+<thead>
+<tr>
+<th>Volební období</th>
+<th style="text-align: right;">Narození</th>
+<th style="text-align: right;">Zemřelí</th>
+<th style="text-align: right;">Přistěhovalí</th>
+<th style="text-align: right;">Vystěhovalí</th>
+<th style="text-align: right;">Saldo stěhování</th>
+<th style="text-align: right;">Celkový přírůstek</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2011–2014</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">181</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">+102</td>
+<td style="text-align: right;">+108</td>
+</tr>
+<tr>
+<td>2015–2018</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">198</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">+105</td>
+<td style="text-align: right;">+114</td>
+</tr>
+<tr>
+<td>2019–2022</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">179</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">+107</td>
+<td style="text-align: right;">+116</td>
+</tr>
+<tr>
+<td>2023–2025 (3 roky)</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">+87</td>
+<td style="text-align: right;">+89</td>
+</tr>
+</tbody>
+</table>
+<p>Po letech:</p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">2015</th>
+<th style="text-align: right;">2016</th>
+<th style="text-align: right;">2017</th>
+<th style="text-align: right;">2018</th>
+<th style="text-align: right;">2019</th>
+<th style="text-align: right;">2020</th>
+<th style="text-align: right;">2021</th>
+<th style="text-align: right;">2022</th>
+<th style="text-align: right;">2023</th>
+<th style="text-align: right;">2024</th>
+<th style="text-align: right;">2025</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Narození</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;"><strong>19</strong></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"><strong>6</strong></td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>Zemřelí</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>Přistěhovalí</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;"><strong>82</strong></td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">62</td>
+</tr>
+<tr>
+<td>Vystěhovalí</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">27</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Počet narozených dětí v posledních dvou letech klesl.</strong> V letech 2020–2023 se rodilo 11–14 dětí ročně, v letech 2024–2025 jen 6–8. To je pod pesimistickou i pragmatickou variantou demografické studie, která pro rok 2035 počítala s 8–12 narozenými. Počet dětí 0–14 let se v letech 2022–2024 zastavil na 230–237.</p>
+<p>Souvislost s mateřskou školou: děti, které budou v letech 2027–2030 v předškolním věku, se rodí právě teď. Z porodů v obci jich bude méně než v letech 2020–2023. Kolik dětí přibude přistěhováním, závisí na tempu výstavby. Zároveň platí, že v roce 2023 byla školka naplněná na 100 % (44 dětí na 44 míst) a nedostatek míst byl opakovaně tématem zasedání zastupitelstva. Podrobnosti o kapacitě a zápisech jsou na stránce <a href="hd-skolstvi-socialni.html">Školství a sociální situace</a>.</p>
+<h2 id="3-věková-struktura-jedna-z-nejmladších-obcí-okresu">3. Věková struktura: jedna z nejmladších obcí okresu</h2>
+<table>
+<thead>
+<tr>
+<th>Ukazatel (2024, sčítání 2021 u průměrného věku)</th>
+<th style="text-align: right;">Obec</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">MSK</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Děti 0–14 let</td>
+<td style="text-align: right;"><strong>22,1 %</strong></td>
+<td style="text-align: right;">15,6 %</td>
+<td style="text-align: right;">14,7 %</td>
+<td style="text-align: right;">15,5 %</td>
+</tr>
+<tr>
+<td>15–64 let</td>
+<td style="text-align: right;">65,2 %</td>
+<td style="text-align: right;">63,5 %</td>
+<td style="text-align: right;">63,7 %</td>
+<td style="text-align: right;">63,8 %</td>
+</tr>
+<tr>
+<td>65 a více let</td>
+<td style="text-align: right;"><strong>12,8 %</strong></td>
+<td style="text-align: right;">21,0 %</td>
+<td style="text-align: right;">21,6 %</td>
+<td style="text-align: right;">20,7 %</td>
+</tr>
+<tr>
+<td>Index stáří (65+ na 100 dětí)</td>
+<td style="text-align: right;"><strong>58</strong></td>
+<td style="text-align: right;">135</td>
+<td style="text-align: right;">146</td>
+<td style="text-align: right;">133</td>
+</tr>
+<tr>
+<td>Průměrný věk (SLDB 2021)</td>
+<td style="text-align: right;"><strong>37,7</strong></td>
+<td style="text-align: right;">43,0</td>
+<td style="text-align: right;">43,3</td>
+<td style="text-align: right;">42,7</td>
+</tr>
+</tbody>
+</table>
+<p>Program rozvoje obce (2024) uvádí, že obec je nejmladší v okrese Frýdek-Místek (index stáří 52,2). Data ČSÚ za rok 2024 to nepotvrzují: sousední Pazderna má index stáří 49 proti 58 v Horních Domaslavicích (viz <a href="srovnani-obyvatelstvo-vystavba.html">Srovnání: obyvatelstvo a výstavba</a>). Obec patří k nejmladším v okrese, ale nejmladší není.</p>
+<p>Seniorů přibývá. Počet lidí 65+ vzrostl ze 101 (2014) na 137 (2024), tedy o 36 %. Index stáří se po roce 2022 přestal snižovat a začal mírně růst.</p>
+<h2 id="4-sčítání-2021-vzdělání-práce-domácnosti">4. Sčítání 2021: vzdělání, práce, domácnosti</h2>
+<p>Sčítání 2021 zaznamenalo v obci 978 obyvatel s obvyklým pobytem.</p>
+<h3 id="vzdělání-osoby-15">Vzdělání (osoby 15+)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">Obec</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vysokoškolské</td>
+<td style="text-align: right;"><strong>21,9 %</strong></td>
+<td style="text-align: right;">17,1 %</td>
+<td style="text-align: right;">17,6 %</td>
+</tr>
+<tr>
+<td>Maturita, vč. VOŠ</td>
+<td style="text-align: right;">30,6 %</td>
+<td style="text-align: right;">33,0 %</td>
+<td style="text-align: right;">32,5 %</td>
+</tr>
+<tr>
+<td>Vyučení, střední bez maturity</td>
+<td style="text-align: right;">32,3 %</td>
+<td style="text-align: right;">32,6 %</td>
+<td style="text-align: right;">31,0 %</td>
+</tr>
+<tr>
+<td>Základní a bez vzdělání</td>
+<td style="text-align: right;">10,2 %</td>
+<td style="text-align: right;">12,8 %</td>
+<td style="text-align: right;">13,2 %</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Podíl vysokoškoláků se za 10 let zdvojnásobil:</strong> v roce 2011 jich bylo 63 z 562 osob, tedy 11,2 %, v roce 2021 už 166 z 758. To odpovídá přistěhování mladých rodin.</p>
+<h3 id="ekonomická-aktivita">Ekonomická aktivita</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">Obec</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zaměstnaní (podíl na všech obyvatelích)</td>
+<td style="text-align: right;">47,9 %</td>
+<td style="text-align: right;">50,3 %</td>
+</tr>
+<tr>
+<td>Nezaměstnaní (podíl na pracovní síle)</td>
+<td style="text-align: right;">3,5 %</td>
+<td style="text-align: right;">4,9 %</td>
+</tr>
+<tr>
+<td>Nepracující důchodci</td>
+<td style="text-align: right;">17,1 %</td>
+<td style="text-align: right;">21,7 %</td>
+</tr>
+<tr>
+<td>Osoby na rodičovské dovolené</td>
+<td style="text-align: right;">3,6 %</td>
+<td style="text-align: right;">2,1 %</td>
+</tr>
+<tr>
+<td>Podnikatelé bez zaměstnanců (OSVČ) na zaměstnaných</td>
+<td style="text-align: right;">13,7 %</td>
+<td style="text-align: right;">13,6 %</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Odvětví:</strong> zpracovatelský průmysl zaměstnává 30 % pracujících obyvatel (ČR 24 %, okres 30 %).</li>
+<li><strong>Profese:</strong> proti republice je víc techniků a odborných pracovníků (22 % proti 16 %) a vedoucích pracovníků (8 % proti 5 %), naopak méně pomocných pracovníků (2 % proti 4 %).</li>
+<li><strong>Nezaměstnanost:</strong> podle RISY (data MPSV) to bylo v roce 2023 jen 1,6 % z dosažitelných uchazečů. Podrobnější řada je na stránce <a href="hd-skolstvi-socialni.html">Školství a sociální situace</a>.</li>
+</ul>
+<h3 id="vyjížďka-za-prací-a-do-škol">Vyjížďka za prací a do škol</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">Počet</th>
+<th style="text-align: right;">Podíl</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zaměstnaní celkem</td>
+<td style="text-align: right;">468</td>
+<td style="text-align: right;">100 %</td>
+</tr>
+<tr>
+<td>pracuje doma (na adrese bydliště)</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">11 %</td>
+</tr>
+<tr>
+<td>jinde v obci</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1 %</td>
+</tr>
+<tr>
+<td>vyjíždí mimo obec</td>
+<td style="text-align: right;">358</td>
+<td style="text-align: right;"><strong>76 %</strong> (ČR 40 %)</td>
+</tr>
+<tr>
+<td>bez stálého pracoviště</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">10 %</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kam se vyjíždí</strong> (práce a škola dohromady):</p>
+<table>
+<thead>
+<tr>
+<th>Cíl</th>
+<th style="text-align: right;">Práce</th>
+<th style="text-align: right;">Škola</th>
+<th style="text-align: right;">Celkem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frýdek-Místek</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">123</td>
+</tr>
+<tr>
+<td>Ostrava</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">77</td>
+</tr>
+<tr>
+<td>Dobrá</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">58</td>
+</tr>
+<tr>
+<td>Dolní Domaslavice</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">53</td>
+</tr>
+<tr>
+<td>Nošovice (Hyundai)</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">34</td>
+</tr>
+<tr>
+<td>Havířov</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">29</td>
+</tr>
+<tr>
+<td>Nižní Lhoty</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr>
+<td>Český Těšín</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">12</td>
+</tr>
+</tbody>
+</table>
+<p>Do obce za prací dojíždí jen 9 lidí. Obec má tedy převážně obytnou funkci.</p>
+<p><strong>Doprava:</strong> dvě třetiny vyjíždějících jezdí autem (54 % jako řidiči, 13 % jako spolujezdci; v ČR 44 % celkem). Autobusem jezdí 17 %, vlakem, MHD a na kole jen jednotlivci.</p>
+<h3 id="domácnosti-a-rodiny">Domácnosti a rodiny</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">Obec</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Průměrný počet osob na byt</td>
+<td style="text-align: right;"><strong>2,99</strong></td>
+<td style="text-align: right;">2,40</td>
+<td style="text-align: right;">2,26</td>
+</tr>
+<tr>
+<td>Domácnosti jednotlivců</td>
+<td style="text-align: right;"><strong>23 %</strong></td>
+<td style="text-align: right;">36 %</td>
+<td style="text-align: right;">39 %</td>
+</tr>
+<tr>
+<td>Domácnosti se 4 a více členy</td>
+<td style="text-align: right;"><strong>30 %</strong></td>
+<td style="text-align: right;">19 %</td>
+<td style="text-align: right;">17 %</td>
+</tr>
+<tr>
+<td>Jednorodinné domácnosti se závislými dětmi</td>
+<td style="text-align: right;">56 %</td>
+<td style="text-align: right;">45 %</td>
+<td style="text-align: right;">46 %</td>
+</tr>
+<tr>
+<td>Neúplné rodiny (z jednorodinných domácností)</td>
+<td style="text-align: right;">11 %</td>
+<td style="text-align: right;">17 %</td>
+<td style="text-align: right;">18 %</td>
+</tr>
+<tr>
+<td>Ženatí a vdané (ze všech obyvatel)</td>
+<td style="text-align: right;">45 %</td>
+<td style="text-align: right;">41 %</td>
+<td style="text-align: right;">38 %</td>
+</tr>
+<tr>
+<td>Rozvedení</td>
+<td style="text-align: right;">7 %</td>
+<td style="text-align: right;">11 %</td>
+<td style="text-align: right;">12 %</td>
+</tr>
+</tbody>
+</table>
+<p>Z 364 domácností je 20 rodin se třemi a více závislými dětmi.</p>
+<h3 id="občanství-původ-náboženství">Občanství, původ, náboženství</h3>
+<ul>
+<li><strong>Cizinci:</strong> z 978 obyvatel mělo jiné než české občanství jen 11 lidí, tedy asi 1 % (ČR 5 %). Nejčastěji šlo o občanství Slovenska a Polska.</li>
+<li><strong>Kde lidé bydleli rok před sčítáním:</strong> 891 v obci, 33 jinde v okrese, 28 v jiném okrese kraje, 1 v jiném kraji a 3 v zahraničí. Přistěhovalí tedy přicházejí téměř výhradně z Moravskoslezského kraje.</li>
+<li><strong>Náboženství:</strong> bez víry se přihlásilo 36 % (ČR 48 %), víru neuvedlo 32 %. K římskokatolické církvi nebo katolické víře se hlásí 19 % (ČR 9 %).</li>
+</ul>
+<h2 id="5-bydlení-a-infrastruktura-sčítání-2021">5. Bydlení a infrastruktura (sčítání 2021)</h2>
+<p><strong>Domy a byty:</strong> obec má 298 obydlených domů, prakticky všechno rodinné domy (jen 1 bytový dům). Z 416 bytů je 92 neobydlených (22 %, ČR 16 %): jde o chalupy, rozestavěné nebo prázdné domy.</p>
+<table>
+<thead>
+<tr>
+<th>Období výstavby obydlených domů</th>
+<th style="text-align: right;">Počet</th>
+<th style="text-align: right;">Podíl</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>do roku 1945</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">15 %</td>
+<td style="text-align: right;">24 %</td>
+</tr>
+<tr>
+<td>1946–2000</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">32 %</td>
+<td style="text-align: right;">48 %</td>
+</tr>
+<tr>
+<td>2001–2015</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">25 %</td>
+<td style="text-align: right;">18 %</td>
+</tr>
+<tr>
+<td><strong>2016–2021</strong></td>
+<td style="text-align: right;"><strong>73</strong></td>
+<td style="text-align: right;"><strong>24 %</strong></td>
+<td style="text-align: right;">6 %</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Polovina domů v obci je postavena po roce 2000</strong> a čtvrtina za pouhých šest let 2016–2021.</p>
+<p><strong>Byty jsou velké:</strong> 70 % obydlených bytů se známou plochou má přes 100 m² (ČR 30 %) a 34 % přes 150 m² (ČR 12 %).</p>
+<table>
+<thead>
+<tr>
+<th>Infrastruktura (obydlené domy)</th>
+<th style="text-align: right;">Obec</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Napojeno na kanalizační síť</td>
+<td style="text-align: right;"><strong>0 %</strong></td>
+<td style="text-align: right;">32 %</td>
+<td style="text-align: right;">62 %</td>
+</tr>
+<tr>
+<td>Žumpa</td>
+<td style="text-align: right;">76 %</td>
+<td style="text-align: right;">58 %</td>
+<td style="text-align: right;">31 %</td>
+</tr>
+<tr>
+<td>Vlastní ČOV</td>
+<td style="text-align: right;">21 %</td>
+<td style="text-align: right;">7 %</td>
+<td style="text-align: right;">4 %</td>
+</tr>
+<tr>
+<td>Vodovod z veřejné sítě (i kombinovaně)</td>
+<td style="text-align: right;">93 %</td>
+<td style="text-align: right;">86 %</td>
+<td style="text-align: right;">87 %</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Čím se topí</strong> (hlavní zdroj energie, obydlené byty):</p>
+<table>
+<thead>
+<tr>
+<th>Zdroj</th>
+<th style="text-align: right;">Obec</th>
+<th style="text-align: right;">Okres F-M</th>
+<th style="text-align: right;">ČR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Elektřina</td>
+<td style="text-align: right;">26 %</td>
+<td style="text-align: right;">8 %</td>
+<td style="text-align: right;">9 %</td>
+</tr>
+<tr>
+<td>Dřevo</td>
+<td style="text-align: right;">22 %</td>
+<td style="text-align: right;">9 %</td>
+<td style="text-align: right;">8 %</td>
+</tr>
+<tr>
+<td><strong>Uhlí</strong></td>
+<td style="text-align: right;"><strong>21 %</strong></td>
+<td style="text-align: right;">8 %</td>
+<td style="text-align: right;">5 %</td>
+</tr>
+<tr>
+<td>Zemní plyn</td>
+<td style="text-align: right;">11 %</td>
+<td style="text-align: right;">29 %</td>
+<td style="text-align: right;">34 %</td>
+</tr>
+<tr>
+<td>Tepelné čerpadlo</td>
+<td style="text-align: right;">8 %</td>
+<td style="text-align: right;">4 %</td>
+<td style="text-align: right;">2 %</td>
+</tr>
+<tr>
+<td>Pelety</td>
+<td style="text-align: right;">4 %</td>
+<td style="text-align: right;">1 %</td>
+<td style="text-align: right;">1 %</td>
+</tr>
+<tr>
+<td>Dálkové teplo</td>
+<td style="text-align: right;">0 %</td>
+<td style="text-align: right;">36 %</td>
+<td style="text-align: right;">33 %</td>
+</tr>
+</tbody>
+</table>
+<p>Každá pátá domácnost topila v roce 2021 uhlím, čtyřikrát víc než republikový průměr. Plyn má jen desetina domácností. Údaj souvisí s kvalitou ovzduší (viz <a href="hd-skolstvi-socialni.html">Školství a sociální situace</a>, oddíl Ovzduší). Obec má v rozpočtu položku na příspěvky na výměnu kotlů, domovní ČOV a kompostéry.</p>
+<h2 id="6-shrnutí">6. Shrnutí</h2>
+<ol type="1">
+<li><strong>Obec roste téměř výhradně stěhováním.</strong> Ročně přibude zhruba 25–35 lidí, porody a úmrtí jsou přibližně v rovnováze. Budoucí počet obyvatel tak závisí hlavně na územním plánu a tempu výstavby.</li>
+<li><strong>Obyvatelstvo je mladé a vzdělanější, než je průměr okresu i ČR.</strong> Většina pracujících vyjíždí za prací mimo obec, převážně autem.</li>
+<li><strong>Infrastruktura:</strong> obec nemá kanalizaci (76 % domů má žumpu), vodovod má podle strategického plánu obce na některých větvích kapacitní omezení a pětina domácností topila v roce 2021 uhlím. Podrobněji na stránkách <a href="hd-vystavba.html">Výstavba a infrastruktura</a> a <a href="hd-vydaje.html">Výdaje obce</a>.</li>
+<li><strong>Počet narozených klesl</strong> na 6–8 dětí v letech 2024–2025.</li>
+<li><strong>Senioři jsou zatím menšinou, ale jejich počet roste</strong> (+36 % za 10 let). Registrované sociální služby v obci nejsou.</li>
+</ol>
+<h2 id="pozor-na">Pozor na</h2>
+<ul>
+<li>Malá čísla: u obce s 1 100 obyvateli stačí několik porodů nebo jedna velká rodina, aby se procenta výrazně posunula. Jednotlivé roky je lepší neinterpretovat a sledovat trendy.</li>
+<li>Sčítání 2021 počítá obyvatele s <strong>obvyklým pobytem</strong> (978), evidence ČSÚ trvalý pobyt (999 k 31. 12. 2021). Část lidí žije v obci bez trvalého pobytu a naopak.</li>
+<li>U sčítání je část odpovědí „nezjištěno“ (např. 47 zaměstnaných bez profese, 18 bytů bez plochy). Procenta jsou počítána ze všech, pokud není uvedeno jinak.</li>
+<li>Profil obce v RISY obsahuje i zjevné chyby (u roku 2001 uvádí víc ekonomicky aktivních než obyvatel). Z RISY jsou proto převzaty jen počty obyvatel a vzdělání ze sčítání 2001 a 2011 a údaj o nezaměstnanosti.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Stav a věkové složení obyvatel 2000–2024 pocházejí z otevřených dat ČSÚ (datová sada 130149), pohyb obyvatel 2000–2024 ze sady 130141 a stav a pohyb do roku 2025 z nového katalogu ČSÚ (<a href="https://data.csu.gov.cz">https://data.csu.gov.cz</a>, tabulka OBY01B01). Údaje o vzdělání, práci, vyjížďce, domácnostech a bydlení jsou z otevřených dat Sčítání lidu, domů a bytů 2021 (ČSÚ), srovnání s okresem Frýdek-Místek, Moravskoslezským krajem a ČR pochází ze stejného zdroje. Údaje ze sčítání 2001 a 2011 jsou z profilu obce v RISY (MMR). Historické údaje a varianty vývoje porodnosti jsou z demografické studie EduRegio (12/2023). Souhrny za období a podíly jsou dopočítány z uvedených dat. Kód obce (ZÚJ) je 512192.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>
