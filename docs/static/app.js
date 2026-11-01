@@ -52,4 +52,19 @@
     if (tip.classList.contains('on')) move(e);
   });
   document.addEventListener('pointerout', hide);
+
+  // Copy buttons: <button data-copy="#id"> copies the text of the target element.
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var src = document.querySelector(b.getAttribute('data-copy'));
+      if (!src) return;
+      var label = b.textContent;
+      function done(ok) {
+        b.textContent = ok ? 'Zkopírováno' : 'Označte text a zkopírujte ručně';
+        setTimeout(function () { b.textContent = label; }, 2000);
+      }
+      if (navigator.clipboard) navigator.clipboard.writeText(src.textContent.trim()).then(function () { done(true); }, function () { done(false); });
+      else done(false);
+    });
+  });
 })();

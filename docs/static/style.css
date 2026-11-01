@@ -267,3 +267,11 @@ td strong { color: var(--accent-ink); }
 .usn-foot .usn-votes { display: inline; margin: 0; }
 .usn-foot .usn-src { margin-left: auto; }
 .usn-head .chip, .usn-foot .chip { margin: 0; }
+
+/* Zeptejte se AI */
+.copy-box { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; margin: 10px 0 18px; }
+.copy-box pre { margin: 0 0 10px; white-space: pre-wrap; word-break: break-word; font-size: .9rem; color: var(--ink); background: none; padding: 0; }
+.copy-box .btn-ghost { font-size: .85rem; }
+.ai-steps { counter-reset: step; list-style: none; padding-left: 0; }
+.ai-steps > li { counter-increment: step; position: relative; padding-left: 2.2em; margin: 0 0 14px; }
+.ai-steps > li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 1.6em; height: 1.6em; border-radius: 50%; background: var(--accent-ink); color: var(--card); font-weight: 700; display: grid; place-items: center; font-size: .9rem; }

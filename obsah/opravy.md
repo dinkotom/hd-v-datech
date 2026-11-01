@@ -1,7 +1,7 @@
 ---
 title: "Opravy"
 description: "Přehled opravených chyb a nepřesností na webu."
-updated: "2026-10-31"
+updated: "2026-11-01"
 ---
 
 Na této stránce zveřejňujeme opravy, které na webu provedeme na základě hlášení čtenářů nebo vlastní kontroly. U každé opravy je datum, stránka, co bylo špatně a co platí nyní.
@@ -10,4 +10,4 @@ Chybu můžete nahlásit tlačítkem „Nahlásit chybu“ na konci každé str�
 
 | Datum | Stránka | Co bylo špatně | Oprava |
 |---|---|---|---|
-| | | *Zatím žádné opravy od zveřejnění webu.* | |
+| 1. 11. 2026 | [Data ke stažení](data.html), soubor `rozpocet_2026_rozpoctova_opatreni.csv` | V prvním řádku byla v popisu nechráněná čárka, takže se hodnoty posunuly o sloupec a tabulkové programy ho četly špatně. | Popis je správně uzavřený v uvozovkách; čísla se nezměnila. |

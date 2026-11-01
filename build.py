@@ -13,12 +13,14 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import charts  # noqa: E402
+import slovnik  # noqa: E402
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'docs')
 SITE = 'Horní Domaslavice v datech'
 UPDATED = '31. 10. 2026'
 REPO_URL = 'https://github.com/dinkotom/hd-v-datech'
+SITE_URL = 'https://dinkotom.github.io/hd-v-datech/'
 
 # Google Form for error reports. Fill in after creating the form (see README.md);
 # while empty, reports open a prefilled GitHub issue instead.
@@ -113,7 +115,7 @@ def nav_html(current):
             cur = ' aria-current="page"' if s == current else ''
             parts.append(f'<li><a href="{s}.html"{cur}>{esc(t)}</a></li>')
         parts.append('</ul></details>')
-    for s, t in [('data', 'Data ke stažení'), ('opravy', 'Opravy'), ('o-webu', 'O webu a metodika')]:
+    for s, t in [('zeptejte-se-ai', 'Zeptejte se AI'), ('data', 'Data ke stažení'), ('opravy', 'Opravy'), ('o-webu', 'O webu a metodika')]:
         cur = ' aria-current="page"' if s == current else ''
         parts.append(f'<a class="top-link" href="{s}.html"{cur}>{t}</a>')
     parts.append('</nav>')
@@ -132,6 +134,7 @@ def page(slug, title, body, description='', lede=''):
     desc = esc(description or lede or SITE)
     head_title = SITE if slug == 'index' else f'{title} – {SITE}'
     lede_html = f'<p class="lede">{esc(lede)}</p>' if lede else ''
+    alt_md = f'<link rel="alternate" type="text/markdown" href="{slug}.md">\n' if os.path.exists(os.path.join(OUT, slug + '.md')) else ''
     return f'''<!doctype html>
 <html lang="cs">
 <head>
@@ -140,7 +143,7 @@ def page(slug, title, body, description='', lede=''):
 <title>{esc(head_title)}</title>
 <meta name="description" content="{desc}">
 <link rel="stylesheet" href="static/style.css">
-<script>try{{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
+{alt_md}<script>try{{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
 </head>
 <body{body_attrs()}>
 <header class="site-header"><div class="inner">
@@ -335,7 +338,7 @@ def build_index():
     body = f'''{tiles}
 <div class="note">Tento web je soukromá občanská iniciativa. Shromažďuje veřejně dostupná data o obci Horní Domaslavice
 a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice a Lučina. Nehodnotí osoby, ukazuje čísla a jejich zdroje.
-Všechna data lze stáhnout a ověřit.</div>
+Všechna data lze stáhnout a ověřit. Na data se můžete <a href="zeptejte-se-ai.html">zeptat i svého AI asistenta</a>.</div>
 <h2>Hlavní zjištění</h2>
 <p>Horní Domaslavice jsou ze čtyř sousedních obcí nejrychleji rostoucí. Daňové příjmy na obyvatele mají srovnatelné se sousedy,
 do investic a oprav ale dávají na obyvatele třikrát až pětkrát méně a mají nejvíc peněz na účtech.
@@ -383,8 +386,8 @@ def build_data_page():
         if f.endswith('.csv'):
             size = os.path.getsize(os.path.join(ROOT, 'data', f)) / 1024
             rows.append(f'<tr><td><a href="data/{esc(f)}">{esc(f)}</a></td><td>{esc(DATA_DESC.get(f, ""))}</td><td style="text-align:right">{num(size, 0)} kB</td></tr>')
-    body = f'''<p>Data, ze kterých stránky vycházejí, jsou ke stažení ve formátu CSV (UTF-8, oddělovač čárka). Jsou to výřezy
-a výpočty z veřejných zdrojů. Při dalším použití uveďte původní zdroj: Ministerstvo financí (Monitor státní pokladny),
+    body = f'''<p>Data, ze kterých stránky vycházejí, jsou ke stažení ve formátu CSV (UTF-8, oddělovač čárka, desetinná tečka).
+Co znamená který sloupec, popisuje <a href="slovnik-dat.html">slovník dat</a>. Jsou to výřezy a výpočty z veřejných zdrojů. Při dalším použití uveďte původní zdroj: Ministerstvo financí (Monitor státní pokladny),
 Český statistický úřad, ČÚZK (RÚIAN, katastr nemovitostí).</p>
 <table><thead><tr><th>Soubor</th><th>Obsah</th><th>Velikost</th></tr></thead><tbody>{"".join(rows)}</tbody></table>
 <p>Původní zdroje:</p>
@@ -447,14 +450,205 @@ def build_md_pages():
             if m:
                 d = f'{int(m.group(3))}. {int(m.group(2))}. {m.group(1)}'
             body = f'<p class="meta">Aktualizováno {esc(d)}</p>' + body
+        with open(os.path.join(OUT, slug + '.md'), 'w', encoding='utf-8') as fh:
+            fh.write(md_export(slug, meta, text))
         with open(os.path.join(OUT, slug + '.html'), 'w', encoding='utf-8') as fh:
             fh.write(page(slug, meta.get('title', slug), body, description=meta.get('description', '')))
         built.append(slug)
     return built
 
 
+# ---------- machine-readable exports (llms.txt, page markdown, data dictionary) ----------
+
+# Shared by llms.txt and the "Zeptejte se AI" page, so agents and people read the same rules.
+AI_RULES = [
+    'Web je neoficiální občanský přehled veřejných dat, ne stránka obce. Oficiální web obce je https://www.horni-domaslavice.cz/.',
+    'Částky jsou v Kč v běžných cenách (bez očištění o inflaci). „Na obyvatele“ = děleno počtem obyvatel k 1. 7. daného roku (ČSÚ).',
+    'Roční finanční data končí rokem 2025; za rok 2026 je jen průběžný stav k 30. 9. (stránka Rozpočet 2026).',
+    'Výdaje jsou bez převodů mezi vlastními účty (§ 6330) a bez daně z příjmů za obec (§ 6399); příjmy bez převodů z vlastních fondů (413x). '
+    'Proto se mohou mírně lišit od závěrečného účtu obce.',
+    '„Investice a opravy“ = investiční výdaje (třída 6) + opravy a udržování (položka 5171).',
+    'Srovnávané obce nejsou zcela srovnatelné: Dolní Domaslavice a Lučina zřizují základní školu, Lučina má výdaje spojené s nádrží Žermanice. '
+    'Výhrady jsou v části „Pozor“ u každé stránky.',
+    'Web záměrně neuvádí jména zastupitelů ani jiných fyzických osob a nehodnotí lidi. Neodvozuj z dat, kdo za co může.',
+    'U každého čísla uveď stránku webu nebo datový soubor, ze kterého pochází. Když odpověď v datech není, řekni to; nedopočítávej odhady jako fakta.',
+]
+
+
+def abs_links(text):
+    """Make relative links absolute, so exported markdown works outside the site."""
+    return re.sub(r'\]\((?!https?:|#|mailto:)([^)]+)\)', lambda m: f']({SITE_URL}{m.group(1)})', text)
+
+
+def md_export(slug, meta, text):
+    text = re.sub(r'<!--\s*chart:[\w-]+\s*-->\n?', '', text)
+    text = text.replace('<div id="usneseni-app"></div>',
+                        f'Seznam usnesení je v souboru {SITE_URL}data/usneseni_zo_2022-2026.csv (sloupce viz {SITE_URL}slovnik-dat.md).')
+    # Drop raw HTML blocks (map widget, scripts); the text around them stays.
+    text = re.sub(r'<form\b.*?</form>\n?', '', text, flags=re.S)
+    text = re.sub(r'^\s*<(div|script|noscript|iframe|link)\b.*$\n?', '', text, flags=re.M)
+    text = re.sub(r'^\s*</(div|script)>\s*$\n?', '', text, flags=re.M)
+    text = re.sub(r'([^\n])\n(#+ )', r'\1\n\n\2', text)
+    text = re.sub(r'\n{3,}', '\n\n', text).strip()
+    head = [f'# {meta.get("title", slug)}', '',
+            f'Zdroj: {SITE_URL}{slug}.html' + (f' (aktualizováno {meta["updated"]})' if meta.get('updated') else ''), '']
+    if meta.get('description'):
+        head += [f'> {meta["description"]}', '']
+    return '\n'.join(head) + '\n' + abs_links(text) + '\n'
+
+
+def slovnik_md():
+    lines = ['# Slovník dat', '',
+             f'Popis datových souborů webu {SITE} ({SITE_URL}). Všechny soubory jsou CSV v UTF-8, oddělovač čárka, '
+             'desetinná tečka, data ve tvaru RRRR-MM-DD. Částky jsou v Kč, běžné ceny.', '']
+    warnings = []
+    for f in sorted(os.listdir(os.path.join(ROOT, 'data'))):
+        if not f.endswith('.csv'):
+            continue
+        d = slovnik.DATASETS.get(f)
+        if not d:
+            warnings.append(f'{f}: chybí ve slovníku')
+            continue
+        with open(os.path.join(ROOT, 'data', f), encoding='utf-8') as fh:
+            rd = csv.reader(fh)
+            header = next(rd)
+            n = sum(1 for _ in rd)
+        base = slovnik.DATASETS.get(d.get('stejne_jako'), d)
+        lines += [f'## {f}', '', d['popis'], '',
+                  f'- Odkaz: [data/{f}]({SITE_URL}data/{f})',
+                  f'- Řádků: {n}; jeden řádek = {base["radek"]}',
+                  f'- Zdroj: {base["zdroj"]}']
+        lines += [f'- Pozor: {p}' for p in base.get('pozor', [])]
+        lines.append('')
+        if 'stejne_jako' in d:
+            lines += [f'Sloupce jsou stejné jako v `{d["stejne_jako"]}`.', '']
+            for c in header:
+                if slovnik.describe(f, c) is None:
+                    warnings.append(f'{f}: sloupec {c} bez popisu')
+            continue
+        lines += ['| Sloupec | Význam |', '|---|---|']
+        per_capita = []
+        for c in header:
+            desc = slovnik.describe(f, c)
+            if desc is None:
+                warnings.append(f'{f}: sloupec {c} bez popisu')
+                desc = ''
+            if c.endswith('_na_obyv') and c not in slovnik.columns(f):
+                per_capita.append(c)
+                continue
+            lines.append(f'| `{c}` | {desc.replace("|", "/")} |')
+        if per_capita:
+            lines.append(f'| `*_na_obyv` ({len(per_capita)} sloupců) | Stejnojmenný sloupec bez přípony vydělený `obyv_1_7`. Kč na obyvatele. |')
+        lines.append('')
+    return '\n'.join(lines), warnings
+
+
+def build_slovnik():
+    md, warnings = slovnik_md()
+    with open(os.path.join(OUT, 'slovnik-dat.md'), 'w', encoding='utf-8') as fh:
+        fh.write(md + '\n')
+    body = md_to_html(re.sub(r'^# .*\n', '', md, count=1))
+    body = body.replace(f'href="{SITE_URL}', 'href="')
+    html_ = page('slovnik-dat', 'Slovník dat', body, lede='Co znamená který sloupec v datech ke stažení.')
+    return html_, warnings
+
+
+def page_list(slugs):
+    titles = {s: t for _, items in NAV for s, t in items}
+    out = []
+    for group, items in NAV:
+        out.append((group, [(s, t) for s, t in items if s in slugs]))
+    return out
+
+
+def build_llms(slugs):
+    desc = {}
+    for s in slugs:
+        meta, _ = front_matter(open(os.path.join(ROOT, 'obsah', s + '.md'), encoding='utf-8').read())
+        desc[s] = meta.get('description', '')
+    lines = [f'# {SITE}', '',
+             '> Neoficiální občanský přehled veřejných dat o obci Horní Domaslavice (okres Frýdek-Místek) a srovnání se sousedními '
+             'obcemi Pazderna, Dolní Domaslavice a Lučina: obyvatelstvo, rozpočet a hospodaření 2010–2026, investice, dotace, '
+             'majetek, zakázky, usnesení zastupitelstva, výstavba, pozemky a občanská vybavenost. Zdroje: Ministerstvo financí '
+             '(Monitor státní pokladny), ČSÚ, ČÚZK, volby.cz, registr smluv, dokumenty obce.', '',
+             f'Autor: Tomáš Dinkov. Aktualizováno {UPDATED}. Chyby lze hlásit na {REPO_URL}/issues.', '',
+             '## Jak data číst a citovat', '']
+    lines += [f'- {r}' for r in AI_RULES]
+    lines.append('')
+    for group, items in page_list(slugs):
+        if not items:
+            continue
+        lines += [f'## {group}', '']
+        lines += [f'- [{t}]({SITE_URL}{s}.md): {desc.get(s, "")}' for s, t in items]
+        lines.append('')
+    lines += ['## Data', '',
+              f'- [Slovník dat]({SITE_URL}slovnik-dat.md): popis všech CSV souborů a jejich sloupců',
+              f'- [Data ke stažení]({SITE_URL}data.html): seznam souborů']
+    for f in sorted(os.listdir(os.path.join(ROOT, 'data'))):
+        if f.endswith('.csv'):
+            lines.append(f'- [{f}]({SITE_URL}data/{f}): {slovnik.DATASETS.get(f, {}).get("popis", "")}')
+    lines += ['', '## Optional', '',
+              f'- [Celý web v jednom souboru]({SITE_URL}llms-full.txt): texty všech stránek a slovník dat',
+              f'- [O webu a metodika]({SITE_URL}o-webu.html)',
+              f'- [Opravy]({SITE_URL}opravy.md): seznam opravených chyb', '']
+    llms = '\n'.join(lines)
+    full = [llms, '']
+    for _, items in page_list(slugs):
+        for s, _ in items:
+            full += ['\n---\n', open(os.path.join(OUT, s + '.md'), encoding='utf-8').read()]
+    full += ['\n---\n', open(os.path.join(OUT, 'slovnik-dat.md'), encoding='utf-8').read()]
+    with open(os.path.join(OUT, 'llms.txt'), 'w', encoding='utf-8') as fh:
+        fh.write(llms)
+    with open(os.path.join(OUT, 'llms-full.txt'), 'w', encoding='utf-8') as fh:
+        fh.write('\n'.join(full))
+
+
+def build_ai_page():
+    size = os.path.getsize(os.path.join(OUT, 'llms-full.txt')) / 1024
+    prompt = (f'Přečti si rozcestník webu o obci Horní Domaslavice {SITE_URL}llms.txt, podle mé otázky otevři odkazované stránky '
+              'a odpovídej jen podle nich. U každého čísla uveď stránku webu, ze které pochází. Když odpověď v datech není, řekni to.\n\n'
+              'Moje otázka: ')
+    questions = [
+        'Kolik obec investovala do silnic a chodníků v posledních čtyřech letech a jak to vypadá u sousedních obcí?',
+        'Proč má obec na účtech tolik peněz? Jak se stav vyvíjel od roku 2014?',
+        'Která usnesení zastupitelstva se týkala mateřské školy a jak dopadla?',
+        'Jak se změnil počet obyvatel od roku 2000 a odkud přibývají – narozením, nebo stěhováním?',
+        'Kolik domů v obci nemá přípojku vodovodu a kanalizace?',
+        'Jaké dotace obec získala a ve kterých letech?',
+        'Jak si stojí rozpočet 2026 k 30. září proti předchozím rokům?',
+    ]
+    qs = ''.join(f'<li>{esc(q)}</li>' for q in questions)
+    rules = ''.join(f'<li>{esc(r)}</li>' for r in AI_RULES)
+    body = f'''<p>Na data z tohoto webu se můžete zeptat svého AI asistenta (ChatGPT, Claude, Gemini, Copilot a podobně) běžnou češtinou.
+Web pro ně má rozcestník, texty všech stránek v jednoduchém formátu a popis dat, takže asistent odpovídá z čísel na webu a může citovat konkrétní stránku.</p>
+<h2>Jak na to</h2>
+<ol class="ai-steps">
+<li><b>Zkopírujte úvodní zprávu</b> a vložte ji do svého asistenta. Za „Moje otázka:“ dopište, co vás zajímá.
+<div class="copy-box"><pre id="ai-prompt">{esc(prompt)}</pre><button type="button" class="btn-ghost" data-copy="#ai-prompt">Zkopírovat zprávu</button></div></li>
+<li><b>Pokud asistent odkaz neotevře</b> (některé verze neumí číst web), stáhněte si
+<a href="llms-full.txt" download>soubor s celým webem</a> ({num(size, 0)} kB, prostý text) a vložte ho do konverzace jako přílohu.
+V úvodní zprávě pak místo odkazu napište „Přečti si přiložený soubor“.</li>
+<li><b>Ověřte si důležitá čísla</b> na stránce, kterou asistent uvede. AI se může splést nebo si něco domyslet; rozhodující je text na webu a původní zdroj.</li>
+</ol>
+<h2>Na co se zeptat</h2>
+<ul>{qs}</ul>
+<h2>Co asistent dostane jako pravidla</h2>
+<p>Na začátku souboru jsou pokyny, jak data číst. Platí i pro lidi:</p>
+<ul>{rules}</ul>
+<h2>Soukromí</h2>
+<p>Otázky píšete do služby svého asistenta, ne na tento web. Web nic z konverzace nevidí a neukládá. Co poskytovatel asistenta s konverzací dělá, se řídí jeho podmínkami.</p>
+<h2>Pro pokročilé</h2>
+<ul>
+<li><a href="llms.txt">llms.txt</a> – rozcestník pro AI agenty podle standardu llmstxt.org: pravidla, odkazy na stránky v Markdownu a na data.</li>
+<li>Každá stránka je k dispozici i jako Markdown: stačí v adrese nahradit <code>.html</code> za <code>.md</code> (například <a href="hd-vydaje.md">hd-vydaje.md</a>).</li>
+<li><a href="slovnik-dat.html">Slovník dat</a> a <a href="data.html">CSV soubory</a> pro vlastní výpočty, třeba v Excelu nebo v Pythonu.</li>
+</ul>'''
+    return page('zeptejte-se-ai', 'Zeptejte se AI', body,
+                lede='Ptejte se na data o obci vlastními slovy a nechte si odpověď vysvětlit.')
+
+
 def check_links(slugs):
-    known = set(slugs) | {'index', 'data', 'o-webu', 'opravy'}
+    known = set(slugs) | {'index', 'data', 'o-webu', 'opravy', 'zeptejte-se-ai', 'slovnik-dat'}
     bad = []
     for f in os.listdir(OUT):
         if not f.endswith('.html'):
@@ -477,13 +671,18 @@ def main():
         shutil.copytree(os.path.join(ROOT, d), os.path.join(OUT, d))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     slugs = build_md_pages()
-    for name, html_ in (('index', build_index()), ('data', build_data_page()), ('o-webu', build_about())):
+    slovnik_html, warnings = build_slovnik()
+    build_llms(slugs)
+    for name, html_ in (('index', build_index()), ('data', build_data_page()), ('o-webu', build_about()),
+                        ('slovnik-dat', slovnik_html), ('zeptejte-se-ai', build_ai_page())):
         with open(os.path.join(OUT, name + '.html'), 'w', encoding='utf-8') as fh:
             fh.write(html_)
     bad = check_links(slugs)
     print(f'{len(slugs)} stránek z obsah/, výstup v docs/')
     for f, h in bad:
         print(f'  ROZBITÝ ODKAZ: {f} -> {h}')
+    for w in warnings:
+        print(f'  SLOVNÍK: {w}')
     return 1 if bad else 0
 
 
