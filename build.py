@@ -672,7 +672,7 @@ def main():
         shutil.copytree(os.path.join(ROOT, d), os.path.join(OUT, d))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     with open(os.path.join(OUT, 'CNAME'), 'w') as fh:  # custom domain for GitHub Pages
-        fh.write(DOMAIN + '\n')
+        fh.write(DOMAIN)
     slugs = build_md_pages()
     slovnik_html, warnings = build_slovnik()
     build_llms(slugs)
