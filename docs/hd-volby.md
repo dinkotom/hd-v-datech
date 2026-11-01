@@ -1,6 +1,6 @@
 # Volby v obci
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-volby.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-volby.html (aktualizováno 2026-10-31)
 
 > Výsledky komunálních, sněmovních, prezidentských, krajských a evropských voleb v Horních Domaslavicích 1990–2026 podle dat volby.cz.
 
@@ -8,7 +8,7 @@ Stránka shrnuje výsledky všech voleb, které se za obec Horní Domaslavice da
 
 ## Hlavní zjištění
 
-1. **Počet voličů se za třicet let zdvojnásobil.** V komunálních volbách 1994 bylo v seznamu 417 voličů, v roce 2026 jich bylo 843. Ve sněmovních volbách to bylo 416 voličů v roce 1996 a 797 v roce 2025. Obec během sledovaného období výrazně narostla, což je třeba mít na paměti při každém srovnávání absolutních čísel (viz [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html)).
+1. **Počet voličů se za třicet let zdvojnásobil.** V komunálních volbách 1994 bylo v seznamu 417 voličů, v roce 2026 jich bylo 843. Ve sněmovních volbách to bylo 416 voličů v roce 1996 a 797 v roce 2025. Obec během sledovaného období výrazně narostla, což je třeba mít na paměti při každém srovnávání absolutních čísel (viz [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.html)).
 2. **Účast v komunálních volbách dlouhodobě klesala a v roce 2026 se znovu zvedla.** V 90. letech volilo 72–83 % voličů, v letech 2014–2022 jen 52–58 %. V roce 2026 přišlo 63,94 % voličů. Je to nejvyšší účast od roku 2010 a v absolutním počtu (539 voličů) nejvíc lidí, kolik kdy v komunálních volbách v obci volilo.
 3. **Ve sněmovních, krajských a evropských volbách chodí obec k volbám častěji než okres i republika.** Ve všech devíti sněmovních volbách od roku 1996 byla účast v obci vyšší než v ČR, a to o 3,1 až 15,8 procentního bodu. Výrazný je rozdíl i u krajských voleb: v roce 2000 volilo v obci 58,9 % voličů, zatímco v kraji jen 32,2 %. U prezidentských voleb se účast blíží celostátní. Ve 2. kole roku 2013 a v 1. kole roku 2018 byla dokonce o něco nižší než v ČR (57,3 % proti 59,1 % a 61,5 % proti 61,9 %), v roce 2023 o 4,7–5,9 bodu vyšší.
 4. **V komunálních volbách přibylo kandidátek s místními názvy.** V letech 1994–2002 soupeřily jen dvě kandidátky (KDU-ČSL a sdružení nezávislých kandidátů) a KDU-ČSL v letech 1998 a 2002 získala nadpoloviční většinu hlasů. V letech 2010–2018 a 2026 kandidovalo pět kandidátek, v roce 2022 čtyři, a žádná z nich většinu nezískala. Poslední kandidátka s názvem celostátní strany (KDU-ČSL a nezávislí kandidáti) kandidovala v roce 2018. V letech 2022 a 2026 nesly všechny kandidátky místní názvy.
@@ -17,7 +17,7 @@ Stránka shrnuje výsledky všech voleb, které se za obec Horní Domaslavice da
 7. **Ve sněmovních volbách se nejsilnějším subjektem místo ČSSD stalo hnutí ANO.** ČSSD byla nejsilnější stranou v obci v letech 1996–2013 (vrchol 39,7 % v roce 1998), v roce 2021 už měla jen 5,3 %. Hnutí ANO je od roku 2017 nejsilnějším subjektem (2025: 36,0 %), v obci ale soustavně dostává méně než v okrese Frýdek-Místek. SPD (2017: 18,3 %, 2021: 14,7 %) mívá v obci vyšší podporu než v republice.
 8. **V prezidentských volbách** obec v letech 2013 a 2018 podpořila Miloše Zemana výrazněji než republika (65,3 % proti 54,8 % ve 2. kole roku 2013 a 58,3 % proti 51,4 % v roce 2018). V roce 2023 v obci zvítězil Petr Pavel s 57,0 % (ČR 58,3 %, okres 51,4 %).
 
-Srovnání se sousedními obcemi je na stránce [Srovnání: volby a spolky](https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.html).
+Srovnání se sousedními obcemi je na stránce [Srovnání: volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.html).
 
 ## 1. Komunální volby
 

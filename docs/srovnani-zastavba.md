@@ -1,6 +1,6 @@
 # Roztříštěnost zástavby
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-zastavba.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-zastavba.html (aktualizováno 2026-10-31)
 
 > Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pazdernou, Dolními Domaslavicemi a Lučinou a co to znamená pro délku sítí.
 
@@ -8,7 +8,7 @@ Stránka ukazuje, jestli domy v obci tvoří jedno souvislé sídlo, nebo někol
 
 Za dům k bydlení se počítá stavební objekt evidovaný jako rodinný nebo bytový dům, případně stavba s číslem popisným a aspoň jedním bytem. Rekreační objekty (chaty s číslem evidenčním) jsou zvlášť.
 
-![Mapa zástavby čtyř obcí](https://dinkotom.github.io/hd-v-datech/img/mapa_zastavby_4obce.png)
+![Mapa zástavby čtyř obcí](https://hd-v-datech.cz/img/mapa_zastavby_4obce.png)
 
 ## Jak se roztříštěnost měřila
 

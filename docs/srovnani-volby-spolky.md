@@ -1,10 +1,10 @@
 # Srovnání voleb a spolků
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-volby-spolky.html (aktualizováno 2026-10-31)
 
 > Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích a sousedních obcích.
 
-Stránka porovnává Horní Domaslavice (HD, kód 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399) z hlediska voleb, spolkového života a výdajů obcí na neziskové organizace. Data pocházejí z volby.cz (ČSÚ), ARES, veřejného rejstříku, Monitoru státní pokladny MF (výkaz FIN 2-12 M) a z počtů obyvatel ČSÚ. Stránka srovnává čísla a nehodnotí politiku jednotlivých obcí. U voleb uvádí jen kandidátky a čísla, jména kandidátů ani zastupitelů neuvádí. Podrobnosti o HD jsou na stránkách [volby v HD](https://dinkotom.github.io/hd-v-datech/hd-volby.html) a [spolky v HD](https://dinkotom.github.io/hd-v-datech/hd-spolky.html).
+Stránka porovnává Horní Domaslavice (HD, kód 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399) z hlediska voleb, spolkového života a výdajů obcí na neziskové organizace. Data pocházejí z volby.cz (ČSÚ), ARES, veřejného rejstříku, Monitoru státní pokladny MF (výkaz FIN 2-12 M) a z počtů obyvatel ČSÚ. Stránka srovnává čísla a nehodnotí politiku jednotlivých obcí. U voleb uvádí jen kandidátky a čísla, jména kandidátů ani zastupitelů neuvádí. Podrobnosti o HD jsou na stránkách [volby v HD](https://hd-v-datech.cz/hd-volby.html) a [spolky v HD](https://hd-v-datech.cz/hd-spolky.html).
 
 Pro orientaci: k 1. 7. 2025 měla Pazderna 415 obyvatel, HD 1 100, DD 1 466 a Lučina 1 599 (ČSÚ). HD rostla od roku 2010 nejrychleji, a to z 671 na 1 100 obyvatel (+64 %). Pazderna vzrostla z 266 na 415 (+56 %), DD z 1 152 na 1 466 (+27 %) a Lučina z 1 222 na 1 599 (+31 %).
 
@@ -333,7 +333,7 @@ U HD lze čísla z Monitoru porovnat se schválenými dotacemi v zápisech ze za
 - **Monitor MF neukazuje příjemce.** Položka 5222 může obsahovat i platby, které nejsou dotacemi místním spolkům, například členské příspěvky nebo příspěvky MAS mimo § 6171, platby spolkům z jiných obcí nebo úhrady sportovním klubům. Obce také mohou podobné výdaje účtovat různě; například v HD se část dotací účtuje na položku 5223 a platby spolkům se mohou objevit i na jiných položkách (např. 5169). Takové platby v tomto přehledu nejsou. Čísla na obyvatele proto ukazují jen řád výdajů a nejsou přesným srovnáním obecní podpory spolků.
 - **Počty obyvatel** jsou ze stavu k 1. 7. daného roku (ČSÚ). Přepočet subjektů na 1 000 obyvatel používá stav k 1. 7. 2025, data ARES jsou z 30. 10. 2026.
 - **Okres a ČR.** U sněmovních a prezidentských voleb jde o celý okres Frýdek-Místek včetně měst. Nejde tedy o srovnání s obcemi podobné velikosti.
-- Rok 1990 a krajské, evropské a senátní volby do srovnání nejsou zahrnuty. Pro HD jsou na stránce [volby v HD](https://dinkotom.github.io/hd-v-datech/hd-volby.html).
+- Rok 1990 a krajské, evropské a senátní volby do srovnání nejsou zahrnuty. Pro HD jsou na stránce [volby v HD](https://hd-v-datech.cz/hd-volby.html).
 
 ## Metodika a zdroje
 

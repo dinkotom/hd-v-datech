@@ -1,6 +1,6 @@
 # Výstavba a infrastruktura
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-vystavba.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-vystavba.html (aktualizováno 2026-10-31)
 
 > Kolik domů se v Horních Domaslavicích staví, jaký majetek obec vykazuje, jak je to s vodovodem a kanalizací a kolik ploch pro bydlení zbývá.
 
@@ -77,7 +77,7 @@ Data dokončení u starých domů jsou v RÚIAN jen orientační. Hodnoty jako 3
 | 2022–2025 | 39 | 41 | 186 | +101 | 2,5 | 10,2 |
 | **2001–2025** | **218** | **209** | **949** | **+542** | **2,6** | **8,4** |
 
-Údaje o stěhování pocházejí z ČSÚ (tabulka OBY01B01), podrobněji na stránce [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html).
+Údaje o stěhování pocházejí z ČSÚ (tabulka OBY01B01), podrobněji na stránce [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.html).
 
 **Odvozeno:**
 - Na jeden dokončený byt připadá v průměru zhruba 2,6 člověka čistého přírůstku stěhováním. To odpovídá rodině s dítětem a ukazuje, že růst obce prakticky celý stojí na nových domech.
@@ -92,7 +92,7 @@ Data dokončení u starých domů jsou v RÚIAN jen orientační. Hodnoty jako 3
 
 ## 2. Majetek obce v rozvaze
 
-Seznam pozemků a staveb ve vlastnictví obce z veřejně dostupných otevřených dat sestavit nelze: RÚIAN vlastníky neobsahuje a Nahlížení do katastru nemovitostí neumožňuje vyhledávat podle vlastníka. Z veřejných dat lze hned zjistit hodnotu majetku v účetní rozvaze obce (Ministerstvo financí, Monitor státní pokladny). Další údaje o majetku jsou na stránce [Majetek obce](https://dinkotom.github.io/hd-v-datech/hd-majetek.html).
+Seznam pozemků a staveb ve vlastnictví obce z veřejně dostupných otevřených dat sestavit nelze: RÚIAN vlastníky neobsahuje a Nahlížení do katastru nemovitostí neumožňuje vyhledávat podle vlastníka. Z veřejných dat lze hned zjistit hodnotu majetku v účetní rozvaze obce (Ministerstvo financí, Monitor státní pokladny). Další údaje o majetku jsou na stránce [Majetek obce](https://hd-v-datech.cz/hd-majetek.html).
 
 Hodnoty jsou v mil. Kč k 31. 12., u staveb jde o zůstatkovou hodnotu.
 
@@ -142,7 +142,7 @@ Pro východní část obce je relevantní i územní plán Dolních Domaslavic (
 **Odvozeno:**
 - Tvrzení o nepovolování přípojek je doloženo jen dokumentem obce. Od provozovatele SmVaK není k dispozici žádný veřejný údaj, ani seznam lokalit, ani rozhodnutí o odmítnutých přípojkách.
 - Nepřímo ho podporuje RÚIAN: 7 domů je vedeno „bez vodovodu“ a 6 z nich bylo dokončeno v letech 2013–2024. U novostaveb je to neobvyklé. Atribut RÚIAN ale nerozlišuje veřejný vodovod od vlastní studny, takže jde o slabý doklad.
-- Obec za 16 let (2010–2025) podle rozpočtových dat do vodovodu nevydala nic (viz [Výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)). Investice 4 mil. Kč se v rozpočtových výhledech posouvá z roku 2023 na rok 2026. Ve schváleném rozpočtu 2026 uvedena není.
+- Obec za 16 let (2010–2025) podle rozpočtových dat do vodovodu nevydala nic (viz [Výdaje obce](https://hd-v-datech.cz/hd-vydaje.html)). Investice 4 mil. Kč se v rozpočtových výhledech posouvá z roku 2023 na rok 2026. Ve schváleném rozpočtu 2026 uvedena není.
 
 ### 3.3 Tvrzení „kanalizace neexistuje“
 
@@ -151,7 +151,7 @@ Pro východní část obce je relevantní i územní plán Dolních Domaslavic (
 - Sčítání 2021 uvádí 0 % domů napojených na kanalizační síť, 76 % se žumpou a 21 % s vlastní ČOV.
 - Návrh zprávy o uplatňování 2025: „kanalizace ani ČOV dosud není vybudována“. V územně analytických podkladech (ÚAP) 2024 se uvádí „absence kanalizační sítě s ČOV … vzhledem k velikosti území obce a k jeho rozptýlené zástavbě je budování kanalizace pro obec neekonomické“.
 - Územní plán 2011 navrhuje gravitační splaškovou kanalizaci se třemi výtlačnými úseky a dvě ČOV. ČOV 1 u Lučiny je spojená s Vojkovicemi (710 EO), ČOV 2 u centra má 260 EO, celkem 970 EO. Ve Změně č. 1 jsou vedeny jako VT3 a VT4 mezi veřejně prospěšnými stavbami. Změna č. 1 navíc doplnila, že do jejich výstavby se odpadní vody řeší decentrálně, přednostně domovními ČOV.
-- Obec přispívá na výměnu žumpy nebo septiku za domovní ČOV částkou až 50 tis. Kč (usnesení 104/5/2023, znovu zasedání ZO č. 24 ze dne 18. 9. 2025). Viz též [Dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+- Obec přispívá na výměnu žumpy nebo septiku za domovní ČOV částkou až 50 tis. Kč (usnesení 104/5/2023, znovu zasedání ZO č. 24 ze dne 18. 9. 2025). Viz též [Dotace](https://hd-v-datech.cz/hd-dotace.html).
 
 **Odvozeno:** U novostaveb se domovní ČOV prosadily. U domů z let 2022–2026 má vlastní ČOV 34 ze 48 (71 %). U domů z let 2016–2021 je to 40 %, u let 2001–2015 23 % a u domů do roku 2000 méně než 1 %.
 
@@ -184,7 +184,7 @@ Kartu obce z PRVKÚK MSK se nepodařilo získat: web https://prvk.msk.cz 30. 10.
 - Nabídka ploch tedy růst obce neomezuje. Omezením může být infrastruktura (vodovod, silnice, MŠ) a ochota vlastníků prodávat. Změna č. 1 sama zmiňuje, že část vlastníků s prodejem „spekulativně čeká“.
 - 257 domů by při 2,6 obyvatele čistého přírůstku na byt znamenalo asi +670 obyvatel, tedy zhruba 1 780 obyvatel. To je výrazně víc než výhled 1 250–1 300 do roku 2037. Výpočet je jen ilustrační horní mez.
 
-Srovnání ploch a zástavby se sousedními obcemi je na stránkách [Srovnání: plochy](https://dinkotom.github.io/hd-v-datech/srovnani-plochy.html), [Srovnání: zástavba](https://dinkotom.github.io/hd-v-datech/srovnani-zastavba.html) a [Srovnání: obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html).
+Srovnání ploch a zástavby se sousedními obcemi je na stránkách [Srovnání: plochy](https://hd-v-datech.cz/srovnani-plochy.html), [Srovnání: zástavba](https://hd-v-datech.cz/srovnani-zastavba.html) a [Srovnání: obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html).
 
 ## Pozor
 

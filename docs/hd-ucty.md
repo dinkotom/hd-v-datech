@@ -1,6 +1,6 @@
 # Stavy účtů obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-ucty.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-ucty.html (aktualizováno 2026-10-31)
 
 > Kolik peněz měla obec Horní Domaslavice na bankovních účtech na konci každého roku 2013–2025 a jak úspory rostly.
 
@@ -24,14 +24,14 @@ Tato stránka ukazuje, kolik peněz měla obec na bankovních účtech vždy k 3
 | 31. 12. 2024 | 31 476 206,88 | – ² | **31,48 mil.** | +3 366 341,79 ² | 3 366 341,79 ³ |
 | 31. 12. 2025 | 39 494 904,53 | – | **39,49 mil.** | +8 018 697,65 | 8 018 697,65 |
 
-¹ V letech 2014 a 2015 je saldo vyšší než změna stavu účtu. Rozdíl tvoří splátky starého dlouhodobého úvěru (položka 8124): 1 000 008 Kč v roce 2014 a 333 320 Kč v roce 2015. Úvěr byl tím splacen. Rozvahy ale do roku 2017 ukazují ještě jiný dlouhodobý závazek (účet 459) s neuvedeným věřitelem, viz [majetek a účetnictví](https://dinkotom.github.io/hd-v-datech/hd-majetek.html).
+¹ V letech 2014 a 2015 je saldo vyšší než změna stavu účtu. Rozdíl tvoří splátky starého dlouhodobého úvěru (položka 8124): 1 000 008 Kč v roce 2014 a 333 320 Kč v roce 2015. Úvěr byl tím splacen. Rozvahy ale do roku 2017 ukazují ještě jiný dlouhodobý závazek (účet 459) s neuvedeným věřitelem, viz [majetek a účetnictví](https://hd-v-datech.cz/hd-majetek.html).
 ² Obec 24. 10. 2023 převedla 9 mil. Kč na šestiměsíční termínovaný vklad u Komerční banky s úrokem 5,58 % p. a. (usnesení zastupitelstva obce 9/2023). Vklad se v roce 2024 vrátil na běžný účet, závěrečný účet 2024 ho vykazuje v položce 8117 (+9 000 000). Samotný běžný účet proto v roce 2023 klesl o 8,18 mil. a v roce 2024 vzrostl o 12,37 mil. Skutečné změny celkových prostředků jsou ve sloupci „Změna za rok“.
 ³ Saldo 2024 podle Monitoru státní pokladny (výkaz FIN 2-12 M). Starší přepis ze skenu závěrečného účtu uváděl 3 207 299,62 Kč; rozdíl 159 042 Kč odpovídá chybě čtení daňových příjmů, která byla opravena podle dat MF.
 
 ## Co z řady plyne
 - Za 12 let vzrostly úspory obce z 0,7 na 39,5 mil. Kč. Jediný pokles byl v roce 2018 (−0,8 mil.).
 - **Volební období 2018–2022** (do 31. 12. 2022): z 10,0 na 27,3 mil., tedy +17,3 mil.
-- **Volební období 2022–2026** (do 31. 12. 2025): z 27,3 na 39,5 mil., tedy +12,2 mil. Formálně obec čerpala jen 26–29 % upraveného rozpočtu výdajů, to je ale zkresleno nečerpanou rezervou. Bez ní vychází čerpání 48–76 % (viz [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)).
+- **Volební období 2022–2026** (do 31. 12. 2025): z 27,3 na 39,5 mil., tedy +12,2 mil. Formálně obec čerpala jen 26–29 % upraveného rozpočtu výdajů, to je ale zkresleno nečerpanou rezervou. Bez ní vychází čerpání 48–76 % (viz [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html)).
 - Úvěr 8,6 mil. Kč od České spořitelny na rekonstrukci MŠ (smlouva z 19. 2. 2020) se nikdy nečerpal. Rozpočet s ním počítal (položka 8113), ale skutečné čerpání je nulové. Nárůst úspor tedy nepochází z úvěru.
 - Kromě běžného účtu měla obec do roku 2019 jen „ostatní dlouhodobý finanční majetek“ za zhruba 21 000 Kč, nejspíš členský podíl. Peněžní fondy nemá.
 

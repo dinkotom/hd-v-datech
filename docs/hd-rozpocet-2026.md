@@ -1,6 +1,6 @@
 # Rozpočet 2026
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-rozpocet-2026.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-rozpocet-2026.html (aktualizováno 2026-10-31)
 
 > Rozpočet obce Horní Domaslavice na rok 2026: schválený a upravený rozpočet, rozpočtová opatření, čerpání k 30. 9. 2026, rezerva, peníze na účtech a střednědobý výhled.
 
@@ -76,7 +76,7 @@ Paragrafy rozpočtové skladby jsou sloučené do srozumitelných skupin. Posled
 - **Správa obce** je o 0,5 mil. výš než loni. Největší rozdíl tvoří odměny zastupitelů, nově stanovené podle zápisu ze zasedání ZO č. 28 ze dne 27. 1. 2026, a jednorázové výdaje při změně ve vedení obce, viz RO č. 4.
 - **Hřbitov:** oprava schodiště (0,24 mil.), kterou předpokládal schválený rozpočet.
 
-Podrobnější srovnání po letech je na stránce [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html).
+Podrobnější srovnání po letech je na stránce [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html).
 
 ## 4. Investice a opravy: kolik z plánu se realizovalo
 
@@ -131,9 +131,9 @@ Podle zápisu ze zasedání ZO č. 26 ze dne 11. 12. 2025 vychází odhad příj
 
 - Obec odhaduje příjmy **opatrně**: skutečnost byla v posledních třech letech o 6–13 % vyšší než schválený rozpočet.
 - **2026:** do konce září obec vybrala 18,98 mil. Kč, tedy 82 % schválených příjmů a o 16 % víc než ve stejném období roku 2025 (16,37 mil.). Sdílené daně jsou meziročně vyšší o 18 %. Do 30. 9. obvykle přichází 72–75 % ročních příjmů. Pokud to platí i letos, budou příjmy za celý rok 2026 zhruba **25,3–26,4 mil. Kč**, o 2–3 mil. víc, než obec rozpočtovala. Jde o hrubý odhad, ne o prognózu.
-- Kapitálové příjmy (prodej majetku) a investiční dotace jsou v letech 2023–2026 nulové. Obec dotace získává: například na projektovou dokumentaci MŠ podle zápisu ze zasedání ZO č. 25 ze dne 18. 11. 2025. Ve výkazu za rok 2026 se ale k 30. 9. jako investiční dotace neobjevují. Viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+- Kapitálové příjmy (prodej majetku) a investiční dotace jsou v letech 2023–2026 nulové. Obec dotace získává: například na projektovou dokumentaci MŠ podle zápisu ze zasedání ZO č. 25 ze dne 18. 11. 2025. Ve výkazu za rok 2026 se ale k 30. 9. jako investiční dotace neobjevují. Viz [dotace](https://hd-v-datech.cz/hd-dotace.html).
 
-Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených daní](https://dinkotom.github.io/hd-v-datech/hd-prijmy.html).
+Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených daní](https://hd-v-datech.cz/hd-prijmy.html).
 
 ## 7. Peníze na účtech během roku
 
@@ -144,7 +144,7 @@ Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených 
 | 30. 6. 2026 | 40,61 | – |
 | 30. 9. 2026 | **41,82** | 37,73 (30. 9. 2025) |
 
-Za tři čtvrtletí roku 2026 vzrostl stav účtu o 2,32 mil. Kč. Ve stejném období předchozích let to bylo víc: +6,69 mil. (2023), +6,17 mil. (2024, počítáno včetně termínovaného vkladu 9 mil. Kč, který se v roce 2024 vrátil na běžný účet) a +6,26 mil. (2025). Ve čtvrtém čtvrtletí obvykle převažují výdaje, protože se platí faktury za stavby. Konečný stav k 31. 12. 2026 proto bude záviset hlavně na doplatku hřiště. Řada stavů ke konci let je na stránce [peníze na účtech](https://dinkotom.github.io/hd-v-datech/hd-ucty.html).
+Za tři čtvrtletí roku 2026 vzrostl stav účtu o 2,32 mil. Kč. Ve stejném období předchozích let to bylo víc: +6,69 mil. (2023), +6,17 mil. (2024, počítáno včetně termínovaného vkladu 9 mil. Kč, který se v roce 2024 vrátil na běžný účet) a +6,26 mil. (2025). Ve čtvrtém čtvrtletí obvykle převažují výdaje, protože se platí faktury za stavby. Konečný stav k 31. 12. 2026 proto bude záviset hlavně na doplatku hřiště. Řada stavů ke konci let je na stránce [peníze na účtech](https://hd-v-datech.cz/hd-ucty.html).
 
 ## 8. Střednědobý výhled a rozpočet 2027
 

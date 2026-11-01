@@ -1,6 +1,6 @@
 # Usnesení zastupitelstva
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-usneseni.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-usneseni.html (aktualizováno 2026-10-31)
 
 > Databáze 547 usnesení zastupitelstva obce Horní Domaslavice z let 2022–2026: znění, výsledek hlasování, počty hlasů, téma a částka.
 
@@ -11,11 +11,11 @@ Na této stránce najdete všechna usnesení, která zastupitelstvo obce Horní 
 
 U každého usnesení je uvedeno číslo, datum, plné znění, druh rozhodnutí, výsledek, počty hlasů pro, proti a zdržel se, téma a hlavní částka, pokud ji usnesení obsahuje. Podkladem jsou zápisy ze zasedání, které obec zveřejňuje na svém webu jako skeny. Jedinou výjimkou je poslední, 34. zasedání. Jeho zápis obec nezveřejnila, a údaje proto pocházejí z přepisu zvukového záznamu.
 
-Jména fyzických osob jsou v textech nahrazena funkcí („starosta obce“, „člen ZO“, „předseda finančního výboru“) nebo označením „fyzická osoba“. Názvy firem, spolků a úřadů zůstaly beze změny. Data lze stáhnout jako [CSV](https://dinkotom.github.io/hd-v-datech/data/usneseni_zo_2022-2026.csv).
+Jména fyzických osob jsou v textech nahrazena funkcí („starosta obce“, „člen ZO“, „předseda finančního výboru“) nebo označením „fyzická osoba“. Názvy firem, spolků a úřadů zůstaly beze změny. Data lze stáhnout jako [CSV](https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv).
 
 ## Vyhledávání v usneseních
 
-Seznam usnesení je v souboru https://dinkotom.github.io/hd-v-datech/data/usneseni_zo_2022-2026.csv (sloupce viz https://dinkotom.github.io/hd-v-datech/slovnik-dat.md).
+Seznam usnesení je v souboru https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv (sloupce viz https://hd-v-datech.cz/slovnik-dat.md).
 
 ## 1. Souhrnné přehledy
 
@@ -118,9 +118,9 @@ V dojezdu období 2018–2022 se 25.–27. zasedání účastnilo 7–10 zastupi
 
 ## 2. Nejdůležitější rozhodnutí období 2022–2026
 
-Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení samo neuvádí, pocházejí ze zápisu, kde zazněly na zasedání, nebo z profilu zadavatele (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)). Čísla v závorkách jsou hlasy pro : proti : zdržel se.
+Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení samo neuvádí, pocházejí ze zápisu, kde zazněly na zasedání, nebo z profilu zadavatele (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)). Čísla v závorkách jsou hlasy pro : proti : zdržel se.
 
-1. **Roční rozpočty obce.** Rozpočet na rok 2023 činil 46 258 452 Kč (30/2/2022, 9 : 4 : 0) a na rok 2024 47 760 902 Kč (158/10/2023, 9 : 0 : 2). Rozpočet na rok 2025 činil 54 104 202 Kč (279/19/2024, 9 : 0 : 1) a na rok 2026 65 431 102 Kč (380/26/2025, 8 : 0 : 3). Podle zápisu z prosince 2025 obsahuje rozpočet 2026 finanční rezervu téměř 25 mil. Kč. Celkové částky pocházejí ze zápisů, usnesení je neuvádějí. Rozbor výdajů je na stránce [výdaje](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html).
+1. **Roční rozpočty obce.** Rozpočet na rok 2023 činil 46 258 452 Kč (30/2/2022, 9 : 4 : 0) a na rok 2024 47 760 902 Kč (158/10/2023, 9 : 0 : 2). Rozpočet na rok 2025 činil 54 104 202 Kč (279/19/2024, 9 : 0 : 1) a na rok 2026 65 431 102 Kč (380/26/2025, 8 : 0 : 3). Podle zápisu z prosince 2025 obsahuje rozpočet 2026 finanční rezervu téměř 25 mil. Kč. Celkové částky pocházejí ze zápisů, usnesení je neuvádějí. Rozbor výdajů je na stránce [výdaje](https://hd-v-datech.cz/hd-vydaje.html).
 2. **Oprava místní komunikace MK 1.** Zastupitelstvo schválilo zadávací dokumentaci (42/2/2022) a žádost o dotaci Ministerstva pro místní rozvoj (44/2/2022). V březnu 2023 pak schválilo smlouvu o dílo s vítězem zakázky (72/4/2023, 8 : 0 : 4). Zakázku vyhrála STRABAG a.s. za 7 581 200 Kč bez DPH podle profilu zadavatele.
 3. **Oprava MK 5 a MK 10.** Zastupitelstvo schválilo projektovou dokumentaci (134/8/2023) a zadávací dokumentaci (243/15/2024, 9 : 0 : 2). Podle profilu zadavatele zakázku vyhrála firma Strojírny a stavby Třinec, a.s., za 4 705 961 Kč bez DPH.
 4. **Mateřská škola: přístavba místo novostavby.** V září 2024 zastupitelstvo schválilo žádost o dotaci na projektovou dokumentaci k přístavbě a snížení energetické náročnosti stávající budovy (261/17/2024, 11 : 0 : 0). Podle zápisu byla přístavba odhadnuta na 25–28 mil. Kč a novostavba na 45–50 mil. Kč. V dubnu 2026 zastupitelstvo schválilo změnu konstrukce přístavby ze dřevostavby na zděné řešení (423/30/2026, 12 : 0 : 0). Podle zápisu se tím odhad snížil z 34–41 mil. Kč na 23–27 mil. Kč. K volbám 2026 byla přístavba ve fázi projektové dokumentace.
@@ -130,13 +130,13 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
    - smlouvu o dotaci Moravskoslezského kraje (371/25/2025);
    - dva dodatky s posunem termínů (398/27/2026 a 468/31/2026).
 
-   Souvislosti jsou na stránkách [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html) a [školství](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+   Souvislosti jsou na stránkách [dotace](https://hd-v-datech.cz/hd-dotace.html) a [školství](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 6. **Sportoviště u Obecního domu a u hasičské klubovny.** V prosinci 2025 zastupitelstvo schválilo zadávací dokumentace obou zakázek (388/26/2025, 8 : 0 : 3). Předpokládaná hodnota byla podle zápisu 5 775 075 Kč a 1 180 000 Kč bez DPH. V dubnu 2026 pověřilo starostu odstoupením od smlouvy, případně neposkytnutím součinnosti, s firmou Merat u hřiště u Obecního domu (425/30/2026, 11 : 0 : 1). V červnu 2026 vzalo na vědomí, že smlouva byla uzavřena s druhou firmou v pořadí, Sportovní podlahy Zlín s.r.o., za 6 602 928 Kč s DPH (466/31/2026).
 7. **Spádová základní škola.** V roce 2023 zastupitelstvo pověřilo starostku zadáním studie proveditelnosti vlastní základní školy (114/6/2023, 8 : 1 : 2) a podáním žádosti na krajský úřad o určení spádové školy (142/8/2023). Zadalo také demografickou studii do 150 000 Kč (125/7/2023), jejíž výsledky vzalo na vědomí v lednu 2024 (176/11/2024). V březnu 2024 schválilo dohodu o společném školském obvodu se statutárním městem Frýdek-Místek a příslušnou vyhlášku (185/12/2024 a 186/12/2024, obojí 8 : 0 : 4). O prodloužení této dohody se jednalo na 34. zasedání. Výsledek ze záznamu není znám.
 8. **Termínovaný vklad 9 mil. Kč.** V říjnu 2023 zastupitelstvo schválilo převod 9 000 000 Kč na termínovaný účet u Komerční banky na 6 měsíců (150/9/2023, 9 : 0 : 2).
-9. **Změna č. 1 územního plánu.** V červenci 2023 zastupitelstvo rozhodlo o námitkách (121/7/2023) a vydalo změnu formou opatření obecné povahy č. 1/2023 (124/7/2023, 9 : 1 : 2). Zpracování změny bylo objednáno v dubnu 2022 (404/26/2022). Další informace jsou na stránce [výstavba](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html).
+9. **Změna č. 1 územního plánu.** V červenci 2023 zastupitelstvo rozhodlo o námitkách (121/7/2023) a vydalo změnu formou opatření obecné povahy č. 1/2023 (124/7/2023, 9 : 1 : 2). Zpracování změny bylo objednáno v dubnu 2022 (404/26/2022). Další informace jsou na stránce [výstavba](https://hd-v-datech.cz/hd-vystavba.html).
 10. **Strategický plán rozvoje obce 2024–2030.** Plán byl schválen v červnu 2024 (250/16/2024, 10 : 0 : 0). Připravoval ho výbor pro rozvoj obce, zřízený v únoru 2023 (63/3/2023), jehož činnost zastupitelstvo ukončilo k 30. 6. 2024 (244/15/2024).
-11. **Dary.** Zastupitelstvo schválilo dar 500 000 Kč obcím zasaženým povodněmi prostřednictvím sbírky Českého červeného kříže (262/17/2024, 11 : 0 : 0). Schválilo také dar 100 000 Kč Farnosti Domaslavice (288/19/2024, 7 : 0 : 3), který podle zápisu směřoval na opravu varhan. Pravidelné dotace spolkům a organizacím schvaluje každé jaro. V období 2022–2026 hlasovalo o 74 návrzích dotací z rozpočtu obce a 62 z nich přijalo. Podrobnosti jsou na stránce [spolky](https://dinkotom.github.io/hd-v-datech/hd-spolky.html).
+11. **Dary.** Zastupitelstvo schválilo dar 500 000 Kč obcím zasaženým povodněmi prostřednictvím sbírky Českého červeného kříže (262/17/2024, 11 : 0 : 0). Schválilo také dar 100 000 Kč Farnosti Domaslavice (288/19/2024, 7 : 0 : 3), který podle zápisu směřoval na opravu varhan. Pravidelné dotace spolkům a organizacím schvaluje každé jaro. V období 2022–2026 hlasovalo o 74 návrzích dotací z rozpočtu obce a 62 z nich přijalo. Podrobnosti jsou na stránce [spolky](https://hd-v-datech.cz/hd-spolky.html).
 12. **Pravidla zadávání zakázek.** V červnu 2025 zastupitelstvo zrušilo směrnici k zakázkám malého rozsahu a svěřilo starostce a místostarostovi uzavírání smluv a objednávek do 250 000 Kč bez DPH (352/23/2025, 8 : 3 : 0). Novou směrnici schválilo v prosinci 2025 (389/26/2025, 8 : 3 : 0).
 13. **Obecní dům.** Zastupitelstvo schválilo:
     - zakázku na elektroinstalaci (374/25/2025, 12 : 0 : 1), kterou podle profilu zadavatele vyhrála ELBAU-MONT s.r.o. za 759 516 Kč bez DPH;
@@ -164,9 +164,9 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
 3. **Texty jsou převzaty ze zápisu včetně jeho chyb.** Například usnesení 18/1/2022 začíná bez podmětu, u 56/3/2023 a 420/30/2026 chybí sloveso a 398/27/2026 uvádí smlouvu „ze dne 15. 10. 2026“, zřejmě místo 15. 10. 2025. Výčty příloh a poznámky přepisovatele byly odstraněny.
 4. **„Bere na vědomí“ bez hlasování.** Většinu informací zastupitelstvo bere na vědomí bez hlasování. Jde o 107 usnesení s prázdnými počty hlasů a výsledkem „přijato“. Stejně je v zápisu zapsáno i pětibodové usnesení 462/31/2026, které kontrolnímu výboru a starostovi ukládá úkoly a mění dřívější usnesení.
 5. **Hlasování podle jednacího řádu.** Na 31. zasedání kontrolní výbor uvedl, že hlasování o dotacích 429, 430 a 436/30/2026 neproběhlo v souladu s jednacím řádem, protože se hlasovalo nejdřív o žádosti, a ne o protinávrhu. Platnost usnesení přitom nezpochybnil.
-6. **Částka (`castka_kc`) je vyplněna jen tehdy, když ji obsahuje text usnesení.** U usnesení s více částkami je uvedena nejvyšší. Jednotkové ceny (Kč/m², Kč/měsíc, Kč/den) a měsíční odměny se nevyplňují, aby se daly částky sčítat. Ceny smluv, rozpočtů a zakázek usnesení většinou neuvádějí, jsou v příslušných zápisech a na stránce [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html).
+6. **Částka (`castka_kc`) je vyplněna jen tehdy, když ji obsahuje text usnesení.** U usnesení s více částkami je uvedena nejvyšší. Jednotkové ceny (Kč/m², Kč/měsíc, Kč/den) a měsíční odměny se nevyplňují, aby se daly částky sčítat. Ceny smluv, rozpočtů a zakázek usnesení většinou neuvádějí, jsou v příslušných zápisech a na stránce [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html).
 7. **Téma a typ** jsou přiřazeny podle klíčových slov a ručně zkontrolovány. Jde o pomůcku pro vyhledávání, ne o úřední třídění.
-8. **Anonymizace.** Jména zastupitelů a dalších fyzických osob jsou nahrazena funkcí nebo označením „fyzická osoba“. Platí to i pro ověřovatele, členy hodnotících komisí, zvolené funkcionáře a smluvní strany. Jméno nadačního fondu, který nese jméno fyzické osoby, je nahrazeno popisem jeho účelu. Kdo zastával jakou funkci, je doloženo v původních zápisech na webu obce a na stránce [volby](https://dinkotom.github.io/hd-v-datech/hd-volby.html).
+8. **Anonymizace.** Jména zastupitelů a dalších fyzických osob jsou nahrazena funkcí nebo označením „fyzická osoba“. Platí to i pro ověřovatele, členy hodnotících komisí, zvolené funkcionáře a smluvní strany. Jméno nadačního fondu, který nese jméno fyzické osoby, je nahrazeno popisem jeho účelu. Kdo zastával jakou funkci, je doloženo v původních zápisech na webu obce a na stránce [volby](https://hd-v-datech.cz/hd-volby.html).
 9. **Rok 2022** v souhrnech zahrnuje dvě volební období. Řádky z let 2018–2022 jsou v datech označeny ve sloupci `obdobi`.
 
 ## Metodika a zdroje
@@ -176,5 +176,5 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
 - **34. zasedání (6. 10. 2026):** zvukový záznam zveřejněný obcí, přepsaný automaticky (whisper). Mluvčí ani některá čísla nejsou v záznamu jednoznačná.
 - **Výsledek** je „přijato“, pokud zápis uvádí „schváleno“ nebo „bere ZO na vědomí“, a „nepřijato“, pokud uvádí „neschváleno“ nebo „nebylo schváleno“. Počty „---“ nebo „—“ v zápisu znamenají 0.
 - **Typ** je určen podle prvního slovesa usnesení. **Téma** (nejvýše dvě) je určeno podle klíčových slov a u sporných případů ručně.
-- **Částky** v přehledu nejdůležitějších rozhodnutí pocházejí ze zápisů (rozpočty, odhady, předpokládané hodnoty) a z profilu zadavatele obce na vhodne-uverejneni.cz (ceny vítězných nabídek, viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)).
+- **Částky** v přehledu nejdůležitějších rozhodnutí pocházejí ze zápisů (rozpočty, odhady, předpokládané hodnoty) a z profilu zadavatele obce na vhodne-uverejneni.cz (ceny vítězných nabídek, viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)).
 - Data k 31. 10. 2026. Usnesení nového zastupitelstva zvoleného 9.–10. 10. 2026 v databázi zatím nejsou.

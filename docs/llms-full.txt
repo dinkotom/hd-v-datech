@@ -17,66 +17,66 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 
 ## Obec v číslech
 
-- [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.md): Jak se v letech 2000–2025 měnil počet a složení obyvatel Horních Domaslavic a co o obci říká sčítání 2021.
-- [Příjmy ze sdílených daní](https://dinkotom.github.io/hd-v-datech/hd-prijmy.md): Kolik obec Horní Domaslavice dostává ze sdílených daní (RUD) a z daně z nemovitostí, 2014–2025.
-- [Rozpočet 2026](https://dinkotom.github.io/hd-v-datech/hd-rozpocet-2026.md): Rozpočet obce Horní Domaslavice na rok 2026: schválený a upravený rozpočet, rozpočtová opatření, čerpání k 30. 9. 2026, rezerva, peníze na účtech a střednědobý výhled.
-- [Výdaje, investice a opravy](https://dinkotom.github.io/hd-v-datech/hd-vydaje.md): Za co obec Horní Domaslavice v letech 2010–2025 utrácela: výdaje podle účelu a druhu, investice, opravy a rozpočtová rezerva.
-- [Peníze na účtech](https://dinkotom.github.io/hd-v-datech/hd-ucty.md): Kolik peněz měla obec Horní Domaslavice na bankovních účtech na konci každého roku 2013–2025 a jak úspory rostly.
-- [Majetek a účetnictví](https://dinkotom.github.io/hd-v-datech/hd-majetek.md): Co obec Horní Domaslavice vlastní, jaké má náklady, výnosy, pohledávky a závazky a jak hospodaří mateřská škola, 2010–2025.
-- [Dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.md): Jaké dotace obec Horní Domaslavice a její mateřská škola získaly v letech 2010–2026, o které žádaly neúspěšně a jak číst čísla z veřejných databází.
-- [Veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.md): Přehled 18 veřejných zakázek obce Horní Domaslavice z let 2014–2026: kdo soutěžil, kdo vyhrál, za kolik a s jakými dodatky.
-- [Registr smluv](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.md): Které smlouvy obce Horní Domaslavice a její mateřské školy jsou veřejně dostupné v registru smluv a na profilu zadavatele a proč jich v registru není víc.
-- [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.md): Kolik domů se v Horních Domaslavicích staví, jaký majetek obec vykazuje, jak je to s vodovodem a kanalizací a kolik ploch pro bydlení zbývá.
-- [Školství, sociální data, ovzduší](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.md): Mateřská škola, spádové základní školy, nezaměstnanost, exekuce, kriminalita, ovzduší a dostupnost zdravotních a sociálních služeb v Horních Domaslavicích.
-- [Spolky a subjekty](https://dinkotom.github.io/hd-v-datech/hd-spolky.md): Kolik a jakých subjektů má sídlo v Horních Domaslavicích, kterým organizacím obec v letech 2022–2026 schválila dotace a dary.
-- [Volby](https://dinkotom.github.io/hd-v-datech/hd-volby.md): Výsledky komunálních, sněmovních, prezidentských, krajských a evropských voleb v Horních Domaslavicích 1990–2026 podle dat volby.cz.
-- [Usnesení zastupitelstva](https://dinkotom.github.io/hd-v-datech/hd-usneseni.md): Databáze 547 usnesení zastupitelstva obce Horní Domaslavice z let 2022–2026: znění, výsledek hlasování, počty hlasů, téma a částka.
-- [Mapa obce](https://dinkotom.github.io/hd-v-datech/mapa.md): Interaktivní mapa Horních Domaslavic: hranice obce, zástavba ve čtvercích 100 × 100 m s napojením na vodovod, plyn a odpady, veřejné budovy a autobusové zastávky.
+- [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.md): Jak se v letech 2000–2025 měnil počet a složení obyvatel Horních Domaslavic a co o obci říká sčítání 2021.
+- [Příjmy ze sdílených daní](https://hd-v-datech.cz/hd-prijmy.md): Kolik obec Horní Domaslavice dostává ze sdílených daní (RUD) a z daně z nemovitostí, 2014–2025.
+- [Rozpočet 2026](https://hd-v-datech.cz/hd-rozpocet-2026.md): Rozpočet obce Horní Domaslavice na rok 2026: schválený a upravený rozpočet, rozpočtová opatření, čerpání k 30. 9. 2026, rezerva, peníze na účtech a střednědobý výhled.
+- [Výdaje, investice a opravy](https://hd-v-datech.cz/hd-vydaje.md): Za co obec Horní Domaslavice v letech 2010–2025 utrácela: výdaje podle účelu a druhu, investice, opravy a rozpočtová rezerva.
+- [Peníze na účtech](https://hd-v-datech.cz/hd-ucty.md): Kolik peněz měla obec Horní Domaslavice na bankovních účtech na konci každého roku 2013–2025 a jak úspory rostly.
+- [Majetek a účetnictví](https://hd-v-datech.cz/hd-majetek.md): Co obec Horní Domaslavice vlastní, jaké má náklady, výnosy, pohledávky a závazky a jak hospodaří mateřská škola, 2010–2025.
+- [Dotace](https://hd-v-datech.cz/hd-dotace.md): Jaké dotace obec Horní Domaslavice a její mateřská škola získaly v letech 2010–2026, o které žádaly neúspěšně a jak číst čísla z veřejných databází.
+- [Veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.md): Přehled 18 veřejných zakázek obce Horní Domaslavice z let 2014–2026: kdo soutěžil, kdo vyhrál, za kolik a s jakými dodatky.
+- [Registr smluv](https://hd-v-datech.cz/hd-registr-smluv.md): Které smlouvy obce Horní Domaslavice a její mateřské školy jsou veřejně dostupné v registru smluv a na profilu zadavatele a proč jich v registru není víc.
+- [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.md): Kolik domů se v Horních Domaslavicích staví, jaký majetek obec vykazuje, jak je to s vodovodem a kanalizací a kolik ploch pro bydlení zbývá.
+- [Školství, sociální data, ovzduší](https://hd-v-datech.cz/hd-skolstvi-socialni.md): Mateřská škola, spádové základní školy, nezaměstnanost, exekuce, kriminalita, ovzduší a dostupnost zdravotních a sociálních služeb v Horních Domaslavicích.
+- [Spolky a subjekty](https://hd-v-datech.cz/hd-spolky.md): Kolik a jakých subjektů má sídlo v Horních Domaslavicích, kterým organizacím obec v letech 2022–2026 schválila dotace a dary.
+- [Volby](https://hd-v-datech.cz/hd-volby.md): Výsledky komunálních, sněmovních, prezidentských, krajských a evropských voleb v Horních Domaslavicích 1990–2026 podle dat volby.cz.
+- [Usnesení zastupitelstva](https://hd-v-datech.cz/hd-usneseni.md): Databáze 547 usnesení zastupitelstva obce Horní Domaslavice z let 2022–2026: znění, výsledek hlasování, počty hlasů, téma a částka.
+- [Mapa obce](https://hd-v-datech.cz/mapa.md): Interaktivní mapa Horních Domaslavic: hranice obce, zástavba ve čtvercích 100 × 100 m s napojením na vodovod, plyn a odpady, veřejné budovy a autobusové zastávky.
 
 ## Srovnání se sousedy
 
-- [Souhrn srovnání](https://dinkotom.github.io/hd-v-datech/srovnani-souhrn.md): Souhrn klíčových čísel Horních Domaslavic vedle Pazderny, Dolních Domaslavic a Lučiny: lidé, finance, majetek, služby, zakázky a volby.
-- [Finance](https://dinkotom.github.io/hd-v-datech/srovnani-finance.md): Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pazderny, Dolních Domaslavic a Lučiny v letech 2010–2025.
-- [Majetek, smlouvy, zakázky](https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.md): Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou a Pazdernou.
-- [Obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.md): Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a sousedních obcích.
-- [Školství a sociální data](https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.md): Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a sousedních obcích.
-- [Volby a spolky](https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.md): Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích a sousedních obcích.
-- [Rozloha a druhy pozemků](https://dinkotom.github.io/hd-v-datech/srovnani-plochy.md): Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pazderně, Dolních Domaslavicích a Lučině a jejich vývoj od roku 2004.
-- [Roztříštěnost zástavby](https://dinkotom.github.io/hd-v-datech/srovnani-zastavba.md): Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pazdernou, Dolními Domaslavicemi a Lučinou a co to znamená pro délku sítí.
-- [Daň z nemovitostí](https://dinkotom.github.io/hd-v-datech/srovnani-dan-nemovitosti.md): Jaké koeficienty daně z nemovitých věcí uplatňují Horní Domaslavice a sousední obce a kolik jim daň vynáší na obyvatele.
-- [Občanská vybavenost](https://dinkotom.github.io/hd-v-datech/srovnani-vybavenost.md): Jaké služby a zařízení mají Horní Domaslavice a sousední obce a jak sousedé pořídili to, co HD chybí.
+- [Souhrn srovnání](https://hd-v-datech.cz/srovnani-souhrn.md): Souhrn klíčových čísel Horních Domaslavic vedle Pazderny, Dolních Domaslavic a Lučiny: lidé, finance, majetek, služby, zakázky a volby.
+- [Finance](https://hd-v-datech.cz/srovnani-finance.md): Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pazderny, Dolních Domaslavic a Lučiny v letech 2010–2025.
+- [Majetek, smlouvy, zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.md): Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou a Pazdernou.
+- [Obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.md): Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a sousedních obcích.
+- [Školství a sociální data](https://hd-v-datech.cz/srovnani-skolstvi-socialni.md): Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a sousedních obcích.
+- [Volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.md): Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích a sousedních obcích.
+- [Rozloha a druhy pozemků](https://hd-v-datech.cz/srovnani-plochy.md): Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pazderně, Dolních Domaslavicích a Lučině a jejich vývoj od roku 2004.
+- [Roztříštěnost zástavby](https://hd-v-datech.cz/srovnani-zastavba.md): Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pazdernou, Dolními Domaslavicemi a Lučinou a co to znamená pro délku sítí.
+- [Daň z nemovitostí](https://hd-v-datech.cz/srovnani-dan-nemovitosti.md): Jaké koeficienty daně z nemovitých věcí uplatňují Horní Domaslavice a sousední obce a kolik jim daň vynáší na obyvatele.
+- [Občanská vybavenost](https://hd-v-datech.cz/srovnani-vybavenost.md): Jaké služby a zařízení mají Horní Domaslavice a sousední obce a jak sousedé pořídili to, co HD chybí.
 
 ## Data
 
-- [Slovník dat](https://dinkotom.github.io/hd-v-datech/slovnik-dat.md): popis všech CSV souborů a jejich sloupců
-- [Data ke stažení](https://dinkotom.github.io/hd-v-datech/data.html): seznam souborů
-- [CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv](https://dinkotom.github.io/hd-v-datech/data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv): Výměry druhů pozemků po katastrálních územích (orná půda, louky, lesy, zastavěné plochy…).
-- [RUIAN_souhrn_4obce_stav_20260930.csv](https://dinkotom.github.io/hd-v-datech/data/RUIAN_souhrn_4obce_stav_20260930.csv): Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN), stav 30. 9. 2026.
-- [finance_DD_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_DD_2010-2025.csv): Hospodaření obce Dolní Domaslavice po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu).
-- [finance_HD_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_HD_2010-2025.csv): Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, investice, opravy, dotace, rezervy, peníze a úvěry.
-- [finance_LUC_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_LUC_2010-2025.csv): Hospodaření obce Lučina po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu a má výdaje spojené s nádrží Žermanice).
-- [finance_PAZ_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_PAZ_2010-2025.csv): Hospodaření obce Pazderna po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
-- [investice_opravy_podle_paragrafu_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/investice_opravy_podle_paragrafu_4obce.csv): Investice a opravy 4 obcí podle paragrafu rozpočtové skladby (na co šly).
-- [rozpocet_2026_investice_opravy.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_investice_opravy.csv): Rozpočet 2026: plánované a zaplacené investice a opravy podle paragrafu.
-- [rozpocet_2026_odhad_prijmu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_odhad_prijmu.csv): Rozpočtované a skutečné příjmy 2023–2026 a jaký podíl ročních příjmů obvykle přichází do konce září.
-- [rozpocet_2026_rozpoctova_opatreni.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_rozpoctova_opatreni.csv): Rozpočtová opatření (změny rozpočtu) 2026.
-- [rozpocet_2026_srovnani_k_30_9.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_srovnani_k_30_9.csv): Rozpočet 2026: plnění příjmů a čerpání výdajů k 30. 9. proti stejnému období 2023–2025.
-- [rozpocet_2026_stav_uctu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_stav_uctu.csv): Peníze na účtech obce Horní Domaslavice po čtvrtletích 2023–2026.
-- [rozpocet_2026_strednedoby_vyhled.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_strednedoby_vyhled.csv): Střednědobý výhled rozpočtu obce Horní Domaslavice na roky 2025–2028.
-- [rozpocet_2026_vydaje_podle_ucelu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_vydaje_podle_ucelu.csv): Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30. 9. a srovnání s minulými lety.
-- [roztrisenost_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/roztrisenost_4obce.csv): Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jsou domy a kolik tvoří skupin.
-- [souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv](https://dinkotom.github.io/hd-v-datech/data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv): Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro 4 obce, okres Frýdek-Místek a Českou republiku.
-- [souhrn_po_obdobich_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/souhrn_po_obdobich_4obce.csv): Součty ukazatelů za volební období a průměr na obyvatele a rok.
-- [ukazatele_4obce_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/ukazatele_4obce_2010-2025.csv): Stejné ukazatele jako `finance_*` pro všechny 4 obce v dlouhém formátu (vhodné pro filtrování a grafy).
-- [ukazatele_rozvaha_vzz_4_obce.csv](https://dinkotom.github.io/hd-v-datech/data/ukazatele_rozvaha_vzz_4_obce.csv): Rozvaha a výkaz zisku a ztráty 4 obcí: majetek, peníze, závazky, náklady, výnosy, odpisy.
-- [usneseni_zo_2022-2026.csv](https://dinkotom.github.io/hd-v-datech/data/usneseni_zo_2022-2026.csv): Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 2018–2022).
-- [vydaje_kategorie_4obce_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/vydaje_kategorie_4obce_2010-2025.csv): Výdaje 4 obcí rozdělené podle účelu (sloučené paragrafy) a podle druhu (sloučené položky).
+- [Slovník dat](https://hd-v-datech.cz/slovnik-dat.md): popis všech CSV souborů a jejich sloupců
+- [Data ke stažení](https://hd-v-datech.cz/data.html): seznam souborů
+- [CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv](https://hd-v-datech.cz/data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv): Výměry druhů pozemků po katastrálních územích (orná půda, louky, lesy, zastavěné plochy…).
+- [RUIAN_souhrn_4obce_stav_20260930.csv](https://hd-v-datech.cz/data/RUIAN_souhrn_4obce_stav_20260930.csv): Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN), stav 30. 9. 2026.
+- [finance_DD_2010-2025.csv](https://hd-v-datech.cz/data/finance_DD_2010-2025.csv): Hospodaření obce Dolní Domaslavice po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu).
+- [finance_HD_2010-2025.csv](https://hd-v-datech.cz/data/finance_HD_2010-2025.csv): Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, investice, opravy, dotace, rezervy, peníze a úvěry.
+- [finance_LUC_2010-2025.csv](https://hd-v-datech.cz/data/finance_LUC_2010-2025.csv): Hospodaření obce Lučina po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu a má výdaje spojené s nádrží Žermanice).
+- [finance_PAZ_2010-2025.csv](https://hd-v-datech.cz/data/finance_PAZ_2010-2025.csv): Hospodaření obce Pazderna po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
+- [investice_opravy_podle_paragrafu_4obce.csv](https://hd-v-datech.cz/data/investice_opravy_podle_paragrafu_4obce.csv): Investice a opravy 4 obcí podle paragrafu rozpočtové skladby (na co šly).
+- [rozpocet_2026_investice_opravy.csv](https://hd-v-datech.cz/data/rozpocet_2026_investice_opravy.csv): Rozpočet 2026: plánované a zaplacené investice a opravy podle paragrafu.
+- [rozpocet_2026_odhad_prijmu.csv](https://hd-v-datech.cz/data/rozpocet_2026_odhad_prijmu.csv): Rozpočtované a skutečné příjmy 2023–2026 a jaký podíl ročních příjmů obvykle přichází do konce září.
+- [rozpocet_2026_rozpoctova_opatreni.csv](https://hd-v-datech.cz/data/rozpocet_2026_rozpoctova_opatreni.csv): Rozpočtová opatření (změny rozpočtu) 2026.
+- [rozpocet_2026_srovnani_k_30_9.csv](https://hd-v-datech.cz/data/rozpocet_2026_srovnani_k_30_9.csv): Rozpočet 2026: plnění příjmů a čerpání výdajů k 30. 9. proti stejnému období 2023–2025.
+- [rozpocet_2026_stav_uctu.csv](https://hd-v-datech.cz/data/rozpocet_2026_stav_uctu.csv): Peníze na účtech obce Horní Domaslavice po čtvrtletích 2023–2026.
+- [rozpocet_2026_strednedoby_vyhled.csv](https://hd-v-datech.cz/data/rozpocet_2026_strednedoby_vyhled.csv): Střednědobý výhled rozpočtu obce Horní Domaslavice na roky 2025–2028.
+- [rozpocet_2026_vydaje_podle_ucelu.csv](https://hd-v-datech.cz/data/rozpocet_2026_vydaje_podle_ucelu.csv): Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30. 9. a srovnání s minulými lety.
+- [roztrisenost_4obce.csv](https://hd-v-datech.cz/data/roztrisenost_4obce.csv): Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jsou domy a kolik tvoří skupin.
+- [souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv): Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro 4 obce, okres Frýdek-Místek a Českou republiku.
+- [souhrn_po_obdobich_4obce.csv](https://hd-v-datech.cz/data/souhrn_po_obdobich_4obce.csv): Součty ukazatelů za volební období a průměr na obyvatele a rok.
+- [ukazatele_4obce_2010-2025.csv](https://hd-v-datech.cz/data/ukazatele_4obce_2010-2025.csv): Stejné ukazatele jako `finance_*` pro všechny 4 obce v dlouhém formátu (vhodné pro filtrování a grafy).
+- [ukazatele_rozvaha_vzz_4_obce.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_4_obce.csv): Rozvaha a výkaz zisku a ztráty 4 obcí: majetek, peníze, závazky, náklady, výnosy, odpisy.
+- [usneseni_zo_2022-2026.csv](https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv): Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 2018–2022).
+- [vydaje_kategorie_4obce_2010-2025.csv](https://hd-v-datech.cz/data/vydaje_kategorie_4obce_2010-2025.csv): Výdaje 4 obcí rozdělené podle účelu (sloučené paragrafy) a podle druhu (sloučené položky).
 
 ## Optional
 
-- [Celý web v jednom souboru](https://dinkotom.github.io/hd-v-datech/llms-full.txt): texty všech stránek a slovník dat
-- [O webu a metodika](https://dinkotom.github.io/hd-v-datech/o-webu.html)
-- [Opravy](https://dinkotom.github.io/hd-v-datech/opravy.md): seznam opravených chyb
+- [Celý web v jednom souboru](https://hd-v-datech.cz/llms-full.txt): texty všech stránek a slovník dat
+- [O webu a metodika](https://hd-v-datech.cz/o-webu.html)
+- [Opravy](https://hd-v-datech.cz/opravy.md): seznam opravených chyb
 
 
 
@@ -84,7 +84,7 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 
 # Obyvatelstvo
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-obyvatelstvo.html (aktualizováno 2026-10-31)
 
 > Jak se v letech 2000–2025 měnil počet a složení obyvatel Horních Domaslavic a co o obci říká sčítání 2021.
 
@@ -113,7 +113,7 @@ Stránka ukazuje, jak rostl počet obyvatel obce Horní Domaslavice (kód obce 5
 - Pro srovnání historie: v roce 1930 měla obec asi 860 obyvatel a v roce 1991 jen 521 (podle demografické studie). Při sčítáních to bylo 556 (2001), 667 (2011) a 978 (2021).
 - Na přelomech let 2010/2011 a 2020/2021 jsou v řadě malé skoky (−9 a +10). Jde o přepočet podle výsledků sčítání, ne o skutečný pohyb.
 
-Srovnání se sousedními obcemi je na stránce [Srovnání: obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html).
+Srovnání se sousedními obcemi je na stránce [Srovnání: obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html).
 
 ## 2. Odkud přírůstek pochází: stěhování, ne porody
 
@@ -121,7 +121,7 @@ Souhrn za roky 2002–2025:
 - narodilo se **203** dětí a zemřelo **187** lidí, přirozený přírůstek je tedy jen **+16**;
 - přistěhovalo se **930** lidí a vystěhovalo **398**, saldo stěhování je **+532**.
 
-Růst obce je tedy prakticky celý dán přistěhováním, které souvisí s výstavbou rodinných domů (viz [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html)).
+Růst obce je tedy prakticky celý dán přistěhováním, které souvisí s výstavbou rodinných domů (viz [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.html)).
 
 | Volební období | Narození | Zemřelí | Přistěhovalí | Vystěhovalí | Saldo stěhování | Celkový přírůstek |
 |---|---:|---:|---:|---:|---:|---:|
@@ -141,7 +141,7 @@ Po letech:
 
 **Počet narozených dětí v posledních dvou letech klesl.** V letech 2020–2023 se rodilo 11–14 dětí ročně, v letech 2024–2025 jen 6–8. To je pod pesimistickou i pragmatickou variantou demografické studie, která pro rok 2035 počítala s 8–12 narozenými. Počet dětí 0–14 let se v letech 2022–2024 zastavil na 230–237.
 
-Souvislost s mateřskou školou: děti, které budou v letech 2027–2030 v předškolním věku, se rodí právě teď. Z porodů v obci jich bude méně než v letech 2020–2023. Kolik dětí přibude přistěhováním, závisí na tempu výstavby. Zároveň platí, že v roce 2023 byla školka naplněná na 100 % (44 dětí na 44 míst) a nedostatek míst byl opakovaně tématem zasedání zastupitelstva. Podrobnosti o kapacitě a zápisech jsou na stránce [Školství a sociální situace](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+Souvislost s mateřskou školou: děti, které budou v letech 2027–2030 v předškolním věku, se rodí právě teď. Z porodů v obci jich bude méně než v letech 2020–2023. Kolik dětí přibude přistěhováním, závisí na tempu výstavby. Zároveň platí, že v roce 2023 byla školka naplněná na 100 % (44 dětí na 44 míst) a nedostatek míst byl opakovaně tématem zasedání zastupitelstva. Podrobnosti o kapacitě a zápisech jsou na stránce [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ## 3. Věková struktura: jedna z nejmladších obcí okresu
 
@@ -153,7 +153,7 @@ Souvislost s mateřskou školou: děti, které budou v letech 2027–2030 v pře
 | Index stáří (65+ na 100 dětí) | **58** | 135 | 146 | 133 |
 | Průměrný věk (SLDB 2021) | **37,7** | 43,0 | 43,3 | 42,7 |
 
-Program rozvoje obce (2024) uvádí, že obec je nejmladší v okrese Frýdek-Místek (index stáří 52,2). Data ČSÚ za rok 2024 to nepotvrzují: sousední Pazderna má index stáří 49 proti 58 v Horních Domaslavicích (viz [Srovnání: obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html)). Obec patří k nejmladším v okrese, ale nejmladší není.
+Program rozvoje obce (2024) uvádí, že obec je nejmladší v okrese Frýdek-Místek (index stáří 52,2). Data ČSÚ za rok 2024 to nepotvrzují: sousední Pazderna má index stáří 49 proti 58 v Horních Domaslavicích (viz [Srovnání: obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html)). Obec patří k nejmladším v okrese, ale nejmladší není.
 
 Seniorů přibývá. Počet lidí 65+ vzrostl ze 101 (2014) na 137 (2024), tedy o 36 %. Index stáří se po roce 2022 přestal snižovat a začal mírně růst.
 
@@ -184,7 +184,7 @@ Sčítání 2021 zaznamenalo v obci 978 obyvatel s obvyklým pobytem.
 
 - **Odvětví:** zpracovatelský průmysl zaměstnává 30 % pracujících obyvatel (ČR 24 %, okres 30 %).
 - **Profese:** proti republice je víc techniků a odborných pracovníků (22 % proti 16 %) a vedoucích pracovníků (8 % proti 5 %), naopak méně pomocných pracovníků (2 % proti 4 %).
-- **Nezaměstnanost:** podle RISY (data MPSV) to bylo v roce 2023 jen 1,6 % z dosažitelných uchazečů. Podrobnější řada je na stránce [Školství a sociální situace](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+- **Nezaměstnanost:** podle RISY (data MPSV) to bylo v roce 2023 jen 1,6 % z dosažitelných uchazečů. Podrobnější řada je na stránce [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ### Vyjížďka za prací a do škol
 
@@ -267,13 +267,13 @@ Z 364 domácností je 20 rodin se třemi a více závislými dětmi.
 | Pelety | 4 % | 1 % | 1 % |
 | Dálkové teplo | 0 % | 36 % | 33 % |
 
-Každá pátá domácnost topila v roce 2021 uhlím, čtyřikrát víc než republikový průměr. Plyn má jen desetina domácností. Údaj souvisí s kvalitou ovzduší (viz [Školství a sociální situace](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html), oddíl Ovzduší). Obec má v rozpočtu položku na příspěvky na výměnu kotlů, domovní ČOV a kompostéry.
+Každá pátá domácnost topila v roce 2021 uhlím, čtyřikrát víc než republikový průměr. Plyn má jen desetina domácností. Údaj souvisí s kvalitou ovzduší (viz [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html), oddíl Ovzduší). Obec má v rozpočtu položku na příspěvky na výměnu kotlů, domovní ČOV a kompostéry.
 
 ## 6. Shrnutí
 
 1. **Obec roste téměř výhradně stěhováním.** Ročně přibude zhruba 25–35 lidí, porody a úmrtí jsou přibližně v rovnováze. Budoucí počet obyvatel tak závisí hlavně na územním plánu a tempu výstavby.
 2. **Obyvatelstvo je mladé a vzdělanější, než je průměr okresu i ČR.** Většina pracujících vyjíždí za prací mimo obec, převážně autem.
-3. **Infrastruktura:** obec nemá kanalizaci (76 % domů má žumpu), vodovod má podle strategického plánu obce na některých větvích kapacitní omezení a pětina domácností topila v roce 2021 uhlím. Podrobněji na stránkách [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html) a [Výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html).
+3. **Infrastruktura:** obec nemá kanalizaci (76 % domů má žumpu), vodovod má podle strategického plánu obce na některých větvích kapacitní omezení a pětina domácností topila v roce 2021 uhlím. Podrobněji na stránkách [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.html) a [Výdaje obce](https://hd-v-datech.cz/hd-vydaje.html).
 4. **Počet narozených klesl** na 6–8 dětí v letech 2024–2025.
 5. **Senioři jsou zatím menšinou, ale jejich počet roste** (+36 % za 10 let). Registrované sociální služby v obci nejsou.
 
@@ -293,7 +293,7 @@ Stav a věkové složení obyvatel 2000–2024 pocházejí z otevřených dat Č
 
 # Daňové příjmy obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-prijmy.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-prijmy.html (aktualizováno 2026-10-31)
 
 > Kolik obec Horní Domaslavice dostává ze sdílených daní (RUD) a z daně z nemovitostí, 2014–2025.
 
@@ -322,8 +322,8 @@ RUD zde zahrnuje položky 1111 (daň z příjmů fyzických osob ze závislé č
 - Za 11 let vzrostl příjem z RUD trojnásobně, z 6,2 na 19,0 mil. Kč ročně. Tvoří zhruba 90 % daňových příjmů. Na vlastních příjmech obce (třídy 1–3) má od roku 2017 podíl 86–91 %. V roce 2014 to bylo jen 61 %, protože obec tehdy měla 2,75 mil. kapitálových příjmů (prodej pozemků).
 - Největší skoky jsou v letech 2021 a 2022 (+14 % a +26 %). Stojí za nimi novela RUD od roku 2021, která obcím zvýšila podíl na sdílených daních, a k tomu inflace 2022, která zvedla výběr DPH a daně z příjmů firem. V roce 2020 byl kvůli covidu pokles o 3 %.
 - **Daň z příjmů ze závislé činnosti klesla v roce 2021** z 2,71 na 2,04 mil. To je důsledek zrušení superhrubé mzdy. Pokles kompenzoval vyšší podíl obcí na DPH.
-- Pro srovnání s výdaji: v roce 2025 obec na RUD dostala 19,0 mil. Kč a na účtech měla ke konci roku 39,5 mil. Kč (viz [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html)). Úspory tak odpovídají zhruba dvěma letům příjmů z RUD.
-- **Daň z nemovitostí se v roce 2024 téměř zdvojnásobila** (0,37 → 0,67 mil.) a v roce 2025 vzrostla dál na 0,82 mil. Příčinou je v roce 2024 státní konsolidační balíček (zvýšení sazeb o 80 %) a v roce 2025 přechod obce do zákonné kategorie 1,4 podle velikosti (od 2025 se počet obyvatel bere z vyhlášky k RUD, kde mají Horní Domaslavice přes 1 000 obyvatel; podle sčítání 2021 měly méně). Ani jedno není rozhodnutí obce. Místní koeficient obec nezavedla: mezi platnými vyhláškami obce žádná o koeficientu daně z nemovitých věcí není a v zápisech zastupitelstva se o něm nejednalo. Srovnání se sousedními obcemi je na stránce [daň z nemovitostí](https://dinkotom.github.io/hd-v-datech/srovnani-dan-nemovitosti.html).
+- Pro srovnání s výdaji: v roce 2025 obec na RUD dostala 19,0 mil. Kč a na účtech měla ke konci roku 39,5 mil. Kč (viz [stavy účtů](https://hd-v-datech.cz/hd-ucty.html)). Úspory tak odpovídají zhruba dvěma letům příjmů z RUD.
+- **Daň z nemovitostí se v roce 2024 téměř zdvojnásobila** (0,37 → 0,67 mil.) a v roce 2025 vzrostla dál na 0,82 mil. Příčinou je v roce 2024 státní konsolidační balíček (zvýšení sazeb o 80 %) a v roce 2025 přechod obce do zákonné kategorie 1,4 podle velikosti (od 2025 se počet obyvatel bere z vyhlášky k RUD, kde mají Horní Domaslavice přes 1 000 obyvatel; podle sčítání 2021 měly méně). Ani jedno není rozhodnutí obce. Místní koeficient obec nezavedla: mezi platnými vyhláškami obce žádná o koeficientu daně z nemovitých věcí není a v zápisech zastupitelstva se o něm nejednalo. Srovnání se sousedními obcemi je na stránce [daň z nemovitostí](https://hd-v-datech.cz/srovnani-dan-nemovitosti.html).
 - **Výhled:** střednědobý výhled rozpočtu 2025–2028 počítá s daňovými příjmy 20,0–21,5 mil. Kč ročně, tedy s pokračováním současné úrovně.
 
 ## Pozor
@@ -339,7 +339,7 @@ Hodnoty byly původně přečteny ze skenů závěrečných účtů obce (OCR) a
 
 # Rozpočet 2026
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-rozpocet-2026.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-rozpocet-2026.html (aktualizováno 2026-10-31)
 
 > Rozpočet obce Horní Domaslavice na rok 2026: schválený a upravený rozpočet, rozpočtová opatření, čerpání k 30. 9. 2026, rezerva, peníze na účtech a střednědobý výhled.
 
@@ -415,7 +415,7 @@ Paragrafy rozpočtové skladby jsou sloučené do srozumitelných skupin. Posled
 - **Správa obce** je o 0,5 mil. výš než loni. Největší rozdíl tvoří odměny zastupitelů, nově stanovené podle zápisu ze zasedání ZO č. 28 ze dne 27. 1. 2026, a jednorázové výdaje při změně ve vedení obce, viz RO č. 4.
 - **Hřbitov:** oprava schodiště (0,24 mil.), kterou předpokládal schválený rozpočet.
 
-Podrobnější srovnání po letech je na stránce [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html).
+Podrobnější srovnání po letech je na stránce [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html).
 
 ## 4. Investice a opravy: kolik z plánu se realizovalo
 
@@ -470,9 +470,9 @@ Podle zápisu ze zasedání ZO č. 26 ze dne 11. 12. 2025 vychází odhad příj
 
 - Obec odhaduje příjmy **opatrně**: skutečnost byla v posledních třech letech o 6–13 % vyšší než schválený rozpočet.
 - **2026:** do konce září obec vybrala 18,98 mil. Kč, tedy 82 % schválených příjmů a o 16 % víc než ve stejném období roku 2025 (16,37 mil.). Sdílené daně jsou meziročně vyšší o 18 %. Do 30. 9. obvykle přichází 72–75 % ročních příjmů. Pokud to platí i letos, budou příjmy za celý rok 2026 zhruba **25,3–26,4 mil. Kč**, o 2–3 mil. víc, než obec rozpočtovala. Jde o hrubý odhad, ne o prognózu.
-- Kapitálové příjmy (prodej majetku) a investiční dotace jsou v letech 2023–2026 nulové. Obec dotace získává: například na projektovou dokumentaci MŠ podle zápisu ze zasedání ZO č. 25 ze dne 18. 11. 2025. Ve výkazu za rok 2026 se ale k 30. 9. jako investiční dotace neobjevují. Viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+- Kapitálové příjmy (prodej majetku) a investiční dotace jsou v letech 2023–2026 nulové. Obec dotace získává: například na projektovou dokumentaci MŠ podle zápisu ze zasedání ZO č. 25 ze dne 18. 11. 2025. Ve výkazu za rok 2026 se ale k 30. 9. jako investiční dotace neobjevují. Viz [dotace](https://hd-v-datech.cz/hd-dotace.html).
 
-Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených daní](https://dinkotom.github.io/hd-v-datech/hd-prijmy.html).
+Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených daní](https://hd-v-datech.cz/hd-prijmy.html).
 
 ## 7. Peníze na účtech během roku
 
@@ -483,7 +483,7 @@ Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených 
 | 30. 6. 2026 | 40,61 | – |
 | 30. 9. 2026 | **41,82** | 37,73 (30. 9. 2025) |
 
-Za tři čtvrtletí roku 2026 vzrostl stav účtu o 2,32 mil. Kč. Ve stejném období předchozích let to bylo víc: +6,69 mil. (2023), +6,17 mil. (2024, počítáno včetně termínovaného vkladu 9 mil. Kč, který se v roce 2024 vrátil na běžný účet) a +6,26 mil. (2025). Ve čtvrtém čtvrtletí obvykle převažují výdaje, protože se platí faktury za stavby. Konečný stav k 31. 12. 2026 proto bude záviset hlavně na doplatku hřiště. Řada stavů ke konci let je na stránce [peníze na účtech](https://dinkotom.github.io/hd-v-datech/hd-ucty.html).
+Za tři čtvrtletí roku 2026 vzrostl stav účtu o 2,32 mil. Kč. Ve stejném období předchozích let to bylo víc: +6,69 mil. (2023), +6,17 mil. (2024, počítáno včetně termínovaného vkladu 9 mil. Kč, který se v roce 2024 vrátil na běžný účet) a +6,26 mil. (2025). Ve čtvrtém čtvrtletí obvykle převažují výdaje, protože se platí faktury za stavby. Konečný stav k 31. 12. 2026 proto bude záviset hlavně na doplatku hřiště. Řada stavů ke konci let je na stránce [peníze na účtech](https://hd-v-datech.cz/hd-ucty.html).
 
 ## 8. Střednědobý výhled a rozpočet 2027
 
@@ -535,7 +535,7 @@ Za tři čtvrtletí roku 2026 vzrostl stav účtu o 2,32 mil. Kč. Ve stejném o
 
 # Výdaje obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-vydaje.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-vydaje.html (aktualizováno 2026-10-31)
 
 > Za co obec Horní Domaslavice v letech 2010–2025 utrácela: výdaje podle účelu a druhu, investice, opravy a rozpočtová rezerva.
 
@@ -601,7 +601,7 @@ Obec od roku 2017 každý rok zapojuje celý zůstatek z minulých let do rozpo�
 5. **Věcné dary (položka 5194) vrcholily v letech 2021–2022:** 2021 dohromady 0,32 mil. (správa obce 139 tis. + kultura 184 tis.), 2022 0,37 mil. (167 + 201 tis.), potom klesly na zhruba 0,1 mil. ročně. Položka zahrnuje například dárky jubilantům a dárky při akcích obce; co konkrétně se v jednotlivých letech nakupovalo, výkaz neuvádí.
 6. **Akce obce rostou.** V paragrafu 3399 (ostatní kultura: akce, Guláš fest, jubilanti) vzrostly služby z 0,1 mil. (2018) na 0,46 mil. (2025). Celý paragraf stoupl z 0,28 na 1,04–1,12 mil. ročně.
 7. **Odpady plynule zdražují** (0,88 → 1,74 mil. ročně za 2018–2025, tedy dvojnásobek). Podle obecního zpravodaje Informátor 1/2025 je doplatek obce zhruba 0,43–0,74 mil. ročně i po zvýšení poplatku na 750 Kč.
-8. **Mimořádná jednorázová položka:** zeleň 2022 (2,54 mil.) jsou kompostéry pro občany, 1,57 mil. na drobný majetek (3799/5137) a 0,35 mil. na dary fyzickým osobám (3799/5492). Projekt byl dotovaný, viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+8. **Mimořádná jednorázová položka:** zeleň 2022 (2,54 mil.) jsou kompostéry pro občany, 1,57 mil. na drobný majetek (3799/5137) a 0,35 mil. na dary fyzickým osobám (3799/5492). Projekt byl dotovaný, viz [dotace](https://hd-v-datech.cz/hd-dotace.html).
 
 ## 5. Investice a opravy dohromady vs. příjmy
 
@@ -632,9 +632,9 @@ Při posunutém dělení (2019–2022 proti 2023–2025, kde poslední období m
 
 **Výklad:**
 - Hrubě platí: investice a opravy klesly o třetinu (28,3 → 18,9 mil.), přestože příjmy vzrostly o 27 % a daňové příjmy o 62 %.
-- Rozdíl tvoří hlavně **dotace**. V letech 2018–2021 obec získala 12,0 mil. investičních dotací. Z toho bylo 9,86 mil. v roce 2021: 8,27 mil. z IROP na rekonstrukci MŠ, 0,84 mil. od MPO na veřejné osvětlení, 0,39 mil. od MMR na dětské hřiště u MŠ a 0,35 mil. od SZIF (viz [dotace obce](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)). V letech 2022–2025 obec nezískala žádnou investiční dotaci. Z vlastních peněz dala na investice a opravy v posledním období o něco víc (18,9 proti 16,3 mil.). V poměru k daňovým příjmům je to ale méně (25 % proti 35 %) a přebytek do úspor se zdvojnásobil (9,3 → 20,8 mil.), viz [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html).
+- Rozdíl tvoří hlavně **dotace**. V letech 2018–2021 obec získala 12,0 mil. investičních dotací. Z toho bylo 9,86 mil. v roce 2021: 8,27 mil. z IROP na rekonstrukci MŠ, 0,84 mil. od MPO na veřejné osvětlení, 0,39 mil. od MMR na dětské hřiště u MŠ a 0,35 mil. od SZIF (viz [dotace obce](https://hd-v-datech.cz/hd-dotace.html)). V letech 2022–2025 obec nezískala žádnou investiční dotaci. Z vlastních peněz dala na investice a opravy v posledním období o něco víc (18,9 proti 16,3 mil.). V poměru k daňovým příjmům je to ale méně (25 % proti 35 %) a přebytek do úspor se zdvojnásobil (9,3 → 20,8 mil.), viz [stavy účtů](https://hd-v-datech.cz/hd-ucty.html).
 - **Struktura:** v letech 2022–2025 šly tři čtvrtiny na silnice (2212: 14,4 z 18,9 mil., hlavně MK 1, MK 5 a MK 10). V letech 2018–2021 se výdaje rozložily mezi MŠ (12,6), hřbitov (4,2), veřejné osvětlení (3,7), chodníky (3,6) a Obecní dům (1,8).
-- **Rok 2026 v datech chybí** (MF ho zatím nezveřejnilo). V běhu jsou: hřiště u Obecního domu (Sportovní podlahy Zlín, 6,6 mil.), projektová dokumentace MŠ (KANIA, 1,94 mil. s DPH), rekonstrukce Obecního domu a žádost o dotaci na zateplení a FVE MŠ (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)). Pokud se v roce 2026 proplatí, období 2022–2026 se objemem přiblíží předchozímu, ovšem bez investičních dotací a z vlastních peněz.
+- **Rok 2026 v datech chybí** (MF ho zatím nezveřejnilo). V běhu jsou: hřiště u Obecního domu (Sportovní podlahy Zlín, 6,6 mil.), projektová dokumentace MŠ (KANIA, 1,94 mil. s DPH), rekonstrukce Obecního domu a žádost o dotaci na zateplení a FVE MŠ (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)). Pokud se v roce 2026 proplatí, období 2022–2026 se objemem přiblíží předchozímu, ovšem bez investičních dotací a z vlastních peněz.
 
 ## 6. Dlouhá řada 2010–2025 po volebních obdobích
 
@@ -689,7 +689,7 @@ Data MF jsou dostupná od roku 2010. Volby se konají v říjnu, proto je volebn
 - **Podíl vlastních peněz na investicích a opravách k daňovým příjmům** byl v letech 2010–2018 stabilně kolem 40 %. V období 2018–2022 klesl na 19 %; celkové číslo tam držely dotace z roku 2021 (9,86 mil., z toho 8,27 mil. na MŠ). V období 2022–2026 je zatím 30 %. Pokles podílu tedy začal už po roce 2018.
 - **Rezerva 3639** se objevuje od roku 2017 a od roku 2019 se z ní stává hlavní složka rozpočtu (8,6–26,4 mil.). Schválené rozpočty od té doby výrazně převyšují skutečnost.
 - **Ceny:** spotřebitelské ceny vzrostly mezi lety 2016 a 2025 zhruba o 50 % a stavební práce ještě víc. Reálně (v cenách roku 2025) tak průměr 4,1 mil./rok z období 2014–2018 odpovídá zhruba 6 mil./rok, tedy přibližně dnešní úrovni. Reálný objem investic a oprav je za posledních deset let zhruba stejný, zatímco reálné příjmy vzrostly asi o 30 %.
-- **Dluh:** obec splácela v letech 2014–2015 starý úvěr (1,0 + 0,33 mil., podle závěrečných účtů). Podle rozvah ale do roku 2017 vedla ještě jiný dlouhodobý závazek (účet 459, 1,61 mil. v roce 2011). Komu a za co, výkazy neuvádějí (viz [majetek a účetnictví](https://dinkotom.github.io/hd-v-datech/hd-majetek.html)). Bez úvěrů a dlouhodobých závazků je obec tedy nejpozději od roku 2018. Úvěr 8,6 mil. na MŠ z roku 2020 se nečerpal.
+- **Dluh:** obec splácela v letech 2014–2015 starý úvěr (1,0 + 0,33 mil., podle závěrečných účtů). Podle rozvah ale do roku 2017 vedla ještě jiný dlouhodobý závazek (účet 459, 1,61 mil. v roce 2011). Komu a za co, výkazy neuvádějí (viz [majetek a účetnictví](https://hd-v-datech.cz/hd-majetek.html)). Bez úvěrů a dlouhodobých závazků je obec tedy nejpozději od roku 2018. Úvěr 8,6 mil. na MŠ z roku 2020 se nečerpal.
 
 ## Metodika a zdroje
 
@@ -700,7 +700,7 @@ Zdrojem jsou otevřená data Ministerstva financí, Monitor státní pokladny, v
 
 # Stavy účtů obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-ucty.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-ucty.html (aktualizováno 2026-10-31)
 
 > Kolik peněz měla obec Horní Domaslavice na bankovních účtech na konci každého roku 2013–2025 a jak úspory rostly.
 
@@ -724,14 +724,14 @@ Tato stránka ukazuje, kolik peněz měla obec na bankovních účtech vždy k 3
 | 31. 12. 2024 | 31 476 206,88 | – ² | **31,48 mil.** | +3 366 341,79 ² | 3 366 341,79 ³ |
 | 31. 12. 2025 | 39 494 904,53 | – | **39,49 mil.** | +8 018 697,65 | 8 018 697,65 |
 
-¹ V letech 2014 a 2015 je saldo vyšší než změna stavu účtu. Rozdíl tvoří splátky starého dlouhodobého úvěru (položka 8124): 1 000 008 Kč v roce 2014 a 333 320 Kč v roce 2015. Úvěr byl tím splacen. Rozvahy ale do roku 2017 ukazují ještě jiný dlouhodobý závazek (účet 459) s neuvedeným věřitelem, viz [majetek a účetnictví](https://dinkotom.github.io/hd-v-datech/hd-majetek.html).
+¹ V letech 2014 a 2015 je saldo vyšší než změna stavu účtu. Rozdíl tvoří splátky starého dlouhodobého úvěru (položka 8124): 1 000 008 Kč v roce 2014 a 333 320 Kč v roce 2015. Úvěr byl tím splacen. Rozvahy ale do roku 2017 ukazují ještě jiný dlouhodobý závazek (účet 459) s neuvedeným věřitelem, viz [majetek a účetnictví](https://hd-v-datech.cz/hd-majetek.html).
 ² Obec 24. 10. 2023 převedla 9 mil. Kč na šestiměsíční termínovaný vklad u Komerční banky s úrokem 5,58 % p. a. (usnesení zastupitelstva obce 9/2023). Vklad se v roce 2024 vrátil na běžný účet, závěrečný účet 2024 ho vykazuje v položce 8117 (+9 000 000). Samotný běžný účet proto v roce 2023 klesl o 8,18 mil. a v roce 2024 vzrostl o 12,37 mil. Skutečné změny celkových prostředků jsou ve sloupci „Změna za rok“.
 ³ Saldo 2024 podle Monitoru státní pokladny (výkaz FIN 2-12 M). Starší přepis ze skenu závěrečného účtu uváděl 3 207 299,62 Kč; rozdíl 159 042 Kč odpovídá chybě čtení daňových příjmů, která byla opravena podle dat MF.
 
 ## Co z řady plyne
 - Za 12 let vzrostly úspory obce z 0,7 na 39,5 mil. Kč. Jediný pokles byl v roce 2018 (−0,8 mil.).
 - **Volební období 2018–2022** (do 31. 12. 2022): z 10,0 na 27,3 mil., tedy +17,3 mil.
-- **Volební období 2022–2026** (do 31. 12. 2025): z 27,3 na 39,5 mil., tedy +12,2 mil. Formálně obec čerpala jen 26–29 % upraveného rozpočtu výdajů, to je ale zkresleno nečerpanou rezervou. Bez ní vychází čerpání 48–76 % (viz [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)).
+- **Volební období 2022–2026** (do 31. 12. 2025): z 27,3 na 39,5 mil., tedy +12,2 mil. Formálně obec čerpala jen 26–29 % upraveného rozpočtu výdajů, to je ale zkresleno nečerpanou rezervou. Bez ní vychází čerpání 48–76 % (viz [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html)).
 - Úvěr 8,6 mil. Kč od České spořitelny na rekonstrukci MŠ (smlouva z 19. 2. 2020) se nikdy nečerpal. Rozpočet s ním počítal (položka 8113), ale skutečné čerpání je nulové. Nárůst úspor tedy nepochází z úvěru.
 - Kromě běžného účtu měla obec do roku 2019 jen „ostatní dlouhodobý finanční majetek“ za zhruba 21 000 Kč, nejspíš členský podíl. Peněžní fondy nemá.
 
@@ -749,18 +749,18 @@ Stavy účtů jsou převzaté ze závěrečných účtů obce (roky 2014–2021 
 
 # Majetek a účetnictví obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-majetek.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-majetek.html (aktualizováno 2026-10-31)
 
 > Co obec Horní Domaslavice vlastní, jaké má náklady, výnosy, pohledávky a závazky a jak hospodaří mateřská škola, 2010–2025.
 
-Rozpočet ukazuje, kolik peněz obec přijala a vydala (viz [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)). Účetnictví ukazuje něco jiného: jaký majetek obec má (budovy, pozemky, peníze), komu dluží a kdo dluží jí, a jaký má účetní výsledek hospodaření. Tato stránka shrnuje rozvahu, výkaz zisku a ztráty a přílohu účetní závěrky obce Horní Domaslavice a její Mateřské školy za roky 2010–2025. Data pocházejí z otevřených dat Ministerstva financí (Monitor státní pokladny). Částky jsou v mil. Kč, zaokrouhlené na dvě desetinná místa, stav vždy k 31. 12. daného roku.
+Rozpočet ukazuje, kolik peněz obec přijala a vydala (viz [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html)). Účetnictví ukazuje něco jiného: jaký majetek obec má (budovy, pozemky, peníze), komu dluží a kdo dluží jí, a jaký má účetní výsledek hospodaření. Tato stránka shrnuje rozvahu, výkaz zisku a ztráty a přílohu účetní závěrky obce Horní Domaslavice a její Mateřské školy za roky 2010–2025. Data pocházejí z otevřených dat Ministerstva financí (Monitor státní pokladny). Částky jsou v mil. Kč, zaokrouhlené na dvě desetinná místa, stav vždy k 31. 12. daného roku.
 
 **Účetní jednotky:** obec Horní Domaslavice, IČO 00536008, a Mateřská škola Horní Domaslavice, příspěvková organizace, IČO 72547839 (podle ARES vznikla 15. 6. 2011, sídlo č. p. 78). Obec má výkazy za všechny roky 2010–2025, MŠ až od roku 2012.
 
 ## Ověření: rozvaha sedí
 
 - **Bilance:** aktiva se ve všech 16 letech rovnají pasivům na haléř.
-- **Peníze:** účet 231 (základní běžný účet) v rozvaze odpovídá na haléř stavům ze závěrečných účtů ve všech letech 2013–2025. K 31. 12. 2025 je to **39 494 904,53 Kč**, tedy 39,49 mil. Kč. V roce 2023 je navíc 9,00 mil. Kč na účtu 244 (termínovaný vklad), celkem tedy 28,11 mil. (viz [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html)). V roce 2016 rozvaha navíc ukazuje pokladnu 11 360 Kč.
+- **Peníze:** účet 231 (základní běžný účet) v rozvaze odpovídá na haléř stavům ze závěrečných účtů ve všech letech 2013–2025. K 31. 12. 2025 je to **39 494 904,53 Kč**, tedy 39,49 mil. Kč. V roce 2023 je navíc 9,00 mil. Kč na účtu 244 (termínovaný vklad), celkem tedy 28,11 mil. (viz [stavy účtů](https://hd-v-datech.cz/hd-ucty.html)). V roce 2016 rozvaha navíc ukazuje pokladnu 11 360 Kč.
 - **Inventarizační překlep 2021:** rozvaha 2021 uvádí na účtu 231 19 100 174,41 Kč. Tím se potvrzuje, že částka 19 089 112,62 Kč v inventarizační zprávě je chyba.
 - **Výsledek hospodaření** v rozvaze se na haléř rovná výsledku ve výkazu zisku a ztráty ve všech letech kromě roku 2011. Tam rozvaha uvádí 1 194 674,23 Kč a výkaz 1 196 461,26 Kč; rozdíl 1 787 Kč je ztráta z hospodářské (podnikatelské) činnosti obce v roce 2011, kterou rozvaha zahrnuje a výsledek hlavní činnosti ve výkazu ne. V ostatních letech je hospodářská činnost obce i MŠ nulová.
 
@@ -842,7 +842,7 @@ V letech 2010–2014 obec vykazovala všechny stavby v řádku „bytové domy�
 - **Dlouho vedená položka:** v letech 2010–2013 je na účtu 042 stále stejná částka **799 490 Kč** (2010 zaokrouhleně, 2011 a 2013 přesně 799 490,90 Kč). Byla tam tedy nejméně čtyři roky a nejspíš vznikla už před rokem 2010. V letech 2014–2017 se k ní jen přičítaly další částky (0,97 → 1,29 mil.), takže tam pravděpodobně zůstávala až do roku 2017. Zda byla v roce 2018 (−0,41 mil.) nebo 2021 zařazena do majetku, nebo odepsána, z výkazů vyčíst nelze. Typicky jde o projektové dokumentace staveb, které se nerealizovaly. Co to bylo, by ukázal inventurní soupis účtu 042.
 - **2012–2013:** 2,50 mil. investice z roku 2012 (podle rozpočtu paragraf 3319, ostatní kultura) se na rok „zaparkovaly“ v 042 a v roce 2013 byly zařazeny do staveb. Stavby brutto tehdy vzrostly o 4,24 mil., což odpovídá investici 2012 a opravě 1,99 mil. v roce 2013, kterou obec zjevně zčásti aktivovala.
 - **2020:** 6,37 mil. je rozestavěná rekonstrukce MŠ. Částka je vyšší než investice zaplacené v roce 2020 (4,61 mil.), protože k 31. 12. 2020 obec dlužila dodavatelům 2,28 mil. (viz závazky). V roce 2021 se stavba dokončila a zařadila.
-- **2024–2025:** v 042 je opět 0,83 a 1,00 mil. a nově 0,51 mil. záloh na dlouhodobý majetek (052). Jde o rozpracované akce, nejspíš hlavně projektovou dokumentaci MŠ a hřiště (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)). Které konkrétní akce to jsou, výkaz neuvádí.
+- **2024–2025:** v 042 je opět 0,83 a 1,00 mil. a nově 0,51 mil. záloh na dlouhodobý majetek (052). Jde o rozpracované akce, nejspíš hlavně projektovou dokumentaci MŠ a hřiště (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)). Které konkrétní akce to jsou, výkaz neuvádí.
 
 ## 2. Náklady a výnosy obce (výkaz zisku a ztráty)
 
@@ -885,7 +885,7 @@ V letech 2010–2014 obec vykazovala všechny stavby v řádku „bytové domy�
 | 2022–2025 | 21,88 | 20,81 | 3,72 | 3,13 | 0,42 |
 | **2014–2025** | **51,52** | **41,59** | **29,27** | **6,55** | **15,05** |
 
-Saldo a investice jsou převzaté z rozpočtových dat (viz [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)), ostatní je z rozvahy, výkazu zisku a ztráty a přílohy. Účetní výsledek je za 12 let o 9,9 mil. vyšší než rozpočtové saldo. Rozdíl zhruba vysvětlují investice, které nejsou nákladem (29,3 mil.), minus odpisy (6,6 mil.) a minus investiční dotace, které nejdou do výnosů, ale na účet 403 (15,1 mil.). Dohromady je to 7,7 mil. K tomu přistupuje rozpouštění účtu 403 do výnosů (1,65 mil. za 2014–2025) a časové rozlišení. Peníze na účtu vzrostly za stejné období o 38,8 mil. (0,70 → 39,49 mil.), o něco méně než saldo kvůli splátkám úvěrů a dalších závazků (viz oddíl 3).
+Saldo a investice jsou převzaté z rozpočtových dat (viz [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html)), ostatní je z rozvahy, výkazu zisku a ztráty a přílohy. Účetní výsledek je za 12 let o 9,9 mil. vyšší než rozpočtové saldo. Rozdíl zhruba vysvětlují investice, které nejsou nákladem (29,3 mil.), minus odpisy (6,6 mil.) a minus investiční dotace, které nejdou do výnosů, ale na účet 403 (15,1 mil.). Dohromady je to 7,7 mil. K tomu přistupuje rozpouštění účtu 403 do výnosů (1,65 mil. za 2014–2025) a časové rozlišení. Peníze na účtu vzrostly za stejné období o 38,8 mil. (0,70 → 39,49 mil.), o něco méně než saldo kvůli splátkám úvěrů a dalších závazků (viz oddíl 3).
 
 V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu (21,9 proti 20,8 mil.). Obec totiž skoro neinvestovala a velké akce (silnice) šly do nákladů jako opravy.
 
@@ -909,7 +909,7 @@ V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu
 | 2025 | 0,00 | 0,29 | 0,26 | 0,08 | 0,22 | 0,34 | 0,14 | 1,16 |
 
 - **Nedoplatky občanů:** účet 315 („jiné pohledávky z hlavní činnosti“) u obcí obvykle obsahuje nedoplatky místních poplatků, tedy hlavně za odpad a psy. Rozvaha je ale dál nerozepisuje. Do roku 2022 šlo o 0,02–0,13 mil. V letech 2023–2024 vyskočily na 0,32–0,34 mil. a v roce 2025 klesly na 0,26 mil. Od roku 2020 k nim obec tvoří opravnou položku (pochybné pohledávky), v roce 2024 0,09 mil. a v roce 2025 0,08 mil. Nárůst v roce 2023 časově sedí se zvýšením poplatku za odpad. Že jde právě o odpad, by potvrdil jen rozpis pohledávek v inventarizaci.
-- **Velké dohadné položky v letech 2018 a 2020** (2,57 a 4,84 mil.) jsou dotace, na které vznikl nárok, ale peníze ještě nepřišly. V roce 2020 jde o dotaci na MŠ. V roce 2021 ji obec dostala (investiční dotace 9,86 mil., viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)).
+- **Velké dohadné položky v letech 2018 a 2020** (2,57 a 4,84 mil.) jsou dotace, na které vznikl nárok, ale peníze ještě nepřišly. V roce 2020 jde o dotaci na MŠ. V roce 2021 ji obec dostala (investiční dotace 9,86 mil., viz [dotace](https://hd-v-datech.cz/hd-dotace.html)).
 - Zálohy na transfery (373, vyúčtovávané dotace spolkům a podobně) vzrostly v letech 2023–2025 na 0,17–0,22 mil.
 
 ### Závazky
@@ -959,7 +959,7 @@ V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu
 
 - **Ostatní majetek 1,54 mil.** vedený v podrozvaze v letech 2010–2024. V roce 2025 zmizel. Co to bylo a proč se v roce 2025 vyřadil, výkaz neříká.
 - **Ostatní dlouhodobá podmíněná aktiva 1,32 mil.**, beze změny od roku 2012 do roku 2025. Obsah výkaz neuvádí.
-- **Podmíněné pohledávky z přislíbených dotací:** 3,11 mil. (2018 a 2019), 10,87 mil. (2020), 1,44 mil. (2021) a pak nic až do roku 2025, kdy se objevuje **2,70 mil. Kč dlouhodobé podmíněné pohledávky z transferů**. Na konci roku 2025 tedy měla obec přislíbenou dotaci ve výši 2,70 mil. Kč. Výše odpovídá smlouvě s Moravskoslezským krajem na projektovou dokumentaci MŠ (max. 2 696 897 Kč, viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)); výkaz ale účel neuvádí.
+- **Podmíněné pohledávky z přislíbených dotací:** 3,11 mil. (2018 a 2019), 10,87 mil. (2020), 1,44 mil. (2021) a pak nic až do roku 2025, kdy se objevuje **2,70 mil. Kč dlouhodobé podmíněné pohledávky z transferů**. Na konci roku 2025 tedy měla obec přislíbenou dotaci ve výši 2,70 mil. Kč. Výše odpovídá smlouvě s Moravskoslezským krajem na projektovou dokumentaci MŠ (max. 2 696 897 Kč, viz [dotace](https://hd-v-datech.cz/hd-dotace.html)); výkaz ale účel neuvádí.
 - Jiný drobný hmotný majetek v operativní evidenci: 0,05 mil. (2016) → 0,52 mil. (2025).
 
 ## 4. Budova MŠ a rekonstrukce 2020–2021
@@ -1000,7 +1000,7 @@ V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu
 5. **Vlastní výnosy MŠ** (úplata a stravné, účty 601/602) jsou stabilně 0,4–0,7 mil. V roce 2020 klesly na 0,20 mil., což odpovídá omezenému provozu při rekonstrukci a covidu.
 6. **Peníze MŠ** jsou 1,39 mil. v roce 2025. Proti nim stojí fondy (0,45 mil.), krátkodobé závazky (0,55 mil., hlavně prosincové mzdy) a dlouhodobé přijaté zálohy na transfery (0,74 mil., předem obdržená dotace). Volné peníze tedy MŠ nehromadí.
 
-Další údaje o škole jsou na stránce [školství a sociální oblast](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+Další údaje o škole jsou na stránce [školství a sociální oblast](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ## Pozor (metodika a omezení)
 
@@ -1022,7 +1022,7 @@ Zdrojem jsou datové extrakty Monitoru státní pokladny Ministerstva financí z
 
 # Dotace obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-dotace.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-dotace.html (aktualizováno 2026-10-31)
 
 > Jaké dotace obec Horní Domaslavice a její mateřská škola získaly v letech 2010–2026, o které žádaly neúspěšně a jak číst čísla z veřejných databází.
 
@@ -1111,7 +1111,7 @@ K období 2022–2026 je třeba dodat:
 - Zbytek roku 2026 tvoří podané žádosti s neznámým výsledkem [Z].
 - Kompostéry za 1,42 mil. přišly v roce 2022. Patří tedy do období 2018–2022 a projekt i rozhodnutí jsou z roku 2020.
 
-Podle kalendářních let, jak je dělí stránka [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html): za **2018–2021** přišlo 12 024 018 Kč investičních dotací, za **2022–2025** 0 Kč [D].
+Podle kalendářních let, jak je dělí stránka [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html): za **2018–2021** přišlo 12 024 018 Kč investičních dotací, za **2022–2025** 0 Kč [D].
 
 ## 3. Souvislosti s rozborem výdajů
 
@@ -1144,7 +1144,7 @@ Podle kalendářních let, jak je dělí stránka [výdaje obce](https://dinkoto
 5. **ZÚ 2024 uvádí, že MŠ v roce 2024 dostala z OP JAK 235 017 Kč.** Monitor 2024 nemá žádný příjem 4116 a částka 235 017 je přesně Šablona III z roku 2021. Jde patrně o chybu v textu ZÚ; ověřit to přímo přes účetnictví MŠ nebylo možné.
 6. **Krajské dotace před rokem 2019 nejsou úplně identifikované.** Platí to pro roky 2010 (297 700), 2016 (133 600) a pro části let 2017 a 2018. Součty z Monitoru sedí, ale přiřazení ke smlouvám ne. U smlouvy na OÚ (408 000, čerpáno 391 470) není jasné, kdy přesně peníze přišly a co se vrátilo.
 7. **SZIF 348 640 (2021) je k dohodě o vybavení JSDH (398 978) přiřazen jen odvozeně [O].** Shoduje se zdroj (státní fond, 4213), rok i účel (6129, nákup majetku), ale výslovná vazba chybí.
-8. **MAS Pobeskydí:** přes místní akční skupinu šly chodník mezi hřbitovy (IROP CLLD) a vybavení JSDH (PRV). Spolky čerpaly přes MAS samy: Klub žen v roce 2025 na vybavení klubovny, SDH v roce 2026 na klubovnu. Tyto peníze nejdou přes rozpočet obce, obec jen dofinancovala podíl spolků darem (viz [spolky](https://dinkotom.github.io/hd-v-datech/hd-spolky.html)). Web MAS nebyl dostupný, takže seznam projektů MAS v obci nemusí být úplný.
+8. **MAS Pobeskydí:** přes místní akční skupinu šly chodník mezi hřbitovy (IROP CLLD) a vybavení JSDH (PRV). Spolky čerpaly přes MAS samy: Klub žen v roce 2025 na vybavení klubovny, SDH v roce 2026 na klubovnu. Tyto peníze nejdou přes rozpočet obce, obec jen dofinancovala podíl spolků darem (viz [spolky](https://hd-v-datech.cz/hd-spolky.html)). Web MAS nebyl dostupný, takže seznam projektů MAS v obci nemusí být úplný.
 9. **Rok 2026** v Monitoru zatím chybí. Výsledky žádostí z roku 2026 nejsou známy.
 10. **OCR:** tabulky ÚZ ze ZÚ 2017–2021 byly čteny přímo z naskenovaných stránek a sedí na korunu s Monitorem MF. Textové pasáže přezkumů pocházejí z OCR a mohou obsahovat překlepy.
 
@@ -1166,7 +1166,7 @@ Co se nepodařilo: databáze CEDR (cedropendata.mfcr.cz) nebyla dostupná, její
 
 # Veřejné zakázky obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-zakazky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-zakazky.html (aktualizováno 2026-10-31)
 
 > Přehled 18 veřejných zakázek obce Horní Domaslavice z let 2014–2026: kdo soutěžil, kdo vyhrál, za kolik a s jakými dodatky.
 
@@ -1206,7 +1206,7 @@ Ve Věstníku veřejných zakázek (VVZ) jsou k těmto zakázkám tyto formulá�
 
 Zakázky malého rozsahu se do VVZ neuveřejňují, uveřejňují se jen na profilu. Výzva k projektové dokumentaci MŠ proto ve VVZ není. Profil obce je ve VVZ zaregistrovaný pod evidenčním číslem 506517 od 28. 1. 2015 **[D]**.
 
-Smlouvy z profilu a jejich vztah k registru smluv rozebírá stránka [registr smluv](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html).
+Smlouvy z profilu a jejich vztah k registru smluv rozebírá stránka [registr smluv](https://hd-v-datech.cz/hd-registr-smluv.html).
 
 ## 2. Srovnání s archivem webu obce
 
@@ -1251,7 +1251,7 @@ Ceny ve smlouvách z webu (LOMPARK 2 065 672,24 Kč, BESKYDGROUP oplocení 1 951
 ### 3.1 Projektová dokumentace MŠ (2025)
 
 Údaje doložené z profilu **[D]**:
-- Výzvu obec uveřejnila na profilu 22. 9. 2025, nabídky šlo podávat do 3. 10. 2025. Předpokládaná hodnota byla 1 918 000 Kč bez DPH a zakázka je dotovaná z programu „Vouchery pro veřejný sektor – příprava projektů v MSK“ (viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)).
+- Výzvu obec uveřejnila na profilu 22. 9. 2025, nabídky šlo podávat do 3. 10. 2025. Předpokládaná hodnota byla 1 918 000 Kč bez DPH a zakázka je dotovaná z programu „Vouchery pro veřejný sektor – příprava projektů v MSK“ (viz [dotace](https://hd-v-datech.cz/hd-dotace.html)).
 - Hodnoticí komisi jmenovalo zastupitelstvo (zápis ze zasedání ZO č. 24, usnesení 361/24/2025) **[Z]**.
 - Přišly **4 nabídky:**
 
@@ -1314,14 +1314,14 @@ Obě zakázky byly **zjednodušené podlimitní řízení** a ve VVZ mají ozná
 - **MK1** (uveřejněno 24. 1. 2023): předpokládaná hodnota 11 653 137,74 Kč, **10 nabídek**. Vyhrál STRABAG za 7 581 200 Kč bez DPH, tj. 65 % předpokládané hodnoty **[O]**. Smlouvu obec podepsala 5. 4. 2023. Nejdražší nabídku (13,18 mil.) podaly Strojírny a stavby Třinec.
 - **MK 5 + MK 10** (jedna zakázka, uveřejněno 26. 6. 2024): předpokládaná hodnota 7 558 183 Kč, **6 nabídek**. Vyhrály Strojírny a stavby Třinec za 4 705 961,41 Kč bez DPH, tj. 62 % předpokládané hodnoty **[O]**. Smlouvu obec podepsala 14. 8. 2024. Druhý PORR nabízel jen o 100 tis. více. Smlouva počítá s dodatkem podle skutečných výměr, ten ale na profilu není **[D]**.
 
-Obě opravy obec zaplatila z vlastních peněz, viz [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html) a [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+Obě opravy obec zaplatila z vlastních peněz, viz [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html) a [dotace](https://hd-v-datech.cz/hd-dotace.html).
 
 ### 3.5 Obecní dům: čtyři akce, část prací mimo profil
 
 1. **Zateplení Obecního domu**, 2014/2015 (FABRIKO MORAVA, 1 485 712 Kč bez DPH) **[D]**.
 2. **Elektroinstalace**, 2025: předpokládaná hodnota 969 248 Kč, **6 nabídek**. Vyhrál ELBAU-MONT za 759 515,92 Kč bez DPH. Smlouvu obec podepsala 11. 12. 2025 **[D]**.
 3. **Stavební úpravy**, 2026: předpokládaná hodnota 1 041 418 Kč, **5 nabídek**. Vyhrála Aklera Corp za 1 120 118,83 Kč, a to stejnou částkou bez i s DPH, takže firma je zjevně neplátce DPH **[O]**. Hodnotilo se podle ceny včetně DPH. **Bez DPH byly levnější Kowollik s.r.o. (941 153,26) i ELBAU-MONT (942 232,24)** **[D]**. Smluvní cena je o 7,6 % nad předpokládanou hodnotou **[O]**.
-4. **Akustické prvky a panely, lišty a dlažba**: obec je objednala u **LF Interiéry s.r.o.** na základě cenových nabídek (3 nabídky na akustiku, 2 na panely), usneseními 390/26/2025 a 391/26/2025 z 11. 12. 2025 (pro 7, proti 3) **[Z]**. Na profilu nejsou a částky zápis neuvádí; podle závěrečného účtu 2025 činila objednávka akustických panelů 514 733 Kč (viz [registr smluv](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html)). Na zasedání ZO č. 25 byla akustika odhadována „přes 400 tis. Kč“ **[Z]**. Celkové náklady rekonstrukce Obecního domu jsou podle zápisu ze zasedání ZO č. 30 „řádově do 2 milionů“ **[Z]**.
+4. **Akustické prvky a panely, lišty a dlažba**: obec je objednala u **LF Interiéry s.r.o.** na základě cenových nabídek (3 nabídky na akustiku, 2 na panely), usneseními 390/26/2025 a 391/26/2025 z 11. 12. 2025 (pro 7, proti 3) **[Z]**. Na profilu nejsou a částky zápis neuvádí; podle závěrečného účtu 2025 činila objednávka akustických panelů 514 733 Kč (viz [registr smluv](https://hd-v-datech.cz/hd-registr-smluv.html)). Na zasedání ZO č. 25 byla akustika odhadována „přes 400 tis. Kč“ **[Z]**. Celkové náklady rekonstrukce Obecního domu jsou podle zápisu ze zasedání ZO č. 30 „řádově do 2 milionů“ **[Z]**.
 
 ## 4. Zjištění
 
@@ -1368,7 +1368,7 @@ Obě opravy obec zaplatila z vlastních peněz, viz [výdaje obce](https://dinko
   - Zápis ze zasedání ZO č. 28 uvádí, že odstoupivší firma nabídla v 2. kole „o 800 000 Kč více“. Skutečný rozdíl mezi nabídkami Sportovních podlah Zlín v 1. a 2. kole je 454 900,45 Kč s DPH **[O]**.
 - **Hřiště u Obecního domu:** zápisy ze zasedání ZO č. 30 a 31 se liší v tom, zda smlouva s firmou MERAT byla podepsána. Na profilu smlouva s firmou MERAT ani odstoupení od ní nejsou **[D]**.
 - **Stavební úpravy Obecního domu:** hodnocení podle ceny s DPH zvýhodnilo neplátce DPH. Zda obec u této akce DPH odpočítává (pak by kritérium bez DPH bylo pro obec výhodnější), z veřejných dat nevyplývá **[O]**.
-- **Registr smluv:** u všech 17 smluv na profilu je stav v informačním systému registru smluv „Nezveřejněna“ a Hlídač státu eviduje za obec jen 9 smluv (569 048 Kč). Obec bez rozšířené působnosti ale povinnost zveřejňovat v registru smluv nemá, podrobně viz [registr smluv](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html).
+- **Registr smluv:** u všech 17 smluv na profilu je stav v informačním systému registru smluv „Nezveřejněna“ a Hlídač státu eviduje za obec jen 9 smluv (569 048 Kč). Obec bez rozšířené působnosti ale povinnost zveřejňovat v registru smluv nemá, podrobně viz [registr smluv](https://hd-v-datech.cz/hd-registr-smluv.html).
 - **Zateplení Obecního domu 2015:** uveřejnění na profilu (30. 1. 2015) je datováno po lhůtě pro nabídky (5. 1. 2015) i po podpisu smlouvy (14. 1. 2015). Zakázka byla na profil zřejmě vložena dodatečně **[O]**.
 - **OCR:** ceny u zakázek z roku 2015, údaje o veřejném osvětlení 2021 a některé dodatky pocházejí ze strojového čtení skenů (OCR). Před citací je vhodné je ověřit v PDF na profilu.
 
@@ -1389,7 +1389,7 @@ Výzvu „Kompostéry 2015“ se z profilu stáhnout nepodařilo. Projektové do
 
 # Registr smluv
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-registr-smluv.html (aktualizováno 2026-10-31)
 
 > Které smlouvy obce Horní Domaslavice a její mateřské školy jsou veřejně dostupné v registru smluv a na profilu zadavatele a proč jich v registru není víc.
 
@@ -1404,7 +1404,7 @@ Obec Horní Domaslavice: IČO 00536008, datová schránka gr4bkxm. Mateřská š
 3. U MŠ je v registru **10 smluv** (mzdová agenda a vzdělávání u KVIC, plavání ve Sportplexu Frýdek-Místek). Všechny vložila protistrana a ani jedna nemá uvedenou cenu.
 4. **Velké smlouvy obce v registru nejsou** (např. KANIA, d21 architekti, Sportovní podlahy Zlín, TISPOL, ALPINE, LOMPARK, smlouvy s bankami ani se svozovou firmou FCC).
 5. **Obec ale tuto povinnost nemá:** podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. se povinnost zveřejnit smlouvu v registru **nevztahuje** na smlouvy, jejichž stranou je obec bez rozšířené působnosti nebo její příspěvková organizace. Horní Domaslavice obcí s rozšířenou působností (ORP) nejsou; ORP je Frýdek-Místek. **Chybějící smlouvy proto podle doslovného znění zákona porušením zákona o registru smluv nejsou.** Podrobnosti jsou v oddílu 2.
-6. Obec zveřejňuje smlouvy na veřejné zakázky na **profilu zadavatele** (vhodne-uverejneni.cz). Je tam **17 smluv z let 2015–2026** v hodnotě zhruba **30,5 mil. Kč bez DPH** a k tomu rekonstrukce MŠ za 10,7 mil. Kč (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)). Profil sám u všech 17 smluv uvádí „Stav v ISRS: Nezveřejněna“, tedy že nejsou v registru smluv.
+6. Obec zveřejňuje smlouvy na veřejné zakázky na **profilu zadavatele** (vhodne-uverejneni.cz). Je tam **17 smluv z let 2015–2026** v hodnotě zhruba **30,5 mil. Kč bez DPH** a k tomu rekonstrukce MŠ za 10,7 mil. Kč (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)). Profil sám u všech 17 smluv uvádí „Stav v ISRS: Nezveřejněna“, tedy že nejsou v registru smluv.
 7. Ze závěrečného účtu za rok 2025 jsou známy smlouvy a objednávky nad 50 000 Kč, které nejsou ani v registru, ani na profilu: d21 architekti (284 000 Kč bez DPH), LF Interiéry (514 733 Kč), opravy komunikací (194 810 Kč) a TISPOL (54 450 Kč, pravděpodobně s DPH). Zákonnou povinnost je zveřejnit obec nemá; jde o otázku dobrovolné transparentnosti.
 
 ## 2. Právní rámec: proč v registru nic není
@@ -1455,7 +1455,7 @@ Roky jsou podle data uzavření smlouvy.
 | 8 | 30. 11. 2022 | 22. 12. 2022 | KVIC Nový Jičín | 62330403 | Dodatek ke smlouvě o zpracování mzdové agendy | neuvedena | https://smlouvy.gov.cz/smlouva/22851409 |
 | 9 | 8. 7. 2024 | 12. 7. 2024 | KVIC Nový Jičín | 62330403 | Dodatek č. 2 smlouvy ZMA (zpracování mzdové agendy) | neuvedena (důvod: „konkurenční znevýhodnění“) | https://smlouvy.gov.cz/smlouva/29453228 |
 
-Smlouvy č. 1, 2 a 7 jsou dotace pro obec (viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)). Č. 3, 6, 8 a 9 jsou mzdová agenda u krajského zařízení. Č. 4 a 5 jsou objednávky u TS a.s. Stejného dne jako objednávku obce z roku 2018 (93 004 Kč) vložila TS a.s. i objednávku pro Římskokatolickou farnost Domaslavice (99 550 Kč, https://smlouvy.gov.cz/smlouva/6325567). Předmět obou objednávek z metadat registru zjistit nelze.
+Smlouvy č. 1, 2 a 7 jsou dotace pro obec (viz [dotace](https://hd-v-datech.cz/hd-dotace.html)). Č. 3, 6, 8 a 9 jsou mzdová agenda u krajského zařízení. Č. 4 a 5 jsou objednávky u TS a.s. Stejného dne jako objednávku obce z roku 2018 (93 004 Kč) vložila TS a.s. i objednávku pro Římskokatolickou farnost Domaslavice (99 550 Kč, https://smlouvy.gov.cz/smlouva/6325567). Předmět obou objednávek z metadat registru zjistit nelze.
 
 ### 4.2 Mateřská škola Horní Domaslavice (10 smluv; MŠ vždy jako protistrana)
 
@@ -1472,7 +1472,7 @@ Smlouvy č. 1, 2 a 7 jsou dotace pro obec (viz [dotace](https://dinkotom.github.
 | 9 | 7. 3. 2024 | 8. 3. 2024 | Sportplex Frýdek-Místek, s.r.o. | 26829495 | Zabezpečení výuky plávání dětí MŠ (VP-PUŠ 2024/15) | neuvedena | https://smlouvy.gov.cz/smlouva/27910927 |
 | 10 | 12. 8. 2024 | 19. 8. 2024 | KVIC Nový Jičín | 62330403 | Dodatek č. 2 smlouvy o zpracování mzdové agendy | neuvedena | https://smlouvy.gov.cz/smlouva/29845612 |
 
-Fulltextové hledání „Horní Domaslavice“ v registru (632 výsledků) bylo prošlé celé. Kromě výše uvedených smluv jde o smlouvy jiných subjektů, kde se obec jen zmiňuje v textu: VZP, ODIS, Lesy ČR, Povodí Odry, Správa silnic MSK a další. Obec v nich stranou není. Dvě z nich se obce týkají věcně: Správa silnic MSK uzavřela smlouvu o dílo na projektovou dokumentaci rozšíření silnice III/4735 Horní Domaslavice (Geoengineering, 391 470 Kč, 2021, a dodatek 66 550 Kč, 2022). Krajské dotace spolkům v obci (SDH, Klub žen, zahrádkáři) jsou smlouvy spolků, ne obce (viz [spolky](https://dinkotom.github.io/hd-v-datech/hd-spolky.html)).
+Fulltextové hledání „Horní Domaslavice“ v registru (632 výsledků) bylo prošlé celé. Kromě výše uvedených smluv jde o smlouvy jiných subjektů, kde se obec jen zmiňuje v textu: VZP, ODIS, Lesy ČR, Povodí Odry, Správa silnic MSK a další. Obec v nich stranou není. Dvě z nich se obce týkají věcně: Správa silnic MSK uzavřela smlouvu o dílo na projektovou dokumentaci rozšíření silnice III/4735 Horní Domaslavice (Geoengineering, 391 470 Kč, 2021, a dodatek 66 550 Kč, 2022). Krajské dotace spolkům v obci (SDH, Klub žen, zahrádkáři) jsou smlouvy spolků, ne obce (viz [spolky](https://hd-v-datech.cz/hd-spolky.html)).
 
 ## 5. Statistiky Hlídače státu
 
@@ -1486,7 +1486,7 @@ Stav k 30. 10. 2026:
 - Osoby s vazbou: 0.
 - **Napojení dodavatelů na politiky:** u jediného dodavatele z registru Hlídač nic neuvádí. U dodavatelů ze zakázek (KANIA, STRABAG, Sportovní podlahy Zlín a další) vazby ověřovány nebyly; na Hlídači jsou dostupné jen po přihlášení a evidence skutečných majitelů je podle upozornění Hlídače od 17. 12. 2025 veřejnosti nepřístupná.
 - Veřejné zakázky: obec je zadavatelem u 25 záznamů na podstránce a 18 na přehledu. Rozdíl dělají duplicity mezi Věstníkem veřejných zakázek a profilem. Jako dodavatel nefiguruje. Profil zadavatele je od 28. 1. 2015.
-- Dotace: 43 přijatých dotací za zhruba 30 mil. Kč (2010–2025), s MŠ 48 dotací za zhruba 41 mil. Kč. Tato čísla nadhodnocují skutečně přijaté peníze, viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+- Dotace: 43 přijatých dotací za zhruba 30 mil. Kč (2010–2025), s MŠ 48 dotací za zhruba 41 mil. Kč. Tato čísla nadhodnocují skutečně přijaté peníze, viz [dotace](https://hd-v-datech.cz/hd-dotace.html).
 - Vozový park: 5 vozidel.
 
 ## 6. Smlouvy na profilu zadavatele (vhodne-uverejneni.cz)
@@ -1521,7 +1521,7 @@ Profil uvádí u všech 17 smluv „Stav v ISRS: Nezveřejněna“. Ceny i dodav
 - **Stavební úpravy obecního domu:** vybrán byl Aklera Corp (1 120 119 Kč) a ten **nebyl nejlevnější bez DPH**. Levnější byly Kowollik s.r.o. (941 153), ELBAU-MONT (942 232) a Kantora s.r.o. (1 049 308 Kč bez DPH). Nabídka Akleru má stejnou cenu bez DPH i s DPH. **Odvozeno:** dodavatel je zřejmě neplátce DPH, a pokud obec u této akce nemá nárok na odpočet DPH, může být jeho nabídka pro obec ve skutečnosti nejlevnější (1 120 119 proti 1 138 795 Kč s DPH u Kowollik). Hodnoticí kritéria nebyla ověřována.
 - **Oprava chodníků uvnitř hřbitova:** nabídka byla 1 127 426 Kč, smluvní cena po dodatku 1 336 974 Kč bez DPH, tedy o 18,6 % víc.
 - **Hřiště:** smlouva je uzavřená 7. 5. 2026 a na profil vložená 7. 7. 2026, tedy po 61 dnech. Zákonná lhůta je 30 dní (§ 219 ZZVZ, cena nad 1 mil. Kč). **Odvozeno:** pokud je datum vložení správné, mohlo jít o opožděné zveřejnění; datum ale může odrážet nahrání nové verze (viz Pozor, bod 4).
-- **Zpevněná sportovní plocha u hasičské klubovny:** první řízení (2025) bylo zrušeno, druhé je bez výsledku a smlouva zatím není (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)).
+- **Zpevněná sportovní plocha u hasičské klubovny:** první řízení (2025) bylo zrušeno, druhé je bez výsledku a smlouva zatím není (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)).
 
 ## 7. Srovnání s dalšími známými smlouvami
 
@@ -1534,7 +1534,7 @@ Profil uvádí u všech 17 smluv „Stav v ISRS: Nezveřejněna“. Ceny i dodav
 | Zimní údržba komunikací (smlouva od 2013) + dodatky | **ne** | **ne** | smlouva ani částka nejsou veřejně dostupné; výdaje 2212/5169 (silnice – služby) rostly ze 172 tis. (2018) na 1 175 tis. Kč (2025), ale kolik z toho je zimní údržba, z dat MF poznat nelze |
 | ALPINE Bau CZ a.s. (IČO 02604795), oprava vozovky ÚK 23, 495 765 Kč bez DPH, 27. 9. 2017 | **ne** | **ano** | |
 | LOMPARK s.r.o. (IČO 01914235), chodník mezi hřbitovy 1 707 167 Kč a chodníky uvnitř hřbitova 1 336 974 Kč bez DPH, 2018 | **ne** | **ano** (obě i s dodatky) | |
-| Česká spořitelna, úvěr 8,6 mil. Kč, 19. 2. 2020 | **ne** | **ne** | nejde o veřejnou zakázku podle ZZVZ, takže na profil nepatří; úvěr nebyl čerpán (viz [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html)) |
+| Česká spořitelna, úvěr 8,6 mil. Kč, 19. 2. 2020 | **ne** | **ne** | nejde o veřejnou zakázku podle ZZVZ, takže na profil nepatří; úvěr nebyl čerpán (viz [stavy účtů](https://hd-v-datech.cz/hd-ucty.html)) |
 | Komerční banka, termínovaný vklad 9 mil. Kč, 10/2023 | **ne** | **ne** | dtto |
 | FCC Česká republika (odpady) | **ne** | **částečně**: jen cenová příloha 2024, cena i dodavatel skryty v metadatech | výdaje na odpady 3722/5169: 559 tis. (2016) → 1 419 tis. Kč (2025) |
 
@@ -1557,11 +1557,11 @@ Kontrola řádů (odvozeno): výdaje v Monitoru MF velikostí odpovídají smlou
 
 ## 9. Pozor: výhrady
 
-1. **Hlavní výhrada:** „není v registru“ **neznamená porušení zákona**. Obec bez ORP a její příspěvková organizace mají výjimku podle § 3 odst. 2 písm. k) zákona 340/2015 Sb. Téma je proto namístě chápat jako otázku **dobrovolné transparentnosti**, ne nezákonnosti. Některé obce bez ORP zveřejňují dobrovolně; např. sousední Dolní Domaslavice mají v registru nejméně 16 vlastních smluv z let 2016–2026 (viz [srovnání majetku a zakázek](https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.html)).
+1. **Hlavní výhrada:** „není v registru“ **neznamená porušení zákona**. Obec bez ORP a její příspěvková organizace mají výjimku podle § 3 odst. 2 písm. k) zákona 340/2015 Sb. Téma je proto namístě chápat jako otázku **dobrovolné transparentnosti**, ne nezákonnosti. Některé obce bez ORP zveřejňují dobrovolně; např. sousední Dolní Domaslavice mají v registru nejméně 16 vlastních smluv z let 2016–2026 (viz [srovnání majetku a zakázek](https://hd-v-datech.cz/srovnani-majetek-zakazky.html)).
 2. Že Horní Domaslavice nejsou ORP, je obecně známý údaj (ORP Frýdek-Místek). V registru územní identifikace nebyl zvlášť ověřován.
 3. Hranice v § 219 ZZVZ: aktuální znění (1 mil. Kč, 30 dní) je ověřené. Starší hodnoty (500 000 Kč, 15 dní) ověřené nejsou, proto u starších smluv není hodnoceno, zda byly vloženy včas.
 4. „Datum vložení“ na profilu může odrážet nahrání nové verze, ne první zveřejnění. Všechny zakázky mají poslední verzi ze 7. 7. 2026. Údaj o 61 dnech u hřiště je proto třeba brát s rezervou, dokud se neověří v historii profilu.
-5. U rekonstrukce MŠ (Haospol) profil uvádí 10 738 397,03 Kč jako cenu s DPH a cenu bez DPH nemá. Předpokládaná hodnota byla 10 041 149 Kč bez DPH. Podle oznámení ve Věstníku veřejných zakázek je původní cena 8 874 708,29 Kč bez DPH (10 738 397,03 Kč s DPH), viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html).
+5. U rekonstrukce MŠ (Haospol) profil uvádí 10 738 397,03 Kč jako cenu s DPH a cenu bez DPH nemá. Předpokládaná hodnota byla 10 041 149 Kč bez DPH. Podle oznámení ve Věstníku veřejných zakázek je původní cena 8 874 708,29 Kč bez DPH (10 738 397,03 Kč s DPH), viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html).
 6. U veřejného osvětlení (ENCO) chybí cena na stránce smlouvy. Uvedena je nabídková cena vybraného účastníka.
 7. Detaily zakázek na Hlídači státu (ceny, dodavatelé, vazby na politiky) jsou jen pro přihlášené. Ceny jsou proto z profilu zadavatele. Vazby dodavatelů na politiky ověřeny nebyly.
 8. Výpočty bez DPH u TISPOLu jsou odvozené z podílu 1,21. Skutečné doklady k dispozici nebyly.
@@ -1583,7 +1583,7 @@ Staženo 30. 10. 2026:
 
 # Výstavba a infrastruktura
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-vystavba.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-vystavba.html (aktualizováno 2026-10-31)
 
 > Kolik domů se v Horních Domaslavicích staví, jaký majetek obec vykazuje, jak je to s vodovodem a kanalizací a kolik ploch pro bydlení zbývá.
 
@@ -1660,7 +1660,7 @@ Data dokončení u starých domů jsou v RÚIAN jen orientační. Hodnoty jako 3
 | 2022–2025 | 39 | 41 | 186 | +101 | 2,5 | 10,2 |
 | **2001–2025** | **218** | **209** | **949** | **+542** | **2,6** | **8,4** |
 
-Údaje o stěhování pocházejí z ČSÚ (tabulka OBY01B01), podrobněji na stránce [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html).
+Údaje o stěhování pocházejí z ČSÚ (tabulka OBY01B01), podrobněji na stránce [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.html).
 
 **Odvozeno:**
 - Na jeden dokončený byt připadá v průměru zhruba 2,6 člověka čistého přírůstku stěhováním. To odpovídá rodině s dítětem a ukazuje, že růst obce prakticky celý stojí na nových domech.
@@ -1675,7 +1675,7 @@ Data dokončení u starých domů jsou v RÚIAN jen orientační. Hodnoty jako 3
 
 ## 2. Majetek obce v rozvaze
 
-Seznam pozemků a staveb ve vlastnictví obce z veřejně dostupných otevřených dat sestavit nelze: RÚIAN vlastníky neobsahuje a Nahlížení do katastru nemovitostí neumožňuje vyhledávat podle vlastníka. Z veřejných dat lze hned zjistit hodnotu majetku v účetní rozvaze obce (Ministerstvo financí, Monitor státní pokladny). Další údaje o majetku jsou na stránce [Majetek obce](https://dinkotom.github.io/hd-v-datech/hd-majetek.html).
+Seznam pozemků a staveb ve vlastnictví obce z veřejně dostupných otevřených dat sestavit nelze: RÚIAN vlastníky neobsahuje a Nahlížení do katastru nemovitostí neumožňuje vyhledávat podle vlastníka. Z veřejných dat lze hned zjistit hodnotu majetku v účetní rozvaze obce (Ministerstvo financí, Monitor státní pokladny). Další údaje o majetku jsou na stránce [Majetek obce](https://hd-v-datech.cz/hd-majetek.html).
 
 Hodnoty jsou v mil. Kč k 31. 12., u staveb jde o zůstatkovou hodnotu.
 
@@ -1725,7 +1725,7 @@ Pro východní část obce je relevantní i územní plán Dolních Domaslavic (
 **Odvozeno:**
 - Tvrzení o nepovolování přípojek je doloženo jen dokumentem obce. Od provozovatele SmVaK není k dispozici žádný veřejný údaj, ani seznam lokalit, ani rozhodnutí o odmítnutých přípojkách.
 - Nepřímo ho podporuje RÚIAN: 7 domů je vedeno „bez vodovodu“ a 6 z nich bylo dokončeno v letech 2013–2024. U novostaveb je to neobvyklé. Atribut RÚIAN ale nerozlišuje veřejný vodovod od vlastní studny, takže jde o slabý doklad.
-- Obec za 16 let (2010–2025) podle rozpočtových dat do vodovodu nevydala nic (viz [Výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)). Investice 4 mil. Kč se v rozpočtových výhledech posouvá z roku 2023 na rok 2026. Ve schváleném rozpočtu 2026 uvedena není.
+- Obec za 16 let (2010–2025) podle rozpočtových dat do vodovodu nevydala nic (viz [Výdaje obce](https://hd-v-datech.cz/hd-vydaje.html)). Investice 4 mil. Kč se v rozpočtových výhledech posouvá z roku 2023 na rok 2026. Ve schváleném rozpočtu 2026 uvedena není.
 
 ### 3.3 Tvrzení „kanalizace neexistuje“
 
@@ -1734,7 +1734,7 @@ Pro východní část obce je relevantní i územní plán Dolních Domaslavic (
 - Sčítání 2021 uvádí 0 % domů napojených na kanalizační síť, 76 % se žumpou a 21 % s vlastní ČOV.
 - Návrh zprávy o uplatňování 2025: „kanalizace ani ČOV dosud není vybudována“. V územně analytických podkladech (ÚAP) 2024 se uvádí „absence kanalizační sítě s ČOV … vzhledem k velikosti území obce a k jeho rozptýlené zástavbě je budování kanalizace pro obec neekonomické“.
 - Územní plán 2011 navrhuje gravitační splaškovou kanalizaci se třemi výtlačnými úseky a dvě ČOV. ČOV 1 u Lučiny je spojená s Vojkovicemi (710 EO), ČOV 2 u centra má 260 EO, celkem 970 EO. Ve Změně č. 1 jsou vedeny jako VT3 a VT4 mezi veřejně prospěšnými stavbami. Změna č. 1 navíc doplnila, že do jejich výstavby se odpadní vody řeší decentrálně, přednostně domovními ČOV.
-- Obec přispívá na výměnu žumpy nebo septiku za domovní ČOV částkou až 50 tis. Kč (usnesení 104/5/2023, znovu zasedání ZO č. 24 ze dne 18. 9. 2025). Viz též [Dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+- Obec přispívá na výměnu žumpy nebo septiku za domovní ČOV částkou až 50 tis. Kč (usnesení 104/5/2023, znovu zasedání ZO č. 24 ze dne 18. 9. 2025). Viz též [Dotace](https://hd-v-datech.cz/hd-dotace.html).
 
 **Odvozeno:** U novostaveb se domovní ČOV prosadily. U domů z let 2022–2026 má vlastní ČOV 34 ze 48 (71 %). U domů z let 2016–2021 je to 40 %, u let 2001–2015 23 % a u domů do roku 2000 méně než 1 %.
 
@@ -1767,7 +1767,7 @@ Kartu obce z PRVKÚK MSK se nepodařilo získat: web https://prvk.msk.cz 30. 10.
 - Nabídka ploch tedy růst obce neomezuje. Omezením může být infrastruktura (vodovod, silnice, MŠ) a ochota vlastníků prodávat. Změna č. 1 sama zmiňuje, že část vlastníků s prodejem „spekulativně čeká“.
 - 257 domů by při 2,6 obyvatele čistého přírůstku na byt znamenalo asi +670 obyvatel, tedy zhruba 1 780 obyvatel. To je výrazně víc než výhled 1 250–1 300 do roku 2037. Výpočet je jen ilustrační horní mez.
 
-Srovnání ploch a zástavby se sousedními obcemi je na stránkách [Srovnání: plochy](https://dinkotom.github.io/hd-v-datech/srovnani-plochy.html), [Srovnání: zástavba](https://dinkotom.github.io/hd-v-datech/srovnani-zastavba.html) a [Srovnání: obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html).
+Srovnání ploch a zástavby se sousedními obcemi je na stránkách [Srovnání: plochy](https://hd-v-datech.cz/srovnani-plochy.html), [Srovnání: zástavba](https://hd-v-datech.cz/srovnani-zastavba.html) a [Srovnání: obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html).
 
 ## Pozor
 
@@ -1791,7 +1791,7 @@ Srovnání ploch a zástavby se sousedními obcemi je na stránkách [Srovnání
 
 # Školství a sociální situace
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-skolstvi-socialni.html (aktualizováno 2026-10-31)
 
 > Mateřská škola, spádové základní školy, nezaměstnanost, exekuce, kriminalita, ovzduší a dostupnost zdravotních a sociálních služeb v Horních Domaslavicích.
 
@@ -1807,7 +1807,7 @@ Stránka shrnuje veřejně dostupná data o školství, sociální situaci, bezp
 - **Ovzduší:** podle pětiletého průměru 2020–2024 je v obci benzo(a)pyren 1,2–1,3 ng/m³, tedy nad imisním limitem 1 ng/m³. PM10 (20 µg/m³) a PM2,5 (15 µg/m³) jsou pod limity. Hodnoty od období 2015–2019 výrazně klesají.
 - **Zdravotní a sociální služby:** v obci nesídlí ani neposkytuje služby žádný registrovaný poskytovatel zdravotních ani sociálních služeb. Nejbližší praktický lékař, pediatr, gynekolog a zubař ordinují v Dobré (č. p. 78). Nejbližší sociální služba je domov se zvláštním režimem DZR Pohoda v Dolních Domaslavicích (46 lůžek).
 
-Srovnání se sousedními obcemi je na stránce [Srovnání: školství a sociální situace](https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.html).
+Srovnání se sousedními obcemi je na stránce [Srovnání: školství a sociální situace](https://hd-v-datech.cz/srovnani-skolstvi-socialni.html).
 
 ---
 
@@ -1851,7 +1851,7 @@ Výkonové výkazy MŠMT (S 1-01) se za jednotlivé školy veřejně nepublikuj�
 | 2023 | 44 | 44 | Demografická studie, tab. 7 (naplněnost 100 %) |
 | inspekce 25.–27. 9. 2024 | 42 (dvě věkově smíšené třídy, z toho 5 dětí mladších 3 let) | 44 | Inspekční zpráva ČŠIT-1985/24-T |
 
-Vývoj počtu narozených dětí v obci je na stránce [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html).
+Vývoj počtu narozených dětí v obci je na stránce [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.html).
 
 ### 1.4 Zápisy: přijaté a nepřijaté děti
 
@@ -2058,8 +2058,8 @@ Ročenka vymezení publikuje mapou a tabulkami za zóny, aglomerace a kraje. Sez
 
 ### 6.3 Vytápění a kotlíkové dotace
 
-- Podle Sčítání 2021 topí uhlím, koksem nebo uhelnými briketami **69 z 324 obydlených bytů (21 %)**, dřevem 72 (22 %), elektřinou 85, zemním plynem 37, tepelným čerpadlem 27 a peletami 13. V okrese je to uhlím 6 897 z 83 270 bytů (8 %), v kraji 5 % a v ČR 5 %. Podrobněji na stránce [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html).
-- Kotlíkové dotace MSK, 4. výzva: obec se zavázala přispět 7 500 Kč na každou výměnu kotle a vyčlenila celkem 75 000 Kč (Informátor 2022, zápis ze zasedání ZO č. 26 ze dne 7. 4. 2022). Hlídač státu eviduje vztah obce ke „Kotlíkovým dotacím v MSK – 4. grantové schéma“ s částkami 15 000 Kč (2022) a 19 500 Kč (2023). Jde o příspěvek obce kraji, ne o příjem obce (viz [Dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)). V roce 2023 obec na položce 6342 vydala 30 000 Kč, což by odpovídalo 4 kotlům. **Počet vyměněných kotlů v obci podle krajských dat dohledat nelze.**
+- Podle Sčítání 2021 topí uhlím, koksem nebo uhelnými briketami **69 z 324 obydlených bytů (21 %)**, dřevem 72 (22 %), elektřinou 85, zemním plynem 37, tepelným čerpadlem 27 a peletami 13. V okrese je to uhlím 6 897 z 83 270 bytů (8 %), v kraji 5 % a v ČR 5 %. Podrobněji na stránce [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.html).
+- Kotlíkové dotace MSK, 4. výzva: obec se zavázala přispět 7 500 Kč na každou výměnu kotle a vyčlenila celkem 75 000 Kč (Informátor 2022, zápis ze zasedání ZO č. 26 ze dne 7. 4. 2022). Hlídač státu eviduje vztah obce ke „Kotlíkovým dotacím v MSK – 4. grantové schéma“ s částkami 15 000 Kč (2022) a 19 500 Kč (2023). Jde o příspěvek obce kraji, ne o příjem obce (viz [Dotace](https://hd-v-datech.cz/hd-dotace.html)). V roce 2023 obec na položce 6342 vydala 30 000 Kč, což by odpovídalo 4 kotlům. **Počet vyměněných kotlů v obci podle krajských dat dohledat nelze.**
 
 ---
 
@@ -2124,7 +2124,7 @@ Ročenka vymezení publikuje mapou a tabulkami za zóny, aglomerace a kraje. Sez
 
 # Spolky a subjekty
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-spolky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-spolky.html (aktualizováno 2026-10-31)
 
 > Kolik a jakých subjektů má sídlo v Horních Domaslavicích, kterým organizacím obec v letech 2022–2026 schválila dotace a dary.
 
@@ -2136,7 +2136,7 @@ Stránka ukazuje, kolik ekonomických subjektů má sídlo v obci Horní Domasla
 2. **Obec v letech 2022–2026 schválila spolkům a organizacím dotace v celkové výši 1 131 500 Kč**: 123 000 Kč (2022), 199 200 Kč (2023), 285 100 Kč (2024), 272 600 Kč (2025) a 251 600 Kč (2026). K tomu přistupují dary v celkové výši 129 400 Kč a podmíněný dar Klubu žen na spoluúčast k dotaci MAS (asi 50 000 Kč). Mimo tento přehled zůstal dar 500 000 Kč obcím zasaženým povodněmi v roce 2024 přes Český červený kříž.
 3. **Všechny ověřované příjemce, kteří jsou spolky, ústavy nebo obecně prospěšné společnosti, se podařilo dohledat ve veřejném rejstříku.** U tří příjemců (Medela, Taneční škola Horizonty Havířov, speciální škola ve Frýdku-Místku) se z názvu v zápisu nedá jednoznačně určit IČO.
 
-Další údaje o dotacích obce jsou na stránce [Dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html), srovnání se sousedními obcemi na stránce [Srovnání: volby a spolky](https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.html).
+Další údaje o dotacích obce jsou na stránce [Dotace](https://hd-v-datech.cz/hd-dotace.html), srovnání se sousedními obcemi na stránce [Srovnání: volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.html).
 
 ## 1. Ekonomické subjekty se sídlem v obci
 
@@ -2253,7 +2253,7 @@ Počty subjektů se sídlem v obci pocházejí z vyhledávání v ARES podle kó
 
 # Volby v obci
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-volby.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-volby.html (aktualizováno 2026-10-31)
 
 > Výsledky komunálních, sněmovních, prezidentských, krajských a evropských voleb v Horních Domaslavicích 1990–2026 podle dat volby.cz.
 
@@ -2261,7 +2261,7 @@ Stránka shrnuje výsledky všech voleb, které se za obec Horní Domaslavice da
 
 ## Hlavní zjištění
 
-1. **Počet voličů se za třicet let zdvojnásobil.** V komunálních volbách 1994 bylo v seznamu 417 voličů, v roce 2026 jich bylo 843. Ve sněmovních volbách to bylo 416 voličů v roce 1996 a 797 v roce 2025. Obec během sledovaného období výrazně narostla, což je třeba mít na paměti při každém srovnávání absolutních čísel (viz [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html)).
+1. **Počet voličů se za třicet let zdvojnásobil.** V komunálních volbách 1994 bylo v seznamu 417 voličů, v roce 2026 jich bylo 843. Ve sněmovních volbách to bylo 416 voličů v roce 1996 a 797 v roce 2025. Obec během sledovaného období výrazně narostla, což je třeba mít na paměti při každém srovnávání absolutních čísel (viz [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.html)).
 2. **Účast v komunálních volbách dlouhodobě klesala a v roce 2026 se znovu zvedla.** V 90. letech volilo 72–83 % voličů, v letech 2014–2022 jen 52–58 %. V roce 2026 přišlo 63,94 % voličů. Je to nejvyšší účast od roku 2010 a v absolutním počtu (539 voličů) nejvíc lidí, kolik kdy v komunálních volbách v obci volilo.
 3. **Ve sněmovních, krajských a evropských volbách chodí obec k volbám častěji než okres i republika.** Ve všech devíti sněmovních volbách od roku 1996 byla účast v obci vyšší než v ČR, a to o 3,1 až 15,8 procentního bodu. Výrazný je rozdíl i u krajských voleb: v roce 2000 volilo v obci 58,9 % voličů, zatímco v kraji jen 32,2 %. U prezidentských voleb se účast blíží celostátní. Ve 2. kole roku 2013 a v 1. kole roku 2018 byla dokonce o něco nižší než v ČR (57,3 % proti 59,1 % a 61,5 % proti 61,9 %), v roce 2023 o 4,7–5,9 bodu vyšší.
 4. **V komunálních volbách přibylo kandidátek s místními názvy.** V letech 1994–2002 soupeřily jen dvě kandidátky (KDU-ČSL a sdružení nezávislých kandidátů) a KDU-ČSL v letech 1998 a 2002 získala nadpoloviční většinu hlasů. V letech 2010–2018 a 2026 kandidovalo pět kandidátek, v roce 2022 čtyři, a žádná z nich většinu nezískala. Poslední kandidátka s názvem celostátní strany (KDU-ČSL a nezávislí kandidáti) kandidovala v roce 2018. V letech 2022 a 2026 nesly všechny kandidátky místní názvy.
@@ -2270,7 +2270,7 @@ Stránka shrnuje výsledky všech voleb, které se za obec Horní Domaslavice da
 7. **Ve sněmovních volbách se nejsilnějším subjektem místo ČSSD stalo hnutí ANO.** ČSSD byla nejsilnější stranou v obci v letech 1996–2013 (vrchol 39,7 % v roce 1998), v roce 2021 už měla jen 5,3 %. Hnutí ANO je od roku 2017 nejsilnějším subjektem (2025: 36,0 %), v obci ale soustavně dostává méně než v okrese Frýdek-Místek. SPD (2017: 18,3 %, 2021: 14,7 %) mívá v obci vyšší podporu než v republice.
 8. **V prezidentských volbách** obec v letech 2013 a 2018 podpořila Miloše Zemana výrazněji než republika (65,3 % proti 54,8 % ve 2. kole roku 2013 a 58,3 % proti 51,4 % v roce 2018). V roce 2023 v obci zvítězil Petr Pavel s 57,0 % (ČR 58,3 %, okres 51,4 %).
 
-Srovnání se sousedními obcemi je na stránce [Srovnání: volby a spolky](https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.html).
+Srovnání se sousedními obcemi je na stránce [Srovnání: volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.html).
 
 ## 1. Komunální volby
 
@@ -2778,7 +2778,7 @@ Všechna data pocházejí z volby.cz (Český statistický úřad) a byla staže
 
 # Usnesení zastupitelstva
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-usneseni.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-usneseni.html (aktualizováno 2026-10-31)
 
 > Databáze 547 usnesení zastupitelstva obce Horní Domaslavice z let 2022–2026: znění, výsledek hlasování, počty hlasů, téma a částka.
 
@@ -2789,11 +2789,11 @@ Na této stránce najdete všechna usnesení, která zastupitelstvo obce Horní 
 
 U každého usnesení je uvedeno číslo, datum, plné znění, druh rozhodnutí, výsledek, počty hlasů pro, proti a zdržel se, téma a hlavní částka, pokud ji usnesení obsahuje. Podkladem jsou zápisy ze zasedání, které obec zveřejňuje na svém webu jako skeny. Jedinou výjimkou je poslední, 34. zasedání. Jeho zápis obec nezveřejnila, a údaje proto pocházejí z přepisu zvukového záznamu.
 
-Jména fyzických osob jsou v textech nahrazena funkcí („starosta obce“, „člen ZO“, „předseda finančního výboru“) nebo označením „fyzická osoba“. Názvy firem, spolků a úřadů zůstaly beze změny. Data lze stáhnout jako [CSV](https://dinkotom.github.io/hd-v-datech/data/usneseni_zo_2022-2026.csv).
+Jména fyzických osob jsou v textech nahrazena funkcí („starosta obce“, „člen ZO“, „předseda finančního výboru“) nebo označením „fyzická osoba“. Názvy firem, spolků a úřadů zůstaly beze změny. Data lze stáhnout jako [CSV](https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv).
 
 ## Vyhledávání v usneseních
 
-Seznam usnesení je v souboru https://dinkotom.github.io/hd-v-datech/data/usneseni_zo_2022-2026.csv (sloupce viz https://dinkotom.github.io/hd-v-datech/slovnik-dat.md).
+Seznam usnesení je v souboru https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv (sloupce viz https://hd-v-datech.cz/slovnik-dat.md).
 
 ## 1. Souhrnné přehledy
 
@@ -2896,9 +2896,9 @@ V dojezdu období 2018–2022 se 25.–27. zasedání účastnilo 7–10 zastupi
 
 ## 2. Nejdůležitější rozhodnutí období 2022–2026
 
-Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení samo neuvádí, pocházejí ze zápisu, kde zazněly na zasedání, nebo z profilu zadavatele (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)). Čísla v závorkách jsou hlasy pro : proti : zdržel se.
+Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení samo neuvádí, pocházejí ze zápisu, kde zazněly na zasedání, nebo z profilu zadavatele (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)). Čísla v závorkách jsou hlasy pro : proti : zdržel se.
 
-1. **Roční rozpočty obce.** Rozpočet na rok 2023 činil 46 258 452 Kč (30/2/2022, 9 : 4 : 0) a na rok 2024 47 760 902 Kč (158/10/2023, 9 : 0 : 2). Rozpočet na rok 2025 činil 54 104 202 Kč (279/19/2024, 9 : 0 : 1) a na rok 2026 65 431 102 Kč (380/26/2025, 8 : 0 : 3). Podle zápisu z prosince 2025 obsahuje rozpočet 2026 finanční rezervu téměř 25 mil. Kč. Celkové částky pocházejí ze zápisů, usnesení je neuvádějí. Rozbor výdajů je na stránce [výdaje](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html).
+1. **Roční rozpočty obce.** Rozpočet na rok 2023 činil 46 258 452 Kč (30/2/2022, 9 : 4 : 0) a na rok 2024 47 760 902 Kč (158/10/2023, 9 : 0 : 2). Rozpočet na rok 2025 činil 54 104 202 Kč (279/19/2024, 9 : 0 : 1) a na rok 2026 65 431 102 Kč (380/26/2025, 8 : 0 : 3). Podle zápisu z prosince 2025 obsahuje rozpočet 2026 finanční rezervu téměř 25 mil. Kč. Celkové částky pocházejí ze zápisů, usnesení je neuvádějí. Rozbor výdajů je na stránce [výdaje](https://hd-v-datech.cz/hd-vydaje.html).
 2. **Oprava místní komunikace MK 1.** Zastupitelstvo schválilo zadávací dokumentaci (42/2/2022) a žádost o dotaci Ministerstva pro místní rozvoj (44/2/2022). V březnu 2023 pak schválilo smlouvu o dílo s vítězem zakázky (72/4/2023, 8 : 0 : 4). Zakázku vyhrála STRABAG a.s. za 7 581 200 Kč bez DPH podle profilu zadavatele.
 3. **Oprava MK 5 a MK 10.** Zastupitelstvo schválilo projektovou dokumentaci (134/8/2023) a zadávací dokumentaci (243/15/2024, 9 : 0 : 2). Podle profilu zadavatele zakázku vyhrála firma Strojírny a stavby Třinec, a.s., za 4 705 961 Kč bez DPH.
 4. **Mateřská škola: přístavba místo novostavby.** V září 2024 zastupitelstvo schválilo žádost o dotaci na projektovou dokumentaci k přístavbě a snížení energetické náročnosti stávající budovy (261/17/2024, 11 : 0 : 0). Podle zápisu byla přístavba odhadnuta na 25–28 mil. Kč a novostavba na 45–50 mil. Kč. V dubnu 2026 zastupitelstvo schválilo změnu konstrukce přístavby ze dřevostavby na zděné řešení (423/30/2026, 12 : 0 : 0). Podle zápisu se tím odhad snížil z 34–41 mil. Kč na 23–27 mil. Kč. K volbám 2026 byla přístavba ve fázi projektové dokumentace.
@@ -2908,13 +2908,13 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
    - smlouvu o dotaci Moravskoslezského kraje (371/25/2025);
    - dva dodatky s posunem termínů (398/27/2026 a 468/31/2026).
 
-   Souvislosti jsou na stránkách [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html) a [školství](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+   Souvislosti jsou na stránkách [dotace](https://hd-v-datech.cz/hd-dotace.html) a [školství](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 6. **Sportoviště u Obecního domu a u hasičské klubovny.** V prosinci 2025 zastupitelstvo schválilo zadávací dokumentace obou zakázek (388/26/2025, 8 : 0 : 3). Předpokládaná hodnota byla podle zápisu 5 775 075 Kč a 1 180 000 Kč bez DPH. V dubnu 2026 pověřilo starostu odstoupením od smlouvy, případně neposkytnutím součinnosti, s firmou Merat u hřiště u Obecního domu (425/30/2026, 11 : 0 : 1). V červnu 2026 vzalo na vědomí, že smlouva byla uzavřena s druhou firmou v pořadí, Sportovní podlahy Zlín s.r.o., za 6 602 928 Kč s DPH (466/31/2026).
 7. **Spádová základní škola.** V roce 2023 zastupitelstvo pověřilo starostku zadáním studie proveditelnosti vlastní základní školy (114/6/2023, 8 : 1 : 2) a podáním žádosti na krajský úřad o určení spádové školy (142/8/2023). Zadalo také demografickou studii do 150 000 Kč (125/7/2023), jejíž výsledky vzalo na vědomí v lednu 2024 (176/11/2024). V březnu 2024 schválilo dohodu o společném školském obvodu se statutárním městem Frýdek-Místek a příslušnou vyhlášku (185/12/2024 a 186/12/2024, obojí 8 : 0 : 4). O prodloužení této dohody se jednalo na 34. zasedání. Výsledek ze záznamu není znám.
 8. **Termínovaný vklad 9 mil. Kč.** V říjnu 2023 zastupitelstvo schválilo převod 9 000 000 Kč na termínovaný účet u Komerční banky na 6 měsíců (150/9/2023, 9 : 0 : 2).
-9. **Změna č. 1 územního plánu.** V červenci 2023 zastupitelstvo rozhodlo o námitkách (121/7/2023) a vydalo změnu formou opatření obecné povahy č. 1/2023 (124/7/2023, 9 : 1 : 2). Zpracování změny bylo objednáno v dubnu 2022 (404/26/2022). Další informace jsou na stránce [výstavba](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html).
+9. **Změna č. 1 územního plánu.** V červenci 2023 zastupitelstvo rozhodlo o námitkách (121/7/2023) a vydalo změnu formou opatření obecné povahy č. 1/2023 (124/7/2023, 9 : 1 : 2). Zpracování změny bylo objednáno v dubnu 2022 (404/26/2022). Další informace jsou na stránce [výstavba](https://hd-v-datech.cz/hd-vystavba.html).
 10. **Strategický plán rozvoje obce 2024–2030.** Plán byl schválen v červnu 2024 (250/16/2024, 10 : 0 : 0). Připravoval ho výbor pro rozvoj obce, zřízený v únoru 2023 (63/3/2023), jehož činnost zastupitelstvo ukončilo k 30. 6. 2024 (244/15/2024).
-11. **Dary.** Zastupitelstvo schválilo dar 500 000 Kč obcím zasaženým povodněmi prostřednictvím sbírky Českého červeného kříže (262/17/2024, 11 : 0 : 0). Schválilo také dar 100 000 Kč Farnosti Domaslavice (288/19/2024, 7 : 0 : 3), který podle zápisu směřoval na opravu varhan. Pravidelné dotace spolkům a organizacím schvaluje každé jaro. V období 2022–2026 hlasovalo o 74 návrzích dotací z rozpočtu obce a 62 z nich přijalo. Podrobnosti jsou na stránce [spolky](https://dinkotom.github.io/hd-v-datech/hd-spolky.html).
+11. **Dary.** Zastupitelstvo schválilo dar 500 000 Kč obcím zasaženým povodněmi prostřednictvím sbírky Českého červeného kříže (262/17/2024, 11 : 0 : 0). Schválilo také dar 100 000 Kč Farnosti Domaslavice (288/19/2024, 7 : 0 : 3), který podle zápisu směřoval na opravu varhan. Pravidelné dotace spolkům a organizacím schvaluje každé jaro. V období 2022–2026 hlasovalo o 74 návrzích dotací z rozpočtu obce a 62 z nich přijalo. Podrobnosti jsou na stránce [spolky](https://hd-v-datech.cz/hd-spolky.html).
 12. **Pravidla zadávání zakázek.** V červnu 2025 zastupitelstvo zrušilo směrnici k zakázkám malého rozsahu a svěřilo starostce a místostarostovi uzavírání smluv a objednávek do 250 000 Kč bez DPH (352/23/2025, 8 : 3 : 0). Novou směrnici schválilo v prosinci 2025 (389/26/2025, 8 : 3 : 0).
 13. **Obecní dům.** Zastupitelstvo schválilo:
     - zakázku na elektroinstalaci (374/25/2025, 12 : 0 : 1), kterou podle profilu zadavatele vyhrála ELBAU-MONT s.r.o. za 759 516 Kč bez DPH;
@@ -2942,9 +2942,9 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
 3. **Texty jsou převzaty ze zápisu včetně jeho chyb.** Například usnesení 18/1/2022 začíná bez podmětu, u 56/3/2023 a 420/30/2026 chybí sloveso a 398/27/2026 uvádí smlouvu „ze dne 15. 10. 2026“, zřejmě místo 15. 10. 2025. Výčty příloh a poznámky přepisovatele byly odstraněny.
 4. **„Bere na vědomí“ bez hlasování.** Většinu informací zastupitelstvo bere na vědomí bez hlasování. Jde o 107 usnesení s prázdnými počty hlasů a výsledkem „přijato“. Stejně je v zápisu zapsáno i pětibodové usnesení 462/31/2026, které kontrolnímu výboru a starostovi ukládá úkoly a mění dřívější usnesení.
 5. **Hlasování podle jednacího řádu.** Na 31. zasedání kontrolní výbor uvedl, že hlasování o dotacích 429, 430 a 436/30/2026 neproběhlo v souladu s jednacím řádem, protože se hlasovalo nejdřív o žádosti, a ne o protinávrhu. Platnost usnesení přitom nezpochybnil.
-6. **Částka (`castka_kc`) je vyplněna jen tehdy, když ji obsahuje text usnesení.** U usnesení s více částkami je uvedena nejvyšší. Jednotkové ceny (Kč/m², Kč/měsíc, Kč/den) a měsíční odměny se nevyplňují, aby se daly částky sčítat. Ceny smluv, rozpočtů a zakázek usnesení většinou neuvádějí, jsou v příslušných zápisech a na stránce [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html).
+6. **Částka (`castka_kc`) je vyplněna jen tehdy, když ji obsahuje text usnesení.** U usnesení s více částkami je uvedena nejvyšší. Jednotkové ceny (Kč/m², Kč/měsíc, Kč/den) a měsíční odměny se nevyplňují, aby se daly částky sčítat. Ceny smluv, rozpočtů a zakázek usnesení většinou neuvádějí, jsou v příslušných zápisech a na stránce [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html).
 7. **Téma a typ** jsou přiřazeny podle klíčových slov a ručně zkontrolovány. Jde o pomůcku pro vyhledávání, ne o úřední třídění.
-8. **Anonymizace.** Jména zastupitelů a dalších fyzických osob jsou nahrazena funkcí nebo označením „fyzická osoba“. Platí to i pro ověřovatele, členy hodnotících komisí, zvolené funkcionáře a smluvní strany. Jméno nadačního fondu, který nese jméno fyzické osoby, je nahrazeno popisem jeho účelu. Kdo zastával jakou funkci, je doloženo v původních zápisech na webu obce a na stránce [volby](https://dinkotom.github.io/hd-v-datech/hd-volby.html).
+8. **Anonymizace.** Jména zastupitelů a dalších fyzických osob jsou nahrazena funkcí nebo označením „fyzická osoba“. Platí to i pro ověřovatele, členy hodnotících komisí, zvolené funkcionáře a smluvní strany. Jméno nadačního fondu, který nese jméno fyzické osoby, je nahrazeno popisem jeho účelu. Kdo zastával jakou funkci, je doloženo v původních zápisech na webu obce a na stránce [volby](https://hd-v-datech.cz/hd-volby.html).
 9. **Rok 2022** v souhrnech zahrnuje dvě volební období. Řádky z let 2018–2022 jsou v datech označeny ve sloupci `obdobi`.
 
 ## Metodika a zdroje
@@ -2954,7 +2954,7 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
 - **34. zasedání (6. 10. 2026):** zvukový záznam zveřejněný obcí, přepsaný automaticky (whisper). Mluvčí ani některá čísla nejsou v záznamu jednoznačná.
 - **Výsledek** je „přijato“, pokud zápis uvádí „schváleno“ nebo „bere ZO na vědomí“, a „nepřijato“, pokud uvádí „neschváleno“ nebo „nebylo schváleno“. Počty „---“ nebo „—“ v zápisu znamenají 0.
 - **Typ** je určen podle prvního slovesa usnesení. **Téma** (nejvýše dvě) je určeno podle klíčových slov a u sporných případů ručně.
-- **Částky** v přehledu nejdůležitějších rozhodnutí pocházejí ze zápisů (rozpočty, odhady, předpokládané hodnoty) a z profilu zadavatele obce na vhodne-uverejneni.cz (ceny vítězných nabídek, viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)).
+- **Částky** v přehledu nejdůležitějších rozhodnutí pocházejí ze zápisů (rozpočty, odhady, předpokládané hodnoty) a z profilu zadavatele obce na vhodne-uverejneni.cz (ceny vítězných nabídek, viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)).
 - Data k 31. 10. 2026. Usnesení nového zastupitelstva zvoleného 9.–10. 10. 2026 v databázi zatím nejsou.
 
 
@@ -2962,7 +2962,7 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
 
 # Mapa obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/mapa.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/mapa.html (aktualizováno 2026-10-31)
 
 > Interaktivní mapa Horních Domaslavic: hranice obce, zástavba ve čtvercích 100 × 100 m s napojením na vodovod, plyn a odpady, veřejné budovy a autobusové zastávky.
 
@@ -3058,17 +3058,17 @@ V obci je 7 zastávek: Amerika, Obecní úřad, Příčnice, kaple, nocovna ČSA
 - 416 adresních míst RÚIAN jsme porovnali s adresními body v OpenStreetMap, které se do OSM převzaly z RÚIAN. Medián odchylky je 0,9 m a bez systematického posunu (medián posunu je pod 1 cm). 25 % bodů leží do 0,1 m a 51 % do 1 m. Větší odchylky, nejvýš 12,6 m, mají body, které v OSM někdo ručně posunul.
 - Samotná transformace EPSG:1623 má podle EPSG přesnost asi 1 m. Celková odchylka od skutečné polohy je tedy do 1–2 m, což je pro čtverce 100 m a body budov zanedbatelné.
 
-**Zastávky:** počet spojů je počet spojů, které v úterý 3. 11. 2026 na zastávce zastaví, v obou směrech. Spočítán je z jízdních řádů stejně jako v datech pro stránku [Občanská vybavenost](https://dinkotom.github.io/hd-v-datech/srovnani-vybavenost.html).
+**Zastávky:** počet spojů je počet spojů, které v úterý 3. 11. 2026 na zastávce zastaví, v obou směrech. Spočítán je z jízdních řádů stejně jako v datech pro stránku [Občanská vybavenost](https://hd-v-datech.cz/srovnani-vybavenost.html).
 
-**Územní plán:** zastavitelné plochy územního plánu v mapě nejsou. Územní plán Horních Domaslavic je zveřejněný jen jako PDF (výkresy a textová část). Strojově čitelná data ploch (vektorová vrstva nebo služba WMS/WFS) se na webu obce, v Národním geoportálu územního plánování ani na geoportálu Moravskoslezského kraje dohledat nepodařilo. Výměru zastavitelných ploch uvádí stránka [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html).
+**Územní plán:** zastavitelné plochy územního plánu v mapě nejsou. Územní plán Horních Domaslavic je zveřejněný jen jako PDF (výkresy a textová část). Strojově čitelná data ploch (vektorová vrstva nebo služba WMS/WFS) se na webu obce, v Národním geoportálu územního plánování ani na geoportálu Moravskoslezského kraje dohledat nepodařilo. Výměru zastavitelných ploch uvádí stránka [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.html).
 
 **Data ke stažení** (GeoJSON, WGS84):
 
-- [data/mapa_hranice.geojson](https://dinkotom.github.io/hd-v-datech/data/mapa_hranice.geojson): hranice obce;
-- [data/mapa_ctverce.geojson](https://dinkotom.github.io/hd-v-datech/data/mapa_ctverce.geojson): čtverce zástavby s počty a podíly;
-- [data/mapa_mista.geojson](https://dinkotom.github.io/hd-v-datech/data/mapa_mista.geojson): veřejná místa se zdrojem polohy;
-- [data/mapa_zastavky.geojson](https://dinkotom.github.io/hd-v-datech/data/mapa_zastavky.geojson): zastávky s počtem spojů;
-- [data/mapa_souhrn.json](https://dinkotom.github.io/hd-v-datech/data/mapa_souhrn.json): čísla za obec a výsledky kontroly převodu souřadnic.
+- [data/mapa_hranice.geojson](https://hd-v-datech.cz/data/mapa_hranice.geojson): hranice obce;
+- [data/mapa_ctverce.geojson](https://hd-v-datech.cz/data/mapa_ctverce.geojson): čtverce zástavby s počty a podíly;
+- [data/mapa_mista.geojson](https://hd-v-datech.cz/data/mapa_mista.geojson): veřejná místa se zdrojem polohy;
+- [data/mapa_zastavky.geojson](https://hd-v-datech.cz/data/mapa_zastavky.geojson): zastávky s počtem spojů;
+- [data/mapa_souhrn.json](https://hd-v-datech.cz/data/mapa_souhrn.json): čísla za obec a výsledky kontroly převodu souřadnic.
 
 Vrstvy vytváří skript `tools/mapa_data.py` (převod souřadnic je v `tools/krovak.py`, stažení z OpenStreetMap v `tools/mapa_osm.py`).
 
@@ -3077,20 +3077,20 @@ Vrstvy vytváří skript `tools/mapa_data.py` (převod souřadnic je v `tools/kr
 
 # Srovnání se sousedními obcemi
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-souhrn.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-souhrn.html (aktualizováno 2026-10-31)
 
 > Souhrn klíčových čísel Horních Domaslavic vedle Pazderny, Dolních Domaslavic a Lučiny: lidé, finance, majetek, služby, zakázky a volby.
 
 Tato stránka shrnuje dílčí srovnání Horních Domaslavic (HD) se třemi sousedními obcemi: Pazdernou (PA), Dolními Domaslavicemi (DD) a Lučinou (LU). Všechny čtyři leží v okrese Frýdek-Místek. Data jsou veřejná a pocházejí z ČSÚ, Monitoru státní pokladny Ministerstva financí, RÚIAN, ČÚZK, rejstříku škol, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, volby.cz, ARES, registru smluv a profilů zadavatelů. Srovnání je věcné: porovnává čísla, nehodnotí vedení jednotlivých obcí. Podrobnosti, metodika a výhrady jsou na dílčích stránkách:
 
-- [Finance](https://dinkotom.github.io/hd-v-datech/srovnani-finance.html): příjmy, výdaje, investice a opravy, dotace, rezervy, peníze na účtech
-- [Majetek a zakázky](https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.html): rozvaha, výsledek hospodaření, registr smluv, veřejné zakázky
-- [Obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html): vývoj obyvatel, sčítání 2021, výstavba, plochy pro bydlení
-- [Školství a sociální oblast](https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.html): školy, nezaměstnanost, exekuce, kriminalita, ovzduší, služby
-- [Volby a spolky](https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.html): volby, subjekty a spolky, výdaje na spolky
-- [Rozloha a druhy pozemků](https://dinkotom.github.io/hd-v-datech/srovnani-plochy.html)
-- [Roztříštěnost zástavby](https://dinkotom.github.io/hd-v-datech/srovnani-zastavba.html)
-- [Daň z nemovitostí](https://dinkotom.github.io/hd-v-datech/srovnani-dan-nemovitosti.html)
+- [Finance](https://hd-v-datech.cz/srovnani-finance.html): příjmy, výdaje, investice a opravy, dotace, rezervy, peníze na účtech
+- [Majetek a zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.html): rozvaha, výsledek hospodaření, registr smluv, veřejné zakázky
+- [Obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html): vývoj obyvatel, sčítání 2021, výstavba, plochy pro bydlení
+- [Školství a sociální oblast](https://hd-v-datech.cz/srovnani-skolstvi-socialni.html): školy, nezaměstnanost, exekuce, kriminalita, ovzduší, služby
+- [Volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.html): volby, subjekty a spolky, výdaje na spolky
+- [Rozloha a druhy pozemků](https://hd-v-datech.cz/srovnani-plochy.html)
+- [Roztříštěnost zástavby](https://hd-v-datech.cz/srovnani-zastavba.html)
+- [Daň z nemovitostí](https://hd-v-datech.cz/srovnani-dan-nemovitosti.html)
 
 ## Hlavní závěr
 
@@ -3195,11 +3195,11 @@ Identifikace obcí (IČO / kód obce): Horní Domaslavice 00536008 / 512192, Paz
 
 # Srovnání financí obcí
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-finance.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-finance.html (aktualizováno 2026-10-31)
 
 > Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pazderny, Dolních Domaslavic a Lučiny v letech 2010–2025.
 
-Stránka porovnává hospodaření Horních Domaslavic (HD) se sousedními obcemi Pazderna, Dolní Domaslavice (DD) a Lučina v letech 2010–2025. Pro všechny čtyři obce jsou spočítané stejné ukazatele jako na stránkách o HD ([výdaje](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html), [příjmy](https://dinkotom.github.io/hd-v-datech/hd-prijmy.html), [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html)). Data pocházejí z výkazů obcí zveřejněných v Monitoru státní pokladny Ministerstva financí a z počtů obyvatel ČSÚ. Text pouze porovnává čísla, neposuzuje rozhodování vedení jiných obcí.
+Stránka porovnává hospodaření Horních Domaslavic (HD) se sousedními obcemi Pazderna, Dolní Domaslavice (DD) a Lučina v letech 2010–2025. Pro všechny čtyři obce jsou spočítané stejné ukazatele jako na stránkách o HD ([výdaje](https://hd-v-datech.cz/hd-vydaje.html), [příjmy](https://hd-v-datech.cz/hd-prijmy.html), [stavy účtů](https://hd-v-datech.cz/hd-ucty.html)). Data pocházejí z výkazů obcí zveřejněných v Monitoru státní pokladny Ministerstva financí a z počtů obyvatel ČSÚ. Text pouze porovnává čísla, neposuzuje rozhodování vedení jiných obcí.
 
 ## Obce
 
@@ -3434,7 +3434,7 @@ V letech 2010–2014 dávala HD na investice a opravy z vlastních peněz relati
 
 **Investiční dotace:** HD získala za roky 2011–2025 celkem 14,7 mil. Kč investičních dotací (z toho 9,86 mil. v roce 2021), Pazderna 41,9 mil., Lučina 48,6 mil. a Dolní Domaslavice 67,7 mil. Kč. V letech 2023–2025 nezískala HD žádnou investiční dotaci. Pazderna v těchto letech získala 21,5 mil., Lučina 14,7 mil. a DD 38,9 mil. Kč.
 
-**Struktura investic a oprav HD je odlišná:** HD dává velkou část peněz do oprav (5171), ostatní obce do investic (třída 6). V období 2022–2026 měla HD na opravy 4 519 Kč na obyvatele a rok a na investice 1 115 Kč. U ostatních tří obcí převažují investice (Pazderna 30 416, DD 20 550, Lučina 16 017 Kč). Opravy silnic se v HD účtují jako opravy (viz [výdaje HD](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)), proto je pro srovnání potřeba sledovat součet I+O, ne jen investice.
+**Struktura investic a oprav HD je odlišná:** HD dává velkou část peněz do oprav (5171), ostatní obce do investic (třída 6). V období 2022–2026 měla HD na opravy 4 519 Kč na obyvatele a rok a na investice 1 115 Kč. U ostatních tří obcí převažují investice (Pazderna 30 416, DD 20 550, Lučina 16 017 Kč). Opravy silnic se v HD účtují jako opravy (viz [výdaje HD](https://hd-v-datech.cz/hd-vydaje.html)), proto je pro srovnání potřeba sledovat součet I+O, ne jen investice.
 
 **Peníze na účtech: HD má nejvíc na obyvatele.** K 31. 12. 2025 měla HD na účtech 35 613 Kč na obyvatele (39,49 mil. Kč) a žádný úvěr. Dolní Domaslavice měly 30 739 Kč na obyvatele (45,09 mil.) a také žádný úvěr. Pazderna měla 7 694 Kč na obyvatele (3,25 mil.) a úvěr 3,99 mil. Lučina měla 3 252 Kč na obyvatele (5,19 mil.) a úvěry 17,25 mil. Kč (dlouhodobý 8,80 mil. a krátkodobý 8,45 mil.). Za roky 2023–2025 zvýšila HD stav účtů o 12,21 mil., u DD se stav téměř nezměnil (−0,17 mil.), u Pazderny také (+0,20 mil. při novém úvěru) a Lučině klesl o 16,41 mil. při současném růstu úvěrů.
 
@@ -3934,7 +3934,7 @@ V letech 2010–2011 měla rozvaha jiné členění: tehdejší řádek D.III.1 
 - **Průtokové dotace školám** (položka 5336) jsou ve výdajích obce i v jejích příjmech (41xx) a nafukují obojí. U DD šlo v letech 2023–2025 o 3,19 mil., u HD o 0,84 mil. a u Lučiny o 0,79 mil. Kč.
 - **Lučina a vodní nádrž Žermanice.** Nádrž není majetkem obce a v rozpočtu Lučiny se neobjevuje (paragraf 2341 vodní nádrže ani jiný paragraf skupiny 23 mimo vodovod a kanalizaci nemá Lučina žádné výdaje). V rozpočtu se ale objevují řádky, které s cestovním ruchem souvisejí: poplatek z pobytu (1342, v roce 2024 0,30 mil. Kč) a hlavně paragraf 2143 cestovní ruch, kde Lučina v letech 2019–2020 investovala 41,5 mil. Kč (třída 6). Ve stejném paragrafu účtuje od roku 2020 úroky (5141). Na konci roku 2020 měla úvěr 11,95 mil. Kč a od roku 2021 ho splácela zhruba po 2,5 mil. ročně. Že stavba v paragrafu 2143 souvisí s nádrží, je odvozené jen z názvu paragrafu a polohy obce; o jakou stavbu jde, výkaz neuvádí. Paragraf 2143 tvoří polovinu I+O Lučiny v období 2018–2022 (41,8 z 82,2 mil.). Bez něj by Lučina měla v tomto období I+O kolem 6 900 Kč na obyvatele a rok místo 14 016 (odvozený výpočet).
 - **Jednorázové velké akce zkreslují průměry malé Pazderny.** Pazderna má jen 300–420 obyvatel, takže jedna stavba za 20 mil. Kč dá desítky tisíc korun na obyvatele. V roce 2022 šlo o 24,1 mil. I+O (z toho 21,6 mil. v paragrafu 2219) a v roce 2025 o 20,6 mil. (11,1 mil. v paragrafu 4339, 5,9 mil. v 2219 a 1,9 mil. v 3632). Obojí bylo z velké části kryto dotacemi (14,9 a 19,2 mil. Kč investičních dotací).
-- **Rok 2026 v datech chybí.** Období 2022–2026 má jen tři roky (2023–2025). U HD navíc probíhají v roce 2026 větší akce (hřiště u Obecního domu, projektová dokumentace MŠ), které se zatím v datech neprojevily (viz [výdaje HD](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)).
+- **Rok 2026 v datech chybí.** Období 2022–2026 má jen tři roky (2023–2025). U HD navíc probíhají v roce 2026 větší akce (hřiště u Obecního domu, projektová dokumentace MŠ), které se zatím v datech neprojevily (viz [výdaje HD](https://hd-v-datech.cz/hd-vydaje.html)).
 - **Ceny nejsou očištěné o inflaci.** Všechny částky jsou v běžných cenách. Srovnání obcí v témže roce tím netrpí, srovnání období v čase ano.
 - **Kategorie podle paragrafů jsou hrubé.** Například opravy silnic, chodníky a parkoviště jsou v 22xx, ale stavba spojená s budovou může být v 36xx. Kategorie jsou odvozené, jednotlivé řádky (paragraf × položka) jsou doložené ve výkazech.
 - **Peněžní fondy (účet 236)** se do peněz na účtech nepočítají, aby byla řada srovnatelná s HD, která účet 236 nemá. U DD bylo na účtu 236 na konci roku 2025 0,65 mil. a u Lučiny 0,31 mil. Kč. Na pořadí obcí to nic nemění.
@@ -3947,7 +3947,7 @@ V letech 2010–2011 měla rozvaha jiné členění: tehdejší řádek D.III.1 
 
 **Převody 413x.** Dolní Domaslavice účtují kromě položky 4134 také 4138 a 4139, tedy další převody z vlastních fondů a účtů (0,4–1,4 mil. Kč ročně v letech 2017–2025). Jejich protějškem jsou výdaje v paragrafu 6330, který se z výdajů vyřazuje. Z příjmů se proto vyřazuje celá skupina 413x. U HD a Pazderny se tím nic nemění, u Lučiny jde o 0,01 a 0,05 mil. Kč v letech 2010 a 2011.
 
-**Kontrola.** U všech čtyř obcí bylo ověřeno, že saldo odpovídá změně peněz na účtech (včetně účtu 236) po odečtení změny úvěrů. Rozdíl je ve všech letech 2011–2025 do 0,4 mil. Kč a odpovídá hlavně dani, kterou obec platí sama sobě (6399). Větší rozdíly jsou jen u HD: −0,50 mil. v roce 2011 (příčina z výkazů nevyplývá) a −0,65 mil. v roce 2015 (právě 6399). Čísla HD se shodují s údaji na stránkách o [výdajích](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html), [příjmech](https://dinkotom.github.io/hd-v-datech/hd-prijmy.html) a [stavech účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html). Kategorie výdajů podle účelu jsou zde definované podle skupin paragrafů a nejsou zcela totožné s členěním na stránce o výdajích HD (například pojištění, paragraf 6320, je zde v kategorii „Ostatní“). Součty výdajů celkem se shodují.
+**Kontrola.** U všech čtyř obcí bylo ověřeno, že saldo odpovídá změně peněz na účtech (včetně účtu 236) po odečtení změny úvěrů. Rozdíl je ve všech letech 2011–2025 do 0,4 mil. Kč a odpovídá hlavně dani, kterou obec platí sama sobě (6399). Větší rozdíly jsou jen u HD: −0,50 mil. v roce 2011 (příčina z výkazů nevyplývá) a −0,65 mil. v roce 2015 (právě 6399). Čísla HD se shodují s údaji na stránkách o [výdajích](https://hd-v-datech.cz/hd-vydaje.html), [příjmech](https://hd-v-datech.cz/hd-prijmy.html) a [stavech účtů](https://hd-v-datech.cz/hd-ucty.html). Kategorie výdajů podle účelu jsou zde definované podle skupin paragrafů a nejsou zcela totožné s členěním na stránce o výdajích HD (například pojištění, paragraf 6320, je zde v kategorii „Ostatní“). Součty výdajů celkem se shodují.
 
 **Co je doložené a co odvozené.** Doložené jsou všechny částky za jednotlivé roky a obce (součty řádků výkazů MF) a počty obyvatel z ČSÚ. Odvozené jsou přepočty na obyvatele, součty za volební období, kategorie podle skupin paragrafů, „vlastní I+O“, označení řádků 3639/5169 a 5901 za rezervy a všechna vysvětlení příčin (RUD podle žáků, vlastnictví vodovodů, souvislost Lučiny s rekreační oblastí).
 
@@ -3956,7 +3956,7 @@ V letech 2010–2011 měla rozvaha jiné členění: tehdejší řádek D.III.1 
 
 # Srovnání majetku, smluv a zakázek
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-majetek-zakazky.html (aktualizováno 2026-10-31)
 
 > Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou a Pazdernou.
 
@@ -3973,7 +3973,7 @@ Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se s
 
 1. **HD má zdaleka nejmenší majetek na obyvatele, ale nejvíc peněz na účtu.** Aktiva netto na obyvatele činila v roce 2025 v HD 69 tis. Kč, v DD 214 tis., v Lučině 174 tis. a v Pazderně 220 tis. Kč. Stavby netto na obyvatele jsou v HD 28 tis. Kč, v ostatních obcích 105–151 tis. Kč. Peníze na obyvatele jsou naopak v HD nejvyšší (35,6 tis. Kč, DD 30,7 tis., Lučina 3,3 tis., Pazderna 7,7 tis.). Peníze tvoří v HD 52 % aktiv, v DD 14 % a v Lučině a Pazderně 2–3 %.
 2. **Ostatní obce za 2014–2025 přidaly do staveb mnohonásobně víc.** Stavby v pořizovací ceně vzrostly od konce roku 2013 do konce roku 2025 v HD o 25,0 mil. Kč (22 tis. Kč na dnešního obyvatele), v DD o 205,9 mil. (140 tis.), v Lučině o 171,6 mil. (107 tis.) a v Pazderně o 44,1 mil. (105 tis. Kč na obyvatele).
-3. **HD má přitom absolutně nejvyšší opravy.** Na účtu 511 (opravy a udržování) vykázala HD za 2014–2025 celkem 27,5 mil. Kč, DD 24,9 mil., Lučina 17,1 mil. a Pazderna 8,8 mil. Kč. Velké akce na silnicích v HD šly do nákladů, ne do majetku (viz [majetek HD](https://dinkotom.github.io/hd-v-datech/hd-majetek.html)).
+3. **HD má přitom absolutně nejvyšší opravy.** Na účtu 511 (opravy a udržování) vykázala HD za 2014–2025 celkem 27,5 mil. Kč, DD 24,9 mil., Lučina 17,1 mil. a Pazderna 8,8 mil. Kč. Velké akce na silnicích v HD šly do nákladů, ne do majetku (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)).
 4. **Dluh:** HD a DD jsou bez úvěrů. Lučina má k 31. 12. 2025 úvěry 17,25 mil. Kč (dlouhodobý 8,80 a krátkodobý 8,45 mil.), Pazderna 4,0 mil. Kč. Obě obce zároveň mají velké rozestavěné investice (účet 042: Lučina 43,6 mil., Pazderna 22,3 mil.).
 5. **Všechny čtyři obce jsou každoročně v zisku.** Za 2014–2025 dosáhla HD součtu výsledků 51,5 mil. Kč, DD 102,6 mil., Lučina 95,9 mil. a Pazderna 21,9 mil. Kč. V přepočtu na obyvatele byla HD v roce 2025 (8 294 Kč) za DD (13 703 Kč), ale před Pazdernou (7 129 Kč) a Lučinou (6 228 Kč).
 6. **Registr smluv:** sama zveřejňuje jen DD, a to 16 smluv z let 2016–2026 za 7,27 mil. Kč s DPH. Po roce 2020 už ale jen jednu (2026). HD, Lučina ani Pazderna jako zveřejňovatel v registru nejsou. Smlouvy, kde jsou stranou a vložila je protistrana, mají všechny (HD 9, DD 21, Lučina 18, Pazderna 12).
@@ -4139,7 +4139,7 @@ Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se s
 | 2024 | 0,00 | 0,00 | 12,72 | 7,50 |
 | 2025 | 0,00 | 0,00 | 17,25 | 4,00 |
 
-U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý závazek, jehož původ z výkazů nevyplývá (viz [majetek HD](https://dinkotom.github.io/hd-v-datech/hd-majetek.html)). U Lučiny je v roce 2025 dlouhodobý úvěr 8,80 mil. a krátkodobý úvěr 8,45 mil. Kč. U Pazderny jde téměř celé o dlouhodobý úvěr 451.
+U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý závazek, jehož původ z výkazů nevyplývá (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)). U Lučiny je v roce 2025 dlouhodobý úvěr 8,80 mil. a krátkodobý úvěr 8,45 mil. Kč. U Pazderny jde téměř celé o dlouhodobý úvěr 451.
 
 **Odpisy (mil. Kč)**
 
@@ -4184,7 +4184,7 @@ U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý 
 
 ## 2. Registr smluv a Hlídač státu
 
-Žádná ze čtyř obcí nevykonává rozšířenou působnost. Podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. tak nemají povinnost zveřejňovat v registru smluv (viz [registr smluv HD](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html)). Co v registru je, je proto dobrovolné, ať od obce, nebo od protistrany.
+Žádná ze čtyř obcí nevykonává rozšířenou působnost. Podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. tak nemají povinnost zveřejňovat v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)). Co v registru je, je proto dobrovolné, ať od obce, nebo od protistrany.
 
 ### 2.1 Smlouvy, které obec vložila sama
 
@@ -4278,7 +4278,7 @@ DD mají navíc tři zakázky z roku 2013. U Pazderny jsou zakázky z let 2017�
 | Medián (rozpětí) | 82 % (62–108 %) | 66 % (43–100 %) | 80 % (45–118 %) | 63 % (60–79 %) |
 | Zadaný objem, kde je cena uvedena (mil. Kč bez DPH) | 30,5 (13 zakázek) | 89,5 (31) | 130,9 (23) | 44,4 (12) |
 
-Stránka o [zakázkách HD](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html) uvádí průměr 5,1 nabídky u 11 zakázek z let 2020–2026. Tam jsou zahrnuty i zakázky, u nichž počet nabídek pochází z dokumentů, ne z karty účastníků. Rozdíl proti 5,3 je dán jen jiným výběrem zakázek.
+Stránka o [zakázkách HD](https://hd-v-datech.cz/hd-zakazky.html) uvádí průměr 5,1 nabídky u 11 zakázek z let 2020–2026. Tam jsou zahrnuty i zakázky, u nichž počet nabídek pochází z dokumentů, ne z karty účastníků. Rozdíl proti 5,3 je dán jen jiným výběrem zakázek.
 
 ### 3.4 Nejčastější vítězové a administrátoři 2014–2026
 
@@ -4297,7 +4297,7 @@ Stejní dodavatelé se opakují napříč obcemi. SWIETELSKY vyhrál po dvou zak
 1. **Rozsah:** HD zadala od roku 2014 nejméně zakázek (18) a nejmenší objem (30,5 mil. Kč bez DPH). DD a Lučina zadaly přes profil třikrát až čtyřikrát větší objem a Pazderna, která má zhruba dva a půlkrát méně obyvatel než HD, 44,4 mil. Kč. To odpovídá rozvaze: HD investovala nejméně.
 2. **Soutěž:** podlimitní řízení s velkým počtem nabídek vedla HD třikrát (MŠ 2020, MK1 2023, MK 5 + MK 10 2024). DD a Lučina jich vedly 13 a 11. Průměrná soutěž v DD a Lučině přilákala 7 účastníků, v HD a Pazderně 5.
 3. **Úspora proti předpokládané hodnotě:** nejvyšší je u DD (medián 66 %) a Pazderny (63 %, jen tři případy). HD a Lučina se drží kolem 80 %. U HD dvě zakázky předpokládanou hodnotu převýšily (stavební úpravy Obecního domu 108 % a chodníky uvnitř hřbitova po dodatku 108 %). V Lučině ji převýšily obě etapy kempu (102 % a 118 % smluvní ceny po dodatcích).
-4. **Zveřejňování přímých zadání:** DD a Lučina na profil vkládají i přímo zadané smlouvy (22 a 17 záznamů), HD ani Pazderna ne. Menší přímo zadané zakázky HD tak nejsou zveřejněny na profilu zadavatele ani v registru smluv (viz [registr smluv HD](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html)).
+4. **Zveřejňování přímých zadání:** DD a Lučina na profil vkládají i přímo zadané smlouvy (22 a 17 záznamů), HD ani Pazderna ne. Menší přímo zadané zakázky HD tak nejsou zveřejněny na profilu zadavatele ani v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)).
 
 ## Pozor
 
@@ -4316,7 +4316,7 @@ Stejní dodavatelé se opakují napříč obcemi. SWIETELSKY vyhrál po dvou zak
 
 ## Metodika a zdroje
 
-- **Monitor státní pokladny MF** (https://monitor.statnipokladna.gov.cz), roční extrakty CSUIS za 2010–2025: rozvaha a výkaz zisku a ztráty, vybrané řádky čtyř obcí podle IČO. Názvy řádků jsou z číselníku MF. Bilance aktiv a pasiv sedí u všech čtyř obcí ve všech letech a výsledek v rozvaze se rovná výsledku ve výkazu zisku a ztráty. Čísla HD se shodují s údaji na stránce o [majetku HD](https://dinkotom.github.io/hd-v-datech/hd-majetek.html); jediný rozdíl je v roce 2016 (peníze 8,25 mil. Kč proti 8,27 mil.), protože tam je připočtena i pokladna.
+- **Monitor státní pokladny MF** (https://monitor.statnipokladna.gov.cz), roční extrakty CSUIS za 2010–2025: rozvaha a výkaz zisku a ztráty, vybrané řádky čtyř obcí podle IČO. Názvy řádků jsou z číselníku MF. Bilance aktiv a pasiv sedí u všech čtyř obcí ve všech letech a výsledek v rozvaze se rovná výsledku ve výkazu zisku a ztráty. Čísla HD se shodují s údaji na stránce o [majetku HD](https://hd-v-datech.cz/hd-majetek.html); jediný rozdíl je v roce 2016 (peníze 8,25 mil. Kč proti 8,27 mil.), protože tam je připočtena i pokladna.
 - **Obyvatelé:** ČSÚ, datová sada OBY01B01 (https://data.csu.gov.cz/opendata/sady/OBY01B01/distribuce/csv), počet obyvatel k 31. 12.
 - **Registr smluv:** podrobné vyhledávání na smlouvy.gov.cz s exportem (jen poslední verze), zvlášť podle IČO publikujícího subjektu a podle IČO smluvní strany.
 - **Hlídač státu:** https://www.hlidacstatu.cz/subjekt/<IČO> a podstránky registr smluv, dodavatelé a veřejné zakázky.
@@ -4327,11 +4327,11 @@ Stejní dodavatelé se opakují napříč obcemi. SWIETELSKY vyhrál po dvou zak
 
 # Srovnání obyvatelstva a výstavby
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html (aktualizováno 2026-10-31)
 
 > Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a sousedních obcích.
 
-Stránka porovnává Horní Domaslavice (HD) se sousedními obcemi Pazderna, Dolní Domaslavice (DD) a Lučina z hlediska obyvatelstva, výsledků sčítání 2021 a bytové výstavby. Všechny čtyři obce leží v okrese i ve správním obvodu ORP Frýdek-Místek. Data pocházejí z ČSÚ (demografie, sčítání 2021, bytová výstavba), z RÚIAN a z územně plánovacích dokumentů obcí. Metodika je stejná jako na stránkách o [obyvatelstvu HD](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html) a [výstavbě v HD](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html). V textu se rozlišuje, co je **doloženo** (číslo přímo ze zdroje) a co je **odvozeno** (výpočet z doložených čísel).
+Stránka porovnává Horní Domaslavice (HD) se sousedními obcemi Pazderna, Dolní Domaslavice (DD) a Lučina z hlediska obyvatelstva, výsledků sčítání 2021 a bytové výstavby. Všechny čtyři obce leží v okrese i ve správním obvodu ORP Frýdek-Místek. Data pocházejí z ČSÚ (demografie, sčítání 2021, bytová výstavba), z RÚIAN a z územně plánovacích dokumentů obcí. Metodika je stejná jako na stránkách o [obyvatelstvu HD](https://hd-v-datech.cz/hd-obyvatelstvo.html) a [výstavbě v HD](https://hd-v-datech.cz/hd-vystavba.html). V textu se rozlišuje, co je **doloženo** (číslo přímo ze zdroje) a co je **odvozeno** (výpočet z doložených čísel).
 
 | Obec | Kód obce (ZÚJ) | Obyvatel k 31. 12. 2025 |
 |---|---|---:|
@@ -4560,7 +4560,7 @@ V HD je polovina obydlených domů z doby po roce 2000. V ostatních třech obc�
 | Římskokatolická církev a „katolická víra“ | 18,8 % (184) | **25,5 %** (82) | 16,0 % (223) | 11,4 % (169) | 16,4 % | 9,3 % |
 | Slezská evangelická církev a protestanté | 0,9 % (9) | 0 % | **5,9 %** (82) | 0,4 % (6) | 4,6 % | 0,3 % |
 
-¹ Odvozeno: obyvatelé bez českého občanství, bez dvojího občanství a bez „nezjištěno“. Stránka o [obyvatelstvu HD](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html) uvádí 11, protože započítává i jednu osobu s dvojím občanstvím.
+¹ Odvozeno: obyvatelé bez českého občanství, bez dvojího občanství a bez „nezjištěno“. Stránka o [obyvatelstvu HD](https://hd-v-datech.cz/hd-obyvatelstvo.html) uvádí 11, protože započítává i jednu osobu s dvojím občanstvím.
 
 ## 5. Výstavba
 
@@ -4712,11 +4712,11 @@ Roční údaje o počtu obyvatel, narozených, zemřelých, přistěhovalých a 
 
 # Srovnání školství a sociální oblasti
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-skolstvi-socialni.html (aktualizováno 2026-10-31)
 
 > Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a sousedních obcích.
 
-Stránka porovnává Horní Domaslavice (HD, kód obce 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399), všemi v okrese Frýdek-Místek. Sleduje školy a školské obvody, nezaměstnanost, exekuce, kriminalitu, kvalitu ovzduší a zdravotní a sociální služby. Postup a zdroje odpovídají stránce o [školství a sociální oblasti v HD](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html), aby byla čísla srovnatelná. Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv ČŠI, Sbírky právních předpisů, ČSÚ, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb. Zpracováno 30. 10. 2026; není-li uvedeno jinak, platí u odkazů toto datum přístupu.
+Stránka porovnává Horní Domaslavice (HD, kód obce 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399), všemi v okrese Frýdek-Místek. Sleduje školy a školské obvody, nezaměstnanost, exekuce, kriminalitu, kvalitu ovzduší a zdravotní a sociální služby. Postup a zdroje odpovídají stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html), aby byla čísla srovnatelná. Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv ČŠI, Sbírky právních předpisů, ČSÚ, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb. Zpracováno 30. 10. 2026; není-li uvedeno jinak, platí u odkazů toto datum přístupu.
 
 ## Shrnutí
 
@@ -4932,7 +4932,7 @@ Tučně jsou hodnoty nad imisním limitem podle přílohy č. 1 zákona č. 201/
 | Další zdravotní služby | – | – | ošetřovatelská péče v DZR Pohoda | dentální hygienistka, samostatné zařízení nelékaře (od 1. 5. 2026) |
 | Registrované sociální služby | – | – | **DZR Pohoda, z. ú.**, domov se zvláštním režimem, 46 lůžek, od 1. 9. 2018 | – |
 
-V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gynekologie v Bohumíně a zubní lékařství ve Frýdku-Místku). Do přehledu služeb v obci se proto nepočítají. Nejbližší služby pro HD a Pazdernu jsou v Dobré (praktický lékař, pediatr, gynekolog, zubař a lékárny), viz [školství a sociální oblast v HD](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html). Registr sociálních služeb uvádí územní působnost terénních služeb jen na úrovni kraje, takže z něj nelze zjistit, které terénní služby do jednotlivých obcí dojíždějí.
+V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gynekologie v Bohumíně a zubní lékařství ve Frýdku-Místku). Do přehledu služeb v obci se proto nepočítají. Nejbližší služby pro HD a Pazdernu jsou v Dobré (praktický lékař, pediatr, gynekolog, zubař a lékárny), viz [školství a sociální oblast v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html). Registr sociálních služeb uvádí územní působnost terénních služeb jen na úrovni kraje, takže z něj nelze zjistit, které terénní služby do jednotlivých obcí dojíždějí.
 
 ## Hlavní rozdíly
 
@@ -4952,7 +4952,7 @@ V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gyn
 6. **Kriminalita:** soubory za rok 2026 mají různé datum aktualizace. U HD končí 17. 8. 2026, u ostatních obcí koncem října, proto rok 2026 do průměrů není zahrnut. Data obsahují jen vybrané druhy trestných činů a všechny přestupky a neodpovídají úplné policejní statistice. Při jednotkách trestných činů ročně jsou přepočty na 1 000 obyvatel velmi citlivé na náhodu.
 7. **Ovzduší:** jde o modelová pole v síti 1 km, ne o měření v obcích. Pětiletý průměr 2021–2025 ČHMÚ zatím nezveřejnil. Hranice obcí pocházejí z vrstvy Moravskoslezského kraje, ne přímo z RÚIAN. U Lučiny a DD zasahuje území i do vodní plochy Žermanické přehrady.
 8. **Zdravotní služby:** registr uvádí místa poskytování péče, ne ordinační hodiny ani to, zda lékař v daném místě skutečně pravidelně ordinuje.
-9. Údaje o HD (MŠ HD, zápisy, počet dětí z HD v ZŠ DD, dohoda s Frýdkem-Místkem) mají tytéž výhrady jako na stránce o [školství a sociální oblasti v HD](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+9. Údaje o HD (MŠ HD, zápisy, počet dětí z HD v ZŠ DD, dohoda s Frýdkem-Místkem) mají tytéž výhrady jako na stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ## Metodika a zdroje
 
@@ -4970,11 +4970,11 @@ V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gyn
 
 # Srovnání voleb a spolků
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-volby-spolky.html (aktualizováno 2026-10-31)
 
 > Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích a sousedních obcích.
 
-Stránka porovnává Horní Domaslavice (HD, kód 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399) z hlediska voleb, spolkového života a výdajů obcí na neziskové organizace. Data pocházejí z volby.cz (ČSÚ), ARES, veřejného rejstříku, Monitoru státní pokladny MF (výkaz FIN 2-12 M) a z počtů obyvatel ČSÚ. Stránka srovnává čísla a nehodnotí politiku jednotlivých obcí. U voleb uvádí jen kandidátky a čísla, jména kandidátů ani zastupitelů neuvádí. Podrobnosti o HD jsou na stránkách [volby v HD](https://dinkotom.github.io/hd-v-datech/hd-volby.html) a [spolky v HD](https://dinkotom.github.io/hd-v-datech/hd-spolky.html).
+Stránka porovnává Horní Domaslavice (HD, kód 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399) z hlediska voleb, spolkového života a výdajů obcí na neziskové organizace. Data pocházejí z volby.cz (ČSÚ), ARES, veřejného rejstříku, Monitoru státní pokladny MF (výkaz FIN 2-12 M) a z počtů obyvatel ČSÚ. Stránka srovnává čísla a nehodnotí politiku jednotlivých obcí. U voleb uvádí jen kandidátky a čísla, jména kandidátů ani zastupitelů neuvádí. Podrobnosti o HD jsou na stránkách [volby v HD](https://hd-v-datech.cz/hd-volby.html) a [spolky v HD](https://hd-v-datech.cz/hd-spolky.html).
 
 Pro orientaci: k 1. 7. 2025 měla Pazderna 415 obyvatel, HD 1 100, DD 1 466 a Lučina 1 599 (ČSÚ). HD rostla od roku 2010 nejrychleji, a to z 671 na 1 100 obyvatel (+64 %). Pazderna vzrostla z 266 na 415 (+56 %), DD z 1 152 na 1 466 (+27 %) a Lučina z 1 222 na 1 599 (+31 %).
 
@@ -5303,7 +5303,7 @@ U HD lze čísla z Monitoru porovnat se schválenými dotacemi v zápisech ze za
 - **Monitor MF neukazuje příjemce.** Položka 5222 může obsahovat i platby, které nejsou dotacemi místním spolkům, například členské příspěvky nebo příspěvky MAS mimo § 6171, platby spolkům z jiných obcí nebo úhrady sportovním klubům. Obce také mohou podobné výdaje účtovat různě; například v HD se část dotací účtuje na položku 5223 a platby spolkům se mohou objevit i na jiných položkách (např. 5169). Takové platby v tomto přehledu nejsou. Čísla na obyvatele proto ukazují jen řád výdajů a nejsou přesným srovnáním obecní podpory spolků.
 - **Počty obyvatel** jsou ze stavu k 1. 7. daného roku (ČSÚ). Přepočet subjektů na 1 000 obyvatel používá stav k 1. 7. 2025, data ARES jsou z 30. 10. 2026.
 - **Okres a ČR.** U sněmovních a prezidentských voleb jde o celý okres Frýdek-Místek včetně měst. Nejde tedy o srovnání s obcemi podobné velikosti.
-- Rok 1990 a krajské, evropské a senátní volby do srovnání nejsou zahrnuty. Pro HD jsou na stránce [volby v HD](https://dinkotom.github.io/hd-v-datech/hd-volby.html).
+- Rok 1990 a krajské, evropské a senátní volby do srovnání nejsou zahrnuty. Pro HD jsou na stránce [volby v HD](https://hd-v-datech.cz/hd-volby.html).
 
 ## Metodika a zdroje
 
@@ -5318,7 +5318,7 @@ U HD lze čísla z Monitoru porovnat se schválenými dotacemi v zápisech ze za
 
 # Rozloha a druhy pozemků
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-plochy.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-plochy.html (aktualizováno 2026-10-31)
 
 > Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pazderně, Dolních Domaslavicích a Lučině a jejich vývoj od roku 2004.
 
@@ -5388,7 +5388,7 @@ Na obyvatele (m²):
 
 1. **HD jsou nejmenší ze tří srovnatelně velkých obcí** (5,1 km² proti 7,4 km² v DD a Lučině), ale počtem obyvatel se jim blíží. Hustotou jsou na úrovni Lučiny a vyšší než DD.
 2. **HD mají nejzemědělštější krajinu**: 78 % zemědělské půdy a jen 12 % lesa. Lesa na obyvatele mají HD necelou třetinu proti Pazderně a polovinu proti DD; méně má jen Lučina, která má místo lesa přehradu.
-3. **Zástavba roste, ale krajinu zatím nemění**: zastavěné plochy přibylo za 22 let 2,9 ha. Nové domy ale mají kolem sebe zahrady a travní plochy, takže skutečný zábor pro bydlení je větší, než ukazuje zastavěná plocha. Územní plán má podle návrhu zprávy o uplatňování ještě 51 ha nevyužitých ploch pro bydlení, což je zhruba desetina rozlohy obce (viz [obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html)).
+3. **Zástavba roste, ale krajinu zatím nemění**: zastavěné plochy přibylo za 22 let 2,9 ha. Nové domy ale mají kolem sebe zahrady a travní plochy, takže skutečný zábor pro bydlení je větší, než ukazuje zastavěná plocha. Územní plán má podle návrhu zprávy o uplatňování ještě 51 ha nevyužitých ploch pro bydlení, což je zhruba desetina rozlohy obce (viz [obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html)).
 4. **Ostatní plocha** (cesty, veřejná zeleň, sportoviště) na obyvatele je ve všech obcích podobná, kolem 300 m².
 
 ## Pozor
@@ -5399,14 +5399,14 @@ Na obyvatele (m²):
 
 ## Metodika a zdroje
 
-Zdroj: ČÚZK, Úhrnné hodnoty druhů pozemků (services.cuzk.cz/sestavy/UHDP) po katastrálních územích, sečtené za obce. Hustota je počet obyvatel k 31. 12. 2025 (ČSÚ) dělený rozlohou. Koeficient ekologické stability je zde počítán zjednodušeně z druhů pozemků, bez hodnocení skutečného stavu porostů. Novější sestavy ČÚZK (od roku 2023) neobsahují počet domů, proto se zde nepoužívá; počty budov z RÚIAN jsou na stránce [obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html).
+Zdroj: ČÚZK, Úhrnné hodnoty druhů pozemků (services.cuzk.cz/sestavy/UHDP) po katastrálních územích, sečtené za obce. Hustota je počet obyvatel k 31. 12. 2025 (ČSÚ) dělený rozlohou. Koeficient ekologické stability je zde počítán zjednodušeně z druhů pozemků, bez hodnocení skutečného stavu porostů. Novější sestavy ČÚZK (od roku 2023) neobsahují počet domů, proto se zde nepoužívá; počty budov z RÚIAN jsou na stránce [obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html).
 
 
 ---
 
 # Roztříštěnost zástavby
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-zastavba.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-zastavba.html (aktualizováno 2026-10-31)
 
 > Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pazdernou, Dolními Domaslavicemi a Lučinou a co to znamená pro délku sítí.
 
@@ -5414,7 +5414,7 @@ Stránka ukazuje, jestli domy v obci tvoří jedno souvislé sídlo, nebo někol
 
 Za dům k bydlení se počítá stavební objekt evidovaný jako rodinný nebo bytový dům, případně stavba s číslem popisným a aspoň jedním bytem. Rekreační objekty (chaty s číslem evidenčním) jsou zvlášť.
 
-![Mapa zástavby čtyř obcí](https://dinkotom.github.io/hd-v-datech/img/mapa_zastavby_4obce.png)
+![Mapa zástavby čtyř obcí](https://hd-v-datech.cz/img/mapa_zastavby_4obce.png)
 
 ## Jak se roztříštěnost měřila
 
@@ -5467,7 +5467,7 @@ Zdroj: RÚIAN, výměnný formát za obce (soubory OB_<kód>_UKSH na vdp.cuzk.go
 
 # Daň z nemovitostí
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-dan-nemovitosti.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-dan-nemovitosti.html (aktualizováno 2026-10-31)
 
 > Jaké koeficienty daně z nemovitých věcí uplatňují Horní Domaslavice a sousední obce a kolik jim daň vynáší na obyvatele.
 
@@ -5511,21 +5511,21 @@ Horní Domaslavice a Pazderna tedy žádný vlastní koeficient nezavedly. Doln�
 
 ## Pozor
 
-- Sbírka právních předpisů ÚSC funguje od roku 2021. Vyhlášku vydanou dřív a dosud platnou by výpis nezachytil. U HD je to ověřené proti seznamu platných vyhlášek obce (viz [příjmy HD](https://dinkotom.github.io/hd-v-datech/hd-prijmy.html)); u ostatních obcí jsou vyhlášky z let 2024 a 2025 psané jako úplná nová úprava a starší koeficienty by od roku 2025 stejně musely být revidované.
+- Sbírka právních předpisů ÚSC funguje od roku 2021. Vyhlášku vydanou dřív a dosud platnou by výpis nezachytil. U HD je to ověřené proti seznamu platných vyhlášek obce (viz [příjmy HD](https://hd-v-datech.cz/hd-prijmy.html)); u ostatních obcí jsou vyhlášky z let 2024 a 2025 psané jako úplná nová úprava a starší koeficienty by od roku 2025 stejně musely být revidované.
 - Definitivní koeficient pro konkrétní nemovitost ukáže vyhledávač Finanční správy (adisepo.mfcr.cz/pmd/vyhledani-koeficientu, zadává se katastrální území a parcela).
 - Výnos položky 1511 obsahuje i nedoplatky a přeplatky z minulých let a obec dostává daň se zpožděním, takže meziroční změny nejsou přesným obrazem koeficientů.
 - Výnos za rok 2026 zatím není k dispozici, efekt koeficientu 5,0 u podnikatelských staveb v Lučině se ukáže až v něm.
 
 ## Metodika a zdroje
 
-Koeficienty jsou převzaty z obecně závazných vyhlášek obcí ve Sbírce právních předpisů ÚSC (sbirkapp.gov.cz) a ze zákona č. 338/1992 Sb. Výnos daně je skutečnost položky 1511 z výkazu FIN 2-12 M (Monitor státní pokladny MF, https://monitor.statnipokladna.gov.cz) za daný rok. Výnos na obyvatele je dělený počtem obyvatel k 31. 12. daného roku (ČSÚ). Podrobnější finanční údaje jsou na stránce [srovnání financí](https://dinkotom.github.io/hd-v-datech/srovnani-finance.html).
+Koeficienty jsou převzaty z obecně závazných vyhlášek obcí ve Sbírce právních předpisů ÚSC (sbirkapp.gov.cz) a ze zákona č. 338/1992 Sb. Výnos daně je skutečnost položky 1511 z výkazu FIN 2-12 M (Monitor státní pokladny MF, https://monitor.statnipokladna.gov.cz) za daný rok. Výnos na obyvatele je dělený počtem obyvatel k 31. 12. daného roku (ČSÚ). Podrobnější finanční údaje jsou na stránce [srovnání financí](https://hd-v-datech.cz/srovnani-finance.html).
 
 
 ---
 
 # Občanská vybavenost
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-vybavenost.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-vybavenost.html (aktualizováno 2026-10-31)
 
 > Jaké služby a zařízení mají Horní Domaslavice a sousední obce a jak sousedé pořídili to, co HD chybí.
 
@@ -5753,14 +5753,14 @@ Tato vybavenost souvisí s polohou u Žermanické přehrady. Pro HD je srovnatel
 
 | Kód | Zdroj | Typ |
 |---|---|---|
-| [S1] | Rejstřík škol a školských zařízení MŠMT (stav 30. 10. 2026), Národní registr poskytovatelů zdravotních služeb (nrpzs.uzis.cz), Registr poskytovatelů sociálních služeb MPSV; viz [Srovnání: školství a sociální data](https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.html) | R |
-| [RU] | RÚIAN, výměnný formát za obce k 30. 9. 2026 (vdp.cuzk.gov.cz); budovy s č. p.: HD 411, PA 129, DD 514, LU 544; souhrn je mezi [daty ke stažení](https://dinkotom.github.io/hd-v-datech/data.html) | R |
-| [O2] | Sčítání lidu, domů a bytů 2021 (ČSÚ); viz [Srovnání: obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html) | R |
-| [V] | Územní plán HD 2011, strategický plán HD 2024–2030; viz [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html) | O |
-| [FIN] | Monitor státní pokladny MF, výkaz FIN 2-12 M; viz [Srovnání: finance](https://dinkotom.github.io/hd-v-datech/srovnani-finance.html) | R |
-| [PZ] | Profily zadavatelů obcí (vhodne-uverejneni.cz); viz [Srovnání: majetek, smlouvy, zakázky](https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.html) a [Veřejné zakázky HD](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html) | R |
+| [S1] | Rejstřík škol a školských zařízení MŠMT (stav 30. 10. 2026), Národní registr poskytovatelů zdravotních služeb (nrpzs.uzis.cz), Registr poskytovatelů sociálních služeb MPSV; viz [Srovnání: školství a sociální data](https://hd-v-datech.cz/srovnani-skolstvi-socialni.html) | R |
+| [RU] | RÚIAN, výměnný formát za obce k 30. 9. 2026 (vdp.cuzk.gov.cz); budovy s č. p.: HD 411, PA 129, DD 514, LU 544; souhrn je mezi [daty ke stažení](https://hd-v-datech.cz/data.html) | R |
+| [O2] | Sčítání lidu, domů a bytů 2021 (ČSÚ); viz [Srovnání: obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html) | R |
+| [V] | Územní plán HD 2011, strategický plán HD 2024–2030; viz [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.html) | O |
+| [FIN] | Monitor státní pokladny MF, výkaz FIN 2-12 M; viz [Srovnání: finance](https://hd-v-datech.cz/srovnani-finance.html) | R |
+| [PZ] | Profily zadavatelů obcí (vhodne-uverejneni.cz); viz [Srovnání: majetek, smlouvy, zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.html) a [Veřejné zakázky HD](https://hd-v-datech.cz/hd-zakazky.html) | R |
 | [NEN] | Národní elektronický nástroj (nen.nipez.cz), zakázky Pazderny | R |
-| [DOT] | Závěrečné účty HD a Monitor MF; viz [Dotace HD](https://dinkotom.github.io/hd-v-datech/hd-dotace.html) | R + O |
+| [DOT] | Závěrečné účty HD a Monitor MF; viz [Dotace HD](https://hd-v-datech.cz/hd-dotace.html) | R + O |
 | [JPO] | Nařízení Moravskoslezského kraje č. 2/2023 o plošném pokrytí území jednotkami požární ochrany, příloha č. 1 | R |
 | [JDF] | Celostátní informační systém o jízdních řádech, data JDF (portal.cisjr.cz), stav 30. 10. 2026 | R |
 | [HD1] | Web obce horni-domaslavice.cz, zápisy ze zasedání zastupitelstva, zpravodaj Informátor, územní plán 2011 | O |
@@ -5787,13 +5787,13 @@ Tato vybavenost souvisí s polohou u Žermanické přehrady. Pro HD je srovnatel
 
 # Slovník dat
 
-Popis datových souborů webu Horní Domaslavice v datech (https://dinkotom.github.io/hd-v-datech/). Všechny soubory jsou CSV v UTF-8, oddělovač čárka, desetinná tečka, data ve tvaru RRRR-MM-DD. Částky jsou v Kč, běžné ceny.
+Popis datových souborů webu Horní Domaslavice v datech (https://hd-v-datech.cz/). Všechny soubory jsou CSV v UTF-8, oddělovač čárka, desetinná tečka, data ve tvaru RRRR-MM-DD. Částky jsou v Kč, běžné ceny.
 
 ## CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv
 
 Výměry druhů pozemků po katastrálních územích (orná půda, louky, lesy, zastavěné plochy…).
 
-- Odkaz: [data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv](https://dinkotom.github.io/hd-v-datech/data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv)
+- Odkaz: [data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv](https://hd-v-datech.cz/data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv)
 - Řádků: 18; jeden řádek = jeden rok × katastrální území
 - Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků (UHDP).
 - Pozor: Dolní Domaslavice mají dvě katastrální území (Dolní Domaslavice a Volovec), Lučina také (Lučina a Kocurovice). Za obec je třeba řádky sečíst podle sloupce `obec`.
@@ -5818,7 +5818,7 @@ Výměry druhů pozemků po katastrálních územích (orná půda, louky, lesy,
 
 Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN), stav 30. 9. 2026.
 
-- Odkaz: [data/RUIAN_souhrn_4obce_stav_20260930.csv](https://dinkotom.github.io/hd-v-datech/data/RUIAN_souhrn_4obce_stav_20260930.csv)
+- Odkaz: [data/RUIAN_souhrn_4obce_stav_20260930.csv](https://hd-v-datech.cz/data/RUIAN_souhrn_4obce_stav_20260930.csv)
 - Řádků: 20; jeden řádek = jeden ukazatel; sloupce jsou obce
 - Zdroj: RÚIAN (ČÚZK), výměnný formát VFR.
 - Pozor: Údaje o vodovodu, kanalizaci a plynu jsou v RÚIAN neúplné a často zastaralé (viz `kanal_nezjist`). Spolehlivější je sčítání 2021 na stránce Obyvatelstvo a výstavba.
@@ -5835,7 +5835,7 @@ Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN
 
 Hospodaření obce Dolní Domaslavice po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu).
 
-- Odkaz: [data/finance_DD_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_DD_2010-2025.csv)
+- Odkaz: [data/finance_DD_2010-2025.csv](https://hd-v-datech.cz/data/finance_DD_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -5847,7 +5847,7 @@ Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
 
 Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, investice, opravy, dotace, rezervy, peníze a úvěry.
 
-- Odkaz: [data/finance_HD_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_HD_2010-2025.csv)
+- Odkaz: [data/finance_HD_2010-2025.csv](https://hd-v-datech.cz/data/finance_HD_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -5904,7 +5904,7 @@ Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, 
 
 Hospodaření obce Lučina po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu a má výdaje spojené s nádrží Žermanice).
 
-- Odkaz: [data/finance_LUC_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_LUC_2010-2025.csv)
+- Odkaz: [data/finance_LUC_2010-2025.csv](https://hd-v-datech.cz/data/finance_LUC_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -5916,7 +5916,7 @@ Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
 
 Hospodaření obce Pazderna po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
 
-- Odkaz: [data/finance_PAZ_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_PAZ_2010-2025.csv)
+- Odkaz: [data/finance_PAZ_2010-2025.csv](https://hd-v-datech.cz/data/finance_PAZ_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -5928,7 +5928,7 @@ Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
 
 Investice a opravy 4 obcí podle paragrafu rozpočtové skladby (na co šly).
 
-- Odkaz: [data/investice_opravy_podle_paragrafu_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/investice_opravy_podle_paragrafu_4obce.csv)
+- Odkaz: [data/investice_opravy_podle_paragrafu_4obce.csv](https://hd-v-datech.cz/data/investice_opravy_podle_paragrafu_4obce.csv)
 - Řádků: 629; jeden řádek = jedna obec × rok × paragraf (jen nenulové)
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 
@@ -5943,7 +5943,7 @@ Investice a opravy 4 obcí podle paragrafu rozpočtové skladby (na co šly).
 
 Rozpočet 2026: plánované a zaplacené investice a opravy podle paragrafu.
 
-- Odkaz: [data/rozpocet_2026_investice_opravy.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_investice_opravy.csv)
+- Odkaz: [data/rozpocet_2026_investice_opravy.csv](https://hd-v-datech.cz/data/rozpocet_2026_investice_opravy.csv)
 - Řádků: 15; jeden řádek = jeden paragraf
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M za září 2026.
 
@@ -5961,7 +5961,7 @@ Rozpočet 2026: plánované a zaplacené investice a opravy podle paragrafu.
 
 Rozpočtované a skutečné příjmy 2023–2026 a jaký podíl ročních příjmů obvykle přichází do konce září.
 
-- Odkaz: [data/rozpocet_2026_odhad_prijmu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_odhad_prijmu.csv)
+- Odkaz: [data/rozpocet_2026_odhad_prijmu.csv](https://hd-v-datech.cz/data/rozpocet_2026_odhad_prijmu.csv)
 - Řádků: 24; jeden řádek = jeden rok × druh příjmu
 - Zdroj: Monitor státní pokladny MF.
 
@@ -5980,7 +5980,7 @@ Rozpočtované a skutečné příjmy 2023–2026 a jaký podíl ročních příj
 
 Rozpočtová opatření (změny rozpočtu) 2026.
 
-- Odkaz: [data/rozpocet_2026_rozpoctova_opatreni.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_rozpoctova_opatreni.csv)
+- Odkaz: [data/rozpocet_2026_rozpoctova_opatreni.csv](https://hd-v-datech.cz/data/rozpocet_2026_rozpoctova_opatreni.csv)
 - Řádků: 8; jeden řádek = jedno rozpočtové opatření nebo jeho část
 - Zdroj: Rozpočtová opatření a zápisy zveřejněné obcí (sloupec `zdroj`).
 
@@ -5999,7 +5999,7 @@ Rozpočtová opatření (změny rozpočtu) 2026.
 
 Rozpočet 2026: plnění příjmů a čerpání výdajů k 30. 9. proti stejnému období 2023–2025.
 
-- Odkaz: [data/rozpocet_2026_srovnani_k_30_9.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_srovnani_k_30_9.csv)
+- Odkaz: [data/rozpocet_2026_srovnani_k_30_9.csv](https://hd-v-datech.cz/data/rozpocet_2026_srovnani_k_30_9.csv)
 - Řádků: 44; jeden řádek = jeden ukazatel × rok
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M za září.
 
@@ -6017,7 +6017,7 @@ Rozpočet 2026: plnění příjmů a čerpání výdajů k 30. 9. proti stejném
 
 Peníze na účtech obce Horní Domaslavice po čtvrtletích 2023–2026.
 
-- Odkaz: [data/rozpocet_2026_stav_uctu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_stav_uctu.csv)
+- Odkaz: [data/rozpocet_2026_stav_uctu.csv](https://hd-v-datech.cz/data/rozpocet_2026_stav_uctu.csv)
 - Řádků: 9; jeden řádek = jedno datum (konec čtvrtletí)
 - Zdroj: Rozvaha obce, Monitor státní pokladny MF.
 
@@ -6033,7 +6033,7 @@ Peníze na účtech obce Horní Domaslavice po čtvrtletích 2023–2026.
 
 Střednědobý výhled rozpočtu obce Horní Domaslavice na roky 2025–2028.
 
-- Odkaz: [data/rozpocet_2026_strednedoby_vyhled.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_strednedoby_vyhled.csv)
+- Odkaz: [data/rozpocet_2026_strednedoby_vyhled.csv](https://hd-v-datech.cz/data/rozpocet_2026_strednedoby_vyhled.csv)
 - Řádků: 20; jeden řádek = jeden ukazatel; sloupce jsou roky
 - Zdroj: Střednědobý výhled rozpočtu zveřejněný obcí.
 - Pozor: Výhled je plán obce, ne skutečnost.
@@ -6050,7 +6050,7 @@ Střednědobý výhled rozpočtu obce Horní Domaslavice na roky 2025–2028.
 
 Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30. 9. a srovnání s minulými lety.
 
-- Odkaz: [data/rozpocet_2026_vydaje_podle_ucelu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_vydaje_podle_ucelu.csv)
+- Odkaz: [data/rozpocet_2026_vydaje_podle_ucelu.csv](https://hd-v-datech.cz/data/rozpocet_2026_vydaje_podle_ucelu.csv)
 - Řádků: 16; jeden řádek = jedna kategorie výdajů (poslední řádek CELKEM)
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 
@@ -6070,7 +6070,7 @@ Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30
 
 Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jsou domy a kolik tvoří skupin.
 
-- Odkaz: [data/roztrisenost_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/roztrisenost_4obce.csv)
+- Odkaz: [data/roztrisenost_4obce.csv](https://hd-v-datech.cz/data/roztrisenost_4obce.csv)
 - Řádků: 4; jeden řádek = jedna obec
 - Zdroj: Výpočet z polohy budov v RÚIAN (stav 30. 9. 2026).
 - Pozor: „Shluk N m“ = skupina domů, kde každý dům má souseda ve skupině blíž než N metrů.
@@ -6109,7 +6109,7 @@ Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jso
 
 Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro 4 obce, okres Frýdek-Místek a Českou republiku.
 
-- Odkaz: [data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv](https://dinkotom.github.io/hd-v-datech/data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv)
+- Odkaz: [data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv)
 - Řádků: 154; jeden řádek = jedno území × rok
 - Zdroj: Český statistický úřad (sloupec `zdroj` uvádí kód datové sady).
 - Pozor: Pohyb obyvatel (narození … vystěhovalí) je u některých let a území prázdný.
@@ -6133,7 +6133,7 @@ Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro 4 obce, okr
 
 Součty ukazatelů za volební období a průměr na obyvatele a rok.
 
-- Odkaz: [data/souhrn_po_obdobich_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/souhrn_po_obdobich_4obce.csv)
+- Odkaz: [data/souhrn_po_obdobich_4obce.csv](https://hd-v-datech.cz/data/souhrn_po_obdobich_4obce.csv)
 - Řádků: 256; jeden řádek = jedna obec × volební období × ukazatel
 - Zdroj: Výpočet z `finance_*`.
 - Pozor: Za období se počítají rozpočtové roky, za které odpovídá dané zastupitelstvo (sloupec `roky`); období 2022–2026 zatím jen 2023–2025.
@@ -6152,7 +6152,7 @@ Součty ukazatelů za volební období a průměr na obyvatele a rok.
 
 Stejné ukazatele jako `finance_*` pro všechny 4 obce v dlouhém formátu (vhodné pro filtrování a grafy).
 
-- Odkaz: [data/ukazatele_4obce_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/ukazatele_4obce_2010-2025.csv)
+- Odkaz: [data/ukazatele_4obce_2010-2025.csv](https://hd-v-datech.cz/data/ukazatele_4obce_2010-2025.csv)
 - Řádků: 2560; jeden řádek = jedna obec × rok × ukazatel
 - Zdroj: Monitor státní pokladny MF; obyvatelé ČSÚ.
 - Pozor: Hodnoty sloupce `ukazatel` mají stejný význam jako stejnojmenné sloupce v souborech `finance_*_2010-2025.csv` (viz výše).
@@ -6172,7 +6172,7 @@ Stejné ukazatele jako `finance_*` pro všechny 4 obce v dlouhém formátu (vhod
 
 Rozvaha a výkaz zisku a ztráty 4 obcí: majetek, peníze, závazky, náklady, výnosy, odpisy.
 
-- Odkaz: [data/ukazatele_rozvaha_vzz_4_obce.csv](https://dinkotom.github.io/hd-v-datech/data/ukazatele_rozvaha_vzz_4_obce.csv)
+- Odkaz: [data/ukazatele_rozvaha_vzz_4_obce.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_4_obce.csv)
 - Řádků: 64; jeden řádek = jedna obec × rok (stav k 31. 12.)
 - Zdroj: Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.
 - Pozor: Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.
@@ -6219,7 +6219,7 @@ Rozvaha a výkaz zisku a ztráty 4 obcí: majetek, peníze, závazky, náklady, 
 
 Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 2018–2022).
 
-- Odkaz: [data/usneseni_zo_2022-2026.csv](https://dinkotom.github.io/hd-v-datech/data/usneseni_zo_2022-2026.csv)
+- Odkaz: [data/usneseni_zo_2022-2026.csv](https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv)
 - Řádků: 547; jeden řádek = jedno usnesení
 - Zdroj: Zápisy ze zasedání zastupitelstva zveřejněné obcí (sloupec `zdroj`).
 - Pozor: Text je přepsaný ze zápisů; jména fyzických osob jsou vynechaná. Závazné je znění zápisu na webu obce.
@@ -6245,7 +6245,7 @@ Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 20
 
 Výdaje 4 obcí rozdělené podle účelu (sloučené paragrafy) a podle druhu (sloučené položky).
 
-- Odkaz: [data/vydaje_kategorie_4obce_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/vydaje_kategorie_4obce_2010-2025.csv)
+- Odkaz: [data/vydaje_kategorie_4obce_2010-2025.csv](https://hd-v-datech.cz/data/vydaje_kategorie_4obce_2010-2025.csv)
 - Řádků: 1408; jeden řádek = jedna obec × rok × členění × kategorie
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 - Pozor: Obě členění (`ucel`, `druh`) dávají v součtu stejné celkové výdaje; nesčítat je dohromady.

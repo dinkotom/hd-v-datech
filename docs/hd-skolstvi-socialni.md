@@ -1,6 +1,6 @@
 # Školství a sociální situace
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-skolstvi-socialni.html (aktualizováno 2026-10-31)
 
 > Mateřská škola, spádové základní školy, nezaměstnanost, exekuce, kriminalita, ovzduší a dostupnost zdravotních a sociálních služeb v Horních Domaslavicích.
 
@@ -16,7 +16,7 @@ Stránka shrnuje veřejně dostupná data o školství, sociální situaci, bezp
 - **Ovzduší:** podle pětiletého průměru 2020–2024 je v obci benzo(a)pyren 1,2–1,3 ng/m³, tedy nad imisním limitem 1 ng/m³. PM10 (20 µg/m³) a PM2,5 (15 µg/m³) jsou pod limity. Hodnoty od období 2015–2019 výrazně klesají.
 - **Zdravotní a sociální služby:** v obci nesídlí ani neposkytuje služby žádný registrovaný poskytovatel zdravotních ani sociálních služeb. Nejbližší praktický lékař, pediatr, gynekolog a zubař ordinují v Dobré (č. p. 78). Nejbližší sociální služba je domov se zvláštním režimem DZR Pohoda v Dolních Domaslavicích (46 lůžek).
 
-Srovnání se sousedními obcemi je na stránce [Srovnání: školství a sociální situace](https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.html).
+Srovnání se sousedními obcemi je na stránce [Srovnání: školství a sociální situace](https://hd-v-datech.cz/srovnani-skolstvi-socialni.html).
 
 ---
 
@@ -60,7 +60,7 @@ Výkonové výkazy MŠMT (S 1-01) se za jednotlivé školy veřejně nepublikuj�
 | 2023 | 44 | 44 | Demografická studie, tab. 7 (naplněnost 100 %) |
 | inspekce 25.–27. 9. 2024 | 42 (dvě věkově smíšené třídy, z toho 5 dětí mladších 3 let) | 44 | Inspekční zpráva ČŠIT-1985/24-T |
 
-Vývoj počtu narozených dětí v obci je na stránce [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html).
+Vývoj počtu narozených dětí v obci je na stránce [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.html).
 
 ### 1.4 Zápisy: přijaté a nepřijaté děti
 
@@ -267,8 +267,8 @@ Ročenka vymezení publikuje mapou a tabulkami za zóny, aglomerace a kraje. Sez
 
 ### 6.3 Vytápění a kotlíkové dotace
 
-- Podle Sčítání 2021 topí uhlím, koksem nebo uhelnými briketami **69 z 324 obydlených bytů (21 %)**, dřevem 72 (22 %), elektřinou 85, zemním plynem 37, tepelným čerpadlem 27 a peletami 13. V okrese je to uhlím 6 897 z 83 270 bytů (8 %), v kraji 5 % a v ČR 5 %. Podrobněji na stránce [Obyvatelstvo](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html).
-- Kotlíkové dotace MSK, 4. výzva: obec se zavázala přispět 7 500 Kč na každou výměnu kotle a vyčlenila celkem 75 000 Kč (Informátor 2022, zápis ze zasedání ZO č. 26 ze dne 7. 4. 2022). Hlídač státu eviduje vztah obce ke „Kotlíkovým dotacím v MSK – 4. grantové schéma“ s částkami 15 000 Kč (2022) a 19 500 Kč (2023). Jde o příspěvek obce kraji, ne o příjem obce (viz [Dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)). V roce 2023 obec na položce 6342 vydala 30 000 Kč, což by odpovídalo 4 kotlům. **Počet vyměněných kotlů v obci podle krajských dat dohledat nelze.**
+- Podle Sčítání 2021 topí uhlím, koksem nebo uhelnými briketami **69 z 324 obydlených bytů (21 %)**, dřevem 72 (22 %), elektřinou 85, zemním plynem 37, tepelným čerpadlem 27 a peletami 13. V okrese je to uhlím 6 897 z 83 270 bytů (8 %), v kraji 5 % a v ČR 5 %. Podrobněji na stránce [Obyvatelstvo](https://hd-v-datech.cz/hd-obyvatelstvo.html).
+- Kotlíkové dotace MSK, 4. výzva: obec se zavázala přispět 7 500 Kč na každou výměnu kotle a vyčlenila celkem 75 000 Kč (Informátor 2022, zápis ze zasedání ZO č. 26 ze dne 7. 4. 2022). Hlídač státu eviduje vztah obce ke „Kotlíkovým dotacím v MSK – 4. grantové schéma“ s částkami 15 000 Kč (2022) a 19 500 Kč (2023). Jde o příspěvek obce kraji, ne o příjem obce (viz [Dotace](https://hd-v-datech.cz/hd-dotace.html)). V roce 2023 obec na položce 6342 vydala 30 000 Kč, což by odpovídalo 4 kotlům. **Počet vyměněných kotlů v obci podle krajských dat dohledat nelze.**
 
 ---
 

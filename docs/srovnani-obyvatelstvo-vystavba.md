@@ -1,10 +1,10 @@
 # Srovnání obyvatelstva a výstavby
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html (aktualizováno 2026-10-31)
 
 > Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a sousedních obcích.
 
-Stránka porovnává Horní Domaslavice (HD) se sousedními obcemi Pazderna, Dolní Domaslavice (DD) a Lučina z hlediska obyvatelstva, výsledků sčítání 2021 a bytové výstavby. Všechny čtyři obce leží v okrese i ve správním obvodu ORP Frýdek-Místek. Data pocházejí z ČSÚ (demografie, sčítání 2021, bytová výstavba), z RÚIAN a z územně plánovacích dokumentů obcí. Metodika je stejná jako na stránkách o [obyvatelstvu HD](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html) a [výstavbě v HD](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html). V textu se rozlišuje, co je **doloženo** (číslo přímo ze zdroje) a co je **odvozeno** (výpočet z doložených čísel).
+Stránka porovnává Horní Domaslavice (HD) se sousedními obcemi Pazderna, Dolní Domaslavice (DD) a Lučina z hlediska obyvatelstva, výsledků sčítání 2021 a bytové výstavby. Všechny čtyři obce leží v okrese i ve správním obvodu ORP Frýdek-Místek. Data pocházejí z ČSÚ (demografie, sčítání 2021, bytová výstavba), z RÚIAN a z územně plánovacích dokumentů obcí. Metodika je stejná jako na stránkách o [obyvatelstvu HD](https://hd-v-datech.cz/hd-obyvatelstvo.html) a [výstavbě v HD](https://hd-v-datech.cz/hd-vystavba.html). V textu se rozlišuje, co je **doloženo** (číslo přímo ze zdroje) a co je **odvozeno** (výpočet z doložených čísel).
 
 | Obec | Kód obce (ZÚJ) | Obyvatel k 31. 12. 2025 |
 |---|---|---:|
@@ -233,7 +233,7 @@ V HD je polovina obydlených domů z doby po roce 2000. V ostatních třech obc�
 | Římskokatolická církev a „katolická víra“ | 18,8 % (184) | **25,5 %** (82) | 16,0 % (223) | 11,4 % (169) | 16,4 % | 9,3 % |
 | Slezská evangelická církev a protestanté | 0,9 % (9) | 0 % | **5,9 %** (82) | 0,4 % (6) | 4,6 % | 0,3 % |
 
-¹ Odvozeno: obyvatelé bez českého občanství, bez dvojího občanství a bez „nezjištěno“. Stránka o [obyvatelstvu HD](https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html) uvádí 11, protože započítává i jednu osobu s dvojím občanstvím.
+¹ Odvozeno: obyvatelé bez českého občanství, bez dvojího občanství a bez „nezjištěno“. Stránka o [obyvatelstvu HD](https://hd-v-datech.cz/hd-obyvatelstvo.html) uvádí 11, protože započítává i jednu osobu s dvojím občanstvím.
 
 ## 5. Výstavba
 

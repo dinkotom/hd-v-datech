@@ -1,6 +1,6 @@
 # Daňové příjmy obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-prijmy.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-prijmy.html (aktualizováno 2026-10-31)
 
 > Kolik obec Horní Domaslavice dostává ze sdílených daní (RUD) a z daně z nemovitostí, 2014–2025.
 
@@ -29,8 +29,8 @@ RUD zde zahrnuje položky 1111 (daň z příjmů fyzických osob ze závislé č
 - Za 11 let vzrostl příjem z RUD trojnásobně, z 6,2 na 19,0 mil. Kč ročně. Tvoří zhruba 90 % daňových příjmů. Na vlastních příjmech obce (třídy 1–3) má od roku 2017 podíl 86–91 %. V roce 2014 to bylo jen 61 %, protože obec tehdy měla 2,75 mil. kapitálových příjmů (prodej pozemků).
 - Největší skoky jsou v letech 2021 a 2022 (+14 % a +26 %). Stojí za nimi novela RUD od roku 2021, která obcím zvýšila podíl na sdílených daních, a k tomu inflace 2022, která zvedla výběr DPH a daně z příjmů firem. V roce 2020 byl kvůli covidu pokles o 3 %.
 - **Daň z příjmů ze závislé činnosti klesla v roce 2021** z 2,71 na 2,04 mil. To je důsledek zrušení superhrubé mzdy. Pokles kompenzoval vyšší podíl obcí na DPH.
-- Pro srovnání s výdaji: v roce 2025 obec na RUD dostala 19,0 mil. Kč a na účtech měla ke konci roku 39,5 mil. Kč (viz [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html)). Úspory tak odpovídají zhruba dvěma letům příjmů z RUD.
-- **Daň z nemovitostí se v roce 2024 téměř zdvojnásobila** (0,37 → 0,67 mil.) a v roce 2025 vzrostla dál na 0,82 mil. Příčinou je v roce 2024 státní konsolidační balíček (zvýšení sazeb o 80 %) a v roce 2025 přechod obce do zákonné kategorie 1,4 podle velikosti (od 2025 se počet obyvatel bere z vyhlášky k RUD, kde mají Horní Domaslavice přes 1 000 obyvatel; podle sčítání 2021 měly méně). Ani jedno není rozhodnutí obce. Místní koeficient obec nezavedla: mezi platnými vyhláškami obce žádná o koeficientu daně z nemovitých věcí není a v zápisech zastupitelstva se o něm nejednalo. Srovnání se sousedními obcemi je na stránce [daň z nemovitostí](https://dinkotom.github.io/hd-v-datech/srovnani-dan-nemovitosti.html).
+- Pro srovnání s výdaji: v roce 2025 obec na RUD dostala 19,0 mil. Kč a na účtech měla ke konci roku 39,5 mil. Kč (viz [stavy účtů](https://hd-v-datech.cz/hd-ucty.html)). Úspory tak odpovídají zhruba dvěma letům příjmů z RUD.
+- **Daň z nemovitostí se v roce 2024 téměř zdvojnásobila** (0,37 → 0,67 mil.) a v roce 2025 vzrostla dál na 0,82 mil. Příčinou je v roce 2024 státní konsolidační balíček (zvýšení sazeb o 80 %) a v roce 2025 přechod obce do zákonné kategorie 1,4 podle velikosti (od 2025 se počet obyvatel bere z vyhlášky k RUD, kde mají Horní Domaslavice přes 1 000 obyvatel; podle sčítání 2021 měly méně). Ani jedno není rozhodnutí obce. Místní koeficient obec nezavedla: mezi platnými vyhláškami obce žádná o koeficientu daně z nemovitých věcí není a v zápisech zastupitelstva se o něm nejednalo. Srovnání se sousedními obcemi je na stránce [daň z nemovitostí](https://hd-v-datech.cz/srovnani-dan-nemovitosti.html).
 - **Výhled:** střednědobý výhled rozpočtu 2025–2028 počítá s daňovými příjmy 20,0–21,5 mil. Kč ročně, tedy s pokračováním současné úrovně.
 
 ## Pozor

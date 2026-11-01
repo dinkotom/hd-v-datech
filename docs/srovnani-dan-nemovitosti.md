@@ -1,6 +1,6 @@
 # Daň z nemovitostí
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-dan-nemovitosti.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-dan-nemovitosti.html (aktualizováno 2026-10-31)
 
 > Jaké koeficienty daně z nemovitých věcí uplatňují Horní Domaslavice a sousední obce a kolik jim daň vynáší na obyvatele.
 
@@ -44,11 +44,11 @@ Horní Domaslavice a Pazderna tedy žádný vlastní koeficient nezavedly. Doln�
 
 ## Pozor
 
-- Sbírka právních předpisů ÚSC funguje od roku 2021. Vyhlášku vydanou dřív a dosud platnou by výpis nezachytil. U HD je to ověřené proti seznamu platných vyhlášek obce (viz [příjmy HD](https://dinkotom.github.io/hd-v-datech/hd-prijmy.html)); u ostatních obcí jsou vyhlášky z let 2024 a 2025 psané jako úplná nová úprava a starší koeficienty by od roku 2025 stejně musely být revidované.
+- Sbírka právních předpisů ÚSC funguje od roku 2021. Vyhlášku vydanou dřív a dosud platnou by výpis nezachytil. U HD je to ověřené proti seznamu platných vyhlášek obce (viz [příjmy HD](https://hd-v-datech.cz/hd-prijmy.html)); u ostatních obcí jsou vyhlášky z let 2024 a 2025 psané jako úplná nová úprava a starší koeficienty by od roku 2025 stejně musely být revidované.
 - Definitivní koeficient pro konkrétní nemovitost ukáže vyhledávač Finanční správy (adisepo.mfcr.cz/pmd/vyhledani-koeficientu, zadává se katastrální území a parcela).
 - Výnos položky 1511 obsahuje i nedoplatky a přeplatky z minulých let a obec dostává daň se zpožděním, takže meziroční změny nejsou přesným obrazem koeficientů.
 - Výnos za rok 2026 zatím není k dispozici, efekt koeficientu 5,0 u podnikatelských staveb v Lučině se ukáže až v něm.
 
 ## Metodika a zdroje
 
-Koeficienty jsou převzaty z obecně závazných vyhlášek obcí ve Sbírce právních předpisů ÚSC (sbirkapp.gov.cz) a ze zákona č. 338/1992 Sb. Výnos daně je skutečnost položky 1511 z výkazu FIN 2-12 M (Monitor státní pokladny MF, https://monitor.statnipokladna.gov.cz) za daný rok. Výnos na obyvatele je dělený počtem obyvatel k 31. 12. daného roku (ČSÚ). Podrobnější finanční údaje jsou na stránce [srovnání financí](https://dinkotom.github.io/hd-v-datech/srovnani-finance.html).
+Koeficienty jsou převzaty z obecně závazných vyhlášek obcí ve Sbírce právních předpisů ÚSC (sbirkapp.gov.cz) a ze zákona č. 338/1992 Sb. Výnos daně je skutečnost položky 1511 z výkazu FIN 2-12 M (Monitor státní pokladny MF, https://monitor.statnipokladna.gov.cz) za daný rok. Výnos na obyvatele je dělený počtem obyvatel k 31. 12. daného roku (ČSÚ). Podrobnější finanční údaje jsou na stránce [srovnání financí](https://hd-v-datech.cz/srovnani-finance.html).

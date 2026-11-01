@@ -1,10 +1,10 @@
 # Srovnání školství a sociální oblasti
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-skolstvi-socialni.html (aktualizováno 2026-10-31)
 
 > Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a sousedních obcích.
 
-Stránka porovnává Horní Domaslavice (HD, kód obce 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399), všemi v okrese Frýdek-Místek. Sleduje školy a školské obvody, nezaměstnanost, exekuce, kriminalitu, kvalitu ovzduší a zdravotní a sociální služby. Postup a zdroje odpovídají stránce o [školství a sociální oblasti v HD](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html), aby byla čísla srovnatelná. Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv ČŠI, Sbírky právních předpisů, ČSÚ, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb. Zpracováno 30. 10. 2026; není-li uvedeno jinak, platí u odkazů toto datum přístupu.
+Stránka porovnává Horní Domaslavice (HD, kód obce 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399), všemi v okrese Frýdek-Místek. Sleduje školy a školské obvody, nezaměstnanost, exekuce, kriminalitu, kvalitu ovzduší a zdravotní a sociální služby. Postup a zdroje odpovídají stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html), aby byla čísla srovnatelná. Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv ČŠI, Sbírky právních předpisů, ČSÚ, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb. Zpracováno 30. 10. 2026; není-li uvedeno jinak, platí u odkazů toto datum přístupu.
 
 ## Shrnutí
 
@@ -220,7 +220,7 @@ Tučně jsou hodnoty nad imisním limitem podle přílohy č. 1 zákona č. 201/
 | Další zdravotní služby | – | – | ošetřovatelská péče v DZR Pohoda | dentální hygienistka, samostatné zařízení nelékaře (od 1. 5. 2026) |
 | Registrované sociální služby | – | – | **DZR Pohoda, z. ú.**, domov se zvláštním režimem, 46 lůžek, od 1. 9. 2018 | – |
 
-V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gynekologie v Bohumíně a zubní lékařství ve Frýdku-Místku). Do přehledu služeb v obci se proto nepočítají. Nejbližší služby pro HD a Pazdernu jsou v Dobré (praktický lékař, pediatr, gynekolog, zubař a lékárny), viz [školství a sociální oblast v HD](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html). Registr sociálních služeb uvádí územní působnost terénních služeb jen na úrovni kraje, takže z něj nelze zjistit, které terénní služby do jednotlivých obcí dojíždějí.
+V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gynekologie v Bohumíně a zubní lékařství ve Frýdku-Místku). Do přehledu služeb v obci se proto nepočítají. Nejbližší služby pro HD a Pazdernu jsou v Dobré (praktický lékař, pediatr, gynekolog, zubař a lékárny), viz [školství a sociální oblast v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html). Registr sociálních služeb uvádí územní působnost terénních služeb jen na úrovni kraje, takže z něj nelze zjistit, které terénní služby do jednotlivých obcí dojíždějí.
 
 ## Hlavní rozdíly
 
@@ -240,7 +240,7 @@ V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gyn
 6. **Kriminalita:** soubory za rok 2026 mají různé datum aktualizace. U HD končí 17. 8. 2026, u ostatních obcí koncem října, proto rok 2026 do průměrů není zahrnut. Data obsahují jen vybrané druhy trestných činů a všechny přestupky a neodpovídají úplné policejní statistice. Při jednotkách trestných činů ročně jsou přepočty na 1 000 obyvatel velmi citlivé na náhodu.
 7. **Ovzduší:** jde o modelová pole v síti 1 km, ne o měření v obcích. Pětiletý průměr 2021–2025 ČHMÚ zatím nezveřejnil. Hranice obcí pocházejí z vrstvy Moravskoslezského kraje, ne přímo z RÚIAN. U Lučiny a DD zasahuje území i do vodní plochy Žermanické přehrady.
 8. **Zdravotní služby:** registr uvádí místa poskytování péče, ne ordinační hodiny ani to, zda lékař v daném místě skutečně pravidelně ordinuje.
-9. Údaje o HD (MŠ HD, zápisy, počet dětí z HD v ZŠ DD, dohoda s Frýdkem-Místkem) mají tytéž výhrady jako na stránce o [školství a sociální oblasti v HD](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+9. Údaje o HD (MŠ HD, zápisy, počet dětí z HD v ZŠ DD, dohoda s Frýdkem-Místkem) mají tytéž výhrady jako na stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ## Metodika a zdroje
 

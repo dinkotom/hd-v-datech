@@ -1,6 +1,6 @@
 # Rozloha a druhy pozemků
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-plochy.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-plochy.html (aktualizováno 2026-10-31)
 
 > Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pazderně, Dolních Domaslavicích a Lučině a jejich vývoj od roku 2004.
 
@@ -70,7 +70,7 @@ Na obyvatele (m²):
 
 1. **HD jsou nejmenší ze tří srovnatelně velkých obcí** (5,1 km² proti 7,4 km² v DD a Lučině), ale počtem obyvatel se jim blíží. Hustotou jsou na úrovni Lučiny a vyšší než DD.
 2. **HD mají nejzemědělštější krajinu**: 78 % zemědělské půdy a jen 12 % lesa. Lesa na obyvatele mají HD necelou třetinu proti Pazderně a polovinu proti DD; méně má jen Lučina, která má místo lesa přehradu.
-3. **Zástavba roste, ale krajinu zatím nemění**: zastavěné plochy přibylo za 22 let 2,9 ha. Nové domy ale mají kolem sebe zahrady a travní plochy, takže skutečný zábor pro bydlení je větší, než ukazuje zastavěná plocha. Územní plán má podle návrhu zprávy o uplatňování ještě 51 ha nevyužitých ploch pro bydlení, což je zhruba desetina rozlohy obce (viz [obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html)).
+3. **Zástavba roste, ale krajinu zatím nemění**: zastavěné plochy přibylo za 22 let 2,9 ha. Nové domy ale mají kolem sebe zahrady a travní plochy, takže skutečný zábor pro bydlení je větší, než ukazuje zastavěná plocha. Územní plán má podle návrhu zprávy o uplatňování ještě 51 ha nevyužitých ploch pro bydlení, což je zhruba desetina rozlohy obce (viz [obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html)).
 4. **Ostatní plocha** (cesty, veřejná zeleň, sportoviště) na obyvatele je ve všech obcích podobná, kolem 300 m².
 
 ## Pozor
@@ -81,4 +81,4 @@ Na obyvatele (m²):
 
 ## Metodika a zdroje
 
-Zdroj: ČÚZK, Úhrnné hodnoty druhů pozemků (services.cuzk.cz/sestavy/UHDP) po katastrálních územích, sečtené za obce. Hustota je počet obyvatel k 31. 12. 2025 (ČSÚ) dělený rozlohou. Koeficient ekologické stability je zde počítán zjednodušeně z druhů pozemků, bez hodnocení skutečného stavu porostů. Novější sestavy ČÚZK (od roku 2023) neobsahují počet domů, proto se zde nepoužívá; počty budov z RÚIAN jsou na stránce [obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html).
+Zdroj: ČÚZK, Úhrnné hodnoty druhů pozemků (services.cuzk.cz/sestavy/UHDP) po katastrálních územích, sečtené za obce. Hustota je počet obyvatel k 31. 12. 2025 (ČSÚ) dělený rozlohou. Koeficient ekologické stability je zde počítán zjednodušeně z druhů pozemků, bez hodnocení skutečného stavu porostů. Novější sestavy ČÚZK (od roku 2023) neobsahují počet domů, proto se zde nepoužívá; počty budov z RÚIAN jsou na stránce [obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html).

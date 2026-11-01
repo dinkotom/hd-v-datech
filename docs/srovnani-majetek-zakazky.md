@@ -1,6 +1,6 @@
 # Srovnání majetku, smluv a zakázek
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-majetek-zakazky.html (aktualizováno 2026-10-31)
 
 > Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou a Pazdernou.
 
@@ -17,7 +17,7 @@ Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se s
 
 1. **HD má zdaleka nejmenší majetek na obyvatele, ale nejvíc peněz na účtu.** Aktiva netto na obyvatele činila v roce 2025 v HD 69 tis. Kč, v DD 214 tis., v Lučině 174 tis. a v Pazderně 220 tis. Kč. Stavby netto na obyvatele jsou v HD 28 tis. Kč, v ostatních obcích 105–151 tis. Kč. Peníze na obyvatele jsou naopak v HD nejvyšší (35,6 tis. Kč, DD 30,7 tis., Lučina 3,3 tis., Pazderna 7,7 tis.). Peníze tvoří v HD 52 % aktiv, v DD 14 % a v Lučině a Pazderně 2–3 %.
 2. **Ostatní obce za 2014–2025 přidaly do staveb mnohonásobně víc.** Stavby v pořizovací ceně vzrostly od konce roku 2013 do konce roku 2025 v HD o 25,0 mil. Kč (22 tis. Kč na dnešního obyvatele), v DD o 205,9 mil. (140 tis.), v Lučině o 171,6 mil. (107 tis.) a v Pazderně o 44,1 mil. (105 tis. Kč na obyvatele).
-3. **HD má přitom absolutně nejvyšší opravy.** Na účtu 511 (opravy a udržování) vykázala HD za 2014–2025 celkem 27,5 mil. Kč, DD 24,9 mil., Lučina 17,1 mil. a Pazderna 8,8 mil. Kč. Velké akce na silnicích v HD šly do nákladů, ne do majetku (viz [majetek HD](https://dinkotom.github.io/hd-v-datech/hd-majetek.html)).
+3. **HD má přitom absolutně nejvyšší opravy.** Na účtu 511 (opravy a udržování) vykázala HD za 2014–2025 celkem 27,5 mil. Kč, DD 24,9 mil., Lučina 17,1 mil. a Pazderna 8,8 mil. Kč. Velké akce na silnicích v HD šly do nákladů, ne do majetku (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)).
 4. **Dluh:** HD a DD jsou bez úvěrů. Lučina má k 31. 12. 2025 úvěry 17,25 mil. Kč (dlouhodobý 8,80 a krátkodobý 8,45 mil.), Pazderna 4,0 mil. Kč. Obě obce zároveň mají velké rozestavěné investice (účet 042: Lučina 43,6 mil., Pazderna 22,3 mil.).
 5. **Všechny čtyři obce jsou každoročně v zisku.** Za 2014–2025 dosáhla HD součtu výsledků 51,5 mil. Kč, DD 102,6 mil., Lučina 95,9 mil. a Pazderna 21,9 mil. Kč. V přepočtu na obyvatele byla HD v roce 2025 (8 294 Kč) za DD (13 703 Kč), ale před Pazdernou (7 129 Kč) a Lučinou (6 228 Kč).
 6. **Registr smluv:** sama zveřejňuje jen DD, a to 16 smluv z let 2016–2026 za 7,27 mil. Kč s DPH. Po roce 2020 už ale jen jednu (2026). HD, Lučina ani Pazderna jako zveřejňovatel v registru nejsou. Smlouvy, kde jsou stranou a vložila je protistrana, mají všechny (HD 9, DD 21, Lučina 18, Pazderna 12).
@@ -183,7 +183,7 @@ Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se s
 | 2024 | 0,00 | 0,00 | 12,72 | 7,50 |
 | 2025 | 0,00 | 0,00 | 17,25 | 4,00 |
 
-U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý závazek, jehož původ z výkazů nevyplývá (viz [majetek HD](https://dinkotom.github.io/hd-v-datech/hd-majetek.html)). U Lučiny je v roce 2025 dlouhodobý úvěr 8,80 mil. a krátkodobý úvěr 8,45 mil. Kč. U Pazderny jde téměř celé o dlouhodobý úvěr 451.
+U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý závazek, jehož původ z výkazů nevyplývá (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)). U Lučiny je v roce 2025 dlouhodobý úvěr 8,80 mil. a krátkodobý úvěr 8,45 mil. Kč. U Pazderny jde téměř celé o dlouhodobý úvěr 451.
 
 **Odpisy (mil. Kč)**
 
@@ -228,7 +228,7 @@ U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý 
 
 ## 2. Registr smluv a Hlídač státu
 
-Žádná ze čtyř obcí nevykonává rozšířenou působnost. Podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. tak nemají povinnost zveřejňovat v registru smluv (viz [registr smluv HD](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html)). Co v registru je, je proto dobrovolné, ať od obce, nebo od protistrany.
+Žádná ze čtyř obcí nevykonává rozšířenou působnost. Podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. tak nemají povinnost zveřejňovat v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)). Co v registru je, je proto dobrovolné, ať od obce, nebo od protistrany.
 
 ### 2.1 Smlouvy, které obec vložila sama
 
@@ -322,7 +322,7 @@ DD mají navíc tři zakázky z roku 2013. U Pazderny jsou zakázky z let 2017�
 | Medián (rozpětí) | 82 % (62–108 %) | 66 % (43–100 %) | 80 % (45–118 %) | 63 % (60–79 %) |
 | Zadaný objem, kde je cena uvedena (mil. Kč bez DPH) | 30,5 (13 zakázek) | 89,5 (31) | 130,9 (23) | 44,4 (12) |
 
-Stránka o [zakázkách HD](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html) uvádí průměr 5,1 nabídky u 11 zakázek z let 2020–2026. Tam jsou zahrnuty i zakázky, u nichž počet nabídek pochází z dokumentů, ne z karty účastníků. Rozdíl proti 5,3 je dán jen jiným výběrem zakázek.
+Stránka o [zakázkách HD](https://hd-v-datech.cz/hd-zakazky.html) uvádí průměr 5,1 nabídky u 11 zakázek z let 2020–2026. Tam jsou zahrnuty i zakázky, u nichž počet nabídek pochází z dokumentů, ne z karty účastníků. Rozdíl proti 5,3 je dán jen jiným výběrem zakázek.
 
 ### 3.4 Nejčastější vítězové a administrátoři 2014–2026
 
@@ -341,7 +341,7 @@ Stejní dodavatelé se opakují napříč obcemi. SWIETELSKY vyhrál po dvou zak
 1. **Rozsah:** HD zadala od roku 2014 nejméně zakázek (18) a nejmenší objem (30,5 mil. Kč bez DPH). DD a Lučina zadaly přes profil třikrát až čtyřikrát větší objem a Pazderna, která má zhruba dva a půlkrát méně obyvatel než HD, 44,4 mil. Kč. To odpovídá rozvaze: HD investovala nejméně.
 2. **Soutěž:** podlimitní řízení s velkým počtem nabídek vedla HD třikrát (MŠ 2020, MK1 2023, MK 5 + MK 10 2024). DD a Lučina jich vedly 13 a 11. Průměrná soutěž v DD a Lučině přilákala 7 účastníků, v HD a Pazderně 5.
 3. **Úspora proti předpokládané hodnotě:** nejvyšší je u DD (medián 66 %) a Pazderny (63 %, jen tři případy). HD a Lučina se drží kolem 80 %. U HD dvě zakázky předpokládanou hodnotu převýšily (stavební úpravy Obecního domu 108 % a chodníky uvnitř hřbitova po dodatku 108 %). V Lučině ji převýšily obě etapy kempu (102 % a 118 % smluvní ceny po dodatcích).
-4. **Zveřejňování přímých zadání:** DD a Lučina na profil vkládají i přímo zadané smlouvy (22 a 17 záznamů), HD ani Pazderna ne. Menší přímo zadané zakázky HD tak nejsou zveřejněny na profilu zadavatele ani v registru smluv (viz [registr smluv HD](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html)).
+4. **Zveřejňování přímých zadání:** DD a Lučina na profil vkládají i přímo zadané smlouvy (22 a 17 záznamů), HD ani Pazderna ne. Menší přímo zadané zakázky HD tak nejsou zveřejněny na profilu zadavatele ani v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)).
 
 ## Pozor
 
@@ -360,7 +360,7 @@ Stejní dodavatelé se opakují napříč obcemi. SWIETELSKY vyhrál po dvou zak
 
 ## Metodika a zdroje
 
-- **Monitor státní pokladny MF** (https://monitor.statnipokladna.gov.cz), roční extrakty CSUIS za 2010–2025: rozvaha a výkaz zisku a ztráty, vybrané řádky čtyř obcí podle IČO. Názvy řádků jsou z číselníku MF. Bilance aktiv a pasiv sedí u všech čtyř obcí ve všech letech a výsledek v rozvaze se rovná výsledku ve výkazu zisku a ztráty. Čísla HD se shodují s údaji na stránce o [majetku HD](https://dinkotom.github.io/hd-v-datech/hd-majetek.html); jediný rozdíl je v roce 2016 (peníze 8,25 mil. Kč proti 8,27 mil.), protože tam je připočtena i pokladna.
+- **Monitor státní pokladny MF** (https://monitor.statnipokladna.gov.cz), roční extrakty CSUIS za 2010–2025: rozvaha a výkaz zisku a ztráty, vybrané řádky čtyř obcí podle IČO. Názvy řádků jsou z číselníku MF. Bilance aktiv a pasiv sedí u všech čtyř obcí ve všech letech a výsledek v rozvaze se rovná výsledku ve výkazu zisku a ztráty. Čísla HD se shodují s údaji na stránce o [majetku HD](https://hd-v-datech.cz/hd-majetek.html); jediný rozdíl je v roce 2016 (peníze 8,25 mil. Kč proti 8,27 mil.), protože tam je připočtena i pokladna.
 - **Obyvatelé:** ČSÚ, datová sada OBY01B01 (https://data.csu.gov.cz/opendata/sady/OBY01B01/distribuce/csv), počet obyvatel k 31. 12.
 - **Registr smluv:** podrobné vyhledávání na smlouvy.gov.cz s exportem (jen poslední verze), zvlášť podle IČO publikujícího subjektu a podle IČO smluvní strany.
 - **Hlídač státu:** https://www.hlidacstatu.cz/subjekt/<IČO> a podstránky registr smluv, dodavatelé a veřejné zakázky.

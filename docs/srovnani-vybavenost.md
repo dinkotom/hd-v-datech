@@ -1,6 +1,6 @@
 # Občanská vybavenost
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-vybavenost.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-vybavenost.html (aktualizováno 2026-10-31)
 
 > Jaké služby a zařízení mají Horní Domaslavice a sousední obce a jak sousedé pořídili to, co HD chybí.
 
@@ -228,14 +228,14 @@ Tato vybavenost souvisí s polohou u Žermanické přehrady. Pro HD je srovnatel
 
 | Kód | Zdroj | Typ |
 |---|---|---|
-| [S1] | Rejstřík škol a školských zařízení MŠMT (stav 30. 10. 2026), Národní registr poskytovatelů zdravotních služeb (nrpzs.uzis.cz), Registr poskytovatelů sociálních služeb MPSV; viz [Srovnání: školství a sociální data](https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.html) | R |
-| [RU] | RÚIAN, výměnný formát za obce k 30. 9. 2026 (vdp.cuzk.gov.cz); budovy s č. p.: HD 411, PA 129, DD 514, LU 544; souhrn je mezi [daty ke stažení](https://dinkotom.github.io/hd-v-datech/data.html) | R |
-| [O2] | Sčítání lidu, domů a bytů 2021 (ČSÚ); viz [Srovnání: obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html) | R |
-| [V] | Územní plán HD 2011, strategický plán HD 2024–2030; viz [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html) | O |
-| [FIN] | Monitor státní pokladny MF, výkaz FIN 2-12 M; viz [Srovnání: finance](https://dinkotom.github.io/hd-v-datech/srovnani-finance.html) | R |
-| [PZ] | Profily zadavatelů obcí (vhodne-uverejneni.cz); viz [Srovnání: majetek, smlouvy, zakázky](https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.html) a [Veřejné zakázky HD](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html) | R |
+| [S1] | Rejstřík škol a školských zařízení MŠMT (stav 30. 10. 2026), Národní registr poskytovatelů zdravotních služeb (nrpzs.uzis.cz), Registr poskytovatelů sociálních služeb MPSV; viz [Srovnání: školství a sociální data](https://hd-v-datech.cz/srovnani-skolstvi-socialni.html) | R |
+| [RU] | RÚIAN, výměnný formát za obce k 30. 9. 2026 (vdp.cuzk.gov.cz); budovy s č. p.: HD 411, PA 129, DD 514, LU 544; souhrn je mezi [daty ke stažení](https://hd-v-datech.cz/data.html) | R |
+| [O2] | Sčítání lidu, domů a bytů 2021 (ČSÚ); viz [Srovnání: obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html) | R |
+| [V] | Územní plán HD 2011, strategický plán HD 2024–2030; viz [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.html) | O |
+| [FIN] | Monitor státní pokladny MF, výkaz FIN 2-12 M; viz [Srovnání: finance](https://hd-v-datech.cz/srovnani-finance.html) | R |
+| [PZ] | Profily zadavatelů obcí (vhodne-uverejneni.cz); viz [Srovnání: majetek, smlouvy, zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.html) a [Veřejné zakázky HD](https://hd-v-datech.cz/hd-zakazky.html) | R |
 | [NEN] | Národní elektronický nástroj (nen.nipez.cz), zakázky Pazderny | R |
-| [DOT] | Závěrečné účty HD a Monitor MF; viz [Dotace HD](https://dinkotom.github.io/hd-v-datech/hd-dotace.html) | R + O |
+| [DOT] | Závěrečné účty HD a Monitor MF; viz [Dotace HD](https://hd-v-datech.cz/hd-dotace.html) | R + O |
 | [JPO] | Nařízení Moravskoslezského kraje č. 2/2023 o plošném pokrytí území jednotkami požární ochrany, příloha č. 1 | R |
 | [JDF] | Celostátní informační systém o jízdních řádech, data JDF (portal.cisjr.cz), stav 30. 10. 2026 | R |
 | [HD1] | Web obce horni-domaslavice.cz, zápisy ze zasedání zastupitelstva, zpravodaj Informátor, územní plán 2011 | O |

@@ -1,12 +1,12 @@
 # Slovník dat
 
-Popis datových souborů webu Horní Domaslavice v datech (https://dinkotom.github.io/hd-v-datech/). Všechny soubory jsou CSV v UTF-8, oddělovač čárka, desetinná tečka, data ve tvaru RRRR-MM-DD. Částky jsou v Kč, běžné ceny.
+Popis datových souborů webu Horní Domaslavice v datech (https://hd-v-datech.cz/). Všechny soubory jsou CSV v UTF-8, oddělovač čárka, desetinná tečka, data ve tvaru RRRR-MM-DD. Částky jsou v Kč, běžné ceny.
 
 ## CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv
 
 Výměry druhů pozemků po katastrálních územích (orná půda, louky, lesy, zastavěné plochy…).
 
-- Odkaz: [data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv](https://dinkotom.github.io/hd-v-datech/data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv)
+- Odkaz: [data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv](https://hd-v-datech.cz/data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv)
 - Řádků: 18; jeden řádek = jeden rok × katastrální území
 - Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků (UHDP).
 - Pozor: Dolní Domaslavice mají dvě katastrální území (Dolní Domaslavice a Volovec), Lučina také (Lučina a Kocurovice). Za obec je třeba řádky sečíst podle sloupce `obec`.
@@ -31,7 +31,7 @@ Výměry druhů pozemků po katastrálních územích (orná půda, louky, lesy,
 
 Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN), stav 30. 9. 2026.
 
-- Odkaz: [data/RUIAN_souhrn_4obce_stav_20260930.csv](https://dinkotom.github.io/hd-v-datech/data/RUIAN_souhrn_4obce_stav_20260930.csv)
+- Odkaz: [data/RUIAN_souhrn_4obce_stav_20260930.csv](https://hd-v-datech.cz/data/RUIAN_souhrn_4obce_stav_20260930.csv)
 - Řádků: 20; jeden řádek = jeden ukazatel; sloupce jsou obce
 - Zdroj: RÚIAN (ČÚZK), výměnný formát VFR.
 - Pozor: Údaje o vodovodu, kanalizaci a plynu jsou v RÚIAN neúplné a často zastaralé (viz `kanal_nezjist`). Spolehlivější je sčítání 2021 na stránce Obyvatelstvo a výstavba.
@@ -48,7 +48,7 @@ Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN
 
 Hospodaření obce Dolní Domaslavice po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu).
 
-- Odkaz: [data/finance_DD_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_DD_2010-2025.csv)
+- Odkaz: [data/finance_DD_2010-2025.csv](https://hd-v-datech.cz/data/finance_DD_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -60,7 +60,7 @@ Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
 
 Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, investice, opravy, dotace, rezervy, peníze a úvěry.
 
-- Odkaz: [data/finance_HD_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_HD_2010-2025.csv)
+- Odkaz: [data/finance_HD_2010-2025.csv](https://hd-v-datech.cz/data/finance_HD_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -117,7 +117,7 @@ Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, 
 
 Hospodaření obce Lučina po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu a má výdaje spojené s nádrží Žermanice).
 
-- Odkaz: [data/finance_LUC_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_LUC_2010-2025.csv)
+- Odkaz: [data/finance_LUC_2010-2025.csv](https://hd-v-datech.cz/data/finance_LUC_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -129,7 +129,7 @@ Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
 
 Hospodaření obce Pazderna po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
 
-- Odkaz: [data/finance_PAZ_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/finance_PAZ_2010-2025.csv)
+- Odkaz: [data/finance_PAZ_2010-2025.csv](https://hd-v-datech.cz/data/finance_PAZ_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -141,7 +141,7 @@ Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
 
 Investice a opravy 4 obcí podle paragrafu rozpočtové skladby (na co šly).
 
-- Odkaz: [data/investice_opravy_podle_paragrafu_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/investice_opravy_podle_paragrafu_4obce.csv)
+- Odkaz: [data/investice_opravy_podle_paragrafu_4obce.csv](https://hd-v-datech.cz/data/investice_opravy_podle_paragrafu_4obce.csv)
 - Řádků: 629; jeden řádek = jedna obec × rok × paragraf (jen nenulové)
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 
@@ -156,7 +156,7 @@ Investice a opravy 4 obcí podle paragrafu rozpočtové skladby (na co šly).
 
 Rozpočet 2026: plánované a zaplacené investice a opravy podle paragrafu.
 
-- Odkaz: [data/rozpocet_2026_investice_opravy.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_investice_opravy.csv)
+- Odkaz: [data/rozpocet_2026_investice_opravy.csv](https://hd-v-datech.cz/data/rozpocet_2026_investice_opravy.csv)
 - Řádků: 15; jeden řádek = jeden paragraf
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M za září 2026.
 
@@ -174,7 +174,7 @@ Rozpočet 2026: plánované a zaplacené investice a opravy podle paragrafu.
 
 Rozpočtované a skutečné příjmy 2023–2026 a jaký podíl ročních příjmů obvykle přichází do konce září.
 
-- Odkaz: [data/rozpocet_2026_odhad_prijmu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_odhad_prijmu.csv)
+- Odkaz: [data/rozpocet_2026_odhad_prijmu.csv](https://hd-v-datech.cz/data/rozpocet_2026_odhad_prijmu.csv)
 - Řádků: 24; jeden řádek = jeden rok × druh příjmu
 - Zdroj: Monitor státní pokladny MF.
 
@@ -193,7 +193,7 @@ Rozpočtované a skutečné příjmy 2023–2026 a jaký podíl ročních příj
 
 Rozpočtová opatření (změny rozpočtu) 2026.
 
-- Odkaz: [data/rozpocet_2026_rozpoctova_opatreni.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_rozpoctova_opatreni.csv)
+- Odkaz: [data/rozpocet_2026_rozpoctova_opatreni.csv](https://hd-v-datech.cz/data/rozpocet_2026_rozpoctova_opatreni.csv)
 - Řádků: 8; jeden řádek = jedno rozpočtové opatření nebo jeho část
 - Zdroj: Rozpočtová opatření a zápisy zveřejněné obcí (sloupec `zdroj`).
 
@@ -212,7 +212,7 @@ Rozpočtová opatření (změny rozpočtu) 2026.
 
 Rozpočet 2026: plnění příjmů a čerpání výdajů k 30. 9. proti stejnému období 2023–2025.
 
-- Odkaz: [data/rozpocet_2026_srovnani_k_30_9.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_srovnani_k_30_9.csv)
+- Odkaz: [data/rozpocet_2026_srovnani_k_30_9.csv](https://hd-v-datech.cz/data/rozpocet_2026_srovnani_k_30_9.csv)
 - Řádků: 44; jeden řádek = jeden ukazatel × rok
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M za září.
 
@@ -230,7 +230,7 @@ Rozpočet 2026: plnění příjmů a čerpání výdajů k 30. 9. proti stejném
 
 Peníze na účtech obce Horní Domaslavice po čtvrtletích 2023–2026.
 
-- Odkaz: [data/rozpocet_2026_stav_uctu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_stav_uctu.csv)
+- Odkaz: [data/rozpocet_2026_stav_uctu.csv](https://hd-v-datech.cz/data/rozpocet_2026_stav_uctu.csv)
 - Řádků: 9; jeden řádek = jedno datum (konec čtvrtletí)
 - Zdroj: Rozvaha obce, Monitor státní pokladny MF.
 
@@ -246,7 +246,7 @@ Peníze na účtech obce Horní Domaslavice po čtvrtletích 2023–2026.
 
 Střednědobý výhled rozpočtu obce Horní Domaslavice na roky 2025–2028.
 
-- Odkaz: [data/rozpocet_2026_strednedoby_vyhled.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_strednedoby_vyhled.csv)
+- Odkaz: [data/rozpocet_2026_strednedoby_vyhled.csv](https://hd-v-datech.cz/data/rozpocet_2026_strednedoby_vyhled.csv)
 - Řádků: 20; jeden řádek = jeden ukazatel; sloupce jsou roky
 - Zdroj: Střednědobý výhled rozpočtu zveřejněný obcí.
 - Pozor: Výhled je plán obce, ne skutečnost.
@@ -263,7 +263,7 @@ Střednědobý výhled rozpočtu obce Horní Domaslavice na roky 2025–2028.
 
 Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30. 9. a srovnání s minulými lety.
 
-- Odkaz: [data/rozpocet_2026_vydaje_podle_ucelu.csv](https://dinkotom.github.io/hd-v-datech/data/rozpocet_2026_vydaje_podle_ucelu.csv)
+- Odkaz: [data/rozpocet_2026_vydaje_podle_ucelu.csv](https://hd-v-datech.cz/data/rozpocet_2026_vydaje_podle_ucelu.csv)
 - Řádků: 16; jeden řádek = jedna kategorie výdajů (poslední řádek CELKEM)
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 
@@ -283,7 +283,7 @@ Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30
 
 Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jsou domy a kolik tvoří skupin.
 
-- Odkaz: [data/roztrisenost_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/roztrisenost_4obce.csv)
+- Odkaz: [data/roztrisenost_4obce.csv](https://hd-v-datech.cz/data/roztrisenost_4obce.csv)
 - Řádků: 4; jeden řádek = jedna obec
 - Zdroj: Výpočet z polohy budov v RÚIAN (stav 30. 9. 2026).
 - Pozor: „Shluk N m“ = skupina domů, kde každý dům má souseda ve skupině blíž než N metrů.
@@ -322,7 +322,7 @@ Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jso
 
 Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro 4 obce, okres Frýdek-Místek a Českou republiku.
 
-- Odkaz: [data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv](https://dinkotom.github.io/hd-v-datech/data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv)
+- Odkaz: [data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv)
 - Řádků: 154; jeden řádek = jedno území × rok
 - Zdroj: Český statistický úřad (sloupec `zdroj` uvádí kód datové sady).
 - Pozor: Pohyb obyvatel (narození … vystěhovalí) je u některých let a území prázdný.
@@ -346,7 +346,7 @@ Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro 4 obce, okr
 
 Součty ukazatelů za volební období a průměr na obyvatele a rok.
 
-- Odkaz: [data/souhrn_po_obdobich_4obce.csv](https://dinkotom.github.io/hd-v-datech/data/souhrn_po_obdobich_4obce.csv)
+- Odkaz: [data/souhrn_po_obdobich_4obce.csv](https://hd-v-datech.cz/data/souhrn_po_obdobich_4obce.csv)
 - Řádků: 256; jeden řádek = jedna obec × volební období × ukazatel
 - Zdroj: Výpočet z `finance_*`.
 - Pozor: Za období se počítají rozpočtové roky, za které odpovídá dané zastupitelstvo (sloupec `roky`); období 2022–2026 zatím jen 2023–2025.
@@ -365,7 +365,7 @@ Součty ukazatelů za volební období a průměr na obyvatele a rok.
 
 Stejné ukazatele jako `finance_*` pro všechny 4 obce v dlouhém formátu (vhodné pro filtrování a grafy).
 
-- Odkaz: [data/ukazatele_4obce_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/ukazatele_4obce_2010-2025.csv)
+- Odkaz: [data/ukazatele_4obce_2010-2025.csv](https://hd-v-datech.cz/data/ukazatele_4obce_2010-2025.csv)
 - Řádků: 2560; jeden řádek = jedna obec × rok × ukazatel
 - Zdroj: Monitor státní pokladny MF; obyvatelé ČSÚ.
 - Pozor: Hodnoty sloupce `ukazatel` mají stejný význam jako stejnojmenné sloupce v souborech `finance_*_2010-2025.csv` (viz výše).
@@ -385,7 +385,7 @@ Stejné ukazatele jako `finance_*` pro všechny 4 obce v dlouhém formátu (vhod
 
 Rozvaha a výkaz zisku a ztráty 4 obcí: majetek, peníze, závazky, náklady, výnosy, odpisy.
 
-- Odkaz: [data/ukazatele_rozvaha_vzz_4_obce.csv](https://dinkotom.github.io/hd-v-datech/data/ukazatele_rozvaha_vzz_4_obce.csv)
+- Odkaz: [data/ukazatele_rozvaha_vzz_4_obce.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_4_obce.csv)
 - Řádků: 64; jeden řádek = jedna obec × rok (stav k 31. 12.)
 - Zdroj: Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.
 - Pozor: Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.
@@ -432,7 +432,7 @@ Rozvaha a výkaz zisku a ztráty 4 obcí: majetek, peníze, závazky, náklady, 
 
 Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 2018–2022).
 
-- Odkaz: [data/usneseni_zo_2022-2026.csv](https://dinkotom.github.io/hd-v-datech/data/usneseni_zo_2022-2026.csv)
+- Odkaz: [data/usneseni_zo_2022-2026.csv](https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv)
 - Řádků: 547; jeden řádek = jedno usnesení
 - Zdroj: Zápisy ze zasedání zastupitelstva zveřejněné obcí (sloupec `zdroj`).
 - Pozor: Text je přepsaný ze zápisů; jména fyzických osob jsou vynechaná. Závazné je znění zápisu na webu obce.
@@ -458,7 +458,7 @@ Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 20
 
 Výdaje 4 obcí rozdělené podle účelu (sloučené paragrafy) a podle druhu (sloučené položky).
 
-- Odkaz: [data/vydaje_kategorie_4obce_2010-2025.csv](https://dinkotom.github.io/hd-v-datech/data/vydaje_kategorie_4obce_2010-2025.csv)
+- Odkaz: [data/vydaje_kategorie_4obce_2010-2025.csv](https://hd-v-datech.cz/data/vydaje_kategorie_4obce_2010-2025.csv)
 - Řádků: 1408; jeden řádek = jedna obec × rok × členění × kategorie
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 - Pozor: Obě členění (`ucel`, `druh`) dávají v součtu stejné celkové výdaje; nesčítat je dohromady.

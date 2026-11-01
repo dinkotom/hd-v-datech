@@ -1,6 +1,6 @@
 # Spolky a subjekty
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-spolky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-spolky.html (aktualizováno 2026-10-31)
 
 > Kolik a jakých subjektů má sídlo v Horních Domaslavicích, kterým organizacím obec v letech 2022–2026 schválila dotace a dary.
 
@@ -12,7 +12,7 @@ Stránka ukazuje, kolik ekonomických subjektů má sídlo v obci Horní Domasla
 2. **Obec v letech 2022–2026 schválila spolkům a organizacím dotace v celkové výši 1 131 500 Kč**: 123 000 Kč (2022), 199 200 Kč (2023), 285 100 Kč (2024), 272 600 Kč (2025) a 251 600 Kč (2026). K tomu přistupují dary v celkové výši 129 400 Kč a podmíněný dar Klubu žen na spoluúčast k dotaci MAS (asi 50 000 Kč). Mimo tento přehled zůstal dar 500 000 Kč obcím zasaženým povodněmi v roce 2024 přes Český červený kříž.
 3. **Všechny ověřované příjemce, kteří jsou spolky, ústavy nebo obecně prospěšné společnosti, se podařilo dohledat ve veřejném rejstříku.** U tří příjemců (Medela, Taneční škola Horizonty Havířov, speciální škola ve Frýdku-Místku) se z názvu v zápisu nedá jednoznačně určit IČO.
 
-Další údaje o dotacích obce jsou na stránce [Dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html), srovnání se sousedními obcemi na stránce [Srovnání: volby a spolky](https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.html).
+Další údaje o dotacích obce jsou na stránce [Dotace](https://hd-v-datech.cz/hd-dotace.html), srovnání se sousedními obcemi na stránce [Srovnání: volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.html).
 
 ## 1. Ekonomické subjekty se sídlem v obci
 

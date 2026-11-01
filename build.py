@@ -20,7 +20,8 @@ OUT = os.path.join(ROOT, 'docs')
 SITE = 'Horní Domaslavice v datech'
 UPDATED = '31. 10. 2026'
 REPO_URL = 'https://github.com/dinkotom/hd-v-datech'
-SITE_URL = 'https://dinkotom.github.io/hd-v-datech/'
+DOMAIN = 'hd-v-datech.cz'
+SITE_URL = f'https://{DOMAIN}/'
 
 # Google Form for error reports. Fill in after creating the form (see README.md);
 # while empty, reports open a prefilled GitHub issue instead.
@@ -670,6 +671,8 @@ def main():
     for d in ('static', 'img', 'data'):
         shutil.copytree(os.path.join(ROOT, d), os.path.join(OUT, d))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
+    with open(os.path.join(OUT, 'CNAME'), 'w') as fh:  # custom domain for GitHub Pages
+        fh.write(DOMAIN + '\n')
     slugs = build_md_pages()
     slovnik_html, warnings = build_slovnik()
     build_llms(slugs)

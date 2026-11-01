@@ -1,6 +1,6 @@
 # Dotace obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-dotace.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-dotace.html (aktualizováno 2026-10-31)
 
 > Jaké dotace obec Horní Domaslavice a její mateřská škola získaly v letech 2010–2026, o které žádaly neúspěšně a jak číst čísla z veřejných databází.
 
@@ -89,7 +89,7 @@ K období 2022–2026 je třeba dodat:
 - Zbytek roku 2026 tvoří podané žádosti s neznámým výsledkem [Z].
 - Kompostéry za 1,42 mil. přišly v roce 2022. Patří tedy do období 2018–2022 a projekt i rozhodnutí jsou z roku 2020.
 
-Podle kalendářních let, jak je dělí stránka [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html): za **2018–2021** přišlo 12 024 018 Kč investičních dotací, za **2022–2025** 0 Kč [D].
+Podle kalendářních let, jak je dělí stránka [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html): za **2018–2021** přišlo 12 024 018 Kč investičních dotací, za **2022–2025** 0 Kč [D].
 
 ## 3. Souvislosti s rozborem výdajů
 
@@ -122,7 +122,7 @@ Podle kalendářních let, jak je dělí stránka [výdaje obce](https://dinkoto
 5. **ZÚ 2024 uvádí, že MŠ v roce 2024 dostala z OP JAK 235 017 Kč.** Monitor 2024 nemá žádný příjem 4116 a částka 235 017 je přesně Šablona III z roku 2021. Jde patrně o chybu v textu ZÚ; ověřit to přímo přes účetnictví MŠ nebylo možné.
 6. **Krajské dotace před rokem 2019 nejsou úplně identifikované.** Platí to pro roky 2010 (297 700), 2016 (133 600) a pro části let 2017 a 2018. Součty z Monitoru sedí, ale přiřazení ke smlouvám ne. U smlouvy na OÚ (408 000, čerpáno 391 470) není jasné, kdy přesně peníze přišly a co se vrátilo.
 7. **SZIF 348 640 (2021) je k dohodě o vybavení JSDH (398 978) přiřazen jen odvozeně [O].** Shoduje se zdroj (státní fond, 4213), rok i účel (6129, nákup majetku), ale výslovná vazba chybí.
-8. **MAS Pobeskydí:** přes místní akční skupinu šly chodník mezi hřbitovy (IROP CLLD) a vybavení JSDH (PRV). Spolky čerpaly přes MAS samy: Klub žen v roce 2025 na vybavení klubovny, SDH v roce 2026 na klubovnu. Tyto peníze nejdou přes rozpočet obce, obec jen dofinancovala podíl spolků darem (viz [spolky](https://dinkotom.github.io/hd-v-datech/hd-spolky.html)). Web MAS nebyl dostupný, takže seznam projektů MAS v obci nemusí být úplný.
+8. **MAS Pobeskydí:** přes místní akční skupinu šly chodník mezi hřbitovy (IROP CLLD) a vybavení JSDH (PRV). Spolky čerpaly přes MAS samy: Klub žen v roce 2025 na vybavení klubovny, SDH v roce 2026 na klubovnu. Tyto peníze nejdou přes rozpočet obce, obec jen dofinancovala podíl spolků darem (viz [spolky](https://hd-v-datech.cz/hd-spolky.html)). Web MAS nebyl dostupný, takže seznam projektů MAS v obci nemusí být úplný.
 9. **Rok 2026** v Monitoru zatím chybí. Výsledky žádostí z roku 2026 nejsou známy.
 10. **OCR:** tabulky ÚZ ze ZÚ 2017–2021 byly čteny přímo z naskenovaných stránek a sedí na korunu s Monitorem MF. Textové pasáže přezkumů pocházejí z OCR a mohou obsahovat překlepy.
 

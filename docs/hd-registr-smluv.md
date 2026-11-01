@@ -1,6 +1,6 @@
 # Registr smluv
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-registr-smluv.html (aktualizováno 2026-10-31)
 
 > Které smlouvy obce Horní Domaslavice a její mateřské školy jsou veřejně dostupné v registru smluv a na profilu zadavatele a proč jich v registru není víc.
 
@@ -15,7 +15,7 @@ Obec Horní Domaslavice: IČO 00536008, datová schránka gr4bkxm. Mateřská š
 3. U MŠ je v registru **10 smluv** (mzdová agenda a vzdělávání u KVIC, plavání ve Sportplexu Frýdek-Místek). Všechny vložila protistrana a ani jedna nemá uvedenou cenu.
 4. **Velké smlouvy obce v registru nejsou** (např. KANIA, d21 architekti, Sportovní podlahy Zlín, TISPOL, ALPINE, LOMPARK, smlouvy s bankami ani se svozovou firmou FCC).
 5. **Obec ale tuto povinnost nemá:** podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. se povinnost zveřejnit smlouvu v registru **nevztahuje** na smlouvy, jejichž stranou je obec bez rozšířené působnosti nebo její příspěvková organizace. Horní Domaslavice obcí s rozšířenou působností (ORP) nejsou; ORP je Frýdek-Místek. **Chybějící smlouvy proto podle doslovného znění zákona porušením zákona o registru smluv nejsou.** Podrobnosti jsou v oddílu 2.
-6. Obec zveřejňuje smlouvy na veřejné zakázky na **profilu zadavatele** (vhodne-uverejneni.cz). Je tam **17 smluv z let 2015–2026** v hodnotě zhruba **30,5 mil. Kč bez DPH** a k tomu rekonstrukce MŠ za 10,7 mil. Kč (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)). Profil sám u všech 17 smluv uvádí „Stav v ISRS: Nezveřejněna“, tedy že nejsou v registru smluv.
+6. Obec zveřejňuje smlouvy na veřejné zakázky na **profilu zadavatele** (vhodne-uverejneni.cz). Je tam **17 smluv z let 2015–2026** v hodnotě zhruba **30,5 mil. Kč bez DPH** a k tomu rekonstrukce MŠ za 10,7 mil. Kč (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)). Profil sám u všech 17 smluv uvádí „Stav v ISRS: Nezveřejněna“, tedy že nejsou v registru smluv.
 7. Ze závěrečného účtu za rok 2025 jsou známy smlouvy a objednávky nad 50 000 Kč, které nejsou ani v registru, ani na profilu: d21 architekti (284 000 Kč bez DPH), LF Interiéry (514 733 Kč), opravy komunikací (194 810 Kč) a TISPOL (54 450 Kč, pravděpodobně s DPH). Zákonnou povinnost je zveřejnit obec nemá; jde o otázku dobrovolné transparentnosti.
 
 ## 2. Právní rámec: proč v registru nic není
@@ -66,7 +66,7 @@ Roky jsou podle data uzavření smlouvy.
 | 8 | 30. 11. 2022 | 22. 12. 2022 | KVIC Nový Jičín | 62330403 | Dodatek ke smlouvě o zpracování mzdové agendy | neuvedena | https://smlouvy.gov.cz/smlouva/22851409 |
 | 9 | 8. 7. 2024 | 12. 7. 2024 | KVIC Nový Jičín | 62330403 | Dodatek č. 2 smlouvy ZMA (zpracování mzdové agendy) | neuvedena (důvod: „konkurenční znevýhodnění“) | https://smlouvy.gov.cz/smlouva/29453228 |
 
-Smlouvy č. 1, 2 a 7 jsou dotace pro obec (viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)). Č. 3, 6, 8 a 9 jsou mzdová agenda u krajského zařízení. Č. 4 a 5 jsou objednávky u TS a.s. Stejného dne jako objednávku obce z roku 2018 (93 004 Kč) vložila TS a.s. i objednávku pro Římskokatolickou farnost Domaslavice (99 550 Kč, https://smlouvy.gov.cz/smlouva/6325567). Předmět obou objednávek z metadat registru zjistit nelze.
+Smlouvy č. 1, 2 a 7 jsou dotace pro obec (viz [dotace](https://hd-v-datech.cz/hd-dotace.html)). Č. 3, 6, 8 a 9 jsou mzdová agenda u krajského zařízení. Č. 4 a 5 jsou objednávky u TS a.s. Stejného dne jako objednávku obce z roku 2018 (93 004 Kč) vložila TS a.s. i objednávku pro Římskokatolickou farnost Domaslavice (99 550 Kč, https://smlouvy.gov.cz/smlouva/6325567). Předmět obou objednávek z metadat registru zjistit nelze.
 
 ### 4.2 Mateřská škola Horní Domaslavice (10 smluv; MŠ vždy jako protistrana)
 
@@ -83,7 +83,7 @@ Smlouvy č. 1, 2 a 7 jsou dotace pro obec (viz [dotace](https://dinkotom.github.
 | 9 | 7. 3. 2024 | 8. 3. 2024 | Sportplex Frýdek-Místek, s.r.o. | 26829495 | Zabezpečení výuky plávání dětí MŠ (VP-PUŠ 2024/15) | neuvedena | https://smlouvy.gov.cz/smlouva/27910927 |
 | 10 | 12. 8. 2024 | 19. 8. 2024 | KVIC Nový Jičín | 62330403 | Dodatek č. 2 smlouvy o zpracování mzdové agendy | neuvedena | https://smlouvy.gov.cz/smlouva/29845612 |
 
-Fulltextové hledání „Horní Domaslavice“ v registru (632 výsledků) bylo prošlé celé. Kromě výše uvedených smluv jde o smlouvy jiných subjektů, kde se obec jen zmiňuje v textu: VZP, ODIS, Lesy ČR, Povodí Odry, Správa silnic MSK a další. Obec v nich stranou není. Dvě z nich se obce týkají věcně: Správa silnic MSK uzavřela smlouvu o dílo na projektovou dokumentaci rozšíření silnice III/4735 Horní Domaslavice (Geoengineering, 391 470 Kč, 2021, a dodatek 66 550 Kč, 2022). Krajské dotace spolkům v obci (SDH, Klub žen, zahrádkáři) jsou smlouvy spolků, ne obce (viz [spolky](https://dinkotom.github.io/hd-v-datech/hd-spolky.html)).
+Fulltextové hledání „Horní Domaslavice“ v registru (632 výsledků) bylo prošlé celé. Kromě výše uvedených smluv jde o smlouvy jiných subjektů, kde se obec jen zmiňuje v textu: VZP, ODIS, Lesy ČR, Povodí Odry, Správa silnic MSK a další. Obec v nich stranou není. Dvě z nich se obce týkají věcně: Správa silnic MSK uzavřela smlouvu o dílo na projektovou dokumentaci rozšíření silnice III/4735 Horní Domaslavice (Geoengineering, 391 470 Kč, 2021, a dodatek 66 550 Kč, 2022). Krajské dotace spolkům v obci (SDH, Klub žen, zahrádkáři) jsou smlouvy spolků, ne obce (viz [spolky](https://hd-v-datech.cz/hd-spolky.html)).
 
 ## 5. Statistiky Hlídače státu
 
@@ -97,7 +97,7 @@ Stav k 30. 10. 2026:
 - Osoby s vazbou: 0.
 - **Napojení dodavatelů na politiky:** u jediného dodavatele z registru Hlídač nic neuvádí. U dodavatelů ze zakázek (KANIA, STRABAG, Sportovní podlahy Zlín a další) vazby ověřovány nebyly; na Hlídači jsou dostupné jen po přihlášení a evidence skutečných majitelů je podle upozornění Hlídače od 17. 12. 2025 veřejnosti nepřístupná.
 - Veřejné zakázky: obec je zadavatelem u 25 záznamů na podstránce a 18 na přehledu. Rozdíl dělají duplicity mezi Věstníkem veřejných zakázek a profilem. Jako dodavatel nefiguruje. Profil zadavatele je od 28. 1. 2015.
-- Dotace: 43 přijatých dotací za zhruba 30 mil. Kč (2010–2025), s MŠ 48 dotací za zhruba 41 mil. Kč. Tato čísla nadhodnocují skutečně přijaté peníze, viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+- Dotace: 43 přijatých dotací za zhruba 30 mil. Kč (2010–2025), s MŠ 48 dotací za zhruba 41 mil. Kč. Tato čísla nadhodnocují skutečně přijaté peníze, viz [dotace](https://hd-v-datech.cz/hd-dotace.html).
 - Vozový park: 5 vozidel.
 
 ## 6. Smlouvy na profilu zadavatele (vhodne-uverejneni.cz)
@@ -132,7 +132,7 @@ Profil uvádí u všech 17 smluv „Stav v ISRS: Nezveřejněna“. Ceny i dodav
 - **Stavební úpravy obecního domu:** vybrán byl Aklera Corp (1 120 119 Kč) a ten **nebyl nejlevnější bez DPH**. Levnější byly Kowollik s.r.o. (941 153), ELBAU-MONT (942 232) a Kantora s.r.o. (1 049 308 Kč bez DPH). Nabídka Akleru má stejnou cenu bez DPH i s DPH. **Odvozeno:** dodavatel je zřejmě neplátce DPH, a pokud obec u této akce nemá nárok na odpočet DPH, může být jeho nabídka pro obec ve skutečnosti nejlevnější (1 120 119 proti 1 138 795 Kč s DPH u Kowollik). Hodnoticí kritéria nebyla ověřována.
 - **Oprava chodníků uvnitř hřbitova:** nabídka byla 1 127 426 Kč, smluvní cena po dodatku 1 336 974 Kč bez DPH, tedy o 18,6 % víc.
 - **Hřiště:** smlouva je uzavřená 7. 5. 2026 a na profil vložená 7. 7. 2026, tedy po 61 dnech. Zákonná lhůta je 30 dní (§ 219 ZZVZ, cena nad 1 mil. Kč). **Odvozeno:** pokud je datum vložení správné, mohlo jít o opožděné zveřejnění; datum ale může odrážet nahrání nové verze (viz Pozor, bod 4).
-- **Zpevněná sportovní plocha u hasičské klubovny:** první řízení (2025) bylo zrušeno, druhé je bez výsledku a smlouva zatím není (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)).
+- **Zpevněná sportovní plocha u hasičské klubovny:** první řízení (2025) bylo zrušeno, druhé je bez výsledku a smlouva zatím není (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)).
 
 ## 7. Srovnání s dalšími známými smlouvami
 
@@ -145,7 +145,7 @@ Profil uvádí u všech 17 smluv „Stav v ISRS: Nezveřejněna“. Ceny i dodav
 | Zimní údržba komunikací (smlouva od 2013) + dodatky | **ne** | **ne** | smlouva ani částka nejsou veřejně dostupné; výdaje 2212/5169 (silnice – služby) rostly ze 172 tis. (2018) na 1 175 tis. Kč (2025), ale kolik z toho je zimní údržba, z dat MF poznat nelze |
 | ALPINE Bau CZ a.s. (IČO 02604795), oprava vozovky ÚK 23, 495 765 Kč bez DPH, 27. 9. 2017 | **ne** | **ano** | |
 | LOMPARK s.r.o. (IČO 01914235), chodník mezi hřbitovy 1 707 167 Kč a chodníky uvnitř hřbitova 1 336 974 Kč bez DPH, 2018 | **ne** | **ano** (obě i s dodatky) | |
-| Česká spořitelna, úvěr 8,6 mil. Kč, 19. 2. 2020 | **ne** | **ne** | nejde o veřejnou zakázku podle ZZVZ, takže na profil nepatří; úvěr nebyl čerpán (viz [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html)) |
+| Česká spořitelna, úvěr 8,6 mil. Kč, 19. 2. 2020 | **ne** | **ne** | nejde o veřejnou zakázku podle ZZVZ, takže na profil nepatří; úvěr nebyl čerpán (viz [stavy účtů](https://hd-v-datech.cz/hd-ucty.html)) |
 | Komerční banka, termínovaný vklad 9 mil. Kč, 10/2023 | **ne** | **ne** | dtto |
 | FCC Česká republika (odpady) | **ne** | **částečně**: jen cenová příloha 2024, cena i dodavatel skryty v metadatech | výdaje na odpady 3722/5169: 559 tis. (2016) → 1 419 tis. Kč (2025) |
 
@@ -168,11 +168,11 @@ Kontrola řádů (odvozeno): výdaje v Monitoru MF velikostí odpovídají smlou
 
 ## 9. Pozor: výhrady
 
-1. **Hlavní výhrada:** „není v registru“ **neznamená porušení zákona**. Obec bez ORP a její příspěvková organizace mají výjimku podle § 3 odst. 2 písm. k) zákona 340/2015 Sb. Téma je proto namístě chápat jako otázku **dobrovolné transparentnosti**, ne nezákonnosti. Některé obce bez ORP zveřejňují dobrovolně; např. sousední Dolní Domaslavice mají v registru nejméně 16 vlastních smluv z let 2016–2026 (viz [srovnání majetku a zakázek](https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.html)).
+1. **Hlavní výhrada:** „není v registru“ **neznamená porušení zákona**. Obec bez ORP a její příspěvková organizace mají výjimku podle § 3 odst. 2 písm. k) zákona 340/2015 Sb. Téma je proto namístě chápat jako otázku **dobrovolné transparentnosti**, ne nezákonnosti. Některé obce bez ORP zveřejňují dobrovolně; např. sousední Dolní Domaslavice mají v registru nejméně 16 vlastních smluv z let 2016–2026 (viz [srovnání majetku a zakázek](https://hd-v-datech.cz/srovnani-majetek-zakazky.html)).
 2. Že Horní Domaslavice nejsou ORP, je obecně známý údaj (ORP Frýdek-Místek). V registru územní identifikace nebyl zvlášť ověřován.
 3. Hranice v § 219 ZZVZ: aktuální znění (1 mil. Kč, 30 dní) je ověřené. Starší hodnoty (500 000 Kč, 15 dní) ověřené nejsou, proto u starších smluv není hodnoceno, zda byly vloženy včas.
 4. „Datum vložení“ na profilu může odrážet nahrání nové verze, ne první zveřejnění. Všechny zakázky mají poslední verzi ze 7. 7. 2026. Údaj o 61 dnech u hřiště je proto třeba brát s rezervou, dokud se neověří v historii profilu.
-5. U rekonstrukce MŠ (Haospol) profil uvádí 10 738 397,03 Kč jako cenu s DPH a cenu bez DPH nemá. Předpokládaná hodnota byla 10 041 149 Kč bez DPH. Podle oznámení ve Věstníku veřejných zakázek je původní cena 8 874 708,29 Kč bez DPH (10 738 397,03 Kč s DPH), viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html).
+5. U rekonstrukce MŠ (Haospol) profil uvádí 10 738 397,03 Kč jako cenu s DPH a cenu bez DPH nemá. Předpokládaná hodnota byla 10 041 149 Kč bez DPH. Podle oznámení ve Věstníku veřejných zakázek je původní cena 8 874 708,29 Kč bez DPH (10 738 397,03 Kč s DPH), viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html).
 6. U veřejného osvětlení (ENCO) chybí cena na stránce smlouvy. Uvedena je nabídková cena vybraného účastníka.
 7. Detaily zakázek na Hlídači státu (ceny, dodavatelé, vazby na politiky) jsou jen pro přihlášené. Ceny jsou proto z profilu zadavatele. Vazby dodavatelů na politiky ověřeny nebyly.
 8. Výpočty bez DPH u TISPOLu jsou odvozené z podílu 1,21. Skutečné doklady k dispozici nebyly.

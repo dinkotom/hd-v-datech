@@ -1,6 +1,6 @@
 # Obyvatelstvo
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-obyvatelstvo.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-obyvatelstvo.html (aktualizováno 2026-10-31)
 
 > Jak se v letech 2000–2025 měnil počet a složení obyvatel Horních Domaslavic a co o obci říká sčítání 2021.
 
@@ -29,7 +29,7 @@ Stránka ukazuje, jak rostl počet obyvatel obce Horní Domaslavice (kód obce 5
 - Pro srovnání historie: v roce 1930 měla obec asi 860 obyvatel a v roce 1991 jen 521 (podle demografické studie). Při sčítáních to bylo 556 (2001), 667 (2011) a 978 (2021).
 - Na přelomech let 2010/2011 a 2020/2021 jsou v řadě malé skoky (−9 a +10). Jde o přepočet podle výsledků sčítání, ne o skutečný pohyb.
 
-Srovnání se sousedními obcemi je na stránce [Srovnání: obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html).
+Srovnání se sousedními obcemi je na stránce [Srovnání: obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html).
 
 ## 2. Odkud přírůstek pochází: stěhování, ne porody
 
@@ -37,7 +37,7 @@ Souhrn za roky 2002–2025:
 - narodilo se **203** dětí a zemřelo **187** lidí, přirozený přírůstek je tedy jen **+16**;
 - přistěhovalo se **930** lidí a vystěhovalo **398**, saldo stěhování je **+532**.
 
-Růst obce je tedy prakticky celý dán přistěhováním, které souvisí s výstavbou rodinných domů (viz [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html)).
+Růst obce je tedy prakticky celý dán přistěhováním, které souvisí s výstavbou rodinných domů (viz [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.html)).
 
 | Volební období | Narození | Zemřelí | Přistěhovalí | Vystěhovalí | Saldo stěhování | Celkový přírůstek |
 |---|---:|---:|---:|---:|---:|---:|
@@ -57,7 +57,7 @@ Po letech:
 
 **Počet narozených dětí v posledních dvou letech klesl.** V letech 2020–2023 se rodilo 11–14 dětí ročně, v letech 2024–2025 jen 6–8. To je pod pesimistickou i pragmatickou variantou demografické studie, která pro rok 2035 počítala s 8–12 narozenými. Počet dětí 0–14 let se v letech 2022–2024 zastavil na 230–237.
 
-Souvislost s mateřskou školou: děti, které budou v letech 2027–2030 v předškolním věku, se rodí právě teď. Z porodů v obci jich bude méně než v letech 2020–2023. Kolik dětí přibude přistěhováním, závisí na tempu výstavby. Zároveň platí, že v roce 2023 byla školka naplněná na 100 % (44 dětí na 44 míst) a nedostatek míst byl opakovaně tématem zasedání zastupitelstva. Podrobnosti o kapacitě a zápisech jsou na stránce [Školství a sociální situace](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+Souvislost s mateřskou školou: děti, které budou v letech 2027–2030 v předškolním věku, se rodí právě teď. Z porodů v obci jich bude méně než v letech 2020–2023. Kolik dětí přibude přistěhováním, závisí na tempu výstavby. Zároveň platí, že v roce 2023 byla školka naplněná na 100 % (44 dětí na 44 míst) a nedostatek míst byl opakovaně tématem zasedání zastupitelstva. Podrobnosti o kapacitě a zápisech jsou na stránce [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ## 3. Věková struktura: jedna z nejmladších obcí okresu
 
@@ -69,7 +69,7 @@ Souvislost s mateřskou školou: děti, které budou v letech 2027–2030 v pře
 | Index stáří (65+ na 100 dětí) | **58** | 135 | 146 | 133 |
 | Průměrný věk (SLDB 2021) | **37,7** | 43,0 | 43,3 | 42,7 |
 
-Program rozvoje obce (2024) uvádí, že obec je nejmladší v okrese Frýdek-Místek (index stáří 52,2). Data ČSÚ za rok 2024 to nepotvrzují: sousední Pazderna má index stáří 49 proti 58 v Horních Domaslavicích (viz [Srovnání: obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html)). Obec patří k nejmladším v okrese, ale nejmladší není.
+Program rozvoje obce (2024) uvádí, že obec je nejmladší v okrese Frýdek-Místek (index stáří 52,2). Data ČSÚ za rok 2024 to nepotvrzují: sousední Pazderna má index stáří 49 proti 58 v Horních Domaslavicích (viz [Srovnání: obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html)). Obec patří k nejmladším v okrese, ale nejmladší není.
 
 Seniorů přibývá. Počet lidí 65+ vzrostl ze 101 (2014) na 137 (2024), tedy o 36 %. Index stáří se po roce 2022 přestal snižovat a začal mírně růst.
 
@@ -100,7 +100,7 @@ Sčítání 2021 zaznamenalo v obci 978 obyvatel s obvyklým pobytem.
 
 - **Odvětví:** zpracovatelský průmysl zaměstnává 30 % pracujících obyvatel (ČR 24 %, okres 30 %).
 - **Profese:** proti republice je víc techniků a odborných pracovníků (22 % proti 16 %) a vedoucích pracovníků (8 % proti 5 %), naopak méně pomocných pracovníků (2 % proti 4 %).
-- **Nezaměstnanost:** podle RISY (data MPSV) to bylo v roce 2023 jen 1,6 % z dosažitelných uchazečů. Podrobnější řada je na stránce [Školství a sociální situace](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+- **Nezaměstnanost:** podle RISY (data MPSV) to bylo v roce 2023 jen 1,6 % z dosažitelných uchazečů. Podrobnější řada je na stránce [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ### Vyjížďka za prací a do škol
 
@@ -183,13 +183,13 @@ Z 364 domácností je 20 rodin se třemi a více závislými dětmi.
 | Pelety | 4 % | 1 % | 1 % |
 | Dálkové teplo | 0 % | 36 % | 33 % |
 
-Každá pátá domácnost topila v roce 2021 uhlím, čtyřikrát víc než republikový průměr. Plyn má jen desetina domácností. Údaj souvisí s kvalitou ovzduší (viz [Školství a sociální situace](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html), oddíl Ovzduší). Obec má v rozpočtu položku na příspěvky na výměnu kotlů, domovní ČOV a kompostéry.
+Každá pátá domácnost topila v roce 2021 uhlím, čtyřikrát víc než republikový průměr. Plyn má jen desetina domácností. Údaj souvisí s kvalitou ovzduší (viz [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html), oddíl Ovzduší). Obec má v rozpočtu položku na příspěvky na výměnu kotlů, domovní ČOV a kompostéry.
 
 ## 6. Shrnutí
 
 1. **Obec roste téměř výhradně stěhováním.** Ročně přibude zhruba 25–35 lidí, porody a úmrtí jsou přibližně v rovnováze. Budoucí počet obyvatel tak závisí hlavně na územním plánu a tempu výstavby.
 2. **Obyvatelstvo je mladé a vzdělanější, než je průměr okresu i ČR.** Většina pracujících vyjíždí za prací mimo obec, převážně autem.
-3. **Infrastruktura:** obec nemá kanalizaci (76 % domů má žumpu), vodovod má podle strategického plánu obce na některých větvích kapacitní omezení a pětina domácností topila v roce 2021 uhlím. Podrobněji na stránkách [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html) a [Výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html).
+3. **Infrastruktura:** obec nemá kanalizaci (76 % domů má žumpu), vodovod má podle strategického plánu obce na některých větvích kapacitní omezení a pětina domácností topila v roce 2021 uhlím. Podrobněji na stránkách [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.html) a [Výdaje obce](https://hd-v-datech.cz/hd-vydaje.html).
 4. **Počet narozených klesl** na 6–8 dětí v letech 2024–2025.
 5. **Senioři jsou zatím menšinou, ale jejich počet roste** (+36 % za 10 let). Registrované sociální služby v obci nejsou.
 

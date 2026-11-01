@@ -1,6 +1,6 @@
 # Opravy
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/opravy.html (aktualizováno 2026-11-01)
+Zdroj: https://hd-v-datech.cz/opravy.html (aktualizováno 2026-11-01)
 
 > Přehled opravených chyb a nepřesností na webu.
 
@@ -10,4 +10,4 @@ Chybu můžete nahlásit tlačítkem „Nahlásit chybu“ na konci každé str�
 
 | Datum | Stránka | Co bylo špatně | Oprava |
 |---|---|---|---|
-| 1. 11. 2026 | [Data ke stažení](https://dinkotom.github.io/hd-v-datech/data.html), soubor `rozpocet_2026_rozpoctova_opatreni.csv` | V prvním řádku byla v popisu nechráněná čárka, takže se hodnoty posunuly o sloupec a tabulkové programy ho četly špatně. | Popis je správně uzavřený v uvozovkách; čísla se nezměnila. |
+| 1. 11. 2026 | [Data ke stažení](https://hd-v-datech.cz/data.html), soubor `rozpocet_2026_rozpoctova_opatreni.csv` | V prvním řádku byla v popisu nechráněná čárka, takže se hodnoty posunuly o sloupec a tabulkové programy ho četly špatně. | Popis je správně uzavřený v uvozovkách; čísla se nezměnila. |

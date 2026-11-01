@@ -1,17 +1,17 @@
 # Majetek a účetnictví obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-majetek.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-majetek.html (aktualizováno 2026-10-31)
 
 > Co obec Horní Domaslavice vlastní, jaké má náklady, výnosy, pohledávky a závazky a jak hospodaří mateřská škola, 2010–2025.
 
-Rozpočet ukazuje, kolik peněz obec přijala a vydala (viz [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)). Účetnictví ukazuje něco jiného: jaký majetek obec má (budovy, pozemky, peníze), komu dluží a kdo dluží jí, a jaký má účetní výsledek hospodaření. Tato stránka shrnuje rozvahu, výkaz zisku a ztráty a přílohu účetní závěrky obce Horní Domaslavice a její Mateřské školy za roky 2010–2025. Data pocházejí z otevřených dat Ministerstva financí (Monitor státní pokladny). Částky jsou v mil. Kč, zaokrouhlené na dvě desetinná místa, stav vždy k 31. 12. daného roku.
+Rozpočet ukazuje, kolik peněz obec přijala a vydala (viz [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html)). Účetnictví ukazuje něco jiného: jaký majetek obec má (budovy, pozemky, peníze), komu dluží a kdo dluží jí, a jaký má účetní výsledek hospodaření. Tato stránka shrnuje rozvahu, výkaz zisku a ztráty a přílohu účetní závěrky obce Horní Domaslavice a její Mateřské školy za roky 2010–2025. Data pocházejí z otevřených dat Ministerstva financí (Monitor státní pokladny). Částky jsou v mil. Kč, zaokrouhlené na dvě desetinná místa, stav vždy k 31. 12. daného roku.
 
 **Účetní jednotky:** obec Horní Domaslavice, IČO 00536008, a Mateřská škola Horní Domaslavice, příspěvková organizace, IČO 72547839 (podle ARES vznikla 15. 6. 2011, sídlo č. p. 78). Obec má výkazy za všechny roky 2010–2025, MŠ až od roku 2012.
 
 ## Ověření: rozvaha sedí
 
 - **Bilance:** aktiva se ve všech 16 letech rovnají pasivům na haléř.
-- **Peníze:** účet 231 (základní běžný účet) v rozvaze odpovídá na haléř stavům ze závěrečných účtů ve všech letech 2013–2025. K 31. 12. 2025 je to **39 494 904,53 Kč**, tedy 39,49 mil. Kč. V roce 2023 je navíc 9,00 mil. Kč na účtu 244 (termínovaný vklad), celkem tedy 28,11 mil. (viz [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html)). V roce 2016 rozvaha navíc ukazuje pokladnu 11 360 Kč.
+- **Peníze:** účet 231 (základní běžný účet) v rozvaze odpovídá na haléř stavům ze závěrečných účtů ve všech letech 2013–2025. K 31. 12. 2025 je to **39 494 904,53 Kč**, tedy 39,49 mil. Kč. V roce 2023 je navíc 9,00 mil. Kč na účtu 244 (termínovaný vklad), celkem tedy 28,11 mil. (viz [stavy účtů](https://hd-v-datech.cz/hd-ucty.html)). V roce 2016 rozvaha navíc ukazuje pokladnu 11 360 Kč.
 - **Inventarizační překlep 2021:** rozvaha 2021 uvádí na účtu 231 19 100 174,41 Kč. Tím se potvrzuje, že částka 19 089 112,62 Kč v inventarizační zprávě je chyba.
 - **Výsledek hospodaření** v rozvaze se na haléř rovná výsledku ve výkazu zisku a ztráty ve všech letech kromě roku 2011. Tam rozvaha uvádí 1 194 674,23 Kč a výkaz 1 196 461,26 Kč; rozdíl 1 787 Kč je ztráta z hospodářské (podnikatelské) činnosti obce v roce 2011, kterou rozvaha zahrnuje a výsledek hlavní činnosti ve výkazu ne. V ostatních letech je hospodářská činnost obce i MŠ nulová.
 
@@ -93,7 +93,7 @@ V letech 2010–2014 obec vykazovala všechny stavby v řádku „bytové domy�
 - **Dlouho vedená položka:** v letech 2010–2013 je na účtu 042 stále stejná částka **799 490 Kč** (2010 zaokrouhleně, 2011 a 2013 přesně 799 490,90 Kč). Byla tam tedy nejméně čtyři roky a nejspíš vznikla už před rokem 2010. V letech 2014–2017 se k ní jen přičítaly další částky (0,97 → 1,29 mil.), takže tam pravděpodobně zůstávala až do roku 2017. Zda byla v roce 2018 (−0,41 mil.) nebo 2021 zařazena do majetku, nebo odepsána, z výkazů vyčíst nelze. Typicky jde o projektové dokumentace staveb, které se nerealizovaly. Co to bylo, by ukázal inventurní soupis účtu 042.
 - **2012–2013:** 2,50 mil. investice z roku 2012 (podle rozpočtu paragraf 3319, ostatní kultura) se na rok „zaparkovaly“ v 042 a v roce 2013 byly zařazeny do staveb. Stavby brutto tehdy vzrostly o 4,24 mil., což odpovídá investici 2012 a opravě 1,99 mil. v roce 2013, kterou obec zjevně zčásti aktivovala.
 - **2020:** 6,37 mil. je rozestavěná rekonstrukce MŠ. Částka je vyšší než investice zaplacené v roce 2020 (4,61 mil.), protože k 31. 12. 2020 obec dlužila dodavatelům 2,28 mil. (viz závazky). V roce 2021 se stavba dokončila a zařadila.
-- **2024–2025:** v 042 je opět 0,83 a 1,00 mil. a nově 0,51 mil. záloh na dlouhodobý majetek (052). Jde o rozpracované akce, nejspíš hlavně projektovou dokumentaci MŠ a hřiště (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)). Které konkrétní akce to jsou, výkaz neuvádí.
+- **2024–2025:** v 042 je opět 0,83 a 1,00 mil. a nově 0,51 mil. záloh na dlouhodobý majetek (052). Jde o rozpracované akce, nejspíš hlavně projektovou dokumentaci MŠ a hřiště (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)). Které konkrétní akce to jsou, výkaz neuvádí.
 
 ## 2. Náklady a výnosy obce (výkaz zisku a ztráty)
 
@@ -136,7 +136,7 @@ V letech 2010–2014 obec vykazovala všechny stavby v řádku „bytové domy�
 | 2022–2025 | 21,88 | 20,81 | 3,72 | 3,13 | 0,42 |
 | **2014–2025** | **51,52** | **41,59** | **29,27** | **6,55** | **15,05** |
 
-Saldo a investice jsou převzaté z rozpočtových dat (viz [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html)), ostatní je z rozvahy, výkazu zisku a ztráty a přílohy. Účetní výsledek je za 12 let o 9,9 mil. vyšší než rozpočtové saldo. Rozdíl zhruba vysvětlují investice, které nejsou nákladem (29,3 mil.), minus odpisy (6,6 mil.) a minus investiční dotace, které nejdou do výnosů, ale na účet 403 (15,1 mil.). Dohromady je to 7,7 mil. K tomu přistupuje rozpouštění účtu 403 do výnosů (1,65 mil. za 2014–2025) a časové rozlišení. Peníze na účtu vzrostly za stejné období o 38,8 mil. (0,70 → 39,49 mil.), o něco méně než saldo kvůli splátkám úvěrů a dalších závazků (viz oddíl 3).
+Saldo a investice jsou převzaté z rozpočtových dat (viz [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html)), ostatní je z rozvahy, výkazu zisku a ztráty a přílohy. Účetní výsledek je za 12 let o 9,9 mil. vyšší než rozpočtové saldo. Rozdíl zhruba vysvětlují investice, které nejsou nákladem (29,3 mil.), minus odpisy (6,6 mil.) a minus investiční dotace, které nejdou do výnosů, ale na účet 403 (15,1 mil.). Dohromady je to 7,7 mil. K tomu přistupuje rozpouštění účtu 403 do výnosů (1,65 mil. za 2014–2025) a časové rozlišení. Peníze na účtu vzrostly za stejné období o 38,8 mil. (0,70 → 39,49 mil.), o něco méně než saldo kvůli splátkám úvěrů a dalších závazků (viz oddíl 3).
 
 V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu (21,9 proti 20,8 mil.). Obec totiž skoro neinvestovala a velké akce (silnice) šly do nákladů jako opravy.
 
@@ -160,7 +160,7 @@ V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu
 | 2025 | 0,00 | 0,29 | 0,26 | 0,08 | 0,22 | 0,34 | 0,14 | 1,16 |
 
 - **Nedoplatky občanů:** účet 315 („jiné pohledávky z hlavní činnosti“) u obcí obvykle obsahuje nedoplatky místních poplatků, tedy hlavně za odpad a psy. Rozvaha je ale dál nerozepisuje. Do roku 2022 šlo o 0,02–0,13 mil. V letech 2023–2024 vyskočily na 0,32–0,34 mil. a v roce 2025 klesly na 0,26 mil. Od roku 2020 k nim obec tvoří opravnou položku (pochybné pohledávky), v roce 2024 0,09 mil. a v roce 2025 0,08 mil. Nárůst v roce 2023 časově sedí se zvýšením poplatku za odpad. Že jde právě o odpad, by potvrdil jen rozpis pohledávek v inventarizaci.
-- **Velké dohadné položky v letech 2018 a 2020** (2,57 a 4,84 mil.) jsou dotace, na které vznikl nárok, ale peníze ještě nepřišly. V roce 2020 jde o dotaci na MŠ. V roce 2021 ji obec dostala (investiční dotace 9,86 mil., viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)).
+- **Velké dohadné položky v letech 2018 a 2020** (2,57 a 4,84 mil.) jsou dotace, na které vznikl nárok, ale peníze ještě nepřišly. V roce 2020 jde o dotaci na MŠ. V roce 2021 ji obec dostala (investiční dotace 9,86 mil., viz [dotace](https://hd-v-datech.cz/hd-dotace.html)).
 - Zálohy na transfery (373, vyúčtovávané dotace spolkům a podobně) vzrostly v letech 2023–2025 na 0,17–0,22 mil.
 
 ### Závazky
@@ -210,7 +210,7 @@ V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu
 
 - **Ostatní majetek 1,54 mil.** vedený v podrozvaze v letech 2010–2024. V roce 2025 zmizel. Co to bylo a proč se v roce 2025 vyřadil, výkaz neříká.
 - **Ostatní dlouhodobá podmíněná aktiva 1,32 mil.**, beze změny od roku 2012 do roku 2025. Obsah výkaz neuvádí.
-- **Podmíněné pohledávky z přislíbených dotací:** 3,11 mil. (2018 a 2019), 10,87 mil. (2020), 1,44 mil. (2021) a pak nic až do roku 2025, kdy se objevuje **2,70 mil. Kč dlouhodobé podmíněné pohledávky z transferů**. Na konci roku 2025 tedy měla obec přislíbenou dotaci ve výši 2,70 mil. Kč. Výše odpovídá smlouvě s Moravskoslezským krajem na projektovou dokumentaci MŠ (max. 2 696 897 Kč, viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)); výkaz ale účel neuvádí.
+- **Podmíněné pohledávky z přislíbených dotací:** 3,11 mil. (2018 a 2019), 10,87 mil. (2020), 1,44 mil. (2021) a pak nic až do roku 2025, kdy se objevuje **2,70 mil. Kč dlouhodobé podmíněné pohledávky z transferů**. Na konci roku 2025 tedy měla obec přislíbenou dotaci ve výši 2,70 mil. Kč. Výše odpovídá smlouvě s Moravskoslezským krajem na projektovou dokumentaci MŠ (max. 2 696 897 Kč, viz [dotace](https://hd-v-datech.cz/hd-dotace.html)); výkaz ale účel neuvádí.
 - Jiný drobný hmotný majetek v operativní evidenci: 0,05 mil. (2016) → 0,52 mil. (2025).
 
 ## 4. Budova MŠ a rekonstrukce 2020–2021
@@ -251,7 +251,7 @@ V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu
 5. **Vlastní výnosy MŠ** (úplata a stravné, účty 601/602) jsou stabilně 0,4–0,7 mil. V roce 2020 klesly na 0,20 mil., což odpovídá omezenému provozu při rekonstrukci a covidu.
 6. **Peníze MŠ** jsou 1,39 mil. v roce 2025. Proti nim stojí fondy (0,45 mil.), krátkodobé závazky (0,55 mil., hlavně prosincové mzdy) a dlouhodobé přijaté zálohy na transfery (0,74 mil., předem obdržená dotace). Volné peníze tedy MŠ nehromadí.
 
-Další údaje o škole jsou na stránce [školství a sociální oblast](https://dinkotom.github.io/hd-v-datech/hd-skolstvi-socialni.html).
+Další údaje o škole jsou na stránce [školství a sociální oblast](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ## Pozor (metodika a omezení)
 

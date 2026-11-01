@@ -1,6 +1,6 @@
 # Výdaje obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-vydaje.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-vydaje.html (aktualizováno 2026-10-31)
 
 > Za co obec Horní Domaslavice v letech 2010–2025 utrácela: výdaje podle účelu a druhu, investice, opravy a rozpočtová rezerva.
 
@@ -66,7 +66,7 @@ Obec od roku 2017 každý rok zapojuje celý zůstatek z minulých let do rozpo�
 5. **Věcné dary (položka 5194) vrcholily v letech 2021–2022:** 2021 dohromady 0,32 mil. (správa obce 139 tis. + kultura 184 tis.), 2022 0,37 mil. (167 + 201 tis.), potom klesly na zhruba 0,1 mil. ročně. Položka zahrnuje například dárky jubilantům a dárky při akcích obce; co konkrétně se v jednotlivých letech nakupovalo, výkaz neuvádí.
 6. **Akce obce rostou.** V paragrafu 3399 (ostatní kultura: akce, Guláš fest, jubilanti) vzrostly služby z 0,1 mil. (2018) na 0,46 mil. (2025). Celý paragraf stoupl z 0,28 na 1,04–1,12 mil. ročně.
 7. **Odpady plynule zdražují** (0,88 → 1,74 mil. ročně za 2018–2025, tedy dvojnásobek). Podle obecního zpravodaje Informátor 1/2025 je doplatek obce zhruba 0,43–0,74 mil. ročně i po zvýšení poplatku na 750 Kč.
-8. **Mimořádná jednorázová položka:** zeleň 2022 (2,54 mil.) jsou kompostéry pro občany, 1,57 mil. na drobný majetek (3799/5137) a 0,35 mil. na dary fyzickým osobám (3799/5492). Projekt byl dotovaný, viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+8. **Mimořádná jednorázová položka:** zeleň 2022 (2,54 mil.) jsou kompostéry pro občany, 1,57 mil. na drobný majetek (3799/5137) a 0,35 mil. na dary fyzickým osobám (3799/5492). Projekt byl dotovaný, viz [dotace](https://hd-v-datech.cz/hd-dotace.html).
 
 ## 5. Investice a opravy dohromady vs. příjmy
 
@@ -97,9 +97,9 @@ Při posunutém dělení (2019–2022 proti 2023–2025, kde poslední období m
 
 **Výklad:**
 - Hrubě platí: investice a opravy klesly o třetinu (28,3 → 18,9 mil.), přestože příjmy vzrostly o 27 % a daňové příjmy o 62 %.
-- Rozdíl tvoří hlavně **dotace**. V letech 2018–2021 obec získala 12,0 mil. investičních dotací. Z toho bylo 9,86 mil. v roce 2021: 8,27 mil. z IROP na rekonstrukci MŠ, 0,84 mil. od MPO na veřejné osvětlení, 0,39 mil. od MMR na dětské hřiště u MŠ a 0,35 mil. od SZIF (viz [dotace obce](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)). V letech 2022–2025 obec nezískala žádnou investiční dotaci. Z vlastních peněz dala na investice a opravy v posledním období o něco víc (18,9 proti 16,3 mil.). V poměru k daňovým příjmům je to ale méně (25 % proti 35 %) a přebytek do úspor se zdvojnásobil (9,3 → 20,8 mil.), viz [stavy účtů](https://dinkotom.github.io/hd-v-datech/hd-ucty.html).
+- Rozdíl tvoří hlavně **dotace**. V letech 2018–2021 obec získala 12,0 mil. investičních dotací. Z toho bylo 9,86 mil. v roce 2021: 8,27 mil. z IROP na rekonstrukci MŠ, 0,84 mil. od MPO na veřejné osvětlení, 0,39 mil. od MMR na dětské hřiště u MŠ a 0,35 mil. od SZIF (viz [dotace obce](https://hd-v-datech.cz/hd-dotace.html)). V letech 2022–2025 obec nezískala žádnou investiční dotaci. Z vlastních peněz dala na investice a opravy v posledním období o něco víc (18,9 proti 16,3 mil.). V poměru k daňovým příjmům je to ale méně (25 % proti 35 %) a přebytek do úspor se zdvojnásobil (9,3 → 20,8 mil.), viz [stavy účtů](https://hd-v-datech.cz/hd-ucty.html).
 - **Struktura:** v letech 2022–2025 šly tři čtvrtiny na silnice (2212: 14,4 z 18,9 mil., hlavně MK 1, MK 5 a MK 10). V letech 2018–2021 se výdaje rozložily mezi MŠ (12,6), hřbitov (4,2), veřejné osvětlení (3,7), chodníky (3,6) a Obecní dům (1,8).
-- **Rok 2026 v datech chybí** (MF ho zatím nezveřejnilo). V běhu jsou: hřiště u Obecního domu (Sportovní podlahy Zlín, 6,6 mil.), projektová dokumentace MŠ (KANIA, 1,94 mil. s DPH), rekonstrukce Obecního domu a žádost o dotaci na zateplení a FVE MŠ (viz [veřejné zakázky](https://dinkotom.github.io/hd-v-datech/hd-zakazky.html)). Pokud se v roce 2026 proplatí, období 2022–2026 se objemem přiblíží předchozímu, ovšem bez investičních dotací a z vlastních peněz.
+- **Rok 2026 v datech chybí** (MF ho zatím nezveřejnilo). V běhu jsou: hřiště u Obecního domu (Sportovní podlahy Zlín, 6,6 mil.), projektová dokumentace MŠ (KANIA, 1,94 mil. s DPH), rekonstrukce Obecního domu a žádost o dotaci na zateplení a FVE MŠ (viz [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html)). Pokud se v roce 2026 proplatí, období 2022–2026 se objemem přiblíží předchozímu, ovšem bez investičních dotací a z vlastních peněz.
 
 ## 6. Dlouhá řada 2010–2025 po volebních obdobích
 
@@ -154,7 +154,7 @@ Data MF jsou dostupná od roku 2010. Volby se konají v říjnu, proto je volebn
 - **Podíl vlastních peněz na investicích a opravách k daňovým příjmům** byl v letech 2010–2018 stabilně kolem 40 %. V období 2018–2022 klesl na 19 %; celkové číslo tam držely dotace z roku 2021 (9,86 mil., z toho 8,27 mil. na MŠ). V období 2022–2026 je zatím 30 %. Pokles podílu tedy začal už po roce 2018.
 - **Rezerva 3639** se objevuje od roku 2017 a od roku 2019 se z ní stává hlavní složka rozpočtu (8,6–26,4 mil.). Schválené rozpočty od té doby výrazně převyšují skutečnost.
 - **Ceny:** spotřebitelské ceny vzrostly mezi lety 2016 a 2025 zhruba o 50 % a stavební práce ještě víc. Reálně (v cenách roku 2025) tak průměr 4,1 mil./rok z období 2014–2018 odpovídá zhruba 6 mil./rok, tedy přibližně dnešní úrovni. Reálný objem investic a oprav je za posledních deset let zhruba stejný, zatímco reálné příjmy vzrostly asi o 30 %.
-- **Dluh:** obec splácela v letech 2014–2015 starý úvěr (1,0 + 0,33 mil., podle závěrečných účtů). Podle rozvah ale do roku 2017 vedla ještě jiný dlouhodobý závazek (účet 459, 1,61 mil. v roce 2011). Komu a za co, výkazy neuvádějí (viz [majetek a účetnictví](https://dinkotom.github.io/hd-v-datech/hd-majetek.html)). Bez úvěrů a dlouhodobých závazků je obec tedy nejpozději od roku 2018. Úvěr 8,6 mil. na MŠ z roku 2020 se nečerpal.
+- **Dluh:** obec splácela v letech 2014–2015 starý úvěr (1,0 + 0,33 mil., podle závěrečných účtů). Podle rozvah ale do roku 2017 vedla ještě jiný dlouhodobý závazek (účet 459, 1,61 mil. v roce 2011). Komu a za co, výkazy neuvádějí (viz [majetek a účetnictví](https://hd-v-datech.cz/hd-majetek.html)). Bez úvěrů a dlouhodobých závazků je obec tedy nejpozději od roku 2018. Úvěr 8,6 mil. na MŠ z roku 2020 se nečerpal.
 
 ## Metodika a zdroje
 

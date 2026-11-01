@@ -1,6 +1,6 @@
 # Mapa obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/mapa.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/mapa.html (aktualizováno 2026-10-31)
 
 > Interaktivní mapa Horních Domaslavic: hranice obce, zástavba ve čtvercích 100 × 100 m s napojením na vodovod, plyn a odpady, veřejné budovy a autobusové zastávky.
 
@@ -96,16 +96,16 @@ V obci je 7 zastávek: Amerika, Obecní úřad, Příčnice, kaple, nocovna ČSA
 - 416 adresních míst RÚIAN jsme porovnali s adresními body v OpenStreetMap, které se do OSM převzaly z RÚIAN. Medián odchylky je 0,9 m a bez systematického posunu (medián posunu je pod 1 cm). 25 % bodů leží do 0,1 m a 51 % do 1 m. Větší odchylky, nejvýš 12,6 m, mají body, které v OSM někdo ručně posunul.
 - Samotná transformace EPSG:1623 má podle EPSG přesnost asi 1 m. Celková odchylka od skutečné polohy je tedy do 1–2 m, což je pro čtverce 100 m a body budov zanedbatelné.
 
-**Zastávky:** počet spojů je počet spojů, které v úterý 3. 11. 2026 na zastávce zastaví, v obou směrech. Spočítán je z jízdních řádů stejně jako v datech pro stránku [Občanská vybavenost](https://dinkotom.github.io/hd-v-datech/srovnani-vybavenost.html).
+**Zastávky:** počet spojů je počet spojů, které v úterý 3. 11. 2026 na zastávce zastaví, v obou směrech. Spočítán je z jízdních řádů stejně jako v datech pro stránku [Občanská vybavenost](https://hd-v-datech.cz/srovnani-vybavenost.html).
 
-**Územní plán:** zastavitelné plochy územního plánu v mapě nejsou. Územní plán Horních Domaslavic je zveřejněný jen jako PDF (výkresy a textová část). Strojově čitelná data ploch (vektorová vrstva nebo služba WMS/WFS) se na webu obce, v Národním geoportálu územního plánování ani na geoportálu Moravskoslezského kraje dohledat nepodařilo. Výměru zastavitelných ploch uvádí stránka [Výstavba a infrastruktura](https://dinkotom.github.io/hd-v-datech/hd-vystavba.html).
+**Územní plán:** zastavitelné plochy územního plánu v mapě nejsou. Územní plán Horních Domaslavic je zveřejněný jen jako PDF (výkresy a textová část). Strojově čitelná data ploch (vektorová vrstva nebo služba WMS/WFS) se na webu obce, v Národním geoportálu územního plánování ani na geoportálu Moravskoslezského kraje dohledat nepodařilo. Výměru zastavitelných ploch uvádí stránka [Výstavba a infrastruktura](https://hd-v-datech.cz/hd-vystavba.html).
 
 **Data ke stažení** (GeoJSON, WGS84):
 
-- [data/mapa_hranice.geojson](https://dinkotom.github.io/hd-v-datech/data/mapa_hranice.geojson): hranice obce;
-- [data/mapa_ctverce.geojson](https://dinkotom.github.io/hd-v-datech/data/mapa_ctverce.geojson): čtverce zástavby s počty a podíly;
-- [data/mapa_mista.geojson](https://dinkotom.github.io/hd-v-datech/data/mapa_mista.geojson): veřejná místa se zdrojem polohy;
-- [data/mapa_zastavky.geojson](https://dinkotom.github.io/hd-v-datech/data/mapa_zastavky.geojson): zastávky s počtem spojů;
-- [data/mapa_souhrn.json](https://dinkotom.github.io/hd-v-datech/data/mapa_souhrn.json): čísla za obec a výsledky kontroly převodu souřadnic.
+- [data/mapa_hranice.geojson](https://hd-v-datech.cz/data/mapa_hranice.geojson): hranice obce;
+- [data/mapa_ctverce.geojson](https://hd-v-datech.cz/data/mapa_ctverce.geojson): čtverce zástavby s počty a podíly;
+- [data/mapa_mista.geojson](https://hd-v-datech.cz/data/mapa_mista.geojson): veřejná místa se zdrojem polohy;
+- [data/mapa_zastavky.geojson](https://hd-v-datech.cz/data/mapa_zastavky.geojson): zastávky s počtem spojů;
+- [data/mapa_souhrn.json](https://hd-v-datech.cz/data/mapa_souhrn.json): čísla za obec a výsledky kontroly převodu souřadnic.
 
 Vrstvy vytváří skript `tools/mapa_data.py` (převod souřadnic je v `tools/krovak.py`, stažení z OpenStreetMap v `tools/mapa_osm.py`).

@@ -1,19 +1,19 @@
 # Srovnání se sousedními obcemi
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/srovnani-souhrn.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-souhrn.html (aktualizováno 2026-10-31)
 
 > Souhrn klíčových čísel Horních Domaslavic vedle Pazderny, Dolních Domaslavic a Lučiny: lidé, finance, majetek, služby, zakázky a volby.
 
 Tato stránka shrnuje dílčí srovnání Horních Domaslavic (HD) se třemi sousedními obcemi: Pazdernou (PA), Dolními Domaslavicemi (DD) a Lučinou (LU). Všechny čtyři leží v okrese Frýdek-Místek. Data jsou veřejná a pocházejí z ČSÚ, Monitoru státní pokladny Ministerstva financí, RÚIAN, ČÚZK, rejstříku škol, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, volby.cz, ARES, registru smluv a profilů zadavatelů. Srovnání je věcné: porovnává čísla, nehodnotí vedení jednotlivých obcí. Podrobnosti, metodika a výhrady jsou na dílčích stránkách:
 
-- [Finance](https://dinkotom.github.io/hd-v-datech/srovnani-finance.html): příjmy, výdaje, investice a opravy, dotace, rezervy, peníze na účtech
-- [Majetek a zakázky](https://dinkotom.github.io/hd-v-datech/srovnani-majetek-zakazky.html): rozvaha, výsledek hospodaření, registr smluv, veřejné zakázky
-- [Obyvatelstvo a výstavba](https://dinkotom.github.io/hd-v-datech/srovnani-obyvatelstvo-vystavba.html): vývoj obyvatel, sčítání 2021, výstavba, plochy pro bydlení
-- [Školství a sociální oblast](https://dinkotom.github.io/hd-v-datech/srovnani-skolstvi-socialni.html): školy, nezaměstnanost, exekuce, kriminalita, ovzduší, služby
-- [Volby a spolky](https://dinkotom.github.io/hd-v-datech/srovnani-volby-spolky.html): volby, subjekty a spolky, výdaje na spolky
-- [Rozloha a druhy pozemků](https://dinkotom.github.io/hd-v-datech/srovnani-plochy.html)
-- [Roztříštěnost zástavby](https://dinkotom.github.io/hd-v-datech/srovnani-zastavba.html)
-- [Daň z nemovitostí](https://dinkotom.github.io/hd-v-datech/srovnani-dan-nemovitosti.html)
+- [Finance](https://hd-v-datech.cz/srovnani-finance.html): příjmy, výdaje, investice a opravy, dotace, rezervy, peníze na účtech
+- [Majetek a zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.html): rozvaha, výsledek hospodaření, registr smluv, veřejné zakázky
+- [Obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html): vývoj obyvatel, sčítání 2021, výstavba, plochy pro bydlení
+- [Školství a sociální oblast](https://hd-v-datech.cz/srovnani-skolstvi-socialni.html): školy, nezaměstnanost, exekuce, kriminalita, ovzduší, služby
+- [Volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.html): volby, subjekty a spolky, výdaje na spolky
+- [Rozloha a druhy pozemků](https://hd-v-datech.cz/srovnani-plochy.html)
+- [Roztříštěnost zástavby](https://hd-v-datech.cz/srovnani-zastavba.html)
+- [Daň z nemovitostí](https://hd-v-datech.cz/srovnani-dan-nemovitosti.html)
 
 ## Hlavní závěr
 

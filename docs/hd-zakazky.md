@@ -1,6 +1,6 @@
 # Veřejné zakázky obce
 
-Zdroj: https://dinkotom.github.io/hd-v-datech/hd-zakazky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-zakazky.html (aktualizováno 2026-10-31)
 
 > Přehled 18 veřejných zakázek obce Horní Domaslavice z let 2014–2026: kdo soutěžil, kdo vyhrál, za kolik a s jakými dodatky.
 
@@ -40,7 +40,7 @@ Ve Věstníku veřejných zakázek (VVZ) jsou k těmto zakázkám tyto formulá�
 
 Zakázky malého rozsahu se do VVZ neuveřejňují, uveřejňují se jen na profilu. Výzva k projektové dokumentaci MŠ proto ve VVZ není. Profil obce je ve VVZ zaregistrovaný pod evidenčním číslem 506517 od 28. 1. 2015 **[D]**.
 
-Smlouvy z profilu a jejich vztah k registru smluv rozebírá stránka [registr smluv](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html).
+Smlouvy z profilu a jejich vztah k registru smluv rozebírá stránka [registr smluv](https://hd-v-datech.cz/hd-registr-smluv.html).
 
 ## 2. Srovnání s archivem webu obce
 
@@ -85,7 +85,7 @@ Ceny ve smlouvách z webu (LOMPARK 2 065 672,24 Kč, BESKYDGROUP oplocení 1 951
 ### 3.1 Projektová dokumentace MŠ (2025)
 
 Údaje doložené z profilu **[D]**:
-- Výzvu obec uveřejnila na profilu 22. 9. 2025, nabídky šlo podávat do 3. 10. 2025. Předpokládaná hodnota byla 1 918 000 Kč bez DPH a zakázka je dotovaná z programu „Vouchery pro veřejný sektor – příprava projektů v MSK“ (viz [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html)).
+- Výzvu obec uveřejnila na profilu 22. 9. 2025, nabídky šlo podávat do 3. 10. 2025. Předpokládaná hodnota byla 1 918 000 Kč bez DPH a zakázka je dotovaná z programu „Vouchery pro veřejný sektor – příprava projektů v MSK“ (viz [dotace](https://hd-v-datech.cz/hd-dotace.html)).
 - Hodnoticí komisi jmenovalo zastupitelstvo (zápis ze zasedání ZO č. 24, usnesení 361/24/2025) **[Z]**.
 - Přišly **4 nabídky:**
 
@@ -148,14 +148,14 @@ Obě zakázky byly **zjednodušené podlimitní řízení** a ve VVZ mají ozná
 - **MK1** (uveřejněno 24. 1. 2023): předpokládaná hodnota 11 653 137,74 Kč, **10 nabídek**. Vyhrál STRABAG za 7 581 200 Kč bez DPH, tj. 65 % předpokládané hodnoty **[O]**. Smlouvu obec podepsala 5. 4. 2023. Nejdražší nabídku (13,18 mil.) podaly Strojírny a stavby Třinec.
 - **MK 5 + MK 10** (jedna zakázka, uveřejněno 26. 6. 2024): předpokládaná hodnota 7 558 183 Kč, **6 nabídek**. Vyhrály Strojírny a stavby Třinec za 4 705 961,41 Kč bez DPH, tj. 62 % předpokládané hodnoty **[O]**. Smlouvu obec podepsala 14. 8. 2024. Druhý PORR nabízel jen o 100 tis. více. Smlouva počítá s dodatkem podle skutečných výměr, ten ale na profilu není **[D]**.
 
-Obě opravy obec zaplatila z vlastních peněz, viz [výdaje obce](https://dinkotom.github.io/hd-v-datech/hd-vydaje.html) a [dotace](https://dinkotom.github.io/hd-v-datech/hd-dotace.html).
+Obě opravy obec zaplatila z vlastních peněz, viz [výdaje obce](https://hd-v-datech.cz/hd-vydaje.html) a [dotace](https://hd-v-datech.cz/hd-dotace.html).
 
 ### 3.5 Obecní dům: čtyři akce, část prací mimo profil
 
 1. **Zateplení Obecního domu**, 2014/2015 (FABRIKO MORAVA, 1 485 712 Kč bez DPH) **[D]**.
 2. **Elektroinstalace**, 2025: předpokládaná hodnota 969 248 Kč, **6 nabídek**. Vyhrál ELBAU-MONT za 759 515,92 Kč bez DPH. Smlouvu obec podepsala 11. 12. 2025 **[D]**.
 3. **Stavební úpravy**, 2026: předpokládaná hodnota 1 041 418 Kč, **5 nabídek**. Vyhrála Aklera Corp za 1 120 118,83 Kč, a to stejnou částkou bez i s DPH, takže firma je zjevně neplátce DPH **[O]**. Hodnotilo se podle ceny včetně DPH. **Bez DPH byly levnější Kowollik s.r.o. (941 153,26) i ELBAU-MONT (942 232,24)** **[D]**. Smluvní cena je o 7,6 % nad předpokládanou hodnotou **[O]**.
-4. **Akustické prvky a panely, lišty a dlažba**: obec je objednala u **LF Interiéry s.r.o.** na základě cenových nabídek (3 nabídky na akustiku, 2 na panely), usneseními 390/26/2025 a 391/26/2025 z 11. 12. 2025 (pro 7, proti 3) **[Z]**. Na profilu nejsou a částky zápis neuvádí; podle závěrečného účtu 2025 činila objednávka akustických panelů 514 733 Kč (viz [registr smluv](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html)). Na zasedání ZO č. 25 byla akustika odhadována „přes 400 tis. Kč“ **[Z]**. Celkové náklady rekonstrukce Obecního domu jsou podle zápisu ze zasedání ZO č. 30 „řádově do 2 milionů“ **[Z]**.
+4. **Akustické prvky a panely, lišty a dlažba**: obec je objednala u **LF Interiéry s.r.o.** na základě cenových nabídek (3 nabídky na akustiku, 2 na panely), usneseními 390/26/2025 a 391/26/2025 z 11. 12. 2025 (pro 7, proti 3) **[Z]**. Na profilu nejsou a částky zápis neuvádí; podle závěrečného účtu 2025 činila objednávka akustických panelů 514 733 Kč (viz [registr smluv](https://hd-v-datech.cz/hd-registr-smluv.html)). Na zasedání ZO č. 25 byla akustika odhadována „přes 400 tis. Kč“ **[Z]**. Celkové náklady rekonstrukce Obecního domu jsou podle zápisu ze zasedání ZO č. 30 „řádově do 2 milionů“ **[Z]**.
 
 ## 4. Zjištění
 
@@ -202,7 +202,7 @@ Obě opravy obec zaplatila z vlastních peněz, viz [výdaje obce](https://dinko
   - Zápis ze zasedání ZO č. 28 uvádí, že odstoupivší firma nabídla v 2. kole „o 800 000 Kč více“. Skutečný rozdíl mezi nabídkami Sportovních podlah Zlín v 1. a 2. kole je 454 900,45 Kč s DPH **[O]**.
 - **Hřiště u Obecního domu:** zápisy ze zasedání ZO č. 30 a 31 se liší v tom, zda smlouva s firmou MERAT byla podepsána. Na profilu smlouva s firmou MERAT ani odstoupení od ní nejsou **[D]**.
 - **Stavební úpravy Obecního domu:** hodnocení podle ceny s DPH zvýhodnilo neplátce DPH. Zda obec u této akce DPH odpočítává (pak by kritérium bez DPH bylo pro obec výhodnější), z veřejných dat nevyplývá **[O]**.
-- **Registr smluv:** u všech 17 smluv na profilu je stav v informačním systému registru smluv „Nezveřejněna“ a Hlídač státu eviduje za obec jen 9 smluv (569 048 Kč). Obec bez rozšířené působnosti ale povinnost zveřejňovat v registru smluv nemá, podrobně viz [registr smluv](https://dinkotom.github.io/hd-v-datech/hd-registr-smluv.html).
+- **Registr smluv:** u všech 17 smluv na profilu je stav v informačním systému registru smluv „Nezveřejněna“ a Hlídač státu eviduje za obec jen 9 smluv (569 048 Kč). Obec bez rozšířené působnosti ale povinnost zveřejňovat v registru smluv nemá, podrobně viz [registr smluv](https://hd-v-datech.cz/hd-registr-smluv.html).
 - **Zateplení Obecního domu 2015:** uveřejnění na profilu (30. 1. 2015) je datováno po lhůtě pro nabídky (5. 1. 2015) i po podpisu smlouvy (14. 1. 2015). Zakázka byla na profil zřejmě vložena dodatečně **[O]**.
 - **OCR:** ceny u zakázek z roku 2015, údaje o veřejném osvětlení 2021 a některé dodatky pocházejí ze strojového čtení skenů (OCR). Před citací je vhodné je ověřit v PDF na profilu.
 
