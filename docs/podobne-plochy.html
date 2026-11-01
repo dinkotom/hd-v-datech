@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rozloha a druhy pozemků (podobné obce) – Horní Domaslavice v datech</title>
+<meta name="description" content="Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pískové Lhotě, Rebešovicích a Závišicích a jejich vývoj od roku 2004.">
+<link rel="stylesheet" href="static/style.css">
+<link rel="alternate" type="text/markdown" href="podobne-plochy.md">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-rozpocet-2026.html">Rozpočet 2026</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+<li><a href="hd-usneseni.html">Usnesení zastupitelstva</a></li>
+<li><a href="mapa.html">Mapa obce</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
+</ul></details>
+<details open><summary>Srovnání s podobnými obcemi</summary><ul>
+<li><a href="srovnani-podobne-obce.html">Souhrn a výběr obcí</a></li>
+<li><a href="podobne-finance.html">Finance</a></li>
+<li><a href="podobne-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="podobne-plochy.html" aria-current="page">Rozloha a druhy pozemků</a></li>
+<li><a href="podobne-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="podobne-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="podobne-vybavenost.html">Občanská vybavenost</a></li>
+</ul></details>
+<a class="top-link" href="zeptejte-se-ai.html">Zeptejte se AI</a>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Rozloha a druhy pozemků (podobné obce)</h1>
+
+<p class="meta">Aktualizováno 1. 11. 2026</p><p>Stránka porovnává rozlohu Horních Domaslavic (HD) a tří podobných obcí z jiných částí ČR a to, jak jsou jejich pozemky evidovány v katastru nemovitostí. Postup je stejný jako na stránce <a href="srovnani-plochy.html">Rozloha a druhy pozemků</a> u sousedních obcí. Zdrojem jsou otevřená data ČÚZK, Úhrnné hodnoty druhů pozemků, ke stavům 1. 10. 2026, 1. 1. 2014 a 1. 1. 2004. Počty obyvatel jsou k 31. 12. 2025 (ČSÚ).</p>
+<p>Každá ze čtyř obcí má jedno katastrální území: Horní Domaslavice (642789), Písková Lhota (720968), Rebešovice (740004) a Závišice (791261).</p>
+<h2 id="rozloha">Rozloha</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rozloha (ha)</td>
+<td style="text-align: right;">506,5</td>
+<td style="text-align: right;">467,7</td>
+<td style="text-align: right;">410,8</td>
+<td style="text-align: right;">632,6</td>
+</tr>
+<tr>
+<td>z toho bez vodní plochy (ha)</td>
+<td style="text-align: right;">500,1</td>
+<td style="text-align: right;">460,2</td>
+<td style="text-align: right;">402,8</td>
+<td style="text-align: right;">626,0</td>
+</tr>
+<tr>
+<td>Obyvatelé 2025</td>
+<td style="text-align: right;">1 109</td>
+<td style="text-align: right;">1 111</td>
+<td style="text-align: right;">1 106</td>
+<td style="text-align: right;">1 156</td>
+</tr>
+<tr>
+<td>Hustota (obyv./km²)</td>
+<td style="text-align: right;">219</td>
+<td style="text-align: right;">238</td>
+<td style="text-align: right;"><strong>269</strong></td>
+<td style="text-align: right;">183</td>
+</tr>
+<tr>
+<td>Počet parcel 2026</td>
+<td style="text-align: right;">2 828</td>
+<td style="text-align: right;">1 730</td>
+<td style="text-align: right;">3 603</td>
+<td style="text-align: right;">3 253</td>
+</tr>
+</tbody>
+</table>
+<h2 id="druhy-pozemků-2026-ha-a-podíl-z-rozlohy">Druhy pozemků 2026 (ha a podíl z rozlohy)</h2>
+<figure class="chart"><h3>Z čeho se skládá území obcí (2026)</h3><p class="sub">Podíl druhů pozemků z rozlohy obce. Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků k 1. 10. 2026.</p><div class="legend"><span class="lg"><i class="lg-sq c2"></i>Orná půda</span><span class="lg"><i class="lg-sq c3"></i>Louky a pastviny</span><span class="lg"><i class="lg-sq c4"></i>Zahrady a sady</span><span class="lg"><i class="lg-sq c6"></i>Les</span><span class="lg"><i class="lg-sq c1"></i>Vodní plocha</span><span class="lg"><i class="lg-sq c5"></i>Zastavěné a ostatní plochy</span></div><svg viewBox="0 0 640 172" role="img" aria-label="Z čeho se skládá území obcí (2026)"><text x="140" y="21.0" text-anchor="end">Horní Domaslavice</text><rect class="c2" x="150.0" y="2" width="264.7" height="30" rx="2" data-tip="Horní Domaslavice · Orná půda: 280,3 ha (55 %)"/><text class="in" x="282.4" y="21.0" text-anchor="middle">55 %</text><rect class="c3" x="416.7" y="2" width="72.8" height="30" rx="2" data-tip="Horní Domaslavice · Louky a pastviny: 78,6 ha (16 %)"/><text class="in" x="453.1" y="21.0" text-anchor="middle">16 %</text><rect class="c4" x="491.5" y="2" width="30.0" height="30" rx="2" data-tip="Horní Domaslavice · Zahrady a sady: 33,6 ha (7 %)"/><rect class="c6" x="523.5" y="2" width="56.3" height="30" rx="2" data-tip="Horní Domaslavice · Les: 61,3 ha (12 %)"/><text class="in" x="551.7" y="21.0" text-anchor="middle">12 %</text><rect class="c1" x="581.8" y="2" width="4.1" height="30" rx="2" data-tip="Horní Domaslavice · Vodní plocha: 6,4 ha (1 %)"/><rect class="c5" x="588.0" y="2" width="42.0" height="30" rx="2" data-tip="Horní Domaslavice · Zastavěné a ostatní plochy: 46,3 ha (9 %)"/><text class="in" x="609.0" y="21.0" text-anchor="middle">9 %</text><text x="140" y="63.0" text-anchor="end">Písková Lhota</text><rect class="c2" x="150.0" y="44" width="181.1" height="30" rx="2" data-tip="Písková Lhota · Orná půda: 177,7 ha (38 %)"/><text class="in" x="240.6" y="63.0" text-anchor="middle">38 %</text><rect class="c3" x="333.1" y="44" width="64.0" height="30" rx="2" data-tip="Písková Lhota · Louky a pastviny: 64,0 ha (14 %)"/><text class="in" x="365.1" y="63.0" text-anchor="middle">14 %</text><rect class="c4" x="399.1" y="44" width="30.1" height="30" rx="2" data-tip="Písková Lhota · Zahrady a sady: 31,1 ha (7 %)"/><rect class="c6" x="431.2" y="44" width="125.5" height="30" rx="2" data-tip="Písková Lhota · Les: 123,7 ha (26 %)"/><text class="in" x="493.9" y="63.0" text-anchor="middle">26 %</text><rect class="c1" x="558.7" y="44" width="5.7" height="30" rx="2" data-tip="Písková Lhota · Vodní plocha: 7,5 ha (2 %)"/><rect class="c5" x="566.4" y="44" width="63.6" height="30" rx="2" data-tip="Písková Lhota · Zastavěné a ostatní plochy: 63,7 ha (14 %)"/><text class="in" x="598.2" y="63.0" text-anchor="middle">14 %</text><text x="140" y="105.0" text-anchor="end">Rebešovice</text><rect class="c2" x="150.0" y="86" width="371.3" height="30" rx="2" data-tip="Rebešovice · Orná půda: 318,1 ha (77 %)"/><text class="in" x="335.6" y="105.0" text-anchor="middle">77 %</text><rect class="c3" x="523.3" y="86" width="0.0" height="30" rx="2" data-tip="Rebešovice · Louky a pastviny: 0,4 ha (0 %)"/><rect class="c4" x="523.7" y="86" width="10.6" height="30" rx="2" data-tip="Rebešovice · Zahrady a sady: 10,8 ha (3 %)"/><rect class="c6" x="536.4" y="86" width="26.5" height="30" rx="2" data-tip="Rebešovice · Les: 24,3 ha (6 %)"/><rect class="c1" x="564.8" y="86" width="7.4" height="30" rx="2" data-tip="Rebešovice · Vodní plocha: 8,1 ha (2 %)"/><rect class="c5" x="574.3" y="86" width="55.7" height="30" rx="2" data-tip="Rebešovice · Zastavěné a ostatní plochy: 49,2 ha (12 %)"/><text class="in" x="602.1" y="105.0" text-anchor="middle">12 %</text><text x="140" y="147.0" text-anchor="end">Závišice</text><rect class="c2" x="150.0" y="128" width="250.3" height="30" rx="2" data-tip="Závišice · Orná půda: 331,1 ha (52 %)"/><text class="in" x="275.1" y="147.0" text-anchor="middle">52 %</text><rect class="c3" x="402.3" y="128" width="51.7" height="30" rx="2" data-tip="Závišice · Louky a pastviny: 70,4 ha (11 %)"/><text class="in" x="428.1" y="147.0" text-anchor="middle">11 %</text><rect class="c4" x="455.9" y="128" width="53.5" height="30" rx="2" data-tip="Závišice · Zahrady a sady: 72,8 ha (12 %)"/><text class="in dark" x="482.7" y="147.0" text-anchor="middle">12 %</text><rect class="c6" x="511.4" y="128" width="73.2" height="30" rx="2" data-tip="Závišice · Les: 98,7 ha (16 %)"/><text class="in" x="548.0" y="147.0" text-anchor="middle">16 %</text><rect class="c1" x="586.6" y="128" width="3.0" height="30" rx="2" data-tip="Závišice · Vodní plocha: 6,5 ha (1 %)"/><rect class="c5" x="591.6" y="128" width="38.4" height="30" rx="2" data-tip="Závišice · Zastavěné a ostatní plochy: 53,0 ha (8 %)"/></svg><details><summary>Zobrazit jako tabulku</summary><table><thead><tr><th>Obec</th><th>Orná půda</th><th>Louky a pastviny</th><th>Zahrady a sady</th><th>Les</th><th>Vodní plocha</th><th>Zastavěné a ostatní plochy</th></tr></thead><tbody><tr><td>Horní Domaslavice</td><td>280,3</td><td>78,6</td><td>33,6</td><td>61,3</td><td>6,4</td><td>46,3</td></tr><tr><td>Písková Lhota</td><td>177,7</td><td>64,0</td><td>31,1</td><td>123,7</td><td>7,5</td><td>63,7</td></tr><tr><td>Rebešovice</td><td>318,1</td><td>0,4</td><td>10,8</td><td>24,3</td><td>8,1</td><td>49,2</td></tr><tr><td>Závišice</td><td>331,1</td><td>70,4</td><td>72,8</td><td>98,7</td><td>6,5</td><td>53,0</td></tr></tbody></table></details></figure>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Orná půda</td>
+<td style="text-align: right;">280,3 (55 %)</td>
+<td style="text-align: right;">177,7 (38 %)</td>
+<td style="text-align: right;"><strong>318,1 (77 %)</strong></td>
+<td style="text-align: right;">331,1 (52 %)</td>
+</tr>
+<tr>
+<td>Trvalý travní porost</td>
+<td style="text-align: right;"><strong>78,6 (16 %)</strong></td>
+<td style="text-align: right;">64,0 (14 %)</td>
+<td style="text-align: right;">0,4 (0,1 %)</td>
+<td style="text-align: right;">70,4 (11 %)</td>
+</tr>
+<tr>
+<td>Zahrada</td>
+<td style="text-align: right;">33,6 (7 %)</td>
+<td style="text-align: right;">31,1 (7 %)</td>
+<td style="text-align: right;">9,4 (2 %)</td>
+<td style="text-align: right;">69,4 (11 %)</td>
+</tr>
+<tr>
+<td>Ovocný sad</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1,0</td>
+<td style="text-align: right;">3,4</td>
+</tr>
+<tr>
+<td><strong>Zemědělská půda celkem</strong></td>
+<td style="text-align: right;">392,5 (78 %)</td>
+<td style="text-align: right;">272,8 (58 %)</td>
+<td style="text-align: right;"><strong>328,9 (80 %)</strong></td>
+<td style="text-align: right;">474,3 (75 %)</td>
+</tr>
+<tr>
+<td>Lesní pozemek</td>
+<td style="text-align: right;">61,3 (12 %)</td>
+<td style="text-align: right;"><strong>123,7 (26 %)</strong></td>
+<td style="text-align: right;">24,3 (6 %)</td>
+<td style="text-align: right;">98,7 (16 %)</td>
+</tr>
+<tr>
+<td>Vodní plocha</td>
+<td style="text-align: right;">6,4 (1,3 %)</td>
+<td style="text-align: right;">7,5 (1,6 %)</td>
+<td style="text-align: right;">8,1 (2,0 %)</td>
+<td style="text-align: right;">6,5 (1,0 %)</td>
+</tr>
+<tr>
+<td>Zastavěná plocha a nádvoří</td>
+<td style="text-align: right;">12,5 (2,5 %)</td>
+<td style="text-align: right;">11,6 (2,5 %)</td>
+<td style="text-align: right;">9,4 (2,3 %)</td>
+<td style="text-align: right;">14,7 (2,3 %)</td>
+</tr>
+<tr>
+<td>Ostatní plocha (cesty, zeleň, sport…)</td>
+<td style="text-align: right;">33,8 (6,7 %)</td>
+<td style="text-align: right;">52,1 (11,1 %)</td>
+<td style="text-align: right;">39,8 (9,7 %)</td>
+<td style="text-align: right;">38,4 (6,1 %)</td>
+</tr>
+</tbody>
+</table>
+<p>Na obyvatele (m²):</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Les</td>
+<td style="text-align: right;">552</td>
+<td style="text-align: right;">1 114</td>
+<td style="text-align: right;">219</td>
+<td style="text-align: right;">854</td>
+</tr>
+<tr>
+<td>Zahrada</td>
+<td style="text-align: right;">303</td>
+<td style="text-align: right;">280</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">600</td>
+</tr>
+<tr>
+<td>Zastavěná plocha</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">104</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">127</td>
+</tr>
+<tr>
+<td>Ostatní plocha</td>
+<td style="text-align: right;">305</td>
+<td style="text-align: right;">469</td>
+<td style="text-align: right;">360</td>
+<td style="text-align: right;">332</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Koeficient ekologické stability</strong>, zjednodušeně (les + travní porost + voda + sady) ÷ (orná + zastavěná): HD 0,50, Písková Lhota 1,03, Rebešovice 0,10, Závišice 0,52. Rebešovice leží v intenzivně obdělávané krajině jižně od Brna, Písková Lhota má díky lesům nejstabilnější krajinu.</p>
+<h2 id="vývoj-2004--2026-ha">Vývoj 2004 → 2026 (ha)</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Orná půda</td>
+<td style="text-align: right;">−5,6</td>
+<td style="text-align: right;">−19,8</td>
+<td style="text-align: right;">−4,3</td>
+<td style="text-align: right;">−21,7</td>
+</tr>
+<tr>
+<td>Travní porost</td>
+<td style="text-align: right;">+1,8</td>
+<td style="text-align: right;">+0,4</td>
+<td style="text-align: right;">−0,3</td>
+<td style="text-align: right;">+1,3</td>
+</tr>
+<tr>
+<td>Zahrada</td>
+<td style="text-align: right;">+1,2</td>
+<td style="text-align: right;">+17,0</td>
+<td style="text-align: right;">0,0</td>
+<td style="text-align: right;">+17,4</td>
+</tr>
+<tr>
+<td>Les</td>
+<td style="text-align: right;">+3,8</td>
+<td style="text-align: right;">−2,1</td>
+<td style="text-align: right;">−0,1</td>
+<td style="text-align: right;">+1,7</td>
+</tr>
+<tr>
+<td>Zastavěná plocha</td>
+<td style="text-align: right;">+2,9 (+30 %)</td>
+<td style="text-align: right;">+2,1 (+23 %)</td>
+<td style="text-align: right;">+2,0 (+27 %)</td>
+<td style="text-align: right;">+1,2 (+9 %)</td>
+</tr>
+<tr>
+<td>Ostatní plocha</td>
+<td style="text-align: right;">−4,0</td>
+<td style="text-align: right;">+3,1</td>
+<td style="text-align: right;">+2,5</td>
+<td style="text-align: right;">+0,7</td>
+</tr>
+<tr>
+<td>Počet parcel</td>
+<td style="text-align: right;">+1 076 (+61 %)</td>
+<td style="text-align: right;">+997 (+136 %)</td>
+<td style="text-align: right;"><strong>+2 238 (+164 %)</strong></td>
+<td style="text-align: right;">+1 561 (+92 %)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Počet parcel</strong> vzrostl ve všech obcích, nejvíc v Rebešovicích a Pískové Lhotě, kde vznikaly celé nové ulice rodinných domů. V HD vzrostl o 61 %.</li>
+<li><strong>Zastavěná plocha</strong> přibyla v HD (+30 %), Pískové Lhotě a Rebešovicích podobně; v Závišicích, které rostou pomaleji, jen o 9 %.</li>
+<li><strong>Přesun z orné půdy do zahrad</strong> v Pískové Lhotě a Závišicích (o 17 ha) odpovídá zčásti nové výstavbě, zčásti pravděpodobně obnově katastrálního operátu. Neověřeno.</li>
+</ul>
+<h2 id="co-z-toho-plyne">Co z toho plyne</h2>
+<ol type="1">
+<li><strong>Rozlohou a hustotou jsou si obce blízko</strong>, HD jsou mezi nimi uprostřed. Nejhustěji jsou osídlené Rebešovice (269 obyvatel na km²).</li>
+<li><strong>HD a Rebešovice mají nejzemědělštější krajinu</strong> (78 a 80 % zemědělské půdy). HD ale mají víc luk a pastvin a víc než dvakrát víc lesa na obyvatele.</li>
+<li><strong>Krajina rozdíly v investicích nevysvětluje.</strong> Obce mají podobný podíl zastavěných ploch (2,3–2,5 %) a zastavěná plocha v nich za 22 let podobně přibývala.</li>
+</ol>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li>Druhy pozemků jsou údaje z katastru: popisují, jak je pozemek evidován, ne nutně jak se skutečně využívá.</li>
+<li>Změny v čase jsou zčásti dané obnovou katastrálního operátu, ne skutečnou změnou krajiny.</li>
+<li>Rok 2014 a 2004 jsou stavy k 1. 1., rok 2026 k 1. 10.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Zdroj: ČÚZK, Úhrnné hodnoty druhů pozemků (services.cuzk.cz/sestavy/UHDP) po katastrálních územích. Hustota je počet obyvatel k 31. 12. 2025 (ČSÚ) dělený rozlohou. Koeficient ekologické stability je počítán zjednodušeně z druhů pozemků. Data: <a href="data/podobne_obce_CUZK_UHDP_2004_2014_2026.csv">podobne_obce_CUZK_UHDP_2004_2014_2026.csv</a>.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

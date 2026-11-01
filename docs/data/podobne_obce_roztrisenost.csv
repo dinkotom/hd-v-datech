@@ -1,0 +1,5 @@
+obec,domy_bydleni,rekreacni_objekty,mst_m_na_dum,mst_km,nn_median_m,nn_prumer_m,domy_nn_nad_100m,vzd_od_stredu_median_m,vzd_od_stredu_p90_m,plocha_obalky_50m_ha,domy_na_ha_obalky,shluky_75m,shluky_75m_min5domu,podil_nejvetsi_75m_pct,samoty_75m,nejvetsi_shluky_75m,shluky_100m,shluky_100m_min5domu,podil_nejvetsi_100m_pct,samoty_100m,nejvetsi_shluky_100m,shluky_150m,shluky_150m_min5domu,podil_nejvetsi_150m_pct,samoty_150m,nejvetsi_shluky_150m
+HD,408,6,61,25.1,40,49,22,1219,1768,191.6,2.13,97,19,13,68,52 39 30 26 22 21,57,18,16,32,67 58 46 27 26 17,20,9,43,10,174 119 31 20 18 10
+PL,393,4,28,11.0,21,23,2,382,633,78.3,5.02,8,3,61,5,239 136 12 2 1 1,4,1,99,3,389 2 1 1,1,1,100,0,393
+REB,364,27,19,6.8,11,14,0,243,453,45.9,7.93,2,1,100,1,363 1,1,1,100,0,364,1,1,100,0,364
+ZAV,381,21,45,17.1,30,35,8,490,1204,126.4,3.01,34,8,67,19,255 19 16 16 10 8,18,5,77,10,295 26 17 12 10 3,14,4,81,10,310 29 20 10 2 2

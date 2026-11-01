@@ -1,0 +1,21 @@
+ukazatel,HD,Písková Lhota,Rebešovice,Závišice
+RD_s_cp,407,380,357,373
+RD_vse,407,380,357,373
+SO_celkem,500,464,493,587
+adresni_mista,417,404,412,411
+bez_cp_ce,83,60,95,176
+bytovy_dum,0,1,7,1
+byty_RUIAN,480,447,472,482
+kanal_COV,94,6,1,132
+kanal_nezjist,31,21,27,24
+kanal_nic,2,4,1,8
+kanal_sit,0,32,328,10
+kanal_zumpa,290,341,41,237
+max_cp,431,376,424,412
+plyn_verejny,57,2,328,225
+rekreace,4,6,14,20
+rekreace_s_ce,4,2,14,3
+s_ce,6,2,27,10
+s_cp,411,402,371,401
+vodovod_bez,7,0,2,12
+vodovod_s,374,383,366,374

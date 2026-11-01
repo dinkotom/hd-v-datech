@@ -1,5 +1,5 @@
 ---
-title: "Podobné obce v Česku"
+title: "Podobné obce v Česku: souhrn"
 description: "Horní Domaslavice vedle tří obcí z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Písková Lhota (okres Mladá Boleslav), Rebešovice (Brno-venkov) a Závišice (Nový Jičín)."
 updated: "2026-11-01"
 ---
@@ -13,6 +13,15 @@ Ze všech 6 233 obcí, u kterých jsou k dispozici údaje o obyvatelích i rozlo
 - **Závišice** (okres Nový Jičín) jsou venkovská obec v podhůří Beskyd ve stejném kraji jako HD, s 1 156 obyvateli a stejně jako HD bez splaškové kanalizace. Rostou pomaleji (+56 %), mají větší rozlohu 6,3 km² a na rozdíl od HD zřizují malotřídní základní školu (1.–5. ročník).
 
 Všechny tři mají souvislejší zástavbu než HD. Obce s podobně rozptýlenou zástavbou jsou téměř jen v okolí HD; nejbližší z nich, Vojkovice, s HD sousedí, a jsou proto zařazené mezi [sousední obce](srovnani-souhrn.html).
+
+Podrobnosti, metodika a výhrady jsou na dílčích stránkách:
+
+- [Finance](podobne-finance.html): příjmy, výdaje, investice a opravy, dotace, rezervy, peníze na účtech
+- [Obyvatelstvo a výstavba](podobne-obyvatelstvo-vystavba.html): vývoj obyvatel, sčítání 2021, výstavba
+- [Rozloha a druhy pozemků](podobne-plochy.html)
+- [Roztříštěnost zástavby](podobne-zastavba.html)
+- [Daň z nemovitostí](podobne-dan-nemovitosti.html)
+- [Občanská vybavenost](podobne-vybavenost.html)
 
 ## Jak byly obce vybrány
 
@@ -113,35 +122,9 @@ Největší akce podle výkazů (paragraf rozpočtové skladby, rok, mil. Kč):
 - **Závišice:** chodníky (2016–2025: 18,5), sportoviště (2018: 12,1; 2025: 12,7), kulturní zařízení (2018 a 2021: 11,4), silnice (2019–2025: 10,9), hasiči (2024–2025: 8,6).
 - **Horní Domaslavice:** silnice a komunikace, rekonstrukce mateřské školy (2021) a veřejné osvětlení; podrobně na stránce [Výdaje, investice a opravy](hd-vydaje.html).
 
-## Daň z nemovitostí
+## Daň z nemovitostí a vybavenost
 
-| | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
-|---|---|---|---|---|
-| Koeficient podle velikosti obce | 1,4 (od 2025) | 1,4 | 1,4 | 1,4 |
-| Místní koeficient | žádný | žádný | žádný | žádný |
-| Výnos na obyvatele a rok 2023–2025 | 579 Kč | 556 Kč | 706 Kč | 660 Kč |
-
-Žádná ze čtyř obcí místní koeficient nepoužívá (podle Sbírky právních předpisů územních samosprávných celků, která funguje od roku 2021). Výnos daně z nemovitostí je podobný a rozdíly v investicích nevysvětluje.
-
-## Vybavenost
-
-| | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
-|---|---|---|---|---|
-| Základní škola | ne | ne | ne (spádová ZŠ Brno-Chrlice) | **ano, 1.–5. ročník** (zřizuje obec, 46 žáků) |
-| Mateřská škola | ano (44 míst) | ne | ano, nová budova od 2022 (+50 míst, dotace IROP 25,5 mil. Kč) | ano (2 třídy) |
-| Obchod s potravinami | ne | neověřeno (pojízdná prodejna) | ano | ano |
-| Hospoda, sál | Obecní dům se sálem a hospodou | restaurace; klubovna na OÚ (2025), společenské centrum se připravuje | Zámeček s restaurací a sálem (~150 míst) | obecní kulturní dům s restaurací a sálem (150 míst) |
-| Lékař v obci | ne | ne | ne | ne |
-| Splašková kanalizace | ne | ano, od 2023 (investor VaK Mladá Boleslav, obec přispívala) | ano, rekonstrukce ČOV a dostavba kanalizace 2010–2012 za cca 37 mil. Kč (investor obec, dotace 28,8 mil. Kč) | **ne** (od 2021 příspěvek na domovní ČOV; kanalizace v plánu na 2026–2035) |
-| Plyn | jen část obce | ne | ano | většina obce |
-| Chodníky podél hlavní silnice | krátký úsek (2018) | částečně (2022–2023, další etapa 2026–2027) | částečně (2018) | ano, postupně 2002–2025 |
-| Sportoviště | víceúčelové hřiště ve výstavbě, 2 dětská hřiště | víceúčelové hřiště, dětská hřiště, beachvolejbal (2023–2025) | areál TJ Sokol, 3 dětská hřiště | sportovní areál s oválem (2019), tělocvična |
-| Hasiči (JSDH) | ano | ano | ne (podle programu rozvoje obce) | ano, plánuje novou zbrojnici |
-| Autobus do nejbližšího města ve všední den | 23 spojů v obou směrech ¹ | asi 44 odjezdů do Mladé Boleslavi | asi 38 odjezdů do Brna | asi 32 odjezdů do Kopřivnice |
-
-¹ U HD je to počet spojů v obou směrech podle jízdních řádů (viz [občanská vybavenost](srovnani-vybavenost.html)), u ostatních obcí počet odjezdů z hlavní zastávky jedním směrem ve středu 4. 11. 2026 (IDOS). Čísla jsou proto jen orientační.
-
-Zdroje: weby a programy rozvoje obcí (Písková Lhota, Rebešovice 2016–2030, Závišice 2025–2030), zpravodaje obcí, inspekční zprávy ČŠI, dotační evidence (Hlídač státu z dat IS CEDR), IDOS. U HD stránka [Občanská vybavenost](srovnani-vybavenost.html).
+Žádná ze čtyř obcí nepoužívá místní koeficient daně z nemovitostí a výnos daně na obyvatele je podobný (viz [Daň z nemovitostí](podobne-dan-nemovitosti.html)). Základní školu zřizují jen Závišice, kanalizaci mají Rebešovice a od roku 2023 Písková Lhota; obchod mají Rebešovice a Závišice. Podrobné srovnání služeb a zařízení je na stránce [Občanská vybavenost](podobne-vybavenost.html).
 
 ## Co ze srovnání plyne
 

@@ -48,7 +48,13 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 
 ## Srovnání s podobnými obcemi
 
-- [Podobné obce v Česku](https://hd-v-datech.cz/srovnani-podobne-obce.md): Horní Domaslavice vedle tří obcí z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Písková Lhota (okres Mladá Boleslav), Rebešovice (Brno-venkov) a Závišice (Nový Jičín).
+- [Souhrn a výběr obcí](https://hd-v-datech.cz/srovnani-podobne-obce.md): Horní Domaslavice vedle tří obcí z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Písková Lhota (okres Mladá Boleslav), Rebešovice (Brno-venkov) a Závišice (Nový Jičín).
+- [Finance](https://hd-v-datech.cz/podobne-finance.md): Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pískové Lhoty, Rebešovic a Závišic v letech 2010–2025.
+- [Obyvatelstvo a výstavba](https://hd-v-datech.cz/podobne-obyvatelstvo-vystavba.md): Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a ve třech podobných obcích z jiných částí Česka: Písková Lhota, Rebešovice a Závišice.
+- [Rozloha a druhy pozemků](https://hd-v-datech.cz/podobne-plochy.md): Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pískové Lhotě, Rebešovicích a Závišicích a jejich vývoj od roku 2004.
+- [Roztříštěnost zástavby](https://hd-v-datech.cz/podobne-zastavba.md): Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pískovou Lhotou, Rebešovicemi a Závišicemi a co to znamená pro délku sítí.
+- [Daň z nemovitostí](https://hd-v-datech.cz/podobne-dan-nemovitosti.md): Jaké koeficienty daně z nemovitých věcí uplatňují Horní Domaslavice, Písková Lhota, Rebešovice a Závišice a kolik jim daň vynáší na obyvatele.
+- [Občanská vybavenost](https://hd-v-datech.cz/podobne-vybavenost.md): Jaké služby a zařízení mají Horní Domaslavice, Písková Lhota, Rebešovice a Závišice a jak podobné obce pořídily to, co HD chybí.
 
 ## Data
 
@@ -65,11 +71,16 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 - [finance_VOJ_2010-2025.csv](https://hd-v-datech.cz/data/finance_VOJ_2010-2025.csv): Hospodaření obce Vojkovice (okres Frýdek-Místek, IČO 00577081), sousední obce HD, po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
 - [finance_ZAV_2010-2025.csv](https://hd-v-datech.cz/data/finance_ZAV_2010-2025.csv): Hospodaření obce Závišice (okres Nový Jičín, IČO 00600709) po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`). Podobná obec pro srovnání.
 - [investice_opravy_podle_paragrafu_sousede.csv](https://hd-v-datech.cz/data/investice_opravy_podle_paragrafu_sousede.csv): Investice a opravy HD a sousedních obcí podle paragrafu rozpočtové skladby (na co šly).
-- [podobne_obce_investice_podle_paragrafu.csv](https://hd-v-datech.cz/data/podobne_obce_investice_podle_paragrafu.csv): Investice a opravy Pískové Lhoty, Rebešovic a Závišic podle paragrafu rozpočtové skladby (stejné sloupce jako `investice_opravy_podle_paragrafu_sousede.csv`).
+- [podobne_obce_CUZK_UHDP_2004_2014_2026.csv](https://hd-v-datech.cz/data/podobne_obce_CUZK_UHDP_2004_2014_2026.csv): Výměry druhů pozemků HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) v letech 2004, 2014 a 2026 (stejné sloupce jako `CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv`).
+- [podobne_obce_RUIAN_souhrn_stav_20260930.csv](https://hd-v-datech.cz/data/podobne_obce_RUIAN_souhrn_stav_20260930.csv): Budovy, byty a technické vybavení podle RÚIAN (stav 30. 9. 2026) pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné řádky jako `RUIAN_souhrn_sousede_stav_20260930.csv`).
+- [podobne_obce_investice_podle_paragrafu.csv](https://hd-v-datech.cz/data/podobne_obce_investice_podle_paragrafu.csv): Investice a opravy HD, Pískové Lhoty, Rebešovic a Závišic podle paragrafu rozpočtové skladby (stejné sloupce jako `investice_opravy_podle_paragrafu_sousede.csv`).
 - [podobne_obce_investice_podle_ucelu_2016-2025.csv](https://hd-v-datech.cz/data/podobne_obce_investice_podle_ucelu_2016-2025.csv): Investice a opravy za roky 2016–2025 sečtené podle účelu (sloučené paragrafy) pro HD, Pískovou Lhotu, Rebešovice a Závišice.
+- [podobne_obce_obyvatel_rocne_2000-2025.csv](https://hd-v-datech.cz/data/podobne_obce_obyvatel_rocne_2000-2025.csv): Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).
 - [podobne_obce_obyvatele_2000-2025.csv](https://hd-v-datech.cz/data/podobne_obce_obyvatele_2000-2025.csv): Počet obyvatel HD, Pískové Lhoty, Rebešovic a Závišic 2000–2025.
+- [podobne_obce_roztrisenost.csv](https://hd-v-datech.cz/data/podobne_obce_roztrisenost.csv): Ukazatele roztříštěnosti zástavby HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) (stejné sloupce jako `roztrisenost_sousede.csv`).
 - [podobne_obce_souhrn_po_obdobich.csv](https://hd-v-datech.cz/data/podobne_obce_souhrn_po_obdobich.csv): Součty ukazatelů za volební období pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné sloupce jako `souhrn_po_obdobich_sousede.csv`).
 - [podobne_obce_vyber.csv](https://hd-v-datech.cz/data/podobne_obce_vyber.csv): Výběr podobných obcí: 231 obcí ČR s 650–1 800 obyvateli (2025), růstem od roku 2000 alespoň 35 % a rozlohou 3–11 km², a pro srovnání HD.
+- [podobne_obce_vydaje_kategorie_2010-2025.csv](https://hd-v-datech.cz/data/podobne_obce_vydaje_kategorie_2010-2025.csv): Výdaje HD, Pískové Lhoty, Rebešovic a Závišic podle účelu a druhu (stejné sloupce jako `vydaje_kategorie_sousede_2010-2025.csv`).
 - [rozpocet_2026_investice_opravy.csv](https://hd-v-datech.cz/data/rozpocet_2026_investice_opravy.csv): Rozpočet 2026: plánované a zaplacené investice a opravy podle paragrafu.
 - [rozpocet_2026_odhad_prijmu.csv](https://hd-v-datech.cz/data/rozpocet_2026_odhad_prijmu.csv): Rozpočtované a skutečné příjmy 2023–2026 a jaký podíl ročních příjmů obvykle přichází do konce září.
 - [rozpocet_2026_rozpoctova_opatreni.csv](https://hd-v-datech.cz/data/rozpocet_2026_rozpoctova_opatreni.csv): Rozpočtová opatření (změny rozpočtu) 2026.

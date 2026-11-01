@@ -430,6 +430,42 @@ def c_pod_penize():
     return lines_highlight('Peníze na účtech na obyvatele', 'Kč na obyvatele k 31. 12. ' + MF, xs, s, 'Kč', label_every=3)
 
 
+def c_pod_dane():
+    xs, s = _pod_series('trida1', 'obyv_1_7')
+    return lines_highlight('Daňové příjmy na obyvatele', 'Kč na obyvatele a rok (třída 1). ' + MF, xs, s, 'Kč', label_every=3)
+
+
+def c_pod_dotace():
+    rows = []
+    for n in PODOBNE:
+        r = _fin(POD_FILES[n])
+        rows.append((n, sum(float(x['dotace_inv']) for x in r if 2011 <= int(x['rok']) <= 2025) / 1e6))
+    return hbar('Investiční dotace 2011–2025 celkem', 'Mil. Kč. ' + MF, rows, 'mil. Kč', dec=1, hl='Horní Domaslavice')
+
+
+def c_pod_plochy():
+    nm = {'HD': 'Horní Domaslavice', 'PL': 'Písková Lhota', 'REB': 'Rebešovice', 'ZAV': 'Závišice'}
+    agg = collections.defaultdict(lambda: collections.Counter())
+    for x in read_csv('podobne_obce_CUZK_UHDP_2004_2014_2026.csv'):
+        if x['rok'] == '2026':
+            a = agg[nm[x['obec']]]
+            a['orna'] += float(x['orna_ha'])
+            a['travni'] += float(x['ttp_ha'])
+            a['zahrady'] += float(x['zahrada_ha']) + float(x['sad_ha'])
+            a['les'] += float(x['les_ha'])
+            a['voda'] += float(x['voda_ha'])
+            a['zast'] += float(x['zastavena_ha']) + float(x['ostatni_ha'])
+            # vineyards and hop fields have no column; count the remainder with orchards so shares use the full area
+            listed = sum(float(x[k]) for k in ('orna_ha', 'ttp_ha', 'zahrada_ha', 'sad_ha', 'les_ha', 'voda_ha', 'zastavena_ha', 'ostatni_ha'))
+            a['zahrady'] += max(0.0, float(x['celkem_ha']) - listed)
+    # same validated colour order as c_srov_plochy
+    cats = [('Orná půda', 'c2', 'orna'), ('Louky a pastviny', 'c3', 'travni'), ('Zahrady a sady', 'c4', 'zahrady'),
+            ('Les', 'c6', 'les'), ('Vodní plocha', 'c1', 'voda'), ('Zastavěné a ostatní plochy', 'c5', 'zast')]
+    rows = [(n, [agg[n][c[2]] for c in cats]) for n in PODOBNE]
+    return stacked100('Z čeho se skládá území obcí (2026)', 'Podíl druhů pozemků z rozlohy obce. Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků k 1. 10. 2026.',
+                      rows, [(c[0], c[1]) for c in cats])
+
+
 def c_pod_obdobi():
     v = {(x['obec'], x['ukazatel']): float(x['kc_na_obyv_a_rok']) for x in read_csv('podobne_obce_souhrn_po_obdobich.csv')
          if x['obdobi'] == '2022–2026' and x['kc_na_obyv_a_rok']}
@@ -439,7 +475,7 @@ def c_pod_obdobi():
 
 
 CHARTS = {
-    'pod-obyv': c_pod_obyv, 'pod-io': c_pod_io, 'pod-penize': c_pod_penize, 'pod-obdobi': c_pod_obdobi,
+    'pod-obyv': c_pod_obyv, 'pod-dane': c_pod_dane, 'pod-dotace': c_pod_dotace, 'pod-plochy': c_pod_plochy, 'pod-io': c_pod_io, 'pod-penize': c_pod_penize, 'pod-obdobi': c_pod_obdobi,
     'hd-io-roky': c_hd_io_roky, 'hd-dotace-roky': c_hd_dotace_roky, 'hd-prijmy-roky': c_hd_prijmy_roky,
     'hd-ucty': c_hd_ucty, 'hd-vydaje-ucel': c_hd_vydaje_ucel, 'hd-obyvatele-pohyb': c_hd_obyvatele,
     'srov-io': c_srov_io, 'srov-penize': c_srov_penize, 'srov-dane': c_srov_dane, 'srov-obyv': c_srov_obyv,

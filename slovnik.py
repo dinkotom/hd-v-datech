@@ -210,6 +210,9 @@ DATASETS = {
             'DD': 'Dolní Domaslavice.',
             'Lucina': 'Lučina.',
             'Vojkovice': 'Vojkovice.',
+            'Písková Lhota': 'Písková Lhota (jen v souboru podobných obcí).',
+            'Rebešovice': 'Rebešovice (jen v souboru podobných obcí).',
+            'Závišice': 'Závišice (jen v souboru podobných obcí).',
         },
     },
     'CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv': {
@@ -220,7 +223,7 @@ DATASETS = {
                   'Za obec je třeba řádky sečíst podle sloupce `obec`.'],
         'sloupce': {
             'rok': 'Rok stavu (1. 1. 2004, 1. 1. 2014, 1. 10. 2026).',
-            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice).',
+            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice); v souboru podobných obcí PL, REB, ZAV.',
             'ku_kod': 'Kód katastrálního území.',
             'ku': 'Název katastrálního území.',
             'celkem_ha': 'Výměra celkem, ha.',
@@ -240,7 +243,7 @@ DATASETS = {
         'zdroj': 'Výpočet z polohy budov v RÚIAN (stav 30. 9. 2026).',
         'pozor': ['„Shluk N m“ = skupina domů, kde každý dům má souseda ve skupině blíž než N metrů.'],
         'sloupce': {
-            'obec': 'Zkratka obce: HD, PA, DD, LU.',
+            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice); v souboru podobných obcí PL (Písková Lhota), REB (Rebešovice), ZAV (Závišice).',
             'domy_bydleni': 'Počet budov pro bydlení.',
             'rekreacni_objekty': 'Počet rekreačních objektů (do výpočtu nezahrnuty).',
             'mst_m_na_dum': 'Délka nejkratší sítě spojující všechny domy (minimální kostra) na jeden dům, m. Hrubý odhad délky sítí na dům.',
@@ -395,7 +398,12 @@ DATASETS = {
     'finance_ZAV_2010-2025.csv': {'stejne_jako': 'finance_HD_2010-2025.csv', 'popis': 'Hospodaření obce Závišice (okres Nový Jičín, IČO 00600709) po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`). Podobná obec pro srovnání.'},
     'finance_PL_2010-2025.csv': {'stejne_jako': 'finance_HD_2010-2025.csv', 'popis': 'Hospodaření obce Písková Lhota (okres Mladá Boleslav, IČO 00509230) po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`). Podobná obec pro srovnání.'},
     'podobne_obce_souhrn_po_obdobich.csv': {'stejne_jako': 'souhrn_po_obdobich_sousede.csv', 'popis': 'Součty ukazatelů za volební období pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné sloupce jako `souhrn_po_obdobich_sousede.csv`).'},
-    'podobne_obce_investice_podle_paragrafu.csv': {'stejne_jako': 'investice_opravy_podle_paragrafu_sousede.csv', 'popis': 'Investice a opravy Pískové Lhoty, Rebešovic a Závišic podle paragrafu rozpočtové skladby (stejné sloupce jako `investice_opravy_podle_paragrafu_sousede.csv`).'},
+    'podobne_obce_investice_podle_paragrafu.csv': {'stejne_jako': 'investice_opravy_podle_paragrafu_sousede.csv', 'popis': 'Investice a opravy HD, Pískové Lhoty, Rebešovic a Závišic podle paragrafu rozpočtové skladby (stejné sloupce jako `investice_opravy_podle_paragrafu_sousede.csv`).'},
+    'podobne_obce_vydaje_kategorie_2010-2025.csv': {'stejne_jako': 'vydaje_kategorie_sousede_2010-2025.csv', 'popis': 'Výdaje HD, Pískové Lhoty, Rebešovic a Závišic podle účelu a druhu (stejné sloupce jako `vydaje_kategorie_sousede_2010-2025.csv`).'},
+    'podobne_obce_CUZK_UHDP_2004_2014_2026.csv': {'stejne_jako': 'CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv', 'popis': 'Výměry druhů pozemků HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) v letech 2004, 2014 a 2026 (stejné sloupce jako `CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv`).'},
+    'podobne_obce_roztrisenost.csv': {'stejne_jako': 'roztrisenost_sousede.csv', 'popis': 'Ukazatele roztříštěnosti zástavby HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) (stejné sloupce jako `roztrisenost_sousede.csv`).'},
+    'podobne_obce_obyvatel_rocne_2000-2025.csv': {'stejne_jako': 'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv', 'popis': 'Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).'},
+    'podobne_obce_RUIAN_souhrn_stav_20260930.csv': {'stejne_jako': 'RUIAN_souhrn_sousede_stav_20260930.csv', 'popis': 'Budovy, byty a technické vybavení podle RÚIAN (stav 30. 9. 2026) pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné řádky jako `RUIAN_souhrn_sousede_stav_20260930.csv`).'},
     'podobne_obce_investice_podle_ucelu_2016-2025.csv': {
         'popis': 'Investice a opravy za roky 2016–2025 sečtené podle účelu (sloučené paragrafy) pro HD, Pískovou Lhotu, Rebešovice a Závišice.',
         'radek': 'jedna obec × kategorie účelu',

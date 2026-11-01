@@ -65,7 +65,13 @@ NAV = [
         ('srovnani-vybavenost', 'Občanská vybavenost'),
     ]),
     ('Srovnání s podobnými obcemi', [
-        ('srovnani-podobne-obce', 'Podobné obce v Česku'),
+        ('srovnani-podobne-obce', 'Souhrn a výběr obcí'),
+        ('podobne-finance', 'Finance'),
+        ('podobne-obyvatelstvo-vystavba', 'Obyvatelstvo a výstavba'),
+        ('podobne-plochy', 'Rozloha a druhy pozemků'),
+        ('podobne-zastavba', 'Roztříštěnost zástavby'),
+        ('podobne-dan-nemovitosti', 'Daň z nemovitostí'),
+        ('podobne-vybavenost', 'Občanská vybavenost'),
     ]),
 ]
 
@@ -390,7 +396,12 @@ DATA_DESC = {
     'podobne_obce_vyber.csv': 'Výběr podobných obcí: 232 obcí ČR s parametry obyvatel, rozlohy a zástavby a indexem odlišnosti od HD.',
     'podobne_obce_souhrn_po_obdobich.csv': 'Souhrny ukazatelů po volebních obdobích pro HD, Pískovou Lhotu, Rebešovice a Závišice.',
     'podobne_obce_investice_podle_ucelu_2016-2025.csv': 'Investice a opravy 2016–2025 podle účelu: HD, Písková Lhota, Rebešovice, Závišice.',
-    'podobne_obce_investice_podle_paragrafu.csv': 'Investice a opravy Pískové Lhoty, Rebešovic a Závišic podle paragrafu a roku.',
+    'podobne_obce_investice_podle_paragrafu.csv': 'Investice a opravy HD, Pískové Lhoty, Rebešovic a Závišic podle paragrafu a roku.',
+    'podobne_obce_CUZK_UHDP_2004_2014_2026.csv': 'Výměry druhů pozemků HD a podobných obcí, 2004, 2014 a 2026 (ČÚZK).',
+    'podobne_obce_roztrisenost.csv': 'Ukazatele roztříštěnosti zástavby HD a podobných obcí.',
+    'podobne_obce_obyvatel_rocne_2000-2025.csv': 'Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (HD, podobné obce, ČR; ČSÚ).',
+    'podobne_obce_RUIAN_souhrn_stav_20260930.csv': 'Budovy, byty a napojení na sítě podle RÚIAN, HD a podobné obce (stav 30. 9. 2026).',
+    'podobne_obce_vydaje_kategorie_2010-2025.csv': 'Výdaje HD, Pískové Lhoty, Rebešovic a Závišic podle účelu a druhu, 2010–2025.',
     'podobne_obce_obyvatele_2000-2025.csv': 'Počet obyvatel HD, Pískové Lhoty, Rebešovic a Závišic 2000–2025.',
 }
 

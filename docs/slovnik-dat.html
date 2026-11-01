@@ -47,7 +47,13 @@
 <li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
 </ul></details>
 <details><summary>Srovnání s podobnými obcemi</summary><ul>
-<li><a href="srovnani-podobne-obce.html">Podobné obce v Česku</a></li>
+<li><a href="srovnani-podobne-obce.html">Souhrn a výběr obcí</a></li>
+<li><a href="podobne-finance.html">Finance</a></li>
+<li><a href="podobne-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="podobne-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="podobne-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="podobne-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="podobne-vybavenost.html">Občanská vybavenost</a></li>
 </ul></details>
 <a class="top-link" href="zeptejte-se-ai.html">Zeptejte se AI</a>
 <a class="top-link" href="data.html">Data ke stažení</a>
@@ -80,7 +86,7 @@
 </tr>
 <tr>
 <td><code>obec</code></td>
-<td>Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice).</td>
+<td>Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice); v souboru podobných obcí PL, REB, ZAV.</td>
 </tr>
 <tr>
 <td><code>ku_kod</code></td>
@@ -468,11 +474,29 @@
 </tr>
 </tbody>
 </table>
+<h2 id="podobne_obce_cuzk_uhdp_2004_2014_2026csv">podobne_obce_CUZK_UHDP_2004_2014_2026.csv</h2>
+<p>Výměry druhů pozemků HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) v letech 2004, 2014 a 2026 (stejné sloupce jako <code>CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_CUZK_UHDP_2004_2014_2026.csv">data/podobne_obce_CUZK_UHDP_2004_2014_2026.csv</a></li>
+<li>Řádků: 12; jeden řádek = jeden rok × katastrální území</li>
+<li>Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků (UHDP).</li>
+<li>Pozor: Dolní Domaslavice mají dvě katastrální území (Dolní Domaslavice a Volovec), Lučina také (Lučina a Kocurovice). Za obec je třeba řádky sečíst podle sloupce <code>obec</code>.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv</code>.</p>
+<h2 id="podobne_obce_ruian_souhrn_stav_20260930csv">podobne_obce_RUIAN_souhrn_stav_20260930.csv</h2>
+<p>Budovy, byty a technické vybavení podle RÚIAN (stav 30. 9. 2026) pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné řádky jako <code>RUIAN_souhrn_sousede_stav_20260930.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_RUIAN_souhrn_stav_20260930.csv">data/podobne_obce_RUIAN_souhrn_stav_20260930.csv</a></li>
+<li>Řádků: 20; jeden řádek = jeden ukazatel; sloupce jsou obce</li>
+<li>Zdroj: RÚIAN (ČÚZK), výměnný formát VFR.</li>
+<li>Pozor: Údaje o vodovodu, kanalizaci a plynu jsou v RÚIAN neúplné a často zastaralé (viz <code>kanal_nezjist</code>). Spolehlivější je sčítání 2021 na stránce Obyvatelstvo a výstavba.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>RUIAN_souhrn_sousede_stav_20260930.csv</code>.</p>
 <h2 id="podobne_obce_investice_podle_paragrafucsv">podobne_obce_investice_podle_paragrafu.csv</h2>
-<p>Investice a opravy Pískové Lhoty, Rebešovic a Závišic podle paragrafu rozpočtové skladby (stejné sloupce jako <code>investice_opravy_podle_paragrafu_sousede.csv</code>).</p>
+<p>Investice a opravy HD, Pískové Lhoty, Rebešovic a Závišic podle paragrafu rozpočtové skladby (stejné sloupce jako <code>investice_opravy_podle_paragrafu_sousede.csv</code>).</p>
 <ul>
 <li>Odkaz: <a href="data/podobne_obce_investice_podle_paragrafu.csv">data/podobne_obce_investice_podle_paragrafu.csv</a></li>
-<li>Řádků: 536; jeden řádek = jedna obec × rok × paragraf (jen nenulové)</li>
+<li>Řádků: 679; jeden řádek = jedna obec × rok × paragraf (jen nenulové)</li>
 <li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M.</li>
 </ul>
 <p>Sloupce jsou stejné jako v <code>investice_opravy_podle_paragrafu_sousede.csv</code>.</p>
@@ -509,6 +533,15 @@
 </tr>
 </tbody>
 </table>
+<h2 id="podobne_obce_obyvatel_rocne_2000-2025csv">podobne_obce_obyvatel_rocne_2000-2025.csv</h2>
+<p>Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako <code>souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_obyvatel_rocne_2000-2025.csv">data/podobne_obce_obyvatel_rocne_2000-2025.csv</a></li>
+<li>Řádků: 129; jeden řádek = jedno území × rok</li>
+<li>Zdroj: Český statistický úřad (sloupec <code>zdroj</code> uvádí kód datové sady).</li>
+<li>Pozor: Pohyb obyvatel (narození … vystěhovalí) je u některých let a území prázdný.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv</code>.</p>
 <h2 id="podobne_obce_obyvatele_2000-2025csv">podobne_obce_obyvatele_2000-2025.csv</h2>
 <p>Počet obyvatel HD, Pískové Lhoty, Rebešovic a Závišic 2000–2025.</p>
 <ul>
@@ -538,6 +571,15 @@
 </tr>
 </tbody>
 </table>
+<h2 id="podobne_obce_roztrisenostcsv">podobne_obce_roztrisenost.csv</h2>
+<p>Ukazatele roztříštěnosti zástavby HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) (stejné sloupce jako <code>roztrisenost_sousede.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_roztrisenost.csv">data/podobne_obce_roztrisenost.csv</a></li>
+<li>Řádků: 4; jeden řádek = jedna obec</li>
+<li>Zdroj: Výpočet z polohy budov v RÚIAN (stav 30. 9. 2026).</li>
+<li>Pozor: „Shluk N m“ = skupina domů, kde každý dům má souseda ve skupině blíž než N metrů.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>roztrisenost_sousede.csv</code>.</p>
 <h2 id="podobne_obce_souhrn_po_obdobichcsv">podobne_obce_souhrn_po_obdobich.csv</h2>
 <p>Součty ukazatelů za volební období pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné sloupce jako <code>souhrn_po_obdobich_sousede.csv</code>).</p>
 <ul>
@@ -651,6 +693,15 @@
 </tr>
 </tbody>
 </table>
+<h2 id="podobne_obce_vydaje_kategorie_2010-2025csv">podobne_obce_vydaje_kategorie_2010-2025.csv</h2>
+<p>Výdaje HD, Pískové Lhoty, Rebešovic a Závišic podle účelu a druhu (stejné sloupce jako <code>vydaje_kategorie_sousede_2010-2025.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_vydaje_kategorie_2010-2025.csv">data/podobne_obce_vydaje_kategorie_2010-2025.csv</a></li>
+<li>Řádků: 1408; jeden řádek = jedna obec × rok × členění × kategorie</li>
+<li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M.</li>
+<li>Pozor: Obě členění (<code>ucel</code>, <code>druh</code>) dávají v součtu stejné celkové výdaje; nesčítat je dohromady.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>vydaje_kategorie_sousede_2010-2025.csv</code>.</p>
 <h2 id="rozpocet_2026_investice_opravycsv">rozpocet_2026_investice_opravy.csv</h2>
 <p>Rozpočet 2026: plánované a zaplacené investice a opravy podle paragrafu.</p>
 <ul>
@@ -985,7 +1036,7 @@
 <tbody>
 <tr>
 <td><code>obec</code></td>
-<td>Zkratka obce: HD, PA, DD, LU.</td>
+<td>Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice); v souboru podobných obcí PL (Písková Lhota), REB (Rebešovice), ZAV (Závišice).</td>
 </tr>
 <tr>
 <td><code>domy_bydleni</code></td>

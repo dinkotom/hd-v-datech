@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roztříštěnost zástavby (podobné obce) – Horní Domaslavice v datech</title>
+<meta name="description" content="Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pískovou Lhotou, Rebešovicemi a Závišicemi a co to znamená pro délku sítí.">
+<link rel="stylesheet" href="static/style.css">
+<link rel="alternate" type="text/markdown" href="podobne-zastavba.md">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-rozpocet-2026.html">Rozpočet 2026</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+<li><a href="hd-usneseni.html">Usnesení zastupitelstva</a></li>
+<li><a href="mapa.html">Mapa obce</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
+</ul></details>
+<details open><summary>Srovnání s podobnými obcemi</summary><ul>
+<li><a href="srovnani-podobne-obce.html">Souhrn a výběr obcí</a></li>
+<li><a href="podobne-finance.html">Finance</a></li>
+<li><a href="podobne-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="podobne-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="podobne-zastavba.html" aria-current="page">Roztříštěnost zástavby</a></li>
+<li><a href="podobne-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="podobne-vybavenost.html">Občanská vybavenost</a></li>
+</ul></details>
+<a class="top-link" href="zeptejte-se-ai.html">Zeptejte se AI</a>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Roztříštěnost zástavby (podobné obce)</h1>
+
+<p class="meta">Aktualizováno 1. 11. 2026</p><p>Stránka ukazuje, jestli domy v obci tvoří jedno souvislé sídlo, nebo několik oddělených částí, a jak dlouhá síť (cesty, vodovod, kanalizace) by musela být, aby propojila všechny domy. Metoda je stejná jako na stránce <a href="srovnani-zastavba.html">Roztříštěnost zástavby</a> u sousedních obcí a vychází z polohy budov v registru RÚIAN (stav ke 30. 9. 2026).</p>
+<p><img src="img/mapa_zastavby_podobne.png" alt="Mapa zástavby Horních Domaslavic, Pískové Lhoty, Rebešovic a Závišic" /></p>
+<h2 id="výsledky">Výsledky</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Domy k bydlení</td>
+<td style="text-align: right;">408</td>
+<td style="text-align: right;">393</td>
+<td style="text-align: right;">364</td>
+<td style="text-align: right;">381</td>
+</tr>
+<tr>
+<td>Rekreační objekty</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">21</td>
+</tr>
+<tr>
+<td><strong>Podíl domů v největší skupině (mezera do 150 m)</strong></td>
+<td style="text-align: right;"><strong>43 %</strong></td>
+<td style="text-align: right;">100 %</td>
+<td style="text-align: right;">100 %</td>
+<td style="text-align: right;">81 %</td>
+</tr>
+<tr>
+<td>Počet skupin aspoň s 5 domy (do 150 m)</td>
+<td style="text-align: right;"><strong>9</strong></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>Velikost největších skupin (do 150 m)</td>
+<td style="text-align: right;">174, 119, 31, 20, 18, 10</td>
+<td style="text-align: right;">393</td>
+<td style="text-align: right;">364</td>
+<td style="text-align: right;">310, 29, 20, 10</td>
+</tr>
+<tr>
+<td>Podíl domů v největší skupině (do 100 m)</td>
+<td style="text-align: right;">16 %</td>
+<td style="text-align: right;">99 %</td>
+<td style="text-align: right;">100 %</td>
+<td style="text-align: right;">77 %</td>
+</tr>
+<tr>
+<td>Samoty a dvojice (mezera nad 150 m)</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td><strong>Medián vzdálenosti domu od středu</strong></td>
+<td style="text-align: right;"><strong>1 219 m</strong></td>
+<td style="text-align: right;">382 m</td>
+<td style="text-align: right;">243 m</td>
+<td style="text-align: right;">490 m</td>
+</tr>
+<tr>
+<td>90 % domů do vzdálenosti</td>
+<td style="text-align: right;">1 768 m</td>
+<td style="text-align: right;">633 m</td>
+<td style="text-align: right;">453 m</td>
+<td style="text-align: right;">1 204 m</td>
+</tr>
+<tr>
+<td>Medián vzdálenosti k nejbližšímu sousedovi</td>
+<td style="text-align: right;">40 m</td>
+<td style="text-align: right;">21 m</td>
+<td style="text-align: right;">11 m</td>
+<td style="text-align: right;">30 m</td>
+</tr>
+<tr>
+<td>Nejkratší propojení všech domů</td>
+<td style="text-align: right;">25,1 km</td>
+<td style="text-align: right;">11,0 km</td>
+<td style="text-align: right;">6,8 km</td>
+<td style="text-align: right;">17,1 km</td>
+</tr>
+<tr>
+<td><strong>…na jeden dům</strong></td>
+<td style="text-align: right;"><strong>61 m</strong></td>
+<td style="text-align: right;">28 m</td>
+<td style="text-align: right;">19 m</td>
+<td style="text-align: right;">45 m</td>
+</tr>
+<tr>
+<td>…z toho v úsecích delších než 150 m</td>
+<td style="text-align: right;">3,6 km (14 %)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2,7 km (16 %)</td>
+</tr>
+<tr>
+<td>Obálka zástavby (ha)</td>
+<td style="text-align: right;">192</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">126</td>
+</tr>
+<tr>
+<td>Domy na hektar obálky</td>
+<td style="text-align: right;">2,1</td>
+<td style="text-align: right;">5,0</td>
+<td style="text-align: right;">7,9</td>
+<td style="text-align: right;">3,0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="co-z-toho-plyne">Co z toho plyne</h2>
+<ol type="1">
+<li><strong>Písková Lhota a Rebešovice jsou jedno souvislé sídlo.</strong> Všechny domy tvoří při mezeře 150 m jednu skupinu a polovina domů je do 250–380 m od středu. Nová zástavba v obou obcích tvoří s původní vsí jeden celek.</li>
+<li><strong>Závišice jsou údolní ves s několika osadami.</strong> Hlavní část má 81 % domů, k ní patří tři menší osady (29, 20 a 10 domů) a samoty.</li>
+<li><strong>HD jsou ze čtyř obcí jednoznačně nejroztříštěnější.</strong> Největší část nemá ani polovinu domů a polovina domů je dál než 1,2 km od středu. Na jeden dům připadá 61 m nejkratšího propojení, dvakrát až třikrát víc než v Pískové Lhotě a Rebešovicích.</li>
+<li><strong>Dopad na infrastrukturu:</strong> síť ke každému domu (kanalizace, vodovod) je v HD na dům výrazně delší než v podobných obcích. Proto jsou HD ve srovnání s nimi u kanalizace skutečně v horší výchozí pozici. Na silnice mezi částmi obce, chodníky, veřejné budovy nebo sportoviště ale tento rozdíl nemá takový vliv (viz <a href="srovnani-podobne-obce.html">souhrn</a>).</li>
+</ol>
+<p>Podobně roztříštěnou zástavbu jako HD mají ze sousedních obcí Vojkovice (největší část 36 % domů), viz <a href="srovnani-zastavba.html">Roztříštěnost zástavby</a>.</p>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li>Výsledky závisí na zvolené mezeře; tabulka uvádí i variantu se 100 m. HD jsou nejroztříštěnější při mezeře 75, 100 i 150 m.</li>
+<li>Nejkratší propojení počítá přímé spojnice. Skutečné cesty a sítě kopírují terén a jsou delší.</li>
+<li>„Střed“ zástavby je statistický střed rozmístění domů, ne náves ani obecní úřad.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<p>Zdroj: RÚIAN, výměnný formát za obce (soubory OB_&lt;kód&gt;_UKSH na vdp.cuzk.gov.cz), stav ke 30. 9. 2026, definiční body stavebních objektů. Skupiny domů jsou shluky bodů s maximální mezerou 75, 100 a 150 m. Nejkratší propojení je minimální kostra nad body domů. Obálka zástavby je sjednocení kruhů o poloměru 50 m kolem všech domů. Rekreační objekty do výpočtů nevstupují. Data: <a href="data/podobne_obce_roztrisenost.csv">podobne_obce_roztrisenost.csv</a>.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>
