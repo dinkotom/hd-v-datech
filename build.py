@@ -63,6 +63,8 @@ NAV = [
         ('srovnani-zastavba', 'Roztříštěnost zástavby'),
         ('srovnani-dan-nemovitosti', 'Daň z nemovitostí'),
         ('srovnani-vybavenost', 'Občanská vybavenost'),
+    ]),
+    ('Srovnání s podobnými obcemi', [
         ('srovnani-podobne-obce', 'Podobné obce v Česku'),
     ]),
 ]
@@ -354,6 +356,8 @@ Podrobnosti a výhrady ke srovnatelnosti jsou v <a href="srovnani-souhrn.html">s
 {cards("Obec v číslech")}
 <h2>Srovnání se sousedy</h2>
 {cards("Srovnání se sousedy")}
+<h2>Srovnání s podobnými obcemi</h2>
+{cards("Srovnání s podobnými obcemi")}
 '''
     return page('index', SITE, body, lede='Veřejná data o obci na jednom místě: lidé, peníze, majetek, výstavba a srovnání se sousedními obcemi.')
 

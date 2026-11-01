@@ -45,6 +45,9 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 - [Roztříštěnost zástavby](https://hd-v-datech.cz/srovnani-zastavba.md): Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pazdernou, Dolními Domaslavicemi, Lučinou a Vojkovicemi a co to znamená pro délku sítí.
 - [Daň z nemovitostí](https://hd-v-datech.cz/srovnani-dan-nemovitosti.md): Jaké koeficienty daně z nemovitých věcí uplatňují Horní Domaslavice a sousední obce a kolik jim daň vynáší na obyvatele.
 - [Občanská vybavenost](https://hd-v-datech.cz/srovnani-vybavenost.md): Jaké služby a zařízení mají Horní Domaslavice a sousední obce a jak sousedé pořídili to, co HD chybí.
+
+## Srovnání s podobnými obcemi
+
 - [Podobné obce v Česku](https://hd-v-datech.cz/srovnani-podobne-obce.md): Horní Domaslavice vedle tří obcí z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Písková Lhota (okres Mladá Boleslav), Rebešovice (Brno-venkov) a Závišice (Nový Jičín).
 
 ## Data
