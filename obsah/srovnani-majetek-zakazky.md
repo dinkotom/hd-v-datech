@@ -4,7 +4,7 @@ description: "Majetek a účetnictví, registr smluv a veřejné zakázky Horní
 updated: "2026-11-01"
 ---
 
-Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se sousedními obcemi Dolní Domaslavice (DD), Lučina (LU), Pazderna (PA) a Vojkovice (VO) a ukazuje, jak obce zveřejňují smlouvy a zadávají veřejné zakázky. Vychází výhradně z veřejných zdrojů: z rozvahy a výkazu zisku a ztráty v Monitoru státní pokladny MF, z počtů obyvatel ČSÚ, z registru smluv, z Hlídače státu a z profilů zadavatele. Všech pět obcí leží v okrese Frýdek-Místek a žádná z nich není obcí s rozšířenou působností. Částky jsou v mil. Kč, není-li uvedeno jinak, a stavy jsou vždy k 31. 12. Srovnání nehodnotí vedení jednotlivých obcí. Podobné srovnání se třemi obcemi z jiných částí Česka je na stránce [Majetek, smlouvy, zakázky (podobné obce)](podobne-majetek-zakazky.html).
+Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se sousedními obcemi Dolní Domaslavice (DD), Lučina (LU), Pazderna (PA) a Vojkovice (VOJ) a ukazuje, jak obce zveřejňují smlouvy a zadávají veřejné zakázky. Vychází výhradně z veřejných zdrojů: z rozvahy a výkazu zisku a ztráty v Monitoru státní pokladny MF, z počtů obyvatel ČSÚ, z registru smluv, z Hlídače státu a z profilů zadavatele. Všech pět obcí leží v okrese Frýdek-Místek a žádná z nich není obcí s rozšířenou působností. Částky jsou v mil. Kč, není-li uvedeno jinak, a stavy jsou vždy k 31. 12. Srovnání nehodnotí vedení jednotlivých obcí. Podobné srovnání se třemi obcemi z jiných částí Česka je na stránce [Majetek, smlouvy, zakázky (podobné obce)](podobne-majetek-zakazky.html).
 
 | | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
 |---|---|---|---|---|---|

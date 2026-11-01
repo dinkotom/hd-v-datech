@@ -12,7 +12,7 @@ Počet obyvatel k 31. 12. 2025: HD 1 109, Písková Lhota 1 111, Rebešovice 1 1
 
 ## 1. Shrnutí
 
-- **Školy:** základní školu má jen Závišice (malotřídka 1.–5. ročník, 46 žáků, zřizuje obec). Mateřskou školu mají HD, Rebešovice (nová budova od 2022) a Závišice; Písková Lhota nemá žádnou školu.
+- **Školy:** základní školu má jen Závišice (malotřídka 1.–5. ročník, 46 žáků, zřizuje obec). Mateřskou školu mají HD, Rebešovice (nová budova od 2022, 75 míst) a Závišice; Písková Lhota nemá žádnou školu.
 - **Kanalizace:** Rebešovice mají kanalizaci a ČOV od 80. let, kompletně zrekonstruované a dostavěné v letech 2010–2012. Písková Lhota má kanalizaci od roku 2023 (investor vodárenská společnost VaK Mladá Boleslav). Závišice ji stejně jako HD nemají a přispívají na domovní ČOV.
 - **Obchod:** Rebešovice a Závišice mají obchod s potravinami, HD a Písková Lhota ne.
 - **Sál a hospoda:** mají ho všechny čtyři obce (HD Obecní dům, Rebešovice Zámeček, Závišice kulturní dům, Písková Lhota restauraci a klubovnu, společenské centrum se připravuje).
@@ -27,7 +27,7 @@ Počet obyvatel k 31. 12. 2025: HD 1 109, Písková Lhota 1 111, Rebešovice 1 1
 
 | Položka | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---|---|---|---|
-| Mateřská škola | **má**: 44 míst, obec zřizuje, plná; přístavba se projektuje | **nemá** (zápisy do MŠ Krnsko a Brodce) | **má**: obec zřizuje; nová bezbariérová budova od 9/2022 (+50 míst), 3 třídy | **má**: součást ZŠ a MŠ Závišice, 2 třídy, 46 dětí |
+| Mateřská škola | **má**: 44 míst, obec zřizuje, plná; přístavba se projektuje | **nemá** (zápisy do MŠ Krnsko a Brodce) | **má**: obec zřizuje; nová bezbariérová budova od 9/2022; kapacita podle rejstříku 25 → 50 (9/2022) → 75 míst (9/2023), 3 třídy | **má**: součást ZŠ a MŠ Závišice, 2 třídy, 46 dětí |
 | Základní škola | **nemá** (spádová ZŠ ve Frýdku-Místku) | **nemá** (ZŠ Krnsko, ZŠ a MŠ Brodce) | **nemá** (spádová ZŠ Brno-Chrlice) | **má**: 1.–5. ročník, 3 třídy, 46 žáků; zřizuje obec |
 | Družina | **nemá** | **nemá** | **nemá** | **má**: 2 oddělení, 37 žáků |
 | Knihovna | **má**: pobočka v budově OÚ | **má**: v budově OÚ, sobota | **má**: obecní, v Zámečku | **má**: obecní, v budově OÚ (od 1925) |
@@ -98,7 +98,7 @@ Počet obyvatel k 31. 12. 2025: HD 1 109, Písková Lhota 1 111, Rebešovice 1 1
 
 ### Rebešovice
 
-- Nová mateřská škola (2019–2022): +50 míst, dotace IROP 25,5 mil. Kč, provoz od 9/2022.
+- Nová mateřská škola (2019–2022): kapacita z 25 na 75 míst (rejstřík: 50 od 9/2022, 75 od 9/2023), dotace IROP 25,5 mil. Kč.
 - Chodníky (2018, dotace MMR 3,0 mil. Kč), podzemní kontejnery (2018).
 - Prodloužení ulice Zahrady (2025–2026, „bezmála 8 mil. Kč“; komunikaci platí vlastníci pozemků, obec sítě).
 - Sběrný dvůr (2026, vysoutěženo za 9,79 mil. Kč bez DPH). V plánu rekonstrukce návsi (cca 52 mil. Kč, převážně z IROP) a připojení na ČOV Modřice.

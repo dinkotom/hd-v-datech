@@ -34,7 +34,7 @@ Pro orientaci: k 1. 7. 2025 měla Pazderna 415 obyvatel, Vojkovice 801, HD 1 100
 | 2022 | 54,67 | 32,82 | 61,72 | 60,20 | 34,08 |
 | 2026 | 63,94 | 46,01 | 60,28 | 63,16 | 44,52 |
 
-HD měla v letech 2002 až 2010 nejvyšší komunální účast z pěti obcí. V letech 2014 až 2022 byla na úrovni Lučiny a DD nebo pod ní. Pazderna měla v letech 2006 až 2022 účast nejnižší. Nejnižší byla v letech, kdy kandidovala jediná kandidátka (2010: 40,0 %, 2018: 42,0 %, 2022: 32,8 %). Vojkovice měly v letech 1994, 2014 a 2018 nejvyšší účast z pěti obcí. V letech 2022 a 2026, kdy v nich kandidovala jediná kandidátka, klesla na 34,1 % a 44,5 %. V roce 2026 byla nejnižší z pěti obcí.
+HD měla v letech 2002 až 2010 nejvyšší komunální účast z pěti obcí. V letech 2014 a 2022 byla pod Lučinou i DD, v roce 2018 na úrovni Lučiny a nad DD. Pazderna měla v letech 2006 až 2022 účast nejnižší. Nejnižší byla v letech, kdy kandidovala jediná kandidátka (2010: 40,0 %, 2018: 42,0 %, 2022: 32,8 %, 2026: 46,0 %). Vojkovice měly v letech 1994, 2014 a 2018 nejvyšší účast z pěti obcí. V letech 2022 a 2026, kdy v nich kandidovala jediná kandidátka, klesla na 34,1 % a 44,5 %. V roce 2026 byla nejnižší z pěti obcí.
 
 ### 1.2 Voliči v seznamu
 
