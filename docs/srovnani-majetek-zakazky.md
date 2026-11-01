@@ -4,6 +4,8 @@ Zdroj: https://hd-v-datech.cz/srovnani-majetek-zakazky.html (aktualizováno 2026
 
 > Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou a Pazdernou.
 
+> Sousední obec Vojkovice byla do srovnání přidána 1. 11. 2026. Na této stránce zatím není; údaje se doplňují. Finance, obyvatelstvo, plochy, zástavba, daň z nemovitostí a vybavenost Vojkovic jsou už na ostatních stránkách srovnání.
+
 Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se sousedními obcemi Dolní Domaslavice (DD), Lučina (LU) a Pazderna (PA) a ukazuje, jak obce zveřejňují smlouvy a zadávají veřejné zakázky. Vychází výhradně z veřejných zdrojů: z rozvahy a výkazu zisku a ztráty v Monitoru státní pokladny MF, z počtů obyvatel ČSÚ, z registru smluv, z Hlídače státu a z profilů zadavatele. Všechny čtyři obce leží v okrese Frýdek-Místek a žádná z nich není obcí s rozšířenou působností. Částky jsou v mil. Kč, není-li uvedeno jinak, a stavy jsou vždy k 31. 12. Srovnání nehodnotí vedení jednotlivých obcí.
 
 | | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |

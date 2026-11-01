@@ -4,6 +4,8 @@ description: "Volební účast a výsledky kandidátek, subjekty a spolky se sí
 updated: "2026-10-31"
 ---
 
+> Sousední obec Vojkovice byla do srovnání přidána 1. 11. 2026. Na této stránce zatím není; údaje se doplňují. Finance, obyvatelstvo, plochy, zástavba, daň z nemovitostí a vybavenost Vojkovic jsou už na ostatních stránkách srovnání.
+
 Stránka porovnává Horní Domaslavice (HD, kód 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399) z hlediska voleb, spolkového života a výdajů obcí na neziskové organizace. Data pocházejí z volby.cz (ČSÚ), ARES, veřejného rejstříku, Monitoru státní pokladny MF (výkaz FIN 2-12 M) a z počtů obyvatel ČSÚ. Stránka srovnává čísla a nehodnotí politiku jednotlivých obcí. U voleb uvádí jen kandidátky a čísla, jména kandidátů ani zastupitelů neuvádí. Podrobnosti o HD jsou na stránkách [volby v HD](hd-volby.html) a [spolky v HD](hd-spolky.html).
 
 Pro orientaci: k 1. 7. 2025 měla Pazderna 415 obyvatel, HD 1 100, DD 1 466 a Lučina 1 599 (ČSÚ). HD rostla od roku 2010 nejrychleji, a to z 671 na 1 100 obyvatel (+64 %). Pazderna vzrostla z 266 na 415 (+56 %), DD z 1 152 na 1 466 (+27 %) a Lučina z 1 222 na 1 599 (+31 %).

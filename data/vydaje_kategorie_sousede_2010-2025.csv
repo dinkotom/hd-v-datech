@@ -1407,3 +1407,355 @@ Lučina,2025,druh,Odměny zastupitelů (5023),3095794.00,1936.1
 Lučina,2025,druh,Materiál a drobný majetek (513x),883213.00,552.4
 Lučina,2025,druh,"Energie, voda, teplo (515x)",981839.92,614.0
 Lučina,2025,druh,Ostatní běžné výdaje,891982.49,557.8
+Vojkovice,2010,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2130870.00,3686.6
+Vojkovice,2010,ucel,"Doprava (silnice, chodníky, BUS)",267140.00,462.2
+Vojkovice,2010,ucel,Školství,1135320.00,1964.2
+Vojkovice,2010,ucel,"Kultura, sport, spolky",254520.00,440.3
+Vojkovice,2010,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",1082470.00,1872.8
+Vojkovice,2010,ucel,Odpady,327600.00,566.8
+Vojkovice,2010,ucel,Životní prostředí ostatní (zeleň aj.),0.00,0.0
+Vojkovice,2010,ucel,"Vodovod a kanalizace (2310, 2321)",0.00,0.0
+Vojkovice,2010,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2010,ucel,"Cestovní ruch, obchod, služby (21xx)",4800.00,8.3
+Vojkovice,2010,ucel,"Bezpečnost, hasiči, krizové řízení",70180.00,121.4
+Vojkovice,2010,ucel,Zdravotnictví a sociální věci,18790.00,32.5
+Vojkovice,2010,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",25880.00,44.8
+Vojkovice,2010,druh,Investice (třída 6),833880.00,1442.7
+Vojkovice,2010,druh,Opravy a udržování (5171),663100.00,1147.2
+Vojkovice,2010,druh,Služby (516x),682400.00,1180.6
+Vojkovice,2010,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",1066310.00,1844.8
+Vojkovice,2010,druh,"Platy, dohody a pojistné (50xx bez 5023)",881350.00,1524.8
+Vojkovice,2010,druh,Odměny zastupitelů (5023),670400.00,1159.9
+Vojkovice,2010,druh,Materiál a drobný majetek (513x),222950.00,385.7
+Vojkovice,2010,druh,"Energie, voda, teplo (515x)",178420.00,308.7
+Vojkovice,2010,druh,Ostatní běžné výdaje,118760.00,205.5
+Vojkovice,2011,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2124208.41,3656.1
+Vojkovice,2011,ucel,"Doprava (silnice, chodníky, BUS)",774811.01,1333.6
+Vojkovice,2011,ucel,Školství,891976.00,1535.2
+Vojkovice,2011,ucel,"Kultura, sport, spolky",422030.00,726.4
+Vojkovice,2011,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",526834.31,906.8
+Vojkovice,2011,ucel,Odpady,306602.00,527.7
+Vojkovice,2011,ucel,Životní prostředí ostatní (zeleň aj.),3500.00,6.0
+Vojkovice,2011,ucel,"Vodovod a kanalizace (2310, 2321)",74777.00,128.7
+Vojkovice,2011,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2011,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2011,ucel,"Bezpečnost, hasiči, krizové řízení",604262.60,1040.0
+Vojkovice,2011,ucel,Zdravotnictví a sociální věci,40485.00,69.7
+Vojkovice,2011,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",42618.00,73.4
+Vojkovice,2011,druh,Investice (třída 6),1676477.00,2885.5
+Vojkovice,2011,druh,Opravy a udržování (5171),204666.00,352.3
+Vojkovice,2011,druh,Služby (516x),671059.52,1155.0
+Vojkovice,2011,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",1043754.00,1796.5
+Vojkovice,2011,druh,"Platy, dohody a pojistné (50xx bez 5023)",913049.00,1571.5
+Vojkovice,2011,druh,Odměny zastupitelů (5023),684153.00,1177.5
+Vojkovice,2011,druh,Materiál a drobný majetek (513x),273475.00,470.7
+Vojkovice,2011,druh,"Energie, voda, teplo (515x)",252032.81,433.8
+Vojkovice,2011,druh,Ostatní běžné výdaje,93438.00,160.8
+Vojkovice,2012,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2108216.97,3561.2
+Vojkovice,2012,ucel,"Doprava (silnice, chodníky, BUS)",297265.43,502.1
+Vojkovice,2012,ucel,Školství,626256.00,1057.9
+Vojkovice,2012,ucel,"Kultura, sport, spolky",927194.00,1566.2
+Vojkovice,2012,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",320133.00,540.8
+Vojkovice,2012,ucel,Odpady,325469.00,549.8
+Vojkovice,2012,ucel,Životní prostředí ostatní (zeleň aj.),0.00,0.0
+Vojkovice,2012,ucel,"Vodovod a kanalizace (2310, 2321)",21089.00,35.6
+Vojkovice,2012,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2012,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2012,ucel,"Bezpečnost, hasiči, krizové řízení",135509.01,228.9
+Vojkovice,2012,ucel,Zdravotnictví a sociální věci,31380.00,53.0
+Vojkovice,2012,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",38322.00,64.7
+Vojkovice,2012,druh,Investice (třída 6),139300.00,235.3
+Vojkovice,2012,druh,Opravy a udržování (5171),759481.00,1282.9
+Vojkovice,2012,druh,Služby (516x),657427.59,1110.5
+Vojkovice,2012,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",1091000.29,1842.9
+Vojkovice,2012,druh,"Platy, dohody a pojistné (50xx bez 5023)",925737.00,1563.7
+Vojkovice,2012,druh,Odměny zastupitelů (5023),676188.00,1142.2
+Vojkovice,2012,druh,Materiál a drobný majetek (513x),226174.53,382.1
+Vojkovice,2012,druh,"Energie, voda, teplo (515x)",248892.00,420.4
+Vojkovice,2012,druh,Ostatní běžné výdaje,106634.00,180.1
+Vojkovice,2013,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2163124.61,3488.9
+Vojkovice,2013,ucel,"Doprava (silnice, chodníky, BUS)",1433065.36,2311.4
+Vojkovice,2013,ucel,Školství,5813332.61,9376.3
+Vojkovice,2013,ucel,"Kultura, sport, spolky",1203920.20,1941.8
+Vojkovice,2013,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",2229691.09,3596.3
+Vojkovice,2013,ucel,Odpady,316896.00,511.1
+Vojkovice,2013,ucel,Životní prostředí ostatní (zeleň aj.),312.00,0.5
+Vojkovice,2013,ucel,"Vodovod a kanalizace (2310, 2321)",0.00,0.0
+Vojkovice,2013,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2013,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2013,ucel,"Bezpečnost, hasiči, krizové řízení",118291.50,190.8
+Vojkovice,2013,ucel,Zdravotnictví a sociální věci,27654.00,44.6
+Vojkovice,2013,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",48606.00,78.4
+Vojkovice,2013,druh,Investice (třída 6),7807217.31,12592.3
+Vojkovice,2013,druh,Opravy a udržování (5171),1395742.75,2251.2
+Vojkovice,2013,druh,Služby (516x),802505.20,1294.4
+Vojkovice,2013,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",859023.82,1385.5
+Vojkovice,2013,druh,"Platy, dohody a pojistné (50xx bez 5023)",974007.00,1571.0
+Vojkovice,2013,druh,Odměny zastupitelů (5023),687398.00,1108.7
+Vojkovice,2013,druh,Materiál a drobný majetek (513x),480431.20,774.9
+Vojkovice,2013,druh,"Energie, voda, teplo (515x)",239058.09,385.6
+Vojkovice,2013,druh,Ostatní běžné výdaje,109510.00,176.6
+Vojkovice,2014,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2203519.85,3525.6
+Vojkovice,2014,ucel,"Doprava (silnice, chodníky, BUS)",1721968.93,2755.2
+Vojkovice,2014,ucel,Školství,353590.61,565.7
+Vojkovice,2014,ucel,"Kultura, sport, spolky",1299208.40,2078.7
+Vojkovice,2014,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",827298.70,1323.7
+Vojkovice,2014,ucel,Odpady,401873.00,643.0
+Vojkovice,2014,ucel,Životní prostředí ostatní (zeleň aj.),80990.00,129.6
+Vojkovice,2014,ucel,"Vodovod a kanalizace (2310, 2321)",0.00,0.0
+Vojkovice,2014,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2014,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2014,ucel,"Bezpečnost, hasiči, krizové řízení",24187.10,38.7
+Vojkovice,2014,ucel,Zdravotnictví a sociální věci,32088.50,51.3
+Vojkovice,2014,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",52701.50,84.3
+Vojkovice,2014,druh,Investice (třída 6),778266.00,1245.2
+Vojkovice,2014,druh,Opravy a udržování (5171),2611192.43,4177.9
+Vojkovice,2014,druh,Služby (516x),640615.82,1025.0
+Vojkovice,2014,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",764969.73,1224.0
+Vojkovice,2014,druh,"Platy, dohody a pojistné (50xx bez 5023)",990618.00,1585.0
+Vojkovice,2014,druh,Odměny zastupitelů (5023),680322.00,1088.5
+Vojkovice,2014,druh,Materiál a drobný majetek (513x),183595.50,293.8
+Vojkovice,2014,druh,"Energie, voda, teplo (515x)",227518.11,364.0
+Vojkovice,2014,druh,Ostatní běžné výdaje,120329.00,192.5
+Vojkovice,2015,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2278745.93,3634.4
+Vojkovice,2015,ucel,"Doprava (silnice, chodníky, BUS)",875521.11,1396.4
+Vojkovice,2015,ucel,Školství,108764.34,173.5
+Vojkovice,2015,ucel,"Kultura, sport, spolky",556317.00,887.3
+Vojkovice,2015,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",833224.01,1328.9
+Vojkovice,2015,ucel,Odpady,318061.00,507.3
+Vojkovice,2015,ucel,Životní prostředí ostatní (zeleň aj.),0.00,0.0
+Vojkovice,2015,ucel,"Vodovod a kanalizace (2310, 2321)",0.00,0.0
+Vojkovice,2015,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2015,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2015,ucel,"Bezpečnost, hasiči, krizové řízení",39401.57,62.8
+Vojkovice,2015,ucel,Zdravotnictví a sociální věci,22448.00,35.8
+Vojkovice,2015,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",67296.20,107.3
+Vojkovice,2015,druh,Investice (třída 6),691420.00,1102.7
+Vojkovice,2015,druh,Opravy a udržování (5171),784670.11,1251.5
+Vojkovice,2015,druh,Služby (516x),731649.91,1166.9
+Vojkovice,2015,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",768788.55,1226.1
+Vojkovice,2015,druh,"Platy, dohody a pojistné (50xx bez 5023)",1061755.00,1693.4
+Vojkovice,2015,druh,Odměny zastupitelů (5023),663992.00,1059.0
+Vojkovice,2015,druh,Materiál a drobný majetek (513x),110295.97,175.9
+Vojkovice,2015,druh,"Energie, voda, teplo (515x)",184398.62,294.1
+Vojkovice,2015,druh,Ostatní běžné výdaje,102809.00,164.0
+Vojkovice,2016,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2230280.43,3436.5
+Vojkovice,2016,ucel,"Doprava (silnice, chodníky, BUS)",380516.91,586.3
+Vojkovice,2016,ucel,Školství,218709.00,337.0
+Vojkovice,2016,ucel,"Kultura, sport, spolky",1442345.00,2222.4
+Vojkovice,2016,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",200691.65,309.2
+Vojkovice,2016,ucel,Odpady,338430.00,521.5
+Vojkovice,2016,ucel,Životní prostředí ostatní (zeleň aj.),38470.60,59.3
+Vojkovice,2016,ucel,"Vodovod a kanalizace (2310, 2321)",0.00,0.0
+Vojkovice,2016,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2016,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2016,ucel,"Bezpečnost, hasiči, krizové řízení",56520.25,87.1
+Vojkovice,2016,ucel,Zdravotnictví a sociální věci,12848.00,19.8
+Vojkovice,2016,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",37267.00,57.4
+Vojkovice,2016,druh,Investice (třída 6),1088267.72,1676.8
+Vojkovice,2016,druh,Opravy a udržování (5171),192588.00,296.7
+Vojkovice,2016,druh,Služby (516x),714074.46,1100.3
+Vojkovice,2016,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",609837.85,939.7
+Vojkovice,2016,druh,"Platy, dohody a pojistné (50xx bez 5023)",1038786.00,1600.6
+Vojkovice,2016,druh,Odměny zastupitelů (5023),629789.00,970.4
+Vojkovice,2016,druh,Materiál a drobný majetek (513x),399630.48,615.8
+Vojkovice,2016,druh,"Energie, voda, teplo (515x)",182279.93,280.9
+Vojkovice,2016,druh,Ostatní běžné výdaje,100825.40,155.4
+Vojkovice,2017,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2115184.42,3190.3
+Vojkovice,2017,ucel,"Doprava (silnice, chodníky, BUS)",572775.15,863.9
+Vojkovice,2017,ucel,Školství,45163.00,68.1
+Vojkovice,2017,ucel,"Kultura, sport, spolky",568122.00,856.9
+Vojkovice,2017,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",1858609.88,2803.3
+Vojkovice,2017,ucel,Odpady,434478.00,655.3
+Vojkovice,2017,ucel,Životní prostředí ostatní (zeleň aj.),0.00,0.0
+Vojkovice,2017,ucel,"Vodovod a kanalizace (2310, 2321)",0.00,0.0
+Vojkovice,2017,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2017,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2017,ucel,"Bezpečnost, hasiči, krizové řízení",31364.88,47.3
+Vojkovice,2017,ucel,Zdravotnictví a sociální věci,2890.00,4.4
+Vojkovice,2017,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",55092.80,83.1
+Vojkovice,2017,druh,Investice (třída 6),1843889.16,2781.1
+Vojkovice,2017,druh,Opravy a udržování (5171),397218.40,599.1
+Vojkovice,2017,druh,Služby (516x),680115.47,1025.8
+Vojkovice,2017,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",484829.40,731.3
+Vojkovice,2017,druh,"Platy, dohody a pojistné (50xx bez 5023)",1158570.00,1747.5
+Vojkovice,2017,druh,Odměny zastupitelů (5023),694555.00,1047.6
+Vojkovice,2017,druh,Materiál a drobný majetek (513x),157671.20,237.8
+Vojkovice,2017,druh,"Energie, voda, teplo (515x)",230225.50,347.2
+Vojkovice,2017,druh,Ostatní běžné výdaje,36606.00,55.2
+Vojkovice,2018,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2732677.52,4012.7
+Vojkovice,2018,ucel,"Doprava (silnice, chodníky, BUS)",941841.83,1383.0
+Vojkovice,2018,ucel,Školství,15034.00,22.1
+Vojkovice,2018,ucel,"Kultura, sport, spolky",678283.40,996.0
+Vojkovice,2018,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",234445.08,344.3
+Vojkovice,2018,ucel,Odpady,360233.00,529.0
+Vojkovice,2018,ucel,Životní prostředí ostatní (zeleň aj.),0.00,0.0
+Vojkovice,2018,ucel,"Vodovod a kanalizace (2310, 2321)",0.00,0.0
+Vojkovice,2018,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2018,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2018,ucel,"Bezpečnost, hasiči, krizové řízení",45758.89,67.2
+Vojkovice,2018,ucel,Zdravotnictví a sociální věci,45000.00,66.1
+Vojkovice,2018,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",61516.80,90.3
+Vojkovice,2018,druh,Investice (třída 6),682567.00,1002.3
+Vojkovice,2018,druh,Opravy a udržování (5171),267682.00,393.1
+Vojkovice,2018,druh,Služby (516x),744864.55,1093.8
+Vojkovice,2018,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",593864.77,872.0
+Vojkovice,2018,druh,"Platy, dohody a pojistné (50xx bez 5023)",1681079.00,2468.5
+Vojkovice,2018,druh,Odměny zastupitelů (5023),721746.00,1059.8
+Vojkovice,2018,druh,Materiál a drobný majetek (513x),108840.98,159.8
+Vojkovice,2018,druh,"Energie, voda, teplo (515x)",222275.99,326.4
+Vojkovice,2018,druh,Ostatní běžné výdaje,91870.23,134.9
+Vojkovice,2019,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2567388.61,3560.9
+Vojkovice,2019,ucel,"Doprava (silnice, chodníky, BUS)",578602.37,802.5
+Vojkovice,2019,ucel,Školství,294350.25,408.3
+Vojkovice,2019,ucel,"Kultura, sport, spolky",775523.55,1075.6
+Vojkovice,2019,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",554353.03,768.9
+Vojkovice,2019,ucel,Odpady,373423.65,517.9
+Vojkovice,2019,ucel,Životní prostředí ostatní (zeleň aj.),0.00,0.0
+Vojkovice,2019,ucel,"Vodovod a kanalizace (2310, 2321)",0.00,0.0
+Vojkovice,2019,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2019,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2019,ucel,"Bezpečnost, hasiči, krizové řízení",15425.88,21.4
+Vojkovice,2019,ucel,Zdravotnictví a sociální věci,5000.00,6.9
+Vojkovice,2019,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",99069.50,137.4
+Vojkovice,2019,druh,Investice (třída 6),472334.00,655.1
+Vojkovice,2019,druh,Opravy a udržování (5171),329090.72,456.4
+Vojkovice,2019,druh,Služby (516x),932932.93,1293.9
+Vojkovice,2019,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",605450.28,839.7
+Vojkovice,2019,druh,"Platy, dohody a pojistné (50xx bez 5023)",1404634.00,1948.2
+Vojkovice,2019,druh,Odměny zastupitelů (5023),797311.00,1105.8
+Vojkovice,2019,druh,Materiál a drobný majetek (513x),407167.33,564.7
+Vojkovice,2019,druh,"Energie, voda, teplo (515x)",184568.22,256.0
+Vojkovice,2019,druh,Ostatní běžné výdaje,129648.36,179.8
+Vojkovice,2020,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2991133.72,4014.9
+Vojkovice,2020,ucel,"Doprava (silnice, chodníky, BUS)",1526491.28,2049.0
+Vojkovice,2020,ucel,Školství,71957.40,96.6
+Vojkovice,2020,ucel,"Kultura, sport, spolky",2148918.56,2884.5
+Vojkovice,2020,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",702459.88,942.9
+Vojkovice,2020,ucel,Odpady,489930.86,657.6
+Vojkovice,2020,ucel,Životní prostředí ostatní (zeleň aj.),2200000.00,2953.0
+Vojkovice,2020,ucel,"Vodovod a kanalizace (2310, 2321)",100000.00,134.2
+Vojkovice,2020,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2020,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2020,ucel,"Bezpečnost, hasiči, krizové řízení",51339.88,68.9
+Vojkovice,2020,ucel,Zdravotnictví a sociální věci,0.00,0.0
+Vojkovice,2020,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",82405.63,110.6
+Vojkovice,2020,druh,Investice (třída 6),5104729.73,6852.0
+Vojkovice,2020,druh,Opravy a udržování (5171),618632.76,830.4
+Vojkovice,2020,druh,Služby (516x),847191.44,1137.2
+Vojkovice,2020,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",577164.07,774.7
+Vojkovice,2020,druh,"Platy, dohody a pojistné (50xx bez 5023)",1578649.00,2119.0
+Vojkovice,2020,druh,Odměny zastupitelů (5023),884160.00,1186.8
+Vojkovice,2020,druh,Materiál a drobný majetek (513x),358650.24,481.4
+Vojkovice,2020,druh,"Energie, voda, teplo (515x)",233771.62,313.8
+Vojkovice,2020,druh,Ostatní běžné výdaje,161688.35,217.0
+Vojkovice,2021,ucel,"Správa obce (úřad, zastupitelstvo, volby)",2999010.99,3940.9
+Vojkovice,2021,ucel,"Doprava (silnice, chodníky, BUS)",2078507.25,2731.3
+Vojkovice,2021,ucel,Školství,63634.00,83.6
+Vojkovice,2021,ucel,"Kultura, sport, spolky",1218366.33,1601.0
+Vojkovice,2021,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",7771958.49,10212.8
+Vojkovice,2021,ucel,Odpady,528489.20,694.5
+Vojkovice,2021,ucel,Životní prostředí ostatní (zeleň aj.),440000.00,578.2
+Vojkovice,2021,ucel,"Vodovod a kanalizace (2310, 2321)",250000.00,328.5
+Vojkovice,2021,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2021,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2021,ucel,"Bezpečnost, hasiči, krizové řízení",24579.88,32.3
+Vojkovice,2021,ucel,Zdravotnictví a sociální věci,40000.00,52.6
+Vojkovice,2021,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",87622.80,115.1
+Vojkovice,2021,druh,Investice (třída 6),9865457.23,12963.8
+Vojkovice,2021,druh,Opravy a udržování (5171),353491.27,464.5
+Vojkovice,2021,druh,Služby (516x),1501048.89,1972.5
+Vojkovice,2021,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",646799.80,849.9
+Vojkovice,2021,druh,"Platy, dohody a pojistné (50xx bez 5023)",1613958.12,2120.8
+Vojkovice,2021,druh,Odměny zastupitelů (5023),878215.00,1154.0
+Vojkovice,2021,druh,Materiál a drobný majetek (513x),239116.60,314.2
+Vojkovice,2021,druh,"Energie, voda, teplo (515x)",250920.03,329.7
+Vojkovice,2021,druh,Ostatní běžné výdaje,153162.00,201.3
+Vojkovice,2022,ucel,"Správa obce (úřad, zastupitelstvo, volby)",4273385.36,5593.4
+Vojkovice,2022,ucel,"Doprava (silnice, chodníky, BUS)",8868110.79,11607.5
+Vojkovice,2022,ucel,Školství,196463.20,257.2
+Vojkovice,2022,ucel,"Kultura, sport, spolky",864774.70,1131.9
+Vojkovice,2022,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",7861637.70,10290.1
+Vojkovice,2022,ucel,Odpady,953459.97,1248.0
+Vojkovice,2022,ucel,Životní prostředí ostatní (zeleň aj.),0.00,0.0
+Vojkovice,2022,ucel,"Vodovod a kanalizace (2310, 2321)",300000.00,392.7
+Vojkovice,2022,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2022,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2022,ucel,"Bezpečnost, hasiči, krizové řízení",210718.25,275.8
+Vojkovice,2022,ucel,Zdravotnictví a sociální věci,37500.00,49.1
+Vojkovice,2022,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",2640349.30,3456.0
+Vojkovice,2022,druh,Investice (třída 6),15402854.89,20160.8
+Vojkovice,2022,druh,Opravy a udržování (5171),877999.19,1149.2
+Vojkovice,2022,druh,Služby (516x),1627994.36,2130.9
+Vojkovice,2022,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",3401881.51,4452.7
+Vojkovice,2022,druh,"Platy, dohody a pojistné (50xx bez 5023)",2180178.00,2853.6
+Vojkovice,2022,druh,Odměny zastupitelů (5023),990222.00,1296.1
+Vojkovice,2022,druh,Materiál a drobný majetek (513x),1003711.42,1313.8
+Vojkovice,2022,druh,"Energie, voda, teplo (515x)",476434.70,623.6
+Vojkovice,2022,druh,Ostatní běžné výdaje,245123.20,320.8
+Vojkovice,2023,ucel,"Správa obce (úřad, zastupitelstvo, volby)",4534051.23,5805.4
+Vojkovice,2023,ucel,"Doprava (silnice, chodníky, BUS)",758761.69,971.5
+Vojkovice,2023,ucel,Školství,252892.50,323.8
+Vojkovice,2023,ucel,"Kultura, sport, spolky",910328.82,1165.6
+Vojkovice,2023,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",1063495.76,1361.7
+Vojkovice,2023,ucel,Odpady,2512838.13,3217.5
+Vojkovice,2023,ucel,Životní prostředí ostatní (zeleň aj.),2786.00,3.6
+Vojkovice,2023,ucel,"Vodovod a kanalizace (2310, 2321)",500000.00,640.2
+Vojkovice,2023,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2023,ucel,"Cestovní ruch, obchod, služby (21xx)",0.00,0.0
+Vojkovice,2023,ucel,"Bezpečnost, hasiči, krizové řízení",168784.11,216.1
+Vojkovice,2023,ucel,Zdravotnictví a sociální věci,25000.00,32.0
+Vojkovice,2023,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",102293.90,131.0
+Vojkovice,2023,druh,Investice (třída 6),2141071.95,2741.4
+Vojkovice,2023,druh,Opravy a udržování (5171),550350.34,704.7
+Vojkovice,2023,druh,Služby (516x),1699995.22,2176.7
+Vojkovice,2023,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",825164.36,1056.5
+Vojkovice,2023,druh,"Platy, dohody a pojistné (50xx bez 5023)",2499726.80,3200.7
+Vojkovice,2023,druh,Odměny zastupitelů (5023),978632.00,1253.0
+Vojkovice,2023,druh,Materiál a drobný majetek (513x),1570178.68,2010.5
+Vojkovice,2023,druh,"Energie, voda, teplo (515x)",442030.43,566.0
+Vojkovice,2023,druh,Ostatní běžné výdaje,124082.36,158.9
+Vojkovice,2024,ucel,"Správa obce (úřad, zastupitelstvo, volby)",6126089.95,7764.4
+Vojkovice,2024,ucel,"Doprava (silnice, chodníky, BUS)",2392146.43,3031.9
+Vojkovice,2024,ucel,Školství,434017.50,550.1
+Vojkovice,2024,ucel,"Kultura, sport, spolky",953381.64,1208.3
+Vojkovice,2024,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",11637954.45,14750.3
+Vojkovice,2024,ucel,Odpady,1017201.77,1289.2
+Vojkovice,2024,ucel,Životní prostředí ostatní (zeleň aj.),29985.26,38.0
+Vojkovice,2024,ucel,"Vodovod a kanalizace (2310, 2321)",300000.00,380.2
+Vojkovice,2024,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2024,ucel,"Cestovní ruch, obchod, služby (21xx)",100.00,0.1
+Vojkovice,2024,ucel,"Bezpečnost, hasiči, krizové řízení",1022551.22,1296.0
+Vojkovice,2024,ucel,Zdravotnictví a sociální věci,105834.00,134.1
+Vojkovice,2024,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",105650.60,133.9
+Vojkovice,2024,druh,Investice (třída 6),13986192.64,17726.5
+Vojkovice,2024,druh,Opravy a udržování (5171),1639409.87,2077.8
+Vojkovice,2024,druh,Služby (516x),2386745.33,3025.0
+Vojkovice,2024,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",963190.52,1220.8
+Vojkovice,2024,druh,"Platy, dohody a pojistné (50xx bez 5023)",2843404.00,3603.8
+Vojkovice,2024,druh,Odměny zastupitelů (5023),1071253.00,1357.7
+Vojkovice,2024,druh,Materiál a drobný majetek (513x),602944.97,764.2
+Vojkovice,2024,druh,"Energie, voda, teplo (515x)",420968.40,533.5
+Vojkovice,2024,druh,Ostatní běžné výdaje,210804.09,267.2
+Vojkovice,2025,ucel,"Správa obce (úřad, zastupitelstvo, volby)",5378191.55,6714.3
+Vojkovice,2025,ucel,"Doprava (silnice, chodníky, BUS)",8272569.20,10327.8
+Vojkovice,2025,ucel,Školství,1418152.72,1770.5
+Vojkovice,2025,ucel,"Kultura, sport, spolky",949916.90,1185.9
+Vojkovice,2025,ucel,"Bydlení, VO, hřbitov, komunální služby, ÚP",1373334.31,1714.5
+Vojkovice,2025,ucel,Odpady,1039198.54,1297.4
+Vojkovice,2025,ucel,Životní prostředí ostatní (zeleň aj.),160233.62,200.0
+Vojkovice,2025,ucel,"Vodovod a kanalizace (2310, 2321)",167150.00,208.7
+Vojkovice,2025,ucel,"Ostatní vodní hospodářství (toky, nádrže)",0.00,0.0
+Vojkovice,2025,ucel,"Cestovní ruch, obchod, služby (21xx)",320500.00,400.1
+Vojkovice,2025,ucel,"Bezpečnost, hasiči, krizové řízení",477290.12,595.9
+Vojkovice,2025,ucel,Zdravotnictví a sociální věci,110976.00,138.5
+Vojkovice,2025,ucel,"Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.)",83434.40,104.2
+Vojkovice,2025,druh,Investice (třída 6),9994417.21,12477.4
+Vojkovice,2025,druh,Opravy a udržování (5171),653712.23,816.1
+Vojkovice,2025,druh,Služby (516x),2568158.07,3206.2
+Vojkovice,2025,druh,"Transfery: příspěvky, dotace, dary (52xx–54xx)",914550.00,1141.8
+Vojkovice,2025,druh,"Platy, dohody a pojistné (50xx bez 5023)",3090147.65,3857.9
+Vojkovice,2025,druh,Odměny zastupitelů (5023),1252330.00,1563.5
+Vojkovice,2025,druh,Materiál a drobný majetek (513x),525255.20,655.7
+Vojkovice,2025,druh,"Energie, voda, teplo (515x)",542078.20,676.8
+Vojkovice,2025,druh,Ostatní běžné výdaje,210298.80,262.5

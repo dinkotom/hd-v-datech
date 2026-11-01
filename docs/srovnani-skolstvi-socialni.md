@@ -4,6 +4,8 @@ Zdroj: https://hd-v-datech.cz/srovnani-skolstvi-socialni.html (aktualizováno 20
 
 > Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a sousedních obcích.
 
+> Sousední obec Vojkovice byla do srovnání přidána 1. 11. 2026. Na této stránce zatím není; údaje se doplňují. Finance, obyvatelstvo, plochy, zástavba, daň z nemovitostí a vybavenost Vojkovic jsou už na ostatních stránkách srovnání.
+
 Stránka porovnává Horní Domaslavice (HD, kód obce 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399), všemi v okrese Frýdek-Místek. Sleduje školy a školské obvody, nezaměstnanost, exekuce, kriminalitu, kvalitu ovzduší a zdravotní a sociální služby. Postup a zdroje odpovídají stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html), aby byla čísla srovnatelná. Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv ČŠI, Sbírky právních předpisů, ČSÚ, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb. Zpracováno 30. 10. 2026; není-li uvedeno jinak, platí u odkazů toto datum přístupu.
 
 ## Shrnutí

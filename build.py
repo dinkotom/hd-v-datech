@@ -63,10 +63,11 @@ NAV = [
         ('srovnani-zastavba', 'Roztříštěnost zástavby'),
         ('srovnani-dan-nemovitosti', 'Daň z nemovitostí'),
         ('srovnani-vybavenost', 'Občanská vybavenost'),
+        ('srovnani-podobne-obce', 'Podobné obce v Česku'),
     ]),
 ]
 
-OBCE = [('HD', 'Horní Domaslavice'), ('PA', 'Pazderna'), ('DD', 'Dolní Domaslavice'), ('LU', 'Lučina')]
+OBCE = [('HD', 'Horní Domaslavice'), ('PA', 'Pazderna'), ('DD', 'Dolní Domaslavice'), ('LU', 'Lučina'), ('VOJ', 'Vojkovice')]
 
 
 # ---------- helpers ----------
@@ -292,7 +293,7 @@ def chart_line(title, sub, xs, ys, unit, dec=0, label_every=5):
 
 def build_index():
     per = {}
-    for r in read_csv('souhrn_po_obdobich_4obce.csv'):
+    for r in read_csv('souhrn_po_obdobich_sousede.csv'):
         if r['roky'] == '2023–2025':
             per[(r['obec'], r['ukazatel'])] = float(r['kc_na_obyv_a_rok'] or 0)
     names = [n for _, n in OBCE]
@@ -300,12 +301,12 @@ def build_index():
     years = [r['rok'] for r in hd]
     cash = [float(r['penize_231_244_245']) / 1e6 for r in hd]
     io = [float(r['io']) / 1e6 for r in hd]
-    pop = [r for r in read_csv('souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv') if r['uzemi'] == 'HD']
+    pop = [r for r in read_csv('souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv') if r['uzemi'] == 'HD']
 
     tiles = f'''<div class="tiles">
 <div class="tile"><div class="v">{num(int(pop[-1]["obyvatel_31_12"]))}</div><div class="l">obyvatel ke konci roku 2025, téměř dvakrát víc než v roce 2000 ({pop[0]["obyvatel_31_12"]})</div></div>
 <div class="tile"><div class="v">{num(cash[-1], 1)} mil. Kč</div><div class="l">na účtech obce ke konci roku 2025</div></div>
-<div class="tile"><div class="v">{num(per[("Horní Domaslavice", "io")])} Kč</div><div class="l">na investice a opravy na obyvatele a rok (2023–2025); sousední obce 18–31 tis. Kč</div></div>
+<div class="tile"><div class="v">{num(per[("Horní Domaslavice", "io")])} Kč</div><div class="l">na investice a opravy na obyvatele a rok (2023–2025); sousední obce 12–31 tis. Kč</div></div>
 <div class="tile"><div class="v">0 Kč</div><div class="l">investičních dotací v letech 2023–2025</div></div>
 </div>'''
 
@@ -338,11 +339,11 @@ def build_index():
 
     body = f'''{tiles}
 <div class="note">Tento web je soukromá občanská iniciativa. Shromažďuje veřejně dostupná data o obci Horní Domaslavice
-a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice a Lučina. Nehodnotí osoby, ukazuje čísla a jejich zdroje.
+a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina a Vojkovice i s podobnými obcemi odjinud. Nehodnotí osoby, ukazuje čísla a jejich zdroje.
 Všechna data lze stáhnout a ověřit. Na data se můžete <a href="zeptejte-se-ai.html">zeptat i svého AI asistenta</a>.</div>
 <h2>Hlavní zjištění</h2>
-<p>Horní Domaslavice jsou ze čtyř sousedních obcí nejrychleji rostoucí. Daňové příjmy na obyvatele mají srovnatelné se sousedy,
-do investic a oprav ale dávají na obyvatele třikrát až pětkrát méně a mají nejvíc peněz na účtech.
+<p>Horní Domaslavice jsou ze sousedních obcí nejrychleji rostoucí. Daňové příjmy na obyvatele mají srovnatelné se sousedy,
+do investic a oprav ale dávají na obyvatele dvakrát až pětkrát méně a mají nejvíc peněz na účtech.
 Podrobnosti a výhrady ke srovnatelnosti jsou v <a href="srovnani-souhrn.html">souhrnu srovnání</a>.</p>
 {c_io}
 {c_tax}
@@ -362,14 +363,14 @@ DATA_DESC = {
     'finance_PAZ_2010-2025.csv': 'Pazderna: totéž.',
     'finance_DD_2010-2025.csv': 'Dolní Domaslavice: totéž.',
     'finance_LUC_2010-2025.csv': 'Lučina: totéž.',
-    'souhrn_po_obdobich_4obce.csv': 'Souhrny ukazatelů za volební období, celkem a na obyvatele a rok (4 obce).',
-    'ukazatele_4obce_2010-2025.csv': 'Ukazatele po letech v dlouhém formátu (4 obce).',
-    'investice_opravy_podle_paragrafu_4obce.csv': 'Investice a opravy podle účelu výdaje (paragrafu rozpočtové skladby).',
+    'souhrn_po_obdobich_sousede.csv': 'Souhrny ukazatelů za volební období, celkem a na obyvatele a rok (HD a sousední obce).',
+    'ukazatele_sousede_2010-2025.csv': 'Ukazatele po letech v dlouhém formátu (HD a sousední obce).',
+    'investice_opravy_podle_paragrafu_sousede.csv': 'Investice a opravy podle účelu výdaje (paragrafu rozpočtové skladby).',
     'ukazatele_rozvaha_vzz_4_obce.csv': 'Rozvaha a výkaz zisku a ztráty: majetek, peníze, úvěry, odpisy (4 obce, 2010–2025).',
-    'souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv': 'Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (4 obce, okres, ČR; ČSÚ).',
-    'RUIAN_souhrn_4obce_stav_20260930.csv': 'Budovy, byty a napojení na vodovod, kanalizaci a plyn podle RÚIAN (stav 30. 9. 2026).',
-    'CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv': 'Výměry druhů pozemků po katastrálních územích, 2004, 2014 a 2026 (ČÚZK).',
-    'roztrisenost_4obce.csv': 'Ukazatele roztříštěnosti zástavby (skupiny domů, vzdálenosti, délka propojení).',
+    'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv': 'Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (HD a sousední obce, okres, ČR; ČSÚ).',
+    'RUIAN_souhrn_sousede_stav_20260930.csv': 'Budovy, byty a napojení na vodovod, kanalizaci a plyn podle RÚIAN (stav 30. 9. 2026).',
+    'CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv': 'Výměry druhů pozemků po katastrálních územích, 2004, 2014 a 2026 (ČÚZK).',
+    'roztrisenost_sousede.csv': 'Ukazatele roztříštěnosti zástavby (skupiny domů, vzdálenosti, délka propojení).',
     'usneseni_zo_2022-2026.csv': 'Usnesení zastupitelstva 2022–2026 (a dojezd 2018–2022): číslo, datum, znění bez jmen osob, typ, výsledek, hlasy, téma, částka.',
     'rozpocet_2026_srovnani_k_30_9.csv': 'Rozpočet 2026: plnění příjmů a čerpání výdajů k 30. 9. proti stejnému období 2023–2025.',
     'rozpocet_2026_vydaje_podle_ucelu.csv': 'Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30. 9.',
@@ -378,6 +379,15 @@ DATA_DESC = {
     'rozpocet_2026_rozpoctova_opatreni.csv': 'Rozpočtová opatření 2026.',
     'rozpocet_2026_stav_uctu.csv': 'Peníze na účtech obce po čtvrtletích 2023–2026.',
     'rozpocet_2026_strednedoby_vyhled.csv': 'Střednědobý výhled rozpočtu 2025–2028.',
+    'finance_VOJ_2010-2025.csv': 'Vojkovice (okres Frýdek-Místek, sousední obec): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
+    'finance_PL_2010-2025.csv': 'Písková Lhota (okres Mladá Boleslav): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
+    'finance_REB_2010-2025.csv': 'Rebešovice (okres Brno-venkov): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
+    'finance_ZAV_2010-2025.csv': 'Závišice (okres Nový Jičín): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
+    'podobne_obce_vyber.csv': 'Výběr podobných obcí: 232 obcí ČR s parametry obyvatel, rozlohy a zástavby a indexem odlišnosti od HD.',
+    'podobne_obce_souhrn_po_obdobich.csv': 'Souhrny ukazatelů po volebních obdobích pro HD, Pískovou Lhotu, Rebešovice a Závišice.',
+    'podobne_obce_investice_podle_ucelu_2016-2025.csv': 'Investice a opravy 2016–2025 podle účelu: HD, Písková Lhota, Rebešovice, Závišice.',
+    'podobne_obce_investice_podle_paragrafu.csv': 'Investice a opravy Pískové Lhoty, Rebešovic a Závišic podle paragrafu a roku.',
+    'podobne_obce_obyvatele_2000-2025.csv': 'Počet obyvatel HD, Pískové Lhoty, Rebešovic a Závišic 2000–2025.',
 }
 
 
@@ -464,7 +474,7 @@ def build_md_pages():
 # Shared by llms.txt and the "Zeptejte se AI" page, so agents and people read the same rules.
 AI_RULES = [
     'Web je neoficiální občanský přehled veřejných dat, ne stránka obce. Oficiální web obce je https://www.horni-domaslavice.cz/.',
-    'Částky jsou v Kč v běžných cenách (bez očištění o inflaci). „Na obyvatele“ = děleno počtem obyvatel k 1. 7. daného roku (ČSÚ).',
+    'Částky jsou v Kč v běžných cenách (bez očištění o inflaci). „Na obyvatele“ = toky (příjmy, výdaje) děleno počtem obyvatel k 1. 7., stavy (peníze na účtech, úvěry) počtem k 31. 12. daného roku (ČSÚ).',
     'Roční finanční data končí rokem 2025; za rok 2026 je jen průběžný stav k 30. 9. (stránka Rozpočet 2026).',
     'Výdaje jsou bez převodů mezi vlastními účty (§ 6330) a bez daně z příjmů za obec (§ 6399); příjmy bez převodů z vlastních fondů (413x). '
     'Proto se mohou mírně lišit od závěrečného účtu obce.',
@@ -539,7 +549,7 @@ def slovnik_md():
                 continue
             lines.append(f'| `{c}` | {desc.replace("|", "/")} |')
         if per_capita:
-            lines.append(f'| `*_na_obyv` ({len(per_capita)} sloupců) | Stejnojmenný sloupec bez přípony vydělený `obyv_1_7`. Kč na obyvatele. |')
+            lines.append(f'| `*_na_obyv` ({len(per_capita)} sloupců) | Stejnojmenný sloupec bez přípony na obyvatele: toky děleno `obyv_1_7`, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno `obyv_31_12`. Kč. |')
         lines.append('')
     return '\n'.join(lines), warnings
 
@@ -569,7 +579,7 @@ def build_llms(slugs):
         desc[s] = meta.get('description', '')
     lines = [f'# {SITE}', '',
              '> Neoficiální občanský přehled veřejných dat o obci Horní Domaslavice (okres Frýdek-Místek) a srovnání se sousedními '
-             'obcemi Pazderna, Dolní Domaslavice a Lučina: obyvatelstvo, rozpočet a hospodaření 2010–2026, investice, dotace, '
+             'obcemi Pazderna, Dolní Domaslavice, Lučina a Vojkovice a s podobnými obcemi jinde v ČR: obyvatelstvo, rozpočet a hospodaření 2010–2026, investice, dotace, '
              'majetek, zakázky, usnesení zastupitelstva, výstavba, pozemky a občanská vybavenost. Zdroje: Ministerstvo financí '
              '(Monitor státní pokladny), ČSÚ, ČÚZK, volby.cz, registr smluv, dokumenty obce.', '',
              f'Autor: Tomáš Dinkov. Aktualizováno {UPDATED}. Chyby lze hlásit na {REPO_URL}/issues.', '',

@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Podobné obce v Česku – Horní Domaslavice v datech</title>
+<meta name="description" content="Horní Domaslavice vedle tří obcí z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Písková Lhota (okres Mladá Boleslav), Rebešovice (Brno-venkov) a Závišice (Nový Jičín).">
+<link rel="stylesheet" href="static/style.css">
+<link rel="alternate" type="text/markdown" href="srovnani-podobne-obce.md">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-rozpocet-2026.html">Rozpočet 2026</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+<li><a href="hd-usneseni.html">Usnesení zastupitelstva</a></li>
+<li><a href="mapa.html">Mapa obce</a></li>
+</ul></details>
+<details open><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
+<li><a href="srovnani-podobne-obce.html" aria-current="page">Podobné obce v Česku</a></li>
+</ul></details>
+<a class="top-link" href="zeptejte-se-ai.html">Zeptejte se AI</a>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Podobné obce v Česku</h1>
+
+<p class="meta">Aktualizováno 1. 11. 2026</p><p>Sousední obce jsou pro srovnání přirozené, ale každá je jiná: Pazderna je třikrát menší, Dolní Domaslavice a Lučina zřizují základní školu a Lučina má výdaje spojené s nádrží Žermanice. Tato stránka proto hledá obce, které se Horním Domaslavicím (HD) podobají v základních parametrech, a to v celé České republice mimo okolí HD.</p>
+<p>Ze všech 6 233 obcí, u kterých jsou k dispozici údaje o obyvatelích i rozloze, byly vybrány tři:</p>
+<ul>
+<li><strong>Písková Lhota</strong> (okres Mladá Boleslav) je HD <strong>demograficky téměř dvojče</strong>: v roce 2000 měla 549 obyvatel (HD 564), v roce 2025 1 111 (HD 1 109), rozlohu 4,7 km² (HD 5,1 km²).</li>
+<li><strong>Rebešovice</strong> (okres Brno-venkov) mají stejný počet obyvatel (1 106) a ještě rychlejší růst (+120 % od roku 2000) na menší rozloze 4,1 km².</li>
+<li><strong>Závišice</strong> (okres Nový Jičín) jsou venkovská obec v podhůří Beskyd ve stejném kraji jako HD, s 1 156 obyvateli a stejně jako HD bez splaškové kanalizace. Rostou pomaleji (+56 %), mají větší rozlohu 6,3 km² a na rozdíl od HD zřizují malotřídní základní školu (1.–5. ročník).</li>
+</ul>
+<p>Všechny tři mají souvislejší zástavbu než HD. Obce s podobně rozptýlenou zástavbou jsou téměř jen v okolí HD; nejbližší z nich, Vojkovice, s HD sousedí, a jsou proto zařazené mezi <a href="srovnani-souhrn.html">sousední obce</a>.</p>
+<h2 id="jak-byly-obce-vybrány">Jak byly obce vybrány</h2>
+<ol type="1">
+<li><strong>Velikost, růst a rozloha.</strong> Ze všech obcí ČR byly vybrány ty, které měly v roce 2025 přibližně 650–1 800 obyvatel, od roku 2000 vzrostly alespoň o 35 % a mají rozlohu 3–11 km². Takových obcí je 231.</li>
+<li><strong>Zástavba.</strong> U všech 231 obcí byla z polohy budov v RÚIAN spočítána roztříštěnost zástavby stejnou metodou jako na stránce <a href="srovnani-zastavba.html">Roztříštěnost zástavby</a>.</li>
+<li><strong>Pořadí.</strong> Obce byly seřazeny podle toho, jak moc se od HD liší v šesti ukazatelích zároveň: počet obyvatel, růst od roku 2000, rozloha, podíl domů v největší souvislé části obce, vzdálenost domů od středu zástavby a délka propojení na dům.</li>
+<li><strong>Výběr.</strong> Z prvních obcí v pořadí byly vynechány obce z okolí HD (okres Frýdek-Místek) a obce v zázemí Prahy, kde blízkost hlavního města výrazně ovlivňuje ceny nemovitostí a příjmy obyvatel. Ze zbylých byly vybrány tři obce z různých krajů.</li>
+</ol>
+<p>Celé pořadí 232 obcí včetně HD je v souboru <a href="data/podobne_obce_vyber.csv">podobne_obce_vyber.csv</a>.</p>
+<p>Hlavní zjištění výběru: <strong>obce podobné velikosti a růstu jsou téměř vždy kompaktní.</strong> Typicky jde o příměstské obce u Prahy, Brna nebo Plzně, kde má jedna souvislá část obce 80–100 % domů. V HD je to 43 %. Podobně rozptýlená zástavba je typická pro podhůří Beskyd; nejblíž HD vyšly Horní Tošanovice a Vojkovice, obě z okresu Frýdek-Místek.</p>
+<h2 id="základní-parametry">Základní parametry</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Okres</td>
+<td style="text-align: right;">Frýdek-Místek</td>
+<td style="text-align: right;">Mladá Boleslav</td>
+<td style="text-align: right;">Brno-venkov</td>
+<td style="text-align: right;">Nový Jičín</td>
+</tr>
+<tr>
+<td>Obyvatel 2000</td>
+<td style="text-align: right;">564</td>
+<td style="text-align: right;">549</td>
+<td style="text-align: right;">502</td>
+<td style="text-align: right;">740</td>
+</tr>
+<tr>
+<td>Obyvatel 2025</td>
+<td style="text-align: right;"><strong>1 109</strong></td>
+<td style="text-align: right;">1 111</td>
+<td style="text-align: right;">1 106</td>
+<td style="text-align: right;">1 156</td>
+</tr>
+<tr>
+<td>Růst 2000–2025</td>
+<td style="text-align: right;"><strong>+97 %</strong></td>
+<td style="text-align: right;">+102 %</td>
+<td style="text-align: right;">+120 %</td>
+<td style="text-align: right;">+56 %</td>
+</tr>
+<tr>
+<td>Rozloha</td>
+<td style="text-align: right;">5,1 km²</td>
+<td style="text-align: right;">4,7 km²</td>
+<td style="text-align: right;">4,1 km²</td>
+<td style="text-align: right;">6,3 km²</td>
+</tr>
+<tr>
+<td>Hustota</td>
+<td style="text-align: right;">219 obyv./km²</td>
+<td style="text-align: right;">238 obyv./km²</td>
+<td style="text-align: right;">269 obyv./km²</td>
+<td style="text-align: right;">183 obyv./km²</td>
+</tr>
+<tr>
+<td>Orná půda / les</td>
+<td style="text-align: right;">55 % / 12 %</td>
+<td style="text-align: right;">38 % / 26 %</td>
+<td style="text-align: right;">78 % / 6 %</td>
+<td style="text-align: right;">52 % / 16 %</td>
+</tr>
+<tr>
+<td>Domy k bydlení (RÚIAN)</td>
+<td style="text-align: right;">408</td>
+<td style="text-align: right;">393</td>
+<td style="text-align: right;">364</td>
+<td style="text-align: right;">381</td>
+</tr>
+<tr>
+<td>z toho dokončené po roce 2000</td>
+<td style="text-align: right;">60 %</td>
+<td style="text-align: right;">57 %</td>
+<td style="text-align: right;">72 %</td>
+<td style="text-align: right;">46 %</td>
+</tr>
+<tr>
+<td>Největší souvislá část obce (mezera do 150 m)</td>
+<td style="text-align: right;"><strong>43 %</strong> domů</td>
+<td style="text-align: right;">100 %</td>
+<td style="text-align: right;">100 %</td>
+<td style="text-align: right;">81 %</td>
+</tr>
+<tr>
+<td>Části s alespoň 5 domy</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>Polovina domů je od středu zástavby dál než</td>
+<td style="text-align: right;"><strong>1 219 m</strong></td>
+<td style="text-align: right;">382 m</td>
+<td style="text-align: right;">243 m</td>
+<td style="text-align: right;">490 m</td>
+</tr>
+<tr>
+<td>Nejkratší propojení všech domů na dům</td>
+<td style="text-align: right;"><strong>61 m</strong></td>
+<td style="text-align: right;">28 m</td>
+<td style="text-align: right;">19 m</td>
+<td style="text-align: right;">45 m</td>
+</tr>
+<tr>
+<td>Domy napojené na veřejnou kanalizaci (RÚIAN)</td>
+<td style="text-align: right;">0 %</td>
+<td style="text-align: right;">8 %</td>
+<td style="text-align: right;">90 %</td>
+<td style="text-align: right;">2 %</td>
+</tr>
+<tr>
+<td>Domy napojené na plyn (RÚIAN)</td>
+<td style="text-align: right;">15 %</td>
+<td style="text-align: right;">1 %</td>
+<td style="text-align: right;">91 %</td>
+<td style="text-align: right;">60 %</td>
+</tr>
+</tbody>
+</table>
+<figure class="chart"><h3>Počet obyvatel 2000–2025</h3><p class="sub">Stav ke 31. 12. Zdroj: ČSÚ.</p><div class="legend"><span class="lg"><i class="lg-line s1"></i>Horní Domaslavice</span><span class="lg"><i class="lg-line so"></i>ostatní obce</span></div><svg viewBox="0 0 640 270" role="img" aria-label="Počet obyvatel 2000–2025"><line class="grid" x1="50" y1="244.0" x2="512" y2="244.0"/><text x="44" y="248.0" text-anchor="end">0</text><line class="grid" x1="50" y1="198.0" x2="512" y2="198.0"/><text x="44" y="202.0" text-anchor="end">250</text><line class="grid" x1="50" y1="152.0" x2="512" y2="152.0"/><text x="44" y="156.0" text-anchor="end">500</text><line class="grid" x1="50" y1="106.0" x2="512" y2="106.0"/><text x="44" y="110.0" text-anchor="end">750</text><line class="grid" x1="50" y1="60.0" x2="512" y2="60.0"/><text x="44" y="64.0" text-anchor="end">1 000</text><line class="grid" x1="50" y1="14.0" x2="512" y2="14.0"/><text x="44" y="18.0" text-anchor="end">1 250</text><polyline class="line-other" points="50.0,143.0 68.5,142.8 87.0,139.1 105.4,137.3 123.9,137.1 142.4,134.2 160.9,127.9 179.4,110.8 197.8,110.2 216.3,103.6 234.8,106.4 253.3,116.5 271.8,113.2 290.2,115.4 308.7,110.6 327.2,105.4 345.7,103.2 364.2,98.5 382.6,79.9 401.1,69.9 419.6,57.6 438.1,43.4 456.6,41.6 475.0,43.3 493.5,38.1 512.0,39.6"/><polyline class="line-other" points="50.0,151.6 68.5,145.0 87.0,131.0 105.4,119.1 123.9,112.1 142.4,108.9 160.9,106.7 179.4,107.1 197.8,103.6 216.3,99.4 234.8,89.4 253.3,89.3 271.8,84.5 290.2,79.5 308.7,70.9 327.2,67.7 345.7,68.6 364.2,65.5 382.6,61.8 401.1,60.6 419.6,54.5 438.1,50.4 456.6,46.4 475.0,42.0 493.5,43.1 512.0,40.5"/><polyline class="line-other" points="50.0,107.8 68.5,107.3 87.0,103.4 105.4,104.9 123.9,107.1 142.4,102.1 160.9,98.5 179.4,92.9 197.8,88.3 216.3,82.8 234.8,81.3 253.3,71.6 271.8,67.2 290.2,65.0 308.7,61.3 327.2,57.2 345.7,56.3 364.2,51.5 382.6,48.6 401.1,45.5 419.6,44.5 438.1,45.8 456.6,39.9 475.0,36.1 493.5,30.4 512.0,31.3"/><polyline class="line" points="50.0,140.2 68.5,141.0 87.0,141.5 105.4,140.0 123.9,137.5 142.4,131.0 160.9,128.3 179.4,126.4 197.8,123.7 216.3,121.3 234.8,118.7 253.3,113.2 271.8,106.9 290.2,105.3 308.7,100.5 327.2,99.9 345.7,98.8 364.2,93.1 382.6,79.5 401.1,74.0 419.6,70.7 438.1,60.2 456.6,56.3 475.0,50.2 493.5,46.4 512.0,39.9"/><text class="" x="518.0" y="35.3">Závišice 1 156</text><text class="" x="518.0" y="49.3">Písk. Lhota 1 111</text><text class="val" x="518.0" y="63.3">HD 1 109</text><text class="" x="518.0" y="77.3">Rebešovice 1 106</text><circle class="s1" cx="512.0" cy="39.9" r="4"/><text x="50.0" y="262" text-anchor="middle">2000</text><rect class="hit" x="40.8" y="14" width="18.5" height="230" data-tip="2000: HD 564 · Písk. Lhota 549 · Rebešovice 502 · Závišice 740 obyvatel"/><rect class="hit" x="59.2" y="14" width="18.5" height="230" data-tip="2001: HD 560 · Písk. Lhota 550 · Rebešovice 538 · Závišice 743 obyvatel"/><rect class="hit" x="77.7" y="14" width="18.5" height="230" data-tip="2002: HD 557 · Písk. Lhota 570 · Rebešovice 614 · Závišice 764 obyvatel"/><rect class="hit" x="96.2" y="14" width="18.5" height="230" data-tip="2003: HD 565 · Písk. Lhota 580 · Rebešovice 679 · Závišice 756 obyvatel"/><rect class="hit" x="114.7" y="14" width="18.5" height="230" data-tip="2004: HD 579 · Písk. Lhota 581 · Rebešovice 717 · Závišice 744 obyvatel"/><text x="142.4" y="262" text-anchor="middle">2005</text><rect class="hit" x="133.2" y="14" width="18.5" height="230" data-tip="2005: HD 614 · Písk. Lhota 597 · Rebešovice 734 · Závišice 771 obyvatel"/><rect class="hit" x="151.6" y="14" width="18.5" height="230" data-tip="2006: HD 629 · Písk. Lhota 631 · Rebešovice 746 · Závišice 791 obyvatel"/><rect class="hit" x="170.1" y="14" width="18.5" height="230" data-tip="2007: HD 639 · Písk. Lhota 724 · Rebešovice 744 · Závišice 821 obyvatel"/><rect class="hit" x="188.6" y="14" width="18.5" height="230" data-tip="2008: HD 654 · Písk. Lhota 727 · Rebešovice 763 · Závišice 846 obyvatel"/><rect class="hit" x="207.1" y="14" width="18.5" height="230" data-tip="2009: HD 667 · Písk. Lhota 763 · Rebešovice 786 · Závišice 876 obyvatel"/><text x="234.8" y="262" text-anchor="middle">2010</text><rect class="hit" x="225.6" y="14" width="18.5" height="230" data-tip="2010: HD 681 · Písk. Lhota 748 · Rebešovice 840 · Závišice 884 obyvatel"/><rect class="hit" x="244.0" y="14" width="18.5" height="230" data-tip="2011: HD 711 · Písk. Lhota 693 · Rebešovice 841 · Závišice 937 obyvatel"/><rect class="hit" x="262.5" y="14" width="18.5" height="230" data-tip="2012: HD 745 · Písk. Lhota 711 · Rebešovice 867 · Závišice 961 obyvatel"/><rect class="hit" x="281.0" y="14" width="18.5" height="230" data-tip="2013: HD 754 · Písk. Lhota 699 · Rebešovice 894 · Závišice 973 obyvatel"/><rect class="hit" x="299.5" y="14" width="18.5" height="230" data-tip="2014: HD 780 · Písk. Lhota 725 · Rebešovice 941 · Závišice 993 obyvatel"/><text x="327.2" y="262" text-anchor="middle">2015</text><rect class="hit" x="318.0" y="14" width="18.5" height="230" data-tip="2015: HD 783 · Písk. Lhota 753 · Rebešovice 958 · Závišice 1 015 obyvatel"/><rect class="hit" x="336.4" y="14" width="18.5" height="230" data-tip="2016: HD 789 · Písk. Lhota 765 · Rebešovice 953 · Závišice 1 020 obyvatel"/><rect class="hit" x="354.9" y="14" width="18.5" height="230" data-tip="2017: HD 820 · Písk. Lhota 791 · Rebešovice 970 · Závišice 1 046 obyvatel"/><rect class="hit" x="373.4" y="14" width="18.5" height="230" data-tip="2018: HD 894 · Písk. Lhota 892 · Rebešovice 990 · Závišice 1 062 obyvatel"/><rect class="hit" x="391.9" y="14" width="18.5" height="230" data-tip="2019: HD 924 · Písk. Lhota 946 · Rebešovice 997 · Závišice 1 079 obyvatel"/><text x="419.6" y="262" text-anchor="middle">2020</text><rect class="hit" x="410.4" y="14" width="18.5" height="230" data-tip="2020: HD 942 · Písk. Lhota 1 013 · Rebešovice 1 030 · Závišice 1 084 obyvatel"/><rect class="hit" x="428.8" y="14" width="18.5" height="230" data-tip="2021: HD 999 · Písk. Lhota 1 090 · Rebešovice 1 052 · Závišice 1 077 obyvatel"/><rect class="hit" x="447.3" y="14" width="18.5" height="230" data-tip="2022: HD 1 020 · Písk. Lhota 1 100 · Rebešovice 1 074 · Závišice 1 109 obyvatel"/><rect class="hit" x="465.8" y="14" width="18.5" height="230" data-tip="2023: HD 1 053 · Písk. Lhota 1 091 · Rebešovice 1 098 · Závišice 1 130 obyvatel"/><rect class="hit" x="484.3" y="14" width="18.5" height="230" data-tip="2024: HD 1 074 · Písk. Lhota 1 119 · Rebešovice 1 092 · Závišice 1 161 obyvatel"/><text x="512.0" y="262" text-anchor="middle">2025</text><rect class="hit" x="502.8" y="14" width="18.5" height="230" data-tip="2025: HD 1 109 · Písk. Lhota 1 111 · Rebešovice 1 106 · Závišice 1 156 obyvatel"/><line class="axis" x1="50" y1="244.0" x2="512" y2="244.0"/></svg><details><summary>Zobrazit jako tabulku</summary><table><thead><tr><th>Rok</th><th>Horní Domaslavice</th><th>Písková Lhota</th><th>Rebešovice</th><th>Závišice</th></tr></thead><tbody><tr><td>2000</td><td>564</td><td>549</td><td>502</td><td>740</td></tr><tr><td>2001</td><td>560</td><td>550</td><td>538</td><td>743</td></tr><tr><td>2002</td><td>557</td><td>570</td><td>614</td><td>764</td></tr><tr><td>2003</td><td>565</td><td>580</td><td>679</td><td>756</td></tr><tr><td>2004</td><td>579</td><td>581</td><td>717</td><td>744</td></tr><tr><td>2005</td><td>614</td><td>597</td><td>734</td><td>771</td></tr><tr><td>2006</td><td>629</td><td>631</td><td>746</td><td>791</td></tr><tr><td>2007</td><td>639</td><td>724</td><td>744</td><td>821</td></tr><tr><td>2008</td><td>654</td><td>727</td><td>763</td><td>846</td></tr><tr><td>2009</td><td>667</td><td>763</td><td>786</td><td>876</td></tr><tr><td>2010</td><td>681</td><td>748</td><td>840</td><td>884</td></tr><tr><td>2011</td><td>711</td><td>693</td><td>841</td><td>937</td></tr><tr><td>2012</td><td>745</td><td>711</td><td>867</td><td>961</td></tr><tr><td>2013</td><td>754</td><td>699</td><td>894</td><td>973</td></tr><tr><td>2014</td><td>780</td><td>725</td><td>941</td><td>993</td></tr><tr><td>2015</td><td>783</td><td>753</td><td>958</td><td>1 015</td></tr><tr><td>2016</td><td>789</td><td>765</td><td>953</td><td>1 020</td></tr><tr><td>2017</td><td>820</td><td>791</td><td>970</td><td>1 046</td></tr><tr><td>2018</td><td>894</td><td>892</td><td>990</td><td>1 062</td></tr><tr><td>2019</td><td>924</td><td>946</td><td>997</td><td>1 079</td></tr><tr><td>2020</td><td>942</td><td>1 013</td><td>1 030</td><td>1 084</td></tr><tr><td>2021</td><td>999</td><td>1 090</td><td>1 052</td><td>1 077</td></tr><tr><td>2022</td><td>1 020</td><td>1 100</td><td>1 074</td><td>1 109</td></tr><tr><td>2023</td><td>1 053</td><td>1 091</td><td>1 098</td><td>1 130</td></tr><tr><td>2024</td><td>1 074</td><td>1 119</td><td>1 092</td><td>1 161</td></tr><tr><td>2025</td><td>1 109</td><td>1 111</td><td>1 106</td><td>1 156</td></tr></tbody></table></details></figure>
+
+<p>Horní Domaslavice, Písková Lhota a Rebešovice rostly podobně rychle, ale jinak v čase: Rebešovice nejvíc do roku 2015, Písková Lhota ve dvou vlnách (2005–2008 a 2017–2021), HD souvisleji a nejrychleji od roku 2016. Závišice rostou pomaleji a rovnoměrně.</p>
+<h2 id="peníze">Peníze</h2>
+<p>Daňové příjmy na obyvatele mají všechny čtyři obce podobné (18,3–20,2 tis. Kč na obyvatele a rok). Rozdíl je v tom, kolik z nich obce dávají do investic a oprav.</p>
+<figure class="chart"><h3>Investice a opravy na obyvatele a rok, 2023–2025</h3><p class="sub">Kč na obyvatele a rok; investice (třída 6) + opravy (položka 5171). Zdroj: Monitor státní pokladny MF.</p><svg viewBox="0 0 640 124" role="img" aria-label="Investice a opravy na obyvatele a rok, 2023–2025"><text x="200" y="17.0" text-anchor="end">Horní Domaslavice</text><rect class="s1" x="210" y="2" width="141.3" height="22" rx="3"/><text class="val" x="357.3" y="17.0">5 634</text><rect class="hit" x="0" y="-1" width="640" height="28" data-tip="Horní Domaslavice: 5 634 Kč na obyvatele a rok"/><text x="200" y="47.0" text-anchor="end">Písková Lhota</text><rect class="so" x="210" y="32" width="245.6" height="22" rx="3"/><text class="val" x="461.6" y="47.0">9 789</text><rect class="hit" x="0" y="29" width="640" height="28" data-tip="Písková Lhota: 9 789 Kč na obyvatele a rok"/><text x="200" y="77.0" text-anchor="end">Rebešovice</text><rect class="so" x="210" y="62" width="150.0" height="22" rx="3"/><text class="val" x="366.0" y="77.0">5 979</text><rect class="hit" x="0" y="59" width="640" height="28" data-tip="Rebešovice: 5 979 Kč na obyvatele a rok"/><text x="200" y="107.0" text-anchor="end">Závišice</text><rect class="so" x="210" y="92" width="360.0" height="22" rx="3"/><text class="val" x="576.0" y="107.0">14 348</text><rect class="hit" x="0" y="89" width="640" height="28" data-tip="Závišice: 14 348 Kč na obyvatele a rok"/><line class="axis" x1="210" y1="0" x2="210" y2="124"/></svg><details><summary>Zobrazit jako tabulku</summary><table><thead><tr><th>Položka</th><th>Kč na obyvatele a rok</th></tr></thead><tbody><tr><td>Horní Domaslavice</td><td>5 634</td></tr><tr><td>Písková Lhota</td><td>9 789</td></tr><tr><td>Rebešovice</td><td>5 979</td></tr><tr><td>Závišice</td><td>14 348</td></tr></tbody></table></details></figure>
+
+<p>Kč na obyvatele a rok za roky 2023–2025 (rozpočtové roky volebního období 2022–2026):</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Příjmy celkem</td>
+<td style="text-align: right;">19 846</td>
+<td style="text-align: right;">21 711</td>
+<td style="text-align: right;">27 907</td>
+<td style="text-align: right;">29 056</td>
+</tr>
+<tr>
+<td>Daňové příjmy (třída 1)</td>
+<td style="text-align: right;">18 513</td>
+<td style="text-align: right;">18 308</td>
+<td style="text-align: right;">19 230</td>
+<td style="text-align: right;">20 235</td>
+</tr>
+<tr>
+<td>z toho daň z nemovitých věcí</td>
+<td style="text-align: right;">579</td>
+<td style="text-align: right;">556</td>
+<td style="text-align: right;">706</td>
+<td style="text-align: right;">660</td>
+</tr>
+<tr>
+<td>Investiční dotace</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">191</td>
+<td style="text-align: right;">3 879</td>
+<td style="text-align: right;">1 852</td>
+</tr>
+<tr>
+<td>Výdaje celkem</td>
+<td style="text-align: right;">15 937</td>
+<td style="text-align: right;">16 180</td>
+<td style="text-align: right;">17 592</td>
+<td style="text-align: right;">28 837</td>
+</tr>
+<tr>
+<td><strong>Investice a opravy</strong></td>
+<td style="text-align: right;"><strong>5 634</strong></td>
+<td style="text-align: right;">9 789</td>
+<td style="text-align: right;">5 979</td>
+<td style="text-align: right;">14 349</td>
+</tr>
+<tr>
+<td>z toho z vlastních zdrojů</td>
+<td style="text-align: right;">5 634</td>
+<td style="text-align: right;">9 598</td>
+<td style="text-align: right;">2 100</td>
+<td style="text-align: right;">12 496</td>
+</tr>
+<tr>
+<td>Vlastní investice a opravy jako podíl daňových příjmů</td>
+<td style="text-align: right;"><strong>30 %</strong></td>
+<td style="text-align: right;">52 %</td>
+<td style="text-align: right;">11 %</td>
+<td style="text-align: right;">62 %</td>
+</tr>
+<tr>
+<td>Přebytek (příjmy − výdaje)</td>
+<td style="text-align: right;">3 909</td>
+<td style="text-align: right;">5 530</td>
+<td style="text-align: right;">10 316</td>
+<td style="text-align: right;">219</td>
+</tr>
+<tr>
+<td>Peníze na účtech na konci roku 2025</td>
+<td style="text-align: right;">35 613</td>
+<td style="text-align: right;">27 296</td>
+<td style="text-align: right;"><strong>39 441</strong></td>
+<td style="text-align: right;">24 238</td>
+</tr>
+<tr>
+<td>Úvěry na konci roku 2025</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7 211</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<figure class="chart"><h3>Investice a opravy na obyvatele po letech</h3><p class="sub">Kč na obyvatele a rok. Zdroj: Monitor státní pokladny MF.</p><div class="legend"><span class="lg"><i class="lg-line s1"></i>Horní Domaslavice</span><span class="lg"><i class="lg-line so"></i>ostatní obce</span></div><svg viewBox="0 0 640 270" role="img" aria-label="Investice a opravy na obyvatele po letech"><line class="grid" x1="50" y1="244.0" x2="512" y2="244.0"/><text x="44" y="248.0" text-anchor="end">0</text><line class="grid" x1="50" y1="198.0" x2="512" y2="198.0"/><text x="44" y="202.0" text-anchor="end">10 000</text><line class="grid" x1="50" y1="152.0" x2="512" y2="152.0"/><text x="44" y="156.0" text-anchor="end">20 000</text><line class="grid" x1="50" y1="106.0" x2="512" y2="106.0"/><text x="44" y="110.0" text-anchor="end">30 000</text><line class="grid" x1="50" y1="60.0" x2="512" y2="60.0"/><text x="44" y="64.0" text-anchor="end">40 000</text><line class="grid" x1="50" y1="14.0" x2="512" y2="14.0"/><text x="44" y="18.0" text-anchor="end">50 000</text><polyline class="line-other" points="50.0,204.8 80.8,224.0 111.6,232.3 142.4,225.4 173.2,240.3 204.0,216.3 234.8,232.3 265.6,238.5 296.4,233.6 327.2,231.9 358.0,197.2 388.8,182.5 419.6,117.4 450.4,189.3 481.2,193.2 512.0,214.2"/><polyline class="line-other" points="50.0,214.9 80.8,228.1 111.6,22.6 142.4,238.2 173.2,237.0 204.0,232.8 234.8,224.4 265.6,221.7 296.4,188.4 327.2,227.1 358.0,183.4 388.8,176.9 419.6,152.9 450.4,227.9 481.2,222.7 512.0,199.1"/><polyline class="line-other" points="50.0,229.5 80.8,215.5 111.6,232.3 142.4,222.5 173.2,224.5 204.0,223.4 234.8,213.8 265.6,234.0 296.4,171.6 327.2,220.9 358.0,234.3 388.8,210.6 419.6,201.0 450.4,224.9 481.2,199.2 512.0,111.5"/><polyline class="line" points="50.0,217.7 80.8,238.6 111.6,222.5 142.4,225.0 173.2,233.0 204.0,224.2 234.8,235.7 265.6,218.5 296.4,206.0 327.2,225.2 358.0,215.2 388.8,189.4 419.6,240.2 450.4,204.3 481.2,216.1 512.0,233.1"/><text class="" x="518.0" y="115.5">Závišice 28 814</text><text class="" x="518.0" y="203.1">Rebešovice 9 769</text><text class="" x="518.0" y="218.2">Písk. Lhota 6 468</text><text class="val" x="518.0" y="237.1">HD 2 367</text><circle class="s1" cx="512.0" cy="233.1" r="4"/><text x="50.0" y="262" text-anchor="middle">2010</text><rect class="hit" x="34.6" y="14" width="30.8" height="230" data-tip="2010: HD 5 717 · Písk. Lhota 8 515 · Rebešovice 6 334 · Závišice 3 160 Kč"/><rect class="hit" x="65.4" y="14" width="30.8" height="230" data-tip="2011: HD 1 173 · Písk. Lhota 4 353 · Rebešovice 3 465 · Závišice 6 188 Kč"/><rect class="hit" x="96.2" y="14" width="30.8" height="230" data-tip="2012: HD 4 681 · Písk. Lhota 2 546 · Rebešovice 48 128 · Závišice 2 550 Kč"/><text x="142.4" y="262" text-anchor="middle">2013</text><rect class="hit" x="127.0" y="14" width="30.8" height="230" data-tip="2013: HD 4 124 · Písk. Lhota 4 041 · Rebešovice 1 251 · Závišice 4 668 Kč"/><rect class="hit" x="157.8" y="14" width="30.8" height="230" data-tip="2014: HD 2 390 · Písk. Lhota 808 · Rebešovice 1 511 · Závišice 4 232 Kč"/><rect class="hit" x="188.6" y="14" width="30.8" height="230" data-tip="2015: HD 4 308 · Písk. Lhota 6 018 · Rebešovice 2 431 · Závišice 4 476 Kč"/><text x="234.8" y="262" text-anchor="middle">2016</text><rect class="hit" x="219.4" y="14" width="30.8" height="230" data-tip="2016: HD 1 798 · Písk. Lhota 2 548 · Rebešovice 4 262 · Závišice 6 560 Kč"/><rect class="hit" x="250.2" y="14" width="30.8" height="230" data-tip="2017: HD 5 537 · Písk. Lhota 1 187 · Rebešovice 4 844 · Závišice 2 178 Kč"/><rect class="hit" x="281.0" y="14" width="30.8" height="230" data-tip="2018: HD 8 260 · Písk. Lhota 2 270 · Rebešovice 12 088 · Závišice 15 749 Kč"/><text x="327.2" y="262" text-anchor="middle">2019</text><rect class="hit" x="311.8" y="14" width="30.8" height="230" data-tip="2019: HD 4 093 · Písk. Lhota 2 636 · Rebešovice 3 679 · Závišice 5 025 Kč"/><rect class="hit" x="342.6" y="14" width="30.8" height="230" data-tip="2020: HD 6 270 · Písk. Lhota 10 177 · Rebešovice 13 182 · Závišice 2 118 Kč"/><rect class="hit" x="373.4" y="14" width="30.8" height="230" data-tip="2021: HD 11 879 · Písk. Lhota 13 374 · Rebešovice 14 594 · Závišice 7 267 Kč"/><text x="419.6" y="262" text-anchor="middle">2022</text><rect class="hit" x="404.2" y="14" width="30.8" height="230" data-tip="2022: HD 832 · Písk. Lhota 27 528 · Rebešovice 19 804 · Závišice 9 339 Kč"/><rect class="hit" x="435.0" y="14" width="30.8" height="230" data-tip="2023: HD 8 639 · Písk. Lhota 11 901 · Rebešovice 3 504 · Závišice 4 160 Kč"/><rect class="hit" x="465.8" y="14" width="30.8" height="230" data-tip="2024: HD 6 056 · Písk. Lhota 11 052 · Rebešovice 4 628 · Závišice 9 748 Kč"/><text x="512.0" y="262" text-anchor="middle">2025</text><rect class="hit" x="496.6" y="14" width="30.8" height="230" data-tip="2025: HD 2 367 · Písk. Lhota 6 468 · Rebešovice 9 769 · Závišice 28 814 Kč"/><line class="axis" x1="50" y1="244.0" x2="512" y2="244.0"/></svg><details><summary>Zobrazit jako tabulku</summary><table><thead><tr><th>Rok</th><th>Horní Domaslavice</th><th>Písková Lhota</th><th>Rebešovice</th><th>Závišice</th></tr></thead><tbody><tr><td>2010</td><td>5 717</td><td>8 515</td><td>6 334</td><td>3 160</td></tr><tr><td>2011</td><td>1 173</td><td>4 353</td><td>3 465</td><td>6 188</td></tr><tr><td>2012</td><td>4 681</td><td>2 546</td><td>48 128</td><td>2 550</td></tr><tr><td>2013</td><td>4 124</td><td>4 041</td><td>1 251</td><td>4 668</td></tr><tr><td>2014</td><td>2 390</td><td>808</td><td>1 511</td><td>4 232</td></tr><tr><td>2015</td><td>4 308</td><td>6 018</td><td>2 431</td><td>4 476</td></tr><tr><td>2016</td><td>1 798</td><td>2 548</td><td>4 262</td><td>6 560</td></tr><tr><td>2017</td><td>5 537</td><td>1 187</td><td>4 844</td><td>2 178</td></tr><tr><td>2018</td><td>8 260</td><td>2 270</td><td>12 088</td><td>15 749</td></tr><tr><td>2019</td><td>4 093</td><td>2 636</td><td>3 679</td><td>5 025</td></tr><tr><td>2020</td><td>6 270</td><td>10 177</td><td>13 182</td><td>2 118</td></tr><tr><td>2021</td><td>11 879</td><td>13 374</td><td>14 594</td><td>7 267</td></tr><tr><td>2022</td><td>832</td><td>27 528</td><td>19 804</td><td>9 339</td></tr><tr><td>2023</td><td>8 639</td><td>11 901</td><td>3 504</td><td>4 160</td></tr><tr><td>2024</td><td>6 056</td><td>11 052</td><td>4 628</td><td>9 748</td></tr><tr><td>2025</td><td>2 367</td><td>6 468</td><td>9 769</td><td>28 814</td></tr></tbody></table></details></figure>
+
+<p>Investice a opravy po volebních obdobích a za celých 11 let (Kč na obyvatele a rok):</p>
+<table>
+<thead>
+<tr>
+<th>Období (rozpočtové roky)</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2014–2018 (2015–2018)</td>
+<td style="text-align: right;">5 071</td>
+<td style="text-align: right;">2 954</td>
+<td style="text-align: right;">5 954</td>
+<td style="text-align: right;">7 320</td>
+</tr>
+<tr>
+<td>2018–2022 (2019–2022)</td>
+<td style="text-align: right;">5 734</td>
+<td style="text-align: right;">13 966</td>
+<td style="text-align: right;">12 953</td>
+<td style="text-align: right;">5 966</td>
+</tr>
+<tr>
+<td>2022–2026 (2023–2025)</td>
+<td style="text-align: right;">5 634</td>
+<td style="text-align: right;">9 789</td>
+<td style="text-align: right;">5 979</td>
+<td style="text-align: right;">14 349</td>
+</tr>
+<tr>
+<td><strong>Celkem 2015–2025</strong></td>
+<td style="text-align: right;"><strong>5 493</strong></td>
+<td style="text-align: right;">9 366</td>
+<td style="text-align: right;">8 536</td>
+<td style="text-align: right;">8 861</td>
+</tr>
+<tr>
+<td>Vlastní investice a opravy 2015–2025 jako podíl daňových příjmů</td>
+<td style="text-align: right;"><strong>28 %</strong></td>
+<td style="text-align: right;">64 %</td>
+<td style="text-align: right;">40 %</td>
+<td style="text-align: right;">48 %</td>
+</tr>
+<tr>
+<td>Investiční dotace 2015–2025 celkem</td>
+<td style="text-align: right;">14,7 mil. Kč</td>
+<td style="text-align: right;">4,1 mil. Kč</td>
+<td style="text-align: right;">29,7 mil. Kč</td>
+<td style="text-align: right;">17,5 mil. Kč</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>V jednotlivých obdobích se HD od ostatních obcí neliší vždy.</strong> V letech 2015–2018 investovala Písková Lhota méně než HD, v letech 2019–2022 Závišice zhruba stejně a v letech 2023–2025 Rebešovice zhruba stejně.</li>
+<li><strong>Každá z ostatních obcí ale měla období velkých investic</strong> se 13–14 tis. Kč na obyvatele a rok: Písková Lhota a Rebešovice v letech 2019–2022, Závišice v letech 2023–2025. HD se ve všech obdobích drží na 5–6 tis. Kč. Nejvíc měly HD v jednom roce 11 879 Kč na obyvatele (2021, rekonstrukce mateřské školy s dotací); ostatní obce měly v nejsilnějším roce 19,8–28,8 tis. Kč.</li>
+<li><strong>Za celých 11 let 2015–2025</strong> daly ostatní tři obce do investic a oprav na obyvatele o 55–70 % víc než HD, z vlastních peněz 40–64 % daňových příjmů proti 28 % v HD.</li>
+<li><strong>Peníze na účtech:</strong> HD je od roku 2014 kromě roku 2018 každý rok navyšovaly (z 3,9 na 39,5 mil. Kč). Rebešovice mají na konci roku 2025 na obyvatele ještě víc (43,6 mil. Kč); po velké stavbě mateřské školy v letech 2021–2022 znovu šetří. Závišicím stav účtů v roce 2025 při velkých stavbách klesl o 18,9 mil. Kč. Písková Lhota má od roku 2021 i úvěr (na konci roku 2025 8,0 mil. Kč).</li>
+<li><strong>Čerpání rozpočtu výdajů</strong> bylo v letech 2023–2025 v Pískové Lhotě 40–67 %, v Rebešovicích 48–59 % a v Závišicích 50–81 %, v HD 27–40 %. Rezervu v rozpočtu mají ostatní obce do 5,4 mil. Kč, HD 22–26 mil. Kč (viz <a href="hd-vydaje.html">výdaje obce</a>).</li>
+</ul>
+<figure class="chart"><h3>Peníze na účtech na obyvatele</h3><p class="sub">Kč na obyvatele k 31. 12. Zdroj: Monitor státní pokladny MF.</p><div class="legend"><span class="lg"><i class="lg-line s1"></i>Horní Domaslavice</span><span class="lg"><i class="lg-line so"></i>ostatní obce</span></div><svg viewBox="0 0 640 270" role="img" aria-label="Peníze na účtech na obyvatele"><line class="grid" x1="50" y1="244.0" x2="512" y2="244.0"/><text x="44" y="248.0" text-anchor="end">0</text><line class="grid" x1="50" y1="198.0" x2="512" y2="198.0"/><text x="44" y="202.0" text-anchor="end">10 000</text><line class="grid" x1="50" y1="152.0" x2="512" y2="152.0"/><text x="44" y="156.0" text-anchor="end">20 000</text><line class="grid" x1="50" y1="106.0" x2="512" y2="106.0"/><text x="44" y="110.0" text-anchor="end">30 000</text><line class="grid" x1="50" y1="60.0" x2="512" y2="60.0"/><text x="44" y="64.0" text-anchor="end">40 000</text><line class="grid" x1="50" y1="14.0" x2="512" y2="14.0"/><text x="44" y="18.0" text-anchor="end">50 000</text><polyline class="line-other" points="50.0,236.0 80.8,235.9 111.6,230.4 142.4,226.4 173.2,207.2 204.0,209.4 234.8,191.4 265.6,166.4 296.4,147.6 327.2,122.7 358.0,132.7 388.8,135.4 419.6,210.3 450.4,154.5 481.2,146.0 512.0,118.4"/><polyline class="line-other" points="50.0,141.9 80.8,132.9 111.6,184.2 142.4,175.7 173.2,168.2 204.0,160.2 234.8,147.6 265.6,144.5 296.4,169.8 327.2,114.0 358.0,133.0 388.8,167.0 419.6,173.5 450.4,86.6 481.2,62.4 512.0,62.6"/><polyline class="line-other" points="50.0,233.8 80.8,239.0 111.6,238.2 142.4,234.9 173.2,232.0 204.0,228.5 234.8,219.0 265.6,192.8 296.4,216.8 327.2,196.9 358.0,151.5 388.8,139.7 419.6,121.9 450.4,83.5 481.2,58.1 512.0,132.5"/><polyline class="line" points="50.0,242.3 80.8,239.3 111.6,238.8 142.4,239.7 173.2,221.3 204.0,212.2 234.8,195.9 265.6,187.8 296.4,196.6 327.2,174.8 358.0,175.2 388.8,156.1 419.6,120.9 450.4,121.2 481.2,109.2 512.0,80.2"/><text class="" x="518.0" y="66.6">Rebešovice 39 441</text><text class="val" x="518.0" y="84.2">HD 35 613</text><text class="" x="518.0" y="122.4">Písk. Lhota 27 296</text><text class="" x="518.0" y="136.5">Závišice 24 238</text><circle class="s1" cx="512.0" cy="80.2" r="4"/><text x="50.0" y="262" text-anchor="middle">2010</text><rect class="hit" x="34.6" y="14" width="30.8" height="230" data-tip="2010: HD 378 · Písk. Lhota 1 730 · Rebešovice 22 196 · Závišice 2 224 Kč"/><rect class="hit" x="65.4" y="14" width="30.8" height="230" data-tip="2011: HD 1 023 · Písk. Lhota 1 754 · Rebešovice 24 149 · Závišice 1 089 Kč"/><rect class="hit" x="96.2" y="14" width="30.8" height="230" data-tip="2012: HD 1 137 · Písk. Lhota 2 962 · Rebešovice 12 990 · Závišice 1 259 Kč"/><text x="142.4" y="262" text-anchor="middle">2013</text><rect class="hit" x="127.0" y="14" width="30.8" height="230" data-tip="2013: HD 931 · Písk. Lhota 3 824 · Rebešovice 14 859 · Závišice 1 987 Kč"/><rect class="hit" x="157.8" y="14" width="30.8" height="230" data-tip="2014: HD 4 944 · Písk. Lhota 7 994 · Rebešovice 16 488 · Závišice 2 601 Kč"/><rect class="hit" x="188.6" y="14" width="30.8" height="230" data-tip="2015: HD 6 902 · Písk. Lhota 7 529 · Rebešovice 18 220 · Závišice 3 366 Kč"/><text x="234.8" y="262" text-anchor="middle">2016</text><rect class="hit" x="219.4" y="14" width="30.8" height="230" data-tip="2016: HD 10 461 · Písk. Lhota 11 432 · Rebešovice 20 964 · Závišice 5 427 Kč"/><rect class="hit" x="250.2" y="14" width="30.8" height="230" data-tip="2017: HD 12 216 · Písk. Lhota 16 869 · Rebešovice 21 630 · Závišice 11 136 Kč"/><rect class="hit" x="281.0" y="14" width="30.8" height="230" data-tip="2018: HD 10 294 · Písk. Lhota 20 965 · Rebešovice 16 122 · Závišice 5 923 Kč"/><text x="327.2" y="262" text-anchor="middle">2019</text><rect class="hit" x="311.8" y="14" width="30.8" height="230" data-tip="2019: HD 15 035 · Písk. Lhota 26 374 · Rebešovice 28 270 · Závišice 10 234 Kč"/><rect class="hit" x="342.6" y="14" width="30.8" height="230" data-tip="2020: HD 14 957 · Písk. Lhota 24 188 · Rebešovice 24 135 · Závišice 20 118 Kč"/><rect class="hit" x="373.4" y="14" width="30.8" height="230" data-tip="2021: HD 19 119 · Písk. Lhota 23 619 · Rebešovice 16 741 · Závišice 22 669 Kč"/><text x="419.6" y="262" text-anchor="middle">2022</text><rect class="hit" x="404.2" y="14" width="30.8" height="230" data-tip="2022: HD 26 755 · Písk. Lhota 7 320 · Rebešovice 15 335 · Závišice 26 537 Kč"/><rect class="hit" x="435.0" y="14" width="30.8" height="230" data-tip="2023: HD 26 695 · Písk. Lhota 19 448 · Rebešovice 34 208 · Závišice 34 901 Kč"/><rect class="hit" x="465.8" y="14" width="30.8" height="230" data-tip="2024: HD 29 307 · Písk. Lhota 21 305 · Rebešovice 39 480 · Závišice 40 404 Kč"/><text x="512.0" y="262" text-anchor="middle">2025</text><rect class="hit" x="496.6" y="14" width="30.8" height="230" data-tip="2025: HD 35 613 · Písk. Lhota 27 296 · Rebešovice 39 441 · Závišice 24 238 Kč"/><line class="axis" x1="50" y1="244.0" x2="512" y2="244.0"/></svg><details><summary>Zobrazit jako tabulku</summary><table><thead><tr><th>Rok</th><th>Horní Domaslavice</th><th>Písková Lhota</th><th>Rebešovice</th><th>Závišice</th></tr></thead><tbody><tr><td>2010</td><td>378</td><td>1 730</td><td>22 196</td><td>2 224</td></tr><tr><td>2011</td><td>1 023</td><td>1 754</td><td>24 149</td><td>1 089</td></tr><tr><td>2012</td><td>1 137</td><td>2 962</td><td>12 990</td><td>1 259</td></tr><tr><td>2013</td><td>931</td><td>3 824</td><td>14 859</td><td>1 987</td></tr><tr><td>2014</td><td>4 944</td><td>7 994</td><td>16 488</td><td>2 601</td></tr><tr><td>2015</td><td>6 902</td><td>7 529</td><td>18 220</td><td>3 366</td></tr><tr><td>2016</td><td>10 461</td><td>11 432</td><td>20 964</td><td>5 427</td></tr><tr><td>2017</td><td>12 216</td><td>16 869</td><td>21 630</td><td>11 136</td></tr><tr><td>2018</td><td>10 294</td><td>20 965</td><td>16 122</td><td>5 923</td></tr><tr><td>2019</td><td>15 035</td><td>26 374</td><td>28 270</td><td>10 234</td></tr><tr><td>2020</td><td>14 957</td><td>24 188</td><td>24 135</td><td>20 118</td></tr><tr><td>2021</td><td>19 119</td><td>23 619</td><td>16 741</td><td>22 669</td></tr><tr><td>2022</td><td>26 755</td><td>7 320</td><td>15 335</td><td>26 537</td></tr><tr><td>2023</td><td>26 695</td><td>19 448</td><td>34 208</td><td>34 901</td></tr><tr><td>2024</td><td>29 307</td><td>21 305</td><td>39 480</td><td>40 404</td></tr><tr><td>2025</td><td>35 613</td><td>27 296</td><td>39 441</td><td>24 238</td></tr></tbody></table></details></figure>
+
+<h3 id="na-co-obce-investovaly-20162025">Na co obce investovaly (2016–2025)</h3>
+<p>Investice a opravy podle účelu, součet za roky 2016–2025, v Kč na obyvatele a rok:</p>
+<table>
+<thead>
+<tr>
+<th>Účel</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Doprava (silnice, chodníky)</td>
+<td style="text-align: right;">2 313</td>
+<td style="text-align: right;">3 716</td>
+<td style="text-align: right;">1 929</td>
+<td style="text-align: right;">2 893</td>
+</tr>
+<tr>
+<td>Vodovod a kanalizace</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3 298</td>
+<td style="text-align: right;">227</td>
+<td style="text-align: right;">194</td>
+</tr>
+<tr>
+<td>Bydlení, veřejné osvětlení, komunální služby</td>
+<td style="text-align: right;">1 507</td>
+<td style="text-align: right;">1 067</td>
+<td style="text-align: right;">2 370</td>
+<td style="text-align: right;">706</td>
+</tr>
+<tr>
+<td>Školství</td>
+<td style="text-align: right;">1 390</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3 340</td>
+<td style="text-align: right;">158</td>
+</tr>
+<tr>
+<td>Kultura, sport, spolky</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">443</td>
+<td style="text-align: right;">331</td>
+<td style="text-align: right;">3 747</td>
+</tr>
+<tr>
+<td>Ostatní (správa, hasiči, odpady, zeleň)</td>
+<td style="text-align: right;">299</td>
+<td style="text-align: right;">1 096</td>
+<td style="text-align: right;">896</td>
+<td style="text-align: right;">1 565</td>
+</tr>
+<tr>
+<td><strong>Celkem</strong></td>
+<td style="text-align: right;"><strong>5 592</strong></td>
+<td style="text-align: right;"><strong>9 620</strong></td>
+<td style="text-align: right;"><strong>9 093</strong></td>
+<td style="text-align: right;"><strong>9 263</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Největší akce podle výkazů (paragraf rozpočtové skladby, rok, mil. Kč):</p>
+<ul>
+<li><strong>Písková Lhota:</strong> silnice (2022: 26,1), kanalizace (2020–2023: 20,3), vodovod (2022–2024: 9,5), veřejné osvětlení (2022–2025: 8,0).</li>
+<li><strong>Rebešovice:</strong> mateřská škola (2021–2022: 32,6), nebytové prostory obce (2019–2020: 9,6), silnice (2025: 7,6), veřejné osvětlení (2016–2018: 6,8), chodníky (2017–2018: 4,9).</li>
+<li><strong>Závišice:</strong> chodníky (2016–2025: 18,5), sportoviště (2018: 12,1; 2025: 12,7), kulturní zařízení (2018 a 2021: 11,4), silnice (2019–2025: 10,9), hasiči (2024–2025: 8,6).</li>
+<li><strong>Horní Domaslavice:</strong> silnice a komunikace, rekonstrukce mateřské školy (2021) a veřejné osvětlení; podrobně na stránce <a href="hd-vydaje.html">Výdaje, investice a opravy</a>.</li>
+</ul>
+<h2 id="daň-z-nemovitostí">Daň z nemovitostí</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Horní Domaslavice</th>
+<th>Písková Lhota</th>
+<th>Rebešovice</th>
+<th>Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Koeficient podle velikosti obce</td>
+<td>1,4 (od 2025)</td>
+<td>1,4</td>
+<td>1,4</td>
+<td>1,4</td>
+</tr>
+<tr>
+<td>Místní koeficient</td>
+<td>žádný</td>
+<td>žádný</td>
+<td>žádný</td>
+<td>žádný</td>
+</tr>
+<tr>
+<td>Výnos na obyvatele a rok 2023–2025</td>
+<td>579 Kč</td>
+<td>556 Kč</td>
+<td>706 Kč</td>
+<td>660 Kč</td>
+</tr>
+</tbody>
+</table>
+<p>Žádná ze čtyř obcí místní koeficient nepoužívá (podle Sbírky právních předpisů územních samosprávných celků, která funguje od roku 2021). Výnos daně z nemovitostí je podobný a rozdíly v investicích nevysvětluje.</p>
+<h2 id="vybavenost">Vybavenost</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Horní Domaslavice</th>
+<th>Písková Lhota</th>
+<th>Rebešovice</th>
+<th>Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Základní škola</td>
+<td>ne</td>
+<td>ne</td>
+<td>ne (spádová ZŠ Brno-Chrlice)</td>
+<td><strong>ano, 1.–5. ročník</strong> (zřizuje obec, 46 žáků)</td>
+</tr>
+<tr>
+<td>Mateřská škola</td>
+<td>ano (44 míst)</td>
+<td>ne</td>
+<td>ano, nová budova od 2022 (+50 míst, dotace IROP 25,5 mil. Kč)</td>
+<td>ano (2 třídy)</td>
+</tr>
+<tr>
+<td>Obchod s potravinami</td>
+<td>ne</td>
+<td>neověřeno (pojízdná prodejna)</td>
+<td>ano</td>
+<td>ano</td>
+</tr>
+<tr>
+<td>Hospoda, sál</td>
+<td>Obecní dům se sálem a hospodou</td>
+<td>restaurace; klubovna na OÚ (2025), společenské centrum se připravuje</td>
+<td>Zámeček s restaurací a sálem (~150 míst)</td>
+<td>obecní kulturní dům s restaurací a sálem (150 míst)</td>
+</tr>
+<tr>
+<td>Lékař v obci</td>
+<td>ne</td>
+<td>ne</td>
+<td>ne</td>
+<td>ne</td>
+</tr>
+<tr>
+<td>Splašková kanalizace</td>
+<td>ne</td>
+<td>ano, od 2023 (investor VaK Mladá Boleslav, obec přispívala)</td>
+<td>ano, rekonstrukce ČOV a dostavba kanalizace 2010–2012 za cca 37 mil. Kč (investor obec, dotace 28,8 mil. Kč)</td>
+<td><strong>ne</strong> (od 2021 příspěvek na domovní ČOV; kanalizace v plánu na 2026–2035)</td>
+</tr>
+<tr>
+<td>Plyn</td>
+<td>jen část obce</td>
+<td>ne</td>
+<td>ano</td>
+<td>většina obce</td>
+</tr>
+<tr>
+<td>Chodníky podél hlavní silnice</td>
+<td>krátký úsek (2018)</td>
+<td>částečně (2022–2023, další etapa 2026–2027)</td>
+<td>částečně (2018)</td>
+<td>ano, postupně 2002–2025</td>
+</tr>
+<tr>
+<td>Sportoviště</td>
+<td>víceúčelové hřiště ve výstavbě, 2 dětská hřiště</td>
+<td>víceúčelové hřiště, dětská hřiště, beachvolejbal (2023–2025)</td>
+<td>areál TJ Sokol, 3 dětská hřiště</td>
+<td>sportovní areál s oválem (2019), tělocvična</td>
+</tr>
+<tr>
+<td>Hasiči (JSDH)</td>
+<td>ano</td>
+<td>ano</td>
+<td>ne (podle programu rozvoje obce)</td>
+<td>ano, plánuje novou zbrojnici</td>
+</tr>
+<tr>
+<td>Autobus do nejbližšího města ve všední den</td>
+<td>23 spojů v obou směrech ¹</td>
+<td>asi 44 odjezdů do Mladé Boleslavi</td>
+<td>asi 38 odjezdů do Brna</td>
+<td>asi 32 odjezdů do Kopřivnice</td>
+</tr>
+</tbody>
+</table>
+<p>¹ U HD je to počet spojů v obou směrech podle jízdních řádů (viz <a href="srovnani-vybavenost.html">občanská vybavenost</a>), u ostatních obcí počet odjezdů z hlavní zastávky jedním směrem ve středu 4. 11. 2026 (IDOS). Čísla jsou proto jen orientační.</p>
+<p>Zdroje: weby a programy rozvoje obcí (Písková Lhota, Rebešovice 2016–2030, Závišice 2025–2030), zpravodaje obcí, inspekční zprávy ČŠI, dotační evidence (Hlídač státu z dat IS CEDR), IDOS. U HD stránka <a href="srovnani-vybavenost.html">Občanská vybavenost</a>.</p>
+<h2 id="co-ze-srovnání-plyne">Co ze srovnání plyne</h2>
+<ol type="1">
+<li><strong>Velikost, růst ani daňové příjmy rozdíl nevysvětlují.</strong> Všechny čtyři obce mají podobný počet obyvatel a podobné daňové příjmy na obyvatele. Ostatní tři obce přesto za roky 2015–2025 daly do investic a oprav na obyvatele o 55–70 % víc než HD.</li>
+<li><strong>Odlišné je, že HD neměly žádné období velkých investic.</strong> Ostatní obce střídají roky šetření s velkými stavbami (kanalizace a silnice v Pískové Lhotě, mateřská škola v Rebešovicích, sportoviště a chodníky v Závišicích). HD investují rovnoměrně na nízké úrovni a peníze ukládají.</li>
+<li><strong>Úspory samy o sobě nejsou neobvyklé.</strong> Rebešovice mají na obyvatele ještě víc peněz než HD, ale po velké investici do mateřské školy. Rozdíl je v tom, že HD úspory dlouhodobě navyšují bez srovnatelně velké akce.</li>
+<li><strong>Chybějící kanalizace rozdíl nevysvětluje.</strong> Závišice kanalizaci nemají stejně jako HD, a přesto v letech 2023–2025 investovaly ze čtyř obcí nejvíc (chodníky, sportoviště, hasiči, veřejné osvětlení). Rebešovice postavily kanalizaci a ČOV už v letech 2010–2012, takže se v datech od roku 2015 skoro neobjevuje.</li>
+<li><strong>Roztříštěná zástavba HD prodražuje hlavně kanalizaci.</strong> Na silnice, chodníky, obecní budovy nebo sportoviště, kam ostatní obce dávají většinu peněz, takový vliv nemá. Srovnání s podobně rozptýlenými sousedními Vojkovicemi je na stránce <a href="srovnani-finance.html">Finance</a>.</li>
+</ol>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li>Srovnání je založené na veřejných datech, ne na znalosti místních poměrů. Každá obec má jiné potřeby, majetek, terén a historii a ne každá investice je stejně potřebná.</li>
+<li><strong>Závišice zřizují základní školu (1.–5. ročník).</strong> Dostávají proto vyšší sdílené daně (rozpočtové určení daní zohledňuje počet žáků) a mají výdaje na provoz školy. Jejich daňové příjmy na obyvatele jsou o 9 % vyšší než v HD; na srovnání investic to má jen malý vliv.</li>
+<li>Kanalizaci a vodovod nemusí stavět obec. Kde je staví vodárenská společnost nebo svazek obcí, v rozpočtu obce se neobjeví celé (v Pískové Lhotě byla investorem kanalizace vodárenská společnost VaK Mladá Boleslav, obec na stavbu přispívala).</li>
+<li>Údaje o napojení na kanalizaci a plyn pocházejí z RÚIAN. Jsou neúplné a často zastaralé, berte je jako orientační.</li>
+<li>Velké jednorázové akce průměry výrazně ovlivňují; proto jsou uvedeny i součty za 11 let.</li>
+<li>Obce leží v různých krajích s jiným trhem práce a cenami nemovitostí (zázemí Mladé Boleslavi, Brna a Nového Jičína).</li>
+<li>Výběr obcí je výpočet podle šesti ukazatelů. Jiné váhy by mohly dát trochu jiné pořadí; celé pořadí je v datech ke stažení.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<ul>
+<li><strong>Obyvatelé:</strong> ČSÚ, datová sada OBY01B01 (stav k 31. 12. a k 1. 7.), roky 2000–2025.</li>
+<li><strong>Rozloha a druhy pozemků:</strong> ČÚZK, úhrnné hodnoty druhů pozemků k 1. 1. 2026, katastrální území přiřazená k obcím podle číselníku ČÚZK.</li>
+<li><strong>Zástavba:</strong> RÚIAN (ČÚZK), výměnný formát za obce, stav k 30. 9. 2026; budovy pro bydlení, definiční body; metoda jako na stránce <a href="srovnani-zastavba.html">Roztříštěnost zástavby</a>.</li>
+<li><strong>Finance:</strong> Monitor státní pokladny MF, výkaz FIN 2-12 M a rozvaha za prosinec 2010–2025, obce IČO 00536008 (HD), 00509230 (Písková Lhota), 00488089 (Rebešovice), 00600709 (Závišice). Výpočet je stejný jako na stránce <a href="srovnani-finance.html">Finance</a>; kontrolní přepočet čísel HD dal shodné výsledky.</li>
+<li><strong>Daň z nemovitostí:</strong> Sbírka právních předpisů ÚSC, zákon č. 338/1992 Sb.</li>
+<li>Data: <a href="data/finance_PL_2010-2025.csv">finance_PL_2010-2025.csv</a>, <a href="data/finance_REB_2010-2025.csv">finance_REB_2010-2025.csv</a>, <a href="data/finance_ZAV_2010-2025.csv">finance_ZAV_2010-2025.csv</a>, <a href="data/podobne_obce_souhrn_po_obdobich.csv">podobne_obce_souhrn_po_obdobich.csv</a>, <a href="data/podobne_obce_investice_podle_ucelu_2016-2025.csv">podobne_obce_investice_podle_ucelu_2016-2025.csv</a>, <a href="data/podobne_obce_investice_podle_paragrafu.csv">podobne_obce_investice_podle_paragrafu.csv</a>, <a href="data/podobne_obce_obyvatele_2000-2025.csv">podobne_obce_obyvatele_2000-2025.csv</a>, <a href="data/podobne_obce_vyber.csv">podobne_obce_vyber.csv</a>.</li>
+</ul>
+<p>Zpracováno 1. 11. 2026.</p>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

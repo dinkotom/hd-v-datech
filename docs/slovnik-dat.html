@@ -45,6 +45,7 @@
 <li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
 <li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
 <li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
+<li><a href="srovnani-podobne-obce.html">Podobné obce v Česku</a></li>
 </ul></details>
 <a class="top-link" href="zeptejte-se-ai.html">Zeptejte se AI</a>
 <a class="top-link" href="data.html">Data ke stažení</a>
@@ -55,11 +56,11 @@
 <h1>Slovník dat</h1>
 <p class="lede">Co znamená který sloupec v datech ke stažení.</p>
 <p>Popis datových souborů webu Horní Domaslavice v datech (<a href="">https://hd-v-datech.cz/</a>). Všechny soubory jsou CSV v UTF-8, oddělovač čárka, desetinná tečka, data ve tvaru RRRR-MM-DD. Částky jsou v Kč, běžné ceny.</p>
-<h2 id="cuzk_uhdp_druhy_pozemku_4obce_2004_2014_2026csv">CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv</h2>
-<p>Výměry druhů pozemků po katastrálních územích (orná půda, louky, lesy, zastavěné plochy…).</p>
+<h2 id="cuzk_uhdp_druhy_pozemku_sousede_2004_2014_2026csv">CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv</h2>
+<p>Výměry druhů pozemků po katastrálních územích HD a sousedních obcí (orná půda, louky, lesy, zastavěné plochy…).</p>
 <ul>
-<li>Odkaz: <a href="data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv">data/CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv</a></li>
-<li>Řádků: 18; jeden řádek = jeden rok × katastrální území</li>
+<li>Odkaz: <a href="data/CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv">data/CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv</a></li>
+<li>Řádků: 21; jeden řádek = jeden rok × katastrální území</li>
 <li>Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků (UHDP).</li>
 <li>Pozor: Dolní Domaslavice mají dvě katastrální území (Dolní Domaslavice a Volovec), Lučina také (Lučina a Kocurovice). Za obec je třeba řádky sečíst podle sloupce <code>obec</code>.</li>
 </ul>
@@ -73,11 +74,11 @@
 <tbody>
 <tr>
 <td><code>rok</code></td>
-<td>Rok stavu (2004, 2014, 2026).</td>
+<td>Rok stavu (1. 1. 2004, 1. 1. 2014, 1. 10. 2026).</td>
 </tr>
 <tr>
 <td><code>obec</code></td>
-<td>Zkratka obce: HD, PA, DD, LU.</td>
+<td>Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice).</td>
 </tr>
 <tr>
 <td><code>ku_kod</code></td>
@@ -125,10 +126,10 @@
 </tr>
 </tbody>
 </table>
-<h2 id="ruian_souhrn_4obce_stav_20260930csv">RUIAN_souhrn_4obce_stav_20260930.csv</h2>
+<h2 id="ruian_souhrn_sousede_stav_20260930csv">RUIAN_souhrn_sousede_stav_20260930.csv</h2>
 <p>Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN), stav 30. 9. 2026.</p>
 <ul>
-<li>Odkaz: <a href="data/RUIAN_souhrn_4obce_stav_20260930.csv">data/RUIAN_souhrn_4obce_stav_20260930.csv</a></li>
+<li>Odkaz: <a href="data/RUIAN_souhrn_sousede_stav_20260930.csv">data/RUIAN_souhrn_sousede_stav_20260930.csv</a></li>
 <li>Řádků: 20; jeden řádek = jeden ukazatel; sloupce jsou obce</li>
 <li>Zdroj: RÚIAN (ČÚZK), výměnný formát VFR.</li>
 <li>Pozor: Údaje o vodovodu, kanalizaci a plynu jsou v RÚIAN neúplné a často zastaralé (viz <code>kanal_nezjist</code>). Spolehlivější je sčítání 2021 na stránce Obyvatelstvo a výstavba.</li>
@@ -161,6 +162,10 @@
 <td><code>Lucina</code></td>
 <td>Lučina.</td>
 </tr>
+<tr>
+<td><code>Vojkovice</code></td>
+<td>Vojkovice.</td>
+</tr>
 </tbody>
 </table>
 <h2 id="finance_dd_2010-2025csv">finance_DD_2010-2025.csv</h2>
@@ -170,7 +175,7 @@
 <li>Řádků: 16; jeden řádek = jeden rozpočtový rok</li>
 <li>Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.</li>
 <li>Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).</li>
-<li>Pozor: Každý sloupec <code>X_na_obyv</code> = <code>X</code> / <code>obyv_1_7</code> (Kč na obyvatele).</li>
+<li>Pozor: Sloupec <code>X_na_obyv</code> = <code>X</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>.</li>
 </ul>
 <p>Sloupce jsou stejné jako v <code>finance_HD_2010-2025.csv</code>.</p>
 <h2 id="finance_hd_2010-2025csv">finance_HD_2010-2025.csv</h2>
@@ -180,7 +185,7 @@
 <li>Řádků: 16; jeden řádek = jeden rozpočtový rok</li>
 <li>Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.</li>
 <li>Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).</li>
-<li>Pozor: Každý sloupec <code>X_na_obyv</code> = <code>X</code> / <code>obyv_1_7</code> (Kč na obyvatele).</li>
+<li>Pozor: Sloupec <code>X_na_obyv</code> = <code>X</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>.</li>
 </ul>
 <table>
 <thead>
@@ -196,11 +201,11 @@
 </tr>
 <tr>
 <td><code>obyv_1_7</code></td>
-<td>Počet obyvatel k 1. 7. daného roku (ČSÚ). Tímto číslem se dělí všechny sloupce <code>*_na_obyv</code>.</td>
+<td>Počet obyvatel k 1. 7. daného roku (ČSÚ). Tímto číslem se dělí toky (příjmy, výdaje…) ve sloupcích <code>*_na_obyv</code>.</td>
 </tr>
 <tr>
 <td><code>obyv_31_12</code></td>
-<td>Počet obyvatel k 31. 12. daného roku (ČSÚ).</td>
+<td>Počet obyvatel k 31. 12. daného roku (ČSÚ). Tímto číslem se dělí stavy (<code>ucet_*</code>, <code>penize_*</code>, úvěry a závazky) ve sloupcích <code>*_na_obyv</code>.</td>
 </tr>
 <tr>
 <td><code>prijmy</code></td>
@@ -364,7 +369,7 @@
 </tr>
 <tr>
 <td><code>*_na_obyv</code> (40 sloupců)</td>
-<td>Stejnojmenný sloupec bez přípony vydělený <code>obyv_1_7</code>. Kč na obyvatele.</td>
+<td>Stejnojmenný sloupec bez přípony na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>. Kč.</td>
 </tr>
 </tbody>
 </table>
@@ -375,7 +380,7 @@
 <li>Řádků: 16; jeden řádek = jeden rozpočtový rok</li>
 <li>Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.</li>
 <li>Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).</li>
-<li>Pozor: Každý sloupec <code>X_na_obyv</code> = <code>X</code> / <code>obyv_1_7</code> (Kč na obyvatele).</li>
+<li>Pozor: Sloupec <code>X_na_obyv</code> = <code>X</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>.</li>
 </ul>
 <p>Sloupce jsou stejné jako v <code>finance_HD_2010-2025.csv</code>.</p>
 <h2 id="finance_paz_2010-2025csv">finance_PAZ_2010-2025.csv</h2>
@@ -385,14 +390,54 @@
 <li>Řádků: 16; jeden řádek = jeden rozpočtový rok</li>
 <li>Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.</li>
 <li>Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).</li>
-<li>Pozor: Každý sloupec <code>X_na_obyv</code> = <code>X</code> / <code>obyv_1_7</code> (Kč na obyvatele).</li>
+<li>Pozor: Sloupec <code>X_na_obyv</code> = <code>X</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>.</li>
 </ul>
 <p>Sloupce jsou stejné jako v <code>finance_HD_2010-2025.csv</code>.</p>
-<h2 id="investice_opravy_podle_paragrafu_4obcecsv">investice_opravy_podle_paragrafu_4obce.csv</h2>
-<p>Investice a opravy 4 obcí podle paragrafu rozpočtové skladby (na co šly).</p>
+<h2 id="finance_pl_2010-2025csv">finance_PL_2010-2025.csv</h2>
+<p>Hospodaření obce Písková Lhota (okres Mladá Boleslav, IČO 00509230) po letech 2010–2025 (stejné sloupce jako <code>finance_HD_2010-2025.csv</code>). Podobná obec pro srovnání.</p>
 <ul>
-<li>Odkaz: <a href="data/investice_opravy_podle_paragrafu_4obce.csv">data/investice_opravy_podle_paragrafu_4obce.csv</a></li>
-<li>Řádků: 629; jeden řádek = jedna obec × rok × paragraf (jen nenulové)</li>
+<li>Odkaz: <a href="data/finance_PL_2010-2025.csv">data/finance_PL_2010-2025.csv</a></li>
+<li>Řádků: 16; jeden řádek = jeden rozpočtový rok</li>
+<li>Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.</li>
+<li>Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).</li>
+<li>Pozor: Sloupec <code>X_na_obyv</code> = <code>X</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>finance_HD_2010-2025.csv</code>.</p>
+<h2 id="finance_reb_2010-2025csv">finance_REB_2010-2025.csv</h2>
+<p>Hospodaření obce Rebešovice (okres Brno-venkov, IČO 00488089) po letech 2010–2025 (stejné sloupce jako <code>finance_HD_2010-2025.csv</code>). Podobná obec pro srovnání.</p>
+<ul>
+<li>Odkaz: <a href="data/finance_REB_2010-2025.csv">data/finance_REB_2010-2025.csv</a></li>
+<li>Řádků: 16; jeden řádek = jeden rozpočtový rok</li>
+<li>Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.</li>
+<li>Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).</li>
+<li>Pozor: Sloupec <code>X_na_obyv</code> = <code>X</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>finance_HD_2010-2025.csv</code>.</p>
+<h2 id="finance_voj_2010-2025csv">finance_VOJ_2010-2025.csv</h2>
+<p>Hospodaření obce Vojkovice (okres Frýdek-Místek, IČO 00577081), sousední obce HD, po letech 2010–2025 (stejné sloupce jako <code>finance_HD_2010-2025.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/finance_VOJ_2010-2025.csv">data/finance_VOJ_2010-2025.csv</a></li>
+<li>Řádků: 16; jeden řádek = jeden rozpočtový rok</li>
+<li>Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.</li>
+<li>Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).</li>
+<li>Pozor: Sloupec <code>X_na_obyv</code> = <code>X</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>finance_HD_2010-2025.csv</code>.</p>
+<h2 id="finance_zav_2010-2025csv">finance_ZAV_2010-2025.csv</h2>
+<p>Hospodaření obce Závišice (okres Nový Jičín, IČO 00600709) po letech 2010–2025 (stejné sloupce jako <code>finance_HD_2010-2025.csv</code>). Podobná obec pro srovnání.</p>
+<ul>
+<li>Odkaz: <a href="data/finance_ZAV_2010-2025.csv">data/finance_ZAV_2010-2025.csv</a></li>
+<li>Řádků: 16; jeden řádek = jeden rozpočtový rok</li>
+<li>Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.</li>
+<li>Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).</li>
+<li>Pozor: Sloupec <code>X_na_obyv</code> = <code>X</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno <code>obyv_31_12</code>.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>finance_HD_2010-2025.csv</code>.</p>
+<h2 id="investice_opravy_podle_paragrafu_sousedecsv">investice_opravy_podle_paragrafu_sousede.csv</h2>
+<p>Investice a opravy HD a sousedních obcí podle paragrafu rozpočtové skladby (na co šly).</p>
+<ul>
+<li>Odkaz: <a href="data/investice_opravy_podle_paragrafu_sousede.csv">data/investice_opravy_podle_paragrafu_sousede.csv</a></li>
+<li>Řádků: 782; jeden řádek = jedna obec × rok × paragraf (jen nenulové)</li>
 <li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M.</li>
 </ul>
 <table>
@@ -418,6 +463,189 @@
 <tr>
 <td><code>investice_plus_opravy_kc</code></td>
 <td>Třída 6 + položka 5171 v daném paragrafu. Kč.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_investice_podle_paragrafucsv">podobne_obce_investice_podle_paragrafu.csv</h2>
+<p>Investice a opravy Pískové Lhoty, Rebešovic a Závišic podle paragrafu rozpočtové skladby (stejné sloupce jako <code>investice_opravy_podle_paragrafu_sousede.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_investice_podle_paragrafu.csv">data/podobne_obce_investice_podle_paragrafu.csv</a></li>
+<li>Řádků: 536; jeden řádek = jedna obec × rok × paragraf (jen nenulové)</li>
+<li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>investice_opravy_podle_paragrafu_sousede.csv</code>.</p>
+<h2 id="podobne_obce_investice_podle_ucelu_2016-2025csv">podobne_obce_investice_podle_ucelu_2016-2025.csv</h2>
+<p>Investice a opravy za roky 2016–2025 sečtené podle účelu (sloučené paragrafy) pro HD, Pískovou Lhotu, Rebešovice a Závišice.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_investice_podle_ucelu_2016-2025.csv">data/podobne_obce_investice_podle_ucelu_2016-2025.csv</a></li>
+<li>Řádků: 48; jeden řádek = jedna obec × kategorie účelu</li>
+<li>Zdroj: Výpočet z výkazu FIN 2-12 M (Monitor státní pokladny MF).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce.</td>
+</tr>
+<tr>
+<td><code>kategorie</code></td>
+<td>Účel (sloučené paragrafy; stejné členění jako <code>vydaje_kategorie_sousede_2010-2025.csv</code>).</td>
+</tr>
+<tr>
+<td><code>kc_2016_2025</code></td>
+<td>Investice (třída 6) + opravy (položka 5171) celkem za 2016–2025. Kč.</td>
+</tr>
+<tr>
+<td><code>kc_na_obyv_a_rok</code></td>
+<td>Totéž na obyvatele a rok (součet děleno součtem obyvatel k 1. 7.). Kč.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_obyvatele_2000-2025csv">podobne_obce_obyvatele_2000-2025.csv</h2>
+<p>Počet obyvatel HD, Pískové Lhoty, Rebešovic a Závišic 2000–2025.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_obyvatele_2000-2025.csv">data/podobne_obce_obyvatele_2000-2025.csv</a></li>
+<li>Řádků: 104; jeden řádek = jedna obec × rok</li>
+<li>Zdroj: ČSÚ, datová sada OBY01B01.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok.</td>
+</tr>
+<tr>
+<td><code>obyvatel_31_12</code></td>
+<td>Obyvatelé k 31. 12.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_souhrn_po_obdobichcsv">podobne_obce_souhrn_po_obdobich.csv</h2>
+<p>Součty ukazatelů za volební období pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné sloupce jako <code>souhrn_po_obdobich_sousede.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_souhrn_po_obdobich.csv">data/podobne_obce_souhrn_po_obdobich.csv</a></li>
+<li>Řádků: 256; jeden řádek = jedna obec × volební období × ukazatel</li>
+<li>Zdroj: Výpočet z <code>finance_*</code>.</li>
+<li>Pozor: Za období se počítají rozpočtové roky, za které odpovídá dané zastupitelstvo (sloupec <code>roky</code>); období 2022–2026 zatím jen 2023–2025.</li>
+<li>Pozor: Hodnoty sloupce <code>ukazatel</code> mají stejný význam jako stejnojmenné sloupce v souborech <code>finance_*_2010-2025.csv</code> (viz výše).</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>souhrn_po_obdobich_sousede.csv</code>.</p>
+<h2 id="podobne_obce_vybercsv">podobne_obce_vyber.csv</h2>
+<p>Výběr podobných obcí: 231 obcí ČR s 650–1 800 obyvateli (2025), růstem od roku 2000 alespoň 35 % a rozlohou 3–11 km², a pro srovnání HD.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_vyber.csv">data/podobne_obce_vyber.csv</a></li>
+<li>Řádků: 232; jeden řádek = jedna obec; seřazeno od nejpodobnější HD</li>
+<li>Zdroj: ČSÚ (obyvatelé), ČÚZK (úhrnné hodnoty druhů pozemků k 1. 1. 2026), RÚIAN (budovy, stav 30. 9. 2026). Výpočet autora webu.</li>
+<li>Pozor: Index odlišnosti je výpočet autora webu podle šesti ukazatelů (obyvatelé, růst, rozloha, největší část obce, vzdálenost od středu, propojení na dům); jiné váhy by daly jiné pořadí.</li>
+<li>Pozor: Napojení na kanalizaci a plyn je z RÚIAN, údaje jsou neúplné.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>poradi</code></td>
+<td>Pořadí podle indexu odlišnosti (0 = HD).</td>
+</tr>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce ČSÚ.</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce.</td>
+</tr>
+<tr>
+<td><code>okres</code></td>
+<td>Okres.</td>
+</tr>
+<tr>
+<td><code>obyvatel_2000</code></td>
+<td>Obyvatelé k 31. 12. 2000.</td>
+</tr>
+<tr>
+<td><code>obyvatel_2025</code></td>
+<td>Obyvatelé k 31. 12. 2025.</td>
+</tr>
+<tr>
+<td><code>rust_2000_2025_pct</code></td>
+<td>Růst počtu obyvatel 2000–2025, %.</td>
+</tr>
+<tr>
+<td><code>rozloha_km2</code></td>
+<td>Rozloha obce, km².</td>
+</tr>
+<tr>
+<td><code>hustota_obyv_km2</code></td>
+<td>Obyvatelé na km² (2025).</td>
+</tr>
+<tr>
+<td><code>orna_pct</code></td>
+<td>Podíl orné půdy na rozloze, %.</td>
+</tr>
+<tr>
+<td><code>les_pct</code></td>
+<td>Podíl lesa na rozloze, %.</td>
+</tr>
+<tr>
+<td><code>domy_bydleni</code></td>
+<td>Počet budov pro bydlení podle RÚIAN.</td>
+</tr>
+<tr>
+<td><code>podil_nejvetsi_casti_150m_pct</code></td>
+<td>Podíl domů v největší souvislé části obce (domy do 150 m od sebe), %.</td>
+</tr>
+<tr>
+<td><code>casti_150m_min5domu</code></td>
+<td>Počet takových částí s alespoň 5 domy.</td>
+</tr>
+<tr>
+<td><code>vzd_od_stredu_median_m</code></td>
+<td>Medián vzdálenosti domu od středu zástavby, m.</td>
+</tr>
+<tr>
+<td><code>mst_m_na_dum</code></td>
+<td>Délka nejkratšího propojení všech domů na jeden dům, m.</td>
+</tr>
+<tr>
+<td><code>kanalizace_verejna_pct</code></td>
+<td>Podíl domů se zjištěným údajem, které jsou napojené na veřejnou kanalizaci, %.</td>
+</tr>
+<tr>
+<td><code>plyn_pct</code></td>
+<td>Podíl domů se zjištěným údajem napojených na plyn z veřejné sítě, %.</td>
+</tr>
+<tr>
+<td><code>domy_po_2000_pct</code></td>
+<td>Podíl domů dokončených po roce 2000, %.</td>
+</tr>
+<tr>
+<td><code>katastralni_uzemi</code></td>
+<td>Počet katastrálních území obce.</td>
+</tr>
+<tr>
+<td><code>index_odlisnosti_od_HD</code></td>
+<td>Index odlišnosti od HD (0 = HD; čím menší, tím podobnější).</td>
 </tr>
 </tbody>
 </table>
@@ -737,11 +965,11 @@
 </tr>
 </tbody>
 </table>
-<h2 id="roztrisenost_4obcecsv">roztrisenost_4obce.csv</h2>
+<h2 id="roztrisenost_sousedecsv">roztrisenost_sousede.csv</h2>
 <p>Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jsou domy a kolik tvoří skupin.</p>
 <ul>
-<li>Odkaz: <a href="data/roztrisenost_4obce.csv">data/roztrisenost_4obce.csv</a></li>
-<li>Řádků: 4; jeden řádek = jedna obec</li>
+<li>Odkaz: <a href="data/roztrisenost_sousede.csv">data/roztrisenost_sousede.csv</a></li>
+<li>Řádků: 5; jeden řádek = jedna obec</li>
 <li>Zdroj: Výpočet z polohy budov v RÚIAN (stav 30. 9. 2026).</li>
 <li>Pozor: „Shluk N m“ = skupina domů, kde každý dům má souseda ve skupině blíž než N metrů.</li>
 </ul>
@@ -863,11 +1091,11 @@
 </tr>
 </tbody>
 </table>
-<h2 id="souhrn_obyvatel_rocne_2000-2025_4obce_okres_crcsv">souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv</h2>
-<p>Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro 4 obce, okres Frýdek-Místek a Českou republiku.</p>
+<h2 id="souhrn_obyvatel_rocne_2000-2025_sousede_okres_crcsv">souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv</h2>
+<p>Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.</p>
 <ul>
-<li>Odkaz: <a href="data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv">data/souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv</a></li>
-<li>Řádků: 154; jeden řádek = jedno území × rok</li>
+<li>Odkaz: <a href="data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv">data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv</a></li>
+<li>Řádků: 180; jeden řádek = jedno území × rok</li>
 <li>Zdroj: Český statistický úřad (sloupec <code>zdroj</code> uvádí kód datové sady).</li>
 <li>Pozor: Pohyb obyvatel (narození … vystěhovalí) je u některých let a území prázdný.</li>
 </ul>
@@ -881,7 +1109,7 @@
 <tbody>
 <tr>
 <td><code>uzemi</code></td>
-<td>HD, Pazderna, DD, Lucina, okres (Frýdek-Místek), CR (Česká republika).</td>
+<td>HD, Pazderna, DD, Lucina, Vojkovice, okres (Frýdek-Místek), CR (Česká republika).</td>
 </tr>
 <tr>
 <td><code>rok</code></td>
@@ -929,11 +1157,11 @@
 </tr>
 </tbody>
 </table>
-<h2 id="souhrn_po_obdobich_4obcecsv">souhrn_po_obdobich_4obce.csv</h2>
+<h2 id="souhrn_po_obdobich_sousedecsv">souhrn_po_obdobich_sousede.csv</h2>
 <p>Součty ukazatelů za volební období a průměr na obyvatele a rok.</p>
 <ul>
-<li>Odkaz: <a href="data/souhrn_po_obdobich_4obce.csv">data/souhrn_po_obdobich_4obce.csv</a></li>
-<li>Řádků: 256; jeden řádek = jedna obec × volební období × ukazatel</li>
+<li>Odkaz: <a href="data/souhrn_po_obdobich_sousede.csv">data/souhrn_po_obdobich_sousede.csv</a></li>
+<li>Řádků: 320; jeden řádek = jedna obec × volební období × ukazatel</li>
 <li>Zdroj: Výpočet z <code>finance_*</code>.</li>
 <li>Pozor: Za období se počítají rozpočtové roky, za které odpovídá dané zastupitelstvo (sloupec <code>roky</code>); období 2022–2026 zatím jen 2023–2025.</li>
 <li>Pozor: Hodnoty sloupce <code>ukazatel</code> mají stejný význam jako stejnojmenné sloupce v souborech <code>finance_*_2010-2025.csv</code> (viz výše).</li>
@@ -972,58 +1200,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="ukazatele_4obce_2010-2025csv">ukazatele_4obce_2010-2025.csv</h2>
-<p>Stejné ukazatele jako <code>finance_*</code> pro všechny 4 obce v dlouhém formátu (vhodné pro filtrování a grafy).</p>
-<ul>
-<li>Odkaz: <a href="data/ukazatele_4obce_2010-2025.csv">data/ukazatele_4obce_2010-2025.csv</a></li>
-<li>Řádků: 2560; jeden řádek = jedna obec × rok × ukazatel</li>
-<li>Zdroj: Monitor státní pokladny MF; obyvatelé ČSÚ.</li>
-<li>Pozor: Hodnoty sloupce <code>ukazatel</code> mají stejný význam jako stejnojmenné sloupce v souborech <code>finance_*_2010-2025.csv</code> (viz výše).</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Sloupec</th>
-<th>Význam</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>obec</code></td>
-<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice nebo Lučina.</td>
-</tr>
-<tr>
-<td><code>kod_obce</code></td>
-<td>Kód obce podle ČSÚ (HD 512192).</td>
-</tr>
-<tr>
-<td><code>rok</code></td>
-<td>Rozpočtový rok.</td>
-</tr>
-<tr>
-<td><code>ukazatel</code></td>
-<td>Kód ukazatele (např. <code>prijmy</code>, <code>io</code>, <code>penize_231_244_245</code>).</td>
-</tr>
-<tr>
-<td><code>kc</code></td>
-<td>Hodnota v Kč.</td>
-</tr>
-<tr>
-<td><code>obyv_1_7</code></td>
-<td>Obyvatelé k 1. 7.</td>
-</tr>
-<tr>
-<td><code>obyv_31_12</code></td>
-<td>Obyvatelé k 31. 12.</td>
-</tr>
-<tr>
-<td><code>kc_na_obyv</code></td>
-<td><code>kc</code> / <code>obyv_1_7</code>.</td>
-</tr>
-</tbody>
-</table>
 <h2 id="ukazatele_rozvaha_vzz_4_obcecsv">ukazatele_rozvaha_vzz_4_obce.csv</h2>
-<p>Rozvaha a výkaz zisku a ztráty 4 obcí: majetek, peníze, závazky, náklady, výnosy, odpisy.</p>
+<p>Rozvaha a výkaz zisku a ztráty HD, Pazderny, Dolních Domaslavic a Lučiny (zatím bez Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.</p>
 <ul>
 <li>Odkaz: <a href="data/ukazatele_rozvaha_vzz_4_obce.csv">data/ukazatele_rozvaha_vzz_4_obce.csv</a></li>
 <li>Řádků: 64; jeden řádek = jedna obec × rok (stav k 31. 12.)</li>
@@ -1180,6 +1358,56 @@
 </tr>
 </tbody>
 </table>
+<h2 id="ukazatele_sousede_2010-2025csv">ukazatele_sousede_2010-2025.csv</h2>
+<p>Stejné ukazatele jako <code>finance_*</code> pro HD a sousední obce (včetně Vojkovic) v dlouhém formátu (vhodné pro filtrování a grafy).</p>
+<ul>
+<li>Odkaz: <a href="data/ukazatele_sousede_2010-2025.csv">data/ukazatele_sousede_2010-2025.csv</a></li>
+<li>Řádků: 3200; jeden řádek = jedna obec × rok × ukazatel</li>
+<li>Zdroj: Monitor státní pokladny MF; obyvatelé ČSÚ.</li>
+<li>Pozor: Hodnoty sloupce <code>ukazatel</code> mají stejný význam jako stejnojmenné sloupce v souborech <code>finance_*_2010-2025.csv</code> (viz výše).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice nebo Lučina.</td>
+</tr>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rozpočtový rok.</td>
+</tr>
+<tr>
+<td><code>ukazatel</code></td>
+<td>Kód ukazatele (např. <code>prijmy</code>, <code>io</code>, <code>penize_231_244_245</code>).</td>
+</tr>
+<tr>
+<td><code>kc</code></td>
+<td>Hodnota v Kč.</td>
+</tr>
+<tr>
+<td><code>obyv_1_7</code></td>
+<td>Obyvatelé k 1. 7.</td>
+</tr>
+<tr>
+<td><code>obyv_31_12</code></td>
+<td>Obyvatelé k 31. 12.</td>
+</tr>
+<tr>
+<td><code>kc_na_obyv</code></td>
+<td><code>kc</code> na obyvatele: toky děleno <code>obyv_1_7</code>, stavy k 31. 12. děleno <code>obyv_31_12</code>.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="usneseni_zo_2022-2026csv">usneseni_zo_2022-2026.csv</h2>
 <p>Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 2018–2022).</p>
 <ul>
@@ -1251,11 +1479,11 @@
 </tr>
 </tbody>
 </table>
-<h2 id="vydaje_kategorie_4obce_2010-2025csv">vydaje_kategorie_4obce_2010-2025.csv</h2>
-<p>Výdaje 4 obcí rozdělené podle účelu (sloučené paragrafy) a podle druhu (sloučené položky).</p>
+<h2 id="vydaje_kategorie_sousede_2010-2025csv">vydaje_kategorie_sousede_2010-2025.csv</h2>
+<p>Výdaje HD a sousedních obcí rozdělené podle účelu (sloučené paragrafy) a podle druhu (sloučené položky).</p>
 <ul>
-<li>Odkaz: <a href="data/vydaje_kategorie_4obce_2010-2025.csv">data/vydaje_kategorie_4obce_2010-2025.csv</a></li>
-<li>Řádků: 1408; jeden řádek = jedna obec × rok × členění × kategorie</li>
+<li>Odkaz: <a href="data/vydaje_kategorie_sousede_2010-2025.csv">data/vydaje_kategorie_sousede_2010-2025.csv</a></li>
+<li>Řádků: 1760; jeden řádek = jedna obec × rok × členění × kategorie</li>
 <li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M.</li>
 <li>Pozor: Obě členění (<code>ucel</code>, <code>druh</code>) dávají v součtu stejné celkové výdaje; nesčítat je dohromady.</li>
 </ul>

@@ -10,8 +10,8 @@ import math
 import os
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-OBCE = ['Horní Domaslavice', 'Pazderna', 'Dolní Domaslavice', 'Lučina']
-SHORT = {'Horní Domaslavice': 'HD', 'Pazderna': 'Pazderna', 'Dolní Domaslavice': 'Dolní Dom.', 'Lučina': 'Lučina'}
+OBCE = ['Horní Domaslavice', 'Pazderna', 'Dolní Domaslavice', 'Lučina', 'Vojkovice']
+SHORT = {'Horní Domaslavice': 'HD', 'Pazderna': 'Pazderna', 'Dolní Domaslavice': 'Dolní Dom.', 'Lučina': 'Lučina', 'Vojkovice': 'Vojkovice', 'Písková Lhota': 'Písk. Lhota', 'Rebešovice': 'Rebešovice', 'Závišice': 'Závišice'}
 
 
 def esc(s):
@@ -228,7 +228,8 @@ def _fin(obec_file):
 
 
 FIN_FILES = {'Horní Domaslavice': 'finance_HD_2010-2025.csv', 'Pazderna': 'finance_PAZ_2010-2025.csv',
-             'Dolní Domaslavice': 'finance_DD_2010-2025.csv', 'Lučina': 'finance_LUC_2010-2025.csv'}
+             'Dolní Domaslavice': 'finance_DD_2010-2025.csv', 'Lučina': 'finance_LUC_2010-2025.csv',
+             'Vojkovice': 'finance_VOJ_2010-2025.csv'}
 MF = 'Zdroj: Monitor státní pokladny MF.'
 
 
@@ -268,7 +269,7 @@ def c_hd_ucty():
 
 def c_hd_vydaje_ucel():
     agg = collections.Counter()
-    for x in read_csv('vydaje_kategorie_4obce_2010-2025.csv'):
+    for x in read_csv('vydaje_kategorie_sousede_2010-2025.csv'):
         if x['obec'] == 'Horní Domaslavice' and x['cleneni'] == 'ucel' and 2022 <= int(x['rok']) <= 2025:
             agg[x['kategorie']] += float(x['kc']) / 1e6
     rows = [(k, v) for k, v in agg.most_common() if v >= 0.05]
@@ -276,7 +277,7 @@ def c_hd_vydaje_ucel():
 
 
 def c_hd_obyvatele():
-    r = [x for x in read_csv('souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv') if x['uzemi'] == 'HD']
+    r = [x for x in read_csv('souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv') if x['uzemi'] == 'HD']
     xs = [x['rok'] for x in r]
     nat, mig = [], []
     for x in r:
@@ -317,22 +318,24 @@ def c_srov_dane():
 
 
 def c_srov_obyv():
-    key = {'HD': 'Horní Domaslavice', 'Pazderna': 'Pazderna', 'DD': 'Dolní Domaslavice', 'Lucina': 'Lučina'}
-    rows = read_csv('souhrn_obyvatel_rocne_2000-2025_4obce_okres_CR.csv')
+    key = {'HD': 'Horní Domaslavice', 'Pazderna': 'Pazderna', 'DD': 'Dolní Domaslavice', 'Lucina': 'Lučina', 'Vojkovice': 'Vojkovice'}
+    rows = read_csv('souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv')
     xs = sorted({x['rok'] for x in rows})
     s = {}
     for code, n in key.items():
         vals = {x['rok']: float(x['obyvatel_31_12']) for x in rows if x['uzemi'] == code}
+        if not vals:
+            continue
         base = vals[xs[0]]
         s[n] = [100 * vals[y] / base if y in vals else None for y in xs]
-    s = {n: s[n] for n in OBCE}
+    s = {n: s[n] for n in OBCE if n in s}
     return lines_highlight('Růst počtu obyvatel (rok 2000 = 100)', 'Počet obyvatel ke 31. 12. jako index proti roku 2000. Zdroj: ČSÚ.', xs, s, '(index)', label_every=5)
 
 
 def c_srov_plochy():
     agg = collections.defaultdict(lambda: collections.Counter())
-    nm = {'HD': 'Horní Domaslavice', 'PA': 'Pazderna', 'DD': 'Dolní Domaslavice', 'LU': 'Lučina'}
-    for x in read_csv('CUZK_UHDP_druhy_pozemku_4obce_2004_2014_2026.csv'):
+    nm = {'HD': 'Horní Domaslavice', 'PA': 'Pazderna', 'DD': 'Dolní Domaslavice', 'LU': 'Lučina', 'VOJ': 'Vojkovice'}
+    for x in read_csv('CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv'):
         if x['rok'] == '2026':
             a = agg[nm[x['obec']]]
             a['orna'] += float(x['orna_ha'])
@@ -397,7 +400,46 @@ def c_usn_temata():
                 cnt.most_common(), 'usnesení')
 
 
+PODOBNE = ['Horní Domaslavice', 'Písková Lhota', 'Rebešovice', 'Závišice']
+POD_FILES = {'Horní Domaslavice': 'finance_HD_2010-2025.csv', 'Písková Lhota': 'finance_PL_2010-2025.csv',
+             'Rebešovice': 'finance_REB_2010-2025.csv', 'Závišice': 'finance_ZAV_2010-2025.csv'}
+
+
+def _pod_series(key, per):
+    out = {}
+    for n in PODOBNE:
+        r = _fin(POD_FILES[n])
+        out[n] = [float(x[key]) / float(x[per]) for x in r]
+    return [x['rok'] for x in _fin(POD_FILES[PODOBNE[0]])], out
+
+
+def c_pod_obyv():
+    rows = read_csv('podobne_obce_obyvatele_2000-2025.csv')
+    xs = sorted({x['rok'] for x in rows})
+    s = {n: [float(x['obyvatel_31_12']) for x in rows if x['obec'] == n] for n in PODOBNE}
+    return lines_highlight('Počet obyvatel 2000–2025', 'Stav ke 31. 12. Zdroj: ČSÚ.', xs, s, 'obyvatel', label_every=5)
+
+
+def c_pod_io():
+    xs, s = _pod_series('io', 'obyv_1_7')
+    return lines_highlight('Investice a opravy na obyvatele po letech', 'Kč na obyvatele a rok. ' + MF, xs, s, 'Kč', label_every=3)
+
+
+def c_pod_penize():
+    xs, s = _pod_series('penize_231_244_245', 'obyv_31_12')
+    return lines_highlight('Peníze na účtech na obyvatele', 'Kč na obyvatele k 31. 12. ' + MF, xs, s, 'Kč', label_every=3)
+
+
+def c_pod_obdobi():
+    v = {(x['obec'], x['ukazatel']): float(x['kc_na_obyv_a_rok']) for x in read_csv('podobne_obce_souhrn_po_obdobich.csv')
+         if x['obdobi'] == '2022–2026' and x['kc_na_obyv_a_rok']}
+    return hbar('Investice a opravy na obyvatele a rok, 2023–2025',
+                'Kč na obyvatele a rok; investice (třída 6) + opravy (položka 5171). ' + MF,
+                [(n, v[(n, 'io')]) for n in PODOBNE], 'Kč na obyvatele a rok', hl='Horní Domaslavice')
+
+
 CHARTS = {
+    'pod-obyv': c_pod_obyv, 'pod-io': c_pod_io, 'pod-penize': c_pod_penize, 'pod-obdobi': c_pod_obdobi,
     'hd-io-roky': c_hd_io_roky, 'hd-dotace-roky': c_hd_dotace_roky, 'hd-prijmy-roky': c_hd_prijmy_roky,
     'hd-ucty': c_hd_ucty, 'hd-vydaje-ucel': c_hd_vydaje_ucel, 'hd-obyvatele-pohyb': c_hd_obyvatele,
     'srov-io': c_srov_io, 'srov-penize': c_srov_penize, 'srov-dane': c_srov_dane, 'srov-obyv': c_srov_obyv,

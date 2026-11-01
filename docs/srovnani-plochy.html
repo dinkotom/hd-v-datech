@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rozloha a druhy pozemků – Horní Domaslavice v datech</title>
-<meta name="description" content="Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pazderně, Dolních Domaslavicích a Lučině a jejich vývoj od roku 2004.">
+<meta name="description" content="Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pazderně, Dolních Domaslavicích, Lučině a Vojkovicích a jejich vývoj od roku 2004.">
 <link rel="stylesheet" href="static/style.css">
 <link rel="alternate" type="text/markdown" href="srovnani-plochy.md">
 <script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
@@ -45,6 +45,7 @@
 <li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
 <li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
 <li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
+<li><a href="srovnani-podobne-obce.html">Podobné obce v Česku</a></li>
 </ul></details>
 <a class="top-link" href="zeptejte-se-ai.html">Zeptejte se AI</a>
 <a class="top-link" href="data.html">Data ke stažení</a>
@@ -54,13 +55,14 @@
 <main>
 <h1>Rozloha a druhy pozemků</h1>
 
-<p class="meta">Aktualizováno 31. 10. 2026</p><p>Stránka porovnává rozlohu čtyř obcí a to, jak jsou jejich pozemky evidovány v katastru nemovitostí: orná půda, louky, zahrady, les, voda a zastavěné plochy. Ukazuje také, jak se skladba pozemků změnila od roku 2004. Zdrojem jsou otevřená data ČÚZK, Úhrnné hodnoty druhů pozemků (services.cuzk.cz/sestavy/UHDP), ke stavům 1. 10. 2026, 1. 1. 2014 a 1. 1. 2004. Počty obyvatel jsou k 31. 12. 2025 (ČSÚ).</p>
+<p class="meta">Aktualizováno 1. 11. 2026</p><p>Stránka porovnává rozlohu pěti obcí a to, jak jsou jejich pozemky evidovány v katastru nemovitostí: orná půda, louky, zahrady, les, voda a zastavěné plochy. Ukazuje také, jak se skladba pozemků změnila od roku 2004. Zdrojem jsou otevřená data ČÚZK, Úhrnné hodnoty druhů pozemků (services.cuzk.cz/sestavy/UHDP), ke stavům 1. 10. 2026, 1. 1. 2014 a 1. 1. 2004. Počty obyvatel jsou k 31. 12. 2025 (ČSÚ).</p>
 <p>Obce se skládají z těchto katastrálních území:</p>
 <ul>
 <li><strong>HD:</strong> Horní Domaslavice (642789)</li>
 <li><strong>PA:</strong> Pazderna (718602)</li>
 <li><strong>DD:</strong> Dolní Domaslavice (628921) a Volovec (628930)</li>
 <li><strong>LU:</strong> Lučina (688371) a Kocurovice (688363)</li>
+<li><strong>VOJ:</strong> Vojkovice (784575)</li>
 </ul>
 <h2 id="rozloha">Rozloha</h2>
 <table>
@@ -71,6 +73,7 @@
 <th style="text-align: right;">PA</th>
 <th style="text-align: right;">DD</th>
 <th style="text-align: right;">LU</th>
+<th style="text-align: right;">VOJ</th>
 </tr>
 </thead>
 <tbody>
@@ -80,6 +83,7 @@
 <td style="text-align: right;">321,9</td>
 <td style="text-align: right;">736,1</td>
 <td style="text-align: right;">744,0</td>
+<td style="text-align: right;">488,4</td>
 </tr>
 <tr>
 <td>z toho bez vodní plochy (ha)</td>
@@ -87,6 +91,7 @@
 <td style="text-align: right;">320,6</td>
 <td style="text-align: right;">733,4</td>
 <td style="text-align: right;">450,6</td>
+<td style="text-align: right;">475,3</td>
 </tr>
 <tr>
 <td>Obyvatelé 2025</td>
@@ -94,6 +99,7 @@
 <td style="text-align: right;">422</td>
 <td style="text-align: right;">1 467</td>
 <td style="text-align: right;">1 596</td>
+<td style="text-align: right;">800</td>
 </tr>
 <tr>
 <td>Hustota (obyv./km²)</td>
@@ -101,6 +107,7 @@
 <td style="text-align: right;">131</td>
 <td style="text-align: right;">199</td>
 <td style="text-align: right;">215</td>
+<td style="text-align: right;">164</td>
 </tr>
 <tr>
 <td>Hustota bez vodní plochy (obyv./km²)</td>
@@ -108,6 +115,7 @@
 <td style="text-align: right;">132</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;"><strong>354</strong></td>
+<td style="text-align: right;">168</td>
 </tr>
 <tr>
 <td>Počet parcel 2026</td>
@@ -115,12 +123,13 @@
 <td style="text-align: right;">733</td>
 <td style="text-align: right;">3 913</td>
 <td style="text-align: right;">3 099</td>
+<td style="text-align: right;">1 637</td>
 </tr>
 </tbody>
 </table>
-<p>Okres Frýdek-Místek má zhruba 175 obyvatel na km² (asi 214 tis. obyvatel na 1 208 km²), všechny obce kromě Pazderny jsou tedy hustěji osídlené.</p>
+<p>Okres Frýdek-Místek má zhruba 175 obyvatel na km² (asi 214 tis. obyvatel na 1 208 km²), všechny obce kromě Pazderny a Vojkovic jsou tedy hustěji osídlené.</p>
 <h2 id="druhy-pozemků-2026-ha-a-podíl-z-rozlohy">Druhy pozemků 2026 (ha a podíl z rozlohy)</h2>
-<figure class="chart"><h3>Z čeho se skládá území obcí (2026)</h3><p class="sub">Podíl druhů pozemků z rozlohy obce. Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků k 1. 10. 2026.</p><div class="legend"><span class="lg"><i class="lg-sq c2"></i>Orná půda</span><span class="lg"><i class="lg-sq c3"></i>Louky a pastviny</span><span class="lg"><i class="lg-sq c4"></i>Zahrady a sady</span><span class="lg"><i class="lg-sq c6"></i>Les</span><span class="lg"><i class="lg-sq c1"></i>Vodní plocha</span><span class="lg"><i class="lg-sq c5"></i>Zastavěné a ostatní plochy</span></div><svg viewBox="0 0 640 172" role="img" aria-label="Z čeho se skládá území obcí (2026)"><text x="140" y="21.0" text-anchor="end">Horní Domaslavice</text><rect class="c2" x="150.0" y="2" width="264.7" height="30" rx="2" data-tip="Horní Domaslavice · Orná půda: 280,3 ha (55 %)"/><text class="in" x="282.4" y="21.0" text-anchor="middle">55 %</text><rect class="c3" x="416.7" y="2" width="72.8" height="30" rx="2" data-tip="Horní Domaslavice · Louky a pastviny: 78,6 ha (16 %)"/><text class="in" x="453.1" y="21.0" text-anchor="middle">16 %</text><rect class="c4" x="491.5" y="2" width="30.0" height="30" rx="2" data-tip="Horní Domaslavice · Zahrady a sady: 33,6 ha (7 %)"/><rect class="c6" x="523.5" y="2" width="56.3" height="30" rx="2" data-tip="Horní Domaslavice · Les: 61,3 ha (12 %)"/><text class="in" x="551.7" y="21.0" text-anchor="middle">12 %</text><rect class="c1" x="581.8" y="2" width="4.1" height="30" rx="2" data-tip="Horní Domaslavice · Vodní plocha: 6,4 ha (1 %)"/><rect class="c5" x="588.0" y="2" width="42.0" height="30" rx="2" data-tip="Horní Domaslavice · Zastavěné a ostatní plochy: 46,3 ha (9 %)"/><text class="in" x="609.0" y="21.0" text-anchor="middle">9 %</text><text x="140" y="63.0" text-anchor="end">Pazderna</text><rect class="c2" x="150.0" y="44" width="265.9" height="30" rx="2" data-tip="Pazderna · Orná půda: 178,9 ha (56 %)"/><text class="in" x="283.0" y="63.0" text-anchor="middle">56 %</text><rect class="c3" x="417.9" y="44" width="33.0" height="30" rx="2" data-tip="Pazderna · Louky a pastviny: 23,4 ha (7 %)"/><rect class="c4" x="453.0" y="44" width="30.8" height="30" rx="2" data-tip="Pazderna · Zahrady a sady: 21,9 ha (7 %)"/><rect class="c6" x="485.7" y="44" width="114.4" height="30" rx="2" data-tip="Pazderna · Les: 77,7 ha (24 %)"/><text class="in" x="542.9" y="63.0" text-anchor="middle">24 %</text><rect class="c1" x="602.1" y="44" width="0.0" height="30" rx="2" data-tip="Pazderna · Vodní plocha: 1,3 ha (0 %)"/><rect class="c5" x="604.1" y="44" width="25.9" height="30" rx="2" data-tip="Pazderna · Zastavěné a ostatní plochy: 18,7 ha (6 %)"/><text x="140" y="105.0" text-anchor="end">Dolní Domaslavice</text><rect class="c2" x="150.0" y="86" width="250.0" height="30" rx="2" data-tip="Dolní Domaslavice · Orná půda: 384,8 ha (52 %)"/><text class="in" x="275.0" y="105.0" text-anchor="middle">52 %</text><rect class="c3" x="402.0" y="86" width="50.4" height="30" rx="2" data-tip="Dolní Domaslavice · Louky a pastviny: 79,9 ha (11 %)"/><text class="in" x="427.2" y="105.0" text-anchor="middle">11 %</text><rect class="c4" x="454.4" y="86" width="24.7" height="30" rx="2" data-tip="Dolní Domaslavice · Zahrady a sady: 40,7 ha (6 %)"/><rect class="c6" x="481.0" y="86" width="103.4" height="30" rx="2" data-tip="Dolní Domaslavice · Les: 160,9 ha (22 %)"/><text class="in" x="532.7" y="105.0" text-anchor="middle">22 %</text><rect class="c1" x="586.4" y="86" width="0.0" height="30" rx="2" data-tip="Dolní Domaslavice · Vodní plocha: 2,7 ha (0 %)"/><rect class="c5" x="588.2" y="86" width="41.8" height="30" rx="2" data-tip="Dolní Domaslavice · Zastavěné a ostatní plochy: 66,9 ha (9 %)"/><text class="in" x="609.1" y="105.0" text-anchor="middle">9 %</text><text x="140" y="147.0" text-anchor="end">Lučina</text><rect class="c2" x="150.0" y="128" width="176.5" height="30" rx="2" data-tip="Lučina · Orná půda: 275,5 ha (37 %)"/><text class="in" x="238.3" y="147.0" text-anchor="middle">37 %</text><rect class="c3" x="328.5" y="128" width="23.4" height="30" rx="2" data-tip="Lučina · Louky a pastviny: 39,2 ha (5 %)"/><rect class="c4" x="353.9" y="128" width="22.6" height="30" rx="2" data-tip="Lučina · Zahrady a sady: 37,9 ha (5 %)"/><rect class="c6" x="378.5" y="128" width="19.3" height="30" rx="2" data-tip="Lučina · Les: 32,8 ha (4 %)"/><rect class="c1" x="399.7" y="128" width="188.1" height="30" rx="2" data-tip="Lučina · Vodní plocha: 293,4 ha (39 %)"/><text class="in" x="493.8" y="147.0" text-anchor="middle">39 %</text><rect class="c5" x="589.8" y="128" width="40.2" height="30" rx="2" data-tip="Lučina · Zastavěné a ostatní plochy: 65,1 ha (9 %)"/></svg><details><summary>Zobrazit jako tabulku</summary><table><thead><tr><th>Obec</th><th>Orná půda</th><th>Louky a pastviny</th><th>Zahrady a sady</th><th>Les</th><th>Vodní plocha</th><th>Zastavěné a ostatní plochy</th></tr></thead><tbody><tr><td>Horní Domaslavice</td><td>280,3</td><td>78,6</td><td>33,6</td><td>61,3</td><td>6,4</td><td>46,3</td></tr><tr><td>Pazderna</td><td>178,9</td><td>23,4</td><td>21,9</td><td>77,7</td><td>1,3</td><td>18,7</td></tr><tr><td>Dolní Domaslavice</td><td>384,8</td><td>79,9</td><td>40,7</td><td>160,9</td><td>2,7</td><td>66,9</td></tr><tr><td>Lučina</td><td>275,5</td><td>39,2</td><td>37,9</td><td>32,8</td><td>293,4</td><td>65,1</td></tr></tbody></table></details></figure>
+<figure class="chart"><h3>Z čeho se skládá území obcí (2026)</h3><p class="sub">Podíl druhů pozemků z rozlohy obce. Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků k 1. 10. 2026.</p><div class="legend"><span class="lg"><i class="lg-sq c2"></i>Orná půda</span><span class="lg"><i class="lg-sq c3"></i>Louky a pastviny</span><span class="lg"><i class="lg-sq c4"></i>Zahrady a sady</span><span class="lg"><i class="lg-sq c6"></i>Les</span><span class="lg"><i class="lg-sq c1"></i>Vodní plocha</span><span class="lg"><i class="lg-sq c5"></i>Zastavěné a ostatní plochy</span></div><svg viewBox="0 0 640 214" role="img" aria-label="Z čeho se skládá území obcí (2026)"><text x="140" y="21.0" text-anchor="end">Horní Domaslavice</text><rect class="c2" x="150.0" y="2" width="264.7" height="30" rx="2" data-tip="Horní Domaslavice · Orná půda: 280,3 ha (55 %)"/><text class="in" x="282.4" y="21.0" text-anchor="middle">55 %</text><rect class="c3" x="416.7" y="2" width="72.8" height="30" rx="2" data-tip="Horní Domaslavice · Louky a pastviny: 78,6 ha (16 %)"/><text class="in" x="453.1" y="21.0" text-anchor="middle">16 %</text><rect class="c4" x="491.5" y="2" width="30.0" height="30" rx="2" data-tip="Horní Domaslavice · Zahrady a sady: 33,6 ha (7 %)"/><rect class="c6" x="523.5" y="2" width="56.3" height="30" rx="2" data-tip="Horní Domaslavice · Les: 61,3 ha (12 %)"/><text class="in" x="551.7" y="21.0" text-anchor="middle">12 %</text><rect class="c1" x="581.8" y="2" width="4.1" height="30" rx="2" data-tip="Horní Domaslavice · Vodní plocha: 6,4 ha (1 %)"/><rect class="c5" x="588.0" y="2" width="42.0" height="30" rx="2" data-tip="Horní Domaslavice · Zastavěné a ostatní plochy: 46,3 ha (9 %)"/><text class="in" x="609.0" y="21.0" text-anchor="middle">9 %</text><text x="140" y="63.0" text-anchor="end">Pazderna</text><rect class="c2" x="150.0" y="44" width="265.9" height="30" rx="2" data-tip="Pazderna · Orná půda: 178,9 ha (56 %)"/><text class="in" x="283.0" y="63.0" text-anchor="middle">56 %</text><rect class="c3" x="417.9" y="44" width="33.0" height="30" rx="2" data-tip="Pazderna · Louky a pastviny: 23,4 ha (7 %)"/><rect class="c4" x="453.0" y="44" width="30.8" height="30" rx="2" data-tip="Pazderna · Zahrady a sady: 21,9 ha (7 %)"/><rect class="c6" x="485.7" y="44" width="114.4" height="30" rx="2" data-tip="Pazderna · Les: 77,7 ha (24 %)"/><text class="in" x="542.9" y="63.0" text-anchor="middle">24 %</text><rect class="c1" x="602.1" y="44" width="0.0" height="30" rx="2" data-tip="Pazderna · Vodní plocha: 1,3 ha (0 %)"/><rect class="c5" x="604.1" y="44" width="25.9" height="30" rx="2" data-tip="Pazderna · Zastavěné a ostatní plochy: 18,7 ha (6 %)"/><text x="140" y="105.0" text-anchor="end">Dolní Domaslavice</text><rect class="c2" x="150.0" y="86" width="250.0" height="30" rx="2" data-tip="Dolní Domaslavice · Orná půda: 384,8 ha (52 %)"/><text class="in" x="275.0" y="105.0" text-anchor="middle">52 %</text><rect class="c3" x="402.0" y="86" width="50.4" height="30" rx="2" data-tip="Dolní Domaslavice · Louky a pastviny: 79,9 ha (11 %)"/><text class="in" x="427.2" y="105.0" text-anchor="middle">11 %</text><rect class="c4" x="454.4" y="86" width="24.7" height="30" rx="2" data-tip="Dolní Domaslavice · Zahrady a sady: 40,7 ha (6 %)"/><rect class="c6" x="481.0" y="86" width="103.4" height="30" rx="2" data-tip="Dolní Domaslavice · Les: 160,9 ha (22 %)"/><text class="in" x="532.7" y="105.0" text-anchor="middle">22 %</text><rect class="c1" x="586.4" y="86" width="0.0" height="30" rx="2" data-tip="Dolní Domaslavice · Vodní plocha: 2,7 ha (0 %)"/><rect class="c5" x="588.2" y="86" width="41.8" height="30" rx="2" data-tip="Dolní Domaslavice · Zastavěné a ostatní plochy: 66,9 ha (9 %)"/><text class="in" x="609.1" y="105.0" text-anchor="middle">9 %</text><text x="140" y="147.0" text-anchor="end">Lučina</text><rect class="c2" x="150.0" y="128" width="176.5" height="30" rx="2" data-tip="Lučina · Orná půda: 275,5 ha (37 %)"/><text class="in" x="238.3" y="147.0" text-anchor="middle">37 %</text><rect class="c3" x="328.5" y="128" width="23.4" height="30" rx="2" data-tip="Lučina · Louky a pastviny: 39,2 ha (5 %)"/><rect class="c4" x="353.9" y="128" width="22.6" height="30" rx="2" data-tip="Lučina · Zahrady a sady: 37,9 ha (5 %)"/><rect class="c6" x="378.5" y="128" width="19.3" height="30" rx="2" data-tip="Lučina · Les: 32,8 ha (4 %)"/><rect class="c1" x="399.7" y="128" width="188.1" height="30" rx="2" data-tip="Lučina · Vodní plocha: 293,4 ha (39 %)"/><text class="in" x="493.8" y="147.0" text-anchor="middle">39 %</text><rect class="c5" x="589.8" y="128" width="40.2" height="30" rx="2" data-tip="Lučina · Zastavěné a ostatní plochy: 65,1 ha (9 %)"/><text x="140" y="189.0" text-anchor="end">Vojkovice</text><rect class="c2" x="150.0" y="170" width="227.2" height="30" rx="2" data-tip="Vojkovice · Orná půda: 232,3 ha (48 %)"/><text class="in" x="263.6" y="189.0" text-anchor="middle">48 %</text><rect class="c3" x="379.2" y="170" width="41.6" height="30" rx="2" data-tip="Vojkovice · Louky a pastviny: 44,2 ha (9 %)"/><text class="in" x="400.0" y="189.0" text-anchor="middle">9 %</text><rect class="c4" x="422.9" y="170" width="41.0" height="30" rx="2" data-tip="Vojkovice · Zahrady a sady: 43,5 ha (9 %)"/><rect class="c6" x="465.8" y="170" width="96.7" height="30" rx="2" data-tip="Vojkovice · Les: 100,0 ha (20 %)"/><text class="in" x="514.2" y="189.0" text-anchor="middle">20 %</text><rect class="c1" x="564.6" y="170" width="10.9" height="30" rx="2" data-tip="Vojkovice · Vodní plocha: 13,1 ha (3 %)"/><rect class="c5" x="577.5" y="170" width="52.5" height="30" rx="2" data-tip="Vojkovice · Zastavěné a ostatní plochy: 55,2 ha (11 %)"/><text class="in" x="603.7" y="189.0" text-anchor="middle">11 %</text></svg><details><summary>Zobrazit jako tabulku</summary><table><thead><tr><th>Obec</th><th>Orná půda</th><th>Louky a pastviny</th><th>Zahrady a sady</th><th>Les</th><th>Vodní plocha</th><th>Zastavěné a ostatní plochy</th></tr></thead><tbody><tr><td>Horní Domaslavice</td><td>280,3</td><td>78,6</td><td>33,6</td><td>61,3</td><td>6,4</td><td>46,3</td></tr><tr><td>Pazderna</td><td>178,9</td><td>23,4</td><td>21,9</td><td>77,7</td><td>1,3</td><td>18,7</td></tr><tr><td>Dolní Domaslavice</td><td>384,8</td><td>79,9</td><td>40,7</td><td>160,9</td><td>2,7</td><td>66,9</td></tr><tr><td>Lučina</td><td>275,5</td><td>39,2</td><td>37,9</td><td>32,8</td><td>293,4</td><td>65,1</td></tr><tr><td>Vojkovice</td><td>232,3</td><td>44,2</td><td>43,5</td><td>100,0</td><td>13,1</td><td>55,2</td></tr></tbody></table></details></figure>
 
 <table>
 <thead>
@@ -130,6 +139,7 @@
 <th style="text-align: right;">PA</th>
 <th style="text-align: right;">DD</th>
 <th style="text-align: right;">LU</th>
+<th style="text-align: right;">VOJ</th>
 </tr>
 </thead>
 <tbody>
@@ -139,6 +149,7 @@
 <td style="text-align: right;">178,9 (56 %)</td>
 <td style="text-align: right;">384,8 (52 %)</td>
 <td style="text-align: right;">275,5 (37 %)</td>
+<td style="text-align: right;">232,3 (48 %)</td>
 </tr>
 <tr>
 <td>Trvalý travní porost</td>
@@ -146,6 +157,7 @@
 <td style="text-align: right;">23,4 (7 %)</td>
 <td style="text-align: right;">80,0 (11 %)</td>
 <td style="text-align: right;">39,2 (5 %)</td>
+<td style="text-align: right;">44,2 (9 %)</td>
 </tr>
 <tr>
 <td>Zahrada</td>
@@ -153,6 +165,7 @@
 <td style="text-align: right;">21,9 (7 %)</td>
 <td style="text-align: right;">40,7 (6 %)</td>
 <td style="text-align: right;">37,5 (5 %)</td>
+<td style="text-align: right;">42,9 (9 %)</td>
 </tr>
 <tr>
 <td>Ovocný sad</td>
@@ -160,6 +173,7 @@
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0,5</td>
+<td style="text-align: right;">0,6</td>
 </tr>
 <tr>
 <td><strong>Zemědělská půda celkem</strong></td>
@@ -167,6 +181,7 @@
 <td style="text-align: right;">224,2 (70 %)</td>
 <td style="text-align: right;">505,5 (69 %)</td>
 <td style="text-align: right;">352,7 (47 %)</td>
+<td style="text-align: right;">320,0 (66 %)</td>
 </tr>
 <tr>
 <td>Lesní pozemek</td>
@@ -174,6 +189,7 @@
 <td style="text-align: right;">77,7 (24 %)</td>
 <td style="text-align: right;">160,9 (22 %)</td>
 <td style="text-align: right;">32,8 (4 %)</td>
+<td style="text-align: right;">100,1 (20 %)</td>
 </tr>
 <tr>
 <td>Vodní plocha</td>
@@ -181,6 +197,7 @@
 <td style="text-align: right;">1,3 (0,4 %)</td>
 <td style="text-align: right;">2,7 (0,4 %)</td>
 <td style="text-align: right;"><strong>293,4 (39 %)</strong></td>
+<td style="text-align: right;">13,1 (2,7 %)</td>
 </tr>
 <tr>
 <td>Zastavěná plocha a nádvoří</td>
@@ -188,6 +205,7 @@
 <td style="text-align: right;">5,7 (1,8 %)</td>
 <td style="text-align: right;">16,4 (2,2 %)</td>
 <td style="text-align: right;">17,0 (2,3 %)</td>
+<td style="text-align: right;">7,9 (1,6 %)</td>
 </tr>
 <tr>
 <td>Ostatní plocha (cesty, zeleň, sport…)</td>
@@ -195,6 +213,7 @@
 <td style="text-align: right;">12,9 (4,0 %)</td>
 <td style="text-align: right;">50,5 (6,9 %)</td>
 <td style="text-align: right;">48,1 (6,5 %)</td>
+<td style="text-align: right;">47,3 (9,7 %)</td>
 </tr>
 </tbody>
 </table>
@@ -207,6 +226,7 @@
 <th style="text-align: right;">PA</th>
 <th style="text-align: right;">DD</th>
 <th style="text-align: right;">LU</th>
+<th style="text-align: right;">VOJ</th>
 </tr>
 </thead>
 <tbody>
@@ -216,6 +236,7 @@
 <td style="text-align: right;">1 842</td>
 <td style="text-align: right;">1 097</td>
 <td style="text-align: right;">206</td>
+<td style="text-align: right;">1 251</td>
 </tr>
 <tr>
 <td>Zahrada</td>
@@ -223,6 +244,7 @@
 <td style="text-align: right;">519</td>
 <td style="text-align: right;">278</td>
 <td style="text-align: right;">235</td>
+<td style="text-align: right;">536</td>
 </tr>
 <tr>
 <td>Zastavěná plocha</td>
@@ -230,6 +252,7 @@
 <td style="text-align: right;">135</td>
 <td style="text-align: right;">112</td>
 <td style="text-align: right;">107</td>
+<td style="text-align: right;">99</td>
 </tr>
 <tr>
 <td>Ostatní plocha</td>
@@ -237,10 +260,11 @@
 <td style="text-align: right;">306</td>
 <td style="text-align: right;">344</td>
 <td style="text-align: right;">301</td>
+<td style="text-align: right;">592</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Koeficient ekologické stability</strong>, zjednodušeně (les + travní porost + voda + sady) ÷ (orná + zastavěná): HD <strong>0,50</strong>, PA 0,55, DD 0,61, LU 1,25 (u Lučiny díky přehradě; bez ní 0,25). Hodnota pod 1 znamená krajinu, kde převažují plochy intenzivně využívané nad stabilními. Krajina HD je tak výrazně zemědělská.</p>
+<p><strong>Koeficient ekologické stability</strong>, zjednodušeně (les + travní porost + voda + sady) ÷ (orná + zastavěná): HD <strong>0,50</strong>, PA 0,55, DD 0,61, VOJ 0,66, LU 1,25 (u Lučiny díky přehradě; bez ní 0,25). Hodnota pod 1 znamená krajinu, kde převažují plochy intenzivně využívané nad stabilními. Krajina HD je tak výrazně zemědělská.</p>
 <h2 id="vývoj-2004--2026-ha">Vývoj 2004 → 2026 (ha)</h2>
 <table>
 <thead>
@@ -250,15 +274,17 @@
 <th style="text-align: right;">PA</th>
 <th style="text-align: right;">DD</th>
 <th style="text-align: right;">LU</th>
+<th style="text-align: right;">VOJ</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Orná půda</td>
 <td style="text-align: right;">−5,6</td>
-<td style="text-align: right;"><strong>−25,8</strong></td>
+<td style="text-align: right;">−25,8</td>
 <td style="text-align: right;">−3,9</td>
 <td style="text-align: right;">−19,1</td>
+<td style="text-align: right;"><strong>−38,4</strong></td>
 </tr>
 <tr>
 <td>Travní porost</td>
@@ -266,6 +292,7 @@
 <td style="text-align: right;">+12,2</td>
 <td style="text-align: right;">+0,5</td>
 <td style="text-align: right;">+8,6</td>
+<td style="text-align: right;">+5,1</td>
 </tr>
 <tr>
 <td>Zahrada</td>
@@ -273,6 +300,7 @@
 <td style="text-align: right;">+14,1</td>
 <td style="text-align: right;">+1,2</td>
 <td style="text-align: right;">+7,4</td>
+<td style="text-align: right;"><strong>+28,8</strong></td>
 </tr>
 <tr>
 <td>Les</td>
@@ -280,6 +308,7 @@
 <td style="text-align: right;">+0,5</td>
 <td style="text-align: right;">−1,6</td>
 <td style="text-align: right;">−1,7</td>
+<td style="text-align: right;">−0,5</td>
 </tr>
 <tr>
 <td>Zastavěná plocha</td>
@@ -287,6 +316,7 @@
 <td style="text-align: right;">+0,9 (+19 %)</td>
 <td style="text-align: right;">+3,1 (+23 %)</td>
 <td style="text-align: right;">+3,6 (+27 %)</td>
+<td style="text-align: right;">−0,5 (−6 %)</td>
 </tr>
 <tr>
 <td>Ostatní plocha</td>
@@ -294,6 +324,7 @@
 <td style="text-align: right;">−2,2</td>
 <td style="text-align: right;">+0,1</td>
 <td style="text-align: right;">0,0</td>
+<td style="text-align: right;">+7,2</td>
 </tr>
 <tr>
 <td>Počet parcel</td>
@@ -301,25 +332,27 @@
 <td style="text-align: right;">+131</td>
 <td style="text-align: right;">+693</td>
 <td style="text-align: right;">+697</td>
+<td style="text-align: right;">+428 (+35 %)</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li><strong>HD:</strong> úbytek orné půdy je mírný (−2 % za 22 let). Zastavěná plocha vzrostla o 30 %, ale v roce 2026 stále tvoří jen 2,5 % rozlohy obce. Počet parcel vzrostl o 61 %, nejvíc ze čtyř obcí, což odpovídá dělení pozemků pro nové rodinné domy. Les přibyl o 3,8 ha.</li>
+<li><strong>HD:</strong> úbytek orné půdy je mírný (−2 % za 22 let). Zastavěná plocha vzrostla o 30 %, ale v roce 2026 stále tvoří jen 2,5 % rozlohy obce. Počet parcel vzrostl o 61 %, nejvíc z pěti obcí, což odpovídá dělení pozemků pro nové rodinné domy. Les přibyl o 3,8 ha.</li>
 <li><strong>Pazderna:</strong> velký přesun z orné půdy do zahrad a travních porostů v letech 2014–2026 (orná −24 ha, zahrady +13, travní porost +12). Na novou výstavbu je to příliš, pravděpodobně jde o obnovu katastrálního operátu nebo pozemkové úpravy, ne o skutečnou změnu využití. Neověřeno.</li>
+<li><strong>Vojkovice:</strong> podobný přesun jako v Pazderně, z orné půdy (−38 ha) hlavně do zahrad (+29 ha) a ostatních ploch, převážně v letech 2014–2026. Zastavěná plocha mírně ubyla, i když v obci přibývají domy; i to ukazuje spíš na obnovu katastrálního operátu než na skutečnou změnu. Neověřeno.</li>
 <li><strong>DD:</strong> mezi lety 2004 a 2014 se posunula hranice mezi katastrálními územími Dolní Domaslavice a Volovec; za obec celkem se rozloha nezměnila.</li>
 </ul>
 <h2 id="co-z-toho-plyne">Co z toho plyne</h2>
 <ol type="1">
-<li><strong>HD jsou nejmenší ze tří srovnatelně velkých obcí</strong> (5,1 km² proti 7,4 km² v DD a Lučině), ale počtem obyvatel se jim blíží. Hustotou jsou na úrovni Lučiny a vyšší než DD.</li>
-<li><strong>HD mají nejzemědělštější krajinu</strong>: 78 % zemědělské půdy a jen 12 % lesa. Lesa na obyvatele mají HD necelou třetinu proti Pazderně a polovinu proti DD; méně má jen Lučina, která má místo lesa přehradu.</li>
+<li><strong>HD jsou nejmenší ze tří srovnatelně velkých obcí</strong> (5,1 km² proti 7,4 km² v DD a Lučině), ale počtem obyvatel se jim blíží. Hustotou jsou na úrovni Lučiny a vyšší než DD. Vojkovice mají rozlohu podobnou HD (4,9 km²), ale o třetinu méně obyvatel.</li>
+<li><strong>HD mají nejzemědělštější krajinu</strong>: 78 % zemědělské půdy a jen 12 % lesa. Lesa na obyvatele mají HD necelou třetinu proti Pazderně, polovinu proti DD a necelou polovinu proti Vojkovicím; méně má jen Lučina, která má místo lesa přehradu.</li>
 <li><strong>Zástavba roste, ale krajinu zatím nemění</strong>: zastavěné plochy přibylo za 22 let 2,9 ha. Nové domy ale mají kolem sebe zahrady a travní plochy, takže skutečný zábor pro bydlení je větší, než ukazuje zastavěná plocha. Územní plán má podle návrhu zprávy o uplatňování ještě 51 ha nevyužitých ploch pro bydlení, což je zhruba desetina rozlohy obce (viz <a href="srovnani-obyvatelstvo-vystavba.html">obyvatelstvo a výstavba</a>).</li>
-<li><strong>Ostatní plocha</strong> (cesty, veřejná zeleň, sportoviště) na obyvatele je ve všech obcích podobná, kolem 300 m².</li>
+<li><strong>Ostatní plocha</strong> (cesty, veřejná zeleň, sportoviště) na obyvatele je v HD, Pazderně, DD a Lučině podobná, kolem 300 m². Vojkovice mají téměř dvojnásobek (592 m²), mimo jiné kvůli dálnici D48, která obcí prochází.</li>
 </ol>
 <h2 id="pozor">Pozor</h2>
 <ul>
 <li>Druhy pozemků jsou údaje z katastru: popisují, jak je pozemek evidován, ne nutně jak se skutečně využívá. Zahrada u nového domu může být v katastru stále orná půda nebo travní porost.</li>
-<li>Změny v čase jsou zčásti dané obnovou katastrálního operátu (přesnější měření, digitalizace map), ne skutečnou změnou krajiny. U Pazderny pravděpodobně výrazně.</li>
+<li>Změny v čase jsou zčásti dané obnovou katastrálního operátu (přesnější měření, digitalizace map), ne skutečnou změnou krajiny. U Pazderny a Vojkovic pravděpodobně výrazně.</li>
 <li>Rok 2014 a 2004 jsou stavy k 1. 1., rok 2026 k 1. 10.</li>
 </ul>
 <h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
