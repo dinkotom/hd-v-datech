@@ -27,7 +27,7 @@ Horní Domaslavice jsou z pěti obcí nejrychleji rostoucí, spolu s Pazdernou n
 
 ## Klíčová čísla vedle sebe
 
-Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „–“ (majetek, sociální data, zakázky, spolky a volby) se u nich teprve doplňují.
+Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „–“ (majetek, sociální data a zakázky) se u nich teprve doplňují.
 
 ### Lidé
 
@@ -90,16 +90,16 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 | Veřejné zakázky na profilu zadavatele | 18 | 16 | 48 | 36 | – |
 | Průměrný počet nabídek | 5,3 | 5,0 | 7,0 | 7,1 | – |
 | Medián vysoutěžené ceny proti předpokladu | 82 % | 63 % | 66 % | 80 % | – |
-| Výdaje na spolky (Kč na obyvatele, 2022–25) | 172 | 63 | 207 | 350 | – |
-| Spolky na 1 000 obyvatel | 3,6 | 4,8 | 10,2 | 11,3 | – |
+| Výdaje na spolky (Kč na obyvatele, 2022–25) | 172 | 63 | 207 | 350 | 196 |
+| Spolky na 1 000 obyvatel | 3,6 | 4,8 | 10,2 | 11,3 | 15,0 |
 
 ### Komunální volby 2026
 
 | | HD | PA | DD | LU | VOJ |
 |---|---:|---:|---:|---:|---:|
-| Účast | **63,9 %** | 46,0 % | 60,3 % | 63,2 % | – |
-| Nejsilnější kandidátka | 25 % | jediná kandidátka | 78 % (12/15) | 47 % (8/15) | – |
-| Zastupitelé zvolení i v roce 2022 | **3–4 z 13** | 7 ze 7 | 9 z 15 | 10 z 15 | – |
+| Účast | **63,9 %** | 46,0 % | 60,3 % | 63,2 % | 44,5 % |
+| Nejsilnější kandidátka | 25 % | jediná kandidátka | 78 % (12/15) | 47 % (8/15) | jediná kandidátka |
+| Zastupitelé zvolení i v roce 2022 | **3–4 z 13** | 7 ze 7 | 9 z 15 | 10 z 15 | 3 ze 7 |
 
 ## Co ze srovnání plyne
 
@@ -108,7 +108,7 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 3. **HD mají nejvíc peněz na účtech na obyvatele a nejméně majetku.** Lučina a Pazderna mají nejméně peněz na účtech a na stavby si vzaly úvěr. DD mají podobnou hotovost na obyvatele jako HD a přitom trojnásobný majetek na obyvatele.
 4. **Vodovod a kanalizace:** HD jsou spolu s Pazdernou a Vojkovicemi bez kanalizace. Na rozdíl od ostatních obcí ale v letech 2010–2025 nevydaly na vodovod ani kanalizaci nic, přestože rostou nejrychleji.
 5. **Čerpání rozpočtu je v HD nejnižší.** Velký rezervní řádek v rozpočtu a čerpání upraveného rozpočtu výdajů pod 40 % mají v letech 2023–2025 jen HD.
-6. **Zastupitelstvo HD je nejroztříštěnější** (pět kandidátek, nejsilnější s 25 % hlasů) a v roce 2026 se ze čtyř původně srovnávaných obcí obměnilo nejvíc. HD přitom měly v roce 2026 nejvyšší volební účast.
+6. **Zastupitelstvo HD je nejroztříštěnější** (pět kandidátek, nejsilnější s 25 % hlasů) a v roce 2026 se z pěti obcí obměnilo nejvíc. HD přitom měly v roce 2026 nejvyšší volební účast.
 
 ## Pozor
 

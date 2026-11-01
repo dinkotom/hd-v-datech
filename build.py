@@ -67,7 +67,10 @@ NAV = [
     ('Srovnání s podobnými obcemi', [
         ('srovnani-podobne-obce', 'Souhrn a výběr obcí'),
         ('podobne-finance', 'Finance'),
+        ('podobne-majetek-zakazky', 'Majetek, smlouvy, zakázky'),
         ('podobne-obyvatelstvo-vystavba', 'Obyvatelstvo a výstavba'),
+        ('podobne-skolstvi-socialni', 'Školství a sociální data'),
+        ('podobne-volby-spolky', 'Volby a spolky'),
         ('podobne-plochy', 'Rozloha a druhy pozemků'),
         ('podobne-zastavba', 'Roztříštěnost zástavby'),
         ('podobne-dan-nemovitosti', 'Daň z nemovitostí'),

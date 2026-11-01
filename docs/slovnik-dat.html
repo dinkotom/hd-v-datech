@@ -50,6 +50,7 @@
 <li><a href="srovnani-podobne-obce.html">Souhrn a výběr obcí</a></li>
 <li><a href="podobne-finance.html">Finance</a></li>
 <li><a href="podobne-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="podobne-volby-spolky.html">Volby a spolky</a></li>
 <li><a href="podobne-plochy.html">Rozloha a druhy pozemků</a></li>
 <li><a href="podobne-zastavba.html">Roztříštěnost zástavby</a></li>
 <li><a href="podobne-dan-nemovitosti.html">Daň z nemovitostí</a></li>
@@ -590,6 +591,612 @@
 <li>Pozor: Hodnoty sloupce <code>ukazatel</code> mají stejný význam jako stejnojmenné sloupce v souborech <code>finance_*_2010-2025.csv</code> (viz výše).</li>
 </ul>
 <p>Sloupce jsou stejné jako v <code>souhrn_po_obdobich_sousede.csv</code>.</p>
+<h2 id="podobne_obce_subjekty_ares_pravni_formacsv">podobne_obce_subjekty_ARES_pravni_forma.csv</h2>
+<p>Ekonomické subjekty se sídlem v obci podle právní formy (ARES). HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_subjekty_ARES_pravni_forma.csv">data/podobne_obce_subjekty_ARES_pravni_forma.csv</a></li>
+<li>Řádků: 46; jeden řádek = jedna obec × právní forma</li>
+<li>Zdroj: ARES (jako souhrn subjektů); názvy právních forem z číselníku ARES PravniForma.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Písková Lhota, Rebešovice nebo Závišice.</td>
+</tr>
+<tr>
+<td><code>pravni_forma_kod</code></td>
+<td>Kód právní formy.</td>
+</tr>
+<tr>
+<td><code>pravni_forma</code></td>
+<td>Název právní formy.</td>
+</tr>
+<tr>
+<td><code>pocet</code></td>
+<td>Počet subjektů.</td>
+</tr>
+<tr>
+<td><code>na_1000_obyv_2025</code></td>
+<td>Na 1 000 obyvatel (k 1. 7. 2025).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_subjekty_ares_souhrncsv">podobne_obce_subjekty_ARES_souhrn.csv</h2>
+<p>Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 000 obyvatel. HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_subjekty_ARES_souhrn.csv">data/podobne_obce_subjekty_ARES_souhrn.csv</a></li>
+<li>Řádků: 4; jeden řádek = jedna obec</li>
+<li>Zdroj: ARES, vyhledání podle kódu obce sídla (POST /ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat); HD, Pazderna, DD a Lučina stav k 30. 10. 2026, ostatní obce k 1. 11. 2026.</li>
+<li>Pozor: Počítá se sídlo, ne místo působení. Podnikající FO jsou v ARES i tehdy, když aktivně nepodnikají.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Písková Lhota, Rebešovice nebo Závišice.</td>
+</tr>
+<tr>
+<td><code>obyvatel_1_7_2025</code></td>
+<td>Obyvatelé k 1. 7. 2025 (ČSÚ), základ přepočtu.</td>
+</tr>
+<tr>
+<td><code>subjektu_celkem</code></td>
+<td>Subjekty celkem.</td>
+</tr>
+<tr>
+<td><code>na_1000</code></td>
+<td>Subjekty na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>FO_podnikajici</code></td>
+<td>Podnikající fyzické osoby (právní formy 101, 102, 105, 107, 424).</td>
+</tr>
+<tr>
+<td><code>FO_na_1000</code></td>
+<td>Na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>obchodni_spolecnosti</code></td>
+<td>Obchodní společnosti (111 v.o.s., 112 s.r.o., 121 a.s., 421 odštěpný závod).</td>
+</tr>
+<tr>
+<td><code>OS_na_1000</code></td>
+<td>Na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>spolky_pobocne_ustavy</code></td>
+<td>Spolky, pobočné spolky, ústavy, nadace, nadační fondy a o.p.s. (706, 736, 161, 117, 118, 141).</td>
+</tr>
+<tr>
+<td><code>spolky_na_1000</code></td>
+<td>Na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>ostatni</code></td>
+<td>Ostatní (obec, příspěvkové organizace, církevní osoby, SVJ, družstva aj.).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_transfery_nno_2010-2025csv">podobne_obce_transfery_NNO_2010-2025.csv</h2>
+<p>Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letech 2010–2025. HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_transfery_NNO_2010-2025.csv">data/podobne_obce_transfery_NNO_2010-2025.csv</a></li>
+<li>Řádků: 64; jeden řádek = jedna obec × rok</li>
+<li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M za prosinec (skutečnost); obyvatelé ČSÚ k 1. 7.</li>
+<li>Pozor: Hlavní ukazatel webu je <code>NNO_bez_par_6171_52xx_62xx</code> (položky 5221 + 5222 + 5229 bez § 6171 a § 52xx, 62xx).</li>
+<li>Pozor: Výkaz neukazuje příjemce plateb.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Písková Lhota, Rebešovice nebo Závišice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rozpočtový rok.</td>
+</tr>
+<tr>
+<td><code>obyvatel_1_7</code></td>
+<td>Obyvatelé k 1. 7.</td>
+</tr>
+<tr>
+<td><code>pol_5221</code></td>
+<td>Položka 5221 – obecně prospěšným společnostem. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5222</code></td>
+<td>Položka 5222 – spolkům. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5223</code></td>
+<td>Položka 5223 – církvím a náboženským společnostem. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5229</code></td>
+<td>Položka 5229 – ostatním neziskovým a podobným organizacím. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5492</code></td>
+<td>Položka 5492 – dary obyvatelstvu. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5493</code></td>
+<td>Položka 5493 – účelové neinvestiční transfery fyzickým osobám. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_6322</code></td>
+<td>Položka 6322 – investiční transfery spolkům. Kč.</td>
+</tr>
+<tr>
+<td><code>neinv_NNO_5221_5222_5229</code></td>
+<td>Součet 5221 + 5222 + 5229 (neočištěno). Kč.</td>
+</tr>
+<tr>
+<td><code>na_obyvatele</code></td>
+<td>Předchozí sloupec na obyvatele. Kč.</td>
+</tr>
+<tr>
+<td><code>vcetne_cirkvi_5223</code></td>
+<td>Součet 5221 + 5222 + 5229 + 5223. Kč.</td>
+</tr>
+<tr>
+<td><code>vcetne_cirkvi_na_obyv</code></td>
+<td>Předchozí sloupec na obyvatele. Kč.</td>
+</tr>
+<tr>
+<td><code>NNO_bez_par_6171_52xx_62xx</code></td>
+<td>5221 + 5222 + 5229 bez § 6171, § 52xx a § 62xx (očištěno). Kč.</td>
+</tr>
+<tr>
+<td><code>NNO_ocist_na_obyv</code></td>
+<td>Očištěný součet na obyvatele. Kč.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_transfery_nno_paragrafy_2010-2025csv">podobne_obce_transfery_NNO_paragrafy_2010-2025.csv</h2>
+<p>Rozpis transferů z <code>transfery_NNO_*</code> podle paragrafu a položky. HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_transfery_NNO_paragrafy_2010-2025.csv">data/podobne_obce_transfery_NNO_paragrafy_2010-2025.csv</a></li>
+<li>Řádků: 364; jeden řádek = jedna obec × rok × paragraf × položka</li>
+<li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Písková Lhota, Rebešovice nebo Závišice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rozpočtový rok.</td>
+</tr>
+<tr>
+<td><code>paragraf</code></td>
+<td>Paragraf rozpočtové skladby.</td>
+</tr>
+<tr>
+<td><code>polozka</code></td>
+<td>Položka (5221, 5222, 5223, 5229, 5492, 5493, 6322).</td>
+</tr>
+<tr>
+<td><code>polozka_nazev</code></td>
+<td>Název položky.</td>
+</tr>
+<tr>
+<td><code>schvaleny</code></td>
+<td>Schválený rozpočet. Kč.</td>
+</tr>
+<tr>
+<td><code>upraveny</code></td>
+<td>Upravený rozpočet. Kč.</td>
+</tr>
+<tr>
+<td><code>skutecnost</code></td>
+<td>Skutečnost. Kč.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_volby_komunalni_1994-2026csv">podobne_obce_volby_komunalni_1994-2026.csv</h2>
+<p>Komunální volby 1994–2026 po obcích: voliči, účast, počet kandidátek a mandátů, rozdělení mandátů, typ kandidátek. HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_volby_komunalni_1994-2026.csv">data/podobne_obce_volby_komunalni_1994-2026.csv</a></li>
+<li>Řádků: 36; jeden řádek = jedna obec × volby</li>
+<li>Zdroj: volby.cz: výsledky za obec (kv1111) a seznamy zvolených (kv21111) 1994–2022, datové soubory kv2026 (vygenerováno 11. 10. 2026).</li>
+<li>Pozor: Typ kandidátky je odvozený z navrhující strany zvolených kandidátů, u kandidátek bez mandátu a u roku 1994 z názvu.</li>
+<li>Pozor: Pro rok 1994 volby.cz jména zvolených neuvádí, sloupce o zvolených jsou proto 0.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Písková Lhota, Rebešovice nebo Závišice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>pocet_clenu_zo</code></td>
+<td>Počet členů zastupitelstva (mandátů).</td>
+</tr>
+<tr>
+<td><code>volici</code></td>
+<td>Voliči v seznamu.</td>
+</tr>
+<tr>
+<td><code>vydane_obalky</code></td>
+<td>Vydané úřední obálky.</td>
+</tr>
+<tr>
+<td><code>ucast_pct</code></td>
+<td>Volební účast, %.</td>
+</tr>
+<tr>
+<td><code>platne_hlasy</code></td>
+<td>Platné hlasy (v komunálních volbách má volič tolik hlasů, kolik je mandátů).</td>
+</tr>
+<tr>
+<td><code>pocet_kandidatek</code></td>
+<td>Počet kandidátních listin.</td>
+</tr>
+<tr>
+<td><code>pocet_kandidatu</code></td>
+<td>Počet kandidátů na všech kandidátkách.</td>
+</tr>
+<tr>
+<td><code>kandidatek_s_mandatem</code></td>
+<td>Počet kandidátek, které získaly aspoň jeden mandát.</td>
+</tr>
+<tr>
+<td><code>rozdeleni_mandatu</code></td>
+<td>Mandáty jednotlivých kandidátek seřazené sestupně (např. „3 : 3 : 3 : 3 : 1“).</td>
+</tr>
+<tr>
+<td><code>nejsilnejsi_kandidatka_pct</code></td>
+<td>Podíl hlasů nejsilnější kandidátky, %.</td>
+</tr>
+<tr>
+<td><code>kandidatek_typu_NK_SNK</code></td>
+<td>Počet kandidátek zařazených jako nezávislí kandidáti nebo jejich sdružení.</td>
+</tr>
+<tr>
+<td><code>mandatu_kandidatkam_NK_SNK</code></td>
+<td>Mandáty, které získaly kandidátky NK/SNK.</td>
+</tr>
+<tr>
+<td><code>zvolenych_celkem</code></td>
+<td>Počet zvolených podle seznamu zvolených.</td>
+</tr>
+<tr>
+<td><code>zvolenych_navrh_NK</code></td>
+<td>Zvolení, které navrhla „NK“ (bez navrhující strany).</td>
+</tr>
+<tr>
+<td><code>zvolenych_BEZPP</code></td>
+<td>Zvolení bez politické příslušnosti.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_volby_komunalni_kandidatky_1994-2026csv">podobne_obce_volby_komunalni_kandidatky_1994-2026.csv</h2>
+<p>Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený typ kandidátky. HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_volby_komunalni_kandidatky_1994-2026.csv">data/podobne_obce_volby_komunalni_kandidatky_1994-2026.csv</a></li>
+<li>Řádků: 124; jeden řádek = jedna obec × volby × kandidátka</li>
+<li>Zdroj: volby.cz (jako u souhrnu komunálních voleb).</li>
+<li>Pozor: Kandidátky pojmenované jménem jednotlivého kandidáta jsou nahrazeny textem „kandidátka jednotlivce (NK)“; web neuvádí jména fyzických osob.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Písková Lhota, Rebešovice nebo Závišice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>cislo</code></td>
+<td>Číslo kandidátky (volební strany) podle volby.cz.</td>
+</tr>
+<tr>
+<td><code>kandidatka</code></td>
+<td>Název kandidátky (zkrácený tak, jak ho uvádí volby.cz).</td>
+</tr>
+<tr>
+<td><code>hlasy</code></td>
+<td>Hlasy pro kandidátku.</td>
+</tr>
+<tr>
+<td><code>hlasy_pct</code></td>
+<td>Podíl hlasů, %.</td>
+</tr>
+<tr>
+<td><code>pocet_kandidatu</code></td>
+<td>Počet kandidátů na kandidátce.</td>
+</tr>
+<tr>
+<td><code>mandaty</code></td>
+<td>Získané mandáty.</td>
+</tr>
+<tr>
+<td><code>typ_kandidatky</code></td>
+<td>Odvozený typ: NK/SNK, strana/hnutí/koalice, strana/hnutí + NK; „(podle názvu)“ = odvozeno jen z názvu.</td>
+</tr>
+<tr>
+<td><code>kandidatu_navrh_NK_2026</code></td>
+<td>Jen 2026: počet kandidátů navržených jako NK.</td>
+</tr>
+<tr>
+<td><code>kandidatu_celkem_2026</code></td>
+<td>Jen 2026: počet kandidátů na kandidátce podle jmenného seznamu.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_volby_komunalni_kontinuita_2002-2026csv">podobne_obce_volby_komunalni_kontinuita_2002-2026.csv</h2>
+<p>Kolik zastupitelů zvolených v daném roce bylo zvoleno už v předchozích volbách (bez jmen). HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_volby_komunalni_kontinuita_2002-2026.csv">data/podobne_obce_volby_komunalni_kontinuita_2002-2026.csv</a></li>
+<li>Řádků: 28; jeden řádek = jedna obec × volby (od roku 2002)</li>
+<li>Zdroj: Výpočet ze seznamů zvolených na volby.cz; porovnává se příjmení a jméno bez titulů.</li>
+<li>Pozor: Změny příjmení se nezjišťovaly (u HD je známý jeden případ v roce 2026, není započten).</li>
+<li>Pozor: Ve Vojkovicích byli v letech 2018 a 2022 zvoleni dva lidé se stejným jménem; rozlišeni jsou podle věku.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Písková Lhota, Rebešovice nebo Závišice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>zvolenych_se_jmenem</code></td>
+<td>Počet zvolených.</td>
+</tr>
+<tr>
+<td><code>zvoleni_i_v_minulych_volbach</code></td>
+<td>Z nich zvolení i v bezprostředně předchozích volbách.</td>
+</tr>
+<tr>
+<td><code>pct_z_minulych</code></td>
+<td>Podíl znovuzvolených z předchozích voleb, %.</td>
+</tr>
+<tr>
+<td><code>zvoleni_kdykoli_drive_od_1998</code></td>
+<td>Z nich zvolení v kterýchkoli dřívějších volbách od roku 1998.</td>
+</tr>
+<tr>
+<td><code>pct_kdykoli_drive</code></td>
+<td>Podíl zvolených kdykoli dříve, %.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_volby_prezidentska_2023csv">podobne_obce_volby_prezidentska_2023.csv</h2>
+<p>Prezidentská volba 2023: účast v obou kolech a výsledek 2. kola (bez jmen kandidátů). HD, podobné obce a ČR.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_volby_prezidentska_2023.csv">data/podobne_obce_volby_prezidentska_2023.csv</a></li>
+<li>Řádků: 10; jeden řádek = jedno území × kolo</li>
+<li>Zdroj: volby.cz, pls/prez2023 (pe311, pe2).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod</code></td>
+<td>Kód území: kód obce ČSÚ, 8102 = okres Frýdek-Místek, CZ = Česká republika.</td>
+</tr>
+<tr>
+<td><code>uzemi</code></td>
+<td>Název území (obec, okres nebo Česká republika).</td>
+</tr>
+<tr>
+<td><code>kolo</code></td>
+<td>1. nebo 2. kolo.</td>
+</tr>
+<tr>
+<td><code>volici</code></td>
+<td>Voliči v seznamu.</td>
+</tr>
+<tr>
+<td><code>vydane_obalky</code></td>
+<td>Vydané obálky.</td>
+</tr>
+<tr>
+<td><code>ucast_pct</code></td>
+<td>Volební účast, %.</td>
+</tr>
+<tr>
+<td><code>platne_hlasy</code></td>
+<td>Platné hlasy.</td>
+</tr>
+<tr>
+<td><code>k2_zvoleny_prezident_hlasy</code></td>
+<td>Jen 2. kolo: hlasy pro kandidáta zvoleného prezidentem.</td>
+</tr>
+<tr>
+<td><code>k2_zvoleny_prezident_pct</code></td>
+<td>Jen 2. kolo: jeho podíl, %.</td>
+</tr>
+<tr>
+<td><code>k2_protikandidat_hlasy</code></td>
+<td>Jen 2. kolo: hlasy pro protikandidáta.</td>
+</tr>
+<tr>
+<td><code>k2_protikandidat_pct</code></td>
+<td>Jen 2. kolo: jeho podíl, %.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_volby_snemovni_strany_2013-2025csv">podobne_obce_volby_snemovni_strany_2013-2025.csv</h2>
+<p>Výsledky stran ve volbách do Poslanecké sněmovny 2013–2025. HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_volby_snemovni_strany_2013-2025.csv">data/podobne_obce_volby_snemovni_strany_2013-2025.csv</a></li>
+<li>Řádků: 445; jeden řádek = jedno území × volby × strana</li>
+<li>Zdroj: volby.cz, appdata ps{rok}.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod</code></td>
+<td>Kód území: kód obce ČSÚ, 8102 = okres Frýdek-Místek, CZ = Česká republika.</td>
+</tr>
+<tr>
+<td><code>uzemi</code></td>
+<td>Název území (obec, okres nebo Česká republika).</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>cislo</code></td>
+<td>Číslo strany v daných volbách.</td>
+</tr>
+<tr>
+<td><code>strana</code></td>
+<td>Název strany (zkrácený podle volby.cz).</td>
+</tr>
+<tr>
+<td><code>hlasy</code></td>
+<td>Hlasy.</td>
+</tr>
+<tr>
+<td><code>pct</code></td>
+<td>Podíl platných hlasů, %.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="podobne_obce_volby_snemovni_ucast_2013-2025csv">podobne_obce_volby_snemovni_ucast_2013-2025.csv</h2>
+<p>Účast ve volbách do Poslanecké sněmovny 2013–2025. HD a podobné obce.</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_volby_snemovni_ucast_2013-2025.csv">data/podobne_obce_volby_snemovni_ucast_2013-2025.csv</a></li>
+<li>Řádků: 20; jeden řádek = jedno území × volby</li>
+<li>Zdroj: volby.cz, appdata ps{rok}: výsledky za obec, okres a ČR.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod</code></td>
+<td>Kód území: kód obce ČSÚ, 8102 = okres Frýdek-Místek, CZ = Česká republika.</td>
+</tr>
+<tr>
+<td><code>uzemi</code></td>
+<td>Název území (obec, okres nebo Česká republika).</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>volici</code></td>
+<td>Voliči v seznamu.</td>
+</tr>
+<tr>
+<td><code>vydane_obalky</code></td>
+<td>Vydané obálky.</td>
+</tr>
+<tr>
+<td><code>ucast_pct</code></td>
+<td>Volební účast, %.</td>
+</tr>
+<tr>
+<td><code>platne_hlasy</code></td>
+<td>Platné hlasy.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="podobne_obce_vybercsv">podobne_obce_vyber.csv</h2>
 <p>Výběr podobných obcí: 231 obcí ČR s 650–1 800 obyvateli (2025), růstem od roku 2000 alespoň 35 % a rozlohou 3–11 km², a pro srovnání HD.</p>
 <ul>
@@ -1253,6 +1860,253 @@
 </tr>
 </tbody>
 </table>
+<h2 id="subjekty_ares_pravni_forma_sousedecsv">subjekty_ARES_pravni_forma_sousede.csv</h2>
+<p>Ekonomické subjekty se sídlem v obci podle právní formy (ARES). HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/subjekty_ARES_pravni_forma_sousede.csv">data/subjekty_ARES_pravni_forma_sousede.csv</a></li>
+<li>Řádků: 55; jeden řádek = jedna obec × právní forma</li>
+<li>Zdroj: ARES (jako souhrn subjektů); názvy právních forem z číselníku ARES PravniForma.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice.</td>
+</tr>
+<tr>
+<td><code>pravni_forma_kod</code></td>
+<td>Kód právní formy.</td>
+</tr>
+<tr>
+<td><code>pravni_forma</code></td>
+<td>Název právní formy.</td>
+</tr>
+<tr>
+<td><code>pocet</code></td>
+<td>Počet subjektů.</td>
+</tr>
+<tr>
+<td><code>na_1000_obyv_2025</code></td>
+<td>Na 1 000 obyvatel (k 1. 7. 2025).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="subjekty_ares_souhrn_sousedecsv">subjekty_ARES_souhrn_sousede.csv</h2>
+<p>Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 000 obyvatel. HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/subjekty_ARES_souhrn_sousede.csv">data/subjekty_ARES_souhrn_sousede.csv</a></li>
+<li>Řádků: 5; jeden řádek = jedna obec</li>
+<li>Zdroj: ARES, vyhledání podle kódu obce sídla (POST /ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat); HD, Pazderna, DD a Lučina stav k 30. 10. 2026, ostatní obce k 1. 11. 2026.</li>
+<li>Pozor: Počítá se sídlo, ne místo působení. Podnikající FO jsou v ARES i tehdy, když aktivně nepodnikají.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice.</td>
+</tr>
+<tr>
+<td><code>obyvatel_1_7_2025</code></td>
+<td>Obyvatelé k 1. 7. 2025 (ČSÚ), základ přepočtu.</td>
+</tr>
+<tr>
+<td><code>subjektu_celkem</code></td>
+<td>Subjekty celkem.</td>
+</tr>
+<tr>
+<td><code>na_1000</code></td>
+<td>Subjekty na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>FO_podnikajici</code></td>
+<td>Podnikající fyzické osoby (právní formy 101, 102, 105, 107, 424).</td>
+</tr>
+<tr>
+<td><code>FO_na_1000</code></td>
+<td>Na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>obchodni_spolecnosti</code></td>
+<td>Obchodní společnosti (111 v.o.s., 112 s.r.o., 121 a.s., 421 odštěpný závod).</td>
+</tr>
+<tr>
+<td><code>OS_na_1000</code></td>
+<td>Na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>spolky_pobocne_ustavy</code></td>
+<td>Spolky, pobočné spolky, ústavy, nadace, nadační fondy a o.p.s. (706, 736, 161, 117, 118, 141).</td>
+</tr>
+<tr>
+<td><code>spolky_na_1000</code></td>
+<td>Na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>ostatni</code></td>
+<td>Ostatní (obec, příspěvkové organizace, církevní osoby, SVJ, družstva aj.).</td>
+</tr>
+</tbody>
+</table>
+<h2 id="transfery_nno_paragrafy_sousede_2010-2025csv">transfery_NNO_paragrafy_sousede_2010-2025.csv</h2>
+<p>Rozpis transferů z <code>transfery_NNO_*</code> podle paragrafu a položky. HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/transfery_NNO_paragrafy_sousede_2010-2025.csv">data/transfery_NNO_paragrafy_sousede_2010-2025.csv</a></li>
+<li>Řádků: 495; jeden řádek = jedna obec × rok × paragraf × položka</li>
+<li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rozpočtový rok.</td>
+</tr>
+<tr>
+<td><code>paragraf</code></td>
+<td>Paragraf rozpočtové skladby.</td>
+</tr>
+<tr>
+<td><code>polozka</code></td>
+<td>Položka (5221, 5222, 5223, 5229, 5492, 5493, 6322).</td>
+</tr>
+<tr>
+<td><code>polozka_nazev</code></td>
+<td>Název položky.</td>
+</tr>
+<tr>
+<td><code>schvaleny</code></td>
+<td>Schválený rozpočet. Kč.</td>
+</tr>
+<tr>
+<td><code>upraveny</code></td>
+<td>Upravený rozpočet. Kč.</td>
+</tr>
+<tr>
+<td><code>skutecnost</code></td>
+<td>Skutečnost. Kč.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="transfery_nno_sousede_2010-2025csv">transfery_NNO_sousede_2010-2025.csv</h2>
+<p>Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letech 2010–2025. HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/transfery_NNO_sousede_2010-2025.csv">data/transfery_NNO_sousede_2010-2025.csv</a></li>
+<li>Řádků: 80; jeden řádek = jedna obec × rok</li>
+<li>Zdroj: Monitor státní pokladny MF, FIN 2-12 M za prosinec (skutečnost); obyvatelé ČSÚ k 1. 7.</li>
+<li>Pozor: Hlavní ukazatel webu je <code>NNO_bez_par_6171_52xx_62xx</code> (položky 5221 + 5222 + 5229 bez § 6171 a § 52xx, 62xx).</li>
+<li>Pozor: Výkaz neukazuje příjemce plateb.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rozpočtový rok.</td>
+</tr>
+<tr>
+<td><code>obyvatel_1_7</code></td>
+<td>Obyvatelé k 1. 7.</td>
+</tr>
+<tr>
+<td><code>pol_5221</code></td>
+<td>Položka 5221 – obecně prospěšným společnostem. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5222</code></td>
+<td>Položka 5222 – spolkům. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5223</code></td>
+<td>Položka 5223 – církvím a náboženským společnostem. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5229</code></td>
+<td>Položka 5229 – ostatním neziskovým a podobným organizacím. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5492</code></td>
+<td>Položka 5492 – dary obyvatelstvu. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_5493</code></td>
+<td>Položka 5493 – účelové neinvestiční transfery fyzickým osobám. Kč.</td>
+</tr>
+<tr>
+<td><code>pol_6322</code></td>
+<td>Položka 6322 – investiční transfery spolkům. Kč.</td>
+</tr>
+<tr>
+<td><code>neinv_NNO_5221_5222_5229</code></td>
+<td>Součet 5221 + 5222 + 5229 (neočištěno). Kč.</td>
+</tr>
+<tr>
+<td><code>na_obyvatele</code></td>
+<td>Předchozí sloupec na obyvatele. Kč.</td>
+</tr>
+<tr>
+<td><code>vcetne_cirkvi_5223</code></td>
+<td>Součet 5221 + 5222 + 5229 + 5223. Kč.</td>
+</tr>
+<tr>
+<td><code>vcetne_cirkvi_na_obyv</code></td>
+<td>Předchozí sloupec na obyvatele. Kč.</td>
+</tr>
+<tr>
+<td><code>NNO_bez_par_6171_52xx_62xx</code></td>
+<td>5221 + 5222 + 5229 bez § 6171, § 52xx a § 62xx (očištěno). Kč.</td>
+</tr>
+<tr>
+<td><code>NNO_ocist_na_obyv</code></td>
+<td>Očištěný součet na obyvatele. Kč.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="ukazatele_rozvaha_vzz_4_obcecsv">ukazatele_rozvaha_vzz_4_obce.csv</h2>
 <p>Rozvaha a výkaz zisku a ztráty HD, Pazderny, Dolních Domaslavic a Lučiny (zatím bez Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.</p>
 <ul>
@@ -1529,6 +2383,365 @@
 <tr>
 <td><code>zdroj</code></td>
 <td>Zápis, ze kterého usnesení pochází.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="volby_komunalni_kandidatky_sousede_1994-2026csv">volby_komunalni_kandidatky_sousede_1994-2026.csv</h2>
+<p>Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený typ kandidátky. HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/volby_komunalni_kandidatky_sousede_1994-2026.csv">data/volby_komunalni_kandidatky_sousede_1994-2026.csv</a></li>
+<li>Řádků: 145; jeden řádek = jedna obec × volby × kandidátka</li>
+<li>Zdroj: volby.cz (jako u souhrnu komunálních voleb).</li>
+<li>Pozor: Kandidátky pojmenované jménem jednotlivého kandidáta jsou nahrazeny textem „kandidátka jednotlivce (NK)“; web neuvádí jména fyzických osob.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>cislo</code></td>
+<td>Číslo kandidátky (volební strany) podle volby.cz.</td>
+</tr>
+<tr>
+<td><code>kandidatka</code></td>
+<td>Název kandidátky (zkrácený tak, jak ho uvádí volby.cz).</td>
+</tr>
+<tr>
+<td><code>hlasy</code></td>
+<td>Hlasy pro kandidátku.</td>
+</tr>
+<tr>
+<td><code>hlasy_pct</code></td>
+<td>Podíl hlasů, %.</td>
+</tr>
+<tr>
+<td><code>pocet_kandidatu</code></td>
+<td>Počet kandidátů na kandidátce.</td>
+</tr>
+<tr>
+<td><code>mandaty</code></td>
+<td>Získané mandáty.</td>
+</tr>
+<tr>
+<td><code>typ_kandidatky</code></td>
+<td>Odvozený typ: NK/SNK, strana/hnutí/koalice, strana/hnutí + NK; „(podle názvu)“ = odvozeno jen z názvu.</td>
+</tr>
+<tr>
+<td><code>kandidatu_navrh_NK_2026</code></td>
+<td>Jen 2026: počet kandidátů navržených jako NK.</td>
+</tr>
+<tr>
+<td><code>kandidatu_celkem_2026</code></td>
+<td>Jen 2026: počet kandidátů na kandidátce podle jmenného seznamu.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="volby_komunalni_kontinuita_sousede_2002-2026csv">volby_komunalni_kontinuita_sousede_2002-2026.csv</h2>
+<p>Kolik zastupitelů zvolených v daném roce bylo zvoleno už v předchozích volbách (bez jmen). HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/volby_komunalni_kontinuita_sousede_2002-2026.csv">data/volby_komunalni_kontinuita_sousede_2002-2026.csv</a></li>
+<li>Řádků: 35; jeden řádek = jedna obec × volby (od roku 2002)</li>
+<li>Zdroj: Výpočet ze seznamů zvolených na volby.cz; porovnává se příjmení a jméno bez titulů.</li>
+<li>Pozor: Změny příjmení se nezjišťovaly (u HD je známý jeden případ v roce 2026, není započten).</li>
+<li>Pozor: Ve Vojkovicích byli v letech 2018 a 2022 zvoleni dva lidé se stejným jménem; rozlišeni jsou podle věku.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>zvolenych_se_jmenem</code></td>
+<td>Počet zvolených.</td>
+</tr>
+<tr>
+<td><code>zvoleni_i_v_minulych_volbach</code></td>
+<td>Z nich zvolení i v bezprostředně předchozích volbách.</td>
+</tr>
+<tr>
+<td><code>pct_z_minulych</code></td>
+<td>Podíl znovuzvolených z předchozích voleb, %.</td>
+</tr>
+<tr>
+<td><code>zvoleni_kdykoli_drive_od_1998</code></td>
+<td>Z nich zvolení v kterýchkoli dřívějších volbách od roku 1998.</td>
+</tr>
+<tr>
+<td><code>pct_kdykoli_drive</code></td>
+<td>Podíl zvolených kdykoli dříve, %.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="volby_komunalni_sousede_1994-2026csv">volby_komunalni_sousede_1994-2026.csv</h2>
+<p>Komunální volby 1994–2026 po obcích: voliči, účast, počet kandidátek a mandátů, rozdělení mandátů, typ kandidátek. HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/volby_komunalni_sousede_1994-2026.csv">data/volby_komunalni_sousede_1994-2026.csv</a></li>
+<li>Řádků: 45; jeden řádek = jedna obec × volby</li>
+<li>Zdroj: volby.cz: výsledky za obec (kv1111) a seznamy zvolených (kv21111) 1994–2022, datové soubory kv2026 (vygenerováno 11. 10. 2026).</li>
+<li>Pozor: Typ kandidátky je odvozený z navrhující strany zvolených kandidátů, u kandidátek bez mandátu a u roku 1994 z názvu.</li>
+<li>Pozor: Pro rok 1994 volby.cz jména zvolených neuvádí, sloupce o zvolených jsou proto 0.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce podle ČSÚ (HD 512192).</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>pocet_clenu_zo</code></td>
+<td>Počet členů zastupitelstva (mandátů).</td>
+</tr>
+<tr>
+<td><code>volici</code></td>
+<td>Voliči v seznamu.</td>
+</tr>
+<tr>
+<td><code>vydane_obalky</code></td>
+<td>Vydané úřední obálky.</td>
+</tr>
+<tr>
+<td><code>ucast_pct</code></td>
+<td>Volební účast, %.</td>
+</tr>
+<tr>
+<td><code>platne_hlasy</code></td>
+<td>Platné hlasy (v komunálních volbách má volič tolik hlasů, kolik je mandátů).</td>
+</tr>
+<tr>
+<td><code>pocet_kandidatek</code></td>
+<td>Počet kandidátních listin.</td>
+</tr>
+<tr>
+<td><code>pocet_kandidatu</code></td>
+<td>Počet kandidátů na všech kandidátkách.</td>
+</tr>
+<tr>
+<td><code>kandidatek_s_mandatem</code></td>
+<td>Počet kandidátek, které získaly aspoň jeden mandát.</td>
+</tr>
+<tr>
+<td><code>rozdeleni_mandatu</code></td>
+<td>Mandáty jednotlivých kandidátek seřazené sestupně (např. „3 : 3 : 3 : 3 : 1“).</td>
+</tr>
+<tr>
+<td><code>nejsilnejsi_kandidatka_pct</code></td>
+<td>Podíl hlasů nejsilnější kandidátky, %.</td>
+</tr>
+<tr>
+<td><code>kandidatek_typu_NK_SNK</code></td>
+<td>Počet kandidátek zařazených jako nezávislí kandidáti nebo jejich sdružení.</td>
+</tr>
+<tr>
+<td><code>mandatu_kandidatkam_NK_SNK</code></td>
+<td>Mandáty, které získaly kandidátky NK/SNK.</td>
+</tr>
+<tr>
+<td><code>zvolenych_celkem</code></td>
+<td>Počet zvolených podle seznamu zvolených.</td>
+</tr>
+<tr>
+<td><code>zvolenych_navrh_NK</code></td>
+<td>Zvolení, které navrhla „NK“ (bez navrhující strany).</td>
+</tr>
+<tr>
+<td><code>zvolenych_BEZPP</code></td>
+<td>Zvolení bez politické příslušnosti.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="volby_prezidentska_2023_sousedecsv">volby_prezidentska_2023_sousede.csv</h2>
+<p>Prezidentská volba 2023: účast v obou kolech a výsledek 2. kola (bez jmen kandidátů). HD, sousední obce, okres FM a ČR.</p>
+<ul>
+<li>Odkaz: <a href="data/volby_prezidentska_2023_sousede.csv">data/volby_prezidentska_2023_sousede.csv</a></li>
+<li>Řádků: 14; jeden řádek = jedno území × kolo</li>
+<li>Zdroj: volby.cz, pls/prez2023 (pe311, pe2).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod</code></td>
+<td>Kód území: kód obce ČSÚ, 8102 = okres Frýdek-Místek, CZ = Česká republika.</td>
+</tr>
+<tr>
+<td><code>uzemi</code></td>
+<td>Název území (obec, okres nebo Česká republika).</td>
+</tr>
+<tr>
+<td><code>kolo</code></td>
+<td>1. nebo 2. kolo.</td>
+</tr>
+<tr>
+<td><code>volici</code></td>
+<td>Voliči v seznamu.</td>
+</tr>
+<tr>
+<td><code>vydane_obalky</code></td>
+<td>Vydané obálky.</td>
+</tr>
+<tr>
+<td><code>ucast_pct</code></td>
+<td>Volební účast, %.</td>
+</tr>
+<tr>
+<td><code>platne_hlasy</code></td>
+<td>Platné hlasy.</td>
+</tr>
+<tr>
+<td><code>k2_zvoleny_prezident_hlasy</code></td>
+<td>Jen 2. kolo: hlasy pro kandidáta zvoleného prezidentem.</td>
+</tr>
+<tr>
+<td><code>k2_zvoleny_prezident_pct</code></td>
+<td>Jen 2. kolo: jeho podíl, %.</td>
+</tr>
+<tr>
+<td><code>k2_protikandidat_hlasy</code></td>
+<td>Jen 2. kolo: hlasy pro protikandidáta.</td>
+</tr>
+<tr>
+<td><code>k2_protikandidat_pct</code></td>
+<td>Jen 2. kolo: jeho podíl, %.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="volby_snemovni_strany_sousede_2013-2025csv">volby_snemovni_strany_sousede_2013-2025.csv</h2>
+<p>Výsledky stran ve volbách do Poslanecké sněmovny 2013–2025. HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/volby_snemovni_strany_sousede_2013-2025.csv">data/volby_snemovni_strany_sousede_2013-2025.csv</a></li>
+<li>Řádků: 612; jeden řádek = jedno území × volby × strana</li>
+<li>Zdroj: volby.cz, appdata ps{rok}.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod</code></td>
+<td>Kód území: kód obce ČSÚ, 8102 = okres Frýdek-Místek, CZ = Česká republika.</td>
+</tr>
+<tr>
+<td><code>uzemi</code></td>
+<td>Název území (obec, okres nebo Česká republika).</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>cislo</code></td>
+<td>Číslo strany v daných volbách.</td>
+</tr>
+<tr>
+<td><code>strana</code></td>
+<td>Název strany (zkrácený podle volby.cz).</td>
+</tr>
+<tr>
+<td><code>hlasy</code></td>
+<td>Hlasy.</td>
+</tr>
+<tr>
+<td><code>pct</code></td>
+<td>Podíl platných hlasů, %.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="volby_snemovni_ucast_sousede_2013-2025csv">volby_snemovni_ucast_sousede_2013-2025.csv</h2>
+<p>Účast ve volbách do Poslanecké sněmovny 2013–2025. HD a sousední obce.</p>
+<ul>
+<li>Odkaz: <a href="data/volby_snemovni_ucast_sousede_2013-2025.csv">data/volby_snemovni_ucast_sousede_2013-2025.csv</a></li>
+<li>Řádků: 28; jeden řádek = jedno území × volby</li>
+<li>Zdroj: volby.cz, appdata ps{rok}: výsledky za obec, okres a ČR.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod</code></td>
+<td>Kód území: kód obce ČSÚ, 8102 = okres Frýdek-Místek, CZ = Česká republika.</td>
+</tr>
+<tr>
+<td><code>uzemi</code></td>
+<td>Název území (obec, okres nebo Česká republika).</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok voleb.</td>
+</tr>
+<tr>
+<td><code>volici</code></td>
+<td>Voliči v seznamu.</td>
+</tr>
+<tr>
+<td><code>vydane_obalky</code></td>
+<td>Vydané obálky.</td>
+</tr>
+<tr>
+<td><code>ucast_pct</code></td>
+<td>Volební účast, %.</td>
+</tr>
+<tr>
+<td><code>platne_hlasy</code></td>
+<td>Platné hlasy.</td>
 </tr>
 </tbody>
 </table>

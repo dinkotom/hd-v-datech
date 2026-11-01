@@ -454,6 +454,10 @@ DATASETS = {
 }
 
 
+from slovnik_volby import VOLBY_SPOLKY_DATASETS  # noqa: E402
+DATASETS.update(VOLBY_SPOLKY_DATASETS)
+
+
 def columns(name):
     d = DATASETS.get(name, {})
     if 'stejne_jako' in d:

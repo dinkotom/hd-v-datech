@@ -22,6 +22,7 @@ Podrobnosti, metodika a výhrady jsou na dílčích stránkách:
 - [Roztříštěnost zástavby](https://hd-v-datech.cz/podobne-zastavba.html)
 - [Daň z nemovitostí](https://hd-v-datech.cz/podobne-dan-nemovitosti.html)
 - [Občanská vybavenost](https://hd-v-datech.cz/podobne-vybavenost.html)
+- [Volby a spolky](https://hd-v-datech.cz/podobne-volby-spolky.html)
 
 ## Jak byly obce vybrány
 
