@@ -1,0 +1,13 @@
+obec,registr,druh,zarizeni_nebo_poskytovatel,misto_poskytovani,od,poznamka
+Horní Domaslavice,NRPZS,–,žádné místo poskytování ani sídlo poskytovatele,,,
+Pazderna,NRPZS,–,žádné místo poskytování ani sídlo poskytovatele,,,převzato ze stránky srovnání sousedů
+Dolní Domaslavice,NRPZS,všeobecné praktické lékařství,fyzická osoba (jméno neuvedeno),Dolní Domaslavice 31,1993,"ordinuje i v Nošovicích a Vojkovicích, převzato ze stránky srovnání sousedů"
+Dolní Domaslavice,RPSS,"domov se zvláštním režimem, 46 lůžek","DZR Pohoda, z. ú. (IČO 07174357)",Dolní Domaslavice 249,2018-09-01,
+Lučina,NRPZS,"všeobecné praktické lékařství, praktický lékař pro děti a dorost (POLMEDICANA s.r.o.), dentální hygienistka",,Lučina 1,,převzato ze stránky srovnání sousedů
+Vojkovice,NRPZS,všeobecné praktické lékařství,"fyzická osoba (jméno neuvedeno), stejný poskytovatel jako v Dolních Domaslavicích",Vojkovice 88,2005-01-01,
+Vojkovice,NRPZS (jen sídlo),ergoterapie,fyzická osoba (jméno neuvedeno),Ostrava,2024-03-01,"poskytovatel má sídlo ve Vojkovicích, péči poskytuje v Ostravě – nezapočteno"
+Písková Lhota,NRPZS (jen sídlo),dentální hygiena,fyzická osoba (jméno neuvedeno),Mladá Boleslav,2025-05-01,"sídlo v obci, péče jinde – nezapočteno"
+Písková Lhota,NRPZS (jen sídlo),gynekologie a porodnictví,právnická osoba (s.r.o.),Turnov,2008-10-01,"sídlo v obci, péče jinde – nezapočteno"
+Rebešovice,NRPZS (jen sídlo),dermatovenerologie,GUINOT Ma Vie s.r.o.,Brno,2017-10-05,"sídlo v obci, péče jinde – nezapočteno"
+Závišice,NRPZS,–,žádné místo poskytování ani sídlo poskytovatele,,,
+"Vojkovice, Písková Lhota, Rebešovice, Závišice, Horní Domaslavice",RPSS,–,žádná registrovaná sociální služba se zařízením ani kontaktní adresou v obci,,,rpss.json stažen 1. 11. 2026

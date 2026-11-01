@@ -19,7 +19,7 @@ Srovnání se třemi obcemi z jiných částí ČR, které se HD podobají velik
 
 ## Hlavní závěr
 
-Horní Domaslavice jsou z pěti obcí nejrychleji rostoucí, spolu s Pazdernou nejmladší, mají nejvyšší podíl vysokoškoláků a ze čtyř obcí, u nichž je údaj k dispozici, nejnižší podíl osob v exekuci. Daňové příjmy na obyvatele mají srovnatelné se sousedy. **Do investic a oprav ale v letech 2023–2025 daly na obyvatele dvakrát až pětkrát méně a mají nejméně majetku na obyvatele.** Zároveň mají nejvíc peněz na účtech na obyvatele a jako jediné z pěti obcí v letech 2010–2025 nevydaly nic na vodovod ani kanalizaci. Pazderna, Dolní Domaslavice a Lučina získaly za stejné období třikrát až pětkrát víc investičních dotací a dvě z nich si na stavby vzaly úvěr. Vojkovice získaly investičních dotací podobně jako HD, do investic a oprav přesto daly na obyvatele dvakrát víc.
+Horní Domaslavice jsou z pěti obcí nejrychleji rostoucí, spolu s Pazdernou nejmladší, mají nejvyšší podíl vysokoškoláků a po Vojkovicích nejnižší podíl osob v exekuci. Daňové příjmy na obyvatele mají srovnatelné se sousedy. **Do investic a oprav ale v letech 2023–2025 daly na obyvatele dvakrát až pětkrát méně a mají nejméně majetku na obyvatele.** Zároveň mají nejvíc peněz na účtech na obyvatele a jako jediné z pěti obcí v letech 2010–2025 nevydaly nic na vodovod ani kanalizaci. Pazderna, Dolní Domaslavice a Lučina získaly za stejné období třikrát až pětkrát víc investičních dotací a dvě z nich si na stavby vzaly úvěr. Vojkovice získaly investičních dotací podobně jako HD, do investic a oprav přesto daly na obyvatele dvakrát víc.
 
 <!--chart:srov-io-->
 
@@ -27,7 +27,7 @@ Horní Domaslavice jsou z pěti obcí nejrychleji rostoucí, spolu s Pazdernou n
 
 ## Klíčová čísla vedle sebe
 
-Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „–“ (majetek, sociální data a zakázky) se u nich teprve doplňují.
+Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026.
 
 ### Lidé
 
@@ -38,8 +38,8 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 | Index stáří 2024 (okres 135) | 58 | **49** | 93 | 105 | 70 |
 | Vysokoškoláci 2021 | **21,9 %** | 17,5 % | 19,9 % | 18,9 % | 16,3 % |
 | Nové byty 2016–2025 na 1 000 obyvatel (okres 31) | **116** | 90 | 58 | 65 | 73 |
-| Nezaměstnanost 2024 (ČSÚ) | **2,2 %** | 2,9 % | 2,6 % | 3,8 % | – |
-| Osoby v exekuci (15+, okres 4,7 %) | **1,7 %** | 4,6 % | 2,0 % | 3,6 % | – |
+| Nezaměstnanost 2024 (ČSÚ) | **2,2 %** | 2,9 % | 2,6 % | 3,8 % | 3,3 % |
+| Osoby v exekuci (15+, okres 4,7 %) | 1,7 % | 4,6 % | 2,0 % | 3,6 % | **1,2 %** |
 
 ### Peníze (Kč na obyvatele a rok, 2023–2025, pokud není uvedeno jinak)
 
@@ -60,9 +60,9 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 
 | | HD | PA | DD | LU | VOJ |
 |---|---:|---:|---:|---:|---:|
-| Aktiva celkem | **69 tis.** | 220 tis. | 214 tis. | 174 tis. | – |
-| Stavby netto | **28 tis.** | 105 tis. | 151 tis. | 116 tis. | – |
-| Přírůstek staveb brutto 2014–2025 (mil. Kč) | **+25** | +44 | +206 | +172 | – |
+| Aktiva celkem | **69 tis.** | 220 tis. | 214 tis. | 174 tis. | 148 tis. |
+| Stavby netto | **28 tis.** | 105 tis. | 151 tis. | 116 tis. | 82 tis. |
+| Přírůstek staveb brutto 2014–2025 (mil. Kč) | **+25** | +44 | +206 | +172 | +39 |
 
 ### Infrastruktura a bydlení (sčítání 2021)
 
@@ -72,7 +72,7 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 | Topení uhlím | **21 %** | 9 % | 17 % | 12 % | 14 % |
 | Topení plynem | **11 %** | 39 % | 39 % | 42 % | 39 % |
 | Domy postavené po roce 2000 | **50 %** | 33 % | 39 % | 34 % | 47 % |
-| Benzo(a)pyren 2020–24 (limit 1 ng/m³) | 1,29 | 1,28 | 1,33 | 1,33 | – |
+| Benzo(a)pyren 2020–24 (limit 1 ng/m³) | 1,29 | 1,28 | 1,33 | 1,33 | 1,21 |
 
 ### Školy a služby
 
@@ -86,12 +86,14 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 
 | | HD | PA | DD | LU | VOJ |
 |---|---:|---:|---:|---:|---:|
-| Vlastní smlouvy v registru smluv | 0 | 0 | 16 (od 2021 jen 1) | 0 | – |
-| Veřejné zakázky na profilu zadavatele | 18 | 16 | 48 | 36 | – |
-| Průměrný počet nabídek | 5,3 | 5,0 | 7,0 | 7,1 | – |
-| Medián vysoutěžené ceny proti předpokladu | 82 % | 63 % | 66 % | 80 % | – |
+| Vlastní smlouvy v registru smluv | 0 | 0 | 16 (od 2021 jen 1) | 0 | 4 |
+| Veřejné zakázky na profilu zadavatele | 18 | 16 | 48 | 36 | 20 |
+| Průměrný počet nabídek | 5,3 | 5,0 | 7,0 | 7,1 | neuvádí ¹ |
+| Medián vysoutěžené ceny proti předpokladu | 82 % | 63 % | 66 % | 80 % | 100 % ¹ |
 | Výdaje na spolky (Kč na obyvatele, 2022–25) | 172 | 63 | 207 | 350 | 196 |
 | Spolky na 1 000 obyvatel | 3,6 | 4,8 | 10,2 | 11,3 | 15,0 |
+
+¹ Vojkovice na profilu zadavatele uvádějí jen vybraného dodavatele a u většiny zakázek předpokládanou hodnotu shodnou se smluvní cenou, viz [Majetek, smlouvy, zakázky](srovnani-majetek-zakazky.html).
 
 ### Komunální volby 2026
 

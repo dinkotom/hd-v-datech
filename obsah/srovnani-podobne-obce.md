@@ -17,7 +17,9 @@ Všechny tři mají souvislejší zástavbu než HD. Obce s podobně rozptýleno
 Podrobnosti, metodika a výhrady jsou na dílčích stránkách:
 
 - [Finance](podobne-finance.html): příjmy, výdaje, investice a opravy, dotace, rezervy, peníze na účtech
+- [Majetek, smlouvy, zakázky](podobne-majetek-zakazky.html): rozvaha, výsledek hospodaření, registr smluv, veřejné zakázky
 - [Obyvatelstvo a výstavba](podobne-obyvatelstvo-vystavba.html): vývoj obyvatel, sčítání 2021, výstavba
+- [Školství a sociální data](podobne-skolstvi-socialni.html): školy, nezaměstnanost, exekuce, kriminalita, ovzduší, služby
 - [Rozloha a druhy pozemků](podobne-plochy.html)
 - [Roztříštěnost zástavby](podobne-zastavba.html)
 - [Daň z nemovitostí](podobne-dan-nemovitosti.html)

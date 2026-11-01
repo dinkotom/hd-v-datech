@@ -49,7 +49,9 @@
 <details><summary>Srovnání s podobnými obcemi</summary><ul>
 <li><a href="srovnani-podobne-obce.html">Souhrn a výběr obcí</a></li>
 <li><a href="podobne-finance.html">Finance</a></li>
+<li><a href="podobne-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
 <li><a href="podobne-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="podobne-skolstvi-socialni.html">Školství a sociální data</a></li>
 <li><a href="podobne-volby-spolky.html">Volby a spolky</a></li>
 <li><a href="podobne-plochy.html">Rozloha a druhy pozemků</a></li>
 <li><a href="podobne-zastavba.html">Roztříštěnost zástavby</a></li>
@@ -838,6 +840,15 @@
 </tr>
 </tbody>
 </table>
+<h2 id="podobne_obce_ukazatele_rozvaha_vzzcsv">podobne_obce_ukazatele_rozvaha_vzz.csv</h2>
+<p>Rozvaha a výkaz zisku a ztráty HD, Pískové Lhoty, Rebešovic a Závišic (stejné sloupce jako <code>ukazatele_rozvaha_vzz_sousede.csv</code>).</p>
+<ul>
+<li>Odkaz: <a href="data/podobne_obce_ukazatele_rozvaha_vzz.csv">data/podobne_obce_ukazatele_rozvaha_vzz.csv</a></li>
+<li>Řádků: 64; jeden řádek = jedna obec × rok (stav k 31. 12.)</li>
+<li>Zdroj: Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.</li>
+<li>Pozor: Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.</li>
+</ul>
+<p>Sloupce jsou stejné jako v <code>ukazatele_rozvaha_vzz_sousede.csv</code>.</p>
 <h2 id="podobne_obce_volby_komunalni_1994-2026csv">podobne_obce_volby_komunalni_1994-2026.csv</h2>
 <p>Komunální volby 1994–2026 po obcích: voliči, účast, počet kandidátek a mandátů, rozdělení mandátů, typ kandidátek. HD a podobné obce.</p>
 <ul>
@@ -1751,6 +1762,377 @@
 </tr>
 </tbody>
 </table>
+<h2 id="skolstvi_socialni_exekuce_2026-10csv">skolstvi_socialni_exekuce_2026-10.csv</h2>
+<p>Osoby v exekuci podle Exekutorské komory: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), jejich okresy, kraje a ČR.</p>
+<ul>
+<li>Odkaz: <a href="data/skolstvi_socialni_exekuce_2026-10.csv">data/skolstvi_socialni_exekuce_2026-10.csv</a></li>
+<li>Řádků: 16; jeden řádek = jedno území (obec, okres, kraj, ČR)</li>
+<li>Zdroj: Exekutorská komora ČR, mapa exekucí (obce.json, stav k 1. 10. 2026); obyvatelé 15+ ČSÚ.</li>
+<li>Pozor: Podíl je počítán dvakrát: ze sčítání 2021 a z počtu obyvatel 15+ k 31. 12. 2024.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce, okresu nebo kraje.</td>
+</tr>
+<tr>
+<td><code>uzemi</code></td>
+<td>Název území.</td>
+</tr>
+<tr>
+<td><code>okres</code></td>
+<td>Okres.</td>
+</tr>
+<tr>
+<td><code>kraj</code></td>
+<td>Kraj.</td>
+</tr>
+<tr>
+<td><code>osoby_v_exekuci</code></td>
+<td>Počet osob v exekuci.</td>
+</tr>
+<tr>
+<td><code>pocet_exekuci</code></td>
+<td>Počet exekucí.</td>
+</tr>
+<tr>
+<td><code>exekuci_na_osobu</code></td>
+<td>Průměrný počet exekucí na osobu.</td>
+</tr>
+<tr>
+<td><code>obyv_15plus_SLDB2021</code></td>
+<td>Obyvatelé 15+ podle sčítání 2021.</td>
+</tr>
+<tr>
+<td><code>podil_SLDB2021_procent</code></td>
+<td>Podíl osob v exekuci na obyvatelích 15+ (sčítání 2021), %.</td>
+</tr>
+<tr>
+<td><code>obyv_15plus_2024_12_31</code></td>
+<td>Obyvatelé 15+ k 31. 12. 2024.</td>
+</tr>
+<tr>
+<td><code>podil_2024_procent</code></td>
+<td>Podíl osob v exekuci na obyvatelích 15+ (2024), %.</td>
+</tr>
+<tr>
+<td><code>stav_k</code></td>
+<td>Datum stavu dat Exekutorské komory.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="skolstvi_socialni_kriminalita_2013-2026csv">skolstvi_socialni_kriminalita_2013-2026.csv</h2>
+<p>Trestné činy, přestupky a dopravní nehody podle mapy kriminality Policie ČR: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).</p>
+<ul>
+<li>Odkaz: <a href="data/skolstvi_socialni_kriminalita_2013-2026.csv">data/skolstvi_socialni_kriminalita_2013-2026.csv</a></li>
+<li>Řádků: 112; jeden řádek = jedna obec × rok</li>
+<li>Zdroj: Policie ČR, mapa kriminality (API), 2013–2026; obyvatelé ČSÚ.</li>
+<li>Pozor: Rok 2026 je neúplný (sloupec posledni_datum). Policie zveřejňuje jen vybrané druhy trestných činů. Na malých obcích jeden pachatel výrazně mění čísla.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce ČSÚ.</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Obec.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok.</td>
+</tr>
+<tr>
+<td><code>obyvatele_31_12</code></td>
+<td>Obyvatelé k 31. 12.</td>
+</tr>
+<tr>
+<td><code>delikty_celkem</code></td>
+<td>Delikty celkem (trestné činy, přestupky, nehody).</td>
+</tr>
+<tr>
+<td><code>prestupky</code></td>
+<td>Přestupky.</td>
+</tr>
+<tr>
+<td><code>trestne_ciny_zverejnovane</code></td>
+<td>Trestné činy (zveřejňované druhy).</td>
+</tr>
+<tr>
+<td><code>dopravni_nehody</code></td>
+<td>Dopravní nehody.</td>
+</tr>
+<tr>
+<td><code>delikty_na_1000</code></td>
+<td>Delikty na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>tc_na_1000</code></td>
+<td>Trestné činy na 1 000 obyvatel.</td>
+</tr>
+<tr>
+<td><code>prestupky_BESIP</code></td>
+<td>Dopravní přestupky (BESIP).</td>
+</tr>
+<tr>
+<td><code>prestupky_rychlost</code></td>
+<td>Z toho překročení rychlosti.</td>
+</tr>
+<tr>
+<td><code>posledni_datum</code></td>
+<td>Poslední datum v datech za daný rok.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="skolstvi_socialni_nezamestnanost_mpsv_rocnicsv">skolstvi_socialni_nezamestnanost_MPSV_rocni.csv</h2>
+<p>Podíl nezaměstnaných osob (PNO) podle MPSV, roční průměry: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), okresy a ČR.</p>
+<ul>
+<li>Odkaz: <a href="data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv">data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv</a></li>
+<li>Řádků: 26; jeden řádek = jedno území × rok</li>
+<li>Zdroj: MPSV, otevřená data evidence uchazečů (evid_pno_adresa_agr_frz_odata), data do 9/2026.</li>
+<li>Pozor: Rok 2026 je průměr jen za dostupné měsíce (sloupec pocet_mesicu). U malých obcí kolísá podíl i o jednotlivce.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>uzemi</code></td>
+<td>Obec, okres nebo ČR.</td>
+</tr>
+<tr>
+<td><code>rok</code></td>
+<td>Rok.</td>
+</tr>
+<tr>
+<td><code>pocet_mesicu</code></td>
+<td>Počet měsíců v průměru.</td>
+</tr>
+<tr>
+<td><code>pno_prumer_procent</code></td>
+<td>Průměrný podíl nezaměstnaných osob (dosažitelní uchazeči 15–64 / obyvatelé 15–64), %.</td>
+</tr>
+<tr>
+<td><code>dosazitelni_min</code></td>
+<td>Nejnižší měsíční počet dosažitelných uchazečů.</td>
+</tr>
+<tr>
+<td><code>dosazitelni_max</code></td>
+<td>Nejvyšší měsíční počet dosažitelných uchazečů.</td>
+</tr>
+<tr>
+<td><code>posledni_mesic</code></td>
+<td>Poslední měsíc v datech.</td>
+</tr>
+<tr>
+<td><code>pno_posledni_mesic</code></td>
+<td>PNO v posledním měsíci, %.</td>
+</tr>
+<tr>
+<td><code>dosazitelni_posledni</code></td>
+<td>Dosažitelní uchazeči v posledním měsíci.</td>
+</tr>
+<tr>
+<td><code>obyv_15_64_posledni</code></td>
+<td>Obyvatelé 15–64 použití pro poslední měsíc.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="skolstvi_socialni_ovzdusi_chmucsv">skolstvi_socialni_ovzdusi_CHMU.csv</h2>
+<p>Pětileté průměry znečištění ovzduší (benzo(a)pyren, PM10, PM2,5, NO2) v čtvercích 1 × 1 km: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).</p>
+<ul>
+<li>Odkaz: <a href="data/skolstvi_socialni_ovzdusi_CHMU.csv">data/skolstvi_socialni_ovzdusi_CHMU.csv</a></li>
+<li>Řádků: 240; jeden řádek = jedna obec × období × ukazatel</li>
+<li>Zdroj: ČHMÚ, pětileté průměrné koncentrace ve čtvercové síti 1 km (sit1000_5lprum); hranice obcí RÚIAN/MSK.</li>
+<li>Pozor: Jde o modelové hodnoty pro čtverce 1 km, ne o měření v obci. Limit benzo(a)pyrenu je 1 ng/m³.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kod_obce</code></td>
+<td>Kód obce ČSÚ.</td>
+</tr>
+<tr>
+<td><code>obec</code></td>
+<td>Obec.</td>
+</tr>
+<tr>
+<td><code>obdobi</code></td>
+<td>Pětileté období.</td>
+</tr>
+<tr>
+<td><code>ukazatel</code></td>
+<td>Znečišťující látka a ukazatel.</td>
+</tr>
+<tr>
+<td><code>vazeny_prumer</code></td>
+<td>Průměr čtverců vážený plochou v obci.</td>
+</tr>
+<tr>
+<td><code>min_ctverec</code></td>
+<td>Nejnižší hodnota čtverce.</td>
+</tr>
+<tr>
+<td><code>max_ctverec</code></td>
+<td>Nejvyšší hodnota čtverce.</td>
+</tr>
+<tr>
+<td><code>pocet_ctvercu</code></td>
+<td>Počet čtverců zasahujících do obce.</td>
+</tr>
+<tr>
+<td><code>plocha_km2_v_obci</code></td>
+<td>Plocha průniku čtverců s obcí, km².</td>
+</tr>
+<tr>
+<td><code>pole_v_datech</code></td>
+<td>Název pole v datech ČHMÚ.</td>
+</tr>
+<tr>
+<td><code>hranice_obce</code></td>
+<td>Zdroj hranice obce.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="skolstvi_socialni_skoly_rejstrik_2026-11csv">skolstvi_socialni_skoly_rejstrik_2026-11.csv</h2>
+<p>Školy a školská zařízení v obcích podle rejstříku škol MŠMT: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice) (a ZŠ a MŠ Dobratice, kam patří MŠ ve Vojkovicích).</p>
+<ul>
+<li>Odkaz: <a href="data/skolstvi_socialni_skoly_rejstrik_2026-11.csv">data/skolstvi_socialni_skoly_rejstrik_2026-11.csv</a></li>
+<li>Řádků: 28; jeden řádek = jedna součást školy (MŠ, ZŠ, družina, jídelna…)</li>
+<li>Zdroj: MŠMT, rejstřík škol a školských zařízení (krajské výstupy JSON-LD, stav k 1. 11. 2026).</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>obec</code></td>
+<td>Obec.</td>
+</tr>
+<tr>
+<td><code>red_izo</code></td>
+<td>Identifikátor ředitelství školy (RED_IZO).</td>
+</tr>
+<tr>
+<td><code>ico</code></td>
+<td>IČO právnické osoby.</td>
+</tr>
+<tr>
+<td><code>pravnicka_osoba</code></td>
+<td>Název školy (právnické osoby).</td>
+</tr>
+<tr>
+<td><code>zrizovatel</code></td>
+<td>Zřizovatel.</td>
+</tr>
+<tr>
+<td><code>izo</code></td>
+<td>Identifikátor součásti (IZO).</td>
+</tr>
+<tr>
+<td><code>soucast</code></td>
+<td>Druh součásti (MŠ, ZŠ, ŠD, ŠJ…).</td>
+</tr>
+<tr>
+<td><code>druh_kod</code></td>
+<td>Kód druhu podle rejstříku.</td>
+</tr>
+<tr>
+<td><code>kapacita</code></td>
+<td>Kapacita.</td>
+</tr>
+<tr>
+<td><code>jednotka</code></td>
+<td>Jednotka kapacity (děti, žáci, stravovaní…).</td>
+</tr>
+<tr>
+<td><code>mista_vyuky</code></td>
+<td>Místa poskytování vzdělávání.</td>
+</tr>
+<tr>
+<td><code>datum_vystupu</code></td>
+<td>Datum výstupu rejstříku.</td>
+</tr>
+<tr>
+<td><code>zdroj</code></td>
+<td>Soubor rejstříku.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="skolstvi_socialni_zdravotni_socialni_sluzbycsv">skolstvi_socialni_zdravotni_socialni_sluzby.csv</h2>
+<p>Zdravotní a sociální služby s místem poskytování v obci: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).</p>
+<ul>
+<li>Odkaz: <a href="data/skolstvi_socialni_zdravotni_socialni_sluzby.csv">data/skolstvi_socialni_zdravotni_socialni_sluzby.csv</a></li>
+<li>Řádků: 12; jeden řádek = jedno místo poskytování nebo souhrnný řádek obce</li>
+<li>Zdroj: Národní registr poskytovatelů zdravotních služeb (NRPZS) a registr poskytovatelů sociálních služeb MPSV, stav 1. 11. 2026.</li>
+<li>Pozor: Poskytovatelé, kteří jsou fyzickými osobami, jsou uvedeni jen jako „fyzická osoba“.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sloupec</th>
+<th>Význam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>obec</code></td>
+<td>Obec.</td>
+</tr>
+<tr>
+<td><code>registr</code></td>
+<td>Registr (NRPZS, RPSS).</td>
+</tr>
+<tr>
+<td><code>druh</code></td>
+<td>Druh péče nebo služby.</td>
+</tr>
+<tr>
+<td><code>zarizeni_nebo_poskytovatel</code></td>
+<td>Zařízení nebo poskytovatel (bez jmen fyzických osob).</td>
+</tr>
+<tr>
+<td><code>misto_poskytovani</code></td>
+<td>Místo poskytování.</td>
+</tr>
+<tr>
+<td><code>od</code></td>
+<td>Od kdy (podle registru).</td>
+</tr>
+<tr>
+<td><code>poznamka</code></td>
+<td>Poznámka.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="souhrn_obyvatel_rocne_2000-2025_sousede_okres_crcsv">souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv</h2>
 <p>Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.</p>
 <ul>
@@ -2107,11 +2489,11 @@
 </tr>
 </tbody>
 </table>
-<h2 id="ukazatele_rozvaha_vzz_4_obcecsv">ukazatele_rozvaha_vzz_4_obce.csv</h2>
-<p>Rozvaha a výkaz zisku a ztráty HD, Pazderny, Dolních Domaslavic a Lučiny (zatím bez Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.</p>
+<h2 id="ukazatele_rozvaha_vzz_sousedecsv">ukazatele_rozvaha_vzz_sousede.csv</h2>
+<p>Rozvaha a výkaz zisku a ztráty HD a sousedních obcí (včetně Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.</p>
 <ul>
-<li>Odkaz: <a href="data/ukazatele_rozvaha_vzz_4_obce.csv">data/ukazatele_rozvaha_vzz_4_obce.csv</a></li>
-<li>Řádků: 64; jeden řádek = jedna obec × rok (stav k 31. 12.)</li>
+<li>Odkaz: <a href="data/ukazatele_rozvaha_vzz_sousede.csv">data/ukazatele_rozvaha_vzz_sousede.csv</a></li>
+<li>Řádků: 80; jeden řádek = jedna obec × rok (stav k 31. 12.)</li>
 <li>Zdroj: Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.</li>
 <li>Pozor: Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.</li>
 </ul>

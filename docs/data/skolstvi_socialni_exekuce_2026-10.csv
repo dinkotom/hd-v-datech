@@ -1,0 +1,17 @@
+kod_obce,uzemi,okres,kraj,osoby_v_exekuci,pocet_exekuci,exekuci_na_osobu,obyv_15plus_SLDB2021,podil_SLDB2021_procent,obyv_15plus_2024_12_31,podil_2024_procent,stav_k
+512192,Horní Domaslavice,Frýdek-Místek,Moravskoslezský kraj,13,50,3.8,758,1.72,837,1.55,2026-10-01
+552500,Pazderna,Frýdek-Místek,Moravskoslezský kraj,11,60,5.5,240,4.58,305,3.61,2026-10-01
+598101,Dolní Domaslavice,Frýdek-Místek,Moravskoslezský kraj,23,108,4.7,1133,2.03,1191,1.93,2026-10-01
+598399,Lučina,Frýdek-Místek,Moravskoslezský kraj,43,183,4.3,1209,3.56,1326,3.24,2026-10-01
+552488,Vojkovice,Frýdek-Místek,Moravskoslezský kraj,7,28,4.0,563,1.24,631,1.11,2026-10-01
+536440,Písková Lhota,Mladá Boleslav,Středočeský kraj,19,106,5.6,795,2.39,911,2.09,2026-10-01
+583774,Rebešovice,Brno-venkov,Jihomoravský kraj,16,88,5.5,869,1.84,885,1.81,2026-10-01
+568473,Závišice,Nový Jičín,Moravskoslezský kraj,20,79,4.0,818,2.44,938,2.13,2026-10-01
+,okres Frýdek-Místek,,,8166,38427,4.7,175284,4.66,,,2026-10-01
+,okres Mladá Boleslav,,,6286,26391,4.2,107264,5.86,,,2026-10-01
+,okres Brno-venkov,,,6126,30925,5.0,184740,3.32,,,2026-10-01
+,okres Nový Jičín,,,6736,31436,4.7,122249,5.51,,,2026-10-01
+,Moravskoslezský kraj,,,78553,404808,5.2,982717,7.99,,,2026-10-01
+,Středočeský kraj,,,62247,300463,4.8,1162092,5.36,,,2026-10-01
+,Jihomoravský kraj,,,51816,273466,5.3,1003977,5.16,,,2026-10-01
+,Česko,,,586014,2972107,5.1,8832407,6.63,,,2026-10-01

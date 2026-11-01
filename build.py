@@ -379,7 +379,7 @@ DATA_DESC = {
     'souhrn_po_obdobich_sousede.csv': 'Souhrny ukazatelů za volební období, celkem a na obyvatele a rok (HD a sousední obce).',
     'ukazatele_sousede_2010-2025.csv': 'Ukazatele po letech v dlouhém formátu (HD a sousední obce).',
     'investice_opravy_podle_paragrafu_sousede.csv': 'Investice a opravy podle účelu výdaje (paragrafu rozpočtové skladby).',
-    'ukazatele_rozvaha_vzz_4_obce.csv': 'Rozvaha a výkaz zisku a ztráty: majetek, peníze, úvěry, odpisy (4 obce, 2010–2025).',
+    'ukazatele_rozvaha_vzz_sousede.csv': 'Rozvaha a výkaz zisku a ztráty: majetek, peníze, úvěry, odpisy (HD a sousední obce, 2010–2025).',
     'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv': 'Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (HD a sousední obce, okres, ČR; ČSÚ).',
     'RUIAN_souhrn_sousede_stav_20260930.csv': 'Budovy, byty a napojení na vodovod, kanalizaci a plyn podle RÚIAN (stav 30. 9. 2026).',
     'CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv': 'Výměry druhů pozemků po katastrálních územích, 2004, 2014 a 2026 (ČÚZK).',
@@ -404,6 +404,7 @@ DATA_DESC = {
     'podobne_obce_roztrisenost.csv': 'Ukazatele roztříštěnosti zástavby HD a podobných obcí.',
     'podobne_obce_obyvatel_rocne_2000-2025.csv': 'Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (HD, podobné obce, ČR; ČSÚ).',
     'podobne_obce_RUIAN_souhrn_stav_20260930.csv': 'Budovy, byty a napojení na sítě podle RÚIAN, HD a podobné obce (stav 30. 9. 2026).',
+    'podobne_obce_ukazatele_rozvaha_vzz.csv': 'Rozvaha a výkaz zisku a ztráty HD a podobných obcí, 2010–2025.',
     'podobne_obce_vydaje_kategorie_2010-2025.csv': 'Výdaje HD, Pískové Lhoty, Rebešovic a Závišic podle účelu a druhu, 2010–2025.',
     'podobne_obce_obyvatele_2000-2025.csv': 'Počet obyvatel HD, Pískové Lhoty, Rebešovic a Závišic 2000–2025.',
 }

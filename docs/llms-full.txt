@@ -37,7 +37,7 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 
 - [Souhrn srovnání](https://hd-v-datech.cz/srovnani-souhrn.md): Souhrn klíčových čísel Horních Domaslavic vedle Pazderny, Dolních Domaslavic, Lučiny a Vojkovic: lidé, finance, majetek, služby, zakázky a volby.
 - [Finance](https://hd-v-datech.cz/srovnani-finance.md): Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pazderny, Dolních Domaslavic, Lučiny a Vojkovic v letech 2010–2025.
-- [Majetek, smlouvy, zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.md): Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou a Pazdernou.
+- [Majetek, smlouvy, zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.md): Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou, Pazdernou a Vojkovicemi.
 - [Obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.md): Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a sousedních obcích.
 - [Školství a sociální data](https://hd-v-datech.cz/srovnani-skolstvi-socialni.md): Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a sousedních obcích.
 - [Volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.md): Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích a sousedních obcích.
@@ -50,7 +50,9 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 
 - [Souhrn a výběr obcí](https://hd-v-datech.cz/srovnani-podobne-obce.md): Horní Domaslavice vedle tří obcí z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Písková Lhota (okres Mladá Boleslav), Rebešovice (Brno-venkov) a Závišice (Nový Jičín).
 - [Finance](https://hd-v-datech.cz/podobne-finance.md): Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pískové Lhoty, Rebešovic a Závišic v letech 2010–2025.
+- [Majetek, smlouvy, zakázky](https://hd-v-datech.cz/podobne-majetek-zakazky.md): Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Pískovou Lhotou, Rebešovicemi a Závišicemi.
 - [Obyvatelstvo a výstavba](https://hd-v-datech.cz/podobne-obyvatelstvo-vystavba.md): Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a ve třech podobných obcích z jiných částí Česka: Písková Lhota, Rebešovice a Závišice.
+- [Školství a sociální data](https://hd-v-datech.cz/podobne-skolstvi-socialni.md): Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a ve třech podobných obcích z jiných částí ČR: Písková Lhota, Rebešovice a Závišice.
 - [Volby a spolky](https://hd-v-datech.cz/podobne-volby-spolky.md): Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích, Pískové Lhotě, Rebešovicích a Závišicích.
 - [Rozloha a druhy pozemků](https://hd-v-datech.cz/podobne-plochy.md): Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pískové Lhotě, Rebešovicích a Závišicích a jejich vývoj od roku 2004.
 - [Roztříštěnost zástavby](https://hd-v-datech.cz/podobne-zastavba.md): Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pískovou Lhotou, Rebešovicemi a Závišicemi a co to znamená pro délku sítí.
@@ -84,6 +86,7 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 - [podobne_obce_subjekty_ARES_souhrn.csv](https://hd-v-datech.cz/data/podobne_obce_subjekty_ARES_souhrn.csv): Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 000 obyvatel. HD a podobné obce.
 - [podobne_obce_transfery_NNO_2010-2025.csv](https://hd-v-datech.cz/data/podobne_obce_transfery_NNO_2010-2025.csv): Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letech 2010–2025. HD a podobné obce.
 - [podobne_obce_transfery_NNO_paragrafy_2010-2025.csv](https://hd-v-datech.cz/data/podobne_obce_transfery_NNO_paragrafy_2010-2025.csv): Rozpis transferů z `transfery_NNO_*` podle paragrafu a položky. HD a podobné obce.
+- [podobne_obce_ukazatele_rozvaha_vzz.csv](https://hd-v-datech.cz/data/podobne_obce_ukazatele_rozvaha_vzz.csv): Rozvaha a výkaz zisku a ztráty HD, Pískové Lhoty, Rebešovic a Závišic (stejné sloupce jako `ukazatele_rozvaha_vzz_sousede.csv`).
 - [podobne_obce_volby_komunalni_1994-2026.csv](https://hd-v-datech.cz/data/podobne_obce_volby_komunalni_1994-2026.csv): Komunální volby 1994–2026 po obcích: voliči, účast, počet kandidátek a mandátů, rozdělení mandátů, typ kandidátek. HD a podobné obce.
 - [podobne_obce_volby_komunalni_kandidatky_1994-2026.csv](https://hd-v-datech.cz/data/podobne_obce_volby_komunalni_kandidatky_1994-2026.csv): Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený typ kandidátky. HD a podobné obce.
 - [podobne_obce_volby_komunalni_kontinuita_2002-2026.csv](https://hd-v-datech.cz/data/podobne_obce_volby_komunalni_kontinuita_2002-2026.csv): Kolik zastupitelů zvolených v daném roce bylo zvoleno už v předchozích volbách (bez jmen). HD a podobné obce.
@@ -100,13 +103,19 @@ Autor: Tomáš Dinkov. Aktualizováno 31. 10. 2026. Chyby lze hlásit na https:/
 - [rozpocet_2026_strednedoby_vyhled.csv](https://hd-v-datech.cz/data/rozpocet_2026_strednedoby_vyhled.csv): Střednědobý výhled rozpočtu obce Horní Domaslavice na roky 2025–2028.
 - [rozpocet_2026_vydaje_podle_ucelu.csv](https://hd-v-datech.cz/data/rozpocet_2026_vydaje_podle_ucelu.csv): Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30. 9. a srovnání s minulými lety.
 - [roztrisenost_sousede.csv](https://hd-v-datech.cz/data/roztrisenost_sousede.csv): Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jsou domy a kolik tvoří skupin.
+- [skolstvi_socialni_exekuce_2026-10.csv](https://hd-v-datech.cz/data/skolstvi_socialni_exekuce_2026-10.csv): Osoby v exekuci podle Exekutorské komory: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), jejich okresy, kraje a ČR.
+- [skolstvi_socialni_kriminalita_2013-2026.csv](https://hd-v-datech.cz/data/skolstvi_socialni_kriminalita_2013-2026.csv): Trestné činy, přestupky a dopravní nehody podle mapy kriminality Policie ČR: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
+- [skolstvi_socialni_nezamestnanost_MPSV_rocni.csv](https://hd-v-datech.cz/data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv): Podíl nezaměstnaných osob (PNO) podle MPSV, roční průměry: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), okresy a ČR.
+- [skolstvi_socialni_ovzdusi_CHMU.csv](https://hd-v-datech.cz/data/skolstvi_socialni_ovzdusi_CHMU.csv): Pětileté průměry znečištění ovzduší (benzo(a)pyren, PM10, PM2,5, NO2) v čtvercích 1 × 1 km: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
+- [skolstvi_socialni_skoly_rejstrik_2026-11.csv](https://hd-v-datech.cz/data/skolstvi_socialni_skoly_rejstrik_2026-11.csv): Školy a školská zařízení v obcích podle rejstříku škol MŠMT: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice) (a ZŠ a MŠ Dobratice, kam patří MŠ ve Vojkovicích).
+- [skolstvi_socialni_zdravotni_socialni_sluzby.csv](https://hd-v-datech.cz/data/skolstvi_socialni_zdravotni_socialni_sluzby.csv): Zdravotní a sociální služby s místem poskytování v obci: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
 - [souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv): Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
 - [souhrn_po_obdobich_sousede.csv](https://hd-v-datech.cz/data/souhrn_po_obdobich_sousede.csv): Součty ukazatelů za volební období a průměr na obyvatele a rok.
 - [subjekty_ARES_pravni_forma_sousede.csv](https://hd-v-datech.cz/data/subjekty_ARES_pravni_forma_sousede.csv): Ekonomické subjekty se sídlem v obci podle právní formy (ARES). HD a sousední obce.
 - [subjekty_ARES_souhrn_sousede.csv](https://hd-v-datech.cz/data/subjekty_ARES_souhrn_sousede.csv): Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 000 obyvatel. HD a sousední obce.
 - [transfery_NNO_paragrafy_sousede_2010-2025.csv](https://hd-v-datech.cz/data/transfery_NNO_paragrafy_sousede_2010-2025.csv): Rozpis transferů z `transfery_NNO_*` podle paragrafu a položky. HD a sousední obce.
 - [transfery_NNO_sousede_2010-2025.csv](https://hd-v-datech.cz/data/transfery_NNO_sousede_2010-2025.csv): Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letech 2010–2025. HD a sousední obce.
-- [ukazatele_rozvaha_vzz_4_obce.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_4_obce.csv): Rozvaha a výkaz zisku a ztráty HD, Pazderny, Dolních Domaslavic a Lučiny (zatím bez Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.
+- [ukazatele_rozvaha_vzz_sousede.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_sousede.csv): Rozvaha a výkaz zisku a ztráty HD a sousedních obcí (včetně Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.
 - [ukazatele_sousede_2010-2025.csv](https://hd-v-datech.cz/data/ukazatele_sousede_2010-2025.csv): Stejné ukazatele jako `finance_*` pro HD a sousední obce (včetně Vojkovic) v dlouhém formátu (vhodné pro filtrování a grafy).
 - [usneseni_zo_2022-2026.csv](https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv): Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 2018–2022).
 - [volby_komunalni_kandidatky_sousede_1994-2026.csv](https://hd-v-datech.cz/data/volby_komunalni_kandidatky_sousede_1994-2026.csv): Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený typ kandidátky. HD a sousední obce.
@@ -3141,11 +3150,11 @@ Srovnání se třemi obcemi z jiných částí ČR, které se HD podobají velik
 
 ## Hlavní závěr
 
-Horní Domaslavice jsou z pěti obcí nejrychleji rostoucí, spolu s Pazdernou nejmladší, mají nejvyšší podíl vysokoškoláků a ze čtyř obcí, u nichž je údaj k dispozici, nejnižší podíl osob v exekuci. Daňové příjmy na obyvatele mají srovnatelné se sousedy. **Do investic a oprav ale v letech 2023–2025 daly na obyvatele dvakrát až pětkrát méně a mají nejméně majetku na obyvatele.** Zároveň mají nejvíc peněz na účtech na obyvatele a jako jediné z pěti obcí v letech 2010–2025 nevydaly nic na vodovod ani kanalizaci. Pazderna, Dolní Domaslavice a Lučina získaly za stejné období třikrát až pětkrát víc investičních dotací a dvě z nich si na stavby vzaly úvěr. Vojkovice získaly investičních dotací podobně jako HD, do investic a oprav přesto daly na obyvatele dvakrát víc.
+Horní Domaslavice jsou z pěti obcí nejrychleji rostoucí, spolu s Pazdernou nejmladší, mají nejvyšší podíl vysokoškoláků a po Vojkovicích nejnižší podíl osob v exekuci. Daňové příjmy na obyvatele mají srovnatelné se sousedy. **Do investic a oprav ale v letech 2023–2025 daly na obyvatele dvakrát až pětkrát méně a mají nejméně majetku na obyvatele.** Zároveň mají nejvíc peněz na účtech na obyvatele a jako jediné z pěti obcí v letech 2010–2025 nevydaly nic na vodovod ani kanalizaci. Pazderna, Dolní Domaslavice a Lučina získaly za stejné období třikrát až pětkrát víc investičních dotací a dvě z nich si na stavby vzaly úvěr. Vojkovice získaly investičních dotací podobně jako HD, do investic a oprav přesto daly na obyvatele dvakrát víc.
 
 ## Klíčová čísla vedle sebe
 
-Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „–“ (majetek, sociální data a zakázky) se u nich teprve doplňují.
+Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026.
 
 ### Lidé
 
@@ -3156,8 +3165,8 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 | Index stáří 2024 (okres 135) | 58 | **49** | 93 | 105 | 70 |
 | Vysokoškoláci 2021 | **21,9 %** | 17,5 % | 19,9 % | 18,9 % | 16,3 % |
 | Nové byty 2016–2025 na 1 000 obyvatel (okres 31) | **116** | 90 | 58 | 65 | 73 |
-| Nezaměstnanost 2024 (ČSÚ) | **2,2 %** | 2,9 % | 2,6 % | 3,8 % | – |
-| Osoby v exekuci (15+, okres 4,7 %) | **1,7 %** | 4,6 % | 2,0 % | 3,6 % | – |
+| Nezaměstnanost 2024 (ČSÚ) | **2,2 %** | 2,9 % | 2,6 % | 3,8 % | 3,3 % |
+| Osoby v exekuci (15+, okres 4,7 %) | 1,7 % | 4,6 % | 2,0 % | 3,6 % | **1,2 %** |
 
 ### Peníze (Kč na obyvatele a rok, 2023–2025, pokud není uvedeno jinak)
 
@@ -3178,9 +3187,9 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 
 | | HD | PA | DD | LU | VOJ |
 |---|---:|---:|---:|---:|---:|
-| Aktiva celkem | **69 tis.** | 220 tis. | 214 tis. | 174 tis. | – |
-| Stavby netto | **28 tis.** | 105 tis. | 151 tis. | 116 tis. | – |
-| Přírůstek staveb brutto 2014–2025 (mil. Kč) | **+25** | +44 | +206 | +172 | – |
+| Aktiva celkem | **69 tis.** | 220 tis. | 214 tis. | 174 tis. | 148 tis. |
+| Stavby netto | **28 tis.** | 105 tis. | 151 tis. | 116 tis. | 82 tis. |
+| Přírůstek staveb brutto 2014–2025 (mil. Kč) | **+25** | +44 | +206 | +172 | +39 |
 
 ### Infrastruktura a bydlení (sčítání 2021)
 
@@ -3190,7 +3199,7 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 | Topení uhlím | **21 %** | 9 % | 17 % | 12 % | 14 % |
 | Topení plynem | **11 %** | 39 % | 39 % | 42 % | 39 % |
 | Domy postavené po roce 2000 | **50 %** | 33 % | 39 % | 34 % | 47 % |
-| Benzo(a)pyren 2020–24 (limit 1 ng/m³) | 1,29 | 1,28 | 1,33 | 1,33 | – |
+| Benzo(a)pyren 2020–24 (limit 1 ng/m³) | 1,29 | 1,28 | 1,33 | 1,33 | 1,21 |
 
 ### Školy a služby
 
@@ -3204,12 +3213,14 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026. Údaje označené „�
 
 | | HD | PA | DD | LU | VOJ |
 |---|---:|---:|---:|---:|---:|
-| Vlastní smlouvy v registru smluv | 0 | 0 | 16 (od 2021 jen 1) | 0 | – |
-| Veřejné zakázky na profilu zadavatele | 18 | 16 | 48 | 36 | – |
-| Průměrný počet nabídek | 5,3 | 5,0 | 7,0 | 7,1 | – |
-| Medián vysoutěžené ceny proti předpokladu | 82 % | 63 % | 66 % | 80 % | – |
+| Vlastní smlouvy v registru smluv | 0 | 0 | 16 (od 2021 jen 1) | 0 | 4 |
+| Veřejné zakázky na profilu zadavatele | 18 | 16 | 48 | 36 | 20 |
+| Průměrný počet nabídek | 5,3 | 5,0 | 7,0 | 7,1 | neuvádí ¹ |
+| Medián vysoutěžené ceny proti předpokladu | 82 % | 63 % | 66 % | 80 % | 100 % ¹ |
 | Výdaje na spolky (Kč na obyvatele, 2022–25) | 172 | 63 | 207 | 350 | 196 |
 | Spolky na 1 000 obyvatel | 3,6 | 4,8 | 10,2 | 11,3 | 15,0 |
+
+¹ Vojkovice na profilu zadavatele uvádějí jen vybraného dodavatele a u většiny zakázek předpokládanou hodnotu shodnou se smluvní cenou, viz [Majetek, smlouvy, zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.html).
 
 ### Komunální volby 2026
 
@@ -4041,369 +4052,369 @@ V letech 2010–2011 měla rozvaha jiné členění: tehdejší řádek D.III.1 
 
 # Srovnání majetku, smluv a zakázek
 
-Zdroj: https://hd-v-datech.cz/srovnani-majetek-zakazky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-majetek-zakazky.html (aktualizováno 2026-11-01)
 
-> Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou a Pazdernou.
+> Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou, Pazdernou a Vojkovicemi.
 
-> Sousední obec Vojkovice byla do srovnání přidána 1. 11. 2026. Na této stránce zatím není; údaje se doplňují. Finance, obyvatelstvo, plochy, zástavba, daň z nemovitostí a vybavenost Vojkovic jsou už na ostatních stránkách srovnání.
+Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se sousedními obcemi Dolní Domaslavice (DD), Lučina (LU), Pazderna (PA) a Vojkovice (VO) a ukazuje, jak obce zveřejňují smlouvy a zadávají veřejné zakázky. Vychází výhradně z veřejných zdrojů: z rozvahy a výkazu zisku a ztráty v Monitoru státní pokladny MF, z počtů obyvatel ČSÚ, z registru smluv, z Hlídače státu a z profilů zadavatele. Všech pět obcí leží v okrese Frýdek-Místek a žádná z nich není obcí s rozšířenou působností. Částky jsou v mil. Kč, není-li uvedeno jinak, a stavy jsou vždy k 31. 12. Srovnání nehodnotí vedení jednotlivých obcí. Podobné srovnání se třemi obcemi z jiných částí Česka je na stránce [Majetek, smlouvy, zakázky (podobné obce)](https://hd-v-datech.cz/podobne-majetek-zakazky.html).
 
-Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se sousedními obcemi Dolní Domaslavice (DD), Lučina (LU) a Pazderna (PA) a ukazuje, jak obce zveřejňují smlouvy a zadávají veřejné zakázky. Vychází výhradně z veřejných zdrojů: z rozvahy a výkazu zisku a ztráty v Monitoru státní pokladny MF, z počtů obyvatel ČSÚ, z registru smluv, z Hlídače státu a z profilů zadavatele. Všechny čtyři obce leží v okrese Frýdek-Místek a žádná z nich není obcí s rozšířenou působností. Částky jsou v mil. Kč, není-li uvedeno jinak, a stavy jsou vždy k 31. 12. Srovnání nehodnotí vedení jednotlivých obcí.
-
-| | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---|---|---|---|
-| IČO (ARES) | 00536008 | 00494241 | 00296899 | 00577073 |
-| Kód obce | 512192 | 598101 | 598399 | 552500 |
-| Obyvatel 2010 → 2025 | 681 → 1 109 (+63 %) | 1 168 → 1 467 (+26 %) | 1 223 → 1 596 (+30 %) | 273 → 422 (+55 %) |
-| Podřízené organizace podle Hlídače státu | 1 (MŠ) | 1 (ZŠ a MŠ) | 3 (mj. ZŠ a MŠ) | 0 |
+| | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---|---|---|---|---|
+| IČO (ARES) | 00536008 | 00494241 | 00296899 | 00577073 | 00577081 |
+| Kód obce | 512192 | 598101 | 598399 | 552500 | 552488 |
+| Obyvatel 2010 → 2025 | 681 → 1 109 (+63 %) | 1 168 → 1 467 (+26 %) | 1 223 → 1 596 (+30 %) | 273 → 422 (+55 %) | 581 → 800 (+38 %) |
+| Podřízené organizace podle Hlídače státu | 1 (MŠ) | 1 (ZŠ a MŠ) | 3 (mj. ZŠ a MŠ) | 0 | 0 |
 
 ## Shrnutí
 
-1. **HD má zdaleka nejmenší majetek na obyvatele, ale nejvíc peněz na účtu.** Aktiva netto na obyvatele činila v roce 2025 v HD 69 tis. Kč, v DD 214 tis., v Lučině 174 tis. a v Pazderně 220 tis. Kč. Stavby netto na obyvatele jsou v HD 28 tis. Kč, v ostatních obcích 105–151 tis. Kč. Peníze na obyvatele jsou naopak v HD nejvyšší (35,6 tis. Kč, DD 30,7 tis., Lučina 3,3 tis., Pazderna 7,7 tis.). Peníze tvoří v HD 52 % aktiv, v DD 14 % a v Lučině a Pazderně 2–3 %.
-2. **Ostatní obce za 2014–2025 přidaly do staveb mnohonásobně víc.** Stavby v pořizovací ceně vzrostly od konce roku 2013 do konce roku 2025 v HD o 25,0 mil. Kč (22 tis. Kč na dnešního obyvatele), v DD o 205,9 mil. (140 tis.), v Lučině o 171,6 mil. (107 tis.) a v Pazderně o 44,1 mil. (105 tis. Kč na obyvatele).
-3. **HD má přitom absolutně nejvyšší opravy.** Na účtu 511 (opravy a udržování) vykázala HD za 2014–2025 celkem 27,5 mil. Kč, DD 24,9 mil., Lučina 17,1 mil. a Pazderna 8,8 mil. Kč. Velké akce na silnicích v HD šly do nákladů, ne do majetku (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)).
-4. **Dluh:** HD a DD jsou bez úvěrů. Lučina má k 31. 12. 2025 úvěry 17,25 mil. Kč (dlouhodobý 8,80 a krátkodobý 8,45 mil.), Pazderna 4,0 mil. Kč. Obě obce zároveň mají velké rozestavěné investice (účet 042: Lučina 43,6 mil., Pazderna 22,3 mil.).
-5. **Všechny čtyři obce jsou každoročně v zisku.** Za 2014–2025 dosáhla HD součtu výsledků 51,5 mil. Kč, DD 102,6 mil., Lučina 95,9 mil. a Pazderna 21,9 mil. Kč. V přepočtu na obyvatele byla HD v roce 2025 (8 294 Kč) za DD (13 703 Kč), ale před Pazdernou (7 129 Kč) a Lučinou (6 228 Kč).
-6. **Registr smluv:** sama zveřejňuje jen DD, a to 16 smluv z let 2016–2026 za 7,27 mil. Kč s DPH. Po roce 2020 už ale jen jednu (2026). HD, Lučina ani Pazderna jako zveřejňovatel v registru nejsou. Smlouvy, kde jsou stranou a vložila je protistrana, mají všechny (HD 9, DD 21, Lučina 18, Pazderna 12).
-7. **Veřejné zakázky 2014–2026:** HD 18, DD 48 (z toho 22 přímá zadání nebo evidence smluv), Lučina 36 (17 přímých zadání) a Pazderna 16 (12 z nich v NEN). HD nemá na profilu žádné přímé zadání, ostatní obce na profil vkládají i přímo zadané smlouvy. Průměrný počet účastníků u soutěží, kde profil uvádí aspoň dva, je HD 5,3, DD 7,0, Lučina 7,1 a Pazderna 5,0. Medián podílu vysoutěžené ceny na předpokládané hodnotě je HD 82 %, DD 66 %, Lučina 80 % a Pazderna 63 % (malé vzorky).
-8. **Administrátoři:** v HD připravuje zakázky téměř výhradně TISPOL s.r.o. (13 z 18). Stejná firma administrovala i 5 zakázek Lučiny (2017–2026, mj. tři největší soutěže). DD od roku 2023 používá advokátní kancelář, v letech 2020–2021 AZ zakázka s.r.o. Pazderna se obrací hlavně na administrátora s doménou dobrazakazka.cz.
+1. **HD má zdaleka nejmenší majetek na obyvatele, ale nejvíc peněz na účtu.** Aktiva netto na obyvatele činila v roce 2025 v HD 69 tis. Kč, v DD 214 tis., v Lučině 174 tis., v Pazderně 220 tis. a ve Vojkovicích 148 tis. Kč. Stavby netto na obyvatele jsou v HD 28 tis. Kč, v ostatních obcích 82–151 tis. Kč. Peníze na obyvatele jsou naopak v HD nejvyšší (35,6 tis. Kč, DD 30,7 tis., Vojkovice 29,6 tis., Lučina 3,3 tis., Pazderna 7,7 tis.). Peníze tvoří v HD 52 % aktiv, ve Vojkovicích 20 %, v DD 14 % a v Lučině a Pazderně 2–3 %.
+2. **Ostatní obce za 2014–2025 přidaly do staveb mnohonásobně víc.** Stavby v pořizovací ceně vzrostly od konce roku 2013 do konce roku 2025 v HD o 25,0 mil. Kč (22 tis. Kč na dnešního obyvatele), v DD o 205,9 mil. (140 tis.), v Lučině o 171,6 mil. (107 tis.), v Pazderně o 44,1 mil. (105 tis.) a ve Vojkovicích o 39,1 mil. Kč (49 tis. Kč na obyvatele).
+3. **HD má přitom absolutně nejvyšší opravy.** Na účtu 511 (opravy a udržování) vykázala HD za 2014–2025 celkem 27,5 mil. Kč, DD 24,9 mil., Lučina 17,1 mil., Vojkovice 9,3 mil. a Pazderna 8,8 mil. Kč. Velké akce na silnicích v HD šly do nákladů, ne do majetku (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)).
+4. **Dluh:** HD, DD a Vojkovice jsou bez úvěrů. Lučina má k 31. 12. 2025 úvěry 17,25 mil. Kč (dlouhodobý 8,80 a krátkodobý 8,45 mil.), Pazderna 4,0 mil. Kč. Obě obce zároveň mají velké rozestavěné investice (účet 042: Lučina 43,6 mil., Pazderna 22,3 mil.).
+5. **Všech pět obcí hospodaří se ziskem.** Ztrátu vykázala v letech 2010–2025 jen HD v roce 2010 a Pazderna v roce 2016. Za 2014–2025 dosáhla HD součtu výsledků 51,5 mil. Kč, DD 102,6 mil., Lučina 95,9 mil., Pazderna 21,9 mil. a Vojkovice 51,4 mil. Kč. V přepočtu na obyvatele byla HD v roce 2025 (8 294 Kč) za DD (13 703 Kč), ale před Vojkovicemi (8 112 Kč), Pazdernou (7 129 Kč) a Lučinou (6 228 Kč).
+6. **Registr smluv:** sama zveřejňují jen DD a Vojkovice. DD vložily 16 smluv z let 2016–2026 za 7,27 mil. Kč s DPH, po roce 2020 už ale jen jednu (2026). Vojkovice vložily 4 smlouvy z let 2017 a 2020 za 3,13 mil. Kč s DPH. HD, Lučina ani Pazderna jako zveřejňovatel v registru nejsou. Smlouvy, kde jsou stranou a vložila je protistrana, mají všechny (HD 9, DD 21, Lučina 18, Pazderna 12, Vojkovice 12).
+7. **Veřejné zakázky 2014–2026:** HD 18, DD 48 (z toho 22 přímá zadání nebo evidence smluv), Lučina 36 (17 přímých zadání), Pazderna 16 (12 z nich v NEN) a Vojkovice 20 (3 přímá zadání). HD ani Pazderna nemají na profilu žádné přímé zadání, DD, Lučina a Vojkovice na profil vkládají i přímo zadané smlouvy. Průměrný počet účastníků u soutěží, kde profil uvádí aspoň dva, je HD 5,3, DD 7,0, Lučina 7,1 a Pazderna 5,0; Vojkovice uvádějí na profilu jen vybraného dodavatele. Medián podílu vysoutěžené ceny na předpokládané hodnotě je HD 82 %, DD 66 %, Lučina 80 %, Pazderna 63 % a Vojkovice 100 % (malé vzorky, u Vojkovic je předpokládaná hodnota většinou shodná se smluvní cenou).
+8. **Administrátoři:** v HD připravuje zakázky téměř výhradně TISPOL s.r.o. (13 z 18). Stejná firma administrovala i 5 zakázek Lučiny (2017–2026, mj. tři největší soutěže). DD od roku 2023 používá advokátní kancelář, v letech 2020–2021 AZ zakázka s.r.o. Pazderna se obrací hlavně na administrátora s doménou dobrazakazka.cz. Vojkovicím administroval čtyři zakázky z let 2021–2022 dobrovolný svazek obcí Region Slezská brána.
 
 ## 1. Rozvaha a výkaz zisku a ztráty
 
 ### 1.1 Stav k 31. 12. 2025 vedle sebe
 
-| Ukazatel 2025 | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| Obyvatel | 1 109 | 1 467 | 1 596 | 422 |
-| Aktiva netto | 76,62 | 314,53 | 278,06 | 92,84 |
-| Stavby netto (021) | 30,59 | 221,02 | 185,73 | 44,51 |
-| Pozemky (031) | 1,97 | 26,39 | 11,47 | 1,95 |
-| Nedokončené investice (042) | 1,00 | 4,68 | 43,58 | 22,32 |
-| Peníze (231 + 244 + 245) | 39,49 | 45,09 | 5,19 | 3,25 |
-| Úvěry (451 + 281) a závazky 459 | 0,00 | 0,00 | 17,25 | 4,00 |
-| Odpisy (551) | 0,83 | 6,74 | 5,18 | 1,39 |
-| Náklady celkem | 13,32 | 27,53 | 29,23 | 6,15 |
-| Výnosy celkem | 22,52 | 47,63 | 39,16 | 9,16 |
-| Výsledek hospodaření | 9,20 | 20,10 | 9,94 | 3,01 |
-| Podíl peněz na aktivech | 52 % | 14 % | 2 % | 3 % |
+| Ukazatel 2025 | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| Obyvatel | 1 109 | 1 467 | 1 596 | 422 | 800 |
+| Aktiva netto | 76,62 | 314,53 | 278,06 | 92,84 | 118,76 |
+| Stavby netto (021) | 30,59 | 221,02 | 185,73 | 44,51 | 65,98 |
+| Pozemky (031) | 1,97 | 26,39 | 11,47 | 1,95 | 16,61 |
+| Nedokončené investice (042) | 1,00 | 4,68 | 43,58 | 22,32 | 6,56 |
+| Peníze (231 + 244 + 245) | 39,49 | 45,09 | 5,19 | 3,25 | 23,65 |
+| Úvěry (451 + 281) a závazky 459 | 0,00 | 0,00 | 17,25 | 4,00 | 0,00 |
+| Odpisy (551) | 0,83 | 6,74 | 5,18 | 1,39 | 2,16 |
+| Náklady celkem | 13,32 | 27,53 | 29,23 | 6,15 | 13,47 |
+| Výnosy celkem | 22,52 | 47,63 | 39,16 | 9,16 | 19,96 |
+| Výsledek hospodaření | 9,20 | 20,10 | 9,94 | 3,01 | 6,49 |
+| Podíl peněz na aktivech | 52 % | 14 % | 2 % | 3 % | 20 % |
 
 ### 1.2 Totéž na obyvatele (Kč, 2025)
 
-| Ukazatel na obyvatele | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| Aktiva netto | 69 091 | 214 407 | 174 223 | 219 997 |
-| Stavby netto | 27 581 | 150 659 | 116 370 | 105 470 |
-| Pozemky | 1 776 | 17 988 | 7 188 | 4 632 |
-| Nedokončené investice | 906 | 3 194 | 27 307 | 52 887 |
-| Peníze | 35 613 | 30 739 | 3 252 | 7 694 |
-| Úvěry a závazky 459 | 0 | 0 | 10 806 | 9 488 |
-| Odpisy | 749 | 4 591 | 3 243 | 3 297 |
-| Náklady | 12 015 | 18 767 | 18 312 | 14 573 |
-| Výnosy | 20 309 | 32 470 | 24 539 | 21 702 |
-| Výsledek hospodaření | 8 294 | 13 703 | 6 228 | 7 129 |
+| Ukazatel na obyvatele | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| Aktiva netto | 69 091 | 214 407 | 174 223 | 219 997 | 148 452 |
+| Stavby netto | 27 581 | 150 659 | 116 370 | 105 470 | 82 477 |
+| Pozemky | 1 776 | 17 988 | 7 188 | 4 632 | 20 765 |
+| Nedokončené investice | 906 | 3 194 | 27 307 | 52 887 | 8 198 |
+| Peníze | 35 613 | 30 739 | 3 252 | 7 694 | 29 564 |
+| Úvěry a závazky 459 | 0 | 0 | 10 806 | 9 488 | 0 |
+| Odpisy | 749 | 4 591 | 3 243 | 3 297 | 2 703 |
+| Náklady | 12 015 | 18 767 | 18 312 | 14 573 | 16 834 |
+| Výnosy | 20 309 | 32 470 | 24 539 | 21 702 | 24 946 |
+| Výsledek hospodaření | 8 294 | 13 703 | 6 228 | 7 129 | 8 112 |
 
 ### 1.3 Souhrny za 2014–2025
 
-| Součet 2014–2025 | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| Výsledek hospodaření | 51,51 | 102,64 | 95,91 | 21,87 |
-| Odpisy | 6,55 | 54,30 | 32,76 | 7,49 |
-| Opravy a udržování (511) | 27,45 | 24,86 | 17,09 | 8,84 |
-| Přírůstek staveb brutto (konec 2013 → konec 2025) | 24,97 | 205,91 | 171,56 | 44,12 |
-| Nejvyšší zadlužení v období 2010–2025 (rok) | 2,50 (2013) | 5,38 (2010) | 17,25 (2025) | 7,50 (2024) |
+| Součet 2014–2025 | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| Výsledek hospodaření | 51,51 | 102,64 | 95,91 | 21,87 | 51,41 |
+| Odpisy | 6,55 | 54,30 | 32,76 | 7,49 | 16,32 |
+| Opravy a udržování (511) | 27,45 | 24,86 | 17,09 | 8,84 | 9,25 |
+| Přírůstek staveb brutto (konec 2013 → konec 2025) | 24,97 | 205,91 | 171,56 | 44,12 | 39,10 |
+| Nejvyšší zadlužení v období 2010–2025 (rok) | 2,50 (2013) | 5,38 (2010) | 17,25 (2025) | 7,50 (2024) | 1,00 (2013) |
 
 ### 1.4 Časové řady
 
 **Aktiva netto na obyvatele (tis. Kč)**
 
-| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| 2010 | 23,2 | 94,4 | 51,8 | 59,5 |
-| 2011 | 14,9 | 65,4 | 37,8 | 28,6 |
-| 2012 | 18,0 | 63,5 | 38,6 | 30,3 |
-| 2013 | 18,7 | 65,3 | 43,7 | 37,1 |
-| 2014 | 22,7 | 69,1 | 51,1 | 36,5 |
-| 2015 | 27,8 | 77,8 | 58,6 | 47,6 |
-| 2016 | 31,5 | 138,1 | 61,9 | 44,0 |
-| 2017 | 35,5 | 141,7 | 61,7 | 50,1 |
-| 2018 | 37,6 | 144,9 | 72,1 | 52,5 |
-| 2019 | 39,3 | 155,8 | 78,7 | 55,6 |
-| 2020 | 49,6 | 159,2 | 117,9 | 58,6 |
-| 2021 | 55,1 | 162,6 | 124,9 | 62,9 |
-| 2022 | 61,5 | 165,4 | 132,3 | 104,5 |
-| 2023 | 60,5 | 182,9 | 135,4 | 121,8 |
-| 2024 | 62,7 | 207,4 | 149,0 | 148,5 |
-| 2025 | 69,1 | 214,4 | 174,2 | 220,0 |
+| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| 2010 | 23,2 | 94,4 | 51,8 | 59,5 | 97,5 |
+| 2011 | 14,9 | 65,4 | 37,8 | 28,6 | 84,5 |
+| 2012 | 18,0 | 63,5 | 38,6 | 30,3 | 82,6 |
+| 2013 | 18,7 | 65,3 | 43,7 | 37,1 | 85,0 |
+| 2014 | 22,7 | 69,1 | 51,1 | 36,5 | 85,3 |
+| 2015 | 27,8 | 77,8 | 58,6 | 47,6 | 84,2 |
+| 2016 | 31,5 | 138,1 | 61,9 | 44,0 | 88,3 |
+| 2017 | 35,5 | 141,7 | 61,7 | 50,1 | 91,8 |
+| 2018 | 37,6 | 144,9 | 72,1 | 52,5 | 93,5 |
+| 2019 | 39,3 | 155,8 | 78,7 | 55,6 | 97,2 |
+| 2020 | 49,6 | 159,2 | 117,9 | 58,6 | 104,0 |
+| 2021 | 55,1 | 162,6 | 124,9 | 62,9 | 111,4 |
+| 2022 | 61,5 | 165,4 | 132,3 | 104,5 | 117,6 |
+| 2023 | 60,5 | 182,9 | 135,4 | 121,8 | 125,4 |
+| 2024 | 62,7 | 207,4 | 149,0 | 148,5 | 136,4 |
+| 2025 | 69,1 | 214,4 | 174,2 | 220,0 | 148,5 |
 
 **Stavby netto (mil. Kč)**
 
-| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| 2010 | 10,45 | 95,50 | 45,07 | 12,41 |
-| 2011 | 6,84 | 56,12 | 29,21 | 5,82 |
-| 2012 | 6,69 | 56,52 | 29,38 | 6,28 |
-| 2013 | 10,76 | 57,75 | 37,00 | 6,17 |
-| 2014 | 10,59 | 56,40 | 38,82 | 7,01 |
-| 2015 | 13,03 | 67,67 | 42,50 | 6,69 |
-| 2016 | 13,19 | 142,52 | 44,93 | 6,61 |
-| 2017 | 15,40 | 145,07 | 43,37 | 6,36 |
-| 2018 | 18,51 | 150,30 | 48,92 | 6,43 |
-| 2019 | 18,23 | 165,14 | 52,19 | 6,65 |
-| 2020 | 18,81 | 163,60 | 146,76 | 7,03 |
-| 2021 | 32,49 | 165,99 | 150,37 | 6,90 |
-| 2022 | 31,88 | 162,52 | 146,60 | 32,02 |
-| 2023 | 31,54 | 159,94 | 163,52 | 39,56 |
-| 2024 | 30,98 | 169,56 | 180,21 | 39,64 |
-| 2025 | 30,59 | 221,02 | 185,73 | 44,51 |
+| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| 2010 | 10,45 | 95,50 | 45,07 | 12,41 | 45,68 |
+| 2011 | 6,84 | 56,12 | 29,21 | 5,82 | 37,36 |
+| 2012 | 6,69 | 56,52 | 29,38 | 6,28 | 36,70 |
+| 2013 | 10,76 | 57,75 | 37,00 | 6,17 | 41,64 |
+| 2014 | 10,59 | 56,40 | 38,82 | 7,01 | 40,89 |
+| 2015 | 13,03 | 67,67 | 42,50 | 6,69 | 39,98 |
+| 2016 | 13,19 | 142,52 | 44,93 | 6,61 | 39,84 |
+| 2017 | 15,40 | 145,07 | 43,37 | 6,36 | 40,65 |
+| 2018 | 18,51 | 150,30 | 48,92 | 6,43 | 40,20 |
+| 2019 | 18,23 | 165,14 | 52,19 | 6,65 | 39,27 |
+| 2020 | 18,81 | 163,60 | 146,76 | 7,03 | 40,59 |
+| 2021 | 32,49 | 165,99 | 150,37 | 6,90 | 40,23 |
+| 2022 | 31,88 | 162,52 | 146,60 | 32,02 | 54,83 |
+| 2023 | 31,54 | 159,94 | 163,52 | 39,56 | 61,02 |
+| 2024 | 30,98 | 169,56 | 180,21 | 39,64 | 63,78 |
+| 2025 | 30,59 | 221,02 | 185,73 | 44,51 | 65,98 |
 
 **Pozemky, účet 031 (mil. Kč)**
 
-| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| 2010 | 1,28 | 0,22 | 4,20 | 0,25 |
-| 2013 | 1,18 | 7,59 | 4,22 | 0,41 |
-| 2016 | 1,31 | 8,03 | 4,22 | 0,41 |
-| 2019 | 1,79 | 9,73 | 6,84 | 0,41 |
-| 2022 | 1,90 | 14,51 | 6,97 | 0,43 |
-| 2023 | 1,90 | 14,68 | 6,97 | 1,82 |
-| 2024 | 1,93 | 15,22 | 11,45 | 1,83 |
-| 2025 | 1,97 | 26,39 | 11,47 | 1,95 |
+| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| 2010 | 1,28 | 0,22 | 4,20 | 0,25 | 1,67 |
+| 2013 | 1,18 | 7,59 | 4,22 | 0,41 | 4,80 |
+| 2016 | 1,31 | 8,03 | 4,22 | 0,41 | 4,81 |
+| 2019 | 1,79 | 9,73 | 6,84 | 0,41 | 4,89 |
+| 2022 | 1,90 | 14,51 | 6,97 | 0,43 | 5,01 |
+| 2023 | 1,90 | 14,68 | 6,97 | 1,82 | 5,21 |
+| 2024 | 1,93 | 15,22 | 11,45 | 1,83 | 16,57 |
+| 2025 | 1,97 | 26,39 | 11,47 | 1,95 | 16,61 |
 
 **Nedokončené investice, účet 042 (mil. Kč)**
 
-| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| 2010 | 0,80 | 7,41 | 4,41 | 0,00 |
-| 2011 | 0,80 | 6,77 | 4,47 | 0,00 |
-| 2012 | 3,30 | 6,95 | 4,90 | 0,01 |
-| 2013 | 0,80 | 7,65 | 4,71 | 0,07 |
-| 2014 | 0,97 | 9,42 | 5,14 | 0,00 |
-| 2015 | 1,14 | 10,59 | 7,65 | 0,05 |
-| 2016 | 1,10 | 1,53 | 5,00 | 0,08 |
-| 2017 | 1,29 | 3,77 | 6,61 | 0,13 |
-| 2018 | 0,89 | 20,36 | 9,76 | 0,10 |
-| 2019 | 1,15 | 2,25 | 37,30 | 0,85 |
-| 2020 | 6,37 | 2,51 | 1,51 | 1,01 |
-| 2021 | 0,39 | 2,64 | 2,57 | 1,93 |
-| 2022 | 0,51 | 2,79 | 17,63 | 0,41 |
-| 2023 | 0,31 | 16,02 | 7,25 | 0,90 |
-| 2024 | 0,83 | 47,13 | 10,95 | 5,49 |
-| 2025 | 1,00 | 4,68 | 43,58 | 22,32 |
+| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| 2010 | 0,80 | 7,41 | 4,41 | 0,00 | 0,10 |
+| 2011 | 0,80 | 6,77 | 4,47 | 0,00 | 0,12 |
+| 2012 | 3,30 | 6,95 | 4,90 | 0,01 | 0,19 |
+| 2013 | 0,80 | 7,65 | 4,71 | 0,07 | 0,00 |
+| 2014 | 0,97 | 9,42 | 5,14 | 0,00 | 0,02 |
+| 2015 | 1,14 | 10,59 | 7,65 | 0,05 | 0,02 |
+| 2016 | 1,10 | 1,53 | 5,00 | 0,08 | 0,11 |
+| 2017 | 1,29 | 3,77 | 6,61 | 0,13 | 0,04 |
+| 2018 | 0,89 | 20,36 | 9,76 | 0,10 | 0,05 |
+| 2019 | 1,15 | 2,25 | 37,30 | 0,85 | 0,28 |
+| 2020 | 6,37 | 2,51 | 1,51 | 1,01 | 0,33 |
+| 2021 | 0,39 | 2,64 | 2,57 | 1,93 | 8,91 |
+| 2022 | 0,51 | 2,79 | 17,63 | 0,41 | 7,71 |
+| 2023 | 0,31 | 16,02 | 7,25 | 0,90 | 0,30 |
+| 2024 | 0,83 | 47,13 | 10,95 | 5,49 | 1,52 |
+| 2025 | 1,00 | 4,68 | 43,58 | 22,32 | 6,56 |
 
 **Peníze 231 + 244 + 245 (mil. Kč) a na obyvatele (tis. Kč)**
 
-| Rok | HD | HD / obyv. | DD | DD / obyv. | Lučina | LU / obyv. | Pazderna | PA / obyv. |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 0,26 | 0,4 | 0,19 | 0,2 | 4,90 | 4,0 | 0,77 | 2,8 |
-| 2012 | 0,85 | 1,1 | 2,71 | 2,2 | 8,00 | 6,3 | 1,36 | 4,8 |
-| 2014 | 3,86 | 4,9 | 10,91 | 8,5 | 10,98 | 8,5 | 2,20 | 7,7 |
-| 2016 | 8,25 | 10,5 | 15,91 | 12,0 | 18,74 | 13,7 | 2,74 | 9,4 |
-| 2018 | 9,20 | 10,3 | 5,53 | 4,0 | 21,12 | 15,1 | 6,36 | 20,9 |
-| 2019 | 13,89 | 15,0 | 23,17 | 16,8 | 6,94 | 4,8 | 7,02 | 22,0 |
-| 2020 | 14,09 | 15,0 | 31,57 | 22,7 | 8,12 | 5,5 | 8,14 | 25,1 |
-| 2021 | 19,10 | 19,1 | 31,97 | 22,5 | 14,15 | 9,5 | 8,94 | 26,9 |
-| 2022 | 27,29 | 26,8 | 45,26 | 31,3 | 21,60 | 14,1 | 3,05 | 8,3 |
-| 2023 | 28,11 | 26,7 | 49,39 | 33,8 | 17,35 | 10,9 | 2,10 | 5,3 |
-| 2024 | 31,48 | 29,3 | 35,84 | 24,3 | 15,95 | 9,9 | 3,91 | 9,6 |
-| 2025 | 39,49 | 35,6 | 45,09 | 30,7 | 5,19 | 3,3 | 3,25 | 7,7 |
+| Rok | HD | HD / obyv. | DD | DD / obyv. | Lučina | LU / obyv. | Pazderna | PA / obyv. | Vojkovice | VO / obyv. |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2010 | 0,26 | 0,4 | 0,19 | 0,2 | 4,90 | 4,0 | 0,77 | 2,8 | 8,46 | 14,6 |
+| 2012 | 0,85 | 1,1 | 2,71 | 2,2 | 8,00 | 6,3 | 1,36 | 4,8 | 9,82 | 16,1 |
+| 2014 | 3,86 | 4,9 | 10,91 | 8,5 | 10,98 | 8,5 | 2,20 | 7,7 | 5,15 | 8,3 |
+| 2016 | 8,25 | 10,5 | 15,91 | 12,0 | 18,74 | 13,7 | 2,74 | 9,4 | 11,34 | 17,3 |
+| 2018 | 9,20 | 10,3 | 5,53 | 4,0 | 21,12 | 15,1 | 6,36 | 20,9 | 19,11 | 27,2 |
+| 2019 | 13,89 | 15,0 | 23,17 | 16,8 | 6,94 | 4,8 | 7,02 | 22,0 | 24,57 | 33,9 |
+| 2020 | 14,09 | 15,0 | 31,57 | 22,7 | 8,12 | 5,5 | 8,14 | 25,1 | 28,45 | 37,6 |
+| 2021 | 19,10 | 19,1 | 31,97 | 22,5 | 14,15 | 9,5 | 8,94 | 26,9 | 26,58 | 34,9 |
+| 2022 | 27,29 | 26,8 | 45,26 | 31,3 | 21,60 | 14,1 | 3,05 | 8,3 | 20,03 | 25,8 |
+| 2023 | 28,11 | 26,7 | 49,39 | 33,8 | 17,35 | 10,9 | 2,10 | 5,3 | 27,47 | 35,0 |
+| 2024 | 31,48 | 29,3 | 35,84 | 24,3 | 15,95 | 9,9 | 3,91 | 9,6 | 21,85 | 27,4 |
+| 2025 | 39,49 | 35,6 | 45,09 | 30,7 | 5,19 | 3,3 | 3,25 | 7,7 | 23,65 | 29,6 |
 
 **Úvěry (451 + 281) a ostatní dlouhodobé závazky (459), mil. Kč**
 
-| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| 2010 | 0,50 | 5,38 | 0,09 | 3,04 |
-| 2011 | 1,61 | 3,78 | 0,05 | 0,89 |
-| 2012 | 2,07 | 1,62 | 0,00 | 0,61 |
-| 2013 | 2,50 | 0,01 | 0,00 | 1,03 |
-| 2014 | 1,23 | 0,01 | 0,00 | 0,27 |
-| 2015 | 0,65 | 0,01 | 0,00 | 0,00 |
-| 2016 | 0,42 | 0,01 | 0,00 | 0,00 |
-| 2017 | 0,18 | 0,01 | 0,00 | 0,00 |
-| 2018–2019 | 0,00 | 0,01 | 0,00 | 0,00 |
-| 2020 | 0,00 | 0,00 | 11,95 | 0,00 |
-| 2021 | 0,00 | 0,00 | 9,44 | 0,00 |
-| 2022 | 0,00 | 0,00 | 6,95 | 0,00 |
-| 2023 | 0,00 | 0,00 | 4,44 | 5,00 |
-| 2024 | 0,00 | 0,00 | 12,72 | 7,50 |
-| 2025 | 0,00 | 0,00 | 17,25 | 4,00 |
+| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| 2010 | 0,50 | 5,38 | 0,09 | 3,04 | 0,00 |
+| 2011 | 1,61 | 3,78 | 0,05 | 0,89 | 0,00 |
+| 2012 | 2,07 | 1,62 | 0,00 | 0,61 | 0,00 |
+| 2013 | 2,50 | 0,01 | 0,00 | 1,03 | 1,00 |
+| 2014 | 1,23 | 0,01 | 0,00 | 0,27 | 0,50 |
+| 2015 | 0,65 | 0,01 | 0,00 | 0,00 | 0,00 |
+| 2016 | 0,42 | 0,01 | 0,00 | 0,00 | 0,00 |
+| 2017 | 0,18 | 0,01 | 0,00 | 0,00 | 0,00 |
+| 2018–2019 | 0,00 | 0,01 | 0,00 | 0,00 | 0,00 |
+| 2020 | 0,00 | 0,00 | 11,95 | 0,00 | 0,00 |
+| 2021 | 0,00 | 0,00 | 9,44 | 0,00 | 0,00 |
+| 2022 | 0,00 | 0,00 | 6,95 | 0,00 | 0,00 |
+| 2023 | 0,00 | 0,00 | 4,44 | 5,00 | 0,00 |
+| 2024 | 0,00 | 0,00 | 12,72 | 7,50 | 0,00 |
+| 2025 | 0,00 | 0,00 | 17,25 | 4,00 | 0,00 |
 
-U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý závazek, jehož původ z výkazů nevyplývá (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)). U Lučiny je v roce 2025 dlouhodobý úvěr 8,80 mil. a krátkodobý úvěr 8,45 mil. Kč. U Pazderny jde téměř celé o dlouhodobý úvěr 451.
+U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý závazek, jehož původ z výkazů nevyplývá (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)). U Lučiny je v roce 2025 dlouhodobý úvěr 8,80 mil. a krátkodobý úvěr 8,45 mil. Kč. U Pazderny jde téměř celé o dlouhodobý úvěr 451. U Vojkovic jde v letech 2013–2014 o účet 459 (ostatní dlouhodobé závazky), od roku 2015 nemají žádný.
 
 **Odpisy (mil. Kč)**
 
-| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| 2013 | 0,34 | 2,00 | 0,94 | 0,31 |
-| 2016 | 0,49 | 2,79 | 1,34 | 0,39 |
-| 2019 | 0,38 | 6,09 | 1,63 | 0,40 |
-| 2022 | 0,74 | 5,47 | 3,73 | 0,54 |
-| 2023 | 0,77 | 6,07 | 3,92 | 1,14 |
-| 2024 | 0,79 | 5,23 | 4,68 | 1,33 |
-| 2025 | 0,83 | 6,74 | 5,18 | 1,39 |
+| Rok | Horní Domaslavice | Dolní Domaslavice | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| 2013 | 0,34 | 2,00 | 0,94 | 0,31 | 0,90 |
+| 2016 | 0,49 | 2,79 | 1,34 | 0,39 | 1,08 |
+| 2019 | 0,38 | 6,09 | 1,63 | 0,40 | 1,19 |
+| 2022 | 0,74 | 5,47 | 3,73 | 0,54 | 1,38 |
+| 2023 | 0,77 | 6,07 | 3,92 | 1,14 | 1,75 |
+| 2024 | 0,79 | 5,23 | 4,68 | 1,33 | 2,02 |
+| 2025 | 0,83 | 6,74 | 5,18 | 1,39 | 2,16 |
 
 **Výsledek hospodaření (mil. Kč) a na obyvatele (Kč)**
 
-| Rok | HD | HD / obyv. | DD | DD / obyv. | Lučina | LU / obyv. | Pazderna | PA / obyv. |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | −0,39 | −575 | 2,63 | 2 249 | 1,94 | 1 586 | 0,81 | 2 962 |
-| 2011 | 1,19 | 1 680 | 5,11 | 4 330 | 1,94 | 1 563 | 0,82 | 2 956 |
-| 2012 | 2,51 | 3 372 | 3,36 | 2 707 | 1,37 | 1 078 | 0,52 | 1 867 |
-| 2013 | 0,83 | 1 099 | 3,39 | 2 691 | 4,00 | 3 123 | 1,17 | 4 206 |
-| 2014 | 4,37 | 5 601 | 7,36 | 5 717 | 6,44 | 5 008 | 0,88 | 3 080 |
-| 2015 | 3,73 | 4 758 | 7,98 | 6 103 | 5,13 | 3 887 | 1,49 | 5 239 |
-| 2016 | 2,64 | 3 344 | 4,45 | 3 353 | 5,68 | 4 153 | −0,38 | −1 321 |
-| 2017 | 3,51 | 4 281 | 7,84 | 5 822 | 5,94 | 4 308 | 1,08 | 3 708 |
-| 2018 | 2,39 | 2 677 | 8,75 | 6 352 | 8,56 | 6 116 | 2,14 | 7 041 |
-| 2019 | 2,23 | 2 409 | 7,07 | 5 119 | 10,22 | 7 137 | 1,89 | 5 918 |
-| 2020 | 5,24 | 5 563 | 6,92 | 4 970 | 9,22 | 6 265 | 1,41 | 4 328 |
-| 2021 | 5,53 | 5 535 | 6,53 | 4 594 | 9,65 | 6 490 | 1,58 | 4 762 |
-| 2022 | 7,72 | 7 573 | 9,20 | 6 364 | 11,65 | 7 581 | 2,93 | 7 977 |
-| 2023 | 1,23 | 1 169 | 16,08 | 11 013 | 6,41 | 4 020 | 3,00 | 7 564 |
-| 2024 | 3,73 | 3 469 | 0,35 | 238 | 7,07 | 4 368 | 2,85 | 6 985 |
-| 2025 | 9,20 | 8 294 | 20,10 | 13 703 | 9,94 | 6 228 | 3,01 | 7 129 |
+| Rok | HD | HD / obyv. | DD | DD / obyv. | Lučina | LU / obyv. | Pazderna | PA / obyv. | Vojkovice | VO / obyv. |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2010 | −0,39 | −575 | 2,63 | 2 249 | 1,94 | 1 586 | 0,81 | 2 962 | 1,84 | 3 168 |
+| 2011 | 1,19 | 1 680 | 5,11 | 4 330 | 1,94 | 1 563 | 0,82 | 2 956 | 1,89 | 3 215 |
+| 2012 | 2,51 | 3 372 | 3,36 | 2 707 | 1,37 | 1 078 | 0,52 | 1 867 | 0,33 | 536 |
+| 2013 | 0,83 | 1 099 | 3,39 | 2 691 | 4,00 | 3 123 | 1,17 | 4 206 | 2,04 | 3 281 |
+| 2014 | 4,37 | 5 601 | 7,36 | 5 717 | 6,44 | 5 008 | 0,88 | 3 080 | 0,58 | 941 |
+| 2015 | 3,73 | 4 758 | 7,98 | 6 103 | 5,13 | 3 887 | 1,49 | 5 239 | 2,17 | 3 384 |
+| 2016 | 2,64 | 3 344 | 4,45 | 3 353 | 5,68 | 4 153 | −0,38 | −1 321 | 3,72 | 5 694 |
+| 2017 | 3,51 | 4 281 | 7,84 | 5 822 | 5,94 | 4 308 | 1,08 | 3 708 | 4,03 | 5 975 |
+| 2018 | 2,39 | 2 677 | 8,75 | 6 352 | 8,56 | 6 116 | 2,14 | 7 041 | 4,21 | 5 983 |
+| 2019 | 2,23 | 2 409 | 7,07 | 5 119 | 10,22 | 7 137 | 1,89 | 5 918 | 4,74 | 6 535 |
+| 2020 | 5,24 | 5 563 | 6,92 | 4 970 | 9,22 | 6 265 | 1,41 | 4 328 | 4,62 | 6 109 |
+| 2021 | 5,53 | 5 535 | 6,53 | 4 594 | 9,65 | 6 490 | 1,58 | 4 762 | 4,86 | 6 387 |
+| 2022 | 7,72 | 7 573 | 9,20 | 6 364 | 11,65 | 7 581 | 2,93 | 7 977 | 4,54 | 5 862 |
+| 2023 | 1,23 | 1 169 | 16,08 | 11 013 | 6,41 | 4 020 | 3,00 | 7 564 | 6,41 | 8 179 |
+| 2024 | 3,73 | 3 469 | 0,35 | 238 | 7,07 | 4 368 | 2,85 | 6 985 | 5,04 | 6 307 |
+| 2025 | 9,20 | 8 294 | 20,10 | 13 703 | 9,94 | 6 228 | 3,01 | 7 129 | 6,49 | 8 112 |
 
 ### 1.5 Hlavní rozdíly
 
-1. **HD drží peníze, sousedé majetek.** HD a DD mají podobně peněz na obyvatele (35,6 a 30,7 tis. Kč). DD ale k tomu mají stavby za 151 tis. Kč na obyvatele, HD za 28 tis. Kč. Lučina a Pazderna mají na účtu málo peněz, protože právě investují (vysoký účet 042), zčásti na úvěr.
-2. **Odpisy ukazují, kolik majetku obec udržuje.** HD odepisuje 0,75 tis. Kč na obyvatele ročně, ostatní obce 3,2–4,6 tis. Kč. Vyšší výsledek hospodaření DD (2025: 20,1 mil.) vzniká i přesto, že DD nesou 6,7 mil. Kč odpisů. Odpisy jsou nepeněžní náklad. Pro srovnání „hotovostní síly“ je lze přičíst k výsledku: HD 10,0 mil., DD 26,8 mil., Lučina 15,1 mil. a Pazderna 4,4 mil. Kč v roce 2025.
-3. **Opravy místo investic jsou u HD výrazné.** Absolutně nejvyšší opravy (27,5 mil. Kč za 12 let) při nejnižším přírůstku staveb znamenají, že HD velkou část peněz na silnice a podobné akce zaúčtovala do nákladů. U DD jsou opravy podobně vysoké (24,9 mil.), ale vedle toho přibylo 206 mil. Kč staveb.
-4. **Pozemků má HD málo.** HD vlastní pozemky za 1,97 mil. Kč (1,8 tis. Kč na obyvatele), DD za 26,4 mil. (v roce 2025 přibylo 11,2 mil.), Lučina za 11,5 mil. a Pazderna za 1,95 mil. Kč. Hodnoty jsou účetní (pořizovací ceny), ne tržní.
-5. **Skoky ve stavbách.** DD vykázaly mezi lety 2015 a 2016 přírůstek staveb netto o 75 mil. Kč, Lučina mezi lety 2019 a 2020 o 95 mil. Kč (současně klesl účet 042 z 37,3 na 1,5 mil. a vznikl úvěr 11,95 mil.) a Pazderna mezi lety 2021 a 2022 o 25 mil. Kč. Co přesně se zařadilo, výkazy neuvádějí. U Lučiny to časově odpovídá modernizaci kempu, kterou obec v letech 2018–2019 soutěžila (smlouvy 21,1 a 12,2 mil. Kč bez DPH, viz oddíl 3). To je ale jen časová souvislost, ne ověření.
+1. **HD drží peníze, sousedé majetek.** HD, DD a Vojkovice mají podobně peněz na obyvatele (35,6, 30,7 a 29,6 tis. Kč). DD ale k tomu mají stavby za 151 tis. Kč na obyvatele a Vojkovice za 82 tis. Kč, HD za 28 tis. Kč. Lučina a Pazderna mají na účtu málo peněz, protože právě investují (vysoký účet 042), zčásti na úvěr.
+2. **Odpisy ukazují, kolik majetku obec udržuje.** HD odepisuje 0,75 tis. Kč na obyvatele ročně, ostatní obce 2,7–4,6 tis. Kč. Vyšší výsledek hospodaření DD (2025: 20,1 mil.) vzniká i přesto, že DD nesou 6,7 mil. Kč odpisů. Odpisy jsou nepeněžní náklad. Pro srovnání „hotovostní síly“ je lze přičíst k výsledku: HD 10,0 mil., DD 26,8 mil., Lučina 15,1 mil., Pazderna 4,4 mil. a Vojkovice 8,7 mil. Kč v roce 2025.
+3. **Opravy místo investic jsou u HD výrazné.** Absolutně nejvyšší opravy (27,5 mil. Kč za 12 let) při nejnižším přírůstku staveb znamenají, že HD velkou část peněz na silnice a podobné akce zaúčtovala do nákladů. U DD jsou opravy podobně vysoké (24,9 mil.), ale vedle toho přibylo 206 mil. Kč staveb. Vojkovice při zhruba třetinových opravách proti HD (9,3 mil.) přidaly do staveb 39,1 mil. Kč.
+4. **Pozemků má HD málo.** HD vlastní pozemky za 1,97 mil. Kč (1,8 tis. Kč na obyvatele), DD za 26,4 mil. (v roce 2025 přibylo 11,2 mil.), Lučina za 11,5 mil., Pazderna za 1,95 mil. a Vojkovice za 16,6 mil. Kč (20,8 tis. Kč na obyvatele, nejvíc z pěti obcí; v roce 2024 přibylo 11,4 mil. Kč). Hodnoty jsou účetní (pořizovací ceny), ne tržní.
+5. **Skoky ve stavbách.** DD vykázaly mezi lety 2015 a 2016 přírůstek staveb netto o 75 mil. Kč, Lučina mezi lety 2019 a 2020 o 95 mil. Kč (současně klesl účet 042 z 37,3 na 1,5 mil. a vznikl úvěr 11,95 mil.), Pazderna mezi lety 2021 a 2022 o 25 mil. Kč a Vojkovice mezi lety 2021 a 2022 o 14,6 mil. Kč. Co přesně se zařadilo, výkazy neuvádějí. U Lučiny to časově odpovídá modernizaci kempu, kterou obec v letech 2018–2019 soutěžila (smlouvy 21,1 a 12,2 mil. Kč bez DPH, viz oddíl 3), u Vojkovic chodníku zadanému v roce 2021 (smlouva 7,19 mil. Kč bez DPH). To je ale jen časová souvislost, ne ověření.
 
 ## 2. Registr smluv a Hlídač státu
 
-Žádná ze čtyř obcí nevykonává rozšířenou působnost. Podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. tak nemají povinnost zveřejňovat v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)). Co v registru je, je proto dobrovolné, ať od obce, nebo od protistrany.
+Žádná z pěti obcí nevykonává rozšířenou působnost. Podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. tak nemají povinnost zveřejňovat v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)). Co v registru je, je proto dobrovolné, ať od obce, nebo od protistrany.
 
 ### 2.1 Smlouvy, které obec vložila sama
 
-| Rok uzavření | HD počet | DD počet | DD objem (Kč s DPH) | Lučina | Pazderna |
-|---|---:|---:|---:|---:|---:|
-| 2016 | 0 | 8 | 3 171 561 | 0 | 0 |
-| 2017 | 0 | 3 | 227 944 | 0 | 0 |
-| 2018 | 0 | 0 | – | 0 | 0 |
-| 2019 | 0 | 1 | 944 163 | 0 | 0 |
-| 2020 | 0 | 3 | 1 637 413 | 0 | 0 |
-| 2021–2025 | 0 | 0 | – | 0 | 0 |
-| 2026 | 0 | 1 | 1 293 490 | 0 | 0 |
-| **Celkem** | **0** | **16** | **7 274 571** | **0** | **0** |
+| Rok uzavření | HD počet | DD počet | DD objem (Kč s DPH) | Lučina | Pazderna | Vojkovice počet | Vojkovice objem (Kč s DPH) |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 2016 | 0 | 8 | 3 171 561 | 0 | 0 | 0 | – |
+| 2017 | 0 | 3 | 227 944 | 0 | 0 | 1 | 980 095 |
+| 2018 | 0 | 0 | – | 0 | 0 | 0 | – |
+| 2019 | 0 | 1 | 944 163 | 0 | 0 | 0 | – |
+| 2020 | 0 | 3 | 1 637 413 | 0 | 0 | 3 | 2 145 441 |
+| 2021–2025 | 0 | 0 | – | 0 | 0 | 0 | – |
+| 2026 | 0 | 1 | 1 293 490 | 0 | 0 | 0 | – |
+| **Celkem** | **0** | **16** | **7 274 571** | **0** | **0** | **4** | **3 125 536** |
 
-U DD mají dvě smlouvy cenu neuvedenou (pojistná smlouva 2016 a rekonstrukce veřejného osvětlení 2020). U dvou smluv z roku 2016 je jen cena bez DPH a k součtu byla přepočtena koeficientem 1,21. Největší vlastní smlouvy DD v registru jsou napojovací body kanalizace (2016, 1,58 mil.), elektromobil (2026, 1,29 mil.), oprava komunikací (2016, 1,13 mil.), oprava střechy domu ovocnářů (2020, 1,10 mil.) a traktor (2019, 0,94 mil. Kč s DPH).
+U DD mají dvě smlouvy cenu neuvedenou (pojistná smlouva 2016 a rekonstrukce veřejného osvětlení 2020). U dvou smluv z roku 2016 je jen cena bez DPH a k součtu byla přepočtena koeficientem 1,21. Největší vlastní smlouvy DD v registru jsou napojovací body kanalizace (2016, 1,58 mil.), elektromobil (2026, 1,29 mil.), oprava komunikací (2016, 1,13 mil.), oprava střechy domu ovocnářů (2020, 1,10 mil.) a traktor (2019, 0,94 mil. Kč s DPH). Vojkovice vložily tři smlouvy o dílo na úpravy veřejných prostranství a výletiště (ALPINE Bau CZ a.s. 2017, 0,98 mil.; SWIETELSKY stavební s.r.o. 2020, 1,16 mil.; Yggdrasilmont, s.r.o. 2020, 0,99 mil. Kč s DPH) a jeden dodatek bez ceny.
 
 ### 2.2 Smlouvy, kde je obec stranou a vložila je protistrana
 
-| | HD | DD | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| Počet (export registru, poslední verze) | 9 | 21 | 18 | 12 |
-| Hlavní protistrany | SFŽP, KVIC, TS a.s., SZIF | Česká pošta (4), KVIC (4), SZIF (3), HZS MSK (3), TS a.s. (2) | SFDI (5), Ministerstvo financí (8), Lesy ČR (2), SZIF, HZS MSK, SŠ řemesel FM | KVIC (4), SZIF (4), SFDI (3), Statutární město Frýdek-Místek |
-| Povaha | dotace, mzdová agenda, objednávky | poštovní partner, dotace, mzdová agenda | dotace SFDI, státní sanace | dotace SFDI a SZIF, mzdová agenda |
+| | HD | DD | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| Počet (export registru, poslední verze) | 9 | 21 | 18 | 12 | 12 |
+| Hlavní protistrany | SFŽP, KVIC, TS a.s., SZIF | Česká pošta (4), KVIC (4), SZIF (3), HZS MSK (3), TS a.s. (2) | SFDI (5), Ministerstvo financí (8), Lesy ČR (2), SZIF, HZS MSK, SŠ řemesel FM | KVIC (4), SZIF (4), SFDI (3), Statutární město Frýdek-Místek | SFŽP (6), SZIF (3), Moravskoslezský kraj (2), Státní pozemkový úřad |
+| Povaha | dotace, mzdová agenda, objednávky | poštovní partner, dotace, mzdová agenda | dotace SFDI, státní sanace | dotace SFDI a SZIF, mzdová agenda | dotace SFŽP (smlouva a čtyři dodatky) a SZIF, dopravní obslužnost, koupě pozemku |
 
 U Lučiny je 8 záznamů smlouva Ministerstva financí se zhotovitelem MOBIKO plus a.s. o „řešení negativních environmentálních vlivů a revitalizaci“ u Žermanické přehrady (cca 105 mil. Kč bez DPH) a její změny. Obec je tam jen jednou ze stran a nejde o její výdaj. Proto se částky z tohoto oddílu nesčítají.
 
-### 2.3 Hlídač státu (stav 30. 10. 2026)
+### 2.3 Hlídač státu (stav 30. 10. 2026, u Vojkovic 1. 11. 2026)
 
-| | HD | DD | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| Smluv v registru od 2016 (HS) | 9 | 37 | 15 | 12 |
-| Hodnota podle HS | 569 048 Kč | 14 mil. Kč | 785 mil. Kč ¹ | 20 mil. Kč |
-| Smlouvy bez ceny (roky s výskytem podle HS) | 2019 (2), 2022 (1) | 2018 (1), 2019 (2), 2020 (1), 2022 (1) | 2018 (1), 2025 (2) | 2017, 2019, 2022, 2024 (po 1) |
-| Hlavní dodavatelé obce podle HS | TS a.s. (1 smlouva, 93 004 Kč) | TLAMKA, DEREK - Kaluža, ASA expert, ELNERMONT (po 1) ² | žádný | žádný |
-| Veřejné zakázky jako zadavatel (HS) | 18 | 49 | 38 | 24 |
-| Profilů zadavatele (HS) | 1 | 1 | 3 | 3 |
-| Přijaté dotace (HS, 2010–2025) | 43 / 30 mil. Kč | 97 / 207 mil. Kč | 48 / 107 mil. Kč | 39 / 64 mil. Kč |
+| | HD | DD | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| Smluv v registru od 2016 (HS) | 9 | 37 | 15 | 12 | 16 |
+| Hodnota podle HS | 569 048 Kč | 14 mil. Kč | 785 mil. Kč ¹ | 20 mil. Kč | 8 mil. Kč |
+| Smlouvy bez ceny (roky s výskytem podle HS) | 2019 (2), 2022 (1) | 2018 (1), 2019 (2), 2020 (1), 2022 (1) | 2018 (1), 2025 (2) | 2017, 2019, 2022, 2024 (po 1) | 2020, 2021, 2025, 2026 (po 1) |
+| Hlavní dodavatelé obce podle HS | TS a.s. (1 smlouva, 93 004 Kč) | TLAMKA, DEREK - Kaluža, ASA expert, ELNERMONT (po 1) ² | žádný | žádný | Yggdrasilmont (2), ALPINE Bau CZ, SWIETELSKY stavební (po 1) ² |
+| Veřejné zakázky jako zadavatel (HS) | 18 | 49 | 38 | 24 | 20 |
+| Profilů zadavatele (HS) | 1 | 1 | 3 | 3 | 1 |
+| Přijaté dotace (HS, 2010–2025) | 43 / 30 mil. Kč | 97 / 207 mil. Kč | 48 / 107 mil. Kč | 39 / 64 mil. Kč | 53 / 29 mil. Kč |
 
-¹ Téměř celá částka připadá na smlouvu Ministerstva financí s MOBIKO plus a.s. a její změny. ² HS u DD na prvním místě uvádí samotnou obec (13 smluv), protože obec je v metadatech některých smluv zapsána zároveň jako protistrana.
+¹ Téměř celá částka připadá na smlouvu Ministerstva financí s MOBIKO plus a.s. a její změny. ² HS u DD na prvním místě uvádí samotnou obec (13 smluv), protože obec je v metadatech některých smluv zapsána zároveň jako protistrana. U Vojkovic takto HS uvádí obec u 1 smlouvy.
 
 Hlídač státu u smluv zobrazuje i automatické příznaky rizik. Ty podle něj samotného „nedokazují pochybení ani porušení zákona“, proto je zde neuvádíme; najdete je na profilech obcí na hlidacstatu.cz.
 
 ### 2.4 Hlavní rozdíly
 
-- **Dobrovolně do registru vkládají jen DD**, a to hlavně v letech 2016–2020. Od roku 2021 vložily jedinou smlouvu (elektromobil, 2026).
+- **Dobrovolně do registru vkládají jen DD a Vojkovice**, a to hlavně v letech 2016–2020. Od roku 2021 vložily DD jedinou smlouvu (elektromobil, 2026) a Vojkovice žádnou.
 - **HD, Lučina i Pazderna** se v registru objevují jen prostřednictvím protistran. U HD je to nejméně smluv (9) a nejnižší objem.
-- **Smlouvy na zakázky** zveřejňují všechny čtyři obce na profilu zadavatele (viz oddíl 3). DD a Lučina tam navíc evidují i přímo zadané smlouvy („Evidence smlouvy…“). To je druhá, v registru neviditelná forma zveřejňování. HD na profil přímá zadání nevkládá.
+- **Smlouvy na zakázky** zveřejňuje všech pět obcí na profilu zadavatele (viz oddíl 3). DD a Lučina tam navíc evidují i přímo zadané smlouvy („Evidence smlouvy…“), Vojkovice tři přímá zadání z let 2024–2026. To je druhá, v registru neviditelná forma zveřejňování. HD na profil přímá zadání nevkládá.
 
 ## 3. Veřejné zakázky
 
 ### 3.1 Profily zadavatele
 
-| | HD | DD | Lučina | Pazderna |
-|---|---|---|---|---|
-| Platný profil podle VVZ | vhodne-uverejneni.cz (od 2015) | vhodne-uverejneni.cz (od 2013) | vhodne-uverejneni.cz (od 2017) | vhodne-uverejneni.cz (od 2019) a NEN (od 27. 8. 2021) |
-| Další profily ve VVZ | – | – | lucina.cz/download.php (2012, odkaz vrací 404) a verejnezakazky.lucina.cz (zrušený) | starší profil na vhodne-uverejneni.cz (zrušený) |
-| Zakázek na profilu celkem | 18 | 51 | 36 | 4 (vhodne-uverejneni) + 12 (NEN) |
-| Formulářů ve VVZ (oznámení o výsledku, opravy a další) | 5 | 17 | 13 | 5 |
+| | HD | DD | Lučina | Pazderna | Vojkovice |
+|---|---|---|---|---|---|
+| Platný profil podle VVZ | vhodne-uverejneni.cz (od 2015) | vhodne-uverejneni.cz (od 2013) | vhodne-uverejneni.cz (od 2017) | vhodne-uverejneni.cz (od 2019) a NEN (od 27. 8. 2021) | vhodne-uverejneni.cz (od 2012) |
+| Další profily ve VVZ | – | – | lucina.cz/download.php (2012, odkaz vrací 404) a verejnezakazky.lucina.cz (zrušený) | starší profil na vhodne-uverejneni.cz (zrušený) | – |
+| Zakázek na profilu celkem | 18 | 51 | 36 | 4 (vhodne-uverejneni) + 12 (NEN) | 20 |
+| Formulářů ve VVZ (oznámení o výsledku, opravy a další) | 5 | 17 | 13 | 5 | 11 |
 
 ### 3.2 Počet zakázek podle roku uveřejnění (v závorce přímá zadání a evidence smluv)
 
-| Rok | HD | DD | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| 2014 | 0 | 2 | 0 | 0 |
-| 2015 | 2 | 4 | 0 | 0 |
-| 2016 | 0 | 0 | 0 | 0 |
-| 2017 | 3 | 1 | 4 (1) | 1 |
-| 2018 | 2 | 5 (2) | 7 (3) | 1 |
-| 2019 | 0 | 0 | 2 (1) | 1 |
-| 2020 | 1 | 3 (1) | 5 (5) | 0 |
-| 2021 | 2 | 8 (6) | 1 (1) | 4 |
-| 2022 | 0 | 2 (2) | 5 (4) | 2 |
-| 2023 | 1 | 4 (2) | 5 (1) | 1 |
-| 2024 | 1 | 14 (6) | 4 (1) | 3 |
-| 2025 | 5 | 3 (3) | 1 | 2 |
-| 2026 | 1 | 2 | 2 | 1 |
-| **2014–2026** | **18 (0)** | **48 (22)** | **36 (17)** | **16 (0)** |
+| Rok | HD | DD | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| 2014 | 0 | 2 | 0 | 0 | 0 |
+| 2015 | 2 | 4 | 0 | 0 | 0 |
+| 2016 | 0 | 0 | 0 | 0 | 1 |
+| 2017 | 3 | 1 | 4 (1) | 1 | 1 |
+| 2018 | 2 | 5 (2) | 7 (3) | 1 | 0 |
+| 2019 | 0 | 0 | 2 (1) | 1 | 0 |
+| 2020 | 1 | 3 (1) | 5 (5) | 0 | 3 |
+| 2021 | 2 | 8 (6) | 1 (1) | 4 | 3 |
+| 2022 | 0 | 2 (2) | 5 (4) | 2 | 2 |
+| 2023 | 1 | 4 (2) | 5 (1) | 1 | 0 |
+| 2024 | 1 | 14 (6) | 4 (1) | 3 | 3 (2) |
+| 2025 | 5 | 3 (3) | 1 | 2 | 2 |
+| 2026 | 1 | 2 | 2 | 1 | 5 (1) |
+| **2014–2026** | **18 (0)** | **48 (22)** | **36 (17)** | **16 (0)** | **20 (3)** |
 
 DD mají navíc tři zakázky z roku 2013. U Pazderny jsou zakázky z let 2017–2021 na vhodne-uverejneni.cz a od srpna 2021 v NEN.
 
 ### 3.3 Souhrnné ukazatele 2014–2026
 
-| | HD | DD | Lučina | Pazderna |
-|---|---:|---:|---:|---:|
-| Soutěžené zakázky (bez přímých zadání) | 18 | 26 | 19 | 16 |
-| z toho zjednodušené podlimitní nebo otevřené řízení | 3 | 13 | 11 | 5 |
-| Zrušené | 1 | 4 | 0 | 0 |
-| Soutěže s ≥ 2 uvedenými účastníky | 9 | 13 | 10 | 8 |
-| Průměr / medián účastníků u nich | 5,3 / 6 | 7,0 / 6 | 7,1 / 7,5 | 5,0 / 4,5 |
-| Cena / předpokládaná hodnota: počet případů | 13 | 9 | 9 | 3 |
-| Medián (rozpětí) | 82 % (62–108 %) | 66 % (43–100 %) | 80 % (45–118 %) | 63 % (60–79 %) |
-| Zadaný objem, kde je cena uvedena (mil. Kč bez DPH) | 30,5 (13 zakázek) | 89,5 (31) | 130,9 (23) | 44,4 (12) |
+| | HD | DD | Lučina | Pazderna | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| Soutěžené zakázky (bez přímých zadání) | 18 | 26 | 19 | 16 | 17 |
+| z toho zjednodušené podlimitní nebo otevřené řízení | 3 | 13 | 11 | 5 | 3 |
+| Zrušené | 1 | 4 | 0 | 0 | 1 |
+| Soutěže s ≥ 2 uvedenými účastníky | 9 | 13 | 10 | 8 | 0 |
+| Průměr / medián účastníků u nich | 5,3 / 6 | 7,0 / 6 | 7,1 / 7,5 | 5,0 / 4,5 | – |
+| Cena / předpokládaná hodnota: počet případů | 13 | 9 | 9 | 3 | 12 |
+| Medián (rozpětí) | 82 % (62–108 %) | 66 % (43–100 %) | 80 % (45–118 %) | 63 % (60–79 %) | 100 % (78–105 %) |
+| Zadaný objem, kde je cena uvedena (mil. Kč bez DPH) | 30,5 (13 zakázek) | 89,5 (31) | 130,9 (23) | 44,4 (12) | 35,3 (18) |
 
 Stránka o [zakázkách HD](https://hd-v-datech.cz/hd-zakazky.html) uvádí průměr 5,1 nabídky u 11 zakázek z let 2020–2026. Tam jsou zahrnuty i zakázky, u nichž počet nabídek pochází z dokumentů, ne z karty účastníků. Rozdíl proti 5,3 je dán jen jiným výběrem zakázek.
 
+Vojkovice na kartě účastníků uvádějí u všech zakázek jen vybraného dodavatele, takže průměr účastníků spočítat nejde. U 8 z 12 zakázek s uvedenou předpokládanou hodnotou se rovná smluvní ceně; skutečnou úsporu proti odhadu proto ukazují jen dvě podlimitní řízení (chodník 2021 78 %, stará škola 2022 86 %).
+
 ### 3.4 Nejčastější vítězové a administrátoři 2014–2026
 
-| | HD | DD | Lučina | Pazderna |
-|---|---|---|---|---|
-| Vítězové (počet zakázek) | LOMPARK 2, BESKYDGROUP 2, dále po 1 (STRABAG, Strojírny a stavby Třinec, ENCO group, ELBAU-MONT, KANIA, SPORTOVNÍ PODLAHY ZLÍN, Aklera Corp, SDO Technika, ALPINE Bau, Haospol) | JANKOSTAV 4, SWIETELSKY 2, VIVID stavby 2, INTERDEKOR HP 2, PODLAHY Sikora 2 | JANKOSTAV 3, SWIETELSKY 2, MYTIEN 2, amethyst.cz 2 | SWIETELSKY 2, Verone synergy 2, podnikající fyzická osoba 2, dále INTOZA, VOJKOVSKÝ - STAVBY, KASCH - interiér, PORR, GLOBAL SPORT ČUPA |
-| Administrátor (počet zakázek) | TISPOL s.r.o. 13, Regionální poradenská agentura Brno 1, nezjištěno 4 | advokátní kancelář 9 (2023–2026), AZ zakázka s.r.o. 4 (2020–2021), jiná advokátní kancelář 1, TISPOL 1 (2017), nezjištěno 33 | TISPOL 5, advokátní kancelář (stejná jako u DD) 2, Europroject 2, ASAP Management CZ 1, nezjištěno 26 | administrátor s doménou dobrazakazka.cz 8, Europroject 2, administrátor s doménou innovuj.cz 2, nezjištěno 4 |
-| Největší zakázky (mil. Kč bez DPH) | oprava MK1 7,58; hřiště 5,46; MK 5 + MK 10 4,71 | MŠ 33,17 (11 nabídek); chodníky 2017 16,34; revitalizace fotbalového hřiště 5,48 (přímé zadání) | dostupné bydlení 32,31 (10); přístavba dětské skupiny 28,84 (4); kemp část R 21,06 (5); kemp chaty 12,17 (8) | dětská skupina č. p. 68 11,92 (7); chodník část A 11,14 (4); chodník část B 6,43 (5) |
+| | HD | DD | Lučina | Pazderna | Vojkovice |
+|---|---|---|---|---|---|
+| Vítězové (počet zakázek) | LOMPARK 2, BESKYDGROUP 2, dále po 1 (STRABAG, Strojírny a stavby Třinec, ENCO group, ELBAU-MONT, KANIA, SPORTOVNÍ PODLAHY ZLÍN, Aklera Corp, SDO Technika, ALPINE Bau, Haospol) | JANKOSTAV 4, SWIETELSKY 2, VIVID stavby 2, INTERDEKOR HP 2, PODLAHY Sikora 2 | JANKOSTAV 3, SWIETELSKY 2, MYTIEN 2, amethyst.cz 2 | SWIETELSKY 2, Verone synergy 2, podnikající fyzická osoba 2, dále INTOZA, VOJKOVSKÝ - STAVBY, KASCH - interiér, PORR, GLOBAL SPORT ČUPA | STAVORENOL STAVEBNÍ 5, IVARA BAU 4, SWIETELSKY 3, dále po 1 (ALPINE Bau CZ, ELKOPLAST CZ, MITRENGA, Projekční studio Kalmus, TOKAMA stavební, Yggdrasilmont) |
+| Administrátor (počet zakázek) | TISPOL s.r.o. 13, Regionální poradenská agentura Brno 1, nezjištěno 4 | advokátní kancelář 9 (2023–2026), AZ zakázka s.r.o. 4 (2020–2021), jiná advokátní kancelář 1, TISPOL 1 (2017), nezjištěno 33 | TISPOL 5, advokátní kancelář (stejná jako u DD) 2, Europroject 2, ASAP Management CZ 1, nezjištěno 26 | administrátor s doménou dobrazakazka.cz 8, Europroject 2, administrátor s doménou innovuj.cz 2, nezjištěno 4 | DSO Region Slezská brána 4 (2021–2022), nezjištěno 16 |
+| Největší zakázky (mil. Kč bez DPH) | oprava MK1 7,58; hřiště 5,46; MK 5 + MK 10 4,71 | MŠ 33,17 (11 nabídek); chodníky 2017 16,34; revitalizace fotbalového hřiště 5,48 (přímé zadání) | dostupné bydlení 32,31 (10); přístavba dětské skupiny 28,84 (4); kemp část R 21,06 (5); kemp chaty 12,17 (8) | dětská skupina č. p. 68 11,92 (7); chodník část A 11,14 (4); chodník část B 6,43 (5) | chodník Vojkovice 2 7,19; využití dešťových vod č. p. 52 4,45; rekonstrukce budovy staré školy 4,05 |
 
 „Nezjištěno“ neznamená, že obec zakázku administrovala sama. Znamená jen, že v dostupných dokumentech chybí kontakt nebo zmínka o pověřené osobě. U DD a Lučiny jde většinou o přímá zadání a evidenci smluv, kde žádná výzva není.
 
-Stejní dodavatelé se opakují napříč obcemi. SWIETELSKY vyhrál po dvou zakázkách v DD, Lučině i Pazderně, JANKOSTAV čtyři v DD a tři v Lučině. VOJKOVSKÝ - STAVBY vyhrál v Lučině i v Pazderně. TISPOL administruje v HD i v Lučině.
+Stejní dodavatelé se opakují napříč obcemi. SWIETELSKY vyhrál po dvou zakázkách v DD, Lučině i Pazderně a tři ve Vojkovicích, JANKOSTAV čtyři v DD a tři v Lučině. VOJKOVSKÝ - STAVBY vyhrál v Lučině i v Pazderně, ALPINE Bau v HD i ve Vojkovicích. TISPOL administruje v HD i v Lučině.
 
 ### 3.5 Hlavní rozdíly
 
-1. **Rozsah:** HD zadala od roku 2014 nejméně zakázek (18) a nejmenší objem (30,5 mil. Kč bez DPH). DD a Lučina zadaly přes profil třikrát až čtyřikrát větší objem a Pazderna, která má zhruba dva a půlkrát méně obyvatel než HD, 44,4 mil. Kč. To odpovídá rozvaze: HD investovala nejméně.
-2. **Soutěž:** podlimitní řízení s velkým počtem nabídek vedla HD třikrát (MŠ 2020, MK1 2023, MK 5 + MK 10 2024). DD a Lučina jich vedly 13 a 11. Průměrná soutěž v DD a Lučině přilákala 7 účastníků, v HD a Pazderně 5.
-3. **Úspora proti předpokládané hodnotě:** nejvyšší je u DD (medián 66 %) a Pazderny (63 %, jen tři případy). HD a Lučina se drží kolem 80 %. U HD dvě zakázky předpokládanou hodnotu převýšily (stavební úpravy Obecního domu 108 % a chodníky uvnitř hřbitova po dodatku 108 %). V Lučině ji převýšily obě etapy kempu (102 % a 118 % smluvní ceny po dodatcích).
-4. **Zveřejňování přímých zadání:** DD a Lučina na profil vkládají i přímo zadané smlouvy (22 a 17 záznamů), HD ani Pazderna ne. Menší přímo zadané zakázky HD tak nejsou zveřejněny na profilu zadavatele ani v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)).
+1. **Rozsah:** HD zadala od roku 2014 nejméně zakázek (18) a nejmenší objem (30,5 mil. Kč bez DPH). DD a Lučina zadaly přes profil třikrát až čtyřikrát větší objem, Pazderna, která má zhruba dva a půlkrát méně obyvatel než HD, 44,4 mil. Kč a Vojkovice s 800 obyvateli 35,3 mil. Kč. To odpovídá rozvaze: HD investovala nejméně.
+2. **Soutěž:** podlimitní řízení s velkým počtem nabídek vedla HD třikrát (MŠ 2020, MK1 2023, MK 5 + MK 10 2024). DD a Lučina jich vedly 13 a 11, Vojkovice 3 (jedno z nich bylo zrušeno). Průměrná soutěž v DD a Lučině přilákala 7 účastníků, v HD a Pazderně 5.
+3. **Úspora proti předpokládané hodnotě:** nejvyšší je u DD (medián 66 %) a Pazderny (63 %, jen tři případy). HD a Lučina se drží kolem 80 %. U HD dvě zakázky předpokládanou hodnotu převýšily (stavební úpravy Obecního domu 108 % a chodníky uvnitř hřbitova po dodatku 108 %). V Lučině ji převýšily obě etapy kempu (102 % a 118 % smluvní ceny po dodatcích), ve Vojkovicích dvě zakázky malého rozsahu (obě 105 %).
+4. **Zveřejňování přímých zadání:** DD a Lučina na profil vkládají i přímo zadané smlouvy (22 a 17 záznamů), Vojkovice tři, HD ani Pazderna ne. Menší přímo zadané zakázky HD tak nejsou zveřejněny na profilu zadavatele ani v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)).
 
 ## Pozor
 
 - **Posunuté kódy účtů v letech 2010–2011.** V extraktech MF za 2010 a 2011 neodpovídá sloupec syntetického účtu řádku výkazu (například řádek D.III.1 „Dlouhodobé úvěry“ nese kód 281). Pro tyto roky jsou účty přiřazeny podle číselníku MF pro období do 31. 12. 2011, pro roky 2012–2025 se bere kód z dat.
-- **Účetní reforma 2010–2012:** odpisy se u všech obcí objevují až od let 2011–2013. Pokles aktiv v roce 2011 (HD 15,8 → 10,6, DD 110 → 77, Lučina 63 → 47, Pazderna 16 → 8 mil.) je jednorázové doúčtování oprávek, ne úbytek majetku. Roky 2010–2011 proto nejsou s pozdějšími plně srovnatelné.
-- **Účetní, ne tržní hodnoty.** Stavby a pozemky jsou v pořizovacích cenách. Obec, která majetek získala bezúplatně nebo dávno, ho může mít v rozvaze velmi levně. Rozvaha také neukazuje, které stavby obec vlastní. Skoky ve stavbách (DD 2016, Lučina 2020, Pazderna 2022) bez inventurních soupisů vysvětlit nejde.
-- **Na obyvatele** se přepočítává stavem k 31. 12. daného roku. U Pazderny (273–422 obyvatel) mění jedna větší investice ukazatele na obyvatele velmi výrazně.
+- **Účetní reforma 2010–2012:** odpisy se u všech obcí objevují až od let 2011–2013. Pokles aktiv v roce 2011 (HD 15,8 → 10,6, DD 110 → 77, Lučina 63 → 47, Pazderna 16 → 8, Vojkovice 57 → 50 mil.) je jednorázové doúčtování oprávek, ne úbytek majetku. Roky 2010–2011 proto nejsou s pozdějšími plně srovnatelné.
+- **Účetní, ne tržní hodnoty.** Stavby a pozemky jsou v pořizovacích cenách. Obec, která majetek získala bezúplatně nebo dávno, ho může mít v rozvaze velmi levně. Rozvaha také neukazuje, které stavby obec vlastní. Skoky ve stavbách (DD 2016, Lučina 2020, Pazderna 2022, Vojkovice 2022) bez inventurních soupisů vysvětlit nejde.
+- **Na obyvatele** se přepočítává stavem k 31. 12. daného roku. U Pazderny (273–422 obyvatel) a Vojkovic (581–800 obyvatel) mění jedna větší investice ukazatele na obyvatele velmi výrazně.
 - **Peníze** jsou jen účty 231, 244 a 245. Lučina (0,31 mil.) a DD (0,65 mil. Kč) mají v roce 2025 navíc peníze na účtech fondů (236).
 - **Registr smluv:** hodnoty dodatků se v metadatech opakují (například Česká pošta 4 × 930 000 Kč u DD, MF a MOBIKO u Lučiny). Součty za smlouvy vložené protistranou proto nejsou uvedeny. Hlídač státu počítá smlouvy jinak než export (u Lučiny 15 proti 18 v exportu), zřejmě kvůli slučování verzí.
-- **Počty účastníků na profilu:** u starších zakázek (HD 2015–2018, DD chodníky 2017 a další) profil uvádí jen vybraného dodavatele, takže tam vychází „1 účastník“. Průměry se proto počítají jen ze zakázek, kde profil uvádí aspoň dva účastníky. U 3–7 soutěží každé obce počet účastníků na profilu chybí úplně.
+- **Počty účastníků na profilu:** u starších zakázek (HD 2015–2018, DD chodníky 2017 a další) a u všech zakázek Vojkovic profil uvádí jen vybraného dodavatele, takže tam vychází „1 účastník“. Průměry se proto počítají jen ze zakázek, kde profil uvádí aspoň dva účastníky. U 2–7 soutěží každé obce počet účastníků na profilu chybí úplně.
 - **Cena / předpokládaná hodnota:** předpokládaná hodnota u mnoha zakázek DD, Lučiny a Pazderny (hlavně zakázky malého rozsahu v NEN a přímá zadání) na profilu chybí. Vzorky jsou malé (3–13 zakázek). Cenou se rozumí smluvní cena bez DPH z detailu smlouvy, a kde chybí, nabídková cena vybraného dodavatele. U zakázek s dodatky je to cena po dodatcích.
-- **Administrátoři** jsou určeni z e-mailových domén a textu v nejvýše třech dokumentech na zakázku (výzva, zadávací dokumentace, oznámení o výběru). Doména tranovice.org patří podle výzev HD firmě TISPOL s.r.o. U domén dobrazakazka.cz a innovuj.cz nebyla firma za doménou ověřena.
-- **NEN:** zakázky Pazderny byly nalezeny veřejným fulltextovým hledáním „Pazderna“. Zakázku, jejíž název ani zadavatel slovo neobsahuje, by hledání nezachytilo. Pro HD, DD a Lučinu NEN žádnou vlastní zakázku obce nevrátil.
-- **Rok 2026** v účetních výkazech chybí (MF ho zveřejní zhruba v březnu 2027). Registr, Hlídač státu a zakázky jsou ke stavu 30. 10. 2026.
+- **Administrátoři** jsou určeni z e-mailových domén a textu v nejvýše třech dokumentech na zakázku (výzva, zadávací dokumentace, oznámení o výběru). Doména tranovice.org patří podle výzev HD firmě TISPOL s.r.o. U domén dobrazakazka.cz a innovuj.cz nebyla firma za doménou ověřena. Doména slezskabrana.cz patří podle zadávací dokumentace Vojkovic dobrovolnému svazku obcí Region Slezská brána.
+- **NEN:** zakázky Pazderny byly nalezeny veřejným fulltextovým hledáním „Pazderna“. Zakázku, jejíž název ani zadavatel slovo neobsahuje, by hledání nezachytilo. Pro HD, DD a Lučinu NEN žádnou vlastní zakázku obce nevrátil. Hledání „Vojkovice“ vrátilo deset zakázek zadavatele „Obec Vojkovice“, ale s kontaktní doménou vojkovice.info, která patří stejnojmenné obci v okrese Brno-venkov; tyto zakázky proto nejsou započteny.
+- **Rok 2026** v účetních výkazech chybí (MF ho zveřejní zhruba v březnu 2027). Registr, Hlídač státu a zakázky jsou ke stavu 30. 10. 2026, u Vojkovic k 1. 11. 2026.
 - Jména fyzických osob, které vyhrály zakázky, ani jména představitelů obcí se neuvádějí.
 
 ## Metodika a zdroje
 
-- **Monitor státní pokladny MF** (https://monitor.statnipokladna.gov.cz), roční extrakty CSUIS za 2010–2025: rozvaha a výkaz zisku a ztráty, vybrané řádky čtyř obcí podle IČO. Názvy řádků jsou z číselníku MF. Bilance aktiv a pasiv sedí u všech čtyř obcí ve všech letech a výsledek v rozvaze se rovná výsledku ve výkazu zisku a ztráty. Čísla HD se shodují s údaji na stránce o [majetku HD](https://hd-v-datech.cz/hd-majetek.html); jediný rozdíl je v roce 2016 (peníze 8,25 mil. Kč proti 8,27 mil.), protože tam je připočtena i pokladna.
+- **Monitor státní pokladny MF** (https://monitor.statnipokladna.gov.cz), roční extrakty CSUIS za 2010–2025: rozvaha a výkaz zisku a ztráty, vybrané řádky pěti obcí podle IČO. Názvy řádků jsou z číselníku MF. Bilance aktiv a pasiv sedí u všech pěti obcí ve všech letech a výsledek v rozvaze se rovná výsledku ve výkazu zisku a ztráty. Čísla HD se shodují s údaji na stránce o [majetku HD](https://hd-v-datech.cz/hd-majetek.html); jediný rozdíl je v roce 2016 (peníze 8,25 mil. Kč proti 8,27 mil.), protože tam je připočtena i pokladna. Ukazatele všech obcí po letech jsou v souboru [ukazatele_rozvaha_vzz_sousede.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_sousede.csv).
 - **Obyvatelé:** ČSÚ, datová sada OBY01B01 (https://data.csu.gov.cz/opendata/sady/OBY01B01/distribuce/csv), počet obyvatel k 31. 12.
 - **Registr smluv:** podrobné vyhledávání na smlouvy.gov.cz s exportem (jen poslední verze), zvlášť podle IČO publikujícího subjektu a podle IČO smluvní strany.
 - **Hlídač státu:** https://www.hlidacstatu.cz/subjekt/<IČO> a podstránky registr smluv, dodavatelé a veřejné zakázky.
@@ -4814,52 +4825,50 @@ Roční údaje o počtu obyvatel, narozených, zemřelých, přistěhovalých a 
 
 # Srovnání školství a sociální oblasti
 
-Zdroj: https://hd-v-datech.cz/srovnani-skolstvi-socialni.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/srovnani-skolstvi-socialni.html (aktualizováno 2026-11-01)
 
 > Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a sousedních obcích.
 
-> Sousední obec Vojkovice byla do srovnání přidána 1. 11. 2026. Na této stránce zatím není; údaje se doplňují. Finance, obyvatelstvo, plochy, zástavba, daň z nemovitostí a vybavenost Vojkovic jsou už na ostatních stránkách srovnání.
-
-Stránka porovnává Horní Domaslavice (HD, kód obce 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101) a Lučina (598399), všemi v okrese Frýdek-Místek. Sleduje školy a školské obvody, nezaměstnanost, exekuce, kriminalitu, kvalitu ovzduší a zdravotní a sociální služby. Postup a zdroje odpovídají stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html), aby byla čísla srovnatelná. Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv ČŠI, Sbírky právních předpisů, ČSÚ, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb. Zpracováno 30. 10. 2026; není-li uvedeno jinak, platí u odkazů toto datum přístupu.
+Stránka porovnává Horní Domaslavice (HD, kód obce 512192) se sousedními obcemi Pazderna (552500), Dolní Domaslavice (DD, 598101), Lučina (598399) a Vojkovice (552488), všemi v okrese Frýdek-Místek. Sleduje školy a školské obvody, nezaměstnanost, exekuce, kriminalitu, kvalitu ovzduší a zdravotní a sociální služby. Postup a zdroje odpovídají stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html), aby byla čísla srovnatelná. Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv ČŠI, Sbírky právních předpisů, ČSÚ, MPSV, Exekutorské komory, Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb. Zpracováno 30. 10. 2026, Vojkovice doplněny 1. 11. 2026; není-li uvedeno jinak, platí u odkazů tato data přístupu.
 
 ## Shrnutí
 
-- **Školy:** HD zřizuje jen mateřskou školu (44 míst), Pazderna nezřizuje žádnou školu. DD mají úplnou ZŠ (kapacita 250 žáků, v květnu 2026 230 žáků) a MŠ, jejíž kapacita od 1. 9. 2025 vzrostla na 75 dětí. Lučina má ZŠ jen pro 1.–5. ročník (kapacita 100, v lednu 2026 84 žáků) a MŠ, které rejstřík od 1. 9. 2026 snížil kapacitu ze 48 na 28 dětí. Důvod snížení z veřejných dat nevyplývá.
-- **Školské obvody:** každá obec posílá děti na 2. stupeň jinam. Pro HD je spádová ZŠ Jana Čapka ve Frýdku-Místku (dohoda do 31. 8. 2027), pro Pazdernu ZŠ Dobrá a pro Lučinu ZŠ Dolní Domaslavice. DD mají vlastní úplnou ZŠ a společný obvod se Žermanicemi.
-- **Nezaměstnanost** byla v letech 2018–2024 ve všech čtyřech obcích nízká, zhruba 2–4 %. HD měla v letech 2022–2024 nejnižší podíl ze čtyř obcí (2,2 %). Nová řada MPSV ukazuje v roce 2025 4,3–5,4 % a skok mezi prosincem 2024 a lednem 2025 se objevuje ve všech čtyřech obcích, nejen v HD.
-- **Exekuce** (k 1. 10. 2026): v HD je v exekuci 1,7 % obyvatel starších 15 let, v DD 2,0 %, v Lučině 3,6 % a v Pazderně 4,6 %. Okres má 4,7 %. Ze čtyř obcí je HD nejméně zatížená.
-- **Kriminalita:** u vybraných trestných činů jsou všechny čtyři obce na podobné úrovni, 3–5 činů na 1 000 obyvatel za rok (průměr 2021–2025). Velké rozdíly v celkovém počtu deliktů dělají přestupky v dopravě. Pazderna má kolem 190 deliktů na 1 000 obyvatel za rok, téměř všechny přestupky, HD 18.
-- **Ovzduší:** benzo(a)pyren překračuje imisní limit 1 ng/m³ ve všech čtyřech obcích a ve všech pětiletých obdobích. V období 2020–2024 se pohybuje mezi 1,28 a 1,33 ng/m³. Prachové částice jsou dnes ve všech obcích pod limity. Rozdíly mezi obcemi jsou malé, protože jde o sousedící čtverce téže modelové sítě.
-- **Zdravotní a sociální služby:** v HD ani v Pazderně neordinuje žádný registrovaný poskytovatel zdravotních služeb. V DD ordinuje praktický lékař a sídlí tu domov se zvláštním režimem (46 lůžek, jediná registrovaná sociální služba ve čtyřech obcích). V Lučině ordinuje praktický lékař, pediatr a dentální hygienistka.
+- **Školy:** HD zřizuje jen mateřskou školu (44 míst), Pazderna a Vojkovice nezřizují žádnou školu. Ve Vojkovicích je ale pracoviště mateřské školy, kterou zřizují sousední Dobratice. DD mají úplnou ZŠ (kapacita 250 žáků, v květnu 2026 230 žáků) a MŠ, jejíž kapacita od 1. 9. 2025 vzrostla na 75 dětí. Lučina má ZŠ jen pro 1.–5. ročník (kapacita 100, v lednu 2026 84 žáků) a MŠ, které rejstřík od 1. 9. 2026 snížil kapacitu ze 48 na 28 dětí. Důvod snížení z veřejných dat nevyplývá.
+- **Školské obvody:** každá obec posílá děti na 2. stupeň jinam. Pro HD je spádová ZŠ Jana Čapka ve Frýdku-Místku (dohoda do 31. 8. 2027), pro Pazdernu a Vojkovice ZŠ Dobrá a pro Lučinu ZŠ Dolní Domaslavice. Vojkovice mají pro 1. stupeň a pro MŠ od září 2026 společný obvod s Dobraticemi. DD mají vlastní úplnou ZŠ a společný obvod se Žermanicemi.
+- **Nezaměstnanost** byla v letech 2018–2024 ve všech pěti obcích nízká, zhruba 2–4 %. HD měla v letech 2022–2024 nejnižší podíl z pěti obcí (2,2 %). Nová řada MPSV ukazuje v roce 2025 4,3–5,4 % a skok mezi prosincem 2024 a lednem 2025 se objevuje ve všech pěti obcích, nejen v HD.
+- **Exekuce** (k 1. 10. 2026): ve Vojkovicích je v exekuci 1,2 % obyvatel starších 15 let, v HD 1,7 %, v DD 2,0 %, v Lučině 3,6 % a v Pazderně 4,6 %. Okres má 4,7 %. Nejméně zatížené jsou Vojkovice a HD.
+- **Kriminalita:** u vybraných trestných činů je všech pět obcí na podobné úrovni, 3–5 činů na 1 000 obyvatel za rok (průměr 2021–2025). Velké rozdíly v celkovém počtu deliktů dělají přestupky v dopravě. Pazderna má kolem 190 deliktů na 1 000 obyvatel za rok a Vojkovice kolem 150, téměř všechno přestupky; HD 18.
+- **Ovzduší:** benzo(a)pyren překračuje imisní limit 1 ng/m³ ve všech pěti obcích a ve všech pětiletých obdobích. V období 2020–2024 se pohybuje mezi 1,21 a 1,33 ng/m³. Prachové částice jsou dnes ve všech obcích pod limity. Rozdíly mezi obcemi jsou malé, protože jde o sousedící čtverce téže modelové sítě.
+- **Zdravotní a sociální služby:** v HD ani v Pazderně neordinuje žádný registrovaný poskytovatel zdravotních služeb. V DD ordinuje praktický lékař a sídlí tu domov se zvláštním režimem (46 lůžek, jediná registrovaná sociální služba v pěti obcích). Týž praktický lékař ordinuje i ve Vojkovicích. V Lučině ordinuje praktický lékař, pediatr a dentální hygienistka.
 
 ## 0. Počty obyvatel použité pro přepočty
 
-| Ukazatel | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina |
-|---|---:|---:|---:|---:|
-| SLDB 2021, obyvatelé celkem | 978 | 322 | 1 393 | 1 477 |
-| SLDB 2021, obyvatelé 15+ | 758 | 240 | 1 133 | 1 209 |
-| 31. 12. 2024, celkem | 1 074 | 408 | 1 472 | 1 618 |
-| 31. 12. 2024, z toho 0–14 let | 237 | 103 | 281 | 292 |
-| 31. 12. 2024, 15+ | 837 | 305 | 1 191 | 1 326 |
-| 31. 12. 2025, celkem | 1 109 | 422 | 1 467 | 1 596 |
+| Ukazatel | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| SLDB 2021, obyvatelé celkem | 978 | 322 | 1 393 | 1 477 | 710 |
+| SLDB 2021, obyvatelé 15+ | 758 | 240 | 1 133 | 1 209 | 563 |
+| 31. 12. 2024, celkem | 1 074 | 408 | 1 472 | 1 618 | 799 |
+| 31. 12. 2024, z toho 0–14 let | 237 | 103 | 281 | 292 | 168 |
+| 31. 12. 2024, 15+ | 837 | 305 | 1 191 | 1 326 | 631 |
+| 31. 12. 2025, celkem | 1 109 | 422 | 1 467 | 1 596 | 800 |
 
-Všechny čtyři obce rostly, nejrychleji Pazderna (281 obyvatel v roce 2012, 422 v roce 2025, tedy +50 %) a HD (745 → 1 109, +49 %). DD a Lučina rostly pomaleji (+18 % a +26 %) a v roce 2025 mírně ubyly.
+Všech pět obcí rostlo, nejrychleji Pazderna (281 obyvatel v roce 2012, 422 v roce 2025, tedy +50 %) a HD (745 → 1 109, +49 %). Vojkovice přibyly o 31 % (609 → 800), v roce 2025 jen o jednoho obyvatele. DD a Lučina rostly pomaleji (+18 % a +26 %) a v roce 2025 mírně ubyly.
 
 ## 1. Školy
 
-### 1.1 Které školy obce zřizují (rejstřík škol k 30. 10. 2026)
+### 1.1 Které školy obce zřizují (rejstřík škol k 30. 10. 2026, Vojkovice k 1. 11. 2026)
 
-| | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina |
-|---|---|---|---|---|
-| Právnická osoba | MŠ Horní Domaslavice, p. o. | **žádná** | ZŠ a MŠ Dolní Domaslavice, okres F-M, p. o. | ZŠ a MŠ Lučina, okres F-M, p. o. |
-| RED_IZO / IČO | 691003378 / 72547839 | – | 600133681 / 75026465 | 600133958 / 70982961 |
-| Kapacita MŠ | 44 | – | 75 | 28 (od 1. 9. 2026, předtím 48) |
-| Kapacita ZŠ | – | – | 250 (úplná ZŠ, 1.–9. ročník) | 100 (jen 1. stupeň, pět tříd) |
-| Školní družina | – | – | 90 | 60 |
-| Další součásti | ŠJ 44 | – | ŠJ 500, výdejna 75, školní klub 40 (od 1. 9. 2026) | ŠJ 150, výdejna 28 |
-| Místa v MŠ na 100 dětí ve věku 0–14 let (2024, odvozeno) | 18,6 | 0 | 26,7 | 16,4 (s kapacitou 28 by to bylo 9,6) |
+| | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina | Vojkovice |
+|---|---|---|---|---|---|
+| Právnická osoba | MŠ Horní Domaslavice, p. o. | **žádná** | ZŠ a MŠ Dolní Domaslavice, okres F-M, p. o. | ZŠ a MŠ Lučina, okres F-M, p. o. | **žádná**; v obci je pracoviště MŠ, kterou provozuje ZŠ a MŠ Dobratice, okres F-M, p. o. (zřizovatel obec Dobratice) |
+| RED_IZO / IČO | 691003378 / 72547839 | – | 600133681 / 75026465 | 600133958 / 70982961 | – (ZŠ a MŠ Dobratice: 600133672 / 70640017) |
+| Kapacita MŠ | 44 | – | 75 | 28 (od 1. 9. 2026, předtím 48) | 98 společně pro budovy v Dobraticích a ve Vojkovicích; ve Vojkovicích 38 míst podle webu školy a strategického plánu obce |
+| Kapacita ZŠ | – | – | 250 (úplná ZŠ, 1.–9. ročník) | 100 (jen 1. stupeň, pět tříd) | – (ZŠ Dobratice: 160, jen 1. stupeň, v Dobraticích) |
+| Školní družina | – | – | 90 | 60 | – |
+| Další součásti | ŠJ 44 | – | ŠJ 500, výdejna 75, školní klub 40 (od 1. 9. 2026) | ŠJ 150, výdejna 28 | ŠJ ZŠ a MŠ Dobratice (258 strávníků společně) má místo i v budově MŠ Vojkovice 17 |
+| Místa v MŠ na 100 dětí ve věku 0–14 let (2024, odvozeno) | 18,6 | 0 | 26,7 | 16,4 (s kapacitou 28 by to bylo 9,6) | 22,6 (z 38 míst podle webu školy) |
 
-**Pazderna nemá MŠ ani ZŠ.** V krajském rejstříku není žádná škola ani školské zařízení se zřizovatelem „Obec Pazderna“, se sídlem v Pazderně nebo s místem výuky v Pazderně. Ukazatel „místa na 100 dětí 0–14 let“ je jen hrubé měřítko, protože do MŠ chodí děti ve věku zhruba 2–6 let a do škol v těchto obcích chodí i děti odjinud.
+**Pazderna nemá MŠ ani ZŠ.** V krajském rejstříku není žádná škola ani školské zařízení se zřizovatelem „Obec Pazderna“, se sídlem v Pazderně nebo s místem výuky v Pazderně. **Vojkovice také nezřizují žádnou školu.** Rejstřík u nich uvádí jen místo výuky mateřské školy a školní jídelny ZŠ a MŠ Dobratice v č. p. 17. Kapacitu tohoto pracoviště zvlášť neuvádí. Ukazatel „místa na 100 dětí 0–14 let“ je jen hrubé měřítko, protože do MŠ chodí děti ve věku zhruba 2–6 let a do škol v těchto obcích chodí i děti odjinud.
 
 ### 1.2 Vývoj kapacit
 
@@ -4869,8 +4878,9 @@ Všechny čtyři obce rostly, nejrychleji Pazderna (281 obyvatel v roce 2012, 42
 | Pazderna | – | – | – |
 | Dolní Domaslavice | 25 (2007) → 35 (2009) → 40 (2011) → 49 (2021) → **75 (1. 9. 2025)** | 250 beze změny od 2007 | 45 → 60 (2013) → 80 (2015) → 90 (2026) |
 | Lučina | 48 (2007–2026) → **28 (1. 9. 2026)** | 70 → **100 (1. 9. 2014)** | 28 → 30 (2011) → 50 (2013) → 60 (2014) |
+| Vojkovice (MŠ Dobratice, obě budovy dohromady) | 55 (2007) → 61 (2012) → 74 (2014) → 81 (2018) → 83 (2022) → **98 (2024)** | – (ZŠ Dobratice: 130 → 145 (2025) → 160 (2026)) | – (ŠD Dobratice: 26 → 45 (2009) → 57 (2014) → 87 (2016) → 100 (2022) → 120 (2025)) |
 
-V letech 2007–2026 přidaly kapacitu MŠ jen HD (+19 míst) a DD (+50 míst, nová budova MŠ otevřená ve školním roce 2025/26 podle ČŠI). V Lučině byla kapacita MŠ od roku 2026 snížena o 20 míst rozhodnutím KÚ MSK č. j. 126593/2025; ČŠI přitom v lednu 2026 zjistila v MŠ 47 dětí ve dvou třídách. Proč ke snížení došlo, z rejstříku ani z inspekčních zpráv nevyplývá.
+V letech 2007–2026 přidaly kapacitu vlastní MŠ jen HD (+19 míst) a DD (+50 míst, nová budova MŠ otevřená ve školním roce 2025/26 podle ČŠI). MŠ Dobratice s pracovištěm ve Vojkovicích se rozrostla z 55 na 98 míst; kolik z přírůstku připadá na budovu ve Vojkovicích, rejstřík neuvádí. V Lučině byla kapacita MŠ od roku 2026 snížena o 20 míst rozhodnutím KÚ MSK č. j. 126593/2025; ČŠI přitom v lednu 2026 zjistila v MŠ 47 dětí ve dvou třídách. Proč ke snížení došlo, z rejstříku ani z inspekčních zpráv nevyplývá.
 
 ### 1.3 Počty dětí a žáků (veřejně dostupné údaje)
 
@@ -4883,6 +4893,8 @@ V letech 2007–2026 přidaly kapacitu MŠ jen HD (+19 míst) a DD (+50 míst, n
 | Lučina – ZŠ | 47 žáků (2011/12), 64 žáků ve třech třídách (3/2014), 73 žáků v pěti třídách (3/2022), **84 žáků v pěti třídách (1/2026)** | ČŠIT-299/14-T, ČŠIT-381/22-T, ČŠIT-104/26-T |
 | Lučina – MŠ | 46 dětí (3/2014), 48 (3/2022, naplněnost 100 %), **47 dětí ve dvou třídách (1/2026)** | tamtéž |
 | Lučina – ŠD | 59 žáků (3/2022), 60 ve třech odděleních (1/2026) | tamtéž |
+| Vojkovice – MŠ (pracoviště MŠ Dobratice) | celá MŠ Dobratice: 68 dětí a 3 v individuálním vzdělávání při kapacitě 81 (12/2017, dvě třídy ve Vojkovicích, dvě v Dobraticích), **77 dětí na dvou dvoutřídních pracovištích (2–3/2024)**; počet dětí jen ve Vojkovicích zprávy neuvádějí | ČŠIT-2033/17-T, ČŠIT-399/24-T |
+| Dobratice – ZŠ (spádová pro 1. stupeň z Vojkovic) | 96 žáků (12/2017), **118 žáků v sedmi třídách 1.–5. ročníku (2–3/2024)** | tamtéž |
 
 Podle inspekce v květnu 2026 dojíždí do ZŠ Dolní Domaslavice přibližně polovina žáků z jiných obcí. Lučina má nejvyšší naplněnost MŠ (47 dětí na 48 míst v lednu 2026). Při nové kapacitě 28 míst by v MŠ zůstalo místo pro zhruba 60 % dětí, které ji v lednu 2026 navštěvovaly.
 
@@ -4895,9 +4907,11 @@ Podle inspekce v květnu 2026 dojíždí do ZŠ Dolní Domaslavice přibližně 
 | DD – ZŠ a MŠ | 5.–8. 2. 2024 (ČŠIT-234/24-T) | Zpráva uvádí nedostatky v diagnostice dětí v MŠ, málo diferencovanou výuku a jen minimální rozvoj kritického myšlení. Výstavba nové MŠ dočasně připravila školu o venkovní zázemí pro tělesnou výchovu. |
 | Lučina – ZŠ a MŠ | 20.–22. 1. 2026 (ČŠIT-104/26-T) | Hodnocení je převážně pozitivní: stabilní sbor, materiální podmínky „nadstandardní úrovně“, doporučení z roku 2022 jsou realizována a počet žáků roste. Slabé stránky jsou dvě: formativní hodnocení v MŠ a práce s více informačními zdroji v ZŠ. |
 | Lučina – ZŠ a MŠ | 8.–10. 3. a 27. 4. 2022 (ČŠIT-381/22-T) | Silné stránky byly modernizace učeben a práce s dětmi se speciálními vzdělávacími potřebami. Slabé stránky byly chybějící formativní hodnocení a diferenciace, portfolia dětí, vybavení MŠ pro polytechniku a vnitřní kontrola ve školním stravování. |
+| Vojkovice – MŠ (ZŠ a MŠ Dobratice) | 28. 2.–1. 3. 2024 (ČŠIT-399/24-T), včetně pracoviště Vojkovice 17 | Silnými stránkami jsou empatický přístup v MŠ, spolupráce školy se zřizovatelem a partnery, vztahy mezi žáky napříč ročníky a promyšlená výuka v ZŠ. Jako slabé stránky zpráva uvádí, že obě pracoviště MŠ působí autonomně bez sdílení zkušeností, nabídka v MŠ není diferencovaná podle diagnostiky a v ZŠ žáci jen ojediněle samostatně pracují s informačními zdroji. |
+| Vojkovice – MŠ (ZŠ a MŠ Dobratice) | 12.–14. 12. 2017 (ČŠIT-2033/17-T) | Silnými stránkami bylo vybavení tělocvičny a hřiště a pozitivní klima ve třídách včetně spolupráce asistentů pedagoga s učiteli. Slabými stránkami byly málo různorodé metody výuky, rezervy v řízení a metodickém vedení MŠ a nábytek v MŠ neodpovídající ergonomickým požadavkům. |
 | Pazderna | – | Obec nemá školu. |
 
-Úplné zprávy jsou na portálu ČŠI: https://portal.csicr.cz/School/691003378 (MŠ HD), https://portal.csicr.cz/School/600133681 (ZŠ a MŠ DD) a https://portal.csicr.cz/School/600133958 (ZŠ a MŠ Lučina).
+Úplné zprávy jsou na portálu ČŠI: https://portal.csicr.cz/School/691003378 (MŠ HD), https://portal.csicr.cz/School/600133681 (ZŠ a MŠ DD), https://portal.csicr.cz/School/600133958 (ZŠ a MŠ Lučina) a https://portal.csicr.cz/School/600133672 (ZŠ a MŠ Dobratice s pracovištěm MŠ ve Vojkovicích).
 
 ### 1.5 Školské obvody: kam patří děti z obce
 
@@ -4907,8 +4921,9 @@ Podle inspekce v květnu 2026 dojíždí do ZŠ Dolní Domaslavice přibližně 
 | Pazderna | **ZŠ Dobrá, Dobrá 860**: OZV č. 1/2019 ze 4. 3. 2019, účinná od 21. 3. 2019, na základě dohody obcí Dobrá a Pazderna. Sbírka ji vede jako platnou. | Obec MŠ nemá a ve Sbírce není žádná vyhláška o společném obvodu MŠ. MŠ Horní Domaslavice dává v kritériích přijetí dětem s pobytem v Pazderně 9 bodů, tedy hned po dětech z HD (10 bodů). |
 | Dolní Domaslavice | **vlastní ZŠ a MŠ Dolní Domaslavice** (úplná ZŠ). OZV č. 2/2019 ze 24. 10. 2019 (účinnost podle dat ve Sbírce od 9. 11. 2019) zakládá společný školský obvod se Žermanicemi. Podle výpisu usnesení se měl obvod rozšířit i o Soběšovice; to ověřeno nebylo. | vlastní MŠ |
 | Lučina | **1. stupeň ve vlastní ZŠ Lučina, celý školský obvod ZŠ podle OZV: ZŠ a MŠ Dolní Domaslavice.** OZV č. 1/2022 z 22. 6. 2022, účinná od 8. 9. 2022, na základě dohody obcí DD a Lučina. Zrušila OZV č. 1/2010, která rovněž odkazovala na ZŠ zřízenou obcí DD. | vlastní MŠ |
+| Vojkovice | **1.–5. ročník: ZŠ a MŠ Dobratice, Dobratice 58**: OZV č. 2/2026 z 31. 8. 2026, účinná od 16. 9. 2026, na základě dohody obcí Vojkovice a Dobratice. **6.–9. ročník: ZŠ Dobrá, Dobrá 860**: OZV č. 1/2019 ze 6. 5. 2019, účinná od 28. 5. 2019, na základě dohody obcí Dobrá a Vojkovice z 18. 2. 2019. Sbírka vede obě vyhlášky jako platné. | **ZŠ a MŠ Dobratice** (pracoviště MŠ přímo ve Vojkovicích): OZV č. 1/2026 z 31. 8. 2026, účinná od 16. 9. 2026, na základě dohody obcí Vojkovice a Dobratice. |
 
-ZŠ Dolní Domaslavice je tedy spádová pro DD, Lučinu (pro 2. stupeň) a Žermanice. Děti z HD do ní chodí bez spádovosti (54 dětí podle zápisu ze zasedání zastupitelstva HD z 18. 6. 2026). Pazderna zůstala ve společném obvodu se ZŠ Dobrá i poté, co Dobrá v roce 2023 vypověděla dohodu s HD.
+ZŠ Dolní Domaslavice je tedy spádová pro DD, Lučinu (pro 2. stupeň) a Žermanice. Děti z HD do ní chodí bez spádovosti (54 dětí podle zápisu ze zasedání zastupitelstva HD z 18. 6. 2026). Pazderna i Vojkovice zůstaly pro 2. stupeň ve společném obvodu se ZŠ Dobrá i poté, co Dobrá v roce 2023 vypověděla dohodu s HD.
 
 ## 2. Nezaměstnanost
 
@@ -4916,23 +4931,23 @@ Ukazatelem je podíl nezaměstnaných osob (PNO), tedy dosažitelní uchazeči v
 
 ### 2.1 Řada ČSÚ 2015–2024 (roční průměr PNO v %)
 
-| Rok | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina |
-|---|---:|---:|---:|---:|
-| 2015* | 4,65 | 5,83 | 5,26 | 4,66 |
-| 2016 | 4,46 | 4,70 | 3,95 | 5,21 |
-| 2017 | 3,11 | 2,75 | 2,64 | 3,57 |
-| 2018 | 2,20 | 3,06 | 2,81 | 3,23 |
-| 2019 | 2,21 | 1,88 | 1,83 | 1,70 |
-| 2020 | 2,63 | 3,38 | 2,33 | 3,36 |
-| 2021 | 3,23 | 2,42 | 2,76 | 2,28 |
-| 2022 | 2,21 | 2,55 | 2,64 | 3,10 |
-| 2023 | 2,20 | 3,07 | 2,61 | 3,44 |
-| 2024 | **2,16** | 2,89 | 2,63 | **3,78** |
-| Dosažitelní uchazeči, průměr 2024 | 14,7 | 7,0 | 24,0 | 37,6 |
+| Rok | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| 2015* | 4,65 | 5,83 | 5,26 | 4,66 | 6,14 |
+| 2016 | 4,46 | 4,70 | 3,95 | 5,21 | 4,84 |
+| 2017 | 3,11 | 2,75 | 2,64 | 3,57 | 4,18 |
+| 2018 | 2,20 | 3,06 | 2,81 | 3,23 | 3,66 |
+| 2019 | 2,21 | 1,88 | 1,83 | 1,70 | 2,87 |
+| 2020 | 2,63 | 3,38 | 2,33 | 3,36 | 2,74 |
+| 2021 | 3,23 | 2,42 | 2,76 | 2,28 | 2,99 |
+| 2022 | 2,21 | 2,55 | 2,64 | 3,10 | 3,04 |
+| 2023 | 2,20 | 3,07 | 2,61 | 3,44 | 3,10 |
+| 2024 | **2,16** | 2,89 | 2,63 | **3,78** | 3,27 |
+| Dosažitelní uchazeči, průměr 2024 | 14,7 | 7,0 | 24,0 | 37,6 | 16,5 |
 
 \* Rok 2015 obsahuje jen 6 měsíců.
 
-V letech 2015–2019 nezaměstnanost klesala ve všech čtyřech obcích zhruba stejně. Po výkyvu v letech 2020–2021 se obce rozcházejí: HD a DD se v letech 2022–2024 drží kolem 2,2–2,6 %, zatímco Lučina vzrostla z 2,3 % (2021) na 3,8 % (2024). V Pazderně jde jen o 4–8 osob, takže výkyvy o desetiny procenta způsobí jediný člověk.
+V letech 2015–2019 nezaměstnanost klesala ve všech pěti obcích zhruba stejně; nejvýš začínaly Vojkovice (6,1 % v roce 2015). Po výkyvu v letech 2020–2021 se obce rozcházejí: HD a DD se v letech 2022–2024 drží kolem 2,2–2,6 %, Vojkovice kolem 3,0–3,3 %, zatímco Lučina vzrostla z 2,3 % (2021) na 3,8 % (2024). V Pazderně jde jen o 4–8 osob, takže výkyvy o desetiny procenta způsobí jediný člověk.
 
 ### 2.2 Řada MPSV od 2025
 
@@ -4942,6 +4957,7 @@ V letech 2015–2019 nezaměstnanost klesala ve všech čtyřech obcích zhruba 
 | Pazderna | 5,35 % | 9–19 | 3,96 % | 4,15 % (11 / 265) |
 | Dolní Domaslavice | 4,31 % | 32–46 | 3,66 % | 4,12 % (38 / 922) |
 | Lučina | 4,30 % | 37–53 | 5,02 % | 5,43 % (54 / 994) |
+| Vojkovice | 4,43 % | 17–27 | 4,31 % | 3,12 % (16 / 513) |
 | okres Frýdek-Místek | 4,38 % | – | 4,97 % | 4,93 % |
 | Česko | 4,43 % | – | 4,98 % | 4,97 % |
 
@@ -4953,8 +4969,9 @@ V letech 2015–2019 nezaměstnanost klesala ve všech čtyřech obcích zhruba 
 | Pazderna | 7 (2,80 %) | 9 (3,60 %) |
 | Dolní Domaslavice | 33 (3,61 %) | 39 (4,27 %) |
 | Lučina | 41 (4,08 %) | 53 (5,27 %) |
+| Vojkovice | 18 (3,56 %) | 22 (4,36 %) |
 
-Skok v HD z 18 na 30 uchazečů mezi prosincem 2024 a lednem 2025 není výjimečný: nárůst nastal ve všech čtyřech obcích (o 2 až 12 osob), v HD byl relativně největší. Část může jít na vrub běžnému lednovému nárůstu a část na změnu zdroje, ale z veřejných dat to rozdělit nelze.
+Skok v HD z 18 na 30 uchazečů mezi prosincem 2024 a lednem 2025 není výjimečný: nárůst nastal ve všech pěti obcích (o 2 až 12 osob), v HD byl relativně největší. Část může jít na vrub běžnému lednovému nárůstu a část na změnu zdroje, ale z veřejných dat to rozdělit nelze.
 
 ## 3. Exekuce
 
@@ -4966,108 +4983,112 @@ Stav k **1. 10. 2026** podle otevřených dat Exekutorské komory ČR.
 | Pazderna | 11 | 60 | 5,5 | **4,6 %** | 3,6 % |
 | Dolní Domaslavice | 23 | 108 | 4,7 | 2,0 % | 1,9 % |
 | Lučina | 43 | 183 | 4,3 | 3,6 % | 3,2 % |
+| Vojkovice | 7 | 28 | 4,0 | 1,2 % | 1,1 % |
 | okres Frýdek-Místek | 8 166 | 38 427 | 4,7 | 4,7 % | – |
 | Moravskoslezský kraj | 78 553 | 404 808 | 5,2 | 8,0 % | – |
 | Česko | 586 014 | 2 972 107 | 5,1 | 6,6 % | – |
 
-Hlavním ukazatelem je podíl se jmenovatelem ze SLDB 2021, protože je stejný pro obce, okres, kraj i ČR. Druhý sloupec se jmenovatelem z roku 2024 ukazuje, jak výsledek posouvá rychlý růst obcí. U Pazderny je posun největší (4,6 → 3,6 %), protože od sčítání přibylo 65 obyvatel starších 15 let. Ať se použije kterýkoli jmenovatel, pořadí zůstává stejné: HD je nejméně zatížená, následují DD a výrazně výš jsou Lučina a Pazderna. Pazderna má zároveň nejvíc exekucí na jednu osobu (5,5). Při 11 osobách je to ale citlivé na jednotlivé případy.
+Hlavním ukazatelem je podíl se jmenovatelem ze SLDB 2021, protože je stejný pro obce, okres, kraj i ČR. Druhý sloupec se jmenovatelem z roku 2024 ukazuje, jak výsledek posouvá rychlý růst obcí. U Pazderny je posun největší (4,6 → 3,6 %), protože od sčítání přibylo 65 obyvatel starších 15 let. Ať se použije kterýkoli jmenovatel, pořadí zůstává stejné: nejméně zatížené jsou Vojkovice a HD, následují DD a výrazně výš jsou Lučina a Pazderna. Vojkovice mají jen 7 osob v exekuci, takže i jejich podíl ovlivní každý jednotlivý případ. Pazderna má zároveň nejvíc exekucí na jednu osobu (5,5). Při 11 osobách je to ale citlivé na jednotlivé případy.
 
 ## 4. Kriminalita
 
-Data jsou z Mapy kriminality Policie ČR. Všechny čtyři obce spadají pod obvodní oddělení policie Nošovice. Jmenovatel pro přepočty je počet obyvatel k 31. 12. daného roku.
+Data jsou z Mapy kriminality Policie ČR. Všech pět obcí spadá pod obvodní oddělení policie Nošovice. Jmenovatel pro přepočty je počet obyvatel k 31. 12. daného roku.
 
 ### 4.1 Delikty a trestné činy po letech
 
-| Rok | HD: delikty / TČ | Pazderna | Dolní Domaslavice | Lučina |
-|---|---|---|---|---|
-| 2016 | 11 / 3 | 52 / 6 | 51 / 8 | 67 / 9 |
-| 2017 | 13 / 6 | 32 / 3 | 39 / 3 | 59 / 8 |
-| 2018 | 9 / 3 | 118 / 1 | 39 / 8 | 71 / 6 |
-| 2019 | 12 / 1 | 137 / 1 | 34 / 10 | 55 / 3 |
-| 2020 | 15 / 2 | 172 / 3 | 42 / 7 | 62 / 14 |
-| 2021 | 11 / 2 | 91 / 1 | 47 / 3 | 50 / 3 |
-| 2022 | 20 / 3 | 95 / 2 | 45 / 7 | 63 / 6 |
-| 2023 | 21 / 8 | 55 / 3 | 32 / 5 | 55 / 7 |
-| 2024 | 21 / 3 | 75 / 1 | 42 / 3 | 41 / 11 |
-| 2025 | 23 / 8 | 54 / 0 | 119 / 7 | 41 / 6 |
-| 2026 (neúplný) | 19 / 4 (do 17. 8.) | 98 / 2 (do 29. 10.) | 66 / 5 (do 25. 10.) | 22 / 2 (do 28. 10.) |
+| Rok | HD: delikty / TČ | Pazderna | Dolní Domaslavice | Lučina | Vojkovice |
+|---|---|---|---|---|---|
+| 2016 | 11 / 3 | 52 / 6 | 51 / 8 | 67 / 9 | 192 / 5 |
+| 2017 | 13 / 6 | 32 / 3 | 39 / 3 | 59 / 8 | 80 / 1 |
+| 2018 | 9 / 3 | 118 / 1 | 39 / 8 | 71 / 6 | 166 / 2 |
+| 2019 | 12 / 1 | 137 / 1 | 34 / 10 | 55 / 3 | 114 / 0 |
+| 2020 | 15 / 2 | 172 / 3 | 42 / 7 | 62 / 14 | 99 / 6 |
+| 2021 | 11 / 2 | 91 / 1 | 47 / 3 | 50 / 3 | 106 / 4 |
+| 2022 | 20 / 3 | 95 / 2 | 45 / 7 | 63 / 6 | 91 / 2 |
+| 2023 | 21 / 8 | 55 / 3 | 32 / 5 | 55 / 7 | 112 / 5 |
+| 2024 | 21 / 3 | 75 / 1 | 42 / 3 | 41 / 11 | 81 / 7 |
+| 2025 | 23 / 8 | 54 / 0 | 119 / 7 | 41 / 6 | 194 / 2 |
+| 2026 (neúplný) | 19 / 4 (do 17. 8.) | 98 / 2 (do 29. 10.) | 66 / 5 (do 25. 10.) | 22 / 2 (do 28. 10.) | 165 / 2 (do 26. 10.) |
 
 „Delikty“ zahrnují přestupky, vybrané trestné činy (TČ) a dopravní nehody. TČ jsou jen ty druhy, které policie na mapě zveřejňuje.
 
 ### 4.2 Přepočet na 1 000 obyvatel (průměr ročních hodnot)
 
-| Ukazatel | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina |
-|---|---:|---:|---:|---:|
-| Trestné činy na 1 000 obyv., 2021–2025 | 4,5 | 3,7 | 3,4 | 4,2 |
-| Trestné činy na 1 000 obyv., 2016–2025 | 4,0 | 6,5 | 4,4 | 4,9 |
-| Trestné činy za rok, průměr 2021–2025 | 4,8 | 1,4 | 5,0 | 6,6 |
-| Delikty celkem na 1 000 obyv., 2021–2025 | **18,2** | **196,7** | 39,2 | 32,0 |
-| z toho přestupky na 1 000 obyv., 2021–2025 | 13,5 | 193,0 | 35,4 | 27,5 |
+| Ukazatel | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina | Vojkovice |
+|---|---:|---:|---:|---:|---:|
+| Trestné činy na 1 000 obyv., 2021–2025 | 4,5 | 3,7 | 3,4 | 4,2 | 5,1 |
+| Trestné činy na 1 000 obyv., 2016–2025 | 4,0 | 6,5 | 4,4 | 4,9 | 4,5 |
+| Trestné činy za rok, průměr 2021–2025 | 4,8 | 1,4 | 5,0 | 6,6 | 4,0 |
+| Delikty celkem na 1 000 obyv., 2021–2025 | **18,2** | **196,7** | 39,2 | 32,0 | 148,7 |
+| z toho přestupky na 1 000 obyv., 2021–2025 | 13,5 | 193,0 | 35,4 | 27,5 | 143,1 |
 
-U trestných činů jsou obce srovnatelné. Rozdíly v řádu jednotek na 1 000 obyvatel odpovídají při těchto velikostech obcí rozdílu několika případů za rok. Pořadí se také mění podle zvoleného období: v letech 2021–2025 má HD nejvyšší hodnotu (4,5), v letech 2016–2025 nejnižší (4,0). Rozdíl v celkových deliktech dělají přestupky. V roce 2025 bylo v Pazderně 52 z 54 deliktů přestupky „na úseku BESIP a silničního hospodářství“ (z toho 34 rychlost). V DD to bylo 92 ze 112 přestupků (70 rychlost) a v HD 7 ze 14. Počet přestupků tedy odráží hlavně dopravní kontroly na průjezdních silnicích, ne bezpečnost v obci. Skok v DD v roce 2025 (119 deliktů proti 32–47 v předchozích letech) je také tvořen převážně dopravními přestupky.
+U trestných činů jsou obce srovnatelné. Rozdíly v řádu jednotek na 1 000 obyvatel odpovídají při těchto velikostech obcí rozdílu několika případů za rok. Pořadí se také mění podle zvoleného období: v letech 2021–2025 mají nejvyšší hodnotu Vojkovice (5,1) a po nich HD (4,5), v letech 2016–2025 má HD nejnižší hodnotu (4,0). Rozdíl v celkových deliktech dělají přestupky. V roce 2025 bylo v Pazderně 52 z 54 deliktů přestupky „na úseku BESIP a silničního hospodářství“ (z toho 34 rychlost). Ve Vojkovicích to bylo 188 ze 190 přestupků (87 rychlost), v DD 92 ze 112 přestupků (70 rychlost) a v HD 7 ze 14. Počet přestupků tedy odráží hlavně dopravní kontroly na průjezdních silnicích, ne bezpečnost v obci. Skok v DD v roce 2025 (119 deliktů proti 32–47 v předchozích letech) je také tvořen převážně dopravními přestupky.
 
 ## 5. Ovzduší
 
-Hodnoty jsou pětileté průměry koncentrací z modelové sítě ČHMÚ (čtverce 1 × 1 km), vážené podílem plochy čtverce, který leží v obci. Do výpočtu vstupuje u HD 12 čtverců (5,09 km²), u Pazderny 10 čtverců (3,22 km²), u DD 15 (7,36 km²) a u Lučiny 14 (7,41 km²).
+Hodnoty jsou pětileté průměry koncentrací z modelové sítě ČHMÚ (čtverce 1 × 1 km), vážené podílem plochy čtverce, který leží v obci. Do výpočtu vstupuje u HD 12 čtverců (5,09 km²), u Pazderny 10 čtverců (3,22 km²), u DD 15 (7,36 km²), u Lučiny 14 (7,41 km²) a u Vojkovic 13 (4,88 km²).
 
-| Ukazatel (limit) | Období | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina |
-|---|---|---:|---:|---:|---:|
-| Benzo(a)pyren, roční (1 ng/m³) | 2015–2019 | **2,48** | **2,51** | **2,67** | **2,65** |
-| | 2018–2022 | **1,79** | **1,81** | **1,83** | **1,86** |
-| | 2020–2024 | **1,29** | **1,28** | **1,33** | **1,33** |
-| PM10, roční (40 µg/m³) | 2015–2019 | 27,8 | 28,0 | 28,7 | 28,8 |
-| | 2020–2024 | 20,1 | 20,1 | 20,7 | 20,5 |
-| PM10, 36. nejvyšší denní (50 µg/m³) | 2015–2019 | **53,0** | **53,4** | **54,1** | **54,7** |
-| | 2016–2020 | 48,8 | 49,0 | 49,7 | **50,1** |
-| | 2020–2024 | 34,5 | 34,6 | 35,5 | 35,5 |
-| PM2,5, roční (20 µg/m³) | 2015–2019 | **22,1** | **22,3** | **22,8** | **23,0** |
-| | 2016–2020 | **20,6** | **20,6** | **21,2** | **21,2** |
-| | 2020–2024 | 15,3 | 15,3 | 15,4 | 15,4 |
-| NO2, roční (40 µg/m³) | 2020–2024 | 10,3 | 10,7 | 10,3 | 10,5 |
+| Ukazatel (limit) | Období | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina | Vojkovice |
+|---|---|---:|---:|---:|---:|---:|
+| Benzo(a)pyren, roční (1 ng/m³) | 2015–2019 | **2,48** | **2,51** | **2,67** | **2,65** | **2,28** |
+| | 2018–2022 | **1,79** | **1,81** | **1,83** | **1,86** | **1,65** |
+| | 2020–2024 | **1,29** | **1,28** | **1,33** | **1,33** | **1,21** |
+| PM10, roční (40 µg/m³) | 2015–2019 | 27,8 | 28,0 | 28,7 | 28,8 | 26,4 |
+| | 2020–2024 | 20,1 | 20,1 | 20,7 | 20,5 | 20,0 |
+| PM10, 36. nejvyšší denní (50 µg/m³) | 2015–2019 | **53,0** | **53,4** | **54,1** | **54,7** | **50,7** |
+| | 2016–2020 | 48,8 | 49,0 | 49,7 | **50,1** | 46,9 |
+| | 2020–2024 | 34,5 | 34,6 | 35,5 | 35,5 | 33,9 |
+| PM2,5, roční (20 µg/m³) | 2015–2019 | **22,1** | **22,3** | **22,8** | **23,0** | **21,0** |
+| | 2016–2020 | **20,6** | **20,6** | **21,2** | **21,2** | 19,6 |
+| | 2020–2024 | 15,3 | 15,3 | 15,4 | 15,4 | 15,2 |
+| NO2, roční (40 µg/m³) | 2020–2024 | 10,3 | 10,7 | 10,3 | 10,5 | 10,6 |
 
-Tučně jsou hodnoty nad imisním limitem podle přílohy č. 1 zákona č. 201/2012 Sb. Benzo(a)pyren je nad limitem ve všech čtyřech obcích po celé sledované období a od 2015–2019 klesl zhruba o polovinu. DD a Lučina mají soustavně o 0,03–0,2 ng/m³ vyšší hodnoty než HD a Pazderna. Rozdíl je ale menší než rozpětí mezi čtverci uvnitř jedné obce (například Lučina 1,2–1,5 ng/m³ v období 2020–2024). Všechny čtyři obce leží v aglomeraci CZ08A Ostrava/Karviná/Frýdek-Místek.
+Tučně jsou hodnoty nad imisním limitem podle přílohy č. 1 zákona č. 201/2012 Sb. Benzo(a)pyren je nad limitem ve všech pěti obcích po celé sledované období a od 2015–2019 klesl zhruba o polovinu. DD a Lučina mají soustavně o 0,03–0,2 ng/m³ vyšší hodnoty než HD a Pazderna, Vojkovice mají ve všech obdobích nejnižší hodnoty z pěti obcí (2020–2024: 1,21 ng/m³). Rozdíly jsou ale menší než rozpětí mezi čtverci uvnitř jedné obce (například Lučina 1,2–1,5 ng/m³, Vojkovice 1,1–1,3 ng/m³ v období 2020–2024). Všech pět obcí leží v aglomeraci CZ08A Ostrava/Karviná/Frýdek-Místek.
 
 ## 6. Zdravotní a sociální služby v obcích
 
-| Služba v obci | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina |
-|---|---|---|---|---|
-| Praktický lékař pro dospělé | – | – | ano (od 1993; ordinuje i v Nošovicích a Vojkovicích) | ano (od 1. 11. 2022) |
-| Praktický lékař pro děti a dorost | – | – | – | POLMEDICANA s.r.o. (od 1. 1. 2011) |
-| Další zdravotní služby | – | – | ošetřovatelská péče v DZR Pohoda | dentální hygienistka, samostatné zařízení nelékaře (od 1. 5. 2026) |
-| Registrované sociální služby | – | – | **DZR Pohoda, z. ú.**, domov se zvláštním režimem, 46 lůžek, od 1. 9. 2018 | – |
+| Služba v obci | Horní Domaslavice | Pazderna | Dolní Domaslavice | Lučina | Vojkovice |
+|---|---|---|---|---|---|
+| Praktický lékař pro dospělé | – | – | ano (od 1993; ordinuje i v Nošovicích a Vojkovicích) | ano (od 1. 11. 2022) | ano (místo poskytování v č. p. 88 od 1. 1. 2005; stejný poskytovatel jako v DD) |
+| Praktický lékař pro děti a dorost | – | – | – | POLMEDICANA s.r.o. (od 1. 1. 2011) | – |
+| Další zdravotní služby | – | – | ošetřovatelská péče v DZR Pohoda | dentální hygienistka, samostatné zařízení nelékaře (od 1. 5. 2026) | – |
+| Registrované sociální služby | – | – | **DZR Pohoda, z. ú.**, domov se zvláštním režimem, 46 lůžek, od 1. 9. 2018 | – | – |
 
-V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gynekologie v Bohumíně a zubní lékařství ve Frýdku-Místku). Do přehledu služeb v obci se proto nepočítají. Nejbližší služby pro HD a Pazdernu jsou v Dobré (praktický lékař, pediatr, gynekolog, zubař a lékárny), viz [školství a sociální oblast v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html). Registr sociálních služeb uvádí územní působnost terénních služeb jen na úrovni kraje, takže z něj nelze zjistit, které terénní služby do jednotlivých obcí dojíždějí.
+V Lučině mají sídlo ještě dva poskytovatelé, kteří ordinují jinde (gynekologie v Bohumíně a zubní lékařství ve Frýdku-Místku). Ve Vojkovicích má sídlo poskytovatel ergoterapie, který péči poskytuje v Ostravě. Do přehledu služeb v obci se proto nepočítají. Nejbližší služby pro HD a Pazdernu jsou v Dobré (praktický lékař, pediatr, gynekolog, zubař a lékárny), viz [školství a sociální oblast v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html). Registr sociálních služeb uvádí územní působnost terénních služeb jen na úrovni kraje, takže z něj nelze zjistit, které terénní služby do jednotlivých obcí dojíždějí.
 
 ## Hlavní rozdíly
 
-1. **Školská infrastruktura.** DD jsou školním centrem okolí: mají úplnou ZŠ, nově rozšířenou MŠ (75 míst) a jsou spádové pro Lučinu a Žermanice. Lučina má malotřídní ZŠ pro 1.–5. ročník a MŠ, které se od 1. 9. 2026 výrazně snížila kapacita. HD mají jen MŠ a pro ZŠ obvod ve Frýdku-Místku s dohodou do 31. 8. 2027, i když 54 dětí z HD chodí do ZŠ Dolní Domaslavice. Pazderna nemá žádnou školu a pro ZŠ spadá pod Dobrou. Jen HD mají spádovou ZŠ mimo bezprostředně sousední obce.
-2. **Sociální ukazatele.** HD vycházejí nejlépe u exekucí (1,7 %) a v letech 2022–2024 i u nezaměstnanosti (2,2 %). Lučina má dlouhodobě nejvyšší nezaměstnanost ze čtyř obcí (3,8 % v roce 2024, 5,4 % v září 2026) a po Pazderně druhý nejvyšší podíl osob v exekuci (3,6 %). Pazderna má nejvyšší podíl osob v exekuci (4,6 %). Kvůli malému počtu obyvatel ji ale ovlivní každý jednotlivý případ.
-3. **Bezpečnost.** U zveřejňovaných trestných činů nejsou mezi obcemi podstatné rozdíly (3,4–4,5 na 1 000 obyvatel za rok v letech 2021–2025). Pazderna a v roce 2025 i DD mají mnohonásobně víc dopravních přestupků.
-4. **Ovzduší** je ve všech čtyřech obcích prakticky stejné. Benzo(a)pyren je všude nad limitem, prachové částice pod limity.
-5. **Zdravotní péče přímo v obci** je jen v DD a Lučině. HD a Pazderna žádného registrovaného poskytovatele nemají.
+1. **Školská infrastruktura.** DD jsou školním centrem okolí: mají úplnou ZŠ, nově rozšířenou MŠ (75 míst) a jsou spádové pro Lučinu a Žermanice. Lučina má malotřídní ZŠ pro 1.–5. ročník a MŠ, které se od 1. 9. 2026 výrazně snížila kapacita. HD mají jen MŠ a pro ZŠ obvod ve Frýdku-Místku s dohodou do 31. 8. 2027, i když 54 dětí z HD chodí do ZŠ Dolní Domaslavice. Pazderna nemá žádnou školu a pro ZŠ spadá pod Dobrou. Vojkovice nezřizují žádnou školu, mají ale v obci pracoviště MŠ Dobratice; pro 1. stupeň patří do obvodu ZŠ Dobratice a pro 2. stupeň do obvodu ZŠ Dobrá. Jen HD mají spádovou ZŠ mimo bezprostředně sousední obce.
+2. **Sociální ukazatele.** HD a Vojkovice vycházejí nejlépe u exekucí (1,7 % a 1,2 %), HD v letech 2022–2024 i u nezaměstnanosti (2,2 %). Lučina má dlouhodobě nejvyšší nezaměstnanost z pěti obcí (3,8 % v roce 2024, 5,4 % v září 2026) a po Pazderně druhý nejvyšší podíl osob v exekuci (3,6 %). Pazderna má nejvyšší podíl osob v exekuci (4,6 %). Kvůli malému počtu obyvatel ji ale ovlivní každý jednotlivý případ, stejně jako Vojkovice.
+3. **Bezpečnost.** U zveřejňovaných trestných činů nejsou mezi obcemi podstatné rozdíly (3,4–5,1 na 1 000 obyvatel za rok v letech 2021–2025). Pazderna, Vojkovice a v roce 2025 i DD mají mnohonásobně víc dopravních přestupků.
+4. **Ovzduší** je ve všech pěti obcích prakticky stejné. Benzo(a)pyren je všude nad limitem, prachové částice pod limity.
+5. **Zdravotní péče přímo v obci** je jen v DD, Lučině a Vojkovicích. HD a Pazderna žádného registrovaného poskytovatele nemají.
 
 ## Pozor
 
 1. **Kapacita MŠ Lučina 48 → 28 od 1. 9. 2026:** důvod z rejstříku, z inspekční zprávy z ledna 2026 (47 dětí) ani z webu školy nevyplývá. Ověřit ho lze u školy, obce Lučina nebo KÚ MSK.
-2. **Počty dětí a žáků** po letech nejsou ze statistických výkazů MŠMT za jednotlivé školy veřejně dostupné. Údaje pocházejí z inspekčních zpráv, tedy vždy ke dni inspekce. Výsledky zápisů do MŠ v DD a Lučině (počty přijatých a nepřijatých) nebyly dohledány, takže srovnatelný údaj k převisu poptávky z HD (7–12 nepřijatých ročně v letech 2022–2024) pro ostatní obce chybí.
-3. **Školské obvody:** Sbírka ukazuje, že vyhlášky jsou platné, ale neříká, zda podkladové dohody obcí stále trvají a do kdy platí. To platí hlavně pro Pazdernu a Dobrou. Vyhlášky Pazderny a DD jsou ve Sbírce jako skeny a byly převedeny na text pomocí OCR.
+2. **Počty dětí a žáků** po letech nejsou ze statistických výkazů MŠMT za jednotlivé školy veřejně dostupné. Údaje pocházejí z inspekčních zpráv, tedy vždy ke dni inspekce. Výsledky zápisů do MŠ v DD, Lučině a Dobraticích (počty přijatých a nepřijatých) nebyly dohledány, takže srovnatelný údaj k převisu poptávky z HD (7–12 nepřijatých ročně v letech 2022–2024) pro ostatní obce chybí.
+3. **Školské obvody:** Sbírka ukazuje, že vyhlášky jsou platné, ale neříká, zda podkladové dohody obcí stále trvají a do kdy platí. To platí hlavně pro Pazdernu, Vojkovice a Dobrou. Vyhlášky Pazderny a DD jsou ve Sbírce jako skeny a byly převedeny na text pomocí OCR.
 4. **Nezaměstnanost:** řady ČSÚ (do 2024) a MPSV (od 2025) nejsou plně navazující (viz oddíl 2.3). U Pazderny jde o jednotky osob, takže meziroční změny nemají vypovídací hodnotu.
-5. **Exekuce:** Exekutorská komora zveřejňuje jen aktuální stav, řada po letech chybí (mapaexekuci.cz byla 30. 10. 2026 nedostupná). Podíly jsou dopočítané a mohou se mírně lišit od podílů na mapaexekuci.cz.
+5. **Exekuce:** Exekutorská komora zveřejňuje jen aktuální stav, řada po letech chybí (mapaexekuci.cz byla 30. 10. 2026 nedostupná). Podíly jsou dopočítané a mohou se mírně lišit od podílů na mapaexekuci.cz. U Vojkovic (7 osob) a Pazderny (11 osob) je podíl citlivý na jednotlivé případy.
 6. **Kriminalita:** soubory za rok 2026 mají různé datum aktualizace. U HD končí 17. 8. 2026, u ostatních obcí koncem října, proto rok 2026 do průměrů není zahrnut. Data obsahují jen vybrané druhy trestných činů a všechny přestupky a neodpovídají úplné policejní statistice. Při jednotkách trestných činů ročně jsou přepočty na 1 000 obyvatel velmi citlivé na náhodu.
-7. **Ovzduší:** jde o modelová pole v síti 1 km, ne o měření v obcích. Pětiletý průměr 2021–2025 ČHMÚ zatím nezveřejnil. Hranice obcí pocházejí z vrstvy Moravskoslezského kraje, ne přímo z RÚIAN. U Lučiny a DD zasahuje území i do vodní plochy Žermanické přehrady.
-8. **Zdravotní služby:** registr uvádí místa poskytování péče, ne ordinační hodiny ani to, zda lékař v daném místě skutečně pravidelně ordinuje.
-9. Údaje o HD (MŠ HD, zápisy, počet dětí z HD v ZŠ DD, dohoda s Frýdkem-Místkem) mají tytéž výhrady jako na stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
+7. **Ovzduší:** jde o modelová pole v síti 1 km, ne o měření v obcích. Pětiletý průměr 2021–2025 ČHMÚ zatím nezveřejnil. Hranice obcí pocházejí z vrstvy Moravskoslezského kraje, ne přímo z RÚIAN (kontrolní výpočet pro HD s hranicí z RÚIAN dal stejné hodnoty). U Lučiny a DD zasahuje území i do vodní plochy Žermanické přehrady.
+8. **Zdravotní služby:** registr uvádí místa poskytování péče, ne ordinační hodiny ani to, zda lékař v daném místě skutečně pravidelně ordinuje. Že praktický lékař ordinuje ve Vojkovicích tři dny v týdnu, uvádí jen web obce (viz [Občanská vybavenost](https://hd-v-datech.cz/srovnani-vybavenost.html)).
+9. **Vojkovice (doplněno 1. 11. 2026):** rejstřík škol, registry NRPZS a RPSS, Sbírka, data MPSV a Mapy kriminality jsou ve stavu k 1. 11. 2026, ostatní zdroje ve stejném stavu jako u ostatních obcí. Kapacitu MŠ ve Vojkovicích (38 míst) rejstřík zvlášť neuvádí, je převzata z webu školy a strategického plánu obce.
+10. Údaje o HD (MŠ HD, zápisy, počet dětí z HD v ZŠ DD, dohoda s Frýdkem-Místkem) mají tytéž výhrady jako na stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ## Metodika a zdroje
 
 - **Obyvatelé:** ČSÚ, sada 130149 „Počet obyvatel podle pětiletých věkových skupin a pohlaví v obcích“; rok 2025 z DataStatu ČSÚ, výběr OBY01B01T01 (https://data.csu.gov.cz/api/dotaz/v1/data/vybery/OBY01B01T01?format=CSV); SLDB 2021: https://csu.gov.cz/docs/107508/4317620c-7502-7dc1-5c96-0cdb9affb540/sldb2021_vek.csv.
-- **Školy:** Otevřená data MŠMT, Rejstřík škol a školských zařízení, Moravskoslezský kraj, datum výstupu 30. 10. 2026 (https://lkod-ftp.msmt.gov.cz/00022985/11f1f670-1a8a-4a8a-b188-0eed2d01fca7/RSSZ-Moravskoslezsky-kraj.jsonld). Historie kapacit z API rejstříku škol (https://isv.gov.cz/rssz/api/v1/sub/red-izo/{RED_IZO}?stavKeDni=RRRR-MM-DD), dotazem vždy k 1. 9. každého roku. Inspekční zprávy z portálu ČŠI (portal.csicr.cz).
-- **Školské obvody:** Sbírka právních předpisů ÚSC, seznamy předpisů obcí: https://sbirkapp.gov.cz/vydavatel/t4uby8v (Pazderna), https://sbirkapp.gov.cz/vydavatel/rx2bwxp (DD), https://sbirkapp.gov.cz/vydavatel/h7ub39u (Lučina) a https://sbirkapp.gov.cz/vydavatel/gr4bkxm (HD). Detaily vyhlášek: https://sbirkapp.gov.cz/detail/SPPRBCZCU6BYA2V4 (Pazderna 1/2019), https://sbirkapp.gov.cz/detail/SPPCRTNWWBOWWTVY (DD 2/2019) a https://sbirkapp.gov.cz/detail/SPPXRN5AYIKWYJIC (Lučina 1/2022).
+- **Školy:** Otevřená data MŠMT, Rejstřík škol a školských zařízení, Moravskoslezský kraj, datum výstupu 30. 10. 2026, pro Vojkovice 1. 11. 2026 (https://lkod-ftp.msmt.gov.cz/00022985/11f1f670-1a8a-4a8a-b188-0eed2d01fca7/RSSZ-Moravskoslezsky-kraj.jsonld). Historie kapacit z API rejstříku škol (https://isv.gov.cz/rssz/api/v1/sub/red-izo/{RED_IZO}?stavKeDni=RRRR-MM-DD), dotazem vždy k 1. 9. každého roku. Inspekční zprávy z portálu ČŠI (portal.csicr.cz).
+- **Školské obvody:** Sbírka právních předpisů ÚSC, seznamy předpisů obcí: https://sbirkapp.gov.cz/vydavatel/t4uby8v (Pazderna), https://sbirkapp.gov.cz/vydavatel/rx2bwxp (DD), https://sbirkapp.gov.cz/vydavatel/h7ub39u (Lučina), https://sbirkapp.gov.cz/vydavatel/vmebjh4 (Vojkovice) a https://sbirkapp.gov.cz/vydavatel/gr4bkxm (HD). Detaily vyhlášek: https://sbirkapp.gov.cz/detail/SPPRBCZCU6BYA2V4 (Pazderna 1/2019), https://sbirkapp.gov.cz/detail/SPPCRTNWWBOWWTVY (DD 2/2019), https://sbirkapp.gov.cz/detail/SPPXRN5AYIKWYJIC (Lučina 1/2022), https://sbirkapp.gov.cz/detail/SPPT2NI5WPF3XI7Q (Vojkovice 1/2019), https://sbirkapp.gov.cz/detail/SPPM4FEV5ZJVR476 (Vojkovice 1/2026, MŠ) a https://sbirkapp.gov.cz/detail/SPPQ5366J7WQY5XA (Vojkovice 2/2026, ZŠ).
 - **Nezaměstnanost:** ČSÚ, sada 250169 (https://csu.gov.cz/produkty/uchazeci-o-zamestnani-dosazitelni-a-podil-nezamestnanych-osob-podle-obci_090417), pro roky 2015–2024 průměr měsíčních hodnot; od ledna 2025 MPSV, sada „podil_nezamestnanych_osob_trvala_kontaktni_adresa“ (https://data.mpsv.cz/portal).
 - **Exekuce:** Exekutorská komora ČR, otevřená data „Počet exekucí fyzických osob evidovaných v jednotlivých obcích ČR“ (https://statistiky.ekcr.info/otevrena-data/data/obce.json), stav k 1. 10. 2026.
-- **Kriminalita:** Mapa kriminality Policie ČR, otevřená data po obcích (https://kriminalita.policie.gov.cz/api/v2/downloads?municipality={kód}), roky 2013–2026. Delikt se počítá jednou podle ID.
+- **Kriminalita:** Mapa kriminality Policie ČR, otevřená data po obcích (https://kriminalita.policie.gov.cz/api/v2/downloads?municipality={kód}), roky 2013–2026. Delikt se počítá jednou podle ID. Územní působnost OOP Nošovice podle https://policie.gov.cz/moravskoslezsky-kraj/obvodni-oddeleni-nosovice.
 - **Ovzduší:** ČHMÚ, pětileté průměry koncentrací ve čtvercové síti 1 × 1 km (https://opendata.chmi.cz/air_quality/products/5year_avg/). Hranice obcí z vrstvy Moravskoslezského kraje (https://services8.arcgis.com/jfWD14yYevYeDEj7/arcgis/rest/services/vz_tp_trh_prace/FeatureServer/0).
-- **Zdravotní a sociální služby:** ÚZIS, Národní registr poskytovatelů zdravotních služeb – místa poskytování (https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv) a MPSV, Registr poskytovatelů sociálních služeb (https://data.mpsv.cz/od/soubory/rpss/rpss.json), oba staženy 30. 10. 2026.
+- **Zdravotní a sociální služby:** ÚZIS, Národní registr poskytovatelů zdravotních služeb – místa poskytování (https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv) a MPSV, Registr poskytovatelů sociálních služeb (https://data.mpsv.cz/od/soubory/rpss/rpss.json), staženy 30. 10. 2026, pro Vojkovice 1. 11. 2026.
+
+Data: [exekuce](https://hd-v-datech.cz/data/skolstvi_socialni_exekuce_2026-10.csv), [nezaměstnanost](https://hd-v-datech.cz/data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv), [kriminalita](https://hd-v-datech.cz/data/skolstvi_socialni_kriminalita_2013-2026.csv), [ovzduší](https://hd-v-datech.cz/data/skolstvi_socialni_ovzdusi_CHMU.csv), [školy](https://hd-v-datech.cz/data/skolstvi_socialni_skoly_rejstrik_2026-11.csv), [zdravotní a sociální služby](https://hd-v-datech.cz/data/skolstvi_socialni_zdravotni_socialni_sluzby.csv).
 
 
 ---
@@ -5926,7 +5947,9 @@ Všechny tři mají souvislejší zástavbu než HD. Obce s podobně rozptýleno
 Podrobnosti, metodika a výhrady jsou na dílčích stránkách:
 
 - [Finance](https://hd-v-datech.cz/podobne-finance.html): příjmy, výdaje, investice a opravy, dotace, rezervy, peníze na účtech
+- [Majetek, smlouvy, zakázky](https://hd-v-datech.cz/podobne-majetek-zakazky.html): rozvaha, výsledek hospodaření, registr smluv, veřejné zakázky
 - [Obyvatelstvo a výstavba](https://hd-v-datech.cz/podobne-obyvatelstvo-vystavba.html): vývoj obyvatel, sčítání 2021, výstavba
+- [Školství a sociální data](https://hd-v-datech.cz/podobne-skolstvi-socialni.html): školy, nezaměstnanost, exekuce, kriminalita, ovzduší, služby
 - [Rozloha a druhy pozemků](https://hd-v-datech.cz/podobne-plochy.html)
 - [Roztříštěnost zástavby](https://hd-v-datech.cz/podobne-zastavba.html)
 - [Daň z nemovitostí](https://hd-v-datech.cz/podobne-dan-nemovitosti.html)
@@ -6815,6 +6838,381 @@ Data: [finance_HD_2010-2025.csv](https://hd-v-datech.cz/data/finance_HD_2010-202
 
 ---
 
+# Majetek, smlouvy, zakázky (podobné obce)
+
+Zdroj: https://hd-v-datech.cz/podobne-majetek-zakazky.html (aktualizováno 2026-11-01)
+
+> Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Pískovou Lhotou, Rebešovicemi a Závišicemi.
+
+Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se třemi obcemi z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Pískovou Lhotou (PL), Rebešovicemi (RE) a Závišicemi (ZA). Jak byly vybrány, popisuje [souhrn podobných obcí](https://hd-v-datech.cz/srovnani-podobne-obce.html). Ukazatele jsou spočítané stejně jako na stránce [Srovnání majetku, smluv a zakázek](https://hd-v-datech.cz/srovnani-majetek-zakazky.html) se sousedními obcemi. Vychází výhradně z veřejných zdrojů: z rozvahy a výkazu zisku a ztráty v Monitoru státní pokladny MF, z počtů obyvatel ČSÚ, z registru smluv, z Hlídače státu, z profilů zadavatele a z Národního elektronického nástroje (NEN). Žádná ze čtyř obcí není obcí s rozšířenou působností. Částky jsou v mil. Kč, není-li uvedeno jinak, a stavy jsou vždy k 31. 12. Srovnání nehodnotí vedení jednotlivých obcí.
+
+| | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---|---|---|---|
+| Okres | Frýdek-Místek | Mladá Boleslav | Brno-venkov | Nový Jičín |
+| IČO (ARES) | 00536008 | 00509230 | 00488089 | 00600709 |
+| Kód obce | 512192 | 536440 | 583774 | 568473 |
+| Obyvatel 2010 → 2025 | 681 → 1 109 (+63 %) | 748 → 1 111 (+49 %) | 840 → 1 106 (+32 %) | 884 → 1 156 (+31 %) |
+| Podřízené organizace podle Hlídače státu | 1 (MŠ) | 1 (Obecní zdravotní středisko o.p.s.) | 2 (MŠ a obchodní společnost KTS EKOLOGIE s.r.o.) | 1 (ZŠ a MŠ) |
+
+## Shrnutí
+
+1. **HD má nejmenší majetek na obyvatele.** Aktiva netto na obyvatele činila v roce 2025 v HD 69 tis. Kč, v Pískové Lhotě 116 tis., v Rebešovicích 138 tis. a v Závišicích 132 tis. Kč. Stavby netto na obyvatele jsou v HD 28 tis. Kč, v ostatních obcích 48–76 tis. Kč. Peněz na obyvatele mají nejvíc Rebešovice (39,4 tis. Kč), dále HD (35,6 tis.), Písková Lhota (27,3 tis.) a Závišice (24,2 tis.). Peníze tvoří v HD 52 % aktiv, v ostatních obcích 18–29 %.
+2. **Přírůstek staveb je v HD druhý nejnižší.** Stavby v pořizovací ceně vzrostly od konce roku 2013 do konce roku 2025 v HD o 25,0 mil. Kč (22 tis. Kč na dnešního obyvatele), v Pískové Lhotě o 48,4 mil. (44 tis.), v Rebešovicích o 14,8 mil. (13 tis.) a v Závišicích o 68,4 mil. Kč (59 tis. Kč na obyvatele). U Rebešovic je číslo ovlivněné poklesem staveb v roce 2025 o 40,7 mil. Kč; do konce roku 2024 přibylo 55,6 mil. Kč.
+3. **Opravy jsou v HD a v Pískové Lhotě vysoké.** Na účtu 511 (opravy a udržování) vykázala za 2014–2025 Písková Lhota 33,8 mil. Kč (z toho 15,9 mil. v roce 2022), HD 27,5 mil., Závišice 11,5 mil. a Rebešovice 6,6 mil. Kč.
+4. **Dluh:** HD, Rebešovice a Závišice jsou k 31. 12. 2025 bez úvěrů. Písková Lhota má dlouhodobý úvěr 8,01 mil. Kč (od roku 2021). Rebešovice splácely úvěr z roku 2012 (10,0 mil. Kč) do roku 2021, Závišice úvěr, který měly už v roce 2010, do roku 2014.
+5. **Výsledky hospodaření jsou podobné.** Za 2014–2025 dosáhla HD součtu výsledků 51,5 mil. Kč, Písková Lhota 51,1 mil., Rebešovice 77,4 mil. a Závišice 87,6 mil. Kč. V přepočtu na obyvatele vyšly v roce 2025 HD (8 294 Kč), Písková Lhota (8 260 Kč) a Rebešovice (8 200 Kč) téměř stejně, Závišice nižší (5 433 Kč). Ztrátu vykázala HD v roce 2010, Rebešovice v roce 2010 a Písková Lhota v letech 2020 a 2022.
+6. **Registr smluv:** sama zveřejňuje hlavně Písková Lhota, a to 5 smluv z let 2022–2026 za 6,00 mil. Kč s DPH. Rebešovice a Závišice vložily po jedné smlouvě, HD žádnou. Smlouvy, kde jsou stranou a vložila je protistrana, mají všechny (HD 9, Písková Lhota 7, Rebešovice 9, Závišice 13).
+7. **Veřejné zakázky 2014–2026:** HD 18, Písková Lhota 3 (jen v NEN od roku 2025; starší profil není dostupný), Rebešovice 32 (23 na e-zakazky.cz a 9 v NEN) a Závišice 33 (z toho 2 přímá zadání). Průměrný počet účastníků u soutěží, kde profil uvádí aspoň dva, je HD 5,3, Rebešovice 4,0 a Závišice 3,9. Medián podílu vysoutěžené ceny na předpokládané hodnotě je HD 82 %, Rebešovice 72 % a Závišice 79 % (malé vzorky).
+8. **Administrátoři:** v HD připravuje zakázky téměř výhradně TISPOL s.r.o. (13 z 18). V ostatních obcích u většiny zakázek administrátor z dokumentů nevyplývá; Závišice v jednotlivých letech využily čtyři různé firmy, Rebešovice u dvou podlimitních řízení externího administrátora.
+
+## 1. Rozvaha a výkaz zisku a ztráty
+
+### 1.1 Stav k 31. 12. 2025 vedle sebe
+
+| Ukazatel 2025 | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| Obyvatel | 1 109 | 1 111 | 1 106 | 1 156 |
+| Aktiva netto | 76,62 | 129,03 | 152,40 | 152,84 |
+| Stavby netto (021) | 30,59 | 53,52 | 60,62 | 87,71 |
+| Pozemky (031) | 1,97 | 5,51 | 20,98 | 10,31 |
+| Nedokončené investice (042) | 1,00 | 3,31 | 11,73 | 12,94 |
+| Peníze (231 + 244 + 245) | 39,49 | 30,33 | 43,62 | 28,02 |
+| Úvěry (451 + 281) a závazky 459 | 0,00 | 8,01 | 0,00 | 0,00 |
+| Odpisy (551) | 0,83 | 2,80 | 2,37 | 3,19 |
+| Náklady celkem | 13,32 | 13,88 | 15,86 | 29,58 |
+| Výnosy celkem | 22,52 | 23,06 | 24,92 | 35,86 |
+| Výsledek hospodaření | 9,20 | 9,18 | 9,07 | 6,28 |
+| Podíl peněz na aktivech | 52 % | 24 % | 29 % | 18 % |
+
+### 1.2 Totéž na obyvatele (Kč, 2025)
+
+| Ukazatel na obyvatele | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| Aktiva netto | 69 091 | 116 142 | 137 789 | 132 214 |
+| Stavby netto | 27 581 | 48 175 | 54 811 | 75 875 |
+| Pozemky | 1 776 | 4 959 | 18 971 | 8 919 |
+| Nedokončené investice | 906 | 2 982 | 10 606 | 11 197 |
+| Peníze | 35 613 | 27 296 | 39 441 | 24 238 |
+| Úvěry a závazky 459 | 0 | 7 211 | 0 | 0 |
+| Odpisy | 749 | 2 516 | 2 145 | 2 763 |
+| Náklady | 12 015 | 12 492 | 14 336 | 25 590 |
+| Výnosy | 20 309 | 20 752 | 22 535 | 31 024 |
+| Výsledek hospodaření | 8 294 | 8 260 | 8 200 | 5 433 |
+
+### 1.3 Souhrny za 2014–2025
+
+| Součet 2014–2025 | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| Výsledek hospodaření | 51,51 | 51,05 | 77,38 | 87,56 |
+| Odpisy | 6,55 | 26,18 | 30,74 | 25,50 |
+| Opravy a udržování (511) | 27,45 | 33,79 | 6,58 | 11,48 |
+| Přírůstek staveb brutto (konec 2013 → konec 2025) | 24,97 | 48,43 | 14,82 | 68,36 |
+| Nejvyšší zadlužení v období 2010–2025 (rok) | 2,50 (2013) | 9,34 (2023) | 10,00 (2012) | 3,21 (2010) |
+
+### 1.4 Časové řady
+
+**Aktiva netto na obyvatele (tis. Kč)**
+
+| Rok | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| 2010 | 23,2 | 47,4 | 99,2 | 61,7 |
+| 2011 | 14,9 | 47,9 | 87,5 | 45,6 |
+| 2012 | 18,0 | 48,4 | 124,6 | 46,0 |
+| 2013 | 18,7 | 52,7 | 123,4 | 48,9 |
+| 2014 | 22,7 | 54,3 | 102,1 | 51,5 |
+| 2015 | 27,8 | 56,4 | 102,4 | 53,5 |
+| 2016 | 31,5 | 60,0 | 125,3 | 60,2 |
+| 2017 | 35,5 | 63,6 | 129,5 | 65,1 |
+| 2018 | 37,6 | 61,6 | 135,6 | 71,3 |
+| 2019 | 39,3 | 65,9 | 144,4 | 80,2 |
+| 2020 | 49,6 | 75,4 | 146,8 | 86,6 |
+| 2021 | 55,1 | 90,8 | 156,8 | 94,3 |
+| 2022 | 61,5 | 86,4 | 141,5 | 106,1 |
+| 2023 | 60,5 | 109,7 | 147,6 | 113,0 |
+| 2024 | 62,7 | 108,0 | 156,6 | 122,7 |
+| 2025 | 69,1 | 116,1 | 137,8 | 132,2 |
+
+**Stavby netto (mil. Kč)**
+
+| Rok | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| 2010 | 10,45 | 14,90 | 40,40 | 47,55 |
+| 2011 | 6,84 | 14,53 | 30,40 | 37,73 |
+| 2012 | 6,69 | 14,00 | 31,11 | 39,01 |
+| 2013 | 10,76 | 16,60 | 55,38 | 41,82 |
+| 2014 | 10,59 | 17,03 | 54,69 | 43,57 |
+| 2015 | 13,03 | 16,34 | 53,42 | 45,49 |
+| 2016 | 13,19 | 16,52 | 69,17 | 44,31 |
+| 2017 | 15,40 | 15,80 | 72,21 | 47,52 |
+| 2018 | 18,51 | 14,83 | 86,47 | 62,86 |
+| 2019 | 18,23 | 14,13 | 85,43 | 61,42 |
+| 2020 | 18,81 | 18,98 | 82,88 | 64,00 |
+| 2021 | 32,49 | 27,83 | 89,30 | 69,43 |
+| 2022 | 31,88 | 28,40 | 94,35 | 76,23 |
+| 2023 | 31,54 | 45,54 | 92,09 | 76,02 |
+| 2024 | 30,98 | 53,29 | 89,68 | 74,19 |
+| 2025 | 30,59 | 53,52 | 60,62 | 87,71 |
+
+**Pozemky, účet 031 (mil. Kč)**
+
+| Rok | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| 2010 | 1,28 | 1,33 | 14,89 | 0,98 |
+| 2013 | 1,18 | 1,39 | 14,84 | 1,05 |
+| 2016 | 1,31 | 1,92 | 17,67 | 3,28 |
+| 2019 | 1,79 | 2,79 | 18,35 | 4,09 |
+| 2022 | 1,90 | 5,49 | 18,75 | 4,35 |
+| 2023 | 1,90 | 5,49 | 18,82 | 4,37 |
+| 2024 | 1,93 | 5,48 | 20,98 | 4,42 |
+| 2025 | 1,97 | 5,51 | 20,98 | 10,31 |
+
+**Nedokončené investice, účet 042 (mil. Kč)**
+
+| Rok | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| 2010 | 0,80 | 13,57 | 6,94 | 1,40 |
+| 2011 | 0,80 | 11,53 | 4,90 | 1,50 |
+| 2012 | 3,30 | 12,75 | 33,75 | 1,50 |
+| 2013 | 0,80 | 11,95 | 1,45 | 1,38 |
+| 2014 | 0,97 | 10,96 | 1,38 | 1,45 |
+| 2015 | 1,14 | 14,28 | 1,60 | 1,79 |
+| 2016 | 1,10 | 14,38 | 4,18 | 5,96 |
+| 2017 | 1,29 | 14,77 | 5,19 | 2,29 |
+| 2018 | 0,89 | 14,78 | 2,83 | 0,33 |
+| 2019 | 1,15 | 15,08 | 2,74 | 3,74 |
+| 2020 | 6,37 | 21,88 | 16,23 | 0,54 |
+| 2021 | 0,39 | 30,85 | 20,28 | 0,43 |
+| 2022 | 0,51 | 42,59 | 2,69 | 0,09 |
+| 2023 | 0,31 | 5,69 | 3,35 | 0,25 |
+| 2024 | 0,83 | 1,22 | 4,23 | 5,88 |
+| 2025 | 1,00 | 3,31 | 11,73 | 12,94 |
+
+**Peníze 231 + 244 + 245 (mil. Kč) a na obyvatele (tis. Kč)**
+
+| Rok | HD | HD / obyv. | Písková Lhota | PL / obyv. | Rebešovice | RE / obyv. | Závišice | ZA / obyv. |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2010 | 0,26 | 0,4 | 1,29 | 1,7 | 18,64 | 22,2 | 1,97 | 2,2 |
+| 2012 | 0,85 | 1,1 | 2,11 | 3,0 | 11,26 | 13,0 | 1,21 | 1,3 |
+| 2014 | 3,86 | 4,9 | 5,80 | 8,0 | 15,52 | 16,5 | 2,58 | 2,6 |
+| 2016 | 8,25 | 10,5 | 8,75 | 11,4 | 19,98 | 21,0 | 5,54 | 5,4 |
+| 2018 | 9,20 | 10,3 | 18,70 | 21,0 | 15,96 | 16,1 | 6,29 | 5,9 |
+| 2019 | 13,89 | 15,0 | 24,95 | 26,4 | 28,18 | 28,3 | 11,04 | 10,2 |
+| 2020 | 14,09 | 15,0 | 24,50 | 24,2 | 24,86 | 24,1 | 21,81 | 20,1 |
+| 2021 | 19,10 | 19,1 | 25,74 | 23,6 | 17,61 | 16,7 | 24,41 | 22,7 |
+| 2022 | 27,29 | 26,8 | 8,05 | 7,3 | 16,47 | 15,3 | 29,43 | 26,5 |
+| 2023 | 28,11 | 26,7 | 21,22 | 19,4 | 37,56 | 34,2 | 39,44 | 34,9 |
+| 2024 | 31,48 | 29,3 | 23,84 | 21,3 | 43,11 | 39,5 | 46,91 | 40,4 |
+| 2025 | 39,49 | 35,6 | 30,33 | 27,3 | 43,62 | 39,4 | 28,02 | 24,2 |
+
+**Úvěry (451 + 281) a ostatní dlouhodobé závazky (459), mil. Kč**
+
+| Rok | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| 2010 | 0,50 | 0,00 | 0,00 | 3,21 |
+| 2011 | 1,61 | 0,00 | 0,00 | 2,57 |
+| 2012 | 2,07 | 0,00 | 10,00 | 1,93 |
+| 2013 | 2,50 | 0,00 | 8,92 | 1,28 |
+| 2014 | 1,23 | 0,00 | 7,84 | 0,64 |
+| 2015 | 0,65 | 0,00 | 6,76 | 0,00 |
+| 2016 | 0,42 | 0,00 | 5,68 | 0,00 |
+| 2017 | 0,18 | 0,00 | 4,59 | 0,00 |
+| 2018 | 0,00 | 0,00 | 3,51 | 0,00 |
+| 2019 | 0,00 | 0,00 | 2,43 | 0,00 |
+| 2020 | 0,00 | 0,00 | 1,35 | 0,00 |
+| 2021 | 0,00 | 3,41 | 0,27 | 0,02 |
+| 2022 | 0,00 | 3,41 | 0,00 | 0,02 |
+| 2023 | 0,00 | 9,34 | 0,74 | 0,04 |
+| 2024 | 0,00 | 8,67 | 0,00 | 0,00 |
+| 2025 | 0,00 | 8,01 | 0,00 | 0,00 |
+
+U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý závazek, jehož původ z výkazů nevyplývá (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)). U Pískové Lhoty jde o dlouhodobý úvěr 451 (od roku 2021). U Rebešovic jde v letech 2012–2021 o dlouhodobý úvěr 451 a v roce 2023 o krátkodobý úvěr 0,74 mil. Kč. U Závišic jde v letech 2010–2014 o úvěr a v letech 2021–2023 o drobné závazky na účtu 459.
+
+**Odpisy (mil. Kč)**
+
+| Rok | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| 2013 | 0,34 | 0,55 | 1,22 | 1,03 |
+| 2016 | 0,49 | 0,72 | 1,89 | 1,28 |
+| 2019 | 0,38 | 0,75 | 2,77 | 2,18 |
+| 2022 | 0,74 | 1,81 | 3,07 | 2,65 |
+| 2023 | 0,77 | 2,18 | 3,19 | 2,77 |
+| 2024 | 0,79 | 2,42 | 3,47 | 2,86 |
+| 2025 | 0,83 | 2,80 | 2,37 | 3,19 |
+
+**Výsledek hospodaření (mil. Kč) a na obyvatele (Kč)**
+
+| Rok | HD | HD / obyv. | Písková Lhota | PL / obyv. | Rebešovice | RE / obyv. | Závišice | ZA / obyv. |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2010 | −0,39 | −575 | 2,20 | 2 945 | −15,96 | −19 005 | 3,30 | 3 735 |
+| 2011 | 1,19 | 1 680 | 1,54 | 2 227 | 2,60 | 3 097 | 2,12 | 2 265 |
+| 2012 | 2,51 | 3 372 | 1,72 | 2 423 | 0,06 | 66 | 2,06 | 2 148 |
+| 2013 | 0,83 | 1 099 | 2,36 | 3 378 | 2,64 | 2 953 | 2,96 | 3 041 |
+| 2014 | 4,37 | 5 601 | 2,71 | 3 742 | 2,68 | 2 845 | 4,32 | 4 350 |
+| 2015 | 3,73 | 4 758 | 3,05 | 4 050 | 3,58 | 3 739 | 4,15 | 4 092 |
+| 2016 | 2,64 | 3 344 | 3,39 | 4 428 | 5,00 | 5 244 | 7,39 | 7 243 |
+| 2017 | 3,51 | 4 281 | 4,71 | 5 953 | 4,49 | 4 629 | 6,47 | 6 185 |
+| 2018 | 2,39 | 2 677 | 4,57 | 5 126 | 5,33 | 5 382 | 6,78 | 6 383 |
+| 2019 | 2,23 | 2 409 | 6,37 | 6 736 | 9,78 | 9 811 | 6,71 | 6 220 |
+| 2020 | 5,24 | 5 563 | −2,79 | −2 756 | 7,43 | 7 211 | 7,66 | 7 064 |
+| 2021 | 5,53 | 5 535 | 6,10 | 5 598 | 5,68 | 5 403 | 8,21 | 7 626 |
+| 2022 | 7,72 | 7 573 | −2,60 | −2 362 | 7,38 | 6 869 | 8,18 | 7 379 |
+| 2023 | 1,23 | 1 169 | 8,10 | 7 427 | 8,43 | 7 680 | 10,41 | 9 211 |
+| 2024 | 3,73 | 3 469 | 8,25 | 7 377 | 8,53 | 7 815 | 10,99 | 9 469 |
+| 2025 | 9,20 | 8 294 | 9,18 | 8 260 | 9,07 | 8 200 | 6,28 | 5 433 |
+
+### 1.5 Hlavní rozdíly
+
+1. **HD má málo staveb, peníze má podobně jako ostatní.** Rebešovice mají peněz na obyvatele o něco víc než HD (39,4 proti 35,6 tis. Kč), ale k tomu stavby za 55 tis. Kč na obyvatele, HD za 28 tis. Kč. Písková Lhota a Závišice mají peněz méně (27,3 a 24,2 tis. Kč) a staveb víc (48 a 76 tis. Kč na obyvatele).
+2. **Odpisy ukazují, kolik majetku obec udržuje.** HD odepisuje 0,75 tis. Kč na obyvatele ročně, ostatní obce 2,1–2,8 tis. Kč. Pro srovnání „hotovostní síly“ lze odpisy přičíst k výsledku: HD 10,0 mil., Písková Lhota 12,0 mil., Rebešovice 11,4 mil. a Závišice 9,5 mil. Kč v roce 2025.
+3. **Opravy místo investic jsou u HD výrazné.** HD měla za 12 let opravy 27,5 mil. Kč a přírůstek staveb 25,0 mil. Kč. Písková Lhota měla opravy ještě vyšší (33,8 mil.), ale přidala i 48,4 mil. Kč staveb. Rebešovice a Závišice opravovaly málo (6,6 a 11,5 mil.).
+4. **Pozemků má HD málo.** HD vlastní pozemky za 1,97 mil. Kč (1,8 tis. Kč na obyvatele), Písková Lhota za 5,51 mil., Rebešovice za 20,98 mil. (19,0 tis. Kč na obyvatele) a Závišice za 10,31 mil. Kč (v roce 2025 přibylo 5,9 mil.). Hodnoty jsou účetní (pořizovací ceny), ne tržní.
+5. **Skoky ve stavbách.** Písková Lhota vykázala přírůstek staveb brutto o 15,5 mil. Kč v roce 2020 a o 18,4 mil. Kč v roce 2023 (současně klesl účet 042 z 42,6 na 5,7 mil.). Rebešovice o 25,2 mil. Kč v roce 2013 (účet 042 klesl z 33,8 na 1,5 mil.), o 17,2 mil. v roce 2016 a o 16,9 mil. v roce 2018. Závišice o 16,7 mil. Kč v roce 2018, což časově odpovídá víceúčelovému sportovnímu hřišti (smlouva 7,85 mil. Kč bez DPH, viz oddíl 3). V roce 2025 stavby Rebešovic brutto klesly o 40,7 mil. Kč a současně kleslo jmění účetní jednotky (účet 401) o 18,9 mil. Kč, což odpovídá vyřazení nebo převodu majetku mimo výsledek hospodaření. Co přesně se zařadilo nebo vyřadilo, výkazy neuvádějí.
+
+## 2. Registr smluv a Hlídač státu
+
+Žádná ze čtyř obcí nevykonává rozšířenou působnost. Podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. tak nemají povinnost zveřejňovat v registru smluv (viz [registr smluv HD](https://hd-v-datech.cz/hd-registr-smluv.html)). Co v registru je, je proto dobrovolné, ať od obce, nebo od protistrany.
+
+### 2.1 Smlouvy, které obec vložila sama
+
+| Rok uzavření | HD počet | Písková Lhota počet | Písková Lhota objem (Kč s DPH) | Rebešovice počet | Závišice počet | Závišice objem (Kč s DPH) |
+|---|---:|---:|---:|---:|---:|---:|
+| 2016–2017 | 0 | 0 | – | 0 | 0 | – |
+| 2018 | 0 | 0 | – | 1 | 0 | – |
+| 2019–2021 | 0 | 0 | – | 0 | 0 | – |
+| 2022 | 0 | 1 | 1 076 016 | 0 | 0 | – |
+| 2023 | 0 | 1 | – | 0 | 1 | 1 976 107 |
+| 2024 | 0 | 0 | – | 0 | 0 | – |
+| 2025 | 0 | 2 | 4 823 471 | 0 | 0 | – |
+| 2026 | 0 | 1 | 100 000 | 0 | 0 | – |
+| **Celkem** | **0** | **5** | **5 999 487** | **1** | **1** | **1 976 107** |
+
+Písková Lhota vložila smlouvu o dílo na chodník a autobusové zastávky podél silnice II/610 (H-INTES s.r.o., 2025, 4,08 mil. Kč s DPH), smlouvu o dílo se ZIKUDA - vodohospodářské stavby spol. s r.o. (2022, 1,08 mil.), kupní smlouvu na nový vůz (2025, 0,74 mil.), veřejnoprávní smlouvu o dotaci na traktůrek (2026, 0,10 mil. Kč) a smlouvu o údržbě zeleně a zimní údržbě s Midori Fiedler s.r.o. (2023, bez ceny). Rebešovice vložily smlouvu o zřízení služebnosti (2018, bez ceny), Závišice smlouvu o svozu komunálního odpadu na roky 2023–2025 s Technickými službami města Nového Jičína (1,98 mil. Kč s DPH); stejnou smlouvu vložily do registru i technické služby.
+
+### 2.2 Smlouvy, kde je obec stranou a vložila je protistrana
+
+| | HD | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| Počet (export registru, poslední verze) | 9 | 7 | 9 | 13 |
+| Hlavní protistrany | SFŽP, KVIC, TS a.s., SZIF | Středočeský kraj (2), Integrovaná doprava Středočeského kraje (2), Lesy ČR, ÚZSVM, SFŽP | PGRLF (2), SZIF (2), Moravské zemské muzeum, KTS EKOLOGIE, DSO Šlapanicko, město Šlapanice, Vírský oblastní vodovod | Gas Storage CZ (4), Technické služby města Nového Jičína (4), SFDI (2), Jednota s. d., SZIF, SFŽP |
+| Povaha | dotace, mzdová agenda, objednávky | dotace kraje pro hasiče, dopravní obslužnost, převody pozemků, dotace SFŽP | úvěr a podpora PGRLF, dotace SZIF, směna pozemků, svoz odpadu, návratná výpomoc | dary, svoz odpadu, dotace SFDI, SZIF a SFŽP |
+
+Částky z tohoto oddílu se nesčítají, protože hodnoty dodatků a souvisejících smluv se v metadatech opakují.
+
+### 2.3 Hlídač státu (HD stav 30. 10. 2026, ostatní obce 1. 11. 2026)
+
+| | HD | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| Smluv v registru od 2016 (HS) | 9 | 12 | 10 | 14 |
+| Hodnota podle HS | 569 048 Kč | 8 mil. Kč | 5 mil. Kč | 18 mil. Kč |
+| Smlouvy bez ceny (roky s výskytem podle HS) | 2019 (2), 2022 (1) | – | 2018 (1), 2020 (1) | 2025 (1) |
+| Hlavní dodavatelé obce podle HS | TS a.s. (1 smlouva, 93 004 Kč) | H-INTES, ZIKUDA, Midori Fiedler (po 1) ¹ | LCL, spol. s r.o. (1 smlouva bez ceny) | Technické služby města Nového Jičína (1 smlouva, 2 mil. Kč) |
+| Veřejné zakázky jako zadavatel (HS) | 18 | 2 | 36 | 40 |
+| Profilů zadavatele (HS) | 1 | 2 | 2 | 1 |
+| Přijaté dotace (HS, počet / objem) ² | 43 / 30 mil. Kč | 12 / 7 mil. Kč | 21 / 67 mil. Kč | 89 / 55 mil. Kč |
+
+¹ HS u Pískové Lhoty na prvním místě uvádí samotnou obec (3 smlouvy), protože obec je v metadatech některých smluv zapsána zároveň jako protistrana. ² Období podle HS: HD 2010–2025, Písková Lhota a Rebešovice 2011–2025, Závišice 2010–2026. Bez podřízených organizací.
+
+Hlídač státu u smluv zobrazuje i automatické příznaky rizik. Ty podle něj samotného „nedokazují pochybení ani porušení zákona“, proto je zde neuvádíme; najdete je na profilech obcí na hlidacstatu.cz.
+
+### 2.4 Hlavní rozdíly
+
+- **Dobrovolně do registru vkládá smlouvy hlavně Písková Lhota**, a to od roku 2022, včetně smlouvy na chodník a autobusové zastávky (4,08 mil. Kč s DPH). Rebešovice a Závišice vložily po jedné smlouvě, HD žádnou.
+- **HD má nejméně smluv v registru vůbec** (9) a nejnižší objem. Závišice se v registru objevují hlavně díky protistranám (dary Gas Storage CZ, smlouvy technických služeb).
+- **Smlouvy na zakázky** zveřejňují HD, Rebešovice a Závišice hlavně na profilu zadavatele (viz oddíl 3), Písková Lhota od roku 2025 v NEN.
+
+## 3. Veřejné zakázky
+
+### 3.1 Profily zadavatele
+
+| | HD | Písková Lhota | Rebešovice | Závišice |
+|---|---|---|---|---|
+| Platný profil podle VVZ | vhodne-uverejneni.cz (od 2015) | NEN (od 5. 11. 2025) | e-zakazky.cz (od 2013) a NEN (od 2020) | vhodne-uverejneni.cz (od 2013) |
+| Další profily ve VVZ | – | piskovalhota.profilzadavatele.cz (2019–2025, zrušený, adresa vrací chybu 403) | – | – |
+| Zakázek na profilu celkem | 18 | 3 (NEN) | 23 (e-zakazky.cz) + 9 (NEN) | 33 |
+| Formulářů ve VVZ (oznámení o výsledku, opravy a další) | 5 | 0 | 15 | 6 |
+
+### 3.2 Počet zakázek podle roku uveřejnění (v závorce přímá zadání a evidence smluv)
+
+| Rok | HD | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| 2014 | 0 | – | 0 | 0 |
+| 2015 | 2 | – | 1 | 0 |
+| 2016 | 0 | – | 1 | 1 |
+| 2017 | 3 | – | 4 | 0 |
+| 2018 | 2 | – | 3 | 1 |
+| 2019 | 0 | – | 3 | 2 |
+| 2020 | 1 | – | 7 | 0 |
+| 2021 | 2 | – | 1 | 3 (1) |
+| 2022 | 0 | – | 2 | 1 |
+| 2023 | 1 | – | 4 | 2 (1) |
+| 2024 | 1 | – | 3 | 5 |
+| 2025 | 5 | 1 | 1 | 8 |
+| 2026 | 1 | 2 | 2 | 10 |
+| **2014–2026** | **18 (0)** | **3 (0)** | **32 (0)** | **33 (2)** |
+
+U Pískové Lhoty jsou k dispozici jen zakázky v NEN od listopadu 2025; starší profil (piskovalhota.profilzadavatele.cz) vrací chybu 403, proto jsou roky do 2024 označeny „–“. Chodník a autobusové zastávky podél silnice II/610 má v NEN datum uveřejnění 2. 9. 2026, ale smlouva o dílo v registru smluv je z 20. 10. 2025, takže jde nejspíš o dodatečně zveřejněnou zakázku. U 15 zakázek Rebešovic z let 2015–2021 se detail na e-zakazky.cz nezobrazuje a rok je převzatý z identifikátoru zakázky.
+
+### 3.3 Souhrnné ukazatele 2014–2026
+
+| | HD | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| Soutěžené zakázky (bez přímých zadání) | 18 | 3 | 32 | 31 |
+| z toho zjednodušené podlimitní nebo otevřené řízení | 3 | 0 | 7 | 13 |
+| Zrušené | 1 | 0 | 3 | 6 |
+| Soutěže s ≥ 2 uvedenými účastníky | 9 | 0 | 6 | 18 |
+| Průměr / medián účastníků u nich | 5,3 / 6 | – | 4,0 / 3 | 3,9 / 3 |
+| Cena / předpokládaná hodnota: počet případů | 13 | 0 | 8 | 4 |
+| Medián (rozpětí) | 82 % (62–108 %) | – | 72 % (23–85 %) | 79 % (76–88 %) |
+| Zadaný objem, kde je cena uvedena (mil. Kč bez DPH) | 30,5 (13 zakázek) | 3,4 (1) | 45,9 (12) | 27,2 (15) |
+
+Stránka o [zakázkách HD](https://hd-v-datech.cz/hd-zakazky.html) uvádí průměr 5,1 nabídky u 11 zakázek z let 2020–2026. Tam jsou zahrnuty i zakázky, u nichž počet nabídek pochází z dokumentů, ne z karty účastníků. U Rebešovic jsou počet účastníků a cena u zakázky Místní komunikace a inženýrské sítě (2024) převzaty z přehledu nabídek a oznámení o výběru dodavatele na profilu, protože karta účastníků je prázdná. Závišice u dvou největších soutěží (bezbariérový chodník Paseky 2021, předpokládaná hodnota 7,95 mil. Kč a 8 účastníků; tělocvična u ZŠ 2024, užší řízení, 7,55 mil. Kč) cenu na profilu neuvádějí; vítěze uvádí Věstník veřejných zakázek.
+
+### 3.4 Nejčastější vítězové a administrátoři 2014–2026
+
+| | HD | Písková Lhota | Rebešovice | Závišice |
+|---|---|---|---|---|
+| Vítězové (počet zakázek) | LOMPARK 2, BESKYDGROUP 2, dále po 1 (STRABAG, Strojírny a stavby Třinec, ENCO group, ELBAU-MONT, KANIA, SPORTOVNÍ PODLAHY ZLÍN, Aklera Corp, SDO Technika, ALPINE Bau, Haospol) | H-INTES 1 (další dvě zakázky zatím bez výsledku) | po 1: PS BRNO, SWIETELSKY, VHS Břeclav, KTS EKOLOGIE, UH CAR, HITL, Navara abrollkipper, IS-ARCH, PB SCOM, PROFITEAM topení - voda - plyn, DOSIP servis, ZAEL Design a fyzická osoba | JAPSTAV MORAVA 5, Projektování staveb Šigut 2, HYDROPROGRESS 2, dále po 1 (CHALUPA A SYN, COLAS CZ, Certero IT Solutions, ČEZ Energetické služby, KANIA, Mostní projekce, PORR, SPORTOVNÍ PODLAHY ZLÍN, TEON STAV) |
+| Administrátor (počet zakázek) | TISPOL s.r.o. 13, Regionální poradenská agentura Brno 1, nezjištěno 4 | nezjištěno 3 | Agentura K 1 s.r.o. 1 (2024), administrátor s doménou ashpa.cz 1 (2026), nezjištěno 30 | RPA Projekty, s.r.o. 2 (2024), Erste Grantika Advisory, a.s. 1 (2018), ITM, institut pro vzdělávání a poradenství, s.r.o. 1 (2021), QUANTUM CZ s. r. o. 1 (2016), nezjištěno 28 |
+| Největší zakázky (mil. Kč bez DPH) | oprava MK1 7,58; hřiště 5,46; MK 5 + MK 10 4,71 | chodník a autobusové zastávky podél silnice II/610 3,37 | mateřská škola (2. řízení) 20,49 (9 nabídek); sběrný dvůr 9,79 (2); místní komunikace a inženýrské sítě 5,89 (3) | víceúčelové sportovní hřiště 7,85; obnova komunikace k myslivecké chatě po povodni 3,69 (3); revitalizace veřejného osvětlení 3,26 (3) |
+
+„Nezjištěno“ neznamená, že obec zakázku administrovala sama. Znamená jen, že v dostupných dokumentech chybí kontakt nebo zmínka o pověřené osobě. U Rebešovic na e-zakazky.cz mají dokumenty jen zakázky od roku 2022 a u NEN se administrátor určuje jen z kontaktní osoby zadavatele.
+
+Stejní dodavatelé se opakují i mezi vzdálenými obcemi: KANIA a SPORTOVNÍ PODLAHY ZLÍN vyhrály po jedné zakázce v HD i v Závišicích (v obou obcích šlo u SPORTOVNÍCH PODLAH ZLÍN o hřiště). KTS EKOLOGIE s.r.o., která vyhrála soutěž Rebešovic na svoz odpadu (2020, 5 účastníků), je podle Hlídače státu podřízenou organizací obce.
+
+### 3.5 Hlavní rozdíly
+
+1. **Rozsah:** HD zadala od roku 2014 18 zakázek za 30,5 mil. Kč bez DPH (13 s cenou). Rebešovice zadaly 32 zakázek a u 12 z nich, kde je cena uvedena, 45,9 mil. Kč, z toho 20,5 mil. Kč připadá na mateřskou školu. Závišice zadaly 33 zakázek a u 15 s cenou 27,2 mil. Kč; u dvou největších soutěží ale cena na profilu chybí, takže skutečný objem je vyšší. U Pískové Lhoty nelze rozsah posoudit, protože starší profil není dostupný.
+2. **Soutěž:** zjednodušené podlimitní nebo otevřené řízení vedla HD třikrát, Rebešovice sedmkrát (z toho dvě zrušená řízení na svoz odpadu) a Závišice třináctkrát (šest zakázek zrušily, z toho pět výběrů zpracovatele projektové dokumentace v letech 2025–2026). Průměrná soutěž přilákala v HD 5 účastníků, v Rebešovicích a Závišicích 4.
+3. **Úspora proti předpokládané hodnotě:** medián je u Rebešovic 72 % (8 případů, mj. demolice za 23 % odhadu), u Závišic 79 % (4 případy) a u HD 82 % (13 případů). Vzorky jsou malé.
+4. **Zveřejňování přímých zadání:** na profil je vkládají jen Závišice (2 záznamy). HD, Rebešovice ani Písková Lhota přímá zadání na profilu nemají. Písková Lhota zato vkládá smlouvy do registru smluv (oddíl 2).
+
+## Pozor
+
+- **Posunuté kódy účtů v letech 2010–2011.** V extraktech MF za 2010 a 2011 neodpovídá sloupec syntetického účtu řádku výkazu. Pro tyto roky jsou účty přiřazeny podle číselníku MF pro období do 31. 12. 2011, pro roky 2012–2025 se bere kód z dat. U Závišic tak úvěr v letech 2010–2011 vychází jako dlouhodobý (451), ačkoli data MF ho mají pod kódem krátkodobého úvěru; součet úvěrů se tím nemění.
+- **Účetní reforma 2010–2012:** odpisy se u všech obcí objevují až od let 2011–2013. Pokles aktiv v roce 2011 (HD 15,8 → 10,6, Písková Lhota 35,4 → 33,2, Rebešovice 83,3 → 73,6, Závišice 54,6 → 42,8 mil.) je jednorázové doúčtování oprávek, ne úbytek majetku. Ztráta Rebešovic v roce 2010 (−15,96 mil. Kč) vychází hlavně z řádku „ostatní náklady z činnosti“ (17,37 mil. Kč); výkazy ji blíže nevysvětlují. Roky 2010–2011 nejsou s pozdějšími plně srovnatelné.
+- **Jednorázové položky:** Písková Lhota vykázala v roce 2020 odpisy 11,18 mil. Kč (v ostatních letech 0,55–2,80 mil.) a v roce 2022 opravy 15,88 mil. Kč; obojí vedlo ke ztrátě v daném roce.
+- **Účetní, ne tržní hodnoty.** Stavby a pozemky jsou v pořizovacích cenách. Rozvaha neukazuje, které stavby obec vlastní, a skoky ve stavbách bez inventurních soupisů vysvětlit nejde.
+- **Na obyvatele** se přepočítává stavem k 31. 12. daného roku.
+- **Peníze** jsou jen účty 231, 244 a 245. Rebešovice mají v roce 2025 navíc majetkové cenné papíry k obchodování (účet 251) za 3,62 mil. Kč a Závišice peníze na účtech fondů (236) 0,45 mil. Kč.
+- **Registr smluv:** hodnoty dodatků se v metadatech opakují. Součty za smlouvy vložené protistranou proto nejsou uvedeny. U všech tří obcí se počet smluv podle Hlídače státu shoduje s exportem registru. Smlouva Závišic o svozu odpadu z roku 2023 je v registru dvakrát (vložila ji obec i technické služby).
+- **Počty účastníků na profilu:** e-zakazky.cz i vhodne-uverejneni.cz u části zakázek uvádějí jen vybraného dodavatele. Průměry se proto počítají jen ze zakázek, kde profil uvádí aspoň dva účastníky. U Rebešovic počet účastníků chybí u 22 z 32 zakázek, u Závišic u 11 z 31 soutěží.
+- **Cena / předpokládaná hodnota:** cenou se rozumí smluvní cena bez DPH z detailu smlouvy, a kde chybí, nabídková cena vybraného dodavatele. U zakázek s dodatky je to cena po dodatcích. U Pískové Lhoty předpokládaná hodnota v NEN uvedena není.
+- **Administrátoři** jsou určeni z e-mailových domén a textu v nejvýše třech až čtyřech dokumentech na zakázku (výzva, zadávací dokumentace, oznámení o výběru, přehled nabídek). Doména deregio.cz patří podle zadávací dokumentace Závišic firmě RPA Projekty, s.r.o. U domény ashpa.cz (kontaktní osoba zadavatele v NEN u Rebešovic) nebyla firma ověřena.
+- **NEN:** zakázky byly hledány veřejným fulltextovým hledáním názvu obce. Zakázku, jejíž název ani zadavatel slovo neobsahuje, by hledání nezachytilo. Pro Závišice NEN žádnou vlastní zakázku obce nevrátil.
+- **Rok 2026** v účetních výkazech chybí (MF ho zveřejní zhruba v březnu 2027). Registr, Hlídač státu a zakázky jsou u Pískové Lhoty, Rebešovic a Závišic ke stavu 1. 11. 2026, u HD k 30. 10. 2026.
+- Jména fyzických osob, které vyhrály zakázky, ani jména představitelů obcí se neuvádějí.
+
+## Metodika a zdroje
+
+- **Monitor státní pokladny MF** (https://monitor.statnipokladna.gov.cz), roční extrakty CSUIS za 2010–2025: rozvaha a výkaz zisku a ztráty, vybrané řádky čtyř obcí podle IČO. Názvy řádků jsou z číselníku MF. Bilance aktiv a pasiv sedí u všech čtyř obcí ve všech letech a výsledek v rozvaze se rovná výsledku ve výkazu zisku a ztráty. Čísla HD jsou stejná jako na stránce [Srovnání majetku, smluv a zakázek](https://hd-v-datech.cz/srovnani-majetek-zakazky.html). Ukazatele po letech jsou v souboru [podobne_obce_ukazatele_rozvaha_vzz.csv](https://hd-v-datech.cz/data/podobne_obce_ukazatele_rozvaha_vzz.csv).
+- **Obyvatelé:** ČSÚ, datová sada OBY01B01 (https://data.csu.gov.cz/opendata/sady/OBY01B01/distribuce/csv), počet obyvatel k 31. 12.
+- **Registr smluv:** podrobné vyhledávání na smlouvy.gov.cz s exportem (jen poslední verze), zvlášť podle IČO publikujícího subjektu a podle IČO smluvní strany.
+- **Hlídač státu:** https://www.hlidacstatu.cz/subjekt/<IČO> a podstránky registr smluv, dodavatelé, rizika a veřejné zakázky.
+- **Veřejné zakázky:** profily zadavatele na vhodne-uverejneni.cz (Závišice; seznam zakázek, karta účastníků, detail smluv) a e-zakazky.cz (Rebešovice; detail zakázky, účastníci a dokumenty), Věstník veřejných zakázek (api.vvz.nipez.cz) a veřejné vyhledávání v NEN (Písková Lhota a Rebešovice).
+
+
+---
+
 # Obyvatelstvo a výstavba (podobné obce)
 
 Zdroj: https://hd-v-datech.cz/podobne-obyvatelstvo-vystavba.html (aktualizováno 2026-11-01)
@@ -7203,6 +7601,278 @@ Data ke stažení: [podobne_obce_obyvatel_rocne_2000-2025.csv](https://hd-v-date
 - Rebešovice: https://www.obecrebesovice.cz/obec/strategicke-dokumenty/uzemni-plan-rebesovice/ (textová část a odůvodnění ÚP z února 2016, zpráva o uplatňování ÚP 2016–2020, úplné znění po Změně č. I)
 - Závišice: https://www.zavisice.cz/uzemni-plan.php (odůvodnění původního ÚP, úplné znění po Změně č. 2)
 - Horní Domaslavice: Změna č. 1 územního plánu a návrh zprávy o uplatňování ÚP (2025), zveřejněné obcí.
+
+
+---
+
+# Školství a sociální data (podobné obce)
+
+Zdroj: https://hd-v-datech.cz/podobne-skolstvi-socialni.html (aktualizováno 2026-11-01)
+
+> Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a ve třech podobných obcích z jiných částí ČR: Písková Lhota, Rebešovice a Závišice.
+
+Stránka porovnává Horní Domaslavice (HD, kód obce 512192, okres Frýdek-Místek) se třemi obcemi z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Písková Lhota (536440, okres Mladá Boleslav), Rebešovice (583774, okres Brno-venkov) a Závišice (568473, okres Nový Jičín). Jak byly obce vybrány, popisuje [souhrn podobných obcí](https://hd-v-datech.cz/srovnani-podobne-obce.html). Sleduje školy a školské obvody, nezaměstnanost, exekuce, kriminalitu, kvalitu ovzduší a zdravotní a sociální služby. Postup a zdroje jsou stejné jako na stránce [Srovnání školství a sociální oblasti](https://hd-v-datech.cz/srovnani-skolstvi-socialni.html) se sousedními obcemi; čísla za HD jsou na obou stránkách shodná. Údaje o školách a lékařích navazují na stránku [Občanská vybavenost (podobné obce)](https://hd-v-datech.cz/podobne-vybavenost.html). Zpracováno 1. 11. 2026; není-li uvedeno jinak, platí u odkazů toto datum přístupu.
+
+**Srovnání s okresem:** obce leží ve čtyřech různých okresech a třech krajích, které se v nezaměstnanosti a exekucích výrazně liší (podíl osob v exekuci je v okrese Brno-venkov 3,3 %, v okrese Mladá Boleslav 5,9 %). Kde stránka se sousedy srovnává s okresem Frýdek-Místek, uvádí tato stránka u každé obce její vlastní okres a kraj a také Česko. Rozdíl obce oproti vlastnímu okresu ukazuje lépe než rozdíl oproti okresu Frýdek-Místek, zda je obec ve svém regionu nad průměrem, nebo pod ním.
+
+## Shrnutí
+
+- **Školy:** HD zřizují jen mateřskou školu (44 míst), Písková Lhota nemá žádnou školu. Rebešovice zřizují mateřskou školu se 75 místy ve dvou budovách (nová budova od září 2022). Závišice jako jediné zřizují i základní školu, jen pro 1.–5. ročník (kapacita 70, v únoru 2025 46 žáků), a MŠ s 50 místy.
+- **Školské obvody:** jen u HD je spádová ZŠ doložena vyhláškou ve Sbírce právních předpisů (ZŠ Jana Čapka ve Frýdku-Místku). U Pískové Lhoty, Rebešovic a u 2. stupně v Závišicích vyhlášku o školském obvodu ve Sbírce nenajdeme; spádovost je proto jen neověřená informace z webů obcí.
+- **Nezaměstnanost** byla v letech 2018–2024 ve všech čtyřech obcích nízká, 1,3–3,3 %. V roce 2024 měly nejnižší podíl Rebešovice (2,1 %) a HD (2,2 %), nejvyšší Písková Lhota (3,3 %). V nové řadě MPSV mají HD v letech 2025–2026 nejvyšší podíl ze čtyř obcí (4,6 %). V roce 2026 (1–9) jsou ale pod průměrem svého okresu (5,0 %), v roce 2025 byly mírně nad ním. Rebešovice a Závišice jsou pod svým okresem výrazně.
+- **Exekuce** (k 1. 10. 2026): v HD je v exekuci 1,7 % obyvatel starších 15 let, v Rebešovicích 1,8 %, v Pískové Lhotě a v Závišicích 2,4 %. Všechny čtyři obce jsou pod průměrem svého okresu (3,3–5,9 %). Nejméně zatížené jsou HD.
+- **Kriminalita:** u vybraných trestných činů jsou HD, Rebešovice a Závišice na podobné úrovni (3,9–4,5 činů na 1 000 obyvatel za rok, průměr 2021–2025), Písková Lhota má zhruba dvojnásobek (8,5). Celkový počet deliktů ovlivňují hlavně dopravní přestupky: Písková Lhota má kolem 280 deliktů na 1 000 obyvatel za rok, Rebešovice kolem 220, Závišice 41 a HD 18.
+- **Ovzduší:** HD mají ze čtyř obcí nejhorší ovzduší. Benzo(a)pyren je v HD nad imisním limitem 1 ng/m³ ve všech pětiletých obdobích (2020–2024: 1,29 ng/m³). V Závišicích byl nad limitem do období 2019–2023 a v průměru 2020–2024 klesl na 0,92 ng/m³, v Pískové Lhotě byl nad limitem jen v obdobích 2015–2019 a 2016–2020 a v Rebešovicích v žádném (2020–2024: 0,62 a 0,50 ng/m³). Prachové částice jsou dnes ve všech obcích pod limity.
+- **Zdravotní a sociální služby:** v žádné ze čtyř obcí není registrováno místo poskytování zdravotních služeb ani registrovaná sociální služba.
+
+## 0. Počty obyvatel použité pro přepočty
+
+| Ukazatel | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| SLDB 2021, obyvatelé celkem | 978 | 1 030 | 1 087 | 1 023 |
+| SLDB 2021, obyvatelé 15+ | 758 | 795 | 869 | 818 |
+| 31. 12. 2024, celkem | 1 074 | 1 119 | 1 092 | 1 161 |
+| 31. 12. 2024, z toho 0–14 let | 237 | 208 | 207 | 223 |
+| 31. 12. 2024, 15+ | 837 | 911 | 885 | 938 |
+| 31. 12. 2025, celkem | 1 109 | 1 111 | 1 106 | 1 156 |
+
+Všechny čtyři obce rostly. Nejrychleji Písková Lhota (711 obyvatel v roce 2012, 1 111 v roce 2025, tedy +56 %) a HD (745 → 1 109, +49 %), pomaleji Rebešovice (867 → 1 106, +28 %) a Závišice (961 → 1 156, +20 %). V roce 2025 Písková Lhota a Závišice mírně ubyly.
+
+## 1. Školy
+
+### 1.1 Které školy obce zřizují (rejstřík škol k 1. 11. 2026)
+
+| | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---|---|---|---|
+| Právnická osoba | MŠ Horní Domaslavice, p. o. | **žádná** | MŠ Rebešovice, okres Brno-venkov, p. o. | ZŠ a MŠ Závišice, p. o. |
+| RED_IZO / IČO | 691003378 / 72547839 | – | 691003424 / 72551046 | 600138020 / 70994781 |
+| Kapacita MŠ | 44 | – | 75 (dvě budovy: Chrlická 410 a Horky 400) | 50 (dvě místa: budova školy č. p. 110 a budova obecního úřadu č. p. 115) |
+| Kapacita ZŠ | – | – | – | 70 (jen 1. stupeň, tři třídy) |
+| Školní družina | – | – | – | 45 |
+| Další součásti | ŠJ 44 | – | ŠJ 75, výdejna 25 (Horky 400) | ŠJ 110, výdejna 23 (č. p. 115) |
+| Místa v MŠ na 100 dětí ve věku 0–14 let (2024, odvozeno) | 18,6 | 0 | 36,2 | 22,4 |
+
+**Písková Lhota nemá MŠ ani ZŠ.** V rejstříku Středočeského kraje není žádná škola ani školské zařízení se zřizovatelem obcí Písková Lhota (IČO 00509230), se sídlem v obci nebo s místem výuky v obci. Mateřská škola CIPÍSKOVÁ, kterou rejstřík vede pod obcí Písková Lhota, patří stejnojmenné obci v okrese Nymburk (IČO 00239615). Ukazatel „místa na 100 dětí 0–14 let“ je jen hrubé měřítko, protože do MŠ chodí děti ve věku zhruba 2–6 let a do škol chodí i děti odjinud.
+
+### 1.2 Vývoj kapacit
+
+| Obec | Mateřská škola | Základní škola | Školní družina |
+|---|---|---|---|
+| Horní Domaslavice | 25 (2012) → 28 (1. 9. 2018) → 41 (1. 4. 2021) → **44 (1. 9. 2023)** | – | – |
+| Písková Lhota | – | – | – |
+| Rebešovice | 25 (od 1. 9. 2012, budova Horky 400) → 50 (1. 9. 2022, nová budova Chrlická 410 místo budovy Horky 400) → **75 (1. 9. 2023, obě budovy)** | – | – |
+| Závišice | 25 (2007) → 27 (2009) → 37 (2010) → 42 (2012) → 45 (2018) → **50 (2025)** | 70 beze změny od 2007 | 20 → 25 (2010) → 40 (2016) → 45 (2017) |
+
+V letech 2012–2026 přidaly kapacitu MŠ všechny tři obce, které školu zřizují: HD +19 míst, Rebešovice +50 míst (stavba nové budovy) a Závišice +8 míst (od roku 2007 +25). Rok v závorce znamená stav k 1. 9. daného roku.
+
+### 1.3 Počty dětí a žáků (veřejně dostupné údaje)
+
+| Obec, škola | Údaj | Zdroj |
+|---|---|---|
+| HD – MŠ | 15 dětí (2013), 28 (12/2018), 44 (2023), 42 ve dvou třídách (9/2024) | inspekční zprávy ČŠI, demografická studie |
+| Rebešovice – MŠ | jednotřídní MŠ naplněná na 100 % kapacity 25 dětí (5/2015), 25 dětí v jedné třídě (12/2020) | ČŠIB-728/15-B, ČŠIB-14712/20-B |
+| Závišice – ZŠ | 48 žáků ve třech třídách (2012/13 i 2/2020), **46 žáků ve třech třídách (2/2025)** | ČŠIT-206/20-T, ČŠIT-241/25-T |
+| Závišice – MŠ | kapacita „dlouhodobě plně využita“ (2/2020), **46 dětí ve dvou třídách (2/2025)** | tamtéž |
+| Závišice – ŠD | 34 žáků ve dvou odděleních (2/2020), 37 ve dvou odděleních (2/2025) | tamtéž |
+| Písková Lhota | – | obec nemá školu |
+
+Novější počet dětí v MŠ Rebešovice, než je stav z prosince 2020, z veřejných dat nevyplývá; do nové budovy se škola přestěhovala až v září 2022. Podle ČŠI (2020) poskytuje ZŠ Závišice vhodné podmínky pro žáky se speciálními vzdělávacími potřebami ze Závišic i z blízké Kopřivnice. Po 5. ročníku odchází většina žáků do spádové školy, kterou zpráva z roku 2025 nejmenuje.
+
+### 1.4 Inspekční zprávy ČŠI (poslední zprávy)
+
+| Obec, škola | Inspekce | Hlavní závěry zprávy |
+|---|---|---|
+| HD – MŠ | 25.–27. 9. 2024 (ČŠIT-1985/24-T) | Po rekonstrukci a rozšíření na dvě třídy ČŠI oceňuje empatický přístup. Výtky směřují k propojení diagnostiky s diferencovanou nabídkou a k dílčím nedostatkům v řízení o přijímání dětí mladších 3 let. |
+| Rebešovice – MŠ | 3.–7. 12. 2020 (ČŠIB-14712/20-B) | V srpnu 2020 se změnilo vedení školy. Silnou stránkou jsou kvalitní materiálně-technické podmínky za výrazné podpory zřizovatele. Slabé stránky jsou nedostatečná komunikace vedení se zaměstnanci a rodiči o změnách, neuspokojivé využívání pedagogické diagnostiky pro individualizovanou nabídku a organizace vzdělávání, která narušuje plynulý průběh dne. |
+| Rebešovice – MŠ | 28.–29. 5. 2015 (ČŠIB-728/15-B) | Silnými stránkami byly materiální podmínky, přátelské klima, vstřícný přístup pedagogů, jejich další vzdělávání, podpora přírodovědné gramotnosti a pestrá nabídka. ČŠI doporučila vést děti k sebehodnocení. |
+| Závišice – ZŠ a MŠ | 3.–6. 2. 2025 (ČŠIT-241/25-T) | Silnými stránkami jsou sounáležitost s obcí, příznivá atmosféra, spolupráce MŠ a ZŠ při přechodu dětí do školy a spolupráce s partnery. Slabé stránky jsou v MŠ málo zpětné vazby a sebehodnocení a nediferencovaná nabídka, v ZŠ omezené využívání informačních zdrojů a málo úloh s odstupňovanou náročností. Opatření po inspekci z roku 2020 škola podle zprávy zohlednila jen částečně. |
+| Závišice – ZŠ a MŠ | 4.–6. 2. 2020 (ČŠIT-206/20-T) | Silnými stránkami bylo pozitivní klima, práce speciálních pedagogů se žáky se speciálními vzdělávacími potřebami, komunikace s rodiči a pohybové aktivity. Slabými stránkami byla nedostatečná spolupráce se školami stejného typu a se spádovými školami v Kopřivnici, chybějící sebehodnocení dětí a žáků a méně podnětné činnosti v MŠ. |
+| Písková Lhota | – | Obec nemá školu. |
+
+Úplné zprávy jsou na portálu ČŠI: https://portal.csicr.cz/School/691003378 (MŠ HD), https://portal.csicr.cz/School/691003424 (MŠ Rebešovice) a https://portal.csicr.cz/School/600138020 (ZŠ a MŠ Závišice).
+
+### 1.5 Školské obvody: kam patří děti z obce
+
+| Obec | Základní škola (obecně závazná vyhláška ve Sbírce právních předpisů) | Mateřská škola |
+|---|---|---|
+| Horní Domaslavice | **ZŠ F-M, Jana Čapka 2555**: OZV č. 2/2024, účinná od 29. 3. 2024, na základě dohody s městem F-M. Dohoda platí do 31. 8. 2027 a o prodloužení se jedná. | vlastní MŠ |
+| Písková Lhota | **neověřeno.** Ve Sbírce není žádný předpis obce o školském obvodu. Podle stránky o [vybavenosti](https://hd-v-datech.cz/podobne-vybavenost.html) chodí děti do ZŠ Krnsko a do ZŠ a MŠ Brodce. Vyhláška městyse Brodce č. 2/2009 vymezuje obvod jen pro území Brodců, Krnsko předpis o školském obvodu ve Sbírce nemá. | obec MŠ nemá; ve Sbírce žádná vyhláška o obvodu MŠ, zápisy podle webu obce do MŠ Krnsko a Brodce |
+| Rebešovice | **neověřeno.** Ve Sbírce není žádný předpis obce o školském obvodu. Pět změnových vyhlášek města Brna k vyhlášce o školských obvodech č. 2/2017 (z let 2022–2025) Rebešovice nezmiňuje, původní vyhláška č. 2/2017 ve Sbírce není. Podle stránky o vybavenosti je spádová ZŠ Brno-Chrlice. | vlastní MŠ |
+| Závišice | **1. stupeň ve vlastní ZŠ; 2. stupeň neověřeno.** Ve Sbírce není žádný předpis obce o školském obvodu a vyhláška Kopřivnice č. 1/2015 o školských obvodech ZŠ Závišice nezmiňuje. ČŠI (2020) mluví o spádových školách v Kopřivnici. | vlastní MŠ |
+
+Starší vyhlášky vkládají obce do Sbírky právních předpisů postupně (například Brodce svou vyhlášku z roku 2009 vložily v roce 2024, Vojkovice vyhlášku z roku 2019 v roce 2023). To, že vyhláška ve Sbírce chybí, proto neznamená, že společný školský obvod neexistuje.
+
+## 2. Nezaměstnanost
+
+Ukazatelem je podíl nezaměstnaných osob (PNO), tedy dosažitelní uchazeči ve věku 15–64 let na obyvatelích 15–64 let.
+
+### 2.1 Řada ČSÚ 2015–2024 (roční průměr PNO v %)
+
+| Rok | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| 2015* | 4,65 | 2,89 | 4,49 | 2,62 |
+| 2016 | 4,46 | 2,19 | 4,58 | 2,78 |
+| 2017 | 3,11 | 1,92 | 3,44 | 2,49 |
+| 2018 | 2,20 | 1,69 | 1,87 | 2,34 |
+| 2019 | 2,21 | 1,73 | 1,30 | 1,99 |
+| 2020 | 2,63 | 1,98 | 2,67 | 2,81 |
+| 2021 | 3,23 | 2,75 | 2,85 | 2,60 |
+| 2022 | 2,21 | 2,01 | 1,79 | 3,01 |
+| 2023 | 2,20 | 2,45 | 2,02 | 2,79 |
+| 2024 | 2,16 | **3,30** | **2,08** | 2,98 |
+| Dosažitelní uchazeči, průměr 2024 | 14,7 | 24,2 | 14,8 | 21,5 |
+
+\* Rok 2015 obsahuje jen 6 měsíců.
+
+V letech 2015–2019 klesala nezaměstnanost nejvíc v HD a v Rebešovicích, kde začínala nejvýš (kolem 4,5 %). V Pískové Lhotě a v Závišicích byla už v roce 2015 pod 3 %. V letech 2022–2024 se HD a Rebešovice drží kolem 1,8–2,2 %, Závišice kolem 2,8–3,0 % a Písková Lhota vzrostla z 2,0 % (2022) na 3,3 % (2024). Ve všech obcích jde v průměru o zhruba 8–30 osob, takže změny o desetiny procenta odpovídají jednomu až dvěma lidem.
+
+### 2.2 Řada MPSV od 2025
+
+| Území | 2025 (průměr) | rozpětí uchazečů 2025 | 2026 (1–9, průměr) | 30. 9. 2026 | 2026 (1–9) proti vlastnímu okresu |
+|---|---:|---|---:|---:|---:|
+| Horní Domaslavice | 4,63 % | 28–40 | 4,61 % | 3,71 % (27 / 728) | −0,36 p. b. |
+| Písková Lhota | 4,08 % | 26–37 | 3,86 % | 4,79 % (37 / 773) | +0,15 p. b. |
+| Rebešovice | 2,53 % | 14–23 | 3,20 % | 3,17 % (23 / 725) | −0,91 p. b. |
+| Závišice | 3,76 % | 24–33 | 3,69 % | 3,73 % (28 / 750) | −1,49 p. b. |
+| okres Frýdek-Místek (HD) | 4,38 % | – | 4,97 % | 4,93 % | – |
+| okres Mladá Boleslav (Písková Lhota) | 3,22 % | – | 3,71 % | 3,91 % | – |
+| okres Brno-venkov (Rebešovice) | 3,60 % | – | 4,11 % | 4,17 % | – |
+| okres Nový Jičín (Závišice) | 4,63 % | – | 5,18 % | 5,26 % | – |
+| Česko | 4,43 % | – | 4,98 % | 4,97 % | – |
+
+Okresní hodnoty jsou součtem obcí okresu, stejně jako u okresu Frýdek-Místek na stránce se sousedy. V roce 2025 byly HD (+0,25 p. b.) a Písková Lhota (+0,86 p. b.) nad průměrem svého okresu, Rebešovice (−1,07 p. b.) a Závišice (−0,87 p. b.) pod ním. V letech 2025–2026 mají HD nejvyšší podíl ze čtyř obcí; okres Frýdek-Místek má spolu s okresem Nový Jičín také vyšší nezaměstnanost než okresy Mladá Boleslav a Brno-venkov.
+
+### 2.3 Zlom mezi řadami se týká všech obcí
+
+| Obec | 12/2024 ČSÚ: uchazeči (PNO) | 1/2025 MPSV: uchazeči (PNO) |
+|---|---|---|
+| Horní Domaslavice | 18 (2,64 %) | 30 (4,39 %) |
+| Písková Lhota | 30 (4,09 %) | 31 (4,22 %) |
+| Rebešovice | 12 (1,68 %) | 17 (2,38 %) |
+| Závišice | 22 (3,00 %) | 25 (3,41 %) |
+
+Nárůst mezi prosincem 2024 a lednem 2025 nastal ve všech čtyřech obcích (o 1 až 12 osob), v HD byl relativně největší. Část může jít na vrub běžnému lednovému nárůstu a část na změnu zdroje, ale z veřejných dat to rozdělit nelze.
+
+## 3. Exekuce
+
+Stav k **1. 10. 2026** podle otevřených dat Exekutorské komory ČR. U každé obce je uveden její okres a kraj.
+
+| Území | Osoby v exekuci | Počet exekucí | Exekucí na osobu | Podíl z 15+ (SLDB 2021) | Podíl z 15+ (31. 12. 2024) |
+|---|---:|---:|---:|---:|---:|
+| **Horní Domaslavice** | 13 | 50 | 3,8 | **1,7 %** | 1,6 % |
+| Písková Lhota | 19 | 106 | 5,6 | 2,4 % | 2,1 % |
+| Rebešovice | 16 | 88 | 5,5 | 1,8 % | 1,8 % |
+| Závišice | 20 | 79 | 4,0 | 2,4 % | 2,1 % |
+| okres Frýdek-Místek (HD) | 8 166 | 38 427 | 4,7 | 4,7 % | – |
+| okres Mladá Boleslav (Písková Lhota) | 6 286 | 26 391 | 4,2 | 5,9 % | – |
+| okres Brno-venkov (Rebešovice) | 6 126 | 30 925 | 5,0 | 3,3 % | – |
+| okres Nový Jičín (Závišice) | 6 736 | 31 436 | 4,7 | 5,5 % | – |
+| Moravskoslezský kraj (HD, Závišice) | 78 553 | 404 808 | 5,2 | 8,0 % | – |
+| Středočeský kraj (Písková Lhota) | 62 247 | 300 463 | 4,8 | 5,4 % | – |
+| Jihomoravský kraj (Rebešovice) | 51 816 | 273 466 | 5,3 | 5,2 % | – |
+| Česko | 586 014 | 2 972 107 | 5,1 | 6,6 % | – |
+
+Hlavním ukazatelem je podíl se jmenovatelem ze SLDB 2021, protože je stejný pro obce, okresy, kraje i ČR. Všechny čtyři obce mají podíl osob v exekuci výrazně nižší než jejich okres: HD 1,7 % proti 4,7 %, Písková Lhota 2,4 % proti 5,9 %, Rebešovice 1,8 % proti 3,3 % a Závišice 2,4 % proti 5,5 %. Relativně nejblíž svému okresu jsou Rebešovice, protože okres Brno-venkov má ze čtyř okresů nejnižší podíl. Mezi obcemi samotnými jsou rozdíly malé, jde o 13–20 osob. Nejvíc exekucí na jednu osobu mají Písková Lhota (5,6) a Rebešovice (5,5).
+
+## 4. Kriminalita
+
+Data jsou z Mapy kriminality Policie ČR. HD spadají pod obvodní oddělení policie Nošovice, Závišice pod obvodní oddělení Kopřivnice; u Pískové Lhoty a Rebešovic příslušné oddělení ověřeno nebylo. Jmenovatel pro přepočty je počet obyvatel k 31. 12. daného roku.
+
+### 4.1 Delikty a trestné činy po letech
+
+| Rok | HD: delikty / TČ | Písková Lhota | Rebešovice | Závišice |
+|---|---|---|---|---|
+| 2016 | 11 / 3 | 278 / 5 | 79 / 7 | 52 / 4 |
+| 2017 | 13 / 6 | 340 / 13 | 75 / 4 | 41 / 8 |
+| 2018 | 9 / 3 | 260 / 9 | 104 / 9 | 89 / 9 |
+| 2019 | 12 / 1 | 174 / 5 | 111 / 5 | 82 / 9 |
+| 2020 | 15 / 2 | 186 / 10 | 88 / 5 | 35 / 7 |
+| 2021 | 11 / 2 | 181 / 9 | 125 / 4 | 35 / 2 |
+| 2022 | 20 / 3 | 366 / 10 | 145 / 2 | 24 / 5 |
+| 2023 | 21 / 8 | 413 / 6 | 293 / 5 | 31 / 9 |
+| 2024 | 21 / 3 | 301 / 14 | 335 / 4 | 35 / 5 |
+| 2025 | 23 / 8 | 293 / 8 | 301 / 6 | 106 / 3 |
+| 2026 (neúplný) | 19 / 4 (do 17. 8.) | 196 / 9 (do 30. 10.) | 286 / 3 (do 29. 10.) | 159 / 3 (do 26. 10.) |
+
+„Delikty“ zahrnují přestupky, vybrané trestné činy (TČ) a dopravní nehody. TČ jsou jen ty druhy, které policie na mapě zveřejňuje.
+
+### 4.2 Přepočet na 1 000 obyvatel (průměr ročních hodnot)
+
+| Ukazatel | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---:|---:|---:|---:|
+| Trestné činy na 1 000 obyv., 2021–2025 | 4,5 | **8,5** | 3,9 | 4,2 |
+| Trestné činy na 1 000 obyv., 2016–2025 | 4,0 | **9,1** | 5,0 | 5,6 |
+| Trestné činy za rok, průměr 2021–2025 | 4,8 | 9,4 | 4,2 | 4,8 |
+| Delikty celkem na 1 000 obyv., 2021–2025 | **18,2** | **282,0** | 219,9 | 40,7 |
+| z toho přestupky na 1 000 obyv., 2021–2025 | 13,5 | 272,8 | 216,1 | 36,3 |
+
+U trestných činů jsou HD, Rebešovice a Závišice srovnatelné; rozdíly odpovídají při těchto velikostech obcí několika případům za rok. Písková Lhota má trestných činů zhruba dvakrát víc, v obou obdobích. V letech 2021–2025 šlo nejčastěji o ostatní majetkovou trestnou činnost (24 ze 47 činů) a toxikomanii (14). Rozdíl v celkových deliktech dělají přestupky. V roce 2025 bylo v Pískové Lhotě 277 z 285 přestupků „na úseku BESIP a silničního hospodářství“ (z toho 181 rychlost), v Rebešovicích 285 z 295 (16 rychlost), v Závišicích 95 ze 103 (64 rychlost) a v HD 7 ze 14. Počet přestupků tedy odráží hlavně dopravní kontroly na silnicích v katastru obce, ne bezpečnost v obci. Skok v Závišicích v letech 2025–2026 tvoří přestupky v rychlosti (64 v roce 2025 a 113 do 26. 10. 2026, předtím 0–1 ročně).
+
+## 5. Ovzduší
+
+Hodnoty jsou pětileté průměry koncentrací z modelové sítě ČHMÚ (čtverce 1 × 1 km), vážené podílem plochy čtverce, který leží v obci. Do výpočtu vstupuje u HD 12 čtverců (5,09 km²), u Pískové Lhoty 12 čtverců (4,67 km²), u Rebešovic 12 (4,11 km²) a u Závišic 16 (6,33 km²).
+
+| Ukazatel (limit) | Období | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---|---:|---:|---:|---:|
+| Benzo(a)pyren, roční (1 ng/m³) | 2015–2019 | **2,48** | **1,20** | 0,70 | **2,07** |
+| | 2018–2022 | **1,79** | 0,76 | 0,59 | **1,50** |
+| | 2020–2024 | **1,29** | 0,62 | 0,50 | 0,92 |
+| PM10, roční (40 µg/m³) | 2015–2019 | 27,8 | 22,1 | 24,1 | 27,2 |
+| | 2020–2024 | 20,1 | 17,6 | 19,2 | 19,2 |
+| PM10, 36. nejvyšší denní (50 µg/m³) | 2015–2019 | **53,0** | 40,1 | 44,3 | **50,6** |
+| | 2016–2020 | 48,8 | 38,3 | 42,2 | 46,6 |
+| | 2020–2024 | 34,5 | 30,8 | 33,0 | 32,7 |
+| PM2,5, roční (20 µg/m³) | 2015–2019 | **22,1** | 16,6 | 18,6 | **21,5** |
+| | 2016–2020 | **20,6** | 15,7 | 17,4 | 19,7 |
+| | 2020–2024 | 15,3 | 12,4 | 13,6 | 13,8 |
+| NO2, roční (40 µg/m³) | 2020–2024 | 10,3 | 10,2 | 14,6 | 9,0 |
+
+Tučně jsou hodnoty nad imisním limitem podle přílohy č. 1 zákona č. 201/2012 Sb. HD mají u benzo(a)pyrenu, prachu PM10 i PM2,5 nejvyšší hodnoty ze čtyř obcí. Benzo(a)pyren je v HD nad limitem ve všech obdobích; v období 2020–2024 je dvakrát vyšší než v Pískové Lhotě a 2,6krát vyšší než v Rebešovicích. Závišice jsou v průměru 2020–2024 pod limitem, rozpětí mezi čtverci je ale 0,7–1,3 ng/m³, takže část území limit stále překračuje. Rebešovice mají ze čtyř obcí nejvíc oxidu dusičitého, i ten je ale hluboko pod limitem. HD leží v aglomeraci CZ08A Ostrava/Karviná/Frýdek-Místek, ostatní tři obce mimo ni.
+
+## 6. Zdravotní a sociální služby v obcích
+
+| Služba v obci | Horní Domaslavice | Písková Lhota | Rebešovice | Závišice |
+|---|---|---|---|---|
+| Praktický lékař pro dospělé | – | – | – | – |
+| Praktický lékař pro děti a dorost | – | – | – | – |
+| Další zdravotní služby | – | – | – | – |
+| Registrované sociální služby | – | – | – | – |
+
+V žádné ze čtyř obcí není v registru NRPZS žádné místo poskytování zdravotních služeb a v registru MPSV žádná sociální služba se zařízením nebo kontaktní adresou v obci. V Pískové Lhotě mají sídlo dva poskytovatelé, kteří péči poskytují jinde (dentální hygiena v Mladé Boleslavi a gynekologie v Turnově), v Rebešovicích jeden (dermatovenerologie v Brně). Do přehledu služeb v obci se proto nepočítají. Nejbližší lékař je podle stránky o [vybavenosti](https://hd-v-datech.cz/podobne-vybavenost.html) pro Pískovou Lhotu v Jizerním Vtelně, pro Rebešovice v Rajhradě, Židlochovicích a Brně a pro Závišice v Kopřivnici, Štramberku a Novém Jičíně; pro HD v Dobré (viz [školství a sociální oblast v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html)). Registr sociálních služeb uvádí územní působnost terénních služeb jen na úrovni kraje, takže z něj nelze zjistit, které terénní služby do jednotlivých obcí dojíždějí.
+
+## Hlavní rozdíly
+
+1. **Školská infrastruktura.** Základní školu (jen 1. stupeň, 46 žáků) mají ze čtyř obcí jen Závišice. Nejvíc míst v MŠ na počet dětí mají Rebešovice (36 na 100 dětí 0–14 let, nová budova z roku 2022), pak Závišice (22) a HD (19). Písková Lhota nemá žádnou školu. Spádovou ZŠ mají vyhláškou ve Sbírce doloženou jen HD.
+2. **Sociální ukazatele.** Ve všech čtyřech obcích je méně osob v exekuci než v jejich okresech; HD mají nejnižší podíl (1,7 %), ostatní obce 1,8–2,4 %. U nezaměstnanosti vycházely do roku 2024 nejlépe Rebešovice a HD (2,1 a 2,2 %). V nové řadě MPSV (2025–2026) mají HD nejvyšší podíl ze čtyř obcí (4,6 %); v roce 2026 jsou ale pod průměrem okresu Frýdek-Místek.
+3. **Bezpečnost.** HD, Rebešovice a Závišice mají srovnatelný počet zveřejňovaných trestných činů (3,9–4,5 na 1 000 obyvatel za rok), Písková Lhota zhruba dvojnásobný. Písková Lhota a Rebešovice mají mnohonásobně víc dopravních přestupků než HD, v Závišicích jich přibylo od roku 2025.
+4. **Ovzduší** je v HD výrazně horší než v ostatních obcích. Benzo(a)pyren je nad limitem jen v HD (2020–2024), v Závišicích na části území.
+5. **Zdravotní péče přímo v obci** není v žádné ze čtyř obcí.
+
+## Pozor
+
+1. **Různé okresy a kraje:** obce leží v různých regionech s odlišnou nezaměstnaností i zadlužeností. Proto je u nezaměstnanosti a exekucí uveden vždy vlastní okres obce. Okres Frýdek-Místek má ze čtyř okresů spolu s okresem Nový Jičín vyšší nezaměstnanost; podílem osob v exekuci (4,7 %) je mezi okresem Brno-venkov (3,3 %) a okresy Nový Jičín a Mladá Boleslav (5,5 a 5,9 %).
+2. **Písková Lhota má jmenovkyni** v okrese Nymburk (IČO 00239615), která zřizuje MŠ CIPÍSKOVÁ a ve Sbírce má vyhlášku o školském obvodu se ZŠ v Poděbradech. Všechny údaje na této stránce se týkají Pískové Lhoty v okrese Mladá Boleslav (kód obce 536440, IČO 00509230); registry byly filtrovány podle kódu obce, IČO nebo okresu.
+3. **Školské obvody** Pískové Lhoty, Rebešovic a 2. stupně Závišic nejsou ve Sbírce doloženy. Spádové školy jsou převzaty z webů obcí přes stránku o vybavenosti a jsou neověřené.
+4. **Počty dětí a žáků** pocházejí z inspekčních zpráv, tedy vždy ke dni inspekce. U MŠ Rebešovice je poslední údaj z prosince 2020, tedy ze stavu před otevřením nové budovy.
+5. **Nezaměstnanost:** řady ČSÚ (do 2024) a MPSV (od 2025) nejsou plně navazující (viz oddíl 2.3). Okresní hodnoty MPSV jsou součtem obcí. U všech čtyř obcí jde o jednotky až nízké desítky osob.
+6. **Exekuce:** Exekutorská komora zveřejňuje jen aktuální stav, řada po letech chybí. Podíly jsou dopočítané a mohou se mírně lišit od podílů na mapaexekuci.cz.
+7. **Kriminalita:** soubory za rok 2026 mají různé datum aktualizace (HD do 17. 8. 2026, ostatní obce do konce října), proto rok 2026 do průměrů není zahrnut. Data obsahují jen vybrané druhy trestných činů a všechny přestupky a neodpovídají úplné policejní statistice. Počet přestupků závisí na tom, kde policie měří rychlost, a mezi obcemi proto není srovnatelný jako ukazatel bezpečnosti.
+8. **Ovzduší:** jde o modelová pole v síti 1 km, ne o měření v obcích. Pětiletý průměr 2021–2025 ČHMÚ zatím nezveřejnil. Hranice HD a Závišic pocházejí z vrstvy Moravskoslezského kraje, hranice Pískové Lhoty a Rebešovic z RÚIAN (služba ČÚZK); kontrolní výpočet pro HD s hranicí z RÚIAN dal stejné hodnoty.
+9. **Zdravotní služby:** registr uvádí místa poskytování péče, ne ordinační hodiny ani to, zda lékař v daném místě skutečně pravidelně ordinuje. Údaje o nejbližších lékařích jsou převzaty ze stránky o vybavenosti a u Rebešovic pocházejí z programu rozvoje obce z let 2015–2016.
+10. Údaje o HD (MŠ HD, počty dětí, dohoda s Frýdkem-Místkem) mají tytéž výhrady jako na stránce o [školství a sociální oblasti v HD](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
+
+## Metodika a zdroje
+
+- **Obyvatelé:** ČSÚ, sada 130149 „Počet obyvatel podle pětiletých věkových skupin a pohlaví v obcích“; rok 2025 z DataStatu ČSÚ, výběr OBY01B01T01 (https://data.csu.gov.cz/api/dotaz/v1/data/vybery/OBY01B01T01?format=CSV); SLDB 2021 za obce, okresy, kraje a ČR: https://csu.gov.cz/docs/107508/4317620c-7502-7dc1-5c96-0cdb9affb540/sldb2021_vek.csv.
+- **Školy:** Otevřená data MŠMT, Rejstřík škol a školských zařízení, datum výstupu 1. 11. 2026: Moravskoslezský kraj (https://lkod-ftp.msmt.gov.cz/00022985/11f1f670-1a8a-4a8a-b188-0eed2d01fca7/RSSZ-Moravskoslezsky-kraj.jsonld), Středočeský kraj (https://lkod-ftp.msmt.gov.cz/00022985/3d7ec2fb-4d53-46c4-a80e-542487c989b3/RSSZ-Stredocesky-kraj.jsonld) a Jihomoravský kraj (https://lkod-ftp.msmt.gov.cz/00022985/4a8c7e25-aeb0-45e2-9ac0-b17b7b304259/RSSZ-Jihomoravsky-kraj.jsonld). Historie kapacit z API rejstříku škol (https://isv.gov.cz/rssz/api/v1/sub/red-izo/{RED_IZO}?stavKeDni=RRRR-MM-DD), dotazem vždy k 1. 9. každého roku. Inspekční zprávy z portálu ČŠI (portal.csicr.cz).
+- **Školské obvody:** Sbírka právních předpisů ÚSC, seznamy předpisů obcí: https://sbirkapp.gov.cz/vydavatel/gr4bkxm (HD), https://sbirkapp.gov.cz/vydavatel/wwgamfi (Písková Lhota), https://sbirkapp.gov.cz/vydavatel/3tja2f3 (Rebešovice) a https://sbirkapp.gov.cz/vydavatel/4v8bnvn (Závišice); dále seznamy předpisů Krnska (https://sbirkapp.gov.cz/vydavatel/dj7bdcf), Brodců (https://sbirkapp.gov.cz/vydavatel/tjwbssy, vyhláška č. 2/2009: https://sbirkapp.gov.cz/detail/SPPBJNUBILNSVP2U), Brna (https://sbirkapp.gov.cz/vydavatel/a7kbrrn) a Kopřivnice (https://sbirkapp.gov.cz/vydavatel/42bb7zg, vyhláška č. 1/2015: https://sbirkapp.gov.cz/detail/SPP2SOXGWWM64RZC).
+- **Nezaměstnanost:** ČSÚ, sada 250169 (https://csu.gov.cz/produkty/uchazeci-o-zamestnani-dosazitelni-a-podil-nezamestnanych-osob-podle-obci_090417), pro roky 2015–2024 průměr měsíčních hodnot; od ledna 2025 MPSV, sada „podil_nezamestnanych_osob_trvala_kontaktni_adresa“ (https://data.mpsv.cz/portal), okresy jako součet obcí.
+- **Exekuce:** Exekutorská komora ČR, otevřená data „Počet exekucí fyzických osob evidovaných v jednotlivých obcích ČR“ (https://statistiky.ekcr.info/otevrena-data/data/obce.json), stav k 1. 10. 2026; okresy a kraje jako součet obcí.
+- **Kriminalita:** Mapa kriminality Policie ČR, otevřená data po obcích (https://kriminalita.policie.gov.cz/api/v2/downloads?municipality={kód}), roky 2013–2026, staženo 1. 11. 2026. Delikt se počítá jednou podle ID. Územní působnost OOP: https://policie.gov.cz/moravskoslezsky-kraj/obvodni-oddeleni-nosovice a https://policie.gov.cz/moravskoslezsky-kraj/obvodni-oddeleni-koprivnice.
+- **Ovzduší:** ČHMÚ, pětileté průměry koncentrací ve čtvercové síti 1 × 1 km (https://opendata.chmi.cz/air_quality/products/5year_avg/, soubory sit1000_5lprum_RR_RR_CR_UTM.zip). Hranice obcí z vrstvy Moravskoslezského kraje (https://services8.arcgis.com/jfWD14yYevYeDEj7/arcgis/rest/services/vz_tp_trh_prace/FeatureServer/0) a z RÚIAN (https://ags.cuzk.cz/arcgis/rest/services/RUIAN/Prohlizeci_sluzba_nad_daty_RUIAN/MapServer/12).
+- **Zdravotní a sociální služby:** ÚZIS, Národní registr poskytovatelů zdravotních služeb – místa poskytování (https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv) a MPSV, Registr poskytovatelů sociálních služeb (https://data.mpsv.cz/od/soubory/rpss/rpss.json), oba staženy 1. 11. 2026.
+
+Data: [exekuce](https://hd-v-datech.cz/data/skolstvi_socialni_exekuce_2026-10.csv), [nezaměstnanost](https://hd-v-datech.cz/data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv), [kriminalita](https://hd-v-datech.cz/data/skolstvi_socialni_kriminalita_2013-2026.csv), [ovzduší](https://hd-v-datech.cz/data/skolstvi_socialni_ovzdusi_CHMU.csv), [školy](https://hd-v-datech.cz/data/skolstvi_socialni_skoly_rejstrik_2026-11.csv), [zdravotní a sociální služby](https://hd-v-datech.cz/data/skolstvi_socialni_zdravotni_socialni_sluzby.csv).
 
 
 ---
@@ -8259,6 +8929,17 @@ Rozpis transferů z `transfery_NNO_*` podle paragrafu a položky. HD a podobné 
 | `upraveny` | Upravený rozpočet. Kč. |
 | `skutecnost` | Skutečnost. Kč. |
 
+## podobne_obce_ukazatele_rozvaha_vzz.csv
+
+Rozvaha a výkaz zisku a ztráty HD, Pískové Lhoty, Rebešovic a Závišic (stejné sloupce jako `ukazatele_rozvaha_vzz_sousede.csv`).
+
+- Odkaz: [data/podobne_obce_ukazatele_rozvaha_vzz.csv](https://hd-v-datech.cz/data/podobne_obce_ukazatele_rozvaha_vzz.csv)
+- Řádků: 64; jeden řádek = jedna obec × rok (stav k 31. 12.)
+- Zdroj: Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.
+- Pozor: Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.
+
+Sloupce jsou stejné jako v `ukazatele_rozvaha_vzz_sousede.csv`.
+
 ## podobne_obce_volby_komunalni_1994-2026.csv
 
 Komunální volby 1994–2026 po obcích: voliči, účast, počet kandidátek a mandátů, rozdělení mandátů, typ kandidátek. HD a podobné obce.
@@ -8604,6 +9285,143 @@ Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jso
 | `samoty_150m` | Totéž pro 150 m. |
 | `nejvetsi_shluky_150m` | Totéž pro 150 m. |
 
+## skolstvi_socialni_exekuce_2026-10.csv
+
+Osoby v exekuci podle Exekutorské komory: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), jejich okresy, kraje a ČR.
+
+- Odkaz: [data/skolstvi_socialni_exekuce_2026-10.csv](https://hd-v-datech.cz/data/skolstvi_socialni_exekuce_2026-10.csv)
+- Řádků: 16; jeden řádek = jedno území (obec, okres, kraj, ČR)
+- Zdroj: Exekutorská komora ČR, mapa exekucí (obce.json, stav k 1. 10. 2026); obyvatelé 15+ ČSÚ.
+- Pozor: Podíl je počítán dvakrát: ze sčítání 2021 a z počtu obyvatel 15+ k 31. 12. 2024.
+
+| Sloupec | Význam |
+|---|---|
+| `kod_obce` | Kód obce, okresu nebo kraje. |
+| `uzemi` | Název území. |
+| `okres` | Okres. |
+| `kraj` | Kraj. |
+| `osoby_v_exekuci` | Počet osob v exekuci. |
+| `pocet_exekuci` | Počet exekucí. |
+| `exekuci_na_osobu` | Průměrný počet exekucí na osobu. |
+| `obyv_15plus_SLDB2021` | Obyvatelé 15+ podle sčítání 2021. |
+| `podil_SLDB2021_procent` | Podíl osob v exekuci na obyvatelích 15+ (sčítání 2021), %. |
+| `obyv_15plus_2024_12_31` | Obyvatelé 15+ k 31. 12. 2024. |
+| `podil_2024_procent` | Podíl osob v exekuci na obyvatelích 15+ (2024), %. |
+| `stav_k` | Datum stavu dat Exekutorské komory. |
+
+## skolstvi_socialni_kriminalita_2013-2026.csv
+
+Trestné činy, přestupky a dopravní nehody podle mapy kriminality Policie ČR: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
+
+- Odkaz: [data/skolstvi_socialni_kriminalita_2013-2026.csv](https://hd-v-datech.cz/data/skolstvi_socialni_kriminalita_2013-2026.csv)
+- Řádků: 112; jeden řádek = jedna obec × rok
+- Zdroj: Policie ČR, mapa kriminality (API), 2013–2026; obyvatelé ČSÚ.
+- Pozor: Rok 2026 je neúplný (sloupec posledni_datum). Policie zveřejňuje jen vybrané druhy trestných činů. Na malých obcích jeden pachatel výrazně mění čísla.
+
+| Sloupec | Význam |
+|---|---|
+| `kod_obce` | Kód obce ČSÚ. |
+| `obec` | Obec. |
+| `rok` | Rok. |
+| `obyvatele_31_12` | Obyvatelé k 31. 12. |
+| `delikty_celkem` | Delikty celkem (trestné činy, přestupky, nehody). |
+| `prestupky` | Přestupky. |
+| `trestne_ciny_zverejnovane` | Trestné činy (zveřejňované druhy). |
+| `dopravni_nehody` | Dopravní nehody. |
+| `delikty_na_1000` | Delikty na 1 000 obyvatel. |
+| `tc_na_1000` | Trestné činy na 1 000 obyvatel. |
+| `prestupky_BESIP` | Dopravní přestupky (BESIP). |
+| `prestupky_rychlost` | Z toho překročení rychlosti. |
+| `posledni_datum` | Poslední datum v datech za daný rok. |
+
+## skolstvi_socialni_nezamestnanost_MPSV_rocni.csv
+
+Podíl nezaměstnaných osob (PNO) podle MPSV, roční průměry: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), okresy a ČR.
+
+- Odkaz: [data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv](https://hd-v-datech.cz/data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv)
+- Řádků: 26; jeden řádek = jedno území × rok
+- Zdroj: MPSV, otevřená data evidence uchazečů (evid_pno_adresa_agr_frz_odata), data do 9/2026.
+- Pozor: Rok 2026 je průměr jen za dostupné měsíce (sloupec pocet_mesicu). U malých obcí kolísá podíl i o jednotlivce.
+
+| Sloupec | Význam |
+|---|---|
+| `uzemi` | Obec, okres nebo ČR. |
+| `rok` | Rok. |
+| `pocet_mesicu` | Počet měsíců v průměru. |
+| `pno_prumer_procent` | Průměrný podíl nezaměstnaných osob (dosažitelní uchazeči 15–64 / obyvatelé 15–64), %. |
+| `dosazitelni_min` | Nejnižší měsíční počet dosažitelných uchazečů. |
+| `dosazitelni_max` | Nejvyšší měsíční počet dosažitelných uchazečů. |
+| `posledni_mesic` | Poslední měsíc v datech. |
+| `pno_posledni_mesic` | PNO v posledním měsíci, %. |
+| `dosazitelni_posledni` | Dosažitelní uchazeči v posledním měsíci. |
+| `obyv_15_64_posledni` | Obyvatelé 15–64 použití pro poslední měsíc. |
+
+## skolstvi_socialni_ovzdusi_CHMU.csv
+
+Pětileté průměry znečištění ovzduší (benzo(a)pyren, PM10, PM2,5, NO2) v čtvercích 1 × 1 km: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
+
+- Odkaz: [data/skolstvi_socialni_ovzdusi_CHMU.csv](https://hd-v-datech.cz/data/skolstvi_socialni_ovzdusi_CHMU.csv)
+- Řádků: 240; jeden řádek = jedna obec × období × ukazatel
+- Zdroj: ČHMÚ, pětileté průměrné koncentrace ve čtvercové síti 1 km (sit1000_5lprum); hranice obcí RÚIAN/MSK.
+- Pozor: Jde o modelové hodnoty pro čtverce 1 km, ne o měření v obci. Limit benzo(a)pyrenu je 1 ng/m³.
+
+| Sloupec | Význam |
+|---|---|
+| `kod_obce` | Kód obce ČSÚ. |
+| `obec` | Obec. |
+| `obdobi` | Pětileté období. |
+| `ukazatel` | Znečišťující látka a ukazatel. |
+| `vazeny_prumer` | Průměr čtverců vážený plochou v obci. |
+| `min_ctverec` | Nejnižší hodnota čtverce. |
+| `max_ctverec` | Nejvyšší hodnota čtverce. |
+| `pocet_ctvercu` | Počet čtverců zasahujících do obce. |
+| `plocha_km2_v_obci` | Plocha průniku čtverců s obcí, km². |
+| `pole_v_datech` | Název pole v datech ČHMÚ. |
+| `hranice_obce` | Zdroj hranice obce. |
+
+## skolstvi_socialni_skoly_rejstrik_2026-11.csv
+
+Školy a školská zařízení v obcích podle rejstříku škol MŠMT: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice) (a ZŠ a MŠ Dobratice, kam patří MŠ ve Vojkovicích).
+
+- Odkaz: [data/skolstvi_socialni_skoly_rejstrik_2026-11.csv](https://hd-v-datech.cz/data/skolstvi_socialni_skoly_rejstrik_2026-11.csv)
+- Řádků: 28; jeden řádek = jedna součást školy (MŠ, ZŠ, družina, jídelna…)
+- Zdroj: MŠMT, rejstřík škol a školských zařízení (krajské výstupy JSON-LD, stav k 1. 11. 2026).
+
+| Sloupec | Význam |
+|---|---|
+| `obec` | Obec. |
+| `red_izo` | Identifikátor ředitelství školy (RED_IZO). |
+| `ico` | IČO právnické osoby. |
+| `pravnicka_osoba` | Název školy (právnické osoby). |
+| `zrizovatel` | Zřizovatel. |
+| `izo` | Identifikátor součásti (IZO). |
+| `soucast` | Druh součásti (MŠ, ZŠ, ŠD, ŠJ…). |
+| `druh_kod` | Kód druhu podle rejstříku. |
+| `kapacita` | Kapacita. |
+| `jednotka` | Jednotka kapacity (děti, žáci, stravovaní…). |
+| `mista_vyuky` | Místa poskytování vzdělávání. |
+| `datum_vystupu` | Datum výstupu rejstříku. |
+| `zdroj` | Soubor rejstříku. |
+
+## skolstvi_socialni_zdravotni_socialni_sluzby.csv
+
+Zdravotní a sociální služby s místem poskytování v obci: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
+
+- Odkaz: [data/skolstvi_socialni_zdravotni_socialni_sluzby.csv](https://hd-v-datech.cz/data/skolstvi_socialni_zdravotni_socialni_sluzby.csv)
+- Řádků: 12; jeden řádek = jedno místo poskytování nebo souhrnný řádek obce
+- Zdroj: Národní registr poskytovatelů zdravotních služeb (NRPZS) a registr poskytovatelů sociálních služeb MPSV, stav 1. 11. 2026.
+- Pozor: Poskytovatelé, kteří jsou fyzickými osobami, jsou uvedeni jen jako „fyzická osoba“.
+
+| Sloupec | Význam |
+|---|---|
+| `obec` | Obec. |
+| `registr` | Registr (NRPZS, RPSS). |
+| `druh` | Druh péče nebo služby. |
+| `zarizeni_nebo_poskytovatel` | Zařízení nebo poskytovatel (bez jmen fyzických osob). |
+| `misto_poskytovani` | Místo poskytování. |
+| `od` | Od kdy (podle registru). |
+| `poznamka` | Poznámka. |
+
 ## souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv
 
 Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
@@ -8738,12 +9556,12 @@ Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letec
 | `NNO_bez_par_6171_52xx_62xx` | 5221 + 5222 + 5229 bez § 6171, § 52xx a § 62xx (očištěno). Kč. |
 | `NNO_ocist_na_obyv` | Očištěný součet na obyvatele. Kč. |
 
-## ukazatele_rozvaha_vzz_4_obce.csv
+## ukazatele_rozvaha_vzz_sousede.csv
 
-Rozvaha a výkaz zisku a ztráty HD, Pazderny, Dolních Domaslavic a Lučiny (zatím bez Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.
+Rozvaha a výkaz zisku a ztráty HD a sousedních obcí (včetně Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.
 
-- Odkaz: [data/ukazatele_rozvaha_vzz_4_obce.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_4_obce.csv)
-- Řádků: 64; jeden řádek = jedna obec × rok (stav k 31. 12.)
+- Odkaz: [data/ukazatele_rozvaha_vzz_sousede.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_sousede.csv)
+- Řádků: 80; jeden řádek = jedna obec × rok (stav k 31. 12.)
 - Zdroj: Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.
 - Pozor: Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.
 

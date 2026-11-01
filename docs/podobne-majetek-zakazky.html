@@ -1,0 +1,1865 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Majetek, smlouvy, zakázky (podobné obce) – Horní Domaslavice v datech</title>
+<meta name="description" content="Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Pískovou Lhotou, Rebešovicemi a Závišicemi.">
+<link rel="stylesheet" href="static/style.css">
+<link rel="alternate" type="text/markdown" href="podobne-majetek-zakazky.md">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-repo="https://github.com/dinkotom/hd-v-datech">
+<header class="site-header"><div class="inner">
+<a class="brand" href="index.html">Horní Domaslavice v datech <span>· občanský přehled veřejných dat</span></a>
+<button class="theme-toggle" type="button" aria-label="Přepnout světlý a tmavý režim">Světlý / tmavý</button>
+</div></header>
+<div class="layout">
+<nav class="side" aria-label="Obsah webu">
+<a class="top-link" href="index.html">Úvod</a>
+<details><summary>Obec v číslech</summary><ul>
+<li><a href="hd-obyvatelstvo.html">Obyvatelstvo</a></li>
+<li><a href="hd-prijmy.html">Příjmy ze sdílených daní</a></li>
+<li><a href="hd-rozpocet-2026.html">Rozpočet 2026</a></li>
+<li><a href="hd-vydaje.html">Výdaje, investice a opravy</a></li>
+<li><a href="hd-ucty.html">Peníze na účtech</a></li>
+<li><a href="hd-majetek.html">Majetek a účetnictví</a></li>
+<li><a href="hd-dotace.html">Dotace</a></li>
+<li><a href="hd-zakazky.html">Veřejné zakázky</a></li>
+<li><a href="hd-registr-smluv.html">Registr smluv</a></li>
+<li><a href="hd-vystavba.html">Výstavba a infrastruktura</a></li>
+<li><a href="hd-skolstvi-socialni.html">Školství, sociální data, ovzduší</a></li>
+<li><a href="hd-spolky.html">Spolky a subjekty</a></li>
+<li><a href="hd-volby.html">Volby</a></li>
+<li><a href="hd-usneseni.html">Usnesení zastupitelstva</a></li>
+<li><a href="mapa.html">Mapa obce</a></li>
+</ul></details>
+<details><summary>Srovnání se sousedy</summary><ul>
+<li><a href="srovnani-souhrn.html">Souhrn srovnání</a></li>
+<li><a href="srovnani-finance.html">Finance</a></li>
+<li><a href="srovnani-majetek-zakazky.html">Majetek, smlouvy, zakázky</a></li>
+<li><a href="srovnani-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="srovnani-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="srovnani-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="srovnani-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="srovnani-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="srovnani-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="srovnani-vybavenost.html">Občanská vybavenost</a></li>
+</ul></details>
+<details open><summary>Srovnání s podobnými obcemi</summary><ul>
+<li><a href="srovnani-podobne-obce.html">Souhrn a výběr obcí</a></li>
+<li><a href="podobne-finance.html">Finance</a></li>
+<li><a href="podobne-majetek-zakazky.html" aria-current="page">Majetek, smlouvy, zakázky</a></li>
+<li><a href="podobne-obyvatelstvo-vystavba.html">Obyvatelstvo a výstavba</a></li>
+<li><a href="podobne-skolstvi-socialni.html">Školství a sociální data</a></li>
+<li><a href="podobne-volby-spolky.html">Volby a spolky</a></li>
+<li><a href="podobne-plochy.html">Rozloha a druhy pozemků</a></li>
+<li><a href="podobne-zastavba.html">Roztříštěnost zástavby</a></li>
+<li><a href="podobne-dan-nemovitosti.html">Daň z nemovitostí</a></li>
+<li><a href="podobne-vybavenost.html">Občanská vybavenost</a></li>
+</ul></details>
+<a class="top-link" href="zeptejte-se-ai.html">Zeptejte se AI</a>
+<a class="top-link" href="data.html">Data ke stažení</a>
+<a class="top-link" href="opravy.html">Opravy</a>
+<a class="top-link" href="o-webu.html">O webu a metodika</a>
+</nav>
+<main>
+<h1>Majetek, smlouvy, zakázky (podobné obce)</h1>
+
+<p class="meta">Aktualizováno 1. 11. 2026</p><p>Stránka porovnává majetek a účetní výsledky Horních Domaslavic (HD) se třemi obcemi z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Pískovou Lhotou (PL), Rebešovicemi (RE) a Závišicemi (ZA). Jak byly vybrány, popisuje <a href="srovnani-podobne-obce.html">souhrn podobných obcí</a>. Ukazatele jsou spočítané stejně jako na stránce <a href="srovnani-majetek-zakazky.html">Srovnání majetku, smluv a zakázek</a> se sousedními obcemi. Vychází výhradně z veřejných zdrojů: z rozvahy a výkazu zisku a ztráty v Monitoru státní pokladny MF, z počtů obyvatel ČSÚ, z registru smluv, z Hlídače státu, z profilů zadavatele a z Národního elektronického nástroje (NEN). Žádná ze čtyř obcí není obcí s rozšířenou působností. Částky jsou v mil. Kč, není-li uvedeno jinak, a stavy jsou vždy k 31. 12. Srovnání nehodnotí vedení jednotlivých obcí.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Horní Domaslavice</th>
+<th>Písková Lhota</th>
+<th>Rebešovice</th>
+<th>Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Okres</td>
+<td>Frýdek-Místek</td>
+<td>Mladá Boleslav</td>
+<td>Brno-venkov</td>
+<td>Nový Jičín</td>
+</tr>
+<tr>
+<td>IČO (ARES)</td>
+<td>00536008</td>
+<td>00509230</td>
+<td>00488089</td>
+<td>00600709</td>
+</tr>
+<tr>
+<td>Kód obce</td>
+<td>512192</td>
+<td>536440</td>
+<td>583774</td>
+<td>568473</td>
+</tr>
+<tr>
+<td>Obyvatel 2010 → 2025</td>
+<td>681 → 1 109 (+63 %)</td>
+<td>748 → 1 111 (+49 %)</td>
+<td>840 → 1 106 (+32 %)</td>
+<td>884 → 1 156 (+31 %)</td>
+</tr>
+<tr>
+<td>Podřízené organizace podle Hlídače státu</td>
+<td>1 (MŠ)</td>
+<td>1 (Obecní zdravotní středisko o.p.s.)</td>
+<td>2 (MŠ a obchodní společnost KTS EKOLOGIE s.r.o.)</td>
+<td>1 (ZŠ a MŠ)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="shrnutí">Shrnutí</h2>
+<ol type="1">
+<li><strong>HD má nejmenší majetek na obyvatele.</strong> Aktiva netto na obyvatele činila v roce 2025 v HD 69 tis. Kč, v Pískové Lhotě 116 tis., v Rebešovicích 138 tis. a v Závišicích 132 tis. Kč. Stavby netto na obyvatele jsou v HD 28 tis. Kč, v ostatních obcích 48–76 tis. Kč. Peněz na obyvatele mají nejvíc Rebešovice (39,4 tis. Kč), dále HD (35,6 tis.), Písková Lhota (27,3 tis.) a Závišice (24,2 tis.). Peníze tvoří v HD 52 % aktiv, v ostatních obcích 18–29 %.</li>
+<li><strong>Přírůstek staveb je v HD druhý nejnižší.</strong> Stavby v pořizovací ceně vzrostly od konce roku 2013 do konce roku 2025 v HD o 25,0 mil. Kč (22 tis. Kč na dnešního obyvatele), v Pískové Lhotě o 48,4 mil. (44 tis.), v Rebešovicích o 14,8 mil. (13 tis.) a v Závišicích o 68,4 mil. Kč (59 tis. Kč na obyvatele). U Rebešovic je číslo ovlivněné poklesem staveb v roce 2025 o 40,7 mil. Kč; do konce roku 2024 přibylo 55,6 mil. Kč.</li>
+<li><strong>Opravy jsou v HD a v Pískové Lhotě vysoké.</strong> Na účtu 511 (opravy a udržování) vykázala za 2014–2025 Písková Lhota 33,8 mil. Kč (z toho 15,9 mil. v roce 2022), HD 27,5 mil., Závišice 11,5 mil. a Rebešovice 6,6 mil. Kč.</li>
+<li><strong>Dluh:</strong> HD, Rebešovice a Závišice jsou k 31. 12. 2025 bez úvěrů. Písková Lhota má dlouhodobý úvěr 8,01 mil. Kč (od roku 2021). Rebešovice splácely úvěr z roku 2012 (10,0 mil. Kč) do roku 2021, Závišice úvěr, který měly už v roce 2010, do roku 2014.</li>
+<li><strong>Výsledky hospodaření jsou podobné.</strong> Za 2014–2025 dosáhla HD součtu výsledků 51,5 mil. Kč, Písková Lhota 51,1 mil., Rebešovice 77,4 mil. a Závišice 87,6 mil. Kč. V přepočtu na obyvatele vyšly v roce 2025 HD (8 294 Kč), Písková Lhota (8 260 Kč) a Rebešovice (8 200 Kč) téměř stejně, Závišice nižší (5 433 Kč). Ztrátu vykázala HD v roce 2010, Rebešovice v roce 2010 a Písková Lhota v letech 2020 a 2022.</li>
+<li><strong>Registr smluv:</strong> sama zveřejňuje hlavně Písková Lhota, a to 5 smluv z let 2022–2026 za 6,00 mil. Kč s DPH. Rebešovice a Závišice vložily po jedné smlouvě, HD žádnou. Smlouvy, kde jsou stranou a vložila je protistrana, mají všechny (HD 9, Písková Lhota 7, Rebešovice 9, Závišice 13).</li>
+<li><strong>Veřejné zakázky 2014–2026:</strong> HD 18, Písková Lhota 3 (jen v NEN od roku 2025; starší profil není dostupný), Rebešovice 32 (23 na e-zakazky.cz a 9 v NEN) a Závišice 33 (z toho 2 přímá zadání). Průměrný počet účastníků u soutěží, kde profil uvádí aspoň dva, je HD 5,3, Rebešovice 4,0 a Závišice 3,9. Medián podílu vysoutěžené ceny na předpokládané hodnotě je HD 82 %, Rebešovice 72 % a Závišice 79 % (malé vzorky).</li>
+<li><strong>Administrátoři:</strong> v HD připravuje zakázky téměř výhradně TISPOL s.r.o. (13 z 18). V ostatních obcích u většiny zakázek administrátor z dokumentů nevyplývá; Závišice v jednotlivých letech využily čtyři různé firmy, Rebešovice u dvou podlimitních řízení externího administrátora.</li>
+</ol>
+<h2 id="1-rozvaha-a-výkaz-zisku-a-ztráty">1. Rozvaha a výkaz zisku a ztráty</h2>
+<h3 id="11-stav-k-31-12-2025-vedle-sebe">1.1 Stav k 31. 12. 2025 vedle sebe</h3>
+<table>
+<thead>
+<tr>
+<th>Ukazatel 2025</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obyvatel</td>
+<td style="text-align: right;">1 109</td>
+<td style="text-align: right;">1 111</td>
+<td style="text-align: right;">1 106</td>
+<td style="text-align: right;">1 156</td>
+</tr>
+<tr>
+<td>Aktiva netto</td>
+<td style="text-align: right;">76,62</td>
+<td style="text-align: right;">129,03</td>
+<td style="text-align: right;">152,40</td>
+<td style="text-align: right;">152,84</td>
+</tr>
+<tr>
+<td>Stavby netto (021)</td>
+<td style="text-align: right;">30,59</td>
+<td style="text-align: right;">53,52</td>
+<td style="text-align: right;">60,62</td>
+<td style="text-align: right;">87,71</td>
+</tr>
+<tr>
+<td>Pozemky (031)</td>
+<td style="text-align: right;">1,97</td>
+<td style="text-align: right;">5,51</td>
+<td style="text-align: right;">20,98</td>
+<td style="text-align: right;">10,31</td>
+</tr>
+<tr>
+<td>Nedokončené investice (042)</td>
+<td style="text-align: right;">1,00</td>
+<td style="text-align: right;">3,31</td>
+<td style="text-align: right;">11,73</td>
+<td style="text-align: right;">12,94</td>
+</tr>
+<tr>
+<td>Peníze (231 + 244 + 245)</td>
+<td style="text-align: right;">39,49</td>
+<td style="text-align: right;">30,33</td>
+<td style="text-align: right;">43,62</td>
+<td style="text-align: right;">28,02</td>
+</tr>
+<tr>
+<td>Úvěry (451 + 281) a závazky 459</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">8,01</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>Odpisy (551)</td>
+<td style="text-align: right;">0,83</td>
+<td style="text-align: right;">2,80</td>
+<td style="text-align: right;">2,37</td>
+<td style="text-align: right;">3,19</td>
+</tr>
+<tr>
+<td>Náklady celkem</td>
+<td style="text-align: right;">13,32</td>
+<td style="text-align: right;">13,88</td>
+<td style="text-align: right;">15,86</td>
+<td style="text-align: right;">29,58</td>
+</tr>
+<tr>
+<td>Výnosy celkem</td>
+<td style="text-align: right;">22,52</td>
+<td style="text-align: right;">23,06</td>
+<td style="text-align: right;">24,92</td>
+<td style="text-align: right;">35,86</td>
+</tr>
+<tr>
+<td>Výsledek hospodaření</td>
+<td style="text-align: right;">9,20</td>
+<td style="text-align: right;">9,18</td>
+<td style="text-align: right;">9,07</td>
+<td style="text-align: right;">6,28</td>
+</tr>
+<tr>
+<td>Podíl peněz na aktivech</td>
+<td style="text-align: right;">52 %</td>
+<td style="text-align: right;">24 %</td>
+<td style="text-align: right;">29 %</td>
+<td style="text-align: right;">18 %</td>
+</tr>
+</tbody>
+</table>
+<h3 id="12-totéž-na-obyvatele-kč-2025">1.2 Totéž na obyvatele (Kč, 2025)</h3>
+<table>
+<thead>
+<tr>
+<th>Ukazatel na obyvatele</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aktiva netto</td>
+<td style="text-align: right;">69 091</td>
+<td style="text-align: right;">116 142</td>
+<td style="text-align: right;">137 789</td>
+<td style="text-align: right;">132 214</td>
+</tr>
+<tr>
+<td>Stavby netto</td>
+<td style="text-align: right;">27 581</td>
+<td style="text-align: right;">48 175</td>
+<td style="text-align: right;">54 811</td>
+<td style="text-align: right;">75 875</td>
+</tr>
+<tr>
+<td>Pozemky</td>
+<td style="text-align: right;">1 776</td>
+<td style="text-align: right;">4 959</td>
+<td style="text-align: right;">18 971</td>
+<td style="text-align: right;">8 919</td>
+</tr>
+<tr>
+<td>Nedokončené investice</td>
+<td style="text-align: right;">906</td>
+<td style="text-align: right;">2 982</td>
+<td style="text-align: right;">10 606</td>
+<td style="text-align: right;">11 197</td>
+</tr>
+<tr>
+<td>Peníze</td>
+<td style="text-align: right;">35 613</td>
+<td style="text-align: right;">27 296</td>
+<td style="text-align: right;">39 441</td>
+<td style="text-align: right;">24 238</td>
+</tr>
+<tr>
+<td>Úvěry a závazky 459</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7 211</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Odpisy</td>
+<td style="text-align: right;">749</td>
+<td style="text-align: right;">2 516</td>
+<td style="text-align: right;">2 145</td>
+<td style="text-align: right;">2 763</td>
+</tr>
+<tr>
+<td>Náklady</td>
+<td style="text-align: right;">12 015</td>
+<td style="text-align: right;">12 492</td>
+<td style="text-align: right;">14 336</td>
+<td style="text-align: right;">25 590</td>
+</tr>
+<tr>
+<td>Výnosy</td>
+<td style="text-align: right;">20 309</td>
+<td style="text-align: right;">20 752</td>
+<td style="text-align: right;">22 535</td>
+<td style="text-align: right;">31 024</td>
+</tr>
+<tr>
+<td>Výsledek hospodaření</td>
+<td style="text-align: right;">8 294</td>
+<td style="text-align: right;">8 260</td>
+<td style="text-align: right;">8 200</td>
+<td style="text-align: right;">5 433</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-souhrny-za-20142025">1.3 Souhrny za 2014–2025</h3>
+<table>
+<thead>
+<tr>
+<th>Součet 2014–2025</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Výsledek hospodaření</td>
+<td style="text-align: right;">51,51</td>
+<td style="text-align: right;">51,05</td>
+<td style="text-align: right;">77,38</td>
+<td style="text-align: right;">87,56</td>
+</tr>
+<tr>
+<td>Odpisy</td>
+<td style="text-align: right;">6,55</td>
+<td style="text-align: right;">26,18</td>
+<td style="text-align: right;">30,74</td>
+<td style="text-align: right;">25,50</td>
+</tr>
+<tr>
+<td>Opravy a udržování (511)</td>
+<td style="text-align: right;">27,45</td>
+<td style="text-align: right;">33,79</td>
+<td style="text-align: right;">6,58</td>
+<td style="text-align: right;">11,48</td>
+</tr>
+<tr>
+<td>Přírůstek staveb brutto (konec 2013 → konec 2025)</td>
+<td style="text-align: right;">24,97</td>
+<td style="text-align: right;">48,43</td>
+<td style="text-align: right;">14,82</td>
+<td style="text-align: right;">68,36</td>
+</tr>
+<tr>
+<td>Nejvyšší zadlužení v období 2010–2025 (rok)</td>
+<td style="text-align: right;">2,50 (2013)</td>
+<td style="text-align: right;">9,34 (2023)</td>
+<td style="text-align: right;">10,00 (2012)</td>
+<td style="text-align: right;">3,21 (2010)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="14-časové-řady">1.4 Časové řady</h3>
+<p><strong>Aktiva netto na obyvatele (tis. Kč)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">23,2</td>
+<td style="text-align: right;">47,4</td>
+<td style="text-align: right;">99,2</td>
+<td style="text-align: right;">61,7</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">14,9</td>
+<td style="text-align: right;">47,9</td>
+<td style="text-align: right;">87,5</td>
+<td style="text-align: right;">45,6</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">18,0</td>
+<td style="text-align: right;">48,4</td>
+<td style="text-align: right;">124,6</td>
+<td style="text-align: right;">46,0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">18,7</td>
+<td style="text-align: right;">52,7</td>
+<td style="text-align: right;">123,4</td>
+<td style="text-align: right;">48,9</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">22,7</td>
+<td style="text-align: right;">54,3</td>
+<td style="text-align: right;">102,1</td>
+<td style="text-align: right;">51,5</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">27,8</td>
+<td style="text-align: right;">56,4</td>
+<td style="text-align: right;">102,4</td>
+<td style="text-align: right;">53,5</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">31,5</td>
+<td style="text-align: right;">60,0</td>
+<td style="text-align: right;">125,3</td>
+<td style="text-align: right;">60,2</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">35,5</td>
+<td style="text-align: right;">63,6</td>
+<td style="text-align: right;">129,5</td>
+<td style="text-align: right;">65,1</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">37,6</td>
+<td style="text-align: right;">61,6</td>
+<td style="text-align: right;">135,6</td>
+<td style="text-align: right;">71,3</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">39,3</td>
+<td style="text-align: right;">65,9</td>
+<td style="text-align: right;">144,4</td>
+<td style="text-align: right;">80,2</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">49,6</td>
+<td style="text-align: right;">75,4</td>
+<td style="text-align: right;">146,8</td>
+<td style="text-align: right;">86,6</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">55,1</td>
+<td style="text-align: right;">90,8</td>
+<td style="text-align: right;">156,8</td>
+<td style="text-align: right;">94,3</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">61,5</td>
+<td style="text-align: right;">86,4</td>
+<td style="text-align: right;">141,5</td>
+<td style="text-align: right;">106,1</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">60,5</td>
+<td style="text-align: right;">109,7</td>
+<td style="text-align: right;">147,6</td>
+<td style="text-align: right;">113,0</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">62,7</td>
+<td style="text-align: right;">108,0</td>
+<td style="text-align: right;">156,6</td>
+<td style="text-align: right;">122,7</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">69,1</td>
+<td style="text-align: right;">116,1</td>
+<td style="text-align: right;">137,8</td>
+<td style="text-align: right;">132,2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Stavby netto (mil. Kč)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">10,45</td>
+<td style="text-align: right;">14,90</td>
+<td style="text-align: right;">40,40</td>
+<td style="text-align: right;">47,55</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">6,84</td>
+<td style="text-align: right;">14,53</td>
+<td style="text-align: right;">30,40</td>
+<td style="text-align: right;">37,73</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">6,69</td>
+<td style="text-align: right;">14,00</td>
+<td style="text-align: right;">31,11</td>
+<td style="text-align: right;">39,01</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">10,76</td>
+<td style="text-align: right;">16,60</td>
+<td style="text-align: right;">55,38</td>
+<td style="text-align: right;">41,82</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">10,59</td>
+<td style="text-align: right;">17,03</td>
+<td style="text-align: right;">54,69</td>
+<td style="text-align: right;">43,57</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">13,03</td>
+<td style="text-align: right;">16,34</td>
+<td style="text-align: right;">53,42</td>
+<td style="text-align: right;">45,49</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">13,19</td>
+<td style="text-align: right;">16,52</td>
+<td style="text-align: right;">69,17</td>
+<td style="text-align: right;">44,31</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">15,40</td>
+<td style="text-align: right;">15,80</td>
+<td style="text-align: right;">72,21</td>
+<td style="text-align: right;">47,52</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">18,51</td>
+<td style="text-align: right;">14,83</td>
+<td style="text-align: right;">86,47</td>
+<td style="text-align: right;">62,86</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">18,23</td>
+<td style="text-align: right;">14,13</td>
+<td style="text-align: right;">85,43</td>
+<td style="text-align: right;">61,42</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">18,81</td>
+<td style="text-align: right;">18,98</td>
+<td style="text-align: right;">82,88</td>
+<td style="text-align: right;">64,00</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">32,49</td>
+<td style="text-align: right;">27,83</td>
+<td style="text-align: right;">89,30</td>
+<td style="text-align: right;">69,43</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">31,88</td>
+<td style="text-align: right;">28,40</td>
+<td style="text-align: right;">94,35</td>
+<td style="text-align: right;">76,23</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">31,54</td>
+<td style="text-align: right;">45,54</td>
+<td style="text-align: right;">92,09</td>
+<td style="text-align: right;">76,02</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">30,98</td>
+<td style="text-align: right;">53,29</td>
+<td style="text-align: right;">89,68</td>
+<td style="text-align: right;">74,19</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">30,59</td>
+<td style="text-align: right;">53,52</td>
+<td style="text-align: right;">60,62</td>
+<td style="text-align: right;">87,71</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Pozemky, účet 031 (mil. Kč)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">1,28</td>
+<td style="text-align: right;">1,33</td>
+<td style="text-align: right;">14,89</td>
+<td style="text-align: right;">0,98</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">1,18</td>
+<td style="text-align: right;">1,39</td>
+<td style="text-align: right;">14,84</td>
+<td style="text-align: right;">1,05</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">1,31</td>
+<td style="text-align: right;">1,92</td>
+<td style="text-align: right;">17,67</td>
+<td style="text-align: right;">3,28</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">1,79</td>
+<td style="text-align: right;">2,79</td>
+<td style="text-align: right;">18,35</td>
+<td style="text-align: right;">4,09</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">1,90</td>
+<td style="text-align: right;">5,49</td>
+<td style="text-align: right;">18,75</td>
+<td style="text-align: right;">4,35</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">1,90</td>
+<td style="text-align: right;">5,49</td>
+<td style="text-align: right;">18,82</td>
+<td style="text-align: right;">4,37</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">1,93</td>
+<td style="text-align: right;">5,48</td>
+<td style="text-align: right;">20,98</td>
+<td style="text-align: right;">4,42</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">1,97</td>
+<td style="text-align: right;">5,51</td>
+<td style="text-align: right;">20,98</td>
+<td style="text-align: right;">10,31</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nedokončené investice, účet 042 (mil. Kč)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;">13,57</td>
+<td style="text-align: right;">6,94</td>
+<td style="text-align: right;">1,40</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;">11,53</td>
+<td style="text-align: right;">4,90</td>
+<td style="text-align: right;">1,50</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">3,30</td>
+<td style="text-align: right;">12,75</td>
+<td style="text-align: right;">33,75</td>
+<td style="text-align: right;">1,50</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">0,80</td>
+<td style="text-align: right;">11,95</td>
+<td style="text-align: right;">1,45</td>
+<td style="text-align: right;">1,38</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">0,97</td>
+<td style="text-align: right;">10,96</td>
+<td style="text-align: right;">1,38</td>
+<td style="text-align: right;">1,45</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">1,14</td>
+<td style="text-align: right;">14,28</td>
+<td style="text-align: right;">1,60</td>
+<td style="text-align: right;">1,79</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">1,10</td>
+<td style="text-align: right;">14,38</td>
+<td style="text-align: right;">4,18</td>
+<td style="text-align: right;">5,96</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">1,29</td>
+<td style="text-align: right;">14,77</td>
+<td style="text-align: right;">5,19</td>
+<td style="text-align: right;">2,29</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">0,89</td>
+<td style="text-align: right;">14,78</td>
+<td style="text-align: right;">2,83</td>
+<td style="text-align: right;">0,33</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">1,15</td>
+<td style="text-align: right;">15,08</td>
+<td style="text-align: right;">2,74</td>
+<td style="text-align: right;">3,74</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">6,37</td>
+<td style="text-align: right;">21,88</td>
+<td style="text-align: right;">16,23</td>
+<td style="text-align: right;">0,54</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">0,39</td>
+<td style="text-align: right;">30,85</td>
+<td style="text-align: right;">20,28</td>
+<td style="text-align: right;">0,43</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0,51</td>
+<td style="text-align: right;">42,59</td>
+<td style="text-align: right;">2,69</td>
+<td style="text-align: right;">0,09</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0,31</td>
+<td style="text-align: right;">5,69</td>
+<td style="text-align: right;">3,35</td>
+<td style="text-align: right;">0,25</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">0,83</td>
+<td style="text-align: right;">1,22</td>
+<td style="text-align: right;">4,23</td>
+<td style="text-align: right;">5,88</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">1,00</td>
+<td style="text-align: right;">3,31</td>
+<td style="text-align: right;">11,73</td>
+<td style="text-align: right;">12,94</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Peníze 231 + 244 + 245 (mil. Kč) a na obyvatele (tis. Kč)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">HD / obyv.</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">PL / obyv.</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">RE / obyv.</th>
+<th style="text-align: right;">Závišice</th>
+<th style="text-align: right;">ZA / obyv.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">0,26</td>
+<td style="text-align: right;">0,4</td>
+<td style="text-align: right;">1,29</td>
+<td style="text-align: right;">1,7</td>
+<td style="text-align: right;">18,64</td>
+<td style="text-align: right;">22,2</td>
+<td style="text-align: right;">1,97</td>
+<td style="text-align: right;">2,2</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">0,85</td>
+<td style="text-align: right;">1,1</td>
+<td style="text-align: right;">2,11</td>
+<td style="text-align: right;">3,0</td>
+<td style="text-align: right;">11,26</td>
+<td style="text-align: right;">13,0</td>
+<td style="text-align: right;">1,21</td>
+<td style="text-align: right;">1,3</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">3,86</td>
+<td style="text-align: right;">4,9</td>
+<td style="text-align: right;">5,80</td>
+<td style="text-align: right;">8,0</td>
+<td style="text-align: right;">15,52</td>
+<td style="text-align: right;">16,5</td>
+<td style="text-align: right;">2,58</td>
+<td style="text-align: right;">2,6</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">8,25</td>
+<td style="text-align: right;">10,5</td>
+<td style="text-align: right;">8,75</td>
+<td style="text-align: right;">11,4</td>
+<td style="text-align: right;">19,98</td>
+<td style="text-align: right;">21,0</td>
+<td style="text-align: right;">5,54</td>
+<td style="text-align: right;">5,4</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">9,20</td>
+<td style="text-align: right;">10,3</td>
+<td style="text-align: right;">18,70</td>
+<td style="text-align: right;">21,0</td>
+<td style="text-align: right;">15,96</td>
+<td style="text-align: right;">16,1</td>
+<td style="text-align: right;">6,29</td>
+<td style="text-align: right;">5,9</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">13,89</td>
+<td style="text-align: right;">15,0</td>
+<td style="text-align: right;">24,95</td>
+<td style="text-align: right;">26,4</td>
+<td style="text-align: right;">28,18</td>
+<td style="text-align: right;">28,3</td>
+<td style="text-align: right;">11,04</td>
+<td style="text-align: right;">10,2</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">14,09</td>
+<td style="text-align: right;">15,0</td>
+<td style="text-align: right;">24,50</td>
+<td style="text-align: right;">24,2</td>
+<td style="text-align: right;">24,86</td>
+<td style="text-align: right;">24,1</td>
+<td style="text-align: right;">21,81</td>
+<td style="text-align: right;">20,1</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">19,10</td>
+<td style="text-align: right;">19,1</td>
+<td style="text-align: right;">25,74</td>
+<td style="text-align: right;">23,6</td>
+<td style="text-align: right;">17,61</td>
+<td style="text-align: right;">16,7</td>
+<td style="text-align: right;">24,41</td>
+<td style="text-align: right;">22,7</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">27,29</td>
+<td style="text-align: right;">26,8</td>
+<td style="text-align: right;">8,05</td>
+<td style="text-align: right;">7,3</td>
+<td style="text-align: right;">16,47</td>
+<td style="text-align: right;">15,3</td>
+<td style="text-align: right;">29,43</td>
+<td style="text-align: right;">26,5</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">28,11</td>
+<td style="text-align: right;">26,7</td>
+<td style="text-align: right;">21,22</td>
+<td style="text-align: right;">19,4</td>
+<td style="text-align: right;">37,56</td>
+<td style="text-align: right;">34,2</td>
+<td style="text-align: right;">39,44</td>
+<td style="text-align: right;">34,9</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">31,48</td>
+<td style="text-align: right;">29,3</td>
+<td style="text-align: right;">23,84</td>
+<td style="text-align: right;">21,3</td>
+<td style="text-align: right;">43,11</td>
+<td style="text-align: right;">39,5</td>
+<td style="text-align: right;">46,91</td>
+<td style="text-align: right;">40,4</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">39,49</td>
+<td style="text-align: right;">35,6</td>
+<td style="text-align: right;">30,33</td>
+<td style="text-align: right;">27,3</td>
+<td style="text-align: right;">43,62</td>
+<td style="text-align: right;">39,4</td>
+<td style="text-align: right;">28,02</td>
+<td style="text-align: right;">24,2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Úvěry (451 + 281) a ostatní dlouhodobé závazky (459), mil. Kč</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">0,50</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">3,21</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">1,61</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">2,57</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">2,07</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">10,00</td>
+<td style="text-align: right;">1,93</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">2,50</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">8,92</td>
+<td style="text-align: right;">1,28</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">1,23</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">7,84</td>
+<td style="text-align: right;">0,64</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">0,65</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">6,76</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">0,42</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">5,68</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">0,18</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">4,59</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">3,51</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">2,43</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">1,35</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">3,41</td>
+<td style="text-align: right;">0,27</td>
+<td style="text-align: right;">0,02</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">3,41</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,02</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">9,34</td>
+<td style="text-align: right;">0,74</td>
+<td style="text-align: right;">0,04</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">8,67</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">8,01</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+</tr>
+</tbody>
+</table>
+<p>U HD jde v letech 2011–2017 hlavně o účet 459, tedy splácený dlouhodobý závazek, jehož původ z výkazů nevyplývá (viz <a href="hd-majetek.html">majetek HD</a>). U Pískové Lhoty jde o dlouhodobý úvěr 451 (od roku 2021). U Rebešovic jde v letech 2012–2021 o dlouhodobý úvěr 451 a v roce 2023 o krátkodobý úvěr 0,74 mil. Kč. U Závišic jde v letech 2010–2014 o úvěr a v letech 2021–2023 o drobné závazky na účtu 459.</p>
+<p><strong>Odpisy (mil. Kč)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">Horní Domaslavice</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">0,34</td>
+<td style="text-align: right;">0,55</td>
+<td style="text-align: right;">1,22</td>
+<td style="text-align: right;">1,03</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">0,49</td>
+<td style="text-align: right;">0,72</td>
+<td style="text-align: right;">1,89</td>
+<td style="text-align: right;">1,28</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">0,38</td>
+<td style="text-align: right;">0,75</td>
+<td style="text-align: right;">2,77</td>
+<td style="text-align: right;">2,18</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0,74</td>
+<td style="text-align: right;">1,81</td>
+<td style="text-align: right;">3,07</td>
+<td style="text-align: right;">2,65</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0,77</td>
+<td style="text-align: right;">2,18</td>
+<td style="text-align: right;">3,19</td>
+<td style="text-align: right;">2,77</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">0,79</td>
+<td style="text-align: right;">2,42</td>
+<td style="text-align: right;">3,47</td>
+<td style="text-align: right;">2,86</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">0,83</td>
+<td style="text-align: right;">2,80</td>
+<td style="text-align: right;">2,37</td>
+<td style="text-align: right;">3,19</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Výsledek hospodaření (mil. Kč) a na obyvatele (Kč)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">HD / obyv.</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">PL / obyv.</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">RE / obyv.</th>
+<th style="text-align: right;">Závišice</th>
+<th style="text-align: right;">ZA / obyv.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010</td>
+<td style="text-align: right;">−0,39</td>
+<td style="text-align: right;">−575</td>
+<td style="text-align: right;">2,20</td>
+<td style="text-align: right;">2 945</td>
+<td style="text-align: right;">−15,96</td>
+<td style="text-align: right;">−19 005</td>
+<td style="text-align: right;">3,30</td>
+<td style="text-align: right;">3 735</td>
+</tr>
+<tr>
+<td>2011</td>
+<td style="text-align: right;">1,19</td>
+<td style="text-align: right;">1 680</td>
+<td style="text-align: right;">1,54</td>
+<td style="text-align: right;">2 227</td>
+<td style="text-align: right;">2,60</td>
+<td style="text-align: right;">3 097</td>
+<td style="text-align: right;">2,12</td>
+<td style="text-align: right;">2 265</td>
+</tr>
+<tr>
+<td>2012</td>
+<td style="text-align: right;">2,51</td>
+<td style="text-align: right;">3 372</td>
+<td style="text-align: right;">1,72</td>
+<td style="text-align: right;">2 423</td>
+<td style="text-align: right;">0,06</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">2,06</td>
+<td style="text-align: right;">2 148</td>
+</tr>
+<tr>
+<td>2013</td>
+<td style="text-align: right;">0,83</td>
+<td style="text-align: right;">1 099</td>
+<td style="text-align: right;">2,36</td>
+<td style="text-align: right;">3 378</td>
+<td style="text-align: right;">2,64</td>
+<td style="text-align: right;">2 953</td>
+<td style="text-align: right;">2,96</td>
+<td style="text-align: right;">3 041</td>
+</tr>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">4,37</td>
+<td style="text-align: right;">5 601</td>
+<td style="text-align: right;">2,71</td>
+<td style="text-align: right;">3 742</td>
+<td style="text-align: right;">2,68</td>
+<td style="text-align: right;">2 845</td>
+<td style="text-align: right;">4,32</td>
+<td style="text-align: right;">4 350</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">3,73</td>
+<td style="text-align: right;">4 758</td>
+<td style="text-align: right;">3,05</td>
+<td style="text-align: right;">4 050</td>
+<td style="text-align: right;">3,58</td>
+<td style="text-align: right;">3 739</td>
+<td style="text-align: right;">4,15</td>
+<td style="text-align: right;">4 092</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">2,64</td>
+<td style="text-align: right;">3 344</td>
+<td style="text-align: right;">3,39</td>
+<td style="text-align: right;">4 428</td>
+<td style="text-align: right;">5,00</td>
+<td style="text-align: right;">5 244</td>
+<td style="text-align: right;">7,39</td>
+<td style="text-align: right;">7 243</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">3,51</td>
+<td style="text-align: right;">4 281</td>
+<td style="text-align: right;">4,71</td>
+<td style="text-align: right;">5 953</td>
+<td style="text-align: right;">4,49</td>
+<td style="text-align: right;">4 629</td>
+<td style="text-align: right;">6,47</td>
+<td style="text-align: right;">6 185</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">2,39</td>
+<td style="text-align: right;">2 677</td>
+<td style="text-align: right;">4,57</td>
+<td style="text-align: right;">5 126</td>
+<td style="text-align: right;">5,33</td>
+<td style="text-align: right;">5 382</td>
+<td style="text-align: right;">6,78</td>
+<td style="text-align: right;">6 383</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">2,23</td>
+<td style="text-align: right;">2 409</td>
+<td style="text-align: right;">6,37</td>
+<td style="text-align: right;">6 736</td>
+<td style="text-align: right;">9,78</td>
+<td style="text-align: right;">9 811</td>
+<td style="text-align: right;">6,71</td>
+<td style="text-align: right;">6 220</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">5,24</td>
+<td style="text-align: right;">5 563</td>
+<td style="text-align: right;">−2,79</td>
+<td style="text-align: right;">−2 756</td>
+<td style="text-align: right;">7,43</td>
+<td style="text-align: right;">7 211</td>
+<td style="text-align: right;">7,66</td>
+<td style="text-align: right;">7 064</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">5,53</td>
+<td style="text-align: right;">5 535</td>
+<td style="text-align: right;">6,10</td>
+<td style="text-align: right;">5 598</td>
+<td style="text-align: right;">5,68</td>
+<td style="text-align: right;">5 403</td>
+<td style="text-align: right;">8,21</td>
+<td style="text-align: right;">7 626</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">7,72</td>
+<td style="text-align: right;">7 573</td>
+<td style="text-align: right;">−2,60</td>
+<td style="text-align: right;">−2 362</td>
+<td style="text-align: right;">7,38</td>
+<td style="text-align: right;">6 869</td>
+<td style="text-align: right;">8,18</td>
+<td style="text-align: right;">7 379</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">1,23</td>
+<td style="text-align: right;">1 169</td>
+<td style="text-align: right;">8,10</td>
+<td style="text-align: right;">7 427</td>
+<td style="text-align: right;">8,43</td>
+<td style="text-align: right;">7 680</td>
+<td style="text-align: right;">10,41</td>
+<td style="text-align: right;">9 211</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">3,73</td>
+<td style="text-align: right;">3 469</td>
+<td style="text-align: right;">8,25</td>
+<td style="text-align: right;">7 377</td>
+<td style="text-align: right;">8,53</td>
+<td style="text-align: right;">7 815</td>
+<td style="text-align: right;">10,99</td>
+<td style="text-align: right;">9 469</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">9,20</td>
+<td style="text-align: right;">8 294</td>
+<td style="text-align: right;">9,18</td>
+<td style="text-align: right;">8 260</td>
+<td style="text-align: right;">9,07</td>
+<td style="text-align: right;">8 200</td>
+<td style="text-align: right;">6,28</td>
+<td style="text-align: right;">5 433</td>
+</tr>
+</tbody>
+</table>
+<h3 id="15-hlavní-rozdíly">1.5 Hlavní rozdíly</h3>
+<ol type="1">
+<li><strong>HD má málo staveb, peníze má podobně jako ostatní.</strong> Rebešovice mají peněz na obyvatele o něco víc než HD (39,4 proti 35,6 tis. Kč), ale k tomu stavby za 55 tis. Kč na obyvatele, HD za 28 tis. Kč. Písková Lhota a Závišice mají peněz méně (27,3 a 24,2 tis. Kč) a staveb víc (48 a 76 tis. Kč na obyvatele).</li>
+<li><strong>Odpisy ukazují, kolik majetku obec udržuje.</strong> HD odepisuje 0,75 tis. Kč na obyvatele ročně, ostatní obce 2,1–2,8 tis. Kč. Pro srovnání „hotovostní síly“ lze odpisy přičíst k výsledku: HD 10,0 mil., Písková Lhota 12,0 mil., Rebešovice 11,4 mil. a Závišice 9,5 mil. Kč v roce 2025.</li>
+<li><strong>Opravy místo investic jsou u HD výrazné.</strong> HD měla za 12 let opravy 27,5 mil. Kč a přírůstek staveb 25,0 mil. Kč. Písková Lhota měla opravy ještě vyšší (33,8 mil.), ale přidala i 48,4 mil. Kč staveb. Rebešovice a Závišice opravovaly málo (6,6 a 11,5 mil.).</li>
+<li><strong>Pozemků má HD málo.</strong> HD vlastní pozemky za 1,97 mil. Kč (1,8 tis. Kč na obyvatele), Písková Lhota za 5,51 mil., Rebešovice za 20,98 mil. (19,0 tis. Kč na obyvatele) a Závišice za 10,31 mil. Kč (v roce 2025 přibylo 5,9 mil.). Hodnoty jsou účetní (pořizovací ceny), ne tržní.</li>
+<li><strong>Skoky ve stavbách.</strong> Písková Lhota vykázala přírůstek staveb brutto o 15,5 mil. Kč v roce 2020 a o 18,4 mil. Kč v roce 2023 (současně klesl účet 042 z 42,6 na 5,7 mil.). Rebešovice o 25,2 mil. Kč v roce 2013 (účet 042 klesl z 33,8 na 1,5 mil.), o 17,2 mil. v roce 2016 a o 16,9 mil. v roce 2018. Závišice o 16,7 mil. Kč v roce 2018, což časově odpovídá víceúčelovému sportovnímu hřišti (smlouva 7,85 mil. Kč bez DPH, viz oddíl 3). V roce 2025 stavby Rebešovic brutto klesly o 40,7 mil. Kč a současně kleslo jmění účetní jednotky (účet 401) o 18,9 mil. Kč, což odpovídá vyřazení nebo převodu majetku mimo výsledek hospodaření. Co přesně se zařadilo nebo vyřadilo, výkazy neuvádějí.</li>
+</ol>
+<h2 id="2-registr-smluv-a-hlídač-státu">2. Registr smluv a Hlídač státu</h2>
+<p>Žádná ze čtyř obcí nevykonává rozšířenou působnost. Podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. tak nemají povinnost zveřejňovat v registru smluv (viz <a href="hd-registr-smluv.html">registr smluv HD</a>). Co v registru je, je proto dobrovolné, ať od obce, nebo od protistrany.</p>
+<h3 id="21-smlouvy-které-obec-vložila-sama">2.1 Smlouvy, které obec vložila sama</h3>
+<table>
+<thead>
+<tr>
+<th>Rok uzavření</th>
+<th style="text-align: right;">HD počet</th>
+<th style="text-align: right;">Písková Lhota počet</th>
+<th style="text-align: right;">Písková Lhota objem (Kč s DPH)</th>
+<th style="text-align: right;">Rebešovice počet</th>
+<th style="text-align: right;">Závišice počet</th>
+<th style="text-align: right;">Závišice objem (Kč s DPH)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2016–2017</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2019–2021</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1 076 016</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1 976 107</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4 823 471</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td>2026</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">100 000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+</tr>
+<tr>
+<td><strong>Celkem</strong></td>
+<td style="text-align: right;"><strong>0</strong></td>
+<td style="text-align: right;"><strong>5</strong></td>
+<td style="text-align: right;"><strong>5 999 487</strong></td>
+<td style="text-align: right;"><strong>1</strong></td>
+<td style="text-align: right;"><strong>1</strong></td>
+<td style="text-align: right;"><strong>1 976 107</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Písková Lhota vložila smlouvu o dílo na chodník a autobusové zastávky podél silnice II/610 (H-INTES s.r.o., 2025, 4,08 mil. Kč s DPH), smlouvu o dílo se ZIKUDA - vodohospodářské stavby spol. s r.o. (2022, 1,08 mil.), kupní smlouvu na nový vůz (2025, 0,74 mil.), veřejnoprávní smlouvu o dotaci na traktůrek (2026, 0,10 mil. Kč) a smlouvu o údržbě zeleně a zimní údržbě s Midori Fiedler s.r.o. (2023, bez ceny). Rebešovice vložily smlouvu o zřízení služebnosti (2018, bez ceny), Závišice smlouvu o svozu komunálního odpadu na roky 2023–2025 s Technickými službami města Nového Jičína (1,98 mil. Kč s DPH); stejnou smlouvu vložily do registru i technické služby.</p>
+<h3 id="22-smlouvy-kde-je-obec-stranou-a-vložila-je-protistrana">2.2 Smlouvy, kde je obec stranou a vložila je protistrana</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Počet (export registru, poslední verze)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr>
+<td>Hlavní protistrany</td>
+<td style="text-align: right;">SFŽP, KVIC, TS a.s., SZIF</td>
+<td style="text-align: right;">Středočeský kraj (2), Integrovaná doprava Středočeského kraje (2), Lesy ČR, ÚZSVM, SFŽP</td>
+<td style="text-align: right;">PGRLF (2), SZIF (2), Moravské zemské muzeum, KTS EKOLOGIE, DSO Šlapanicko, město Šlapanice, Vírský oblastní vodovod</td>
+<td style="text-align: right;">Gas Storage CZ (4), Technické služby města Nového Jičína (4), SFDI (2), Jednota s. d., SZIF, SFŽP</td>
+</tr>
+<tr>
+<td>Povaha</td>
+<td style="text-align: right;">dotace, mzdová agenda, objednávky</td>
+<td style="text-align: right;">dotace kraje pro hasiče, dopravní obslužnost, převody pozemků, dotace SFŽP</td>
+<td style="text-align: right;">úvěr a podpora PGRLF, dotace SZIF, směna pozemků, svoz odpadu, návratná výpomoc</td>
+<td style="text-align: right;">dary, svoz odpadu, dotace SFDI, SZIF a SFŽP</td>
+</tr>
+</tbody>
+</table>
+<p>Částky z tohoto oddílu se nesčítají, protože hodnoty dodatků a souvisejících smluv se v metadatech opakují.</p>
+<h3 id="23-hlídač-státu-hd-stav-30-10-2026-ostatní-obce-1-11-2026">2.3 Hlídač státu (HD stav 30. 10. 2026, ostatní obce 1. 11. 2026)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smluv v registru od 2016 (HS)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr>
+<td>Hodnota podle HS</td>
+<td style="text-align: right;">569 048 Kč</td>
+<td style="text-align: right;">8 mil. Kč</td>
+<td style="text-align: right;">5 mil. Kč</td>
+<td style="text-align: right;">18 mil. Kč</td>
+</tr>
+<tr>
+<td>Smlouvy bez ceny (roky s výskytem podle HS)</td>
+<td style="text-align: right;">2019 (2), 2022 (1)</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">2018 (1), 2020 (1)</td>
+<td style="text-align: right;">2025 (1)</td>
+</tr>
+<tr>
+<td>Hlavní dodavatelé obce podle HS</td>
+<td style="text-align: right;">TS a.s. (1 smlouva, 93 004 Kč)</td>
+<td style="text-align: right;">H-INTES, ZIKUDA, Midori Fiedler (po 1) ¹</td>
+<td style="text-align: right;">LCL, spol. s r.o. (1 smlouva bez ceny)</td>
+<td style="text-align: right;">Technické služby města Nového Jičína (1 smlouva, 2 mil. Kč)</td>
+</tr>
+<tr>
+<td>Veřejné zakázky jako zadavatel (HS)</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr>
+<td>Profilů zadavatele (HS)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Přijaté dotace (HS, počet / objem) ²</td>
+<td style="text-align: right;">43 / 30 mil. Kč</td>
+<td style="text-align: right;">12 / 7 mil. Kč</td>
+<td style="text-align: right;">21 / 67 mil. Kč</td>
+<td style="text-align: right;">89 / 55 mil. Kč</td>
+</tr>
+</tbody>
+</table>
+<p>¹ HS u Pískové Lhoty na prvním místě uvádí samotnou obec (3 smlouvy), protože obec je v metadatech některých smluv zapsána zároveň jako protistrana. ² Období podle HS: HD 2010–2025, Písková Lhota a Rebešovice 2011–2025, Závišice 2010–2026. Bez podřízených organizací.</p>
+<p>Hlídač státu u smluv zobrazuje i automatické příznaky rizik. Ty podle něj samotného „nedokazují pochybení ani porušení zákona“, proto je zde neuvádíme; najdete je na profilech obcí na hlidacstatu.cz.</p>
+<h3 id="24-hlavní-rozdíly">2.4 Hlavní rozdíly</h3>
+<ul>
+<li><strong>Dobrovolně do registru vkládá smlouvy hlavně Písková Lhota</strong>, a to od roku 2022, včetně smlouvy na chodník a autobusové zastávky (4,08 mil. Kč s DPH). Rebešovice a Závišice vložily po jedné smlouvě, HD žádnou.</li>
+<li><strong>HD má nejméně smluv v registru vůbec</strong> (9) a nejnižší objem. Závišice se v registru objevují hlavně díky protistranám (dary Gas Storage CZ, smlouvy technických služeb).</li>
+<li><strong>Smlouvy na zakázky</strong> zveřejňují HD, Rebešovice a Závišice hlavně na profilu zadavatele (viz oddíl 3), Písková Lhota od roku 2025 v NEN.</li>
+</ul>
+<h2 id="3-veřejné-zakázky">3. Veřejné zakázky</h2>
+<h3 id="31-profily-zadavatele">3.1 Profily zadavatele</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>HD</th>
+<th>Písková Lhota</th>
+<th>Rebešovice</th>
+<th>Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Platný profil podle VVZ</td>
+<td>vhodne-uverejneni.cz (od 2015)</td>
+<td>NEN (od 5. 11. 2025)</td>
+<td>e-zakazky.cz (od 2013) a NEN (od 2020)</td>
+<td>vhodne-uverejneni.cz (od 2013)</td>
+</tr>
+<tr>
+<td>Další profily ve VVZ</td>
+<td>–</td>
+<td>piskovalhota.profilzadavatele.cz (2019–2025, zrušený, adresa vrací chybu 403)</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Zakázek na profilu celkem</td>
+<td>18</td>
+<td>3 (NEN)</td>
+<td>23 (e-zakazky.cz) + 9 (NEN)</td>
+<td>33</td>
+</tr>
+<tr>
+<td>Formulářů ve VVZ (oznámení o výsledku, opravy a další)</td>
+<td>5</td>
+<td>0</td>
+<td>15</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-počet-zakázek-podle-roku-uveřejnění-v-závorce-přímá-zadání-a-evidence-smluv">3.2 Počet zakázek podle roku uveřejnění (v závorce přímá zadání a evidence smluv)</h3>
+<table>
+<thead>
+<tr>
+<th>Rok</th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2014</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>2015</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>2016</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>2017</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>2018</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3 (1)</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2 (1)</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>2026</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td><strong>2014–2026</strong></td>
+<td style="text-align: right;"><strong>18 (0)</strong></td>
+<td style="text-align: right;"><strong>3 (0)</strong></td>
+<td style="text-align: right;"><strong>32 (0)</strong></td>
+<td style="text-align: right;"><strong>33 (2)</strong></td>
+</tr>
+</tbody>
+</table>
+<p>U Pískové Lhoty jsou k dispozici jen zakázky v NEN od listopadu 2025; starší profil (piskovalhota.profilzadavatele.cz) vrací chybu 403, proto jsou roky do 2024 označeny „–“. Chodník a autobusové zastávky podél silnice II/610 má v NEN datum uveřejnění 2. 9. 2026, ale smlouva o dílo v registru smluv je z 20. 10. 2025, takže jde nejspíš o dodatečně zveřejněnou zakázku. U 15 zakázek Rebešovic z let 2015–2021 se detail na e-zakazky.cz nezobrazuje a rok je převzatý z identifikátoru zakázky.</p>
+<h3 id="33-souhrnné-ukazatele-20142026">3.3 Souhrnné ukazatele 2014–2026</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: right;">HD</th>
+<th style="text-align: right;">Písková Lhota</th>
+<th style="text-align: right;">Rebešovice</th>
+<th style="text-align: right;">Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Soutěžené zakázky (bez přímých zadání)</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">31</td>
+</tr>
+<tr>
+<td>z toho zjednodušené podlimitní nebo otevřené řízení</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr>
+<td>Zrušené</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>Soutěže s ≥ 2 uvedenými účastníky</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr>
+<td>Průměr / medián účastníků u nich</td>
+<td style="text-align: right;">5,3 / 6</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">4,0 / 3</td>
+<td style="text-align: right;">3,9 / 3</td>
+</tr>
+<tr>
+<td>Cena / předpokládaná hodnota: počet případů</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>Medián (rozpětí)</td>
+<td style="text-align: right;">82 % (62–108 %)</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">72 % (23–85 %)</td>
+<td style="text-align: right;">79 % (76–88 %)</td>
+</tr>
+<tr>
+<td>Zadaný objem, kde je cena uvedena (mil. Kč bez DPH)</td>
+<td style="text-align: right;">30,5 (13 zakázek)</td>
+<td style="text-align: right;">3,4 (1)</td>
+<td style="text-align: right;">45,9 (12)</td>
+<td style="text-align: right;">27,2 (15)</td>
+</tr>
+</tbody>
+</table>
+<p>Stránka o <a href="hd-zakazky.html">zakázkách HD</a> uvádí průměr 5,1 nabídky u 11 zakázek z let 2020–2026. Tam jsou zahrnuty i zakázky, u nichž počet nabídek pochází z dokumentů, ne z karty účastníků. U Rebešovic jsou počet účastníků a cena u zakázky Místní komunikace a inženýrské sítě (2024) převzaty z přehledu nabídek a oznámení o výběru dodavatele na profilu, protože karta účastníků je prázdná. Závišice u dvou největších soutěží (bezbariérový chodník Paseky 2021, předpokládaná hodnota 7,95 mil. Kč a 8 účastníků; tělocvična u ZŠ 2024, užší řízení, 7,55 mil. Kč) cenu na profilu neuvádějí; vítěze uvádí Věstník veřejných zakázek.</p>
+<h3 id="34-nejčastější-vítězové-a-administrátoři-20142026">3.4 Nejčastější vítězové a administrátoři 2014–2026</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>HD</th>
+<th>Písková Lhota</th>
+<th>Rebešovice</th>
+<th>Závišice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vítězové (počet zakázek)</td>
+<td>LOMPARK 2, BESKYDGROUP 2, dále po 1 (STRABAG, Strojírny a stavby Třinec, ENCO group, ELBAU-MONT, KANIA, SPORTOVNÍ PODLAHY ZLÍN, Aklera Corp, SDO Technika, ALPINE Bau, Haospol)</td>
+<td>H-INTES 1 (další dvě zakázky zatím bez výsledku)</td>
+<td>po 1: PS BRNO, SWIETELSKY, VHS Břeclav, KTS EKOLOGIE, UH CAR, HITL, Navara abrollkipper, IS-ARCH, PB SCOM, PROFITEAM topení - voda - plyn, DOSIP servis, ZAEL Design a fyzická osoba</td>
+<td>JAPSTAV MORAVA 5, Projektování staveb Šigut 2, HYDROPROGRESS 2, dále po 1 (CHALUPA A SYN, COLAS CZ, Certero IT Solutions, ČEZ Energetické služby, KANIA, Mostní projekce, PORR, SPORTOVNÍ PODLAHY ZLÍN, TEON STAV)</td>
+</tr>
+<tr>
+<td>Administrátor (počet zakázek)</td>
+<td>TISPOL s.r.o. 13, Regionální poradenská agentura Brno 1, nezjištěno 4</td>
+<td>nezjištěno 3</td>
+<td>Agentura K 1 s.r.o. 1 (2024), administrátor s doménou ashpa.cz 1 (2026), nezjištěno 30</td>
+<td>RPA Projekty, s.r.o. 2 (2024), Erste Grantika Advisory, a.s. 1 (2018), ITM, institut pro vzdělávání a poradenství, s.r.o. 1 (2021), QUANTUM CZ s. r. o. 1 (2016), nezjištěno 28</td>
+</tr>
+<tr>
+<td>Největší zakázky (mil. Kč bez DPH)</td>
+<td>oprava MK1 7,58; hřiště 5,46; MK 5 + MK 10 4,71</td>
+<td>chodník a autobusové zastávky podél silnice II/610 3,37</td>
+<td>mateřská škola (2. řízení) 20,49 (9 nabídek); sběrný dvůr 9,79 (2); místní komunikace a inženýrské sítě 5,89 (3)</td>
+<td>víceúčelové sportovní hřiště 7,85; obnova komunikace k myslivecké chatě po povodni 3,69 (3); revitalizace veřejného osvětlení 3,26 (3)</td>
+</tr>
+</tbody>
+</table>
+<p>„Nezjištěno“ neznamená, že obec zakázku administrovala sama. Znamená jen, že v dostupných dokumentech chybí kontakt nebo zmínka o pověřené osobě. U Rebešovic na e-zakazky.cz mají dokumenty jen zakázky od roku 2022 a u NEN se administrátor určuje jen z kontaktní osoby zadavatele.</p>
+<p>Stejní dodavatelé se opakují i mezi vzdálenými obcemi: KANIA a SPORTOVNÍ PODLAHY ZLÍN vyhrály po jedné zakázce v HD i v Závišicích (v obou obcích šlo u SPORTOVNÍCH PODLAH ZLÍN o hřiště). KTS EKOLOGIE s.r.o., která vyhrála soutěž Rebešovic na svoz odpadu (2020, 5 účastníků), je podle Hlídače státu podřízenou organizací obce.</p>
+<h3 id="35-hlavní-rozdíly">3.5 Hlavní rozdíly</h3>
+<ol type="1">
+<li><strong>Rozsah:</strong> HD zadala od roku 2014 18 zakázek za 30,5 mil. Kč bez DPH (13 s cenou). Rebešovice zadaly 32 zakázek a u 12 z nich, kde je cena uvedena, 45,9 mil. Kč, z toho 20,5 mil. Kč připadá na mateřskou školu. Závišice zadaly 33 zakázek a u 15 s cenou 27,2 mil. Kč; u dvou největších soutěží ale cena na profilu chybí, takže skutečný objem je vyšší. U Pískové Lhoty nelze rozsah posoudit, protože starší profil není dostupný.</li>
+<li><strong>Soutěž:</strong> zjednodušené podlimitní nebo otevřené řízení vedla HD třikrát, Rebešovice sedmkrát (z toho dvě zrušená řízení na svoz odpadu) a Závišice třináctkrát (šest zakázek zrušily, z toho pět výběrů zpracovatele projektové dokumentace v letech 2025–2026). Průměrná soutěž přilákala v HD 5 účastníků, v Rebešovicích a Závišicích 4.</li>
+<li><strong>Úspora proti předpokládané hodnotě:</strong> medián je u Rebešovic 72 % (8 případů, mj. demolice za 23 % odhadu), u Závišic 79 % (4 případy) a u HD 82 % (13 případů). Vzorky jsou malé.</li>
+<li><strong>Zveřejňování přímých zadání:</strong> na profil je vkládají jen Závišice (2 záznamy). HD, Rebešovice ani Písková Lhota přímá zadání na profilu nemají. Písková Lhota zato vkládá smlouvy do registru smluv (oddíl 2).</li>
+</ol>
+<h2 id="pozor">Pozor</h2>
+<ul>
+<li><strong>Posunuté kódy účtů v letech 2010–2011.</strong> V extraktech MF za 2010 a 2011 neodpovídá sloupec syntetického účtu řádku výkazu. Pro tyto roky jsou účty přiřazeny podle číselníku MF pro období do 31. 12. 2011, pro roky 2012–2025 se bere kód z dat. U Závišic tak úvěr v letech 2010–2011 vychází jako dlouhodobý (451), ačkoli data MF ho mají pod kódem krátkodobého úvěru; součet úvěrů se tím nemění.</li>
+<li><strong>Účetní reforma 2010–2012:</strong> odpisy se u všech obcí objevují až od let 2011–2013. Pokles aktiv v roce 2011 (HD 15,8 → 10,6, Písková Lhota 35,4 → 33,2, Rebešovice 83,3 → 73,6, Závišice 54,6 → 42,8 mil.) je jednorázové doúčtování oprávek, ne úbytek majetku. Ztráta Rebešovic v roce 2010 (−15,96 mil. Kč) vychází hlavně z řádku „ostatní náklady z činnosti“ (17,37 mil. Kč); výkazy ji blíže nevysvětlují. Roky 2010–2011 nejsou s pozdějšími plně srovnatelné.</li>
+<li><strong>Jednorázové položky:</strong> Písková Lhota vykázala v roce 2020 odpisy 11,18 mil. Kč (v ostatních letech 0,55–2,80 mil.) a v roce 2022 opravy 15,88 mil. Kč; obojí vedlo ke ztrátě v daném roce.</li>
+<li><strong>Účetní, ne tržní hodnoty.</strong> Stavby a pozemky jsou v pořizovacích cenách. Rozvaha neukazuje, které stavby obec vlastní, a skoky ve stavbách bez inventurních soupisů vysvětlit nejde.</li>
+<li><strong>Na obyvatele</strong> se přepočítává stavem k 31. 12. daného roku.</li>
+<li><strong>Peníze</strong> jsou jen účty 231, 244 a 245. Rebešovice mají v roce 2025 navíc majetkové cenné papíry k obchodování (účet 251) za 3,62 mil. Kč a Závišice peníze na účtech fondů (236) 0,45 mil. Kč.</li>
+<li><strong>Registr smluv:</strong> hodnoty dodatků se v metadatech opakují. Součty za smlouvy vložené protistranou proto nejsou uvedeny. U všech tří obcí se počet smluv podle Hlídače státu shoduje s exportem registru. Smlouva Závišic o svozu odpadu z roku 2023 je v registru dvakrát (vložila ji obec i technické služby).</li>
+<li><strong>Počty účastníků na profilu:</strong> e-zakazky.cz i vhodne-uverejneni.cz u části zakázek uvádějí jen vybraného dodavatele. Průměry se proto počítají jen ze zakázek, kde profil uvádí aspoň dva účastníky. U Rebešovic počet účastníků chybí u 22 z 32 zakázek, u Závišic u 11 z 31 soutěží.</li>
+<li><strong>Cena / předpokládaná hodnota:</strong> cenou se rozumí smluvní cena bez DPH z detailu smlouvy, a kde chybí, nabídková cena vybraného dodavatele. U zakázek s dodatky je to cena po dodatcích. U Pískové Lhoty předpokládaná hodnota v NEN uvedena není.</li>
+<li><strong>Administrátoři</strong> jsou určeni z e-mailových domén a textu v nejvýše třech až čtyřech dokumentech na zakázku (výzva, zadávací dokumentace, oznámení o výběru, přehled nabídek). Doména deregio.cz patří podle zadávací dokumentace Závišic firmě RPA Projekty, s.r.o. U domény ashpa.cz (kontaktní osoba zadavatele v NEN u Rebešovic) nebyla firma ověřena.</li>
+<li><strong>NEN:</strong> zakázky byly hledány veřejným fulltextovým hledáním názvu obce. Zakázku, jejíž název ani zadavatel slovo neobsahuje, by hledání nezachytilo. Pro Závišice NEN žádnou vlastní zakázku obce nevrátil.</li>
+<li><strong>Rok 2026</strong> v účetních výkazech chybí (MF ho zveřejní zhruba v březnu 2027). Registr, Hlídač státu a zakázky jsou u Pískové Lhoty, Rebešovic a Závišic ke stavu 1. 11. 2026, u HD k 30. 10. 2026.</li>
+<li>Jména fyzických osob, které vyhrály zakázky, ani jména představitelů obcí se neuvádějí.</li>
+</ul>
+<h2 id="metodika-a-zdroje">Metodika a zdroje</h2>
+<ul>
+<li><strong>Monitor státní pokladny MF</strong> (<a href="https://monitor.statnipokladna.gov.cz">https://monitor.statnipokladna.gov.cz</a>), roční extrakty CSUIS za 2010–2025: rozvaha a výkaz zisku a ztráty, vybrané řádky čtyř obcí podle IČO. Názvy řádků jsou z číselníku MF. Bilance aktiv a pasiv sedí u všech čtyř obcí ve všech letech a výsledek v rozvaze se rovná výsledku ve výkazu zisku a ztráty. Čísla HD jsou stejná jako na stránce <a href="srovnani-majetek-zakazky.html">Srovnání majetku, smluv a zakázek</a>. Ukazatele po letech jsou v souboru <a href="data/podobne_obce_ukazatele_rozvaha_vzz.csv">podobne_obce_ukazatele_rozvaha_vzz.csv</a>.</li>
+<li><strong>Obyvatelé:</strong> ČSÚ, datová sada OBY01B01 (<a href="https://data.csu.gov.cz/opendata/sady/OBY01B01/distribuce/csv">https://data.csu.gov.cz/opendata/sady/OBY01B01/distribuce/csv</a>), počet obyvatel k 31. 12.</li>
+<li><strong>Registr smluv:</strong> podrobné vyhledávání na smlouvy.gov.cz s exportem (jen poslední verze), zvlášť podle IČO publikujícího subjektu a podle IČO smluvní strany.</li>
+<li><strong>Hlídač státu:</strong> <a href="https://www.hlidacstatu.cz/subjekt/">https://www.hlidacstatu.cz/subjekt/</a>&lt;IČO&gt; a podstránky registr smluv, dodavatelé, rizika a veřejné zakázky.</li>
+<li><strong>Veřejné zakázky:</strong> profily zadavatele na vhodne-uverejneni.cz (Závišice; seznam zakázek, karta účastníků, detail smluv) a e-zakazky.cz (Rebešovice; detail zakázky, účastníci a dokumenty), Věstník veřejných zakázek (api.vvz.nipez.cz) a veřejné vyhledávání v NEN (Písková Lhota a Rebešovice).</li>
+</ul>
+
+</main>
+</div>
+<footer class="site-footer"><div class="inner">
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
+</div></footer>
+<script src="static/app.js"></script>
+<script src="static/report.js"></script>
+</body>
+</html>

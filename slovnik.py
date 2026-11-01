@@ -127,8 +127,8 @@ DATASETS = {
             'investice_plus_opravy_kc': 'Třída 6 + položka 5171 v daném paragrafu. Kč.',
         },
     },
-    'ukazatele_rozvaha_vzz_4_obce.csv': {
-        'popis': 'Rozvaha a výkaz zisku a ztráty HD, Pazderny, Dolních Domaslavic a Lučiny (zatím bez Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.',
+    'ukazatele_rozvaha_vzz_sousede.csv': {
+        'popis': 'Rozvaha a výkaz zisku a ztráty HD a sousedních obcí (včetně Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.',
         'radek': 'jedna obec × rok (stav k 31. 12.)',
         'zdroj': 'Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.',
         'pozor': ['Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.'],
@@ -404,6 +404,7 @@ DATASETS = {
     'podobne_obce_roztrisenost.csv': {'stejne_jako': 'roztrisenost_sousede.csv', 'popis': 'Ukazatele roztříštěnosti zástavby HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) (stejné sloupce jako `roztrisenost_sousede.csv`).'},
     'podobne_obce_obyvatel_rocne_2000-2025.csv': {'stejne_jako': 'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv', 'popis': 'Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).'},
     'podobne_obce_RUIAN_souhrn_stav_20260930.csv': {'stejne_jako': 'RUIAN_souhrn_sousede_stav_20260930.csv', 'popis': 'Budovy, byty a technické vybavení podle RÚIAN (stav 30. 9. 2026) pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné řádky jako `RUIAN_souhrn_sousede_stav_20260930.csv`).'},
+    'podobne_obce_ukazatele_rozvaha_vzz.csv': {'stejne_jako': 'ukazatele_rozvaha_vzz_sousede.csv', 'popis': 'Rozvaha a výkaz zisku a ztráty HD, Pískové Lhoty, Rebešovic a Závišic (stejné sloupce jako `ukazatele_rozvaha_vzz_sousede.csv`).'},
     'podobne_obce_investice_podle_ucelu_2016-2025.csv': {
         'popis': 'Investice a opravy za roky 2016–2025 sečtené podle účelu (sloučené paragrafy) pro HD, Pískovou Lhotu, Rebešovice a Závišice.',
         'radek': 'jedna obec × kategorie účelu',
@@ -456,6 +457,8 @@ DATASETS = {
 
 from slovnik_volby import VOLBY_SPOLKY_DATASETS  # noqa: E402
 DATASETS.update(VOLBY_SPOLKY_DATASETS)
+from slovnik_socialni import SOCIALNI_DATASETS  # noqa: E402
+DATASETS.update(SOCIALNI_DATASETS)
 
 
 def columns(name):
