@@ -50,7 +50,9 @@ def is_vydaj(par, pol):
     return pol[:1] in '56' and par != '0000' and pol not in ('6330', '6399') and par not in ('6330', '6399')
 
 def is_prijem(par, pol):
-    return pol[:1] in '1234' and pol != '4134' and par not in ('6330',)
+    # bez 4134 (převody z vlastních fondů) a bez 1122 (daň z příjmů placená obcí sama sobě;
+    # její protějšek § 6399 je mimo výdaje, proto se nepočítá ani do příjmů)
+    return pol[:1] in '1234' and pol not in ('4134', '1122') and par not in ('6330',)
 
 def is_rezerva(par, pol):
     return (par == '3639' and pol == '5169') or (par == '6409' and pol == '5901')
@@ -97,7 +99,7 @@ for k, agg in data.items():
         'opravy': tot(agg, lambda a, b: is_vydaj(a, b) and b == '5171'),
         'bezne_bez_rez': tot(agg, lambda a, b: is_vydaj(a, b) and b[:1] == '5' and not is_rezerva(a, b)),
         'financovani_8115': tot(agg, lambda a, b: b == '8115'),
-        't1': tot(agg, lambda a, b: b[:1] == '1'),
+        't1': tot(agg, lambda a, b: b[:1] == '1' and b != '1122'),
         't2': tot(agg, lambda a, b: b[:1] == '2'),
         't3': tot(agg, lambda a, b: b[:1] == '3'),
         't4': tot(agg, lambda a, b: b[:1] == '4' and b != '4134'),
@@ -191,7 +193,7 @@ for (typ, par, pol), v in sorted(data['2026_09'].items(), key=lambda x: (x[0][2]
 with open(os.path.join(OUT, 'rozpocet_2026_srovnani_k_30_9.csv'), 'w', encoding='utf-8', newline='') as f:
     w = csv.writer(f)
     w.writerow(['ukazatel', 'rok', 'schvaleny_kc', 'upraveny_kc', 'skutecnost_k_30_9_kc', 'plneni_upraveneho_pct', 'skutecnost_cely_rok_kc'])
-    for key, label in [('prijmy', 'Příjmy (třídy 1–4 bez 4134)'), ('t1', 'Daňové příjmy (třída 1)'),
+    for key, label in [('prijmy', 'Příjmy (třídy 1–4 bez 4134 a 1122)'), ('t1', 'Daňové příjmy (třída 1 bez 1122)'),
                        ('t2', 'Nedaňové příjmy (třída 2)'), ('t3', 'Kapitálové příjmy (třída 3)'), ('t4', 'Přijaté transfery (třída 4 bez 4134)'),
                        ('vydaje', 'Výdaje celkem (třídy 5–6)'), ('rezerva', 'z toho rezervy'), ('vydaje_bez_rez', 'Výdaje bez rezerv'),
                        ('t5', 'Běžné výdaje (třída 5, vč. rezervy)'), ('t6', 'Kapitálové výdaje (třída 6)'), ('opravy', 'Opravy (5171)')]:

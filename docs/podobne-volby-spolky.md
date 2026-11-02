@@ -1,6 +1,6 @@
 # Volby a spolky (podobné obce)
 
-Zdroj: https://hd-v-datech.cz/podobne-volby-spolky.html (aktualizováno 2026-11-01)
+Zdroj: https://hd-v-datech.cz/podobne-volby-spolky.html (aktualizováno 2026-11-02)
 
 > Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích, Pískové Lhotě, Rebešovicích a Závišicích.
 
@@ -16,7 +16,7 @@ Pro orientaci: k 1. 7. 2025 měly HD 1 100 obyvatel, Písková Lhota 1 117, Rebe
 4. **Zastupitelstvo HD se v roce 2026 obměnilo nejvíc ze všech čtyř obcí.** Z 13 zvolených bylo zvoleno už v roce 2022 jen 3 až 4 (23–31 %, podle toho, zda se započte jedna osoba zvolená dříve pod jiným příjmením). V Pískové Lhotě byli znovu zvoleni 6 z 9 zastupitelů, v Rebešovicích 7 z 9 a v Závišicích 4 z 9. Podobně nízký podíl znovuzvolených se od roku 2002 objevil jen v Rebešovicích v letech 2010 a 2014 (29 % a 22 %).
 5. **Ve sněmovních a prezidentských volbách měla HD ze čtyř obcí nejnižší účast.** Platí to pro všechny sněmovní volby 2013–2025 i pro obě kola prezidentské volby 2023. Účast byla ve všech čtyřech obcích vyšší než v ČR. Ve 2. kole prezidentské volby 2023 získal ve všech čtyřech obcích většinu kandidát, který byl zvolen prezidentem; v HD nejméně (57,0 %), v Rebešovicích nejvíc (62,3 %). KDU-ČSL má nadprůměrnou podporu v HD a v Závišicích. V roce 2017 v nich získala 12,8 % a 15,7 %, zatímco v Pískové Lhotě 1,6 % a v ČR 5,8 %.
 6. **V HD a Závišicích sídlí výrazně méně spolků a firem než v Pískové Lhotě a Rebešovicích.** V HD jsou podle ARES 4 spolky nebo pobočné spolky (3,6 na 1 000 obyvatel) a v Závišicích také 4 (3,4). V Pískové Lhotě je to 10 subjektů včetně jednoho ústavu (9,0 na 1 000) a v Rebešovicích 11 (10,0 na 1 000). Na 1 000 obyvatel připadá v HD 12,7 obchodní společnosti, v Závišicích 15,5, v Pískové Lhotě 22,4 a v Rebešovicích 49,1.
-7. **HD dávala v letech 2010–2021 spolkům a jiným neziskovým organizacím na obyvatele méně než Písková Lhota a Rebešovice. V letech 2024–2025 dala ze čtyř obcí nejvíc.** V letech 2010–2021 vydávala HD na položky 5221, 5222 a 5229 v průměru 28–48 Kč na obyvatele a rok, Písková Lhota 116–201 Kč, Rebešovice 76–107 Kč a Závišice 14–160 Kč. V letech 2024 a 2025 to bylo v HD zhruba 250 Kč na obyvatele, v Pískové Lhotě 158 a 193 Kč, v Rebešovicích 132 a 136 Kč a v Závišicích 31 a 30 Kč. Výdaje bez humanitárního daru a členských příspěvků jsou uvedeny v oddílu 3.2.
+7. **HD dávala v letech 2010–2021 spolkům a jiným neziskovým organizacím na obyvatele méně než Písková Lhota a Rebešovice. V letech 2024–2025 dala ze čtyř obcí nejvíc.** Na položky 5221, 5222 a 5229, očištěno o členské příspěvky (§ 6171) a krizovou a humanitární pomoc (§ 52xx a 62xx, viz oddíl 3.2), vydávala HD v letech 2010–2021 v průměru za čtyřletí 28–48 Kč na obyvatele a rok, Písková Lhota 116–201 Kč, Rebešovice 76–107 Kč a Závišice 14–160 Kč. V letech 2024 a 2025 to bylo po očištění v HD zhruba 250 Kč na obyvatele, v Pískové Lhotě 158 a 193 Kč, v Rebešovicích 132 a 136 Kč a v Závišicích 31 a 30 Kč. Bez očištění by HD v roce 2024 měla 726 Kč na obyvatele, hlavně kvůli daru 500 000 Kč obcím zasaženým povodněmi.
 
 ## 1. Komunální volby 1994–2026
 

@@ -1,7 +1,7 @@
 ---
 title: "Majetek a účetnictví obce"
 description: "Co obec Horní Domaslavice vlastní, jaké má náklady, výnosy, pohledávky a závazky a jak hospodaří mateřská škola, 2010–2025."
-updated: "2026-10-31"
+updated: "2026-11-02"
 ---
 
 Rozpočet ukazuje, kolik peněz obec přijala a vydala (viz [výdaje obce](hd-vydaje.html)). Účetnictví ukazuje něco jiného: jaký majetek obec má (budovy, pozemky, peníze), komu dluží a kdo dluží jí, a jaký má účetní výsledek hospodaření. Tato stránka shrnuje rozvahu, výkaz zisku a ztráty a přílohu účetní závěrky obce Horní Domaslavice a její Mateřské školy za roky 2010–2025. Data pocházejí z otevřených dat Ministerstva financí (Monitor státní pokladny). Částky jsou v mil. Kč, zaokrouhlené na dvě desetinná místa, stav vždy k 31. 12. daného roku.
@@ -64,8 +64,8 @@ V letech 2010–2014 obec vykazovala všechny stavby v řádku „bytové domy�
 
 1. **Majetek se za 15 let téměř zpětinásobil, hlavně kvůli penězům.** Aktiva netto vzrostla z 15,8 mil. (2010) na 76,6 mil. (2025). Z toho 39,5 mil., tedy 52 %, tvoří peníze na účtu. Stavby netto vzrostly z 10,5 na 30,6 mil. Od roku 2021 ale mírně klesají (32,5 → 30,6 mil.), protože odpisy (0,8 mil. ročně) jsou vyšší než nové investice. Podíl peněz na aktivech stoupl z 2 % (2010) na 35 % (2021) a 52 % (2025).
 2. **Největší skok v majetku přinesla rekonstrukce MŠ v roce 2021.** Stavby brutto vzrostly za rok o 14,17 mil. Z toho 11,78 mil. obec v roce 2021 vykázala jako „bytové domy“ a v roce 2022 to přeřadila do „budov pro služby obyvatelstvu“ (13,89 → 25,68 mil.). Zbylých 2,38 mil. přibylo v komunikacích a veřejném osvětlení (8,40 → 10,78 mil.), což odpovídá investici do veřejného osvětlení v roce 2021. Podrobnosti o MŠ jsou v oddílu 4.
-3. **Druhý velký přírůstek staveb byl v roce 2018** (+3,45 mil.). Šlo hlavně o komunikace a veřejné osvětlení (5,38 → 8,40 mil.), časově to sedí s chodníky a hřbitovem z rozpočtových dat. Jednotlivé stavby výkazy nerozlišují.
-4. **Opravy silnic v majetku nejsou.** Opravy MK 1 (2023, 8,5 mil.) a MK 5 + MK 10 (2024, 5,2 mil.) obec zaúčtovala jako náklad (účet 511, viz oddíl 2). Řádek „komunikace a VO“ se v letech 2022–2025 téměř nezměnil (10,78 → 10,90 mil.). Pro hodnocení investiční aktivity je to důležité: tyto peníze se v rozvaze neprojeví jako majetek.
+3. **Druhý velký přírůstek staveb byl v roce 2018** (+3,45 mil.). Šlo hlavně o komunikace a veřejné osvětlení (5,38 → 8,40 mil.), časově to sedí s chodníky (investice na § 2219 2,40 mil.) z rozpočtových dat. Oplocení a chodníky na hřbitově (2018–2019) obec zaúčtovala jako opravy (§ 3632/5171: 2,97 a 1,10 mil.). Jednotlivé stavby výkazy nerozlišují.
+4. **Opravy silnic v majetku nejsou.** Opravy MK 1 (2023) a MK 5 + MK 10 (2024) obec zaúčtovala jako náklad (účet 511, viz oddíl 2). Účet 511 obsahuje všechny opravy obce: v roce 2023 8,50 mil. a v roce 2024 5,24 mil., dohromady 13,7 mil. Samotné opravy silnic (rozpočet, § 2212/5171) činily 8,27 a 4,80 mil. (viz [výdaje obce](hd-vydaje.html)). Řádek „komunikace a VO“ se v letech 2022–2025 téměř nezměnil (10,78 → 10,90 mil.). Pro hodnocení investiční aktivity je to důležité: tyto peníze se v rozvaze neprojeví jako majetek.
 5. **Pozemky mají jen malou účetní hodnotu, 1,97 mil.** Rostou pomalu, za 2015–2025 o 0,85 mil. V roce 2011 klesly o 0,20 mil. a v letech 2012, 2014 a 2015 obec pozemky prodávala (výnosy z prodeje 1,72, 3,03 a 0,68 mil.).
 6. **Nehmotný majetek** (účet 019, pravděpodobně územní plán; z výkazů to ověřit nejde): 0,80 mil. brutto do roku 2018. V roce 2019 bylo vyřazeno 0,52 mil. brutto a v roce 2024 přibylo 0,28 mil. brutto. Časově by to mohlo souviset se změnou územního plánu, ale ověřené to není.
 
@@ -116,13 +116,13 @@ V letech 2010–2014 obec vykazovala všechny stavby v řádku „bytové domy�
 | 2024 | 3,80 | 3,97 | **5,24** | 0,78 | 0,79 | 0,14 | 2,19 | 0,10 | 0,08 | 0,25 | 17,35 | 18,75 | 0,78 | 1,54 | 21,07 | 3,73 |
 | 2025 | 4,16 | 4,35 | 0,89 | 0,69 | 0,83 | 0,26 | 1,74 | 0,11 | 0,19 | 0,09 | 13,32 | 20,39 | 0,68 | 1,45 | 22,52 | **9,20** |
 
-„Osobní“ jsou účty 521–528: mzdy, odměny zastupitelů, pojistné a sociální náklady. „Daně a poplatky“ jsou sdílené daně (681–688), v letech 2010–2011 účty 631–636. Místní poplatky (606, například za odpady) jsou v „ostatních výnosech“: 0,30 mil. (2010), 0,44 (2020), 0,80 (2023) a 0,85 mil. (2025). „Ostatní výnosy“ v letech 2012, 2014 a 2015 navyšují prodeje pozemků (1,72, 3,03 a 0,68 mil.). VH = výsledek hospodaření (zisk nebo ztráta).
+„Osobní“ jsou účty 521–528: mzdy, odměny zastupitelů, pojistné a sociální náklady. „Daně a poplatky“ jsou sdílené daně (681–688), v letech 2010–2011 účty 631–636. Místní poplatky (606, například za odpady) jsou v „ostatních výnosech“: 0,30 mil. (2010), 0,44 (2020), 0,80 (2023) a 0,85 mil. (2025). „Ostatní výnosy“ v letech 2012, 2014 a 2015 navyšují prodeje pozemků (1,72, 3,03 a 0,68 mil.). VH = výsledek hospodaření (kladný nebo záporný).
 
 ### Hlavní zjištění k nákladům a výsledku
 
-1. **Obec je každý rok v účetním zisku, v roce 2025 nejvyšším** (9,20 mil.). Jediná ztráta je z roku 2010 (−0,39 mil.). Součet výsledků 2014–2025 je 51,5 mil. Kč, z toho 15,4 mil. v letech 2018–2021 a 21,9 mil. v letech 2022–2025.
+1. **Výsledek hospodaření obce je od roku 2011 každý rok kladný, nejvyšší v roce 2025** (9,20 mil.). Záporný byl jen v roce 2010 (−0,39 mil.). Součet výsledků 2014–2025 je 51,5 mil. Kč, z toho 15,4 mil. v letech 2018–2021 a 21,9 mil. v letech 2022–2025.
 2. **Služby (518) se od roku 2018 zhruba zdvojnásobily až ztrojnásobily**, z 1,71 mil. na 4,35 mil. v roce 2025. Rostou rychleji než osobní náklady (2,79 → 4,16 mil.). To souhlasí s rozpočtovými daty (IT, nájemné, akce, správa).
-3. **Opravy jsou nejrozkolísanější položka:** 3,67 a 3,21 mil. v letech 2018–2019 (hřbitov, chodníky), 8,50 mil. v roce 2023 a 5,24 mil. v roce 2024 (silnice), potom 0,89 mil. v roce 2025. Výsledek 2023 (1,23 mil.) je nízký právě kvůli opravě MK 1.
+3. **Opravy jsou nejrozkolísanější položka:** 3,67 a 3,21 mil. v letech 2018–2019 (hlavně hřbitov a chodníky), 8,50 mil. v roce 2023 a 5,24 mil. v roce 2024 (hlavně silnice), potom 0,89 mil. v roce 2025. Jde o celý účet 511, tedy o všechny opravy obce; stránka [výdaje obce](hd-vydaje.html) uvádí jen opravy na konkrétních paragrafech (silnice 8,27 a 4,80 mil., hřbitov 2,97 a 1,10 mil.). Výsledek 2023 (1,23 mil.) je nízký právě kvůli opravě MK 1.
 4. **Odpisy** vzrostly z 0,4 mil. (do roku 2020) na 0,83 mil. (2025), hlavně kvůli zařazení rekonstruované MŠ. V letech 2022–2025 odpisy (3,13 mil.) téměř odpovídaly investicím (3,72 mil. podle rozpočtu), takže majetek se jen udržoval.
 5. **Jednorázové položky:** v roce 2015 drobný majetek 1,12 mil. a v roce 2022 1,84 mil. (v roce 2022 jsou to kompostéry pro občany, k tomu dary 0,69 mil.). V roce 2016 jsou **manka a škody 0,17 mil. Kč** (účet 547) a odpis nedobytných pohledávek 0,02 mil. Co bylo předmětem manka, výkaz neuvádí; vysvětlení by mohla obsahovat inventarizační zpráva za rok 2016.
 6. **Daň z příjmů (591)** platí obec sama sobě (daň z příjmů právnických osob za obec). Nejvyšší byla v roce 2014 (0,65 mil., v roce s velkým prodejem pozemků) a v roce 2025 (0,19 mil.).
@@ -131,14 +131,14 @@ V letech 2010–2014 obec vykazovala všechny stavby v řádku „bytové domy�
 
 | Období | VH (výkaz zisku a ztráty) | Saldo příjmů a výdajů (rozpočet) | Investice (rozpočet, třída 6) | Odpisy | Investiční dotace připsané na účet 403 |
 |---|---:|---:|---:|---:|---:|
-| 2014–2017 | 14,25 | 11,48 | 6,54 | 1,60 | 2,64 |
-| 2018–2021 | 15,39 | 9,30 | 19,01 | 1,82 | 11,99 |
-| 2022–2025 | 21,88 | 20,81 | 3,72 | 3,13 | 0,42 |
-| **2014–2025** | **51,52** | **41,59** | **29,27** | **6,55** | **15,05** |
+| 2014–2017 | 14,25 | 10,65 | 6,54 | 1,60 | 2,64 |
+| 2018–2021 | 15,39 | 9,08 | 19,01 | 1,82 | 11,99 |
+| 2022–2025 | 21,88 | 20,40 | 3,72 | 3,13 | 0,42 |
+| **2014–2025** | **51,52** | **40,13** | **29,27** | **6,55** | **15,05** |
 
-Saldo a investice jsou převzaté z rozpočtových dat (viz [výdaje obce](hd-vydaje.html)), ostatní je z rozvahy, výkazu zisku a ztráty a přílohy. Účetní výsledek je za 12 let o 9,9 mil. vyšší než rozpočtové saldo. Rozdíl zhruba vysvětlují investice, které nejsou nákladem (29,3 mil.), minus odpisy (6,6 mil.) a minus investiční dotace, které nejdou do výnosů, ale na účet 403 (15,1 mil.). Dohromady je to 7,7 mil. K tomu přistupuje rozpouštění účtu 403 do výnosů (1,65 mil. za 2014–2025) a časové rozlišení. Peníze na účtu vzrostly za stejné období o 38,8 mil. (0,70 → 39,49 mil.), o něco méně než saldo kvůli splátkám úvěrů a dalších závazků (viz oddíl 3).
+Saldo a investice jsou převzaté z rozpočtových dat (viz [výdaje obce](hd-vydaje.html)), ostatní je z rozvahy, výkazu zisku a ztráty a přílohy. Účetní výsledek je za 12 let o 11,4 mil. vyšší než rozpočtové saldo. Rozdíl zčásti vysvětlují investice, které nejsou nákladem (29,3 mil.), minus odpisy (6,6 mil.) a minus investiční dotace, které nejdou do výnosů, ale na účet 403 (15,1 mil.). Dohromady je to 7,7 mil. K tomu přistupuje rozpouštění účtu 403 do výnosů (1,65 mil. za 2014–2025). Zbylé zhruba 2 mil. tvoří časové rozlišení a další účetní operace, které výkazy blíže nerozepisují. Peníze na účtu vzrostly za stejné období o 38,79 mil. (0,70 → 39,49 mil.), tedy o 1,33 mil. méně, než činí saldo (40,13 mil.). Rozdíl přesně odpovídá splátkám bankovního úvěru v letech 2014–2015 (1,00 + 0,33 mil., viz oddíl 3), které rozpočet vede jako financování, ne jako výdaj.
 
-V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu (21,9 proti 20,8 mil.). Obec totiž skoro neinvestovala a velké akce (silnice) šly do nákladů jako opravy.
+V letech 2022–2025 se účetní výsledek blíží rozpočtovému saldu (21,9 proti 20,4 mil.). Investice (třída 6) byly v tomto období malé (3,7 mil.) a největší akce, opravy silnic, šly jako opravy do nákladů, ne do majetku.
 
 ## 3. Pohledávky, závazky a vlastní kapitál obce
 
@@ -244,7 +244,7 @@ V letech 2022–2025 se účetní výsledek téměř rovná rozpočtovému saldu
 
 ### Hlavní zjištění k MŠ
 
-1. **MŠ hospodaří vyrovnaně až mírně ziskově.** Výsledek se pohybuje mezi −0,06 mil. (2013, jediná ztráta) a +0,18 mil. (2020). Zisk převádí do rezervního fondu (příděl ze zlepšeného výsledku až 0,18 mil. ročně).
+1. **MŠ hospodaří vyrovnaně, s mírně kladným výsledkem.** Výsledek se pohybuje mezi −0,06 mil. (2013, jediný záporný) a +0,18 mil. (2020). Kladný výsledek převádí do rezervního fondu (příděl ze zlepšeného výsledku až 0,18 mil. ročně).
 2. **Náklady MŠ se od roku 2016 více než ztrojnásobily** (1,82 → 6,56 mil.). Tahounem jsou osobní náklady (1,16 → 5,06 mil., v roce 2025 77 % nákladů). Tyto mzdy platí hlavně stát přes kraj, což je zbytek výnosů z transferů 4,66 mil. v roce 2025.
 3. **Příspěvek obce na provoz se ztrojnásobil:** 0,30 mil. (2013–2015), 0,42 mil. (2016–2018), 0,55 mil. (2020–2021), 0,70 mil. (2022) a **0,90 mil. (2025)**. Obec navíc přes svůj rozpočet posílá MŠ průtokové dotace (5336, 0,02–0,46 mil. ročně, nejspíš šablony a podobné projekty). Jejich obsah rozpočtový výkaz nerozlišuje.
 4. **Investiční příspěvek:** v roce 2019 měla obec v upraveném rozpočtu investiční příspěvek MŠ 30 000 Kč (6351) se skutečností 0. Fond investic MŠ ale v roce 2019 vykazuje přijetí investičního příspěvku od zřizovatele 0,03 mil. Provozní příspěvek 5331 byl ve skutečnosti 450 000 Kč místo rozpočtovaných 420 000 Kč. Investiční příspěvek tedy obec nejspíš zaplatila z položky na provoz. Je to drobná nesrovnalost v třídění rozpočtu, ne v penězích. V roce 2019 MŠ pořídila movitý majetek za 0,20 mil. (fond investic + převod z rezervního fondu 0,17 mil.).
@@ -261,7 +261,8 @@ Další údaje o škole jsou na stránce [školství a sociální oblast](hd-sko
 - **Rozvaha neukazuje jednotlivé stavby ani akce.** Co přesně je v nedokončených investicích, co je „ostatní majetek“ 1,54 mil. a „podmíněná aktiva“ 1,32 mil. v podrozvaze a komu obec splácela závazek 459, zjistí jen inventurní soupisy (inventarizační zprávy), příloha účetní závěrky v textové podobě nebo zprávy o přezkumu hospodaření.
 - **Pohledávky za odpady:** výkaz pohledávky podle druhu poplatku nerozlišuje. Účet 315 je pro ně jen pravděpodobné místo.
 - **MŠ:** za roky 2010–2011 v Monitoru výkazy MŠ nejsou, přestože MŠ jako právnická osoba vznikla v červnu 2011. Rok 2012 má jen 0,51 mil. nákladů proti 1,69 mil. v roce 2013, takže zřejmě nepokrývá celý rok provozu. Proč, data nevysvětlují. V ARES je navíc vedena **Základní škola Horní Domaslavice (IČO 70997691)**, která v Monitoru za roky 2010–2025 nemá žádné účetní výkazy.
-- **Rok 2026 chybí**, výkazy k 31. 12. 2026 MF zveřejní zhruba v březnu 2027.
+- **Opravy nejsou majetek.** Opravy místních komunikací v letech 2023–2024 (účet 511 celkem 13,7 mil. Kč, z toho silnice podle rozpočtu 13,1 mil.) šly do nákladů, ne do aktiv. Hodnota staveb v rozvaze proto výdaje na silnice v těchto letech neodráží a nízký přírůstek majetku v letech 2022–2025 neznamená, že obec do obecní infrastruktury nevydávala peníze.
+- **Roční výkazy za rok 2026 zatím nejsou**, výkazy k 31. 12. 2026 MF zveřejní zhruba v březnu 2027. Čtvrtletní rozvahy k 31. 3. a 30. 6. 2026 jsou v Monitoru státní pokladny; stavy účtů z nich jsou na stránce [Rozpočet 2026](hd-rozpocet-2026.html).
 - Čísla v textu jsou zaokrouhlená. Součty v tabulkách se proto mohou lišit o 0,01.
 
 ## Metodika a zdroje

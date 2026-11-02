@@ -1,6 +1,6 @@
 # Rozloha a druhy pozemků (podobné obce)
 
-Zdroj: https://hd-v-datech.cz/podobne-plochy.html (aktualizováno 2026-11-01)
+Zdroj: https://hd-v-datech.cz/podobne-plochy.html (aktualizováno 2026-11-02)
 
 > Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pískové Lhotě, Rebešovicích a Závišicích a jejich vývoj od roku 2004.
 
@@ -55,7 +55,7 @@ Na obyvatele (m²):
 | Ostatní plocha | −4,0 | +3,1 | +2,5 | +0,7 |
 | Počet parcel | +1 076 (+61 %) | +997 (+136 %) | **+2 238 (+164 %)** | +1 561 (+92 %) |
 
-- **Počet parcel** vzrostl ve všech obcích, nejvíc v Rebešovicích a Pískové Lhotě, kde vznikaly celé nové ulice rodinných domů. V HD vzrostl o 61 %.
+- **Počet parcel** vzrostl ve všech obcích, relativně nejvíc v Rebešovicích (+164 %) a Pískové Lhotě (+136 %), kde vznikaly celé nové ulice rodinných domů. V HD vzrostl o 61 %.
 - **Zastavěná plocha** přibyla v HD (+30 %), Pískové Lhotě a Rebešovicích podobně; v Závišicích, které rostou pomaleji, jen o 9 %.
 - **Přesun z orné půdy do zahrad** v Pískové Lhotě a Závišicích (o 17 ha) odpovídá zčásti nové výstavbě, zčásti pravděpodobně obnově katastrálního operátu. Neověřeno.
 

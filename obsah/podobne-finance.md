@@ -1,7 +1,7 @@
 ---
 title: "Finance (podobné obce)"
 description: "Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pískové Lhoty, Rebešovic a Závišic v letech 2010–2025."
-updated: "2026-11-01"
+updated: "2026-11-02"
 ---
 
 Stránka porovnává hospodaření Horních Domaslavic (HD) se třemi obcemi z jiných částí ČR, které se jim podobají velikostí, růstem a rozlohou: Pískovou Lhotou, Rebešovicemi a Závišicemi (jak byly vybrány, popisuje [souhrn](srovnani-podobne-obce.html)). Ukazatele jsou spočítané stejně jako na stránce [Finance](srovnani-finance.html) u sousedních obcí. Data pocházejí z výkazů obcí v Monitoru státní pokladny Ministerstva financí a z počtů obyvatel ČSÚ. Text pouze porovnává čísla, neposuzuje rozhodování vedení jiných obcí.
@@ -52,20 +52,20 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 10 038 | 8 644 | 15 072 | 11 026 |
-| Daňové příjmy (třída 1) | 7 842 | 7 990 | 8 225 | 8 365 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 9 948 | 8 644 | 14 914 | 11 026 |
+| Daňové příjmy (třída 1) | 7 752 | 7 990 | 8 067 | 8 365 |
 | z toho RUD (1111+1112+1113+1121+1211) | 6 943 | 7 052 | 7 021 | 7 378 |
 | Daň z nemovitých věcí (1511) | 402 | 411 | 428 | 405 |
 | Neinvestiční dotace (41xx) | 284 | 213 | 356 | 758 |
 | Investiční dotace (42xx) | 0 | 176 | 4 899 | 1 278 |
-| Výdaje (bez 6330, 6399) | 8 655 | 7 056 | 19 644 | 10 190 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 8 669 | 7 056 | 19 626 | 10 190 |
 | Investice (třída 6) | 1 227 | 2 212 | 13 010 | 4 074 |
 | Opravy (5171) | 1 887 | 715 | 369 | 328 |
 | Investice + opravy | 3 114 | 2 927 | 13 379 | 4 402 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 3 114 | 2 750 | 8 480 | 3 124 |
 | Vodovod a kanalizace (2310, 2321) | 0 | 885 | 10 662 | 197 |
-| Saldo (příjmy − výdaje) | 1 382 | 1 588 | −4 572 | 836 |
-| Vlastní I+O / daňové příjmy | 40 % | 34 % | 103 % | 37 % |
+| Saldo (příjmy − výdaje) | 1 280 | 1 588 | −4 712 | 836 |
+| Vlastní I+O / daňové příjmy | 40 % | 34 % | 105 % | 37 % |
 | Peníze na účtech k 31. 12. 2014 (231+244+245) | 4 944 | 7 994 | 16 488 | 2 601 |
 | Úvěry k 31. 12. 2014 (281+451) | 427 | 0 | 8 329 | 645 |
 
@@ -73,20 +73,20 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 13 546 | 11 131 | 13 744 | 14 276 |
-| Daňové příjmy (třída 1) | 10 888 | 10 403 | 11 314 | 11 643 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 13 268 | 11 131 | 13 514 | 14 276 |
+| Daňové příjmy (třída 1) | 10 610 | 10 403 | 11 084 | 11 643 |
 | z toho RUD (1111+1112+1113+1121+1211) | 9 654 | 9 348 | 9 907 | 10 486 |
 | Daň z nemovitých věcí (1511) | 405 | 415 | 451 | 419 |
 | Neinvestiční dotace (41xx) | 1 052 | 223 | 490 | 1 040 |
 | Investiční dotace (42xx) | 914 | 0 | 154 | 959 |
-| Výdaje (bez 6330, 6399) | 11 518 | 6 967 | 12 107 | 13 208 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 11 518 | 6 980 | 12 338 | 13 208 |
 | Investice (třída 6) | 2 869 | 1 754 | 5 331 | 6 771 |
 | Opravy (5171) | 2 202 | 1 200 | 624 | 549 |
 | Investice + opravy | 5 071 | 2 954 | 5 954 | 7 320 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 4 157 | 2 954 | 5 800 | 6 361 |
 | Vodovod a kanalizace (2310, 2321) | 0 | 581 | 310 | 83 |
-| Saldo (příjmy − výdaje) | 2 028 | 4 164 | 1 638 | 1 067 |
-| Vlastní I+O / daňové příjmy | 38 % | 28 % | 51 % | 55 % |
+| Saldo (příjmy − výdaje) | 1 750 | 4 151 | 1 177 | 1 067 |
+| Vlastní I+O / daňové příjmy | 39 % | 28 % | 52 % | 55 % |
 | Peníze na účtech k 31. 12. 2018 (231+244+245) | 10 294 | 20 965 | 16 122 | 5 923 |
 | Úvěry k 31. 12. 2018 (281+451) | 0 | 0 | 3 549 | 0 |
 
@@ -94,20 +94,20 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 18 847 | 15 553 | 22 343 | 18 483 |
-| Daňové příjmy (třída 1) | 13 964 | 13 501 | 14 388 | 15 066 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 18 787 | 15 444 | 21 794 | 18 398 |
+| Daňové příjmy (třída 1) | 13 903 | 13 392 | 13 839 | 14 982 |
 | z toho RUD (1111+1112+1113+1121+1211) | 12 826 | 12 223 | 12 580 | 13 800 |
 | Daň z nemovitých věcí (1511) | 382 | 326 | 442 | 405 |
 | Neinvestiční dotace (41xx) | 1 297 | 536 | 833 | 1 043 |
 | Investiční dotace (42xx) | 3 059 | 862 | 3 952 | 1 668 |
-| Výdaje (bez 6330, 6399) | 14 057 | 18 924 | 20 634 | 12 992 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 14 057 | 18 925 | 21 087 | 12 992 |
 | Investice (třída 6) | 4 160 | 9 401 | 12 312 | 5 328 |
 | Opravy (5171) | 1 574 | 4 564 | 641 | 638 |
 | Investice + opravy | 5 734 | 13 966 | 12 953 | 5 966 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 2 675 | 13 104 | 9 001 | 4 298 |
 | Vodovod a kanalizace (2310, 2321) | 0 | 3 940 | 192 | 100 |
-| Saldo (příjmy − výdaje) | 4 790 | −3 372 | 1 709 | 5 491 |
-| Vlastní I+O / daňové příjmy | 19 % | 97 % | 63 % | 29 % |
+| Saldo (příjmy − výdaje) | 4 730 | −3 481 | 707 | 5 406 |
+| Vlastní I+O / daňové příjmy | 19 % | 98 % | 65 % | 29 % |
 | Peníze na účtech k 31. 12. 2022 (231+244+245) | 26 755 | 7 320 | 15 335 | 26 537 |
 | Úvěry k 31. 12. 2022 (281+451) | 0 | 3 101 | 0 | 0 |
 
@@ -115,20 +115,20 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 19 846 | 21 710 | 27 907 | 29 056 |
-| Daňové příjmy (třída 1) | 18 513 | 18 308 | 19 230 | 20 235 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 19 737 | 21 509 | 27 445 | 28 523 |
+| Daňové příjmy (třída 1) | 18 404 | 18 107 | 18 768 | 19 702 |
 | z toho RUD (1111+1112+1113+1121+1211) | 16 892 | 16 379 | 17 042 | 17 888 |
 | Daň z nemovitých věcí (1511) | 578 | 556 | 706 | 660 |
 | Neinvestiční dotace (41xx) | 529 | 936 | 713 | 1 758 |
 | Investiční dotace (42xx) | 0 | 191 | 3 879 | 1 852 |
-| Výdaje (bez 6330, 6399) | 15 937 | 16 180 | 17 592 | 28 837 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 15 937 | 16 180 | 17 896 | 28 837 |
 | Investice (třída 6) | 1 115 | 6 441 | 5 508 | 12 434 |
 | Opravy (5171) | 4 519 | 3 348 | 470 | 1 914 |
 | Investice + opravy | 5 634 | 9 789 | 5 979 | 14 349 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 5 634 | 9 598 | 2 100 | 12 496 |
 | Vodovod a kanalizace (2310, 2321) | 0 | 4 742 | 635 | 549 |
-| Saldo (příjmy − výdaje) | 3 909 | 5 530 | 10 316 | 219 |
-| Vlastní I+O / daňové příjmy | 30 % | 52 % | 11 % | 62 % |
+| Saldo (příjmy − výdaje) | 3 800 | 5 329 | 9 549 | −313 |
+| Vlastní I+O / daňové příjmy | 31 % | 53 % | 11 % | 63 % |
 | Peníze na účtech k 31. 12. 2025 (231+244+245) | 35 613 | 27 296 | 39 441 | 24 238 |
 | Úvěry k 31. 12. 2025 (281+451) | 0 | 7 211 | 0 | 0 |
 
@@ -138,19 +138,19 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 29,54 | 24,51 | 52,37 | 42,04 |
-| Daňové příjmy (třída 1) | 23,08 | 22,65 | 28,58 | 31,90 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 29,28 | 24,51 | 51,83 | 42,04 |
+| Daňové příjmy (třída 1) | 22,81 | 22,65 | 28,03 | 31,90 |
 | z toho RUD (1111+1112+1113+1121+1211) | 20,43 | 19,99 | 24,40 | 28,13 |
 | Daň z nemovitých věcí (1511) | 1,18 | 1,17 | 1,49 | 1,54 |
 | Neinvestiční dotace (41xx) | 0,83 | 0,60 | 1,24 | 2,89 |
 | Investiční dotace (42xx) | 0,00 | 0,50 | 17,03 | 4,87 |
-| Výdaje (bez 6330, 6399) | 25,47 | 20,00 | 68,26 | 38,85 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 25,51 | 20,00 | 68,20 | 38,85 |
 | Investice (třída 6) | 3,61 | 6,27 | 45,21 | 15,53 |
 | Opravy (5171) | 5,55 | 2,03 | 1,28 | 1,25 |
 | Investice + opravy | 9,17 | 8,30 | 46,49 | 16,79 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 9,17 | 7,80 | 29,47 | 11,91 |
 | Vodovod a kanalizace (2310, 2321) | 0,00 | 2,51 | 37,05 | 0,75 |
-| Saldo (příjmy − výdaje) | 4,07 | 4,50 | −15,89 | 3,19 |
+| Saldo (příjmy − výdaje) | 3,77 | 4,50 | −16,37 | 3,19 |
 | Peníze na účtech k 31. 12. 2014 | 3,86 | 5,80 | 15,52 | 2,58 |
 | Změna peněz za období (od 31. 12. 2010) | 3,60 | 4,50 | −3,13 | 0,62 |
 | Úvěry k 31. 12. 2014 | 0,33 | 0,00 | 7,84 | 0,64 |
@@ -159,19 +159,19 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 43,97 | 34,64 | 52,90 | 58,72 |
-| Daňové příjmy (třída 1) | 35,34 | 32,37 | 43,55 | 47,89 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 43,07 | 34,64 | 52,02 | 58,72 |
+| Daňové příjmy (třída 1) | 34,44 | 32,37 | 42,66 | 47,89 |
 | z toho RUD (1111+1112+1113+1121+1211) | 31,34 | 29,09 | 38,13 | 43,13 |
 | Daň z nemovitých věcí (1511) | 1,31 | 1,29 | 1,74 | 1,72 |
 | Neinvestiční dotace (41xx) | 3,41 | 0,69 | 1,89 | 4,28 |
 | Investiční dotace (42xx) | 2,97 | 0,00 | 0,59 | 3,95 |
-| Výdaje (bez 6330, 6399) | 37,39 | 21,68 | 46,60 | 54,33 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 37,39 | 21,72 | 47,49 | 54,33 |
 | Investice (třída 6) | 9,31 | 5,46 | 20,52 | 27,85 |
 | Opravy (5171) | 7,15 | 3,73 | 2,40 | 2,26 |
 | Investice + opravy | 16,46 | 9,19 | 22,92 | 30,11 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 13,50 | 9,19 | 22,32 | 26,16 |
 | Vodovod a kanalizace (2310, 2321) | 0,00 | 1,81 | 1,19 | 0,34 |
-| Saldo (příjmy − výdaje) | 6,58 | 12,96 | 6,30 | 4,39 |
+| Saldo (příjmy − výdaje) | 5,68 | 12,92 | 4,53 | 4,39 |
 | Peníze na účtech k 31. 12. 2018 | 9,20 | 18,70 | 15,96 | 6,29 |
 | Změna peněz za období (od 31. 12. 2014) | 5,35 | 12,91 | 0,44 | 3,71 |
 | Úvěry k 31. 12. 2018 | 0,00 | 0,00 | 3,51 | 0,00 |
@@ -180,19 +180,19 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 72,07 | 62,74 | 92,75 | 80,05 |
-| Daňové příjmy (třída 1) | 53,40 | 54,46 | 59,73 | 65,25 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 71,84 | 62,30 | 90,47 | 79,68 |
+| Daňové příjmy (třída 1) | 53,17 | 54,02 | 57,44 | 64,89 |
 | z toho RUD (1111+1112+1113+1121+1211) | 49,05 | 49,31 | 52,22 | 59,77 |
 | Daň z nemovitých věcí (1511) | 1,46 | 1,32 | 1,83 | 1,75 |
 | Neinvestiční dotace (41xx) | 4,96 | 2,16 | 3,46 | 4,52 |
 | Investiční dotace (42xx) | 11,70 | 3,48 | 16,40 | 7,22 |
-| Výdaje (bez 6330, 6399) | 53,75 | 76,34 | 85,65 | 56,27 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 53,75 | 76,34 | 87,53 | 56,27 |
 | Investice (třída 6) | 15,91 | 37,92 | 51,11 | 23,08 |
 | Opravy (5171) | 6,02 | 18,41 | 2,66 | 2,76 |
 | Investice + opravy | 21,93 | 56,34 | 53,77 | 25,84 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 10,23 | 52,86 | 37,36 | 18,61 |
 | Vodovod a kanalizace (2310, 2321) | 0,00 | 15,89 | 0,80 | 0,43 |
-| Saldo (příjmy − výdaje) | 18,32 | −13,60 | 7,09 | 23,78 |
+| Saldo (příjmy − výdaje) | 18,09 | −14,04 | 2,93 | 23,42 |
 | Peníze na účtech k 31. 12. 2022 | 27,29 | 8,05 | 16,47 | 29,43 |
 | Změna peněz za období (od 31. 12. 2018) | 18,09 | −10,65 | 0,51 | 23,14 |
 | Úvěry k 31. 12. 2022 | 0,00 | 3,41 | 0,00 | 0,00 |
@@ -201,19 +201,19 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 63,74 | 71,91 | 91,59 | 99,98 |
-| Daňové příjmy (třída 1) | 59,46 | 60,63 | 63,11 | 69,63 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 63,39 | 71,24 | 90,08 | 98,15 |
+| Daňové příjmy (třída 1) | 59,11 | 59,97 | 61,60 | 67,80 |
 | z toho RUD (1111+1112+1113+1121+1211) | 54,26 | 54,25 | 55,93 | 61,55 |
 | Daň z nemovitých věcí (1511) | 1,86 | 1,84 | 2,32 | 2,27 |
 | Neinvestiční dotace (41xx) | 1,70 | 3,10 | 2,34 | 6,05 |
 | Investiční dotace (42xx) | 0,00 | 0,63 | 12,73 | 6,37 |
-| Výdaje (bez 6330, 6399) | 51,19 | 53,59 | 57,74 | 99,23 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 51,19 | 53,59 | 58,73 | 99,23 |
 | Investice (třída 6) | 3,58 | 21,33 | 18,08 | 42,79 |
 | Opravy (5171) | 14,51 | 11,09 | 1,54 | 6,59 |
 | Investice + opravy | 18,10 | 32,42 | 19,62 | 49,37 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 18,10 | 31,79 | 6,89 | 43,00 |
 | Vodovod a kanalizace (2310, 2321) | 0,00 | 15,70 | 2,08 | 1,89 |
-| Saldo (příjmy − výdaje) | 12,56 | 18,32 | 33,86 | 0,76 |
+| Saldo (příjmy − výdaje) | 12,21 | 17,65 | 31,34 | −1,08 |
 | Peníze na účtech k 31. 12. 2025 | 39,49 | 30,33 | 43,62 | 28,02 |
 | Změna peněz za období (od 31. 12. 2022) | 12,21 | 22,27 | 27,15 | −1,41 |
 | Úvěry k 31. 12. 2025 | 0,00 | 8,01 | 0,00 | 0,00 |
@@ -222,7 +222,7 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 Čísla v tomto oddílu vycházejí z tabulek výše. Vysvětlení příčin jsou výslovně označená jako odvozená.
 
-**Daňové příjmy na obyvatele jsou u všech čtyř obcí podobné.** V letech 2023–2025 měla HD 18 513 Kč na obyvatele a rok, Písková Lhota 18 308, Rebešovice 19 230 a Závišice 20 235 Kč. *Odvozené:* Závišice zřizují základní školu (1.–5. ročník), a dostávají proto z rozpočtového určení daní víc; ostatní tři obce základní školu nemají.
+**Daňové příjmy na obyvatele jsou u všech čtyř obcí podobné.** V letech 2023–2025 měla HD 18 404 Kč na obyvatele a rok, Písková Lhota 18 107, Rebešovice 18 768 a Závišice 19 702 Kč (bez daně, kterou obec platí sama sobě, viz Metodika). *Odvozené:* Závišice zřizují základní školu (1.–5. ročník), a rozpočtové určení daní u nich proto počítá i s žáky základní školy. Z kritéria počtu dětí a žáků ale těží i HD a Rebešovice, které zřizují mateřskou školu; rozdíl proti Závišicím tvoří jen žáci ZŠ. Písková Lhota školu nezřizuje.
 
 **Investice a opravy na obyvatele (Kč na obyvatele a rok):**
 
@@ -241,23 +241,23 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Období | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| 2010–2014 | 40 % | 34 % | 103 % | 37 % |
-| 2014–2018 | 38 % | 28 % | 51 % | 55 % |
-| 2018–2022 | 19 % | 97 % | 63 % | 29 % |
-| 2022–2026 (do 2025) | 30 % | 52 % | 11 % | 62 % |
-| Celkem 2011–2025 | **30 %** | 60 % | 49 % | 46 % |
+| 2010–2014 | 40 % | 34 % | 105 % | 37 % |
+| 2014–2018 | 39 % | 28 % | 52 % | 55 % |
+| 2018–2022 | 19 % | 98 % | 65 % | 29 % |
+| 2022–2026 (do 2025) | 31 % | 53 % | 11 % | 63 % |
+| Celkem 2011–2025 | **30 %** | 60 % | 51 % | 47 % |
 
-**Investiční dotace:** HD získala za roky 2011–2025 celkem 14,7 mil. Kč, Písková Lhota 4,6 mil., Závišice 22,4 mil. a Rebešovice 46,8 mil. Kč. Písková Lhota tedy získala dotací nejméně a přesto investovala na obyvatele o 61 % víc než HD, převážně z vlastních peněz a z úvěru. V letech 2023–2025 nezískala HD žádnou investiční dotaci, Písková Lhota 0,6 mil., Závišice 6,4 mil. a Rebešovice 12,7 mil. Kč.
+**Investiční dotace:** HD získala za roky 2011–2025 celkem 14,7 mil. Kč, Písková Lhota 4,6 mil., Závišice 22,4 mil. a Rebešovice 46,8 mil. Kč. Písková Lhota tedy získala dotací nejméně a přesto investovala na obyvatele o 61 % víc než HD, převážně z vlastních peněz a z úvěru. V letech 2023–2025 nepřišla HD na účet žádná investiční dotace (5. 12. 2025 ale HD uzavřely s Moravskoslezským krajem smlouvu na investiční dotaci až 2,70 mil. Kč na projektovou dokumentaci MŠ, viz [dotace](hd-dotace.html)); Písková Lhota získala 0,6 mil., Závišice 6,4 mil. a Rebešovice 12,7 mil. Kč.
 
 **Struktura investic a oprav:** HD dává velkou část peněz do oprav (5171): v letech 2023–2025 4 519 Kč na obyvatele a rok na opravy a 1 115 Kč na investice. U ostatních obcí převažují investice (Závišice 12 434, Písková Lhota 6 441, Rebešovice 5 508 Kč). Opravy silnic se v HD účtují jako opravy (viz [výdaje HD](hd-vydaje.html)), proto je pro srovnání potřeba sledovat součet I+O.
 
 **Peníze na účtech:** na konci roku 2025 měly Rebešovice 43,62 mil. Kč (39 441 Kč na obyvatele), HD 39,49 mil. (35 613 Kč), Písková Lhota 30,33 mil. (27 296 Kč) a Závišice 28,02 mil. Kč (24 238 Kč na obyvatele). Úvěr měla jen Písková Lhota (8,01 mil. Kč). Za roky 2023–2025 zvýšily stav účtů Rebešovice o 27,15 mil., Písková Lhota o 22,27 mil. a HD o 12,21 mil.; Závišicím klesl o 1,41 mil. Kč, protože v roce 2025 platily velké stavby z úspor. Rebešovice měly navíc na konci roku 2025 3,62 mil. Kč v krátkodobých cenných papírech (účet 251), které se do peněz na účtech nepočítají.
 
-**Saldo:** HD má ve všech obdobích kladné saldo. V letech 2023–2025 to bylo 3 909 Kč na obyvatele a rok, v Pískové Lhotě 5 530, v Rebešovicích 10 316 a v Závišicích 219 Kč.
+**Saldo:** HD má ve všech obdobích kladné saldo. V letech 2023–2025 to bylo 3 800 Kč na obyvatele a rok, v Pískové Lhotě 5 329 a v Rebešovicích 9 549 Kč. Závišice měly za tato tři léta schodek 313 Kč na obyvatele a rok (celkem −1,08 mil. Kč), protože v roce 2025 platily velké stavby z úspor.
 
-**Rozpočet proti skutečnosti:** Rezervní řádek ve větším rozsahu má jen HD (3639/5169, v letech 2023–2025 22–26 mil. Kč). Ostatní obce mají nespecifikovanou rezervu (5901) do 5,4 mil. Kč. V letech 2023–2025 vyčerpala HD 40, 36 a 27 % upraveného rozpočtu výdajů, Písková Lhota 67, 65 a 40 %, Rebešovice 53, 48 a 59 % a Závišice 50, 53 a 81 %. Po odečtení rezerv je to u HD 76, 69 a 53 %, tedy podobně jako u ostatních obcí.
+**Rozpočet proti skutečnosti:** Rezervní řádek ve větším rozsahu má jen HD (3639/5169, v letech 2023–2025 22–26 mil. Kč). Ostatní obce mají nespecifikovanou rezervu (5901) do 5,4 mil. Kč. V letech 2023–2025 vyčerpala HD 40, 36 a 27 % upraveného rozpočtu výdajů, Písková Lhota 67, 65 a 40 %, Rebešovice 51, 48 a 57 % a Závišice 50, 53 a 80 %. Po odečtení rezerv je to u HD 76, 69 a 53 %, tedy podobně jako u ostatních obcí.
 
-**Vodovod a kanalizace:** HD nevydala na paragrafy 2310 a 2321 v žádném roce 2010–2025 nic. Rebešovice vydaly za roky 2011–2025 celkem 41,1 mil. Kč (hlavně kanalizace a ČOV v letech 2011–2014), Písková Lhota 35,9 mil. (kanalizace v letech 2011–2023, vodovod 2022–2024) a Závišice 3,4 mil. Kč (kanalizaci nemají, obec přispívá na domovní ČOV).
+**Vodovod a kanalizace:** HD nevydala na paragrafy 2310 a 2321 v žádném roce 2010–2025 nic. Že obec vodovodní síť vlastní, není doloženo; provozovatelem vodovodu je SmVaK Ostrava. Rebešovice vydaly za roky 2011–2025 celkem 41,1 mil. Kč (hlavně kanalizace a ČOV v letech 2011–2014), Písková Lhota 35,9 mil. (kanalizace v letech 2011–2023, vodovod 2022–2024) a Závišice 3,4 mil. Kč (kanalizaci nemají, obec přispívá na domovní ČOV).
 
 **Výdaje podle účelu:** Na správu obce (61xx) dávala HD v letech 2023–2025 4 609 Kč na obyvatele a rok, Závišice 4 265, Rebešovice 4 184 a Písková Lhota 2 306 Kč. Odměny zastupitelů (5023) na obyvatele byly v HD 1 307 Kč, v Rebešovicích 1 227, v Závišicích 1 030 a v Pískové Lhotě 491 Kč.
 
@@ -269,43 +269,43 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 
 | Rok | HD Kč/obyv. | Písková Lhota Kč/obyv. | Rebešovice Kč/obyv. | Závišice Kč/obyv. | HD mil. Kč | Písková Lhota mil. Kč | Rebešovice mil. Kč | Závišice mil. Kč |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 8 556 | 7 392 | 28 966 | 11 317 | 5,74 | 5,54 | 23,61 | 10,03 |
-| 2011 | 7 795 | 8 504 | 11 679 | 11 309 | 5,41 | 5,92 | 9,65 | 10,51 |
-| 2012 | 9 222 | 7 591 | 26 580 | 9 441 | 6,74 | 5,34 | 22,73 | 8,93 |
-| 2013 | 9 352 | 9 011 | 10 828 | 11 825 | 7,01 | 6,45 | 9,54 | 11,47 |
-| 2014 | 13 510 | 9 446 | 11 459 | 11 504 | 10,38 | 6,79 | 10,46 | 11,14 |
-| 2015 | 14 594 | 9 612 | 11 639 | 12 014 | 11,54 | 7,07 | 10,98 | 11,99 |
-| 2016 | 11 522 | 10 591 | 14 172 | 14 266 | 8,96 | 7,98 | 13,58 | 14,55 |
-| 2017 | 13 951 | 11 703 | 13 789 | 14 129 | 11,26 | 9,06 | 13,33 | 14,62 |
-| 2018 | 14 026 | 12 404 | 15 308 | 16 557 | 12,20 | 10,53 | 15,02 | 17,55 |
-| 2019 | 16 988 | 13 506 | 24 303 | 16 815 | 15,37 | 12,59 | 24,35 | 17,92 |
-| 2020 | 14 416 | 14 901 | 18 506 | 18 881 | 13,41 | 14,74 | 19,08 | 20,28 |
-| 2021 | 24 847 | 16 329 | 17 055 | 16 196 | 24,15 | 16,56 | 17,86 | 17,62 |
-| 2022 | 18 820 | 17 158 | 29 375 | 21 963 | 19,14 | 18,86 | 31,46 | 24,23 |
-| 2023 | 19 134 | 24 298 | 33 627 | 21 905 | 20,01 | 26,80 | 36,55 | 24,86 |
-| 2024 | 19 688 | 20 785 | 23 830 | 31 997 | 20,99 | 22,70 | 26,09 | 36,57 |
-| 2025 | 20 675 | 20 060 | 26 314 | 33 144 | 22,74 | 22,41 | 28,95 | 38,55 |
+| 2010 | 8 500 | 7 392 | 27 936 | 11 317 | 5,70 | 5,54 | 22,77 | 10,03 |
+| 2011 | 7 795 | 8 504 | 11 406 | 11 309 | 5,41 | 5,92 | 9,42 | 10,51 |
+| 2012 | 9 222 | 7 591 | 26 468 | 9 441 | 6,74 | 5,34 | 22,63 | 8,93 |
+| 2013 | 9 001 | 9 011 | 10 724 | 11 825 | 6,75 | 6,45 | 9,45 | 11,47 |
+| 2014 | 13 510 | 9 446 | 11 313 | 11 504 | 10,38 | 6,79 | 10,33 | 11,14 |
+| 2015 | 13 774 | 9 612 | 11 454 | 12 014 | 10,90 | 7,07 | 10,80 | 11,99 |
+| 2016 | 11 280 | 10 591 | 13 992 | 14 266 | 8,78 | 7,98 | 13,40 | 14,55 |
+| 2017 | 13 951 | 11 703 | 13 464 | 14 129 | 11,26 | 9,06 | 13,02 | 14,62 |
+| 2018 | 13 952 | 12 404 | 15 077 | 16 557 | 12,14 | 10,53 | 14,79 | 17,55 |
+| 2019 | 16 941 | 13 495 | 23 893 | 16 705 | 15,33 | 12,58 | 23,94 | 17,81 |
+| 2020 | 14 333 | 14 820 | 17 218 | 18 806 | 13,33 | 14,66 | 17,75 | 20,20 |
+| 2021 | 24 807 | 16 189 | 16 788 | 16 129 | 24,11 | 16,42 | 17,58 | 17,55 |
+| 2022 | 18 748 | 16 971 | 29 130 | 21 877 | 19,07 | 18,65 | 31,20 | 24,13 |
+| 2023 | 19 059 | 24 212 | 33 322 | 21 794 | 19,94 | 26,71 | 36,22 | 24,74 |
+| 2024 | 19 615 | 20 687 | 23 366 | 31 748 | 20,91 | 22,59 | 25,59 | 36,29 |
+| 2025 | 20 499 | 19 644 | 25 699 | 31 922 | 22,55 | 21,94 | 28,27 | 37,13 |
 
 ### Daňové příjmy
 
 | Rok | HD Kč/obyv. | Písková Lhota Kč/obyv. | Rebešovice Kč/obyv. | Závišice Kč/obyv. | HD mil. Kč | Písková Lhota mil. Kč | Rebešovice mil. Kč | Závišice mil. Kč |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 7 244 | 6 971 | 7 944 | 7 183 | 4,86 | 5,22 | 6,47 | 6,36 |
-| 2011 | 6 909 | 7 609 | 7 404 | 6 729 | 4,80 | 5,30 | 6,12 | 6,25 |
-| 2012 | 6 851 | 7 053 | 7 151 | 7 714 | 5,01 | 4,97 | 6,11 | 7,30 |
-| 2013 | 8 691 | 8 482 | 8 938 | 9 067 | 6,52 | 6,07 | 7,87 | 8,80 |
-| 2014 | 8 798 | 8 785 | 9 284 | 9 868 | 6,76 | 6,32 | 8,48 | 9,55 |
-| 2015 | 10 034 | 9 069 | 9 711 | 10 176 | 7,94 | 6,67 | 9,16 | 10,16 |
-| 2016 | 10 425 | 10 051 | 11 315 | 10 854 | 8,11 | 7,57 | 10,84 | 11,07 |
-| 2017 | 11 234 | 10 971 | 11 609 | 12 009 | 9,07 | 8,49 | 11,23 | 12,43 |
-| 2018 | 11 755 | 11 352 | 12 563 | 13 428 | 10,23 | 9,64 | 12,32 | 14,23 |
-| 2019 | 13 228 | 12 368 | 13 669 | 14 600 | 11,97 | 11,53 | 13,70 | 15,56 |
-| 2020 | 12 441 | 11 754 | 13 575 | 13 671 | 11,57 | 11,62 | 14,00 | 14,68 |
-| 2021 | 13 503 | 13 729 | 14 036 | 14 785 | 13,12 | 13,92 | 14,70 | 16,09 |
-| 2022 | 16 451 | 15 823 | 16 188 | 17 152 | 16,73 | 17,39 | 17,34 | 18,92 |
-| 2023 | 17 902 | 17 875 | 18 370 | 19 186 | 18,72 | 19,72 | 19,97 | 21,78 |
-| 2024 | 18 205 | 17 937 | 19 207 | 19 667 | 19,41 | 19,59 | 21,03 | 22,48 |
-| 2025 | 19 392 | 19 097 | 20 104 | 21 817 | 21,33 | 21,33 | 22,11 | 25,37 |
+| 2010 | 7 189 | 6 971 | 6 914 | 7 183 | 4,82 | 5,22 | 5,63 | 6,36 |
+| 2011 | 6 909 | 7 609 | 7 131 | 6 729 | 4,80 | 5,30 | 5,89 | 6,25 |
+| 2012 | 6 851 | 7 053 | 7 039 | 7 714 | 5,01 | 4,97 | 6,02 | 7,30 |
+| 2013 | 8 339 | 8 482 | 8 835 | 9 067 | 6,25 | 6,07 | 7,78 | 8,80 |
+| 2014 | 8 798 | 8 785 | 9 137 | 9 868 | 6,76 | 6,32 | 8,34 | 9,55 |
+| 2015 | 9 214 | 9 069 | 9 527 | 10 176 | 7,29 | 6,67 | 8,98 | 10,16 |
+| 2016 | 10 183 | 10 051 | 11 136 | 10 854 | 7,92 | 7,57 | 10,67 | 11,07 |
+| 2017 | 11 234 | 10 971 | 11 285 | 12 009 | 9,07 | 8,49 | 10,91 | 12,43 |
+| 2018 | 11 681 | 11 352 | 12 333 | 13 428 | 10,16 | 9,64 | 12,10 | 14,23 |
+| 2019 | 13 181 | 12 357 | 13 259 | 14 491 | 11,93 | 11,52 | 13,29 | 15,45 |
+| 2020 | 12 359 | 11 673 | 12 287 | 13 596 | 11,49 | 11,54 | 12,67 | 14,60 |
+| 2021 | 13 463 | 13 589 | 13 769 | 14 718 | 13,09 | 13,78 | 14,42 | 16,01 |
+| 2022 | 16 379 | 15 636 | 15 943 | 17 065 | 16,66 | 17,18 | 17,08 | 18,82 |
+| 2023 | 17 826 | 17 790 | 18 065 | 19 075 | 18,65 | 19,62 | 19,64 | 21,65 |
+| 2024 | 18 132 | 17 840 | 18 743 | 19 417 | 19,33 | 19,48 | 20,52 | 22,19 |
+| 2025 | 19 216 | 18 680 | 19 489 | 20 595 | 21,14 | 20,87 | 21,44 | 23,95 |
 
 ### RUD
 
@@ -332,22 +332,22 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 
 | Rok | HD Kč/obyv. | Písková Lhota Kč/obyv. | Rebešovice Kč/obyv. | Závišice Kč/obyv. | HD mil. Kč | Písková Lhota mil. Kč | Rebešovice mil. Kč | Závišice mil. Kč |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 10 355 | 12 435 | 13 337 | 9 515 | 6,95 | 9,31 | 10,87 | 8,43 |
-| 2011 | 6 395 | 8 616 | 9 310 | 11 632 | 4,44 | 6,00 | 7,69 | 10,81 |
-| 2012 | 9 965 | 6 327 | 55 377 | 8 559 | 7,28 | 4,45 | 47,35 | 8,10 |
-| 2013 | 10 039 | 8 208 | 7 168 | 10 419 | 7,53 | 5,88 | 6,32 | 10,11 |
-| 2014 | 8 100 | 5 113 | 7 569 | 10 171 | 6,22 | 3,68 | 6,91 | 9,85 |
-| 2015 | 11 396 | 9 766 | 8 153 | 10 538 | 9,01 | 7,19 | 7,69 | 10,52 |
-| 2016 | 7 617 | 6 492 | 10 165 | 12 180 | 5,93 | 4,89 | 9,74 | 12,42 |
-| 2017 | 11 766 | 5 751 | 11 001 | 8 210 | 9,50 | 4,45 | 10,64 | 8,50 |
-| 2018 | 14 888 | 6 070 | 18 894 | 21 592 | 12,95 | 5,15 | 18,53 | 22,89 |
-| 2019 | 11 759 | 6 802 | 10 463 | 12 206 | 10,64 | 6,34 | 10,48 | 13,01 |
-| 2020 | 14 122 | 15 226 | 19 859 | 8 715 | 13,13 | 15,06 | 20,47 | 9,36 |
-| 2021 | 19 651 | 18 383 | 21 822 | 13 670 | 19,10 | 18,64 | 22,85 | 14,87 |
-| 2022 | 10 695 | 33 033 | 29 736 | 17 247 | 10,88 | 36,30 | 31,85 | 19,02 |
-| 2023 | 18 275 | 17 644 | 13 791 | 12 932 | 19,12 | 19,46 | 14,99 | 14,68 |
-| 2024 | 16 457 | 17 695 | 17 142 | 25 017 | 17,54 | 19,32 | 18,77 | 28,59 |
-| 2025 | 13 210 | 13 254 | 21 794 | 48 112 | 14,53 | 14,80 | 23,97 | 55,95 |
+| 2010 | 10 355 | 12 435 | 13 382 | 9 515 | 6,95 | 9,31 | 10,91 | 8,43 |
+| 2011 | 6 398 | 8 616 | 9 384 | 11 632 | 4,44 | 6,00 | 7,75 | 10,81 |
+| 2012 | 9 995 | 6 327 | 55 099 | 8 559 | 7,31 | 4,45 | 47,11 | 8,10 |
+| 2013 | 10 059 | 8 208 | 7 203 | 10 419 | 7,54 | 5,88 | 6,35 | 10,11 |
+| 2014 | 8 100 | 5 113 | 7 661 | 10 171 | 6,22 | 3,68 | 6,99 | 9,85 |
+| 2015 | 11 396 | 9 783 | 8 254 | 10 538 | 9,01 | 7,20 | 7,78 | 10,52 |
+| 2016 | 7 617 | 6 506 | 10 396 | 12 180 | 5,93 | 4,90 | 9,96 | 12,42 |
+| 2017 | 11 766 | 5 762 | 11 306 | 8 210 | 9,50 | 4,46 | 10,93 | 8,50 |
+| 2018 | 14 888 | 6 081 | 19 176 | 21 592 | 12,95 | 5,16 | 18,81 | 22,89 |
+| 2019 | 11 759 | 6 803 | 10 637 | 12 206 | 10,64 | 6,34 | 10,66 | 13,01 |
+| 2020 | 14 122 | 15 226 | 20 455 | 8 715 | 13,13 | 15,06 | 21,09 | 9,36 |
+| 2021 | 19 651 | 18 383 | 22 645 | 13 670 | 19,10 | 18,64 | 23,71 | 14,87 |
+| 2022 | 10 695 | 33 033 | 29 949 | 17 247 | 10,88 | 36,30 | 32,08 | 19,02 |
+| 2023 | 18 275 | 17 644 | 13 968 | 12 932 | 19,12 | 19,46 | 15,18 | 14,68 |
+| 2024 | 16 457 | 17 695 | 17 610 | 25 017 | 17,54 | 19,32 | 19,28 | 28,59 |
+| 2025 | 13 210 | 13 254 | 22 062 | 48 112 | 14,53 | 14,80 | 24,27 | 55,95 |
 
 ### Investice + opravy
 
@@ -395,22 +395,22 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 
 | Rok | HD Kč/obyv. | Písková Lhota Kč/obyv. | Rebešovice Kč/obyv. | Závišice Kč/obyv. | HD mil. Kč | Písková Lhota mil. Kč | Rebešovice mil. Kč | Závišice mil. Kč |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | −1 799 | −5 043 | 15 629 | 1 802 | −1,21 | −3,78 | 12,74 | 1,60 |
-| 2011 | 1 401 | −112 | 2 369 | −324 | 0,97 | −0,08 | 1,96 | −0,30 |
-| 2012 | −743 | 1 264 | −28 798 | 883 | −0,54 | 0,89 | −24,62 | 0,83 |
-| 2013 | −687 | 802 | 3 660 | 1 406 | −0,52 | 0,57 | 3,22 | 1,36 |
-| 2014 | 5 410 | 4 333 | 3 890 | 1 333 | 4,15 | 3,12 | 3,55 | 1,29 |
-| 2015 | 3 199 | −154 | 3 486 | 1 476 | 2,53 | −0,11 | 3,29 | 1,47 |
-| 2016 | 3 905 | 4 100 | 4 006 | 2 087 | 3,04 | 3,09 | 3,84 | 2,13 |
-| 2017 | 2 185 | 5 952 | 2 788 | 5 919 | 1,76 | 4,61 | 2,70 | 6,13 |
-| 2018 | −861 | 6 334 | −3 586 | −5 035 | −0,75 | 5,38 | −3,52 | −5,34 |
-| 2019 | 5 229 | 6 705 | 13 840 | 4 608 | 4,73 | 6,25 | 13,87 | 4,91 |
-| 2020 | 293 | −326 | −1 353 | 10 166 | 0,27 | −0,32 | −1,39 | 10,92 |
-| 2021 | 5 195 | −2 055 | −4 767 | 2 526 | 5,05 | −2,08 | −4,99 | 2,75 |
-| 2022 | 8 125 | −15 874 | −361 | 4 716 | 8,26 | −17,45 | −0,39 | 5,20 |
-| 2023 | 859 | 6 654 | 19 835 | 8 973 | 0,90 | 7,34 | 21,56 | 10,18 |
-| 2024 | 3 231 | 3 090 | 6 688 | 6 980 | 3,44 | 3,37 | 7,32 | 7,98 |
-| 2025 | 7 466 | 6 807 | 4 520 | −14 968 | 8,21 | 7,60 | 4,97 | −17,41 |
+| 2010 | −1 854 | −5 043 | 14 554 | 1 802 | −1,24 | −3,78 | 11,86 | 1,60 |
+| 2011 | 1 398 | −112 | 2 022 | −324 | 0,97 | −0,08 | 1,67 | −0,30 |
+| 2012 | −773 | 1 264 | −28 631 | 883 | −0,57 | 0,89 | −24,48 | 0,83 |
+| 2013 | −1 058 | 802 | 3 521 | 1 406 | −0,79 | 0,57 | 3,10 | 1,36 |
+| 2014 | 5 410 | 4 333 | 3 651 | 1 333 | 4,15 | 3,12 | 3,33 | 1,29 |
+| 2015 | 2 379 | −172 | 3 200 | 1 476 | 1,88 | −0,13 | 3,02 | 1,47 |
+| 2016 | 3 662 | 4 086 | 3 596 | 2 087 | 2,85 | 3,08 | 3,44 | 2,13 |
+| 2017 | 2 185 | 5 941 | 2 158 | 5 919 | 1,76 | 4,60 | 2,09 | 6,13 |
+| 2018 | −936 | 6 323 | −4 099 | −5 035 | −0,81 | 5,37 | −4,02 | −5,34 |
+| 2019 | 5 182 | 6 692 | 13 256 | 4 499 | 4,69 | 6,24 | 13,28 | 4,80 |
+| 2020 | 211 | −407 | −3 237 | 10 091 | 0,20 | −0,40 | −3,34 | 10,84 |
+| 2021 | 5 155 | −2 194 | −5 858 | 2 459 | 5,01 | −2,23 | −6,13 | 2,68 |
+| 2022 | 8 053 | −16 061 | −819 | 4 629 | 8,19 | −17,65 | −0,88 | 5,11 |
+| 2023 | 784 | 6 568 | 19 354 | 8 862 | 0,82 | 7,24 | 21,04 | 10,06 |
+| 2024 | 3 158 | 2 992 | 5 756 | 6 731 | 3,37 | 3,27 | 6,30 | 7,69 |
+| 2025 | 7 290 | 6 390 | 3 637 | −16 190 | 8,02 | 7,14 | 4,00 | −18,83 |
 
 ### Peníze na účtech k 31. 12.
 
@@ -460,7 +460,7 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 
 | Kategorie | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---:|---:|---:|---:|
-| Správa obce (úřad, zastupitelstvo, volby) | 3 031 | 1 487 | 3 110 | 3 202 |
+| Správa obce (úřad, zastupitelstvo, volby) | 3 031 | 1 487 | 3 083 | 3 202 |
 | Doprava (silnice, chodníky, BUS) | 571 | 2 182 | 757 | 2 571 |
 | Školství | 1 017 | 331 | 2 028 | 631 |
 | Kultura, sport, spolky | 2 006 | 146 | 596 | 1 110 |
@@ -472,8 +472,8 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 | Cestovní ruch, obchod, služby (21xx) | 0 | 0 | 9 | 28 |
 | Bezpečnost, hasiči, krizové řízení | 237 | 93 | 31 | 154 |
 | Zdravotnictví a sociální věci | 0 | 141 | 12 | 0 |
-| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 104 | 44 | 83 | 19 |
-| CELKEM | 8 655 | 7 056 | 19 644 | 10 190 |
+| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 117 | 44 | 92 | 19 |
+| CELKEM | 8 669 | 7 056 | 19 626 | 10 190 |
 
 ### 2014–2018
 
@@ -491,8 +491,8 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 | Cestovní ruch, obchod, služby (21xx) | 0 | 0 | 16 | 60 |
 | Bezpečnost, hasiči, krizové řízení | 156 | 13 | 26 | 134 |
 | Zdravotnictví a sociální věci | 38 | 107 | 20 | 1 |
-| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 149 | 51 | 147 | 23 |
-| CELKEM | 11 518 | 6 967 | 12 107 | 13 208 |
+| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 149 | 64 | 378 | 23 |
+| CELKEM | 11 518 | 6 980 | 12 338 | 13 208 |
 
 ### 2018–2022
 
@@ -510,8 +510,8 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 | Cestovní ruch, obchod, služby (21xx) | 0 | 0 | 111 | 29 |
 | Bezpečnost, hasiči, krizové řízení | 293 | 443 | 31 | 140 |
 | Zdravotnictví a sociální věci | 109 | 38 | 16 | 0 |
-| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 153 | 42 | 222 | 121 |
-| CELKEM | 14 057 | 18 924 | 20 634 | 12 992 |
+| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 153 | 42 | 675 | 121 |
+| CELKEM | 14 057 | 18 925 | 21 087 | 12 992 |
 
 ### 2022–2026
 
@@ -529,8 +529,8 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 | Cestovní ruch, obchod, služby (21xx) | 0 | 0 | 23 | 3 918 |
 | Bezpečnost, hasiči, krizové řízení | 334 | 812 | 23 | 3 767 |
 | Zdravotnictví a sociální věci | 169 | 0 | 46 | 0 |
-| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 132 | 45 | 323 | 37 |
-| CELKEM | 15 937 | 16 180 | 17 592 | 28 837 |
+| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 132 | 45 | 627 | 37 |
+| CELKEM | 15 937 | 16 180 | 17 896 | 28 837 |
 
 ## 7. Výdaje podle druhu po obdobích (Kč na obyvatele a rok)
 
@@ -541,7 +541,7 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 | Investice (třída 6) | 1 227 | 2 212 | 13 010 | 4 074 |
 | Opravy a udržování (5171) | 1 887 | 715 | 369 | 328 |
 | Služby (516x) | 1 289 | 1 615 | 2 376 | 1 512 |
-| Transfery: příspěvky, dotace, dary (52xx–54xx) | 896 | 616 | 588 | 830 |
+| Transfery: příspěvky, dotace, dary (52xx–54xx) | 909 | 616 | 570 | 830 |
 | Platy, dohody a pojistné (50xx bez 5023) | 1 171 | 476 | 1 175 | 1 816 |
 | Odměny zastupitelů (5023) | 928 | 365 | 753 | 573 |
 | Materiál a drobný majetek (513x) | 577 | 267 | 555 | 292 |
@@ -555,7 +555,7 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 | Investice (třída 6) | 2 869 | 1 754 | 5 331 | 6 771 |
 | Opravy a udržování (5171) | 2 202 | 1 200 | 624 | 549 |
 | Služby (516x) | 1 860 | 1 987 | 2 514 | 1 322 |
-| Transfery: příspěvky, dotace, dary (52xx–54xx) | 858 | 260 | 579 | 670 |
+| Transfery: příspěvky, dotace, dary (52xx–54xx) | 858 | 273 | 810 | 670 |
 | Platy, dohody a pojistné (50xx bez 5023) | 1 702 | 480 | 1 280 | 2 099 |
 | Odměny zastupitelů (5023) | 942 | 387 | 824 | 712 |
 | Materiál a drobný majetek (513x) | 790 | 207 | 223 | 250 |
@@ -569,7 +569,7 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 | Investice (třída 6) | 4 160 | 9 401 | 12 312 | 5 328 |
 | Opravy a udržování (5171) | 1 574 | 4 564 | 641 | 638 |
 | Služby (516x) | 2 497 | 2 292 | 2 955 | 1 312 |
-| Transfery: příspěvky, dotace, dary (52xx–54xx) | 1 323 | 275 | 1 142 | 1 042 |
+| Transfery: příspěvky, dotace, dary (52xx–54xx) | 1 323 | 276 | 1 594 | 1 042 |
 | Platy, dohody a pojistné (50xx bez 5023) | 1 973 | 838 | 1 612 | 2 655 |
 | Odměny zastupitelů (5023) | 1 031 | 528 | 918 | 775 |
 | Materiál a drobný majetek (513x) | 1 002 | 334 | 304 | 252 |
@@ -583,7 +583,7 @@ Kč na obyvatele a rok a mil. Kč. Peníze na účtech jsou přepočtené počte
 | Investice (třída 6) | 1 115 | 6 441 | 5 508 | 12 434 |
 | Opravy a udržování (5171) | 4 519 | 3 348 | 470 | 1 914 |
 | Služby (516x) | 3 639 | 3 723 | 3 351 | 2 483 |
-| Transfery: příspěvky, dotace, dary (52xx–54xx) | 1 997 | 429 | 2 451 | 2 240 |
+| Transfery: příspěvky, dotace, dary (52xx–54xx) | 1 997 | 429 | 2 755 | 2 240 |
 | Platy, dohody a pojistné (50xx bez 5023) | 2 190 | 663 | 3 064 | 5 004 |
 | Odměny zastupitelů (5023) | 1 307 | 491 | 1 227 | 1 030 |
 | Materiál a drobný majetek (513x) | 520 | 428 | 582 | 2 375 |
@@ -598,21 +598,21 @@ Sloupec „z toho 3639/5169“ je upravený rozpočet tohoto řádku, „z toho 
 
 | Rok | Schválený | Upravený | z toho 3639/5169 | z toho 5901 | Skutečnost | Čerpání | Čerpání bez rezerv |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 4,68 | 7,49 | 0,00 | 0,00 | 6,95 | 93 % | 93 % |
-| 2011 | 5,59 | 6,63 | 0,00 | 0,00 | 4,44 | 67 % | 67 % |
-| 2012 | 6,72 | 8,39 | 0,00 | 0,00 | 7,28 | 87 % | 87 % |
-| 2013 | 7,54 | 8,10 | 0,00 | 0,00 | 7,53 | 93 % | 93 % |
-| 2014 | 6,20 | 6,50 | 0,00 | 0,00 | 6,22 | 96 % | 96 % |
-| 2015 | 7,30 | 9,08 | 0,00 | 0,00 | 9,01 | 99 % | 99 % |
-| 2016 | 10,36 | 10,90 | 0,00 | 0,00 | 5,93 | 54 % | 54 % |
-| 2017 | 14,86 | 18,31 | 3,40 | 0,00 | 9,50 | 52 % | 64 % |
+| 2010 | 4,69 | 7,35 | 0,00 | 0,00 | 6,95 | 94 % | 94 % |
+| 2011 | 6,25 | 6,68 | 0,00 | 0,05 | 4,44 | 66 % | 67 % |
+| 2012 | 6,96 | 8,42 | 0,00 | 0,00 | 7,31 | 87 % | 87 % |
+| 2013 | 8,30 | 8,66 | 0,00 | 0,53 | 7,54 | 87 % | 93 % |
+| 2014 | 6,98 | 9,92 | 0,00 | 3,42 | 6,22 | 63 % | 96 % |
+| 2015 | 8,00 | 9,61 | 0,00 | 0,00 | 9,01 | 94 % | 94 % |
+| 2016 | 10,60 | 11,06 | 0,00 | 0,16 | 5,93 | 54 % | 54 % |
+| 2017 | 14,86 | 18,16 | 3,40 | 0,00 | 9,50 | 52 % | 64 % |
 | 2018 | 16,65 | 22,31 | 6,67 | 0,00 | 12,95 | 58 % | 83 % |
-| 2019 | 21,78 | 24,46 | 11,56 | 0,00 | 10,64 | 44 % | 82 % |
+| 2019 | 21,77 | 24,49 | 11,56 | 0,00 | 10,64 | 43 % | 82 % |
 | 2020 | 33,38 | 35,82 | 8,59 | 0,00 | 13,13 | 37 % | 48 % |
 | 2021 | 33,81 | 38,23 | 13,58 | 0,00 | 19,10 | 50 % | 77 % |
 | 2022 | 29,73 | 38,20 | 15,49 | 0,00 | 10,88 | 28 % | 48 % |
 | 2023 | 43,18 | 47,25 | 22,12 | 0,00 | 19,12 | 40 % | 76 % |
-| 2024 | 35,68 | 49,01 | 23,68 | 0,00 | 17,54 | 36 % | 69 % |
+| 2024 | 35,68 | 49,02 | 23,68 | 0,00 | 17,54 | 36 % | 69 % |
 | 2025 | 51,01 | 54,06 | 26,40 | 0,00 | 14,53 | 27 % | 53 % |
 
 ### Písková Lhota
@@ -624,38 +624,38 @@ Sloupec „z toho 3639/5169“ je upravený rozpočet tohoto řádku, „z toho 
 | 2012 | 5,46 | 4,46 | 0,00 | 0,00 | 4,45 | 100 % | 100 % |
 | 2013 | 5,71 | 5,88 | 0,00 | 0,00 | 5,88 | 100 % | 100 % |
 | 2014 | 6,18 | 3,69 | 0,00 | 0,00 | 3,68 | 100 % | 100 % |
-| 2015 | 7,95 | 7,23 | 0,00 | 0,00 | 7,19 | 99 % | 99 % |
-| 2016 | 6,13 | 4,89 | 0,00 | 0,00 | 4,89 | 100 % | 100 % |
-| 2017 | 6,70 | 4,46 | 0,00 | 0,00 | 4,45 | 100 % | 100 % |
-| 2018 | 7,94 | 5,15 | 0,00 | 0,00 | 5,15 | 100 % | 100 % |
+| 2015 | 7,95 | 7,24 | 0,00 | 0,00 | 7,20 | 99 % | 99 % |
+| 2016 | 6,14 | 4,90 | 0,00 | 0,00 | 4,90 | 100 % | 100 % |
+| 2017 | 6,71 | 4,46 | 0,00 | 0,00 | 4,46 | 100 % | 100 % |
+| 2018 | 7,95 | 5,16 | 0,00 | 0,00 | 5,16 | 100 % | 100 % |
 | 2019 | 12,34 | 6,34 | 0,00 | 0,00 | 6,34 | 100 % | 100 % |
 | 2020 | 18,29 | 15,08 | 0,00 | 0,00 | 15,06 | 100 % | 100 % |
 | 2021 | 17,81 | 18,64 | 0,00 | 0,00 | 18,64 | 100 % | 100 % |
 | 2022 | 29,07 | 45,29 | 0,00 | 0,07 | 36,30 | 80 % | 80 % |
-| 2023 | 13,79 | 29,08 | 0,00 | 0,72 | 19,46 | 67 % | 69 % |
-| 2024 | 21,70 | 29,66 | 0,00 | 0,87 | 19,32 | 65 % | 67 % |
+| 2023 | 13,79 | 28,98 | 0,00 | 0,72 | 19,46 | 67 % | 69 % |
+| 2024 | 21,70 | 29,75 | 0,00 | 0,87 | 19,32 | 65 % | 67 % |
 | 2025 | 26,84 | 36,59 | 0,00 | 0,94 | 14,80 | 40 % | 42 % |
 
 ### Rebešovice
 
 | Rok | Schválený | Upravený | z toho 3639/5169 | z toho 5901 | Skutečnost | Čerpání | Čerpání bez rezerv |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 15,26 | 11,36 | 0,00 | 0,00 | 10,87 | 96 % | 96 % |
-| 2011 | 22,89 | 7,70 | 0,00 | 0,00 | 7,69 | 100 % | 100 % |
-| 2012 | 45,35 | 52,53 | 0,00 | 0,10 | 47,35 | 90 % | 90 % |
-| 2013 | 8,32 | 9,09 | 0,00 | 0,10 | 6,32 | 69 % | 70 % |
-| 2014 | 9,05 | 7,04 | 0,01 | 0,10 | 6,91 | 98 % | 100 % |
-| 2015 | 11,30 | 12,54 | 0,02 | 0,10 | 7,69 | 61 % | 62 % |
-| 2016 | 12,17 | 14,04 | 0,06 | 0,16 | 9,74 | 69 % | 70 % |
-| 2017 | 18,54 | 20,62 | 0,02 | 0,16 | 10,64 | 52 % | 52 % |
-| 2018 | 19,94 | 25,38 | 0,82 | 0,25 | 18,53 | 73 % | 73 % |
-| 2019 | 24,80 | 26,64 | 0,50 | 0,34 | 10,48 | 39 % | 40 % |
-| 2020 | 31,69 | 35,96 | 0,50 | 0,29 | 20,47 | 57 % | 58 % |
-| 2021 | 44,51 | 47,54 | 0,50 | 1,76 | 22,85 | 48 % | 50 % |
-| 2022 | 45,74 | 38,25 | 0,30 | 1,68 | 31,85 | 83 % | 88 % |
-| 2023 | 26,37 | 28,55 | 0,80 | 3,82 | 14,99 | 53 % | 63 % |
-| 2024 | 36,25 | 38,77 | 0,94 | 4,31 | 18,77 | 48 % | 54 % |
-| 2025 | 40,17 | 40,84 | 0,01 | 2,94 | 23,97 | 59 % | 63 % |
+| 2010 | 15,26 | 11,40 | 0,00 | 0,00 | 10,91 | 96 % | 96 % |
+| 2011 | 22,89 | 7,76 | 0,00 | 0,00 | 7,75 | 100 % | 100 % |
+| 2012 | 45,04 | 52,30 | 0,00 | 0,10 | 47,11 | 90 % | 90 % |
+| 2013 | 8,32 | 9,12 | 0,00 | 0,10 | 6,35 | 70 % | 70 % |
+| 2014 | 9,05 | 7,12 | 0,01 | 0,10 | 6,99 | 98 % | 100 % |
+| 2015 | 11,43 | 12,66 | 0,02 | 0,10 | 7,78 | 61 % | 62 % |
+| 2016 | 12,17 | 14,27 | 0,06 | 0,16 | 9,96 | 70 % | 70 % |
+| 2017 | 18,54 | 21,10 | 0,02 | 0,16 | 10,93 | 52 % | 52 % |
+| 2018 | 20,44 | 26,61 | 0,82 | 0,25 | 18,81 | 71 % | 71 % |
+| 2019 | 25,30 | 27,14 | 0,50 | 0,34 | 10,66 | 39 % | 40 % |
+| 2020 | 32,19 | 36,58 | 0,50 | 0,29 | 21,09 | 58 % | 59 % |
+| 2021 | 45,51 | 48,42 | 0,50 | 1,76 | 23,71 | 49 % | 51 % |
+| 2022 | 46,74 | 39,25 | 0,30 | 1,68 | 32,08 | 82 % | 86 % |
+| 2023 | 27,37 | 29,55 | 0,80 | 3,82 | 15,18 | 51 % | 61 % |
+| 2024 | 37,25 | 39,77 | 0,94 | 4,31 | 19,28 | 48 % | 54 % |
+| 2025 | 41,17 | 42,74 | 0,01 | 2,94 | 24,27 | 57 % | 61 % |
 
 ### Závišice
 
@@ -674,9 +674,9 @@ Sloupec „z toho 3639/5169“ je upravený rozpočet tohoto řádku, „z toho 
 | 2020 | 18,23 | 20,29 | 0,01 | 8,17 | 9,36 | 46 % | 77 % |
 | 2021 | 22,28 | 28,78 | 0,01 | 1,61 | 14,87 | 52 % | 55 % |
 | 2022 | 21,46 | 28,71 | 0,01 | 5,69 | 19,02 | 66 % | 83 % |
-| 2023 | 20,91 | 29,16 | 0,02 | 5,41 | 14,68 | 50 % | 62 % |
-| 2024 | 39,95 | 53,94 | 0,02 | 1,53 | 28,59 | 53 % | 55 % |
-| 2025 | 50,32 | 69,18 | 0,02 | 0,21 | 55,95 | 81 % | 81 % |
+| 2023 | 20,92 | 29,16 | 0,02 | 5,41 | 14,68 | 50 % | 62 % |
+| 2024 | 39,95 | 53,96 | 0,02 | 1,53 | 28,59 | 53 % | 55 % |
+| 2025 | 50,68 | 69,54 | 0,02 | 0,21 | 55,95 | 80 % | 81 % |
 
 ## 9. Největší investice a opravy podle paragrafů (mil. Kč za období)
 
@@ -741,7 +741,7 @@ Názvy paragrafů: 2212 silnice, 2219 ostatní záležitosti pozemních komunika
 
 ## Pozor
 
-- **Závišice zřizují základní školu** (1.–5. ročník). Mají proto výdaje na školství (příspěvek škole 5331 v letech 2023–2025 celkem 2,79 mil. Kč) a dostávají vyšší RUD. HD a Rebešovice zřizují jen mateřskou školu, Písková Lhota žádnou školu.
+- **Závišice zřizují základní školu** (1.–5. ročník). Mají proto výdaje na školství (příspěvek škole 5331 v letech 2023–2025 celkem 2,79 mil. Kč) a dostávají o něco vyšší RUD. HD a Rebešovice zřizují jen mateřskou školu, Písková Lhota žádnou školu. RUD počítá s dětmi v mateřských školách i se žáky základních škol zřizovaných obcí, takže z tohoto kritéria těží i HD a Rebešovice; Závišice mají navíc jen žáky ZŠ.
 - **Kanalizaci nemusí stavět obec.** V Pískové Lhotě byla investorem kanalizace vodárenská společnost VaK Mladá Boleslav a obec na ni přispívala; v rozpočtu obce je proto vidět jen část nákladů. V Rebešovicích byla investorem kanalizace a ČOV obec.
 - **Rok 2026 v datech chybí.** Období 2022–2026 má jen tři roky (2023–2025).
 - **Ceny nejsou očištěné o inflaci.** Srovnání obcí v témže roce tím netrpí, srovnání období v čase ano.
@@ -752,8 +752,8 @@ Názvy paragrafů: 2212 silnice, 2219 ostatní záležitosti pozemních komunika
 
 **Zdroje.** Ministerstvo financí, Monitor státní pokladny (https://monitor.statnipokladna.gov.cz): výkaz FIN 2-12 M k 31. 12. let 2010–2025 a rozvaha obcí k 31. 12. let 2010–2025. Počty obyvatel: ČSÚ, datová sada OBY01B01. IČO a kódy obcí jsou ověřené v ARES.
 
-**Definice** jsou stejné jako na stránce [Finance](srovnani-finance.html) u sousedních obcí: příjmy = třídy 1–4 bez převodů 413x, výdaje = třídy 5 a 6 bez paragrafů 6330 a 6399, investice + opravy = třída 6 + položka 5171, peníze = účty 231 + 244 + 245, úvěry = 281 + 451. Za volební období se „Kč na obyvatele a rok“ počítá jako součet částek dělený součtem počtů obyvatel k 1. 7. týchž let.
+**Definice** jsou stejné jako na stránce [Finance](srovnani-finance.html) u sousedních obcí: příjmy = třídy 1–4 bez převodů 413x a bez položky 1122, daňové příjmy = třída 1 bez položky 1122, výdaje = třídy 5 a 6 bez převodů mezi vlastními účty (§ 6330), investice + opravy = třída 6 + položka 5171, peníze = účty 231 + 244 + 245, úvěry = 281 + 451. Za volební období se „Kč na obyvatele a rok“ počítá jako součet částek dělený součtem počtů obyvatel k 1. 7. týchž let. Daň z příjmů, kterou obec platí sama sobě (položka 1122), je odečtena z příjmů, daňových příjmů i výdajů: obec ji zaplatí jako výdaj a stejná částka se jí vrátí jako daňový příjem, takže jde jen o účetní přesun. Ostatní výdaje paragrafu 6399 (například odvody DPH) ve výdajích zůstávají a v rozdělení výdajů podle účelu patří do kategorie „Ostatní“.
 
-**Kontrola.** U všech čtyř obcí bylo ověřeno, že saldo odpovídá změně peněz na účtech po odečtení změny úvěrů. Větší rozdíly odpovídají dani, kterou obec platí sama sobě (6399), a u Rebešovic v roce 2025 nákupu cenných papírů (3,62 mil. Kč). U Rebešovic v roce 2012 je rozdíl 5,6 mil. Kč; jde o rok stavby kanalizace a ČOV s úvěrem a dotačními zálohami a příčina z výkazů přesně nevyplývá. Čísla HD se shodují se stránkou o sousedních obcích.
+**Kontrola.** U všech čtyř obcí bylo ověřeno, že saldo odpovídá změně peněz na účtech (včetně účtu 236) po odečtení změny úvěrů. U HD, Pískové Lhoty a Závišic je rozdíl ve všech letech 2011–2025 do 0,2 mil. Kč, s výjimkou HD v roce 2011 (0,50 mil. Kč, příčina z výkazů nevyplývá). U Rebešovic je rozdíl ve většině let do 0,2 mil. Kč. Větší je v roce 2020 (−1,09 mil. Kč) a 2023 (0,69 mil. Kč), kde příčina z výkazů nevyplývá, a v roce 2025 (3,49 mil. Kč), kde odpovídá hlavně nákupu cenných papírů (3,62 mil. Kč). V roce 2012 je rozdíl 5,4 mil. Kč; jde o rok stavby kanalizace a ČOV s úvěrem a dotačními zálohami a příčina z výkazů přesně nevyplývá. Čísla HD se shodují se stránkou o sousedních obcích.
 
 Data: [finance_HD_2010-2025.csv](data/finance_HD_2010-2025.csv), [finance_PL_2010-2025.csv](data/finance_PL_2010-2025.csv), [finance_REB_2010-2025.csv](data/finance_REB_2010-2025.csv), [finance_ZAV_2010-2025.csv](data/finance_ZAV_2010-2025.csv), [podobne_obce_souhrn_po_obdobich.csv](data/podobne_obce_souhrn_po_obdobich.csv), [podobne_obce_vydaje_kategorie_2010-2025.csv](data/podobne_obce_vydaje_kategorie_2010-2025.csv), [podobne_obce_investice_podle_paragrafu.csv](data/podobne_obce_investice_podle_paragrafu.csv).

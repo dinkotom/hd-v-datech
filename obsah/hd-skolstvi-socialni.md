@@ -1,7 +1,7 @@
 ---
 title: "Školství a sociální situace"
 description: "Mateřská škola, spádové základní školy, nezaměstnanost, exekuce, kriminalita, ovzduší a dostupnost zdravotních a sociálních služeb v Horních Domaslavicích."
-updated: "2026-10-31"
+updated: "2026-11-02"
 ---
 
 Stránka shrnuje veřejně dostupná data o školství, sociální situaci, bezpečnosti a ovzduší v obci Horní Domaslavice (kód obce 512192, IČO 00536008, okres Frýdek-Místek). Data pocházejí z rejstříku škol MŠMT, inspekčních zpráv České školní inspekce, Sbírky právních předpisů, ČSÚ a MPSV, Exekutorské komory ČR, mapy kriminality Policie ČR, ČHMÚ, ÚZIS a registru sociálních služeb MPSV. Data byla stažena 30. 10. 2026; pokud není uvedeno jinak, platí u všech odkazů toto datum přístupu.
@@ -257,7 +257,7 @@ Přestupky převažují v obcích s frekventovanými silnicemi (Dobrá, Pazderna
 | 2019–2023 | **1,49** (1,4–1,5) | 20,8 | 35,5 | 16,0 | 11,0 |
 | 2020–2024 | **1,29** (1,2–1,3) | 20,1 (19,8–20,5) | 34,5 | 15,3 (15,2–15,5) | 10,3 |
 
-Tučně jsou hodnoty nad imisním limitem podle přílohy č. 1 zákona č. 201/2012 Sb. Benzo(a)pyren je v obci nad limitem ve všech pětiletých obdobích, ale od 2015–2019 klesl skoro o polovinu. Denní limit PM10 (36. nejvyšší hodnota) a roční limit PM2,5 byly překročeny ještě v průměrech 2015–2019 a 2016–2020, dnes jsou pod limitem. Pro kontext: evropská směrnice (EU) 2024/2881 zavádí od roku 2030 přísnější roční limity (PM2,5 10 µg/m³, PM10 20 µg/m³), které by obec s dnešními hodnotami nesplnila. Tento údaj vychází z textu směrnice, nikoli z dat ČHMÚ.
+Tučně jsou hodnoty nad imisním limitem podle přílohy č. 1 zákona č. 201/2012 Sb. Benzo(a)pyren je v obci nad limitem ve všech pětiletých obdobích, ale od 2015–2019 klesl skoro o polovinu. Denní limit PM10 (36. nejvyšší hodnota) byl překročen jen v průměru 2015–2019 (53,0 µg/m³; v období 2016–2020 už 48,8). Roční limit PM2,5 byl překročen v průměrech 2015–2019 a 2016–2020. Dnes jsou obě hodnoty pod limitem. Pro kontext: evropská směrnice (EU) 2024/2881 zavádí od roku 2030 přísnější roční limity (PM2,5 10 µg/m³, PM10 20 µg/m³), které by obec s dnešními hodnotami nesplnila. Tento údaj vychází z textu směrnice, nikoli z dat ČHMÚ.
 
 ### 6.2 Oblast se zhoršenou kvalitou ovzduší
 

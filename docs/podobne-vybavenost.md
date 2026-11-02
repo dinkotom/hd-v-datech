@@ -1,6 +1,6 @@
 # Občanská vybavenost (podobné obce)
 
-Zdroj: https://hd-v-datech.cz/podobne-vybavenost.html (aktualizováno 2026-11-01)
+Zdroj: https://hd-v-datech.cz/podobne-vybavenost.html (aktualizováno 2026-11-02)
 
 > Jaké služby a zařízení mají Horní Domaslavice, Písková Lhota, Rebešovice a Závišice a jak podobné obce pořídily to, co HD chybí.
 
@@ -68,7 +68,7 @@ Počet obyvatel k 31. 12. 2025: HD 1 109, Písková Lhota 1 111, Rebešovice 1 1
 
 | Položka | HD | Písková Lhota | Rebešovice | Závišice |
 |---|---|---|---|---|
-| Vodovod | **má**; část řadů poddimenzovaná | **má** (VaK Mladá Boleslav), zokruhování 2023 | **má** (Vírský oblastní vodovod od 2004) | **má** od 1978 (SmVaK); asi 15 domů na místním zdroji |
+| Vodovod | **má** (provozuje SmVaK; vlastnictví sítě obcí nedoloženo); část řadů poddimenzovaná | **má** (VaK Mladá Boleslav), zokruhování 2023 | **má** (Vírský oblastní vodovod od 2004) | **má** od 1978 (SmVaK); asi 15 domů na místním zdroji |
 | Kanalizace a ČOV | **nemá**: žumpy a domovní ČOV, obec přispívá | **má** od 2023 (investor VaK Mladá Boleslav), ne v celé obci | **má**: ČOV a kanalizace, rekonstrukce a dostavba 2010–2012 za cca 37 mil. Kč; ČOV je na hranici kapacity | **nemá**: jen dešťová kanalizace; od 2021 příspěvek na domovní ČOV (až 30 tis. Kč); kanalizace v plánu na 2026–2035 (85 mil. Kč) |
 | Plyn | **částečně** (asi 11–15 % domů) | **nemá** | **má** | **má**: většina obce |
 | Chodníky podél hlavní silnice | **nemá** (jen úsek mezi hřbitovy 2018) | **částečně**: 2022–2023, další etapa 2026–2027 | **částečně**: 2018; přechody u zastávek chybí | **má**: postupně 2002, 2016, 2022 a 2025 |

@@ -109,8 +109,8 @@
       return h + '<p class="src">Čtverec s méně než 5 domy a bez dost velkého okolí: podíly ani rok dokončení se kvůli ochraně soukromí neuvádějí.</p>';
     }
     if (p.domy == null) {
-      h += '<p style="margin:4px 0 0">Údaje níže platí pro <b>' + p.skupina_ctverce + ' čtverců s méně než 5 domy</b> v bloku 300 × 300 m, dohromady ' +
-        p.skupina_domy + ' domů.</p>';
+      h += '<p style="margin:4px 0 0">Údaje níže platí pro <b>' + esc(p.skupina_ctverce) + ' čtverců s méně než 5 domy</b> v bloku 300 × 300 m, dohromady ' +
+        esc(p.skupina_domy) + ' domů.</p>';
     }
     h += '<table>' +
       row('Veřejný vodovod', p.vodovod_pct, p.vodovod_n) +
@@ -148,7 +148,7 @@
       pointToLayer: function (f, ll) { return L.marker(ll, { icon: poiIcon('mapa-bus', 'B'), title: f.properties.nazev, keyboard: true }); },
       onEachFeature: function (f, l) {
         var p = f.properties;
-        l.bindPopup('<h4>' + esc(p.nazev) + '</h4><p style="margin:0"><b>' + p.spoje_pracovni_den +
+        l.bindPopup('<h4>' + esc(p.nazev) + '</h4><p style="margin:0"><b>' + esc(p.spoje_pracovni_den) +
           '</b> spojů v pracovní den (oba směry), linky ' + esc(p.linky.join(', ')) + '.</p><p class="src">Poloha: ' +
           esc(p.zdroj_polohy) + '. Spoje: ' + esc(p.zdroj_spoju) + '.</p>', { maxWidth: 300 });
       }

@@ -1,6 +1,6 @@
 # Srovnání obyvatelstva a výstavby
 
-Zdroj: https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html (aktualizováno 2026-11-01)
+Zdroj: https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.html (aktualizováno 2026-11-02)
 
 > Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a sousedních obcích.
 
@@ -203,7 +203,7 @@ Procenta jsou počítána ze všech osob 15+, včetně odpovědi „nezjištěno
 | Byty celkem | 416 | 131 | 549 | 600 | 292 | 99 027 | 5 340 033 |
 | Neobydlené byty | **22,1 %** (92) | 18,3 % (24) | 13,5 % (74) | 14,5 % (87) | 17,1 % (50) | 15,9 % | 16,1 % |
 
-V HD je polovina obydlených domů z doby po roce 2000. Ve Vojkovicích je to necelá polovina (47 %), v Pazderně, DD a Lučině zhruba třetina. Okres má čtvrtinu.
+V HD je polovina obydlených domů z doby po roce 2000. Ve Vojkovicích je to necelá polovina (47 %), v Pazderně, DD a Lučině třetina až dvě pětiny (33–39 %). Okres má čtvrtinu.
 
 ### Kanalizace a vodovod (obydlené domy)
 
@@ -356,7 +356,7 @@ Pro HD, Pazdernu, Lučinu a Vojkovice se obě řady (RÚIAN a ČSÚ) za 2001–2
 
 1. **Všech pět obcí roste hlavně stěhováním, HD nejrychleji a nejstabilněji.** Za 25 let má HD +97 %, Vojkovice +61 %, DD +59 %, Pazderna +54 % a Lučina +40 %. Přirozená měna je u všech malá, nejvyšší mají Vojkovice (+43 osob za roky 2002–2025). V roce 2025 DD a Lučina mírně klesly, HD a Pazderna dál rostly, Vojkovice stagnovaly (+1).
 2. **HD a Pazderna jsou výrazně mladší než DD a Lučina.** Index stáří je 58 a 49, proti 93 a 105. Vojkovice jsou s indexem 70 mezi nimi. Pazderna má podle dat ČSÚ za rok 2024 nižší index stáří než HD, ale jde o malou obec (103 dětí, 50 seniorů).
-3. **HD stavěla nejvíc.** Na 1 000 obyvatel dokončila za 10 let 116 bytů, DD 58, Lučina 65 a Vojkovice 73. Polovina obydlených domů v HD je z doby po roce 2000, ve Vojkovicích 47 %, v ostatních sousedních obcích třetina.
+3. **HD stavěla nejvíc.** Na 1 000 obyvatel dokončila za 10 let 116 bytů, Pazderna 90, DD 58, Lučina 65 a Vojkovice 73. Podle sčítání 2021 je polovina obydlených domů v HD z doby po roce 2000, ve Vojkovicích 47 %, v ostatních sousedních obcích třetina až dvě pětiny (Pazderna 33 %, Lučina 34 %, DD 39 %).
 4. **Infrastruktura: HD, Pazderna a Vojkovice nemají kanalizaci.** V Lučině je napojena polovina domů a v DD 8 %. HD má z pěti obcí nejméně plynu (11 % bytů topí plynem, v sousedních obcích asi 40 %) a nejvíc uhlí (21 %).
 5. **HD je nejvíc „dojížďková“.** Mimo obec pracuje 76,5 % zaměstnaných, v ostatních obcích 68–71 %. Autem jezdí dvě třetiny. Do HD skoro nikdo nedojíždí. DD jsou pro okolí školním centrem (123 dojíždějících žáků).
 6. **HD má nejvíc vysokoškoláků (21,9 %),** DD 19,9 %, Lučina 18,9 %, Pazderna 17,5 %, Vojkovice 16,3 %.

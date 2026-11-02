@@ -220,11 +220,11 @@
 </tr>
 <tr>
 <td><code>prijmy</code></td>
-<td>Příjmy celkem = třídy 1–4 rozpočtové skladby bez převodů z vlastních fondů (položky 413x). Kč.</td>
+<td>Příjmy celkem = třídy 1–4 rozpočtové skladby bez převodů z vlastních fondů (položky 413x) a bez daně z příjmů, kterou obec platí sama sobě (položka 1122, viz <code>dppo_obec</code>). Kč.</td>
 </tr>
 <tr>
 <td><code>trida1</code></td>
-<td>Daňové příjmy (třída 1): sdílené daně, daň z nemovitých věcí, místní poplatky aj. Kč.</td>
+<td>Daňové příjmy (třída 1): sdílené daně, daň z nemovitých věcí, místní poplatky aj.; bez položky 1122 (daň placená obcí sama sobě). Kč.</td>
 </tr>
 <tr>
 <td><code>rud</code></td>
@@ -236,7 +236,7 @@
 </tr>
 <tr>
 <td><code>dppo_obec</code></td>
-<td>Daň z příjmů právnických osob za obec (položka 1122). Obec ji platí sama sobě, proto je stejná částka i ve <code>vyd_6399</code>. Kč.</td>
+<td>Daň z příjmů právnických osob za obec (položka 1122). Obec ji platí sama sobě; částka je odečtena z <code>prijmy</code>, <code>trida1</code> i <code>vydaje</code> (protějšek ve výdajích bývá v § 6399, u některých obcí a let v § 6171). Kč.</td>
 </tr>
 <tr>
 <td><code>trida2</code></td>
@@ -260,7 +260,7 @@
 </tr>
 <tr>
 <td><code>vydaje</code></td>
-<td>Výdaje celkem = třídy 5 a 6, bez převodů mezi vlastními účty (§ 6330) a bez daně z příjmů za obec (§ 6399). Kč.</td>
+<td>Výdaje celkem = třídy 5 a 6 bez převodů mezi vlastními účty (§ 6330), minus daň z příjmů placená obcí sama sobě (částka <code>dppo_obec</code>). Ostatní platby v § 6399 (např. odvody DPH) se počítají. Kč.</td>
 </tr>
 <tr>
 <td><code>vydaje_sch</code></td>
@@ -268,7 +268,7 @@
 </tr>
 <tr>
 <td><code>vydaje_upr</code></td>
-<td>Upravený rozpočet výdajů ke konci roku (po rozpočtových opatřeních). Kč.</td>
+<td>Upravený rozpočet výdajů ke konci roku (po rozpočtových opatřeních), stejné vymezení jako <code>vydaje</code>. Kč.</td>
 </tr>
 <tr>
 <td><code>investice</code></td>
@@ -376,7 +376,7 @@
 </tr>
 <tr>
 <td><code>vyd_6399</code></td>
-<td>Ostatní finanční operace (§ 6399), hlavně daň z příjmů za obec; do <code>vydaje</code> se nepočítají. Kč.</td>
+<td>Ostatní finanční operace (§ 6399): hlavně daň z příjmů za obec, u některých obcí i odvody DPH. Do <code>vydaje</code> se počítají, odečte se jen částka <code>dppo_obec</code>. Kč.</td>
 </tr>
 <tr>
 <td><code>*_na_obyv</code> (40 sloupců)</td>
@@ -1209,12 +1209,13 @@
 </tbody>
 </table>
 <h2 id="podobne_obce_vybercsv">podobne_obce_vyber.csv</h2>
-<p>Výběr podobných obcí: 231 obcí ČR s 650–1 800 obyvateli (2025), růstem od roku 2000 alespoň 35 % a rozlohou 3–11 km², a pro srovnání HD.</p>
+<p>Podklady k výběru podobných obcí: 231 obcí ČR s 650–1 800 obyvateli (2025), růstem od roku 2000 alespoň 35 % a rozlohou 3–11 km², a pro srovnání HD. Pro 93 z nich, které splňují užší filtr výběru (750–1 600 obyvatel, růst alespoň 55 %, rozloha 3–8,5 km²), je uvedeno i skóre a pořadí, podle kterého se vybíraly tři podobné obce.</p>
 <ul>
 <li>Odkaz: <a href="data/podobne_obce_vyber.csv">data/podobne_obce_vyber.csv</a></li>
-<li>Řádků: 232; jeden řádek = jedna obec; seřazeno od nejpodobnější HD</li>
+<li>Řádků: 232; jeden řádek = jedna obec; seřazeno podle indexu odlišnosti zástavby (sloupec poradi), ne podle pořadí výběru</li>
 <li>Zdroj: ČSÚ (obyvatelé), ČÚZK (úhrnné hodnoty druhů pozemků k 1. 1. 2026), RÚIAN (budovy, stav 30. 9. 2026). Výpočet autora webu.</li>
-<li>Pozor: Index odlišnosti je výpočet autora webu podle šesti ukazatelů (obyvatelé, růst, rozloha, největší část obce, vzdálenost od středu, propojení na dům); jiné váhy by daly jiné pořadí.</li>
+<li>Pozor: Tři podobné obce se vybíraly podle skóre výběru (sloupce skore_vyberu a poradi_vyberu), ne podle indexu odlišnosti. Písková Lhota je v pořadí výběru 1., Rebešovice 11. a Závišice 19.; obce v zázemí Prahy a několik dalších obcí s podobným skóre byly při výběru přeskočeny ručně.</li>
+<li>Pozor: Index odlišnosti je výpočet autora webu podle šesti ukazatelů (obyvatelé, růst, rozloha, největší část obce, vzdálenost od středu, propojení na dům); slouží k posouzení, jak běžná je zástavba podobná HD. Jiné váhy by daly jiné pořadí.</li>
 <li>Pozor: Napojení na kanalizaci a plyn je z RÚIAN, údaje jsou neúplné.</li>
 </ul>
 <table>
@@ -1307,7 +1308,15 @@
 </tr>
 <tr>
 <td><code>index_odlisnosti_od_HD</code></td>
-<td>Index odlišnosti od HD (0 = HD; čím menší, tím podobnější).</td>
+<td>Index odlišnosti od HD (0 = HD; čím menší, tím podobnější). Odmocnina součtu čtverců: ln poměru obyvatel / 0,3, ln poměru (100 + růst %) / 0,2, ln poměru rozlohy / 0,35, rozdíl podílu největší části / 15 p. b., ln poměru vzdálenosti od středu / 0,35 a ln poměru propojení na dům / 0,3.</td>
+</tr>
+<tr>
+<td><code>skore_vyberu</code></td>
+<td>Skóre výběru podobných obcí (0 = HD; čím menší, tím podobnější). Odmocnina součtu čtverců: ln poměru obyvatel 2025 / 0,25, ln poměru (100 + růst %) / 0,15, ln poměru rozlohy / 0,3, rozdíl podílu orné půdy / 20 p. b. a rozdíl podílu lesa / 15 p. b. Zástavbu nezohledňuje.</td>
+</tr>
+<tr>
+<td><code>poradi_vyberu</code></td>
+<td>Pořadí podle skóre výběru mezi 93 obcemi, které splňují filtr výběru (750–1 600 obyvatel v roce 2025, růst od roku 2000 alespoň 55 %, rozloha 3–8,5 km²); prázdné u obcí, které filtr nesplňují.</td>
 </tr>
 </tbody>
 </table>
@@ -3173,8 +3182,8 @@
 </main>
 </div>
 <footer class="site-footer"><div class="inner">
-Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
-Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 31. 10. 2026.
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.hornidomaslavice.cz/">hornidomaslavice.cz</a>.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno 2. 11. 2026.
 Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
 </div></footer>
 <script src="static/app.js"></script>

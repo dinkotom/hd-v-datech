@@ -1,6 +1,6 @@
 # Obyvatelstvo
 
-Zdroj: https://hd-v-datech.cz/hd-obyvatelstvo.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-obyvatelstvo.html (aktualizováno 2026-11-02)
 
 > Jak se v letech 2000–2025 měnil počet a složení obyvatel Horních Domaslavic a co o obci říká sčítání 2021.
 
@@ -100,7 +100,7 @@ Sčítání 2021 zaznamenalo v obci 978 obyvatel s obvyklým pobytem.
 
 - **Odvětví:** zpracovatelský průmysl zaměstnává 30 % pracujících obyvatel (ČR 24 %, okres 30 %).
 - **Profese:** proti republice je víc techniků a odborných pracovníků (22 % proti 16 %) a vedoucích pracovníků (8 % proti 5 %), naopak méně pomocných pracovníků (2 % proti 4 %).
-- **Nezaměstnanost:** podle RISY (data MPSV) to bylo v roce 2023 jen 1,6 % z dosažitelných uchazečů. Podrobnější řada je na stránce [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
+- **Nezaměstnanost:** podíl nezaměstnaných osob (PNO, dosažitelní uchazeči o zaměstnání ve věku 15–64 let na všech obyvatelích 15–64 let) byl podle ČSÚ v roce 2023 v průměru 2,20 % a v roce 2024 2,16 %. Od roku 2025 řadu vede MPSV (2025: 4,63 %); obě řady na sebe u obce plynule nenavazují. Údaj z tabulky výše (3,5 %) je ze sčítání 2021 a měří podíl na pracovní síle, není proto s PNO srovnatelný. Podrobnější řada je na stránce [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html).
 
 ### Vyjížďka za prací a do škol
 
@@ -198,7 +198,7 @@ Každá pátá domácnost topila v roce 2021 uhlím, čtyřikrát víc než repu
 - Malá čísla: u obce s 1 100 obyvateli stačí několik porodů nebo jedna velká rodina, aby se procenta výrazně posunula. Jednotlivé roky je lepší neinterpretovat a sledovat trendy.
 - Sčítání 2021 počítá obyvatele s **obvyklým pobytem** (978), evidence ČSÚ trvalý pobyt (999 k 31. 12. 2021). Část lidí žije v obci bez trvalého pobytu a naopak.
 - U sčítání je část odpovědí „nezjištěno“ (např. 47 zaměstnaných bez profese, 18 bytů bez plochy). Procenta jsou počítána ze všech, pokud není uvedeno jinak.
-- Profil obce v RISY obsahuje i zjevné chyby (u roku 2001 uvádí víc ekonomicky aktivních než obyvatel). Z RISY jsou proto převzaty jen počty obyvatel a vzdělání ze sčítání 2001 a 2011 a údaj o nezaměstnanosti.
+- Profil obce v RISY obsahuje i zjevné chyby (u roku 2001 uvádí víc ekonomicky aktivních než obyvatel). Z RISY jsou proto převzaty jen počty obyvatel a vzdělání ze sčítání 2001 a 2011. Údaj o nezaměstnanosti je z ČSÚ a MPSV (viz [Školství a sociální situace](https://hd-v-datech.cz/hd-skolstvi-socialni.html)).
 
 ## Metodika a zdroje
 

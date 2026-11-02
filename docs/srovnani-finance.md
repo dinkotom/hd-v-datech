@@ -1,6 +1,6 @@
 # Srovnání financí obcí
 
-Zdroj: https://hd-v-datech.cz/srovnani-finance.html (aktualizováno 2026-11-01)
+Zdroj: https://hd-v-datech.cz/srovnani-finance.html (aktualizováno 2026-11-02)
 
 > Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pazderny, Dolních Domaslavic, Lučiny a Vojkovic v letech 2010–2025.
 
@@ -47,20 +47,20 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 10 038 | 13 437 | 12 880 | 11 017 | 11 449 |
-| Daňové příjmy (třída 1) | 7 842 | 8 902 | 9 041 | 8 590 | 8 721 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 9 948 | 13 324 | 12 868 | 11 014 | 11 140 |
+| Daňové příjmy (třída 1) | 7 752 | 8 789 | 9 029 | 8 588 | 8 412 |
 | z toho RUD (1111+1112+1113+1121+1211) | 6 943 | 7 646 | 7 879 | 7 405 | 7 156 |
 | Daň z nemovitých věcí (1511) | 402 | 688 | 411 | 496 | 923 |
 | Neinvestiční dotace (41xx) | 284 | 923 | 1 244 | 513 | 645 |
 | Investiční dotace (42xx) | 0 | 1 889 | 1 517 | 963 | 101 |
-| Výdaje (bez 6330, 6399) | 8 655 | 9 548 | 9 586 | 9 831 | 12 819 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 8 669 | 9 548 | 9 586 | 9 831 | 12 510 |
 | Investice (třída 6) | 1 227 | 1 666 | 2 776 | 2 743 | 4 302 |
 | Opravy (5171) | 1 887 | 1 482 | 1 209 | 483 | 2 056 |
 | Investice + opravy | 3 114 | 3 148 | 3 984 | 3 226 | 6 357 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 3 114 | 1 258 | 2 467 | 2 263 | 6 257 |
 | Vodovod a kanalizace (2310, 2321) | 0 | 89 | 449 | 46 | 40 |
-| Saldo (příjmy − výdaje) | 1 382 | 3 889 | 3 294 | 1 186 | −1 369 |
-| Vlastní I+O / daňové příjmy | 40 % | 14 % | 27 % | 26 % | 72 % |
+| Saldo (příjmy − výdaje) | 1 280 | 3 776 | 3 282 | 1 184 | −1 369 |
+| Vlastní I+O / daňové příjmy | 40 % | 14 % | 27 % | 26 % | 74 % |
 | Peníze na účtech k 31. 12. 2014 (231+244+245) | 4 944 | 7 725 | 8 470 | 8 538 | 8 327 |
 | Úvěry k 31. 12. 2014 (281+451) | 427 | 936 | 0 | 0 | 0 |
 
@@ -68,20 +68,20 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 13 546 | 16 626 | 16 853 | 14 977 | 13 441 |
-| Daňové příjmy (třída 1) | 10 888 | 11 840 | 12 972 | 11 651 | 11 519 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 13 268 | 16 489 | 16 788 | 14 904 | 13 143 |
+| Daňové příjmy (třída 1) | 10 610 | 11 703 | 12 907 | 11 578 | 11 221 |
 | z toho RUD (1111+1112+1113+1121+1211) | 9 654 | 10 290 | 11 494 | 10 324 | 9 961 |
 | Daň z nemovitých věcí (1511) | 405 | 732 | 449 | 501 | 883 |
 | Neinvestiční dotace (41xx) | 1 052 | 1 267 | 1 164 | 667 | 229 |
 | Investiční dotace (42xx) | 914 | 2 406 | 1 342 | 1 924 | 84 |
-| Výdaje (bez 6330, 6399) | 11 518 | 12 475 | 17 778 | 13 030 | 7 960 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 11 518 | 12 475 | 17 778 | 13 030 | 7 808 |
 | Investice (třída 6) | 2 869 | 2 659 | 9 625 | 5 359 | 1 644 |
 | Opravy (5171) | 2 202 | 2 525 | 1 153 | 561 | 627 |
 | Investice + opravy | 5 071 | 5 183 | 10 778 | 5 920 | 2 270 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 4 157 | 2 777 | 9 436 | 3 996 | 2 186 |
 | Vodovod a kanalizace (2310, 2321) | 0 | 8 | 1 030 | 103 | 0 |
-| Saldo (příjmy − výdaje) | 2 028 | 4 151 | −924 | 1 947 | 5 481 |
-| Vlastní I+O / daňové příjmy | 38 % | 23 % | 73 % | 34 % | 19 % |
+| Saldo (příjmy − výdaje) | 1 750 | 4 014 | −990 | 1 875 | 5 335 |
+| Vlastní I+O / daňové příjmy | 39 % | 24 % | 73 % | 35 % | 19 % |
 | Peníze na účtech k 31. 12. 2018 (231+244+245) | 10 294 | 20 937 | 4 010 | 15 089 | 27 188 |
 | Úvěry k 31. 12. 2018 (281+451) | 0 | 0 | 0 | 0 | 0 |
 
@@ -89,20 +89,20 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 18 847 | 29 922 | 22 140 | 20 641 | 19 722 |
-| Daňové příjmy (třída 1) | 13 964 | 14 098 | 16 849 | 14 990 | 13 947 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 18 787 | 29 785 | 22 050 | 20 601 | 19 453 |
+| Daňové příjmy (třída 1) | 13 903 | 13 962 | 16 759 | 14 950 | 13 678 |
 | z toho RUD (1111+1112+1113+1121+1211) | 12 826 | 12 607 | 15 389 | 13 613 | 12 482 |
 | Daň z nemovitých věcí (1511) | 382 | 676 | 448 | 480 | 753 |
 | Neinvestiční dotace (41xx) | 1 297 | 3 226 | 1 595 | 1 670 | 674 |
 | Investiční dotace (42xx) | 3 059 | 11 791 | 2 532 | 3 170 | 2 755 |
-| Výdaje (bez 6330, 6399) | 14 057 | 32 314 | 14 897 | 21 690 | 19 170 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 14 057 | 32 314 | 14 897 | 21 690 | 19 169 |
 | Investice (třída 6) | 4 160 | 20 840 | 3 885 | 13 252 | 10 313 |
 | Opravy (5171) | 1 574 | 3 698 | 1 645 | 764 | 729 |
 | Investice + opravy | 5 734 | 24 537 | 5 530 | 14 016 | 11 041 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 2 675 | 12 747 | 2 999 | 10 846 | 8 287 |
 | Vodovod a kanalizace (2310, 2321) | 0 | 17 | 680 | 1 353 | 217 |
-| Saldo (příjmy − výdaje) | 4 790 | −2 392 | 7 243 | −1 049 | 552 |
-| Vlastní I+O / daňové příjmy | 19 % | 90 % | 18 % | 72 % | 59 % |
+| Saldo (příjmy − výdaje) | 4 730 | −2 529 | 7 153 | −1 089 | 283 |
+| Vlastní I+O / daňové příjmy | 19 % | 91 % | 18 % | 73 % | 61 % |
 | Peníze na účtech k 31. 12. 2022 (231+244+245) | 26 755 | 8 304 | 31 324 | 14 051 | 25 846 |
 | Úvěry k 31. 12. 2022 (281+451) | 0 | 0 | 0 | 4 510 | 0 |
 
@@ -110,20 +110,20 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 19 846 | 38 132 | 36 829 | 25 642 | 25 547 |
-| Daňové příjmy (třída 1) | 18 513 | 18 196 | 22 115 | 20 256 | 19 310 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 19 737 | 37 966 | 36 760 | 25 530 | 24 651 |
+| Daňové příjmy (třída 1) | 18 404 | 18 030 | 22 047 | 20 144 | 18 413 |
 | z toho RUD (1111+1112+1113+1121+1211) | 16 892 | 16 287 | 20 077 | 18 186 | 16 537 |
 | Daň z nemovitých věcí (1511) | 578 | 847 | 725 | 742 | 1 172 |
 | Neinvestiční dotace (41xx) | 529 | 677 | 3 384 | 662 | 1 191 |
 | Investiční dotace (42xx) | 0 | 17 863 | 8 853 | 3 092 | 1 821 |
-| Výdaje (bez 6330, 6399) | 15 937 | 41 116 | 36 758 | 31 116 | 23 073 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 15 937 | 41 116 | 36 758 | 31 116 | 23 091 |
 | Investice (třída 6) | 1 115 | 30 416 | 20 550 | 16 017 | 11 017 |
 | Opravy (5171) | 4 519 | 257 | 2 037 | 2 033 | 1 199 |
 | Investice + opravy | 5 634 | 30 673 | 22 588 | 18 050 | 12 216 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 5 634 | 12 810 | 13 735 | 14 958 | 10 396 |
 | Vodovod a kanalizace (2310, 2321) | 0 | 653 | 79 | 1 405 | 408 |
-| Saldo (příjmy − výdaje) | 3 909 | −2 984 | 71 | −5 475 | 2 474 |
-| Vlastní I+O / daňové příjmy | 30 % | 70 % | 62 % | 74 % | 54 % |
+| Saldo (příjmy − výdaje) | 3 800 | −3 150 | 2 | −5 587 | 1 560 |
+| Vlastní I+O / daňové příjmy | 31 % | 71 % | 62 % | 74 % | 56 % |
 | Peníze na účtech k 31. 12. 2025 (231+244+245) | 35 613 | 7 694 | 30 739 | 3 252 | 29 564 |
 | Úvěry k 31. 12. 2025 (281+451) | 0 | 9 460 | 0 | 10 806 | 0 |
 
@@ -133,19 +133,19 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 29,54 | 14,97 | 63,18 | 55,34 | 27,68 |
-| Daňové příjmy (třída 1) | 23,08 | 9,92 | 44,35 | 43,15 | 21,09 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 29,28 | 14,84 | 63,12 | 55,33 | 26,94 |
+| Daňové příjmy (třída 1) | 22,81 | 9,79 | 44,29 | 43,14 | 20,34 |
 | z toho RUD (1111+1112+1113+1121+1211) | 20,43 | 8,52 | 38,65 | 37,20 | 17,30 |
 | Daň z nemovitých věcí (1511) | 1,18 | 0,77 | 2,02 | 2,49 | 2,23 |
 | Neinvestiční dotace (41xx) | 0,83 | 1,03 | 6,10 | 2,58 | 1,56 |
 | Investiční dotace (42xx) | 0,00 | 2,10 | 7,44 | 4,83 | 0,24 |
-| Výdaje (bez 6330, 6399) | 25,47 | 10,64 | 47,02 | 49,38 | 31,00 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 25,51 | 10,64 | 47,02 | 49,38 | 30,25 |
 | Investice (třída 6) | 3,61 | 1,86 | 13,61 | 13,78 | 10,40 |
 | Opravy (5171) | 5,55 | 1,65 | 5,93 | 2,43 | 4,97 |
 | Investice + opravy | 9,17 | 3,51 | 19,54 | 16,20 | 15,37 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 9,17 | 1,40 | 12,10 | 11,37 | 15,13 |
 | Vodovod a kanalizace (2310, 2321) | 0,00 | 0,10 | 2,20 | 0,23 | 0,10 |
-| Saldo (příjmy − výdaje) | 4,07 | 4,33 | 16,16 | 5,96 | −3,31 |
+| Saldo (příjmy − výdaje) | 3,77 | 4,21 | 16,10 | 5,94 | −3,31 |
 | Peníze na účtech k 31. 12. 2014 | 3,86 | 2,20 | 10,91 | 10,98 | 5,15 |
 | Změna peněz za období (od 31. 12. 2010) | 3,60 | 1,43 | 10,72 | 6,08 | −3,31 |
 | Úvěry k 31. 12. 2014 | 0,33 | 0,27 | 0,00 | 0,00 | 0,00 |
@@ -154,19 +154,19 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 43,97 | 19,29 | 89,34 | 81,37 | 35,21 |
-| Daňové příjmy (třída 1) | 35,34 | 13,73 | 68,77 | 63,30 | 30,18 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 43,07 | 19,13 | 88,99 | 80,97 | 34,43 |
+| Daňové příjmy (třída 1) | 34,44 | 13,58 | 68,42 | 62,90 | 29,40 |
 | z toho RUD (1111+1112+1113+1121+1211) | 31,34 | 11,94 | 60,93 | 56,09 | 26,10 |
 | Daň z nemovitých věcí (1511) | 1,31 | 0,85 | 2,38 | 2,72 | 2,31 |
 | Neinvestiční dotace (41xx) | 3,41 | 1,47 | 6,17 | 3,62 | 0,60 |
 | Investiční dotace (42xx) | 2,97 | 2,79 | 7,11 | 10,45 | 0,22 |
-| Výdaje (bez 6330, 6399) | 37,39 | 14,47 | 94,24 | 70,79 | 20,85 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 37,39 | 14,47 | 94,24 | 70,79 | 20,46 |
 | Investice (třída 6) | 9,31 | 3,08 | 51,02 | 29,12 | 4,31 |
 | Opravy (5171) | 7,15 | 2,93 | 6,11 | 3,05 | 1,64 |
 | Investice + opravy | 16,46 | 6,01 | 57,13 | 32,16 | 5,95 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 13,50 | 3,22 | 50,02 | 21,71 | 5,73 |
 | Vodovod a kanalizace (2310, 2321) | 0,00 | 0,01 | 5,46 | 0,56 | 0,00 |
-| Saldo (příjmy − výdaje) | 6,58 | 4,82 | −4,90 | 10,58 | 14,36 |
+| Saldo (příjmy − výdaje) | 5,68 | 4,66 | −5,25 | 10,18 | 13,98 |
 | Peníze na účtech k 31. 12. 2018 | 9,20 | 6,36 | 5,53 | 21,12 | 19,11 |
 | Změna peněz za období (od 31. 12. 2014) | 5,35 | 4,16 | −5,38 | 10,14 | 13,97 |
 | Úvěry k 31. 12. 2018 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
@@ -175,19 +175,19 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 72,07 | 39,26 | 124,12 | 121,06 | 58,99 |
-| Daňové příjmy (třída 1) | 53,40 | 18,50 | 94,46 | 87,91 | 41,72 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 71,84 | 39,08 | 123,61 | 120,82 | 58,18 |
+| Daňové příjmy (třída 1) | 53,17 | 18,32 | 93,95 | 87,68 | 40,91 |
 | z toho RUD (1111+1112+1113+1121+1211) | 49,05 | 16,54 | 86,27 | 79,84 | 37,33 |
 | Daň z nemovitých věcí (1511) | 1,46 | 0,89 | 2,51 | 2,81 | 2,25 |
 | Neinvestiční dotace (41xx) | 4,96 | 4,23 | 8,94 | 9,79 | 2,02 |
 | Investiční dotace (42xx) | 11,70 | 15,47 | 14,19 | 18,59 | 8,24 |
-| Výdaje (bez 6330, 6399) | 53,75 | 42,40 | 83,52 | 127,21 | 57,34 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 53,75 | 42,40 | 83,52 | 127,21 | 57,34 |
 | Investice (třída 6) | 15,91 | 27,34 | 21,78 | 77,72 | 30,85 |
 | Opravy (5171) | 6,02 | 4,85 | 9,22 | 4,48 | 2,18 |
 | Investice + opravy | 21,93 | 32,19 | 31,00 | 82,20 | 33,02 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 10,23 | 16,72 | 16,81 | 63,61 | 24,78 |
 | Vodovod a kanalizace (2310, 2321) | 0,00 | 0,02 | 3,81 | 7,93 | 0,65 |
-| Saldo (příjmy − výdaje) | 18,32 | −3,14 | 40,60 | −6,15 | 1,65 |
+| Saldo (příjmy − výdaje) | 18,09 | −3,32 | 40,10 | −6,39 | 0,85 |
 | Peníze na účtech k 31. 12. 2022 | 27,29 | 3,05 | 45,26 | 21,60 | 20,03 |
 | Změna peněz za období (od 31. 12. 2018) | 18,09 | −3,32 | 39,74 | 0,47 | 0,92 |
 | Úvěry k 31. 12. 2022 | 0,00 | 0,00 | 0,00 | 6,93 | 0,00 |
@@ -196,19 +196,19 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Ukazatel | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Příjmy (třídy 1–4 bez převodů 413x) | 63,74 | 45,91 | 161,94 | 121,72 | 60,57 |
-| Daňové příjmy (třída 1) | 59,46 | 21,91 | 97,24 | 96,16 | 45,78 |
+| Příjmy (třídy 1–4 bez 413x a 1122) | 63,39 | 45,71 | 161,63 | 121,19 | 58,45 |
+| Daňové příjmy (třída 1) | 59,11 | 21,71 | 96,94 | 95,62 | 43,66 |
 | z toho RUD (1111+1112+1113+1121+1211) | 54,26 | 19,61 | 88,28 | 86,33 | 39,21 |
 | Daň z nemovitých věcí (1511) | 1,86 | 1,02 | 3,19 | 3,52 | 2,78 |
 | Neinvestiční dotace (41xx) | 1,70 | 0,82 | 14,88 | 3,14 | 2,82 |
 | Investiční dotace (42xx) | 0,00 | 21,51 | 38,93 | 14,68 | 4,32 |
-| Výdaje (bez 6330, 6399) | 51,19 | 49,50 | 161,62 | 147,71 | 54,71 |
+| Výdaje (třídy 5–6 bez 6330 a 1122) | 51,19 | 49,50 | 161,62 | 147,71 | 54,75 |
 | Investice (třída 6) | 3,58 | 36,62 | 90,36 | 76,03 | 26,12 |
 | Opravy (5171) | 14,51 | 0,31 | 8,96 | 9,65 | 2,84 |
 | Investice + opravy | 18,10 | 36,93 | 99,32 | 85,68 | 28,97 |
 | I+O z vlastních zdrojů (I+O − inv. dotace) | 18,10 | 15,42 | 60,39 | 71,01 | 24,65 |
 | Vodovod a kanalizace (2310, 2321) | 0,00 | 0,79 | 0,35 | 6,67 | 0,97 |
-| Saldo (příjmy − výdaje) | 12,56 | −3,59 | 0,31 | −25,99 | 5,87 |
+| Saldo (příjmy − výdaje) | 12,21 | −3,79 | 0,01 | −26,52 | 3,70 |
 | Peníze na účtech k 31. 12. 2025 | 39,49 | 3,25 | 45,09 | 5,19 | 23,65 |
 | Změna peněz za období (od 31. 12. 2022) | 12,21 | 0,20 | −0,17 | −16,41 | 3,62 |
 | Úvěry k 31. 12. 2025 | 0,00 | 3,99 | 0,00 | 17,25 | 0,00 |
@@ -217,7 +217,7 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 Čísla v tomto oddílu vycházejí z tabulek výše. Vysvětlení příčin jsou výslovně označená jako odvozená.
 
-**Daňové příjmy na obyvatele jsou u všech obcí podobné, HD je spolu s Pazdernou na spodním okraji.** V období 2022–2026 (roky 2023–2025) měla HD 18 513 Kč daňových příjmů na obyvatele a rok, Pazderna 18 196, Vojkovice 19 310, Lučina 20 256 a Dolní Domaslavice 22 115 Kč. U samotných RUD je to 16 892 (HD), 16 287 (Pazderna), 16 537 (Vojkovice), 18 186 (Lučina) a 20 077 Kč (DD). Rozdíl v RUD mezi HD a DD je asi 3 200 Kč na obyvatele a rok, tedy kolem 3,5 mil. Kč ročně při velikosti HD. *Odvozené:* RUD se rozděluje podle zákona o rozpočtovém určení daní mimo jiné podle počtu dětí a žáků ve školách, které obec zřizuje. DD a Lučina mají základní školu, HD jen mateřskou a Pazderna ani Vojkovice žádnou (mateřská škola ve Vojkovicích patří pod školu v Dobraticích). Přesný podíl tohoto kritéria z dat MF spočítat nelze.
+**Daňové příjmy na obyvatele jsou u všech obcí podobné, HD je spolu s Pazdernou a Vojkovicemi na spodním okraji.** V období 2022–2026 (roky 2023–2025) měla HD 18 404 Kč daňových příjmů na obyvatele a rok, Pazderna 18 030, Vojkovice 18 413 (prakticky stejně jako HD), Lučina 20 144 a Dolní Domaslavice 22 047 Kč. U samotných RUD je to 16 892 (HD), 16 287 (Pazderna), 16 537 (Vojkovice), 18 186 (Lučina) a 20 077 Kč (DD). Rozdíl v RUD mezi HD a DD je asi 3 200 Kč na obyvatele a rok, tedy kolem 3,5 mil. Kč ročně při velikosti HD. *Odvozené:* RUD se rozděluje podle zákona o rozpočtovém určení daní mimo jiné podle počtu dětí a žáků ve školách, které obec zřizuje. DD a Lučina mají základní školu, HD jen mateřskou a Pazderna ani Vojkovice žádnou (mateřská škola ve Vojkovicích patří pod školu v Dobraticích). Přesný podíl tohoto kritéria z dat MF spočítat nelze.
 
 **Investice a opravy na obyvatele má HD v posledních dvou obdobích nejnižší, nebo téměř nejnižší z pěti obcí.** V období 2018–2022 byla na stejné úrovni jako DD, v období 2022–2026 je výrazně nejníž.
 - 2010–2014: HD, Pazderna, DD a Lučina byly na podobné úrovni (HD 3 114, Pazderna 3 148, DD 3 984, Lučina 3 226 Kč na obyvatele a rok), Vojkovice výš (6 357 Kč, hlavně mateřská škola a silnice).
@@ -230,23 +230,23 @@ Počet obyvatel k 1. 7. (používá se pro přepočet toků na obyvatele):
 
 | Období | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| 2010–2014 | 40 % | 14 % | 27 % | 26 % | 72 % |
-| 2014–2018 | 38 % | 23 % | 73 % | 34 % | 19 % |
-| 2018–2022 | 19 % | 90 % | 18 % | 72 % | 59 % |
-| 2022–2026 (do 2025) | 30 % | 70 % | 62 % | 74 % | 54 % |
-| Celkem 2011–2025 | 30 % | 57 % | 46 % | 58 % | 51 % |
+| 2010–2014 | 40 % | 14 % | 27 % | 26 % | 74 % |
+| 2014–2018 | 39 % | 24 % | 73 % | 35 % | 19 % |
+| 2018–2022 | 19 % | 91 % | 18 % | 73 % | 61 % |
+| 2022–2026 (do 2025) | 31 % | 71 % | 62 % | 74 % | 56 % |
+| Celkem 2011–2025 | 30 % | 58 % | 46 % | 58 % | 52 % |
 
-V letech 2010–2014 dávala HD na investice a opravy z vlastních peněz relativně nejvíc ze čtyř původně srovnávaných obcí (víc měly jen Vojkovice) a v letech 2014–2018 byla druhá za DD. V období 2018–2022 měla spolu s DD nejnižší podíl (19 a 18 %). V období 2022–2026 dávají ostatní čtyři obce na investice a opravy z vlastních zdrojů 54–74 % daňových příjmů, HD 30 %.
+V letech 2010–2014 byla HD v tomto podílu druhá za Vojkovicemi a v letech 2014–2018 druhá za DD. V období 2018–2022 měla spolu s DD nejnižší podíl (19 a 18 %). V období 2022–2026 dávají ostatní čtyři obce na investice a opravy z vlastních zdrojů 56–74 % daňových příjmů, HD 31 %.
 
-**Investiční dotace:** HD získala za roky 2011–2025 celkem 14,7 mil. Kč investičních dotací (z toho 9,86 mil. v roce 2021), Vojkovice 13,0 mil., Pazderna 41,9 mil., Lučina 48,6 mil. a Dolní Domaslavice 67,7 mil. Kč. V letech 2023–2025 nezískala HD žádnou investiční dotaci. Pazderna v těchto letech získala 21,5 mil., Lučina 14,7 mil., DD 38,9 mil. a Vojkovice 4,3 mil. Kč.
+**Investiční dotace:** HD získala za roky 2011–2025 celkem 14,7 mil. Kč investičních dotací (z toho 9,86 mil. v roce 2021), Vojkovice 13,0 mil., Pazderna 41,9 mil., Lučina 48,6 mil. a Dolní Domaslavice 67,7 mil. Kč. Na obyvatele a rok to je 1 109 Kč (HD), 1 252 (Vojkovice), 2 305 (Lučina), 3 349 (DD) a 8 742 Kč (Pazderna); Lučina tedy získala na obyvatele 2,1krát, DD 3,0krát a Pazderna 7,9krát víc než HD. Vojkovice navíc získaly 7,54 mil. Kč investičních dotací v roce 2010, tedy těsně před sledovaným obdobím 2011–2025. V letech 2023–2025 nepřišla HD na účet žádná investiční dotace; 5. 12. 2025 ale uzavřela s Moravskoslezským krajem smlouvu na investiční dotaci až 2,70 mil. Kč na projektovou dokumentaci MŠ, která se vyplácí v letech 2026–2027 (viz [dotace HD](https://hd-v-datech.cz/hd-dotace.html)). Pazderna v letech 2023–2025 získala 21,5 mil., Lučina 14,7 mil., DD 38,9 mil. a Vojkovice 4,3 mil. Kč.
 
 **Struktura investic a oprav HD je odlišná:** HD dává velkou část peněz do oprav (5171), ostatní obce do investic (třída 6). V období 2022–2026 měla HD na opravy 4 519 Kč na obyvatele a rok a na investice 1 115 Kč. U ostatních čtyř obcí převažují investice (Pazderna 30 416, DD 20 550, Lučina 16 017, Vojkovice 11 017 Kč). Opravy silnic se v HD účtují jako opravy (viz [výdaje HD](https://hd-v-datech.cz/hd-vydaje.html)), proto je pro srovnání potřeba sledovat součet I+O, ne jen investice.
 
 **Peníze na účtech: HD má nejvíc na obyvatele.** K 31. 12. 2025 měla HD na účtech 35 613 Kč na obyvatele (39,49 mil. Kč) a žádný úvěr. Dolní Domaslavice měly 30 739 Kč na obyvatele (45,09 mil.) a také žádný úvěr. Pazderna měla 7 694 Kč na obyvatele (3,25 mil.) a úvěr 3,99 mil. Vojkovice měly 29 564 Kč na obyvatele (23,65 mil.) a žádný úvěr. Lučina měla 3 252 Kč na obyvatele (5,19 mil.) a úvěry 17,25 mil. Kč (dlouhodobý 8,80 mil. a krátkodobý 8,45 mil.). Za roky 2023–2025 zvýšila HD stav účtů o 12,21 mil., u DD se stav téměř nezměnil (−0,17 mil.), u Pazderny také (+0,20 mil. při novém úvěru), Vojkovicím vzrostl o 3,62 mil. a Lučině klesl o 16,41 mil. při současném růstu úvěrů.
 
-**Saldo:** HD má ve všech čtyřech obdobích kladné saldo (přebytek). V období 2022–2026 to bylo 3 909 Kč na obyvatele a rok, u Vojkovic 2 474 a u DD 71 Kč. Pazderna (−2 984 Kč) a Lučina (−5 475 Kč) hospodařily se schodkem, který kryly úspory a úvěry.
+**Saldo:** HD má ve všech čtyřech obdobích kladné saldo (přebytek). V období 2022–2026 to bylo 3 800 Kč na obyvatele a rok, u Vojkovic 1 560 Kč; DD hospodařily prakticky vyrovnaně (2 Kč). Pazderna (−3 150 Kč) a Lučina (−5 587 Kč) hospodařily se schodkem, který kryly úspory a úvěry.
 
-**Rozpočet proti skutečnosti:** Rezervní řádek ve větším rozsahu mají jen HD (3639/5169, od roku 2017, v roce 2025 26,40 mil. Kč, tedy 49 % upraveného rozpočtu výdajů) a Lučina (položka 5901 v paragrafu 6409, v letech 2010–2024 mezi 2,6 a 20,8 mil., v roce 2025 nula). Pazderna a Dolní Domaslavice rezervní řádek nemají (DD má na 3639/5169 jen desítky tisíc korun a skutečně je čerpá). Vojkovice mají od roku 2020 nespecifikovanou rezervu (5901) ve výši 0,4–0,8 mil. Kč, tedy kolem 2 % upraveného rozpočtu. V letech 2023–2025 vyčerpala HD 40, 36 a 27 % upraveného rozpočtu výdajů, Pazderna 89, 93 a 80 %, DD 50, 86 a 67 %, Lučina 70, 76 a 65 % a Vojkovice 58, 56 a 51 %. Po odečtení rezerv je to u HD 76, 69 a 53 % a u Lučiny 91, 85 a 65 %.
+**Rozpočet proti skutečnosti:** Rezervu ve větším rozsahu mají v rozpočtu tři obce. HD používají jako rezervu řádek 3639/5169 (od roku 2017, v roce 2025 26,40 mil. Kč, tedy 49 % upraveného rozpočtu výdajů); v letech 2011–2016 měly menší nespecifikovanou rezervu (5901) v paragrafu 6399, nejvíc 3,42 mil. Kč v roce 2014. Lučina má položku 5901 v paragrafu 6409 (v letech 2010–2024 mezi 2,6 a 20,8 mil., v roce 2025 nula). Vojkovice mají nespecifikovanou rezervu (5901, z větší části v paragrafu 6399) v roce 2010 a každý rok od roku 2017: obvykle 1,9–2,9 mil. Kč, v letech 2010, 2017, 2021 a 2023 ale 8,4, 13,7, 6,8 a 11,8 mil. Kč (v roce 2023 39 % upraveného rozpočtu výdajů). Pazderna a Dolní Domaslavice rezervu nemají (DD má na 3639/5169 jen desítky tisíc korun a skutečně je čerpá). V letech 2023–2025 vyčerpala HD 40, 36 a 27 % upraveného rozpočtu výdajů, Pazderna 89, 93 a 80 %, DD 50, 86 a 67 %, Lučina 70, 76 a 65 % a Vojkovice 36, 53 a 49 %. Za tři roky dohromady je to HD 34 %, Vojkovice 47 %, DD 69 %, Lučina 69 % a Pazderna 85 %. Po odečtení rezerv je to u HD 76, 69 a 53 % (dohromady 66 %), u Lučiny 91, 84 a 64 % (75 %) a u Vojkovic 60, 57 a 52 % (56 %).
 
 **Vodovod a kanalizace:** HD nevydala na paragrafy 2310 a 2321 v žádném roce 2010–2025 ani korunu. Dolní Domaslavice vydaly za roky 2011–2025 celkem 11,8 mil. Kč (hlavně 2321, kanalizace), Lučina 15,4 mil. (2321 a 2310, nejvíc v letech 2019 a 2022–2023), Vojkovice 1,71 mil. (hlavně 2020–2025, kanalizační síť obec nemá) a Pazderna 0,92 mil. (z toho 0,77 mil. v roce 2025). *Odvozené:* to, že obec na vodovod nic nevydává, může znamenat i to, že vodovod a kanalizaci vlastní a provozuje někdo jiný (například svazek obcí nebo vodárenská společnost). Kdo vlastní sítě v jednotlivých obcích, z dat MF nevyplývá.
 
@@ -260,43 +260,43 @@ V letech 2010–2014 dávala HD na investice a opravy z vlastních peněz relati
 
 | Rok | HD Kč/obyv. | Pazderna Kč/obyv. | DD Kč/obyv. | Lučina Kč/obyv. | Vojkovice Kč/obyv. | HD mil. Kč | Pazderna mil. Kč | DD mil. Kč | Lučina mil. Kč | Vojkovice mil. Kč |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 8 556 | 15 812 | 14 731 | 11 638 | 24 038 | 5,74 | 4,21 | 16,97 | 14,22 | 13,89 |
-| 2011 | 7 795 | 16 197 | 11 328 | 10 004 | 10 327 | 5,41 | 4,49 | 13,36 | 12,27 | 6,00 |
-| 2012 | 9 222 | 10 170 | 14 447 | 9 384 | 10 140 | 6,74 | 2,88 | 17,48 | 11,75 | 6,00 |
-| 2013 | 9 352 | 13 546 | 12 353 | 11 969 | 11 317 | 7,01 | 3,73 | 15,45 | 15,07 | 7,02 |
-| 2014 | 13 510 | 13 904 | 13 349 | 12 641 | 13 864 | 10,38 | 3,88 | 16,89 | 16,24 | 8,67 |
-| 2015 | 14 594 | 22 268 | 18 699 | 14 416 | 11 936 | 11,54 | 6,30 | 24,16 | 18,97 | 7,48 |
-| 2016 | 11 522 | 13 326 | 14 139 | 14 816 | 13 522 | 8,96 | 3,88 | 18,65 | 19,91 | 8,78 |
-| 2017 | 13 951 | 15 589 | 16 431 | 13 358 | 13 963 | 11,26 | 4,58 | 21,87 | 18,43 | 9,26 |
-| 2018 | 14 026 | 15 490 | 18 147 | 17 266 | 14 239 | 12,20 | 4,52 | 24,66 | 24,05 | 9,70 |
-| 2019 | 16 988 | 15 061 | 26 379 | 18 488 | 15 129 | 15,37 | 4,71 | 36,43 | 26,12 | 10,91 |
-| 2020 | 14 416 | 20 076 | 18 767 | 18 655 | 19 370 | 13,41 | 6,54 | 25,94 | 27,16 | 14,43 |
-| 2021 | 24 847 | 21 816 | 20 955 | 19 417 | 18 191 | 24,15 | 7,02 | 29,25 | 28,76 | 13,84 |
-| 2022 | 18 820 | 59 756 | 22 461 | 25 752 | 25 925 | 19,14 | 20,97 | 32,50 | 39,01 | 19,81 |
-| 2023 | 19 134 | 21 004 | 26 464 | 21 213 | 23 864 | 20,01 | 8,17 | 38,50 | 32,63 | 18,64 |
-| 2024 | 19 688 | 23 351 | 40 842 | 24 740 | 23 913 | 20,99 | 9,34 | 60,28 | 39,83 | 18,87 |
-| 2025 | 20 675 | 68 432 | 43 075 | 30 809 | 28 799 | 22,74 | 28,40 | 63,15 | 49,26 | 23,07 |
+| 2010 | 8 500 | 15 812 | 14 731 | 11 638 | 23 771 | 5,70 | 4,21 | 16,97 | 14,22 | 13,74 |
+| 2011 | 7 795 | 16 197 | 11 328 | 10 004 | 10 012 | 5,41 | 4,49 | 13,36 | 12,27 | 5,82 |
+| 2012 | 9 222 | 10 170 | 14 447 | 9 384 | 9 855 | 6,74 | 2,88 | 17,48 | 11,75 | 5,83 |
+| 2013 | 9 001 | 13 546 | 12 305 | 11 969 | 11 039 | 6,75 | 3,73 | 15,39 | 15,07 | 6,84 |
+| 2014 | 13 510 | 13 453 | 13 349 | 12 632 | 13 506 | 10,38 | 3,75 | 16,89 | 16,23 | 8,44 |
+| 2015 | 13 774 | 22 136 | 18 643 | 14 323 | 11 576 | 10,90 | 6,26 | 24,09 | 18,85 | 7,26 |
+| 2016 | 11 280 | 13 208 | 14 104 | 14 744 | 13 258 | 8,78 | 3,84 | 18,60 | 19,82 | 8,60 |
+| 2017 | 13 951 | 15 485 | 16 338 | 13 271 | 13 683 | 11,26 | 4,55 | 21,75 | 18,31 | 9,07 |
+| 2018 | 13 952 | 15 296 | 18 069 | 17 225 | 13 950 | 12,14 | 4,47 | 24,56 | 23,99 | 9,50 |
+| 2019 | 16 941 | 14 952 | 26 289 | 18 447 | 14 868 | 15,33 | 4,68 | 36,31 | 26,07 | 10,72 |
+| 2020 | 14 333 | 19 955 | 18 676 | 18 630 | 19 109 | 13,33 | 6,51 | 25,81 | 27,13 | 14,24 |
+| 2021 | 24 807 | 21 685 | 20 864 | 19 386 | 17 930 | 24,11 | 6,98 | 29,13 | 28,71 | 13,64 |
+| 2022 | 18 748 | 59 574 | 22 371 | 25 690 | 25 631 | 19,07 | 20,91 | 32,37 | 38,92 | 19,58 |
+| 2023 | 19 059 | 20 885 | 26 375 | 21 138 | 23 551 | 19,94 | 8,12 | 38,38 | 32,51 | 18,39 |
+| 2024 | 19 615 | 23 201 | 40 810 | 24 632 | 23 452 | 20,91 | 9,28 | 60,24 | 39,66 | 18,50 |
+| 2025 | 20 499 | 68 207 | 42 990 | 30 657 | 26 904 | 22,55 | 28,31 | 63,02 | 49,02 | 21,55 |
 
 ### Daňové příjmy
 
 | Rok | HD Kč/obyv. | Pazderna Kč/obyv. | DD Kč/obyv. | Lučina Kč/obyv. | Vojkovice Kč/obyv. | HD mil. Kč | Pazderna mil. Kč | DD mil. Kč | Lučina mil. Kč | Vojkovice mil. Kč |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 7 244 | 7 718 | 7 294 | 7 593 | 7 333 | 4,86 | 2,05 | 8,40 | 9,28 | 4,24 |
-| 2011 | 6 909 | 7 411 | 7 176 | 7 502 | 7 801 | 4,80 | 2,05 | 8,46 | 9,21 | 4,53 |
-| 2012 | 6 851 | 7 463 | 7 443 | 7 488 | 7 961 | 5,01 | 2,11 | 9,01 | 9,37 | 4,71 |
-| 2013 | 8 691 | 10 301 | 10 236 | 9 333 | 9 122 | 6,52 | 2,83 | 12,81 | 11,75 | 5,66 |
-| 2014 | 8 798 | 10 463 | 11 128 | 9 974 | 9 898 | 6,76 | 2,92 | 14,08 | 12,82 | 6,19 |
-| 2015 | 10 034 | 12 081 | 11 437 | 10 246 | 10 132 | 7,94 | 3,42 | 14,78 | 13,48 | 6,35 |
-| 2016 | 10 425 | 10 037 | 12 133 | 10 903 | 11 613 | 8,11 | 2,92 | 16,00 | 14,65 | 7,54 |
-| 2017 | 11 234 | 12 061 | 13 167 | 12 125 | 11 773 | 9,07 | 3,55 | 17,53 | 16,73 | 7,81 |
-| 2018 | 11 755 | 13 180 | 15 056 | 13 229 | 12 458 | 10,23 | 3,85 | 20,46 | 18,43 | 8,48 |
-| 2019 | 13 228 | 13 393 | 16 054 | 14 198 | 13 135 | 11,97 | 4,19 | 22,17 | 20,06 | 9,47 |
-| 2020 | 12 441 | 12 710 | 15 020 | 13 257 | 12 264 | 11,57 | 4,14 | 20,76 | 19,30 | 9,14 |
-| 2021 | 13 503 | 14 361 | 17 048 | 15 014 | 13 925 | 13,12 | 4,62 | 23,80 | 22,24 | 10,60 |
-| 2022 | 16 451 | 15 775 | 19 164 | 17 370 | 16 378 | 16,73 | 5,54 | 27,73 | 26,32 | 12,51 |
-| 2023 | 17 902 | 17 166 | 21 454 | 19 707 | 18 129 | 18,72 | 6,68 | 31,22 | 30,31 | 14,16 |
-| 2024 | 18 205 | 18 238 | 21 456 | 19 719 | 18 621 | 19,41 | 7,30 | 31,67 | 31,75 | 14,69 |
-| 2025 | 19 392 | 19 121 | 23 435 | 21 325 | 21 139 | 21,33 | 7,94 | 34,36 | 34,10 | 16,93 |
+| 2010 | 7 189 | 7 718 | 7 294 | 7 593 | 7 065 | 4,82 | 2,05 | 8,40 | 9,28 | 4,08 |
+| 2011 | 6 909 | 7 411 | 7 176 | 7 502 | 7 486 | 4,80 | 2,05 | 8,46 | 9,21 | 4,35 |
+| 2012 | 6 851 | 7 463 | 7 443 | 7 488 | 7 677 | 5,01 | 2,11 | 9,01 | 9,37 | 4,54 |
+| 2013 | 8 339 | 10 301 | 10 187 | 9 333 | 8 843 | 6,25 | 2,83 | 12,74 | 11,75 | 5,48 |
+| 2014 | 8 798 | 10 011 | 11 128 | 9 966 | 9 541 | 6,76 | 2,79 | 14,08 | 12,81 | 5,96 |
+| 2015 | 9 214 | 11 949 | 11 381 | 10 153 | 9 772 | 7,29 | 3,38 | 14,70 | 13,36 | 6,13 |
+| 2016 | 10 183 | 9 919 | 12 098 | 10 832 | 11 349 | 7,92 | 2,89 | 15,96 | 14,56 | 7,37 |
+| 2017 | 11 234 | 11 957 | 13 074 | 12 038 | 11 493 | 9,07 | 3,52 | 17,40 | 16,61 | 7,62 |
+| 2018 | 11 681 | 12 986 | 14 979 | 13 188 | 12 169 | 10,16 | 3,79 | 20,36 | 18,37 | 8,29 |
+| 2019 | 13 181 | 13 285 | 15 964 | 14 156 | 12 874 | 11,93 | 4,16 | 22,05 | 20,00 | 9,28 |
+| 2020 | 12 359 | 12 589 | 14 929 | 13 232 | 12 004 | 11,49 | 4,10 | 20,63 | 19,27 | 8,94 |
+| 2021 | 13 463 | 14 230 | 16 957 | 14 982 | 13 663 | 13,09 | 4,58 | 23,67 | 22,19 | 10,40 |
+| 2022 | 16 379 | 15 594 | 19 074 | 17 308 | 16 085 | 16,66 | 5,47 | 27,60 | 26,22 | 12,29 |
+| 2023 | 17 826 | 17 047 | 21 365 | 19 632 | 17 816 | 18,65 | 6,63 | 31,09 | 30,19 | 13,91 |
+| 2024 | 18 132 | 18 089 | 21 424 | 19 611 | 18 161 | 19,33 | 7,24 | 31,62 | 31,57 | 14,33 |
+| 2025 | 19 216 | 18 895 | 23 350 | 21 173 | 19 244 | 21,14 | 7,84 | 34,23 | 33,86 | 15,41 |
 
 ### RUD
 
@@ -323,20 +323,20 @@ V letech 2010–2014 dávala HD na investice a opravy z vlastních peněz relati
 
 | Rok | HD Kč/obyv. | Pazderna Kč/obyv. | DD Kč/obyv. | Lučina Kč/obyv. | Vojkovice Kč/obyv. | HD mil. Kč | Pazderna mil. Kč | DD mil. Kč | Lučina mil. Kč | Vojkovice mil. Kč |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 10 355 | 15 906 | 11 326 | 8 877 | 9 200 | 6,95 | 4,23 | 13,05 | 10,85 | 5,32 |
-| 2011 | 6 395 | 6 794 | 8 851 | 8 767 | 10 004 | 4,44 | 1,88 | 10,44 | 10,76 | 5,81 |
-| 2012 | 9 965 | 8 699 | 11 660 | 8 166 | 8 160 | 7,28 | 2,46 | 14,11 | 10,22 | 4,83 |
-| 2013 | 10 039 | 10 001 | 9 865 | 13 813 | 21 540 | 7,53 | 2,75 | 12,34 | 17,39 | 13,35 |
-| 2014 | 8 100 | 12 699 | 8 011 | 8 569 | 11 196 | 6,22 | 3,54 | 10,13 | 11,01 | 7,00 |
-| 2015 | 11 396 | 17 315 | 19 327 | 12 917 | 8 134 | 9,01 | 4,90 | 24,97 | 17,00 | 5,10 |
-| 2016 | 7 617 | 14 856 | 9 640 | 10 360 | 7 636 | 5,93 | 4,32 | 12,71 | 13,92 | 4,96 |
+| 2010 | 10 355 | 15 906 | 11 326 | 8 877 | 8 933 | 6,95 | 4,23 | 13,05 | 10,85 | 5,16 |
+| 2011 | 6 398 | 6 794 | 8 851 | 8 767 | 9 689 | 4,44 | 1,88 | 10,44 | 10,76 | 5,63 |
+| 2012 | 9 995 | 8 699 | 11 660 | 8 166 | 7 876 | 7,31 | 2,46 | 14,11 | 10,22 | 4,66 |
+| 2013 | 10 059 | 10 001 | 9 865 | 13 813 | 21 262 | 7,54 | 2,75 | 12,34 | 17,39 | 13,18 |
+| 2014 | 8 100 | 12 699 | 8 011 | 8 569 | 10 838 | 6,22 | 3,54 | 10,13 | 11,01 | 6,77 |
+| 2015 | 11 396 | 17 315 | 19 327 | 12 917 | 7 774 | 9,01 | 4,90 | 24,97 | 17,00 | 4,87 |
+| 2016 | 7 617 | 14 856 | 9 640 | 10 360 | 7 372 | 5,93 | 4,32 | 12,71 | 13,92 | 4,78 |
 | 2017 | 11 766 | 9 582 | 14 850 | 9 436 | 8 573 | 9,50 | 2,82 | 19,76 | 13,02 | 5,68 |
 | 2018 | 14 888 | 8 324 | 27 071 | 19 272 | 7 511 | 12,95 | 2,43 | 36,79 | 26,85 | 5,11 |
 | 2019 | 11 759 | 12 843 | 13 454 | 28 477 | 7 300 | 10,64 | 4,02 | 18,58 | 40,24 | 5,26 |
 | 2020 | 14 122 | 16 525 | 12 559 | 26 024 | 13 912 | 13,13 | 5,39 | 17,36 | 37,89 | 10,36 |
 | 2021 | 19 651 | 19 222 | 20 493 | 13 598 | 20 371 | 19,10 | 6,19 | 28,61 | 20,14 | 15,50 |
-| 2022 | 10 695 | 76 351 | 13 111 | 19 103 | 34 302 | 10,88 | 26,80 | 18,97 | 28,94 | 26,21 |
-| 2023 | 18 275 | 36 182 | 23 460 | 22 221 | 13 868 | 19,12 | 14,07 | 34,13 | 34,18 | 10,83 |
+| 2022 | 10 695 | 76 351 | 13 111 | 19 103 | 34 300 | 10,88 | 26,80 | 18,97 | 28,94 | 26,21 |
+| 2023 | 18 275 | 36 182 | 23 460 | 22 221 | 13 923 | 19,12 | 14,07 | 34,13 | 34,18 | 10,87 |
 | 2024 | 16 457 | 25 657 | 50 027 | 30 629 | 30 577 | 17,54 | 10,26 | 73,84 | 49,31 | 24,12 |
 | 2025 | 13 210 | 60 640 | 36 596 | 40 163 | 24 658 | 14,53 | 25,17 | 53,65 | 64,22 | 19,75 |
 
@@ -386,22 +386,22 @@ V letech 2010–2014 dávala HD na investice a opravy z vlastních peněz relati
 
 | Rok | HD Kč/obyv. | Pazderna Kč/obyv. | DD Kč/obyv. | Lučina Kč/obyv. | Vojkovice Kč/obyv. | HD mil. Kč | Pazderna mil. Kč | DD mil. Kč | Lučina mil. Kč | Vojkovice mil. Kč |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | −1 799 | −94 | 3 405 | 2 761 | 14 838 | −1,21 | −0,02 | 3,92 | 3,37 | 8,58 |
-| 2011 | 1 401 | 9 403 | 2 477 | 1 237 | 323 | 0,97 | 2,60 | 2,92 | 1,52 | 0,19 |
-| 2012 | −743 | 1 471 | 2 787 | 1 219 | 1 979 | −0,54 | 0,42 | 3,37 | 1,53 | 1,17 |
-| 2013 | −687 | 3 545 | 2 489 | −1 843 | −10 223 | −0,52 | 0,97 | 3,11 | −2,32 | −6,34 |
-| 2014 | 5 410 | 1 205 | 5 338 | 4 072 | 2 668 | 4,15 | 0,34 | 6,75 | 5,23 | 1,67 |
-| 2015 | 3 199 | 4 953 | −628 | 1 499 | 3 803 | 2,53 | 1,40 | −0,81 | 1,97 | 2,38 |
-| 2016 | 3 905 | −1 529 | 4 499 | 4 456 | 5 886 | 3,04 | −0,45 | 5,93 | 5,99 | 3,82 |
-| 2017 | 2 185 | 6 008 | 1 582 | 3 923 | 5 390 | 1,76 | 1,77 | 2,11 | 5,41 | 3,57 |
-| 2018 | −861 | 7 166 | −8 924 | −2 006 | 6 728 | −0,75 | 2,09 | −12,13 | −2,79 | 4,58 |
-| 2019 | 5 229 | 2 217 | 12 925 | −9 989 | 7 829 | 4,73 | 0,69 | 17,85 | −14,11 | 5,64 |
-| 2020 | 293 | 3 552 | 6 209 | −7 368 | 5 457 | 0,27 | 1,16 | 8,58 | −10,73 | 4,07 |
-| 2021 | 5 195 | 2 594 | 462 | 5 819 | −2 180 | 5,05 | 0,84 | 0,64 | 8,62 | −1,66 |
-| 2022 | 8 125 | −16 596 | 9 350 | 6 649 | −8 377 | 8,26 | −5,83 | 13,53 | 10,07 | −6,40 |
-| 2023 | 859 | −15 178 | 3 003 | −1 008 | 9 996 | 0,90 | −5,90 | 4,37 | −1,55 | 7,81 |
-| 2024 | 3 231 | −2 307 | −9 185 | −5 888 | −6 664 | 3,44 | −0,92 | −13,56 | −9,48 | −5,26 |
-| 2025 | 7 466 | 7 793 | 6 479 | −9 354 | 4 141 | 8,21 | 3,23 | 9,50 | −14,96 | 3,32 |
+| 2010 | −1 854 | −94 | 3 405 | 2 761 | 14 838 | −1,24 | −0,02 | 3,92 | 3,37 | 8,58 |
+| 2011 | 1 398 | 9 403 | 2 477 | 1 237 | 323 | 0,97 | 2,60 | 2,92 | 1,52 | 0,19 |
+| 2012 | −773 | 1 471 | 2 787 | 1 219 | 1 979 | −0,57 | 0,42 | 3,37 | 1,53 | 1,17 |
+| 2013 | −1 058 | 3 545 | 2 440 | −1 843 | −10 223 | −0,79 | 0,97 | 3,05 | −2,32 | −6,34 |
+| 2014 | 5 410 | 754 | 5 338 | 4 064 | 2 668 | 4,15 | 0,21 | 6,75 | 5,22 | 1,67 |
+| 2015 | 2 379 | 4 821 | −684 | 1 406 | 3 803 | 1,88 | 1,36 | −0,88 | 1,85 | 2,38 |
+| 2016 | 3 662 | −1 648 | 4 464 | 4 384 | 5 886 | 2,85 | −0,48 | 5,89 | 5,89 | 3,82 |
+| 2017 | 2 185 | 5 903 | 1 489 | 3 836 | 5 110 | 1,76 | 1,74 | 1,98 | 5,29 | 3,39 |
+| 2018 | −936 | 6 972 | −9 002 | −2 047 | 6 439 | −0,81 | 2,04 | −12,23 | −2,85 | 4,39 |
+| 2019 | 5 182 | 2 109 | 12 835 | −10 030 | 7 568 | 4,69 | 0,66 | 17,73 | −14,17 | 5,46 |
+| 2020 | 211 | 3 430 | 6 118 | −7 393 | 5 197 | 0,20 | 1,12 | 8,45 | −10,76 | 3,87 |
+| 2021 | 5 155 | 2 463 | 371 | 5 788 | −2 441 | 5,01 | 0,79 | 0,52 | 8,57 | −1,86 |
+| 2022 | 8 053 | −16 777 | 9 260 | 6 587 | −8 669 | 8,19 | −5,89 | 13,40 | 9,98 | −6,62 |
+| 2023 | 784 | −15 298 | 2 915 | −1 082 | 9 629 | 0,82 | −5,95 | 4,24 | −1,66 | 7,52 |
+| 2024 | 3 158 | −2 456 | −9 217 | −5 996 | −7 124 | 3,37 | −0,98 | −13,60 | −9,65 | −5,62 |
+| 2025 | 7 290 | 7 567 | 6 394 | −9 507 | 2 246 | 8,02 | 3,14 | 9,37 | −15,20 | 1,80 |
 
 ### Peníze na účtech k 31. 12.
 
@@ -447,13 +447,13 @@ V letech 2010–2014 dávala HD na investice a opravy z vlastních peněz relati
 
 ## 6. Výdaje podle účelu po obdobích (Kč na obyvatele a rok)
 
-Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a kanalizace 2310 a 2321, ostatní vodní hospodářství zbytek 23xx, cestovní ruch a služby 21xx, školství 31xx, kultura a sport 33xx–34xx, zdravotnictví a sociální věci 35xx a 4xxx, bydlení a komunální služby 36xx, odpady 372x, ostatní životní prostředí zbytek 37xx, bezpečnost 5xxx, ostatní vše zbylé (například 10xx, 63xx kromě 6330 a 6399, 64xx).
+Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a kanalizace 2310 a 2321, ostatní vodní hospodářství zbytek 23xx, cestovní ruch a služby 21xx, školství 31xx, kultura a sport 33xx–34xx, zdravotnictví a sociální věci 35xx a 4xxx, bydlení a komunální služby 36xx, odpady 372x, ostatní životní prostředí zbytek 37xx, bezpečnost 5xxx, ostatní vše zbylé (například 10xx, 63xx kromě 6330, 64xx). Daň z příjmů, kterou obec platí sama sobě (položka 1122), je odečtena v kategorii, kde obec účtovala její protějšek: obvykle v kategorii ostatní (paragraf 6399), u Vojkovic v letech 2010–2016 ve správě obce (paragraf 6171).
 
 ### 2010–2014
 
 | Kategorie | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Správa obce (úřad, zastupitelstvo, volby) | 3 031 | 4 640 | 3 344 | 2 080 | 3 556 |
+| Správa obce (úřad, zastupitelstvo, volby) | 3 031 | 4 640 | 3 344 | 2 080 | 3 247 |
 | Doprava (silnice, chodníky, BUS) | 571 | 1 093 | 1 585 | 878 | 1 748 |
 | Školství | 1 017 | 172 | 2 001 | 2 141 | 3 178 |
 | Kultura, sport, spolky | 2 006 | 1 992 | 232 | 1 397 | 1 593 |
@@ -465,14 +465,14 @@ Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a
 | Cestovní ruch, obchod, služby (21xx) | 0 | 91 | 49 | 84 | 0 |
 | Bezpečnost, hasiči, krizové řízení | 237 | 167 | 430 | 312 | 365 |
 | Zdravotnictví a sociální věci | 0 | 26 | 8 | 5 | 54 |
-| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 104 | 159 | 105 | 79 | 75 |
-| CELKEM | 8 655 | 9 548 | 9 586 | 9 831 | 12 819 |
+| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 117 | 159 | 105 | 79 | 75 |
+| CELKEM | 8 669 | 9 548 | 9 586 | 9 831 | 12 510 |
 
 ### 2014–2018
 
 | Kategorie | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Správa obce (úřad, zastupitelstvo, volby) | 3 234 | 3 901 | 3 502 | 2 044 | 3 571 |
+| Správa obce (úřad, zastupitelstvo, volby) | 3 234 | 3 901 | 3 502 | 2 044 | 3 420 |
 | Doprava (silnice, chodníky, BUS) | 1 976 | 1 351 | 5 160 | 1 932 | 1 058 |
 | Školství | 724 | 0 | 5 402 | 2 219 | 148 |
 | Kultura, sport, spolky | 1 273 | 3 140 | 340 | 1 641 | 1 239 |
@@ -485,13 +485,13 @@ Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a
 | Bezpečnost, hasiči, krizové řízení | 156 | 152 | 171 | 879 | 66 |
 | Zdravotnictví a sociální věci | 38 | 12 | 13 | 0 | 32 |
 | Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 149 | 209 | 386 | 57 | 84 |
-| CELKEM | 11 518 | 12 475 | 17 778 | 13 030 | 7 960 |
+| CELKEM | 11 518 | 12 475 | 17 778 | 13 030 | 7 808 |
 
 ### 2018–2022
 
 | Kategorie | HD | Pazderna | DD | Lučina | Vojkovice |
 |---|---:|---:|---:|---:|---:|
-| Správa obce (úřad, zastupitelstvo, volby) | 3 502 | 4 645 | 4 074 | 2 419 | 4 290 |
+| Správa obce (úřad, zastupitelstvo, volby) | 3 502 | 4 645 | 4 074 | 2 419 | 4 215 |
 | Doprava (silnice, chodníky, BUS) | 1 457 | 19 344 | 1 717 | 3 141 | 4 364 |
 | Školství | 4 263 | 81 | 2 738 | 2 769 | 209 |
 | Kultura, sport, spolky | 504 | 4 791 | 2 228 | 971 | 1 674 |
@@ -503,8 +503,8 @@ Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a
 | Cestovní ruch, obchod, služby (21xx) | 0 | 0 | 9 | 7 492 | 0 |
 | Bezpečnost, hasiči, krizové řízení | 293 | 1 127 | 267 | 380 | 101 |
 | Zdravotnictví a sociální věci | 109 | 19 | 54 | 2 | 28 |
-| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 153 | 223 | 489 | 53 | 973 |
-| CELKEM | 14 057 | 32 314 | 14 897 | 21 690 | 19 170 |
+| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 153 | 223 | 489 | 53 | 1 047 |
+| CELKEM | 14 057 | 32 314 | 14 897 | 21 690 | 19 169 |
 
 ### 2022–2026
 
@@ -522,8 +522,8 @@ Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a
 | Cestovní ruch, obchod, služby (21xx) | 0 | 0 | 82 | 739 | 135 |
 | Bezpečnost, hasiči, krizové řízení | 334 | 356 | 925 | 995 | 704 |
 | Zdravotnictví a sociální věci | 169 | 9 821 | 70 | 365 | 102 |
-| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 132 | 776 | 573 | 145 | 123 |
-| CELKEM | 15 937 | 41 116 | 36 758 | 31 116 | 23 073 |
+| Ostatní (zemědělství, lesy, bankovní poplatky, pojištění, vypořádání aj.) | 132 | 776 | 573 | 145 | 141 |
+| CELKEM | 15 937 | 41 116 | 36 758 | 31 116 | 23 091 |
 
 ## 7. Výdaje podle druhu po obdobích (Kč na obyvatele a rok)
 
@@ -534,7 +534,7 @@ Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a
 | Investice (třída 6) | 1 227 | 1 666 | 2 776 | 2 743 | 4 302 |
 | Opravy a udržování (5171) | 1 887 | 1 482 | 1 209 | 483 | 2 056 |
 | Služby (516x) | 1 289 | 1 462 | 1 196 | 1 978 | 1 146 |
-| Transfery: příspěvky, dotace, dary (52xx–54xx) | 896 | 376 | 1 710 | 1 347 | 1 554 |
+| Transfery: příspěvky, dotace, dary (52xx–54xx) | 909 | 376 | 1 710 | 1 347 | 1 246 |
 | Platy, dohody a pojistné (50xx bez 5023) | 1 171 | 1 808 | 1 265 | 1 524 | 1 573 |
 | Odměny zastupitelů (5023) | 928 | 1 265 | 662 | 590 | 1 128 |
 | Materiál a drobný majetek (513x) | 577 | 368 | 235 | 392 | 481 |
@@ -548,7 +548,7 @@ Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a
 | Investice (třída 6) | 2 869 | 2 659 | 9 625 | 5 359 | 1 644 |
 | Opravy a udržování (5171) | 2 202 | 2 525 | 1 153 | 561 | 627 |
 | Služby (516x) | 1 860 | 1 700 | 1 581 | 1 873 | 1 096 |
-| Transfery: příspěvky, dotace, dary (52xx–54xx) | 858 | 664 | 1 993 | 1 379 | 938 |
+| Transfery: příspěvky, dotace, dary (52xx–54xx) | 858 | 664 | 1 993 | 1 379 | 786 |
 | Platy, dohody a pojistné (50xx bez 5023) | 1 702 | 1 979 | 1 734 | 1 613 | 1 886 |
 | Odměny zastupitelů (5023) | 942 | 1 730 | 806 | 632 | 1 034 |
 | Materiál a drobný majetek (513x) | 790 | 347 | 379 | 943 | 296 |
@@ -576,7 +576,7 @@ Kategorie jsou dané skupinami paragrafů: správa 61xx, doprava 22xx, vodovod a
 | Investice (třída 6) | 1 115 | 30 416 | 20 550 | 16 017 | 11 017 |
 | Opravy a udržování (5171) | 4 519 | 257 | 2 037 | 2 033 | 1 199 |
 | Služby (516x) | 3 639 | 2 592 | 4 005 | 3 675 | 2 807 |
-| Transfery: příspěvky, dotace, dary (52xx–54xx) | 1 997 | 768 | 3 376 | 2 322 | 1 140 |
+| Transfery: příspěvky, dotace, dary (52xx–54xx) | 1 997 | 768 | 3 376 | 2 322 | 1 158 |
 | Platy, dohody a pojistné (50xx bez 5023) | 2 190 | 2 991 | 2 842 | 2 971 | 3 557 |
 | Odměny zastupitelů (5023) | 1 307 | 1 985 | 1 138 | 1 822 | 1 393 |
 | Materiál a drobný majetek (513x) | 520 | 627 | 1 841 | 1 036 | 1 138 |
@@ -591,21 +591,21 @@ Sloupec „z toho 3639/5169“ je upravený rozpočet tohoto řádku, „z toho 
 
 | Rok | Schválený | Upravený | z toho 3639/5169 | z toho 5901 | Skutečnost | Čerpání | Čerpání bez rezerv |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 4,68 | 7,49 | 0,00 | 0,00 | 6,95 | 93 % | 93 % |
-| 2011 | 5,59 | 6,63 | 0,00 | 0,00 | 4,44 | 67 % | 67 % |
-| 2012 | 6,72 | 8,39 | 0,00 | 0,00 | 7,28 | 87 % | 87 % |
-| 2013 | 7,54 | 8,10 | 0,00 | 0,00 | 7,53 | 93 % | 93 % |
-| 2014 | 6,20 | 6,50 | 0,00 | 0,00 | 6,22 | 96 % | 96 % |
-| 2015 | 7,30 | 9,08 | 0,00 | 0,00 | 9,01 | 99 % | 99 % |
-| 2016 | 10,36 | 10,90 | 0,00 | 0,00 | 5,93 | 54 % | 54 % |
-| 2017 | 14,86 | 18,31 | 3,40 | 0,00 | 9,50 | 52 % | 64 % |
+| 2010 | 4,69 | 7,35 | 0,00 | 0,00 | 6,95 | 94 % | 94 % |
+| 2011 | 6,25 | 6,68 | 0,00 | 0,05 | 4,44 | 66 % | 67 % |
+| 2012 | 6,96 | 8,42 | 0,00 | 0,00 | 7,31 | 87 % | 87 % |
+| 2013 | 8,30 | 8,66 | 0,00 | 0,53 | 7,54 | 87 % | 93 % |
+| 2014 | 6,98 | 9,92 | 0,00 | 3,42 | 6,22 | 63 % | 96 % |
+| 2015 | 8,00 | 9,61 | 0,00 | 0,00 | 9,01 | 94 % | 94 % |
+| 2016 | 10,60 | 11,06 | 0,00 | 0,16 | 5,93 | 54 % | 54 % |
+| 2017 | 14,86 | 18,16 | 3,40 | 0,00 | 9,50 | 52 % | 64 % |
 | 2018 | 16,65 | 22,31 | 6,67 | 0,00 | 12,95 | 58 % | 83 % |
-| 2019 | 21,78 | 24,46 | 11,56 | 0,00 | 10,64 | 44 % | 82 % |
+| 2019 | 21,77 | 24,49 | 11,56 | 0,00 | 10,64 | 43 % | 82 % |
 | 2020 | 33,38 | 35,82 | 8,59 | 0,00 | 13,13 | 37 % | 48 % |
 | 2021 | 33,81 | 38,23 | 13,58 | 0,00 | 19,10 | 50 % | 77 % |
 | 2022 | 29,73 | 38,20 | 15,49 | 0,00 | 10,88 | 28 % | 48 % |
 | 2023 | 43,18 | 47,25 | 22,12 | 0,00 | 19,12 | 40 % | 76 % |
-| 2024 | 35,68 | 49,01 | 23,68 | 0,00 | 17,54 | 36 % | 69 % |
+| 2024 | 35,68 | 49,02 | 23,68 | 0,00 | 17,54 | 36 % | 69 % |
 | 2025 | 51,01 | 54,06 | 26,40 | 0,00 | 14,53 | 27 % | 53 % |
 
 ### Pazderna
@@ -621,13 +621,13 @@ Sloupec „z toho 3639/5169“ je upravený rozpočet tohoto řádku, „z toho 
 | 2016 | 2,16 | 5,06 | 0,00 | 0,00 | 4,32 | 85 % | 85 % |
 | 2017 | 2,91 | 3,14 | 0,00 | 0,00 | 2,82 | 90 % | 90 % |
 | 2018 | 3,10 | 2,78 | 0,00 | 0,00 | 2,43 | 88 % | 88 % |
-| 2019 | 3,49 | 5,29 | 0,00 | 0,00 | 4,02 | 76 % | 76 % |
+| 2019 | 3,49 | 5,30 | 0,00 | 0,00 | 4,02 | 76 % | 76 % |
 | 2020 | 5,67 | 6,12 | 0,00 | 0,00 | 5,39 | 88 % | 88 % |
 | 2021 | 4,58 | 7,19 | 0,00 | 0,00 | 6,19 | 86 % | 86 % |
 | 2022 | 27,12 | 28,65 | 0,00 | 0,00 | 26,80 | 94 % | 94 % |
-| 2023 | 8,44 | 15,81 | 0,00 | 0,00 | 14,07 | 89 % | 89 % |
+| 2023 | 8,44 | 15,82 | 0,00 | 0,00 | 14,07 | 89 % | 89 % |
 | 2024 | 6,35 | 11,00 | 0,00 | 0,00 | 10,26 | 93 % | 93 % |
-| 2025 | 35,27 | 31,28 | 0,00 | 0,00 | 25,17 | 80 % | 80 % |
+| 2025 | 35,26 | 31,28 | 0,00 | 0,00 | 25,17 | 80 % | 80 % |
 
 ### Dolní Domaslavice
 
@@ -639,7 +639,7 @@ Sloupec „z toho 3639/5169“ je upravený rozpočet tohoto řádku, „z toho 
 | 2013 | 12,00 | 13,44 | 0,04 | 0,00 | 12,34 | 92 % | 92 % |
 | 2014 | 14,00 | 13,61 | 0,03 | 0,00 | 10,13 | 74 % | 74 % |
 | 2015 | 30,70 | 28,61 | 0,03 | 0,00 | 24,97 | 87 % | 87 % |
-| 2016 | 24,63 | 24,98 | 0,03 | 0,00 | 12,71 | 51 % | 51 % |
+| 2016 | 24,63 | 25,00 | 0,03 | 0,00 | 12,71 | 51 % | 51 % |
 | 2017 | 32,55 | 27,02 | 0,02 | 0,00 | 19,76 | 73 % | 73 % |
 | 2018 | 44,38 | 36,97 | 0,02 | 0,00 | 36,79 | 100 % | 100 % |
 | 2019 | 25,35 | 28,20 | 0,01 | 0,02 | 18,58 | 66 % | 66 % |
@@ -664,12 +664,12 @@ Sloupec „z toho 3639/5169“ je upravený rozpočet tohoto řádku, „z toho 
 | 2017 | 34,46 | 36,20 | 0,05 | 20,82 | 13,02 | 36 % | 85 % |
 | 2018 | 45,99 | 47,87 | 0,05 | 18,04 | 26,85 | 56 % | 90 % |
 | 2019 | 45,43 | 46,48 | 0,05 | 3,48 | 40,24 | 87 % | 94 % |
-| 2020 | 45,35 | 44,93 | 0,07 | 6,12 | 37,89 | 84 % | 98 % |
+| 2020 | 45,35 | 44,94 | 0,07 | 6,12 | 37,89 | 84 % | 98 % |
 | 2021 | 29,16 | 32,76 | 0,10 | 6,98 | 20,14 | 61 % | 78 % |
 | 2022 | 46,68 | 49,86 | 0,03 | 15,98 | 28,94 | 58 % | 85 % |
-| 2023 | 48,51 | 48,91 | 0,25 | 11,28 | 34,18 | 70 % | 91 % |
+| 2023 | 48,50 | 48,91 | 0,25 | 11,28 | 34,18 | 70 % | 91 % |
 | 2024 | 50,25 | 64,59 | 0,21 | 6,08 | 49,31 | 76 % | 84 % |
-| 2025 | 99,08 | 99,31 | 0,36 | 0,00 | 64,22 | 65 % | 65 % |
+| 2025 | 99,18 | 99,39 | 0,36 | 0,00 | 64,22 | 65 % | 64 % |
 
 ### Vojkovice
 
@@ -677,22 +677,22 @@ Vojkovice
 
 | Rok | Schválený | Upravený | z toho 3639/5169 | z toho 5901 | Skutečnost | Čerpání | Čerpání bez rezerv |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 2010 | 5,96 | 5,37 | 0,00 | 0,00 | 5,32 | 99 % | 99 % |
-| 2011 | 5,66 | 5,81 | 0,00 | 0,00 | 5,81 | 100 % | 100 % |
-| 2012 | 11,01 | 4,83 | 0,00 | 0,00 | 4,83 | 100 % | 100 % |
-| 2013 | 10,41 | 13,35 | 0,00 | 0,00 | 13,35 | 100 % | 100 % |
-| 2014 | 5,68 | 7,00 | 0,00 | 0,00 | 7,00 | 100 % | 100 % |
-| 2015 | 6,04 | 5,10 | 0,00 | 0,00 | 5,10 | 100 % | 100 % |
-| 2016 | 6,03 | 5,64 | 0,01 | 0,00 | 4,96 | 88 % | 88 % |
-| 2017 | 7,03 | 6,53 | 0,01 | 0,00 | 5,68 | 87 % | 87 % |
-| 2018 | 6,13 | 6,48 | 0,01 | 0,00 | 5,11 | 79 % | 79 % |
-| 2019 | 13,33 | 14,59 | 0,03 | 0,00 | 5,26 | 36 % | 36 % |
-| 2020 | 22,72 | 26,37 | 0,04 | 0,39 | 10,36 | 39 % | 40 % |
-| 2021 | 30,70 | 29,57 | 0,03 | 0,45 | 15,50 | 52 % | 53 % |
-| 2022 | 28,95 | 36,13 | 0,02 | 0,53 | 26,21 | 73 % | 74 % |
-| 2023 | 19,47 | 18,82 | 0,04 | 0,61 | 10,83 | 58 % | 59 % |
-| 2024 | 36,23 | 42,99 | 0,12 | 0,70 | 24,12 | 56 % | 57 % |
-| 2025 | 35,12 | 38,63 | 0,04 | 0,78 | 19,75 | 51 % | 52 % |
+| 2010 | 11,79 | 13,62 | 0,00 | 8,41 | 5,16 | 38 % | 99 % |
+| 2011 | 13,74 | 5,63 | 0,00 | 0,00 | 5,63 | 100 % | 100 % |
+| 2012 | 10,84 | 4,66 | 0,00 | 0,00 | 4,66 | 100 % | 100 % |
+| 2013 | 10,41 | 13,18 | 0,00 | 0,00 | 13,18 | 100 % | 100 % |
+| 2014 | 6,44 | 6,77 | 0,00 | 0,00 | 6,77 | 100 % | 100 % |
+| 2015 | 6,48 | 4,87 | 0,00 | 0,00 | 4,87 | 100 % | 100 % |
+| 2016 | 6,91 | 5,47 | 0,01 | 0,00 | 4,78 | 88 % | 88 % |
+| 2017 | 19,27 | 20,26 | 0,01 | 13,73 | 5,68 | 28 % | 87 % |
+| 2018 | 8,18 | 8,38 | 0,01 | 1,89 | 5,11 | 61 % | 79 % |
+| 2019 | 15,35 | 16,44 | 0,03 | 1,86 | 5,26 | 32 % | 36 % |
+| 2020 | 23,80 | 28,16 | 0,04 | 2,18 | 10,36 | 37 % | 40 % |
+| 2021 | 32,57 | 35,90 | 0,03 | 6,78 | 15,50 | 43 % | 53 % |
+| 2022 | 30,81 | 38,54 | 0,02 | 2,93 | 26,21 | 68 % | 74 % |
+| 2023 | 24,42 | 30,01 | 0,04 | 11,76 | 10,87 | 36 % | 60 % |
+| 2024 | 42,81 | 45,16 | 0,12 | 2,88 | 24,12 | 53 % | 57 % |
+| 2025 | 36,98 | 40,63 | 0,04 | 2,78 | 19,75 | 49 % | 52 % |
 
 ## 9. Největší investice a opravy podle paragrafů (mil. Kč za období)
 
@@ -783,10 +783,10 @@ V letech 2010–2011 měla rozvaha jiné členění: tehdejší řádek D.III.1 
 
 **Zdroje.** Ministerstvo financí, Monitor státní pokladny (https://monitor.statnipokladna.gov.cz): výkaz FIN 2-12 M k 31. 12. let 2010–2025 (schválený rozpočet, upravený rozpočet a skutečnost) a rozvaha obcí k 31. 12. let 2010–2025 (peníze na účtech 231, 244 a 245 a úvěry na účtech 281 a 451, sloupec „běžné období, netto“). Počty obyvatel k 1. 7. a k 31. 12.: ČSÚ, datová sada OBY01B01 (data.csu.gov.cz), stav k 30. 10. 2026. IČO a kódy obcí jsou ověřené v ARES.
 
-**Definice.** Příjmy = třídy 1–4 rozpočtové skladby bez převodů z vlastních fondů a účtů (skupina 413x). Daňové příjmy = třída 1. RUD = položky 1111 + 1112 + 1113 + 1121 + 1211. Daň z nemovitých věcí = položka 1511. Výdaje = třídy 5 a 6, paragraf jiný než 0000, bez paragrafů 6330 (převody vlastním fondům a účtům) a 6399 (daň, kterou obec platí sama sobě). Investice + opravy (I+O) = třída 6 + položka 5171. Investiční dotace = položky 42xx, neinvestiční dotace = 41xx. Vlastní I+O = I+O minus investiční dotace v témže roce (i když dotace mohla přijít na akci z jiného roku). Vodovod a kanalizace = paragrafy 2310 a 2321 (běžné i investiční výdaje). Rezervy = řádek 3639/5169, který HD používá jako rezervu, a položka 5901 „nespecifikované rezervy“ (v Lučině v paragrafu 6409). Čerpání bez rezerv = (skutečné výdaje − skutečné čerpání rezervních řádků) / (upravený rozpočet − upravený rozpočet rezervních řádků). Saldo = příjmy − výdaje. Toky se přepočítávají na obyvatele k 1. 7. daného roku, stavy (peníze, úvěry) k 31. 12. Za volební období se „Kč na obyvatele a rok“ počítá jako součet částek za roky období dělený součtem počtů obyvatel k 1. 7. týchž let. Volební období jsou přiřazena k rozpočtovým rokům takto: 2010–2014 = roky 2011–2014, 2014–2018 = 2015–2018, 2018–2022 = 2019–2022, 2022–2026 = 2023–2025.
+**Definice.** Příjmy = třídy 1–4 rozpočtové skladby bez převodů z vlastních fondů a účtů (skupina 413x) a minus položka 1122. Daňové příjmy = třída 1 minus položka 1122. RUD = položky 1111 + 1112 + 1113 + 1121 + 1211. Daň z nemovitých věcí = položka 1511. Výdaje = třídy 5 a 6, paragraf jiný než 0000, bez převodů mezi vlastními účty (paragraf 6330) a minus položka 1122. Daň z příjmů, kterou obec platí sama sobě (položka 1122), je jen účetní přesun: obec ji zaplatí ze svého rozpočtu a zároveň ji jako daňový příjem obdrží. Proto je odečtena z příjmů i z výdajů. Obce její protějšek ve výdajích účtují různě (obvykle v paragrafu 6399, Vojkovice v letech 2010–2016 v paragrafu 6171), proto se odečítá částka položky 1122 a ne celý paragraf 6399; ostatní výdaje v paragrafu 6399 (například odvody DPH) ve výdajích zůstávají a patří do kategorie „Ostatní“. Do 2. 11. 2026 se z výdajů vyřazoval celý paragraf 6399 a položka 1122 zůstávala v příjmech, takže příjmy, daňové příjmy i saldo byly mírně nadsazené. Investice + opravy (I+O) = třída 6 + položka 5171. Investiční dotace = položky 42xx, neinvestiční dotace = 41xx. Vlastní I+O = I+O minus investiční dotace v témže roce (i když dotace mohla přijít na akci z jiného roku). Vodovod a kanalizace = paragrafy 2310 a 2321 (běžné i investiční výdaje). Rezervy = řádek 3639/5169, který HD používá jako rezervu, a položka 5901 „nespecifikované rezervy“ v jakémkoli paragrafu (v Lučině v paragrafu 6409, ve Vojkovicích a v HD v letech 2011–2016 hlavně v paragrafu 6399). Čerpání bez rezerv = (skutečné výdaje − skutečné čerpání rezervních řádků) / (upravený rozpočet − upravený rozpočet rezervních řádků). Saldo = příjmy − výdaje. Toky se přepočítávají na obyvatele k 1. 7. daného roku, stavy (peníze, úvěry) k 31. 12. Za volební období se „Kč na obyvatele a rok“ počítá jako součet částek za roky období dělený součtem počtů obyvatel k 1. 7. týchž let. Volební období jsou přiřazena k rozpočtovým rokům takto: 2010–2014 = roky 2011–2014, 2014–2018 = 2015–2018, 2018–2022 = 2019–2022, 2022–2026 = 2023–2025.
 
 **Převody 413x.** Dolní Domaslavice účtují kromě položky 4134 také 4138 a 4139, tedy další převody z vlastních fondů a účtů (0,4–1,4 mil. Kč ročně v letech 2017–2025). Jejich protějškem jsou výdaje v paragrafu 6330, který se z výdajů vyřazuje. Z příjmů se proto vyřazuje celá skupina 413x. U HD a Pazderny se tím nic nemění, u Lučiny jde o 0,01 a 0,05 mil. Kč v letech 2010 a 2011.
 
-**Kontrola.** U všech pěti obcí bylo ověřeno, že saldo odpovídá změně peněz na účtech (včetně účtu 236) po odečtení změny úvěrů. Rozdíl je ve všech letech 2011–2025 do 0,4 mil. Kč a odpovídá hlavně dani, kterou obec platí sama sobě (6399). Větší rozdíly jsou jen u HD: −0,50 mil. v roce 2011 (příčina z výkazů nevyplývá) a −0,65 mil. v roce 2015 (právě 6399). U Vojkovic je větší rozdíl jen v roce 2025 (1,52 mil.), který přesně odpovídá dani placené obcí sama sobě (6399). Vojkovice jsou spočítané stejnými skripty; jejich doplnění nezměnilo u ostatních obcí ani jedno číslo. Čísla HD se shodují s údaji na stránkách o [výdajích](https://hd-v-datech.cz/hd-vydaje.html), [příjmech](https://hd-v-datech.cz/hd-prijmy.html) a [stavech účtů](https://hd-v-datech.cz/hd-ucty.html). Kategorie výdajů podle účelu jsou zde definované podle skupin paragrafů a nejsou zcela totožné s členěním na stránce o výdajích HD (například pojištění, paragraf 6320, je zde v kategorii „Ostatní“). Součty výdajů celkem se shodují.
+**Kontrola.** U všech pěti obcí bylo ověřeno, že saldo odpovídá změně peněz na účtech (včetně účtu 236) po odečtení změny úvěrů. Rozdíl je ve všech letech 2011–2025 do 0,1 mil. Kč, s výjimkou Pazderny v letech 2024 a 2025 (+0,30 a −0,30 mil., rozdíly se navzájem vyrovnávají) a HD v roce 2011 (−0,50 mil., příčina z výkazů nevyplývá). Vojkovice jsou spočítané stejnými skripty; jejich doplnění nezměnilo u ostatních obcí ani jedno číslo. Čísla HD se shodují s údaji na stránkách o [výdajích](https://hd-v-datech.cz/hd-vydaje.html), [příjmech](https://hd-v-datech.cz/hd-prijmy.html) a [stavech účtů](https://hd-v-datech.cz/hd-ucty.html). Kategorie výdajů podle účelu jsou zde definované podle skupin paragrafů a nejsou zcela totožné s členěním na stránce o výdajích HD (například pojištění, paragraf 6320, je zde v kategorii „Ostatní“). Součty výdajů celkem se shodují.
 
 **Co je doložené a co odvozené.** Doložené jsou všechny částky za jednotlivé roky a obce (součty řádků výkazů MF) a počty obyvatel z ČSÚ. Odvozené jsou přepočty na obyvatele, součty za volební období, kategorie podle skupin paragrafů, „vlastní I+O“, označení řádků 3639/5169 a 5901 za rezervy a všechna vysvětlení příčin (RUD podle žáků, vlastnictví vodovodů, souvislost Lučiny s rekreační oblastí).

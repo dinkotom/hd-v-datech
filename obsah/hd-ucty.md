@@ -1,7 +1,7 @@
 ---
 title: "Stavy účtů obce"
 description: "Kolik peněz měla obec Horní Domaslavice na bankovních účtech na konci každého roku 2013–2025 a jak úspory rostly."
-updated: "2026-10-31"
+updated: "2026-11-02"
 ---
 
 Tato stránka ukazuje, kolik peněz měla obec na bankovních účtech vždy k 31. prosinci v letech 2013–2025. Údaje pocházejí ze závěrečných účtů obce (bod „Stavy a obraty na bankovních účtech“) a jsou ověřené proti rozvaze obce v Monitoru státní pokladny Ministerstva financí; shodují se na haléř. Částky jsou v Kč.
@@ -25,23 +25,24 @@ Tato stránka ukazuje, kolik peněz měla obec na bankovních účtech vždy k 3
 | 31. 12. 2025 | 39 494 904,53 | – | **39,49 mil.** | +8 018 697,65 | 8 018 697,65 |
 
 ¹ V letech 2014 a 2015 je saldo vyšší než změna stavu účtu. Rozdíl tvoří splátky starého dlouhodobého úvěru (položka 8124): 1 000 008 Kč v roce 2014 a 333 320 Kč v roce 2015. Úvěr byl tím splacen. Rozvahy ale do roku 2017 ukazují ještě jiný dlouhodobý závazek (účet 459) s neuvedeným věřitelem, viz [majetek a účetnictví](hd-majetek.html).
-² Obec 24. 10. 2023 převedla 9 mil. Kč na šestiměsíční termínovaný vklad u Komerční banky s úrokem 5,58 % p. a. (usnesení zastupitelstva obce 9/2023). Vklad se v roce 2024 vrátil na běžný účet, závěrečný účet 2024 ho vykazuje v položce 8117 (+9 000 000). Samotný běžný účet proto v roce 2023 klesl o 8,18 mil. a v roce 2024 vzrostl o 12,37 mil. Skutečné změny celkových prostředků jsou ve sloupci „Změna za rok“.
+² Obec 24. 10. 2023 převedla 9 mil. Kč na šestiměsíční termínovaný vklad u Komerční banky s úrokem 5,58 % p. a. (usnesení zastupitelstva obce 150/9/2023). Vklad se v roce 2024 vrátil na běžný účet, závěrečný účet 2024 ho vykazuje v položce 8117 (+9 000 000). Samotný běžný účet proto v roce 2023 klesl o 8,18 mil. a v roce 2024 vzrostl o 12,37 mil. Skutečné změny celkových prostředků jsou ve sloupci „Změna za rok“.
 ³ Saldo 2024 podle Monitoru státní pokladny (výkaz FIN 2-12 M). Starší přepis ze skenu závěrečného účtu uváděl 3 207 299,62 Kč; rozdíl 159 042 Kč odpovídá chybě čtení daňových příjmů, která byla opravena podle dat MF.
 
 <!--chart:hd-ucty-->
 
 ## Co z řady plyne
 - Za 12 let vzrostly úspory obce z 0,7 na 39,5 mil. Kč. Jediný pokles byl v roce 2018 (−0,8 mil.).
-- **Volební období 2018–2022** (do 31. 12. 2022): z 10,0 na 27,3 mil., tedy +17,3 mil.
-- **Volební období 2022–2026** (do 31. 12. 2025): z 27,3 na 39,5 mil., tedy +12,2 mil. Formálně obec čerpala jen 26–29 % upraveného rozpočtu výdajů, to je ale zkresleno nečerpanou rezervou. Bez ní vychází čerpání 48–76 % (viz [výdaje obce](hd-vydaje.html)).
+- **Volební období 2018–2022** (rozpočtové roky 2019–2022, stav 31. 12. 2018 → 31. 12. 2022): z 9,2 na 27,3 mil., tedy +18,1 mil.
+- **Volební období 2022–2026** (rozpočtové roky 2023–2025, stav 31. 12. 2022 → 31. 12. 2025): z 27,3 na 39,5 mil., tedy +12,2 mil. Formálně obec v letech 2023–2025 čerpala jen 27–40 % upraveného rozpočtu výdajů, to je ale zkresleno nečerpanou rezervou. Bez ní vychází čerpání 53–76 % (viz [výdaje obce](hd-vydaje.html)).
+- Obě čísla se rovnají součtu ročních sald příjmů a výdajů za dané roky (18,09 a 12,21 mil.), viz poslední sloupec tabulky.
 - Úvěr 8,6 mil. Kč od České spořitelny na rekonstrukci MŠ (smlouva z 19. 2. 2020) se nikdy nečerpal. Rozpočet s ním počítal (položka 8113), ale skutečné čerpání je nulové. Nárůst úspor tedy nepochází z úvěru.
 - Kromě běžného účtu měla obec do roku 2019 jen „ostatní dlouhodobý finanční majetek“ za zhruba 21 000 Kč, nejspíš členský podíl. Peněžní fondy nemá.
 
 ## Pozor
 - Inventarizační zpráva za rok 2021 uvádí u účtu 231 částku 19 089 112,62 Kč. Je to zřejmě překlep, protože závěrečný účet i rozvaha vykazují 19 100 174,41 Kč. Stejný soupis obsahuje i další chyby: účet 021 je uveden dvakrát a u účtu 079 je místo konečné hodnoty počáteční.
-- Stavy během roku (například ke změně ve vedení obce v lednu 2026 nebo k volbám) z veřejných dokumentů zjistit nejde. Ukázaly by je jen výpisy z účtů, které obec nezveřejňuje.
+- Roční údaje za rok 2026 zatím nejsou. Průběžné stavy účtu za rok 2026 (k 31. 3., 30. 6. a 30. 9. 2026) a pro srovnání k 30. 9. 2023–2025 jsou na stránce [Rozpočet 2026](hd-rozpocet-2026.html); pocházejí ze čtvrtletních rozvah obce v Monitoru státní pokladny. Stavy k jiným dnům (například ke dni změny ve vedení obce v lednu 2026) z veřejných dokumentů zjistit nejde, ukázaly by je jen výpisy z účtů.
 - Stav k 31. 12. 2026 bude v závěrečném účtu 2026, ten se schvaluje zhruba v červnu 2027.
 
 ## Metodika a zdroje
 
-Stavy účtů jsou převzaté ze závěrečných účtů obce (roky 2014–2021 ze skenů ověřených přes OCR, 2022–2025 z textových PDF) a ověřené proti rozvaze obce (účty 231 a 244) z otevřených dat MF, Monitor státní pokladny (https://monitor.statnipokladna.gov.cz). Saldo je rozdíl příjmů a výdajů podle výkazu FIN 2-12 M. Zpracováno 28. 10. 2026, saldo 2024 opraveno 31. 10. 2026.
+Stavy účtů jsou převzaté ze závěrečných účtů obce (roky 2014–2021 ze skenů ověřených přes OCR, 2022–2025 z textových PDF) a ověřené proti rozvaze obce (účty 231 a 244) z otevřených dat MF, Monitor státní pokladny (https://monitor.statnipokladna.gov.cz). Saldo je rozdíl příjmů a výdajů podle výkazu FIN 2-12 M: výdaje bez převodů mezi vlastními účty (§ 6330), příjmy bez převodů z vlastních fondů; daň z příjmů, kterou obec platí sama sobě (pol. 1122), je odečtena z příjmů i výdajů. Zpracováno 28. 10. 2026, saldo 2024 opraveno 31. 10. 2026.

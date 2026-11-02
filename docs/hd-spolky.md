@@ -1,6 +1,6 @@
 # Spolky a subjekty
 
-Zdroj: https://hd-v-datech.cz/hd-spolky.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-spolky.html (aktualizováno 2026-11-02)
 
 > Kolik a jakých subjektů má sídlo v Horních Domaslavicích, kterým organizacím obec v letech 2022–2026 schválila dotace a dary.
 
@@ -9,7 +9,7 @@ Stránka ukazuje, kolik ekonomických subjektů má sídlo v obci Horní Domasla
 ## Hlavní zjištění
 
 1. **V ARES je k 30. 10. 2026 evidováno 228 subjektů se sídlem v obci.** Je mezi nimi 205 podnikajících fyzických osob (187 živnostníků, 11 zemědělských podnikatelů, 7 osob podnikajících podle jiných zákonů), 1 zahraniční fyzická osoba, 14 společností s ručením omezeným, 3 spolky, 1 pobočný spolek (SDH), 1 církevní právnická osoba (farnost), 2 příspěvkové organizace (mateřská škola a historický záznam základní školy) a obec. Žádná firma se sídlem v obci není podle statistické kategorie ČSÚ větší než 10–19 zaměstnanců.
-2. **Obec v letech 2022–2026 schválila spolkům a organizacím dotace v celkové výši 1 131 500 Kč**: 123 000 Kč (2022), 199 200 Kč (2023), 285 100 Kč (2024), 272 600 Kč (2025) a 251 600 Kč (2026). K tomu přistupují dary v celkové výši 129 400 Kč a podmíněný dar Klubu žen na spoluúčast k dotaci MAS (asi 50 000 Kč). Mimo tento přehled zůstal dar 500 000 Kč obcím zasaženým povodněmi v roce 2024 přes Český červený kříž.
+2. **Obec v letech 2022–2026 schválila spolkům a organizacím dotace v celkové výši 1 131 500 Kč**: 123 000 Kč (2022), 199 200 Kč (2023), 285 100 Kč (2024), 272 600 Kč (2025) a 251 600 Kč (2026). K tomu přistupují dary v celkové výši 139 400 Kč a podmíněný dar Klubu žen na spoluúčast k dotaci MAS (asi 50 000 Kč). Mimo tento přehled zůstal dar 500 000 Kč obcím zasaženým povodněmi v roce 2024 přes Český červený kříž.
 3. **Všechny ověřované příjemce, kteří jsou spolky, ústavy nebo obecně prospěšné společnosti, se podařilo dohledat ve veřejném rejstříku.** U tří příjemců (Medela, Taneční škola Horizonty Havířov, speciální škola ve Frýdku-Místku) se z názvu v zápisu nedá jednoznačně určit IČO.
 
 Další údaje o dotacích obce jsou na stránce [Dotace](https://hd-v-datech.cz/hd-dotace.html), srovnání se sousedními obcemi na stránce [Srovnání: volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.html).
@@ -79,7 +79,7 @@ Další organizace, které v obci působí, ale sídlo mají jinde:
 
 ## 3. Dotace a dary z rozpočtu obce 2022–2026
 
-Uvádíme částky, které zastupitelstvo skutečně schválilo; neschválené návrhy, o nichž se hlasovalo dříve, vynecháváme. Zdrojem jsou zápisy ze zasedání ZO č. 27 ze dne 7. 6. 2022, č. 5 ze dne 18. 4. 2023, č. 7 ze dne 18. 7. 2023, č. 13 ze dne 16. 4. 2024, č. 19 ze dne 10. 12. 2024, č. 22 ze dne 24. 4. 2025, č. 23 ze dne 19. 6. 2025 a č. 30 ze dne 16. 4. 2026. Částky jsou v Kč.
+Uvádíme částky, které zastupitelstvo skutečně schválilo; neschválené návrhy, o nichž se hlasovalo dříve, vynecháváme. Zdrojem jsou zápisy ze zasedání ZO č. 27 ze dne 7. 6. 2022, č. 5 ze dne 18. 4. 2023, č. 7 ze dne 18. 7. 2023, č. 13 ze dne 16. 4. 2024, č. 19 ze dne 10. 12. 2024, č. 22 ze dne 24. 4. 2025, č. 23 ze dne 19. 6. 2025, č. 30 ze dne 16. 4. 2026 a přepis zvukového záznamu ze zasedání ZO č. 34 ze dne 6. 10. 2026. Částky jsou v Kč.
 
 | Příjemce | IČO | 2022 | 2023 | 2024 | 2025 | 2026 | Celkem |
 |---|---|---|---|---|---|---|---|
@@ -102,9 +102,10 @@ Uvádíme částky, které zastupitelstvo skutečně schválilo; neschválené n
 | Taneční škola Horizonty Havířov | neurčeno | – | dar 10 000 | – | dar 5 000 | – | 15 000 |
 | SŠ, ZŠ a MŠ Frýdek-Místek – speciální škola | neověřeno | – | – | 5 000 | 5 000 | 5 000 | 15 000 |
 | Nadační fond Pavla Novotného | 04918304 | – | – | – | 10 000 | – | 10 000 |
+| KAFIRA o.p.s. | 26588773 | – | – | – | – | dar 10 000 | 10 000 |
 | Linka bezpečí, z.s. | 61383198 | – | dar 4 400 | – | – | 5 000 | 9 400 |
 | **Dotace celkem** | | **123 000** | **199 200** | **285 100** | **272 600** | **251 600** | **1 131 500** |
-| **Dotace a dary celkem** | | 123 000 | 223 600 | 385 100 | 277 600 | 251 600 | 1 260 900 |
+| **Dotace a dary celkem** | | 123 000 | 223 600 | 385 100 | 277 600 | 261 600 | 1 270 900 |
 
 Souvislosti ze zápisů:
 

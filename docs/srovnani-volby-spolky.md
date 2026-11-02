@@ -1,6 +1,6 @@
 # Srovnání voleb a spolků
 
-Zdroj: https://hd-v-datech.cz/srovnani-volby-spolky.html (aktualizováno 2026-11-01)
+Zdroj: https://hd-v-datech.cz/srovnani-volby-spolky.html (aktualizováno 2026-11-02)
 
 > Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích a sousedních obcích.
 
@@ -323,6 +323,9 @@ V HD se na položku 5223 účtuje na dvou paragrafech. Na § 3399 jsou částky 
 | 2014–2017 | 34 / 72 | 2 / 2 | 43 / 91 | 226 / 234 | 253 / 310 |
 | 2018–2021 | 48 / 113 | 40 / 40 | 152 / 196 | 189 / 196 | 315 / 355 |
 | 2022–2025 | 172 / 270 | 63 / 66 | 207 / 248 | 350 / 385 | 196 / 244 |
+| 2023–2025 ¹ | 206 / 317 | 81 / 86 | 193 / 234 | 395 / 439 | 194 / 232 |
+
+¹ Rozpočtové roky volebního období 2022–2026, stejně jako na stránkách o financích a v [souhrnu](https://hd-v-datech.cz/srovnani-souhrn.html). V tomto vymezení mají HD po Lučině nejvyšší výdaje na obyvatele, těsně před Vojkovicemi a DD.
 
 **Dary obyvatelstvu (5492) a investiční transfery spolkům (6322):** Pazderna vydává na položku 5492 každý rok 1 000–46 000 Kč. DD od roku 2022 vydávají 50 000–61 000 Kč ročně, investiční transfer spolkům 49 900 Kč vyplatily v letech 2022 a 2024. HD vydávala 9 000–41 000 Kč ročně, v roce 2022 ale 396 350 Kč. Lučina položku 5492 až na roky 2022 a 2025 nepoužívá, investiční transfer spolkům 151 210 Kč vyplatila v roce 2014. Vojkovice vydávají na položku 5492 každý rok 37 500–134 000 Kč, hlavně na § 3399, a v roce 2023 vyplatily investiční transfer spolkům 70 000 Kč. Účel těchto výdajů z výkazu nevyplývá, proto nejsou do srovnání zahrnuty.
 

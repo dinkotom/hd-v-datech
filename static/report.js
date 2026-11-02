@@ -37,7 +37,7 @@
     '<blockquote class="report-quote" hidden></blockquote>' +
     '<label><span>Co je špatně? <span class="req">*</span></span><textarea name="text" rows="4" required></textarea></label>' +
     '<label>Správný údaj a zdroj (nepovinné)<input name="source" type="text" placeholder="např. odkaz na usnesení, výkaz, web"></label>' +
-    '<label>E-mail pro odpověď (nepovinné)<input name="email" type="email" autocomplete="email"></label>' +
+    '<label class="report-email">E-mail pro odpověď (nepovinné)<input name="email" type="email" autocomplete="email"></label>' +
     '<p class="report-privacy"></p>' +
     '<div class="report-actions"><button type="button" class="btn-ghost" value="cancel">Zrušit</button>' +
     '<button type="submit" class="btn-primary">Odeslat</button></div>' +
@@ -49,7 +49,7 @@
 
   dlg.querySelector('.report-privacy').textContent = cfg.action
     ? 'Hlášení se uloží do Google Formuláře autora webu. E-mail použijeme jen pro odpověď.'
-    : 'Otevře se předvyplněné hlášení na GitHubu (vyžaduje účet GitHub).';
+    : 'Otevře se předvyplněné hlášení na GitHubu. Bude veřejně viditelné spolu s vaším uživatelským jménem (vyžaduje účet GitHub). Nepište do něj osobní údaje.';
   dlg.querySelector('.btn-ghost').addEventListener('click', function () { dlg.close(); });
 
   function open(quote, anchorNode) {
@@ -59,6 +59,8 @@
     form.reset();
     form.querySelector('.report-done').hidden = true;
     form.querySelectorAll('label, .report-actions, .report-privacy').forEach(function (e) { e.hidden = false; });
+    // GitHub issues are public and have no e-mail field
+    if (!cfg.action) form.querySelector('.report-email').hidden = true;
     dlg.querySelector('.report-where').textContent = 'Stránka: ' + state.page;
     var q = dlg.querySelector('.report-quote');
     q.hidden = !state.quote;

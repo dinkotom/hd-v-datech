@@ -1,7 +1,7 @@
 ---
 title: "Rozpočet 2026"
 description: "Rozpočet obce Horní Domaslavice na rok 2026: schválený a upravený rozpočet, rozpočtová opatření, čerpání k 30. 9. 2026, rezerva, peníze na účtech a střednědobý výhled."
-updated: "2026-10-31"
+updated: "2026-11-02"
 ---
 
 Tato stránka ukazuje, jak obec Horní Domaslavice hospodaří v roce 2026. Porovnává tři čísla: **schválený rozpočet** (co zastupitelstvo schválilo v prosinci 2025), **upravený rozpočet** (po rozpočtových opatřeních během roku) a **skutečnost** (co obec opravdu přijala a zaplatila do 30. 9. 2026). Pro srovnání jsou uvedena stejná období let 2023–2025. Data pocházejí z výkazu FIN 2-12 M, který obec měsíčně odevzdává Ministerstvu financí (Monitor státní pokladny). Na konci je střednědobý výhled na další roky, z něhož vychází příprava rozpočtu 2027. Částky jsou v milionech Kč.
@@ -12,8 +12,8 @@ Jde o **průběžná data za tři čtvrtletí**. Část plateb přichází až n
 
 | | Schválený rozpočet | Upravený rozpočet | Skutečnost k 30. 9. 2026 | Plnění / čerpání |
 |---|---:|---:|---:|---:|
-| **Příjmy celkem** | 23,13 | 23,14 | 18,98 | **82 %** |
-| – daňové příjmy (třída 1) | 21,93 | 21,93 | 18,15 | 83 % |
+| **Příjmy celkem** | 23,01 | 23,01 | 18,85 | **82 %** |
+| – daňové příjmy (třída 1 bez položky 1122) | 21,81 | 21,81 | 18,03 | 83 % |
 | – nedaňové příjmy (třída 2) | 0,85 | 0,85 | 0,55 | 66 % |
 | – kapitálové příjmy (třída 3) | 0,00 | 0,00 | 0,00 | – |
 | – přijaté transfery a dotace (třída 4) | 0,36 | 0,36 | 0,27 | 75 % |
@@ -24,9 +24,9 @@ Jde o **průběžná data za tři čtvrtletí**. Část plateb přichází až n
 | – investice (třída 6) | 14,63 | 15,48 | 3,25 | 21 % |
 | **Zapojení peněz z minulých let** (financování) | 38,30 | 39,49 | – | |
 
-Schválený rozpočet v dokumentu obce má na obou stranách **65,43 mil. Kč**. Rozdíl proti tabulce tvoří 4,0 mil. převodů mezi vlastními účty obce (§ 6330, na příjmové i výdajové straně) a 0,12 mil. daně z příjmů, kterou obec platí sama sobě (§ 6399). Obojí je pouze účetní přesun peněz, a proto se do příjmů ani výdajů nepočítá.
+Schválený rozpočet v dokumentu obce má na obou stranách **65,43 mil. Kč**. Rozdíl proti tabulce tvoří 4,0 mil. převodů mezi vlastními účty obce (položka 4134 v příjmech, § 6330 ve výdajích) a 0,12 mil. daně z příjmů, kterou obec platí sama sobě (položka 1122 v příjmech, § 6399 ve výdajích). Obojí je pouze účetní přesun peněz, a proto se do příjmů ani výdajů nepočítá.
 
-Rozpočet je vyrovnaný jen díky zapojení peněz z minulých let. Plánované výdaje (62,5 mil.) jsou skoro trojnásobkem plánovaných příjmů (23,1 mil.). Obec do rozpočtu zapojila celý zůstatek na účtu k 31. 12. 2025 (39,49 mil.) a jeho největší část uložila do rezervy na § 3639.
+Rozpočet je vyrovnaný jen díky zapojení peněz z minulých let. Plánované výdaje (62,5 mil.) jsou skoro trojnásobkem plánovaných příjmů (23,0 mil.). Obec do rozpočtu zapojila celý zůstatek na účtu k 31. 12. 2025 (39,49 mil.) a jeho největší část uložila do rezervy na § 3639.
 
 ## 2. Schválený vs. upravený rozpočet: rozpočtová opatření
 
@@ -44,7 +44,7 @@ Do konce září bylo zveřejněno 8 rozpočtových opatření (RO). Celkový ob
 | 8 | 31. 8. | daň z příjmů za obec, příjem i výdaj +4 tis. Kč | 0,00 |
 | | | **Rezerva: schváleno 25,00 → po RO 1–8: 24,51** | **−0,48** |
 
-Podle zápisu ze zasedání ZO č. 34 ze dne 6. 10. 2026 se na zasedání informovalo o dalších opatřeních: klimatizace v MŠ a podání žádosti o dotaci na zateplení a fotovoltaiku MŠ. Opatření č. 9 nebylo k 31. 10. 2026 na webu obce zveřejněno. Číslování opatření v zápisu se se zveřejněnými dokumenty zcela neshoduje (neověřeno). Návrh usnesení, kterým by zastupitelstvo vzalo opatření provedená v pravomoci starosty na vědomí, na tomto zasedání nezískal potřebnou většinu.
+Podle zápisu ze zasedání ZO č. 34 ze dne 6. 10. 2026 se na zasedání informovalo o dalších opatřeních: klimatizace v MŠ a podání žádosti o dotaci na zateplení a fotovoltaiku MŠ. Opatření č. 9 nebylo k 31. 10. 2026 na webu obce zveřejněno. Číslování opatření v zápisu se se zveřejněnými dokumenty zcela neshoduje (neověřeno). Návrh usnesení, kterým by zastupitelstvo vzalo opatření provedená v pravomoci starosty na vědomí, na tomto zasedání nezískal potřebnou většinu. Na platnost rozpočtových opatření, která starosta provedl v pravomoci svěřené mu zastupitelstvem, to vliv nemá; vzetí na vědomí je jen informace zastupitelstvu.
 
 ## 3. Výdaje podle účelu k 30. 9.
 
@@ -65,7 +65,7 @@ Paragrafy rozpočtové skladby jsou sloučené do srozumitelných skupin. Posled
 | Kultura, památky, akce, dary spolkům | 1,90 | 1,90 | **0,88** | 46 % | 0,79 | 0,87 | 0,64 | 1,19 |
 | Zeleň a životní prostředí | 1,22 | 1,67 | **0,71** | 42 % | 0,47 | 0,49 | 0,60 | 0,67 |
 | Hřbitov | 0,50 | 0,50 | **0,30** | 60 % | 0,04 | 0,04 | 0,03 | 0,05 |
-| Územní plán a územní rozvoj | 0,50 | 0,50 | **0,11** | 22 % | 0,00 | 0,00 | 0,24 | 0,05 |
+| Územní plán a komunální služby | 0,50 | 0,50 | **0,11** | 22 % | 0,00 | 0,00 | 0,24 | 0,05 |
 | Veřejné osvětlení | 0,45 | 0,45 | **0,22** | 49 % | 0,25 | 0,25 | 0,14 | 0,26 |
 | Sociální služby a zdraví | 0,30 | 0,30 | **0,14** | 47 % | 0,15 | 0,16 | 0,15 | 0,18 |
 | Ostatní | 0,09 | 0,09 | **0,05** | 50 % | 0,07 | 0,03 | 0,03 | 0,07 |
@@ -126,13 +126,13 @@ Podle zápisu ze zasedání ZO č. 26 ze dne 11. 12. 2025 vychází odhad příj
 
 | Rok | Schválené příjmy | Skutečné příjmy za rok | Rozdíl | Sdílené daně: schváleno → skutečnost | Podíl příjmů vybraných do 30. 9. |
 |---|---:|---:|---:|---:|---:|
-| 2023 | 17,66 | 20,01 | **+13 %** | 15,40 → 17,55 (+14 %) | 75 % |
-| 2024 | 19,76 | 20,99 | **+6 %** | 17,40 → 17,75 (+2 %) | 73 % |
-| 2025 | 21,10 | 22,74 | **+8 %** | 18,30 → 18,96 (+4 %) | 72 % |
-| 2026 | 23,13 | k 30. 9.: 18,98 | | 19,81 → k 30. 9.: 16,37 | |
+| 2023 | 17,58 | 19,94 | **+13 %** | 15,40 → 17,55 (+14 %) | 75 % |
+| 2024 | 19,68 | 20,91 | **+6 %** | 17,40 → 17,75 (+2 %) | 73 % |
+| 2025 | 21,01 | 22,55 | **+7 %** | 18,30 → 18,96 (+4 %) | 72 % |
+| 2026 | 23,01 | k 30. 9.: 18,85 | | 19,81 → k 30. 9.: 16,37 | |
 
-- Obec odhaduje příjmy **opatrně**: skutečnost byla v posledních třech letech o 6–13 % vyšší než schválený rozpočet.
-- **2026:** do konce září obec vybrala 18,98 mil. Kč, tedy 82 % schválených příjmů a o 16 % víc než ve stejném období roku 2025 (16,37 mil.). Sdílené daně jsou meziročně vyšší o 18 %. Do 30. 9. obvykle přichází 72–75 % ročních příjmů. Pokud to platí i letos, budou příjmy za celý rok 2026 zhruba **25,3–26,4 mil. Kč**, o 2–3 mil. víc, než obec rozpočtovala. Jde o hrubý odhad, ne o prognózu.
+- Obec odhaduje příjmy **opatrně**: skutečnost byla v posledních třech letech o 6–13 % vyšší než schválený rozpočet. Příjmy jsou zde i v celé stránce počítány bez převodů mezi vlastními účty (4134) a bez daně z příjmů placené obcí sama sobě (1122), stejně jako na stránce [výdaje obce](hd-vydaje.html).
+- **2026:** do konce září obec vybrala 18,85 mil. Kč, tedy 82 % schválených příjmů a o 17 % víc než ve stejném období roku 2025 (16,18 mil.). Sdílené daně jsou meziročně vyšší o 18 %. Do 30. 9. obvykle přichází 72–75 % ročních příjmů. Pokud to platí i letos, budou příjmy za celý rok 2026 zhruba **25,1–26,2 mil. Kč**, o 2–3 mil. víc, než obec rozpočtovala. Jde o hrubý odhad, ne o prognózu.
 - Kapitálové příjmy (prodej majetku) a investiční dotace jsou v letech 2023–2026 nulové. Obec dotace získává: například na projektovou dokumentaci MŠ podle zápisu ze zasedání ZO č. 25 ze dne 18. 11. 2025. Ve výkazu za rok 2026 se ale k 30. 9. jako investiční dotace neobjevují. Viz [dotace](hd-dotace.html).
 
 Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených daní](hd-prijmy.html).
@@ -148,7 +148,7 @@ Dlouhodobý vývoj daňových příjmů je na stránce [příjmy ze sdílených 
 | 30. 6. 2026 | 40,61 | – |
 | 30. 9. 2026 | **41,82** | 37,73 (30. 9. 2025) |
 
-Za tři čtvrtletí roku 2026 vzrostl stav účtu o 2,32 mil. Kč. Ve stejném období předchozích let to bylo víc: +6,69 mil. (2023), +6,17 mil. (2024, počítáno včetně termínovaného vkladu 9 mil. Kč, který se v roce 2024 vrátil na běžný účet) a +6,26 mil. (2025). Ve čtvrtém čtvrtletí obvykle převažují výdaje, protože se platí faktury za stavby. Konečný stav k 31. 12. 2026 proto bude záviset hlavně na doplatku hřiště. Řada stavů ke konci let je na stránce [peníze na účtech](hd-ucty.html).
+Za tři čtvrtletí roku 2026 vzrostl stav účtu o 2,32 mil. Kč. Ve stejném období předchozích let to bylo víc: +6,69 mil. (2023), +6,17 mil. (2024, počítáno včetně termínovaného vkladu 9 mil. Kč, který se v roce 2024 vrátil na běžný účet) a +6,26 mil. (2025). Ve čtvrtém čtvrtletí převažovaly výdaje ve dvou ze tří let, protože se platí faktury za stavby: stav účtu ve 4. čtvrtletí klesl o 5,87 mil. (2023) a 2,80 mil. (2024), v roce 2025 naopak vzrostl o 1,76 mil. Konečný stav k 31. 12. 2026 proto bude záviset hlavně na doplatku hřiště. Řada stavů ke konci let je na stránce [peníze na účtech](hd-ucty.html).
 
 ## 8. Střednědobý výhled a rozpočet 2027
 
@@ -189,8 +189,8 @@ Za tři čtvrtletí roku 2026 vzrostl stav účtu o 2,32 mil. Kč. Ve stejném o
 ## Metodika a zdroje
 
 - **Plnění rozpočtu:** Ministerstvo financí, Monitor státní pokladny, výkaz FIN 2-12 M obce IČO 00536008. Pro rok 2026 je použit výkaz k 30. 9. 2026 (extrakt `FinM2026/2026_09_Data_CSUIS_FINM2026.zip`, zveřejněný 21. 10. 2026), pro srovnání výkazy k 30. 9. 2023, 2024 a 2025 a k 31. 12. 2023–2025 (https://monitor.statnipokladna.gov.cz/data/extrakty/csv/).
-- **Výdaje** jsou třídy 5 a 6 s paragrafem různým od 0000, bez paragrafů 6330 (převody mezi vlastními účty) a 6399 (daň z příjmů za obec). **Příjmy** jsou třídy 1–4 bez položky 4134 (převody z vlastních fondů). **Investice** jsou třída 6, **opravy** položka 5171, **rezerva** § 3639 / položka 5169 a § 6409 / položka 5901.
+- **Výdaje** jsou třídy 5 a 6 s paragrafem různým od 0000, bez paragrafů 6330 (převody mezi vlastními účty) a 6399 (daň z příjmů za obec). **Příjmy** jsou třídy 1–4 bez položky 4134 (převody z vlastních fondů) a bez položky 1122 (daň z příjmů za obec, protějšek § 6399); **daňové příjmy** jsou třída 1 bez položky 1122. **Investice** jsou třída 6, **opravy** položka 5171, **rezerva** § 3639 / položka 5169 a § 6409 / položka 5901.
 - **Stav účtů:** rozvaha obce k 31. 3. a 30. 6. 2026 a k 30. 9. 2023–2025 (Monitor státní pokladny, účet 231 a 244) a část II výkazu FIN 2-12 M k 30. 9. 2026.
 - **Dokumenty obce:** schválený rozpočet pro rok 2026 (schválen 11. 12. 2025), rozpočtová opatření č. 1–8/2026, střednědobý výhled rozpočtu 2025–2028 (schválen 7. 12. 2023), zápisy ze zasedání ZO č. 19 ze dne 10. 12. 2024, č. 25 ze dne 18. 11. 2025, č. 26 ze dne 11. 12. 2025 a č. 27–34 z roku 2026, zprávy finančního výboru ze dne 3. 11. 2025 a 7. 4. 2026. Web obce, sekce Rozpočet obce a Úřední deska, stav k 31. 10. 2026.
 - Data ke stažení (CSV): `rozpocet_2026_srovnani_k_30_9.csv`, `rozpocet_2026_vydaje_podle_ucelu.csv`, `rozpocet_2026_investice_opravy.csv`, `rozpocet_2026_odhad_prijmu.csv`, `rozpocet_2026_rozpoctova_opatreni.csv`, `rozpocet_2026_stav_uctu.csv`, `rozpocet_2026_strednedoby_vyhled.csv`.
-- Čísla jsou zaokrouhlená na desetitisíce Kč, součty se proto mohou lišit o 0,01. Zpracováno 31. 10. 2026.
+- Čísla jsou zaokrouhlená na desetitisíce Kč, součty se proto mohou lišit o 0,01. Zpracováno 31. 10. 2026, 2. 11. 2026 vyřazena z příjmů položka 1122.

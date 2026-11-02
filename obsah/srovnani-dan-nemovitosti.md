@@ -1,7 +1,7 @@
 ---
 title: "Daň z nemovitostí"
 description: "Jaké koeficienty daně z nemovitých věcí uplatňují Horní Domaslavice a sousední obce a kolik jim daň vynáší na obyvatele."
-updated: "2026-11-01"
+updated: "2026-11-02"
 ---
 
 Stránka porovnává, jak pět obcí využívá své pravomoci u daně z nemovitých věcí, tedy zda zavedly místní koeficient, a kolik jim daň v posledních letech vynesla na obyvatele. Zdroje: Sbírka právních předpisů územních samosprávných celků (sbirkapp.gov.cz, výpis vyhlášek každé obce), zákon č. 338/1992 Sb., o dani z nemovitých věcí, ve znění k 1. 10. 2025, výnos daně (položka 1511) z Monitoru státní pokladny MF a počty obyvatel ČSÚ.
@@ -29,17 +29,19 @@ Horní Domaslavice a Pazderna tedy žádný vlastní koeficient nezavedly. Vojko
 
 ## Výnos daně na obyvatele (Kč)
 
+Výnos je dělený počtem obyvatel k 1. 7. daného roku, stejně jako ostatní toky na stránce [srovnání financí](srovnani-finance.html).
+
 | Rok | HD | PA | DD | LU | VOJ |
 |---|---:|---:|---:|---:|---:|
-| 2019 | 386 | 631 | 451 | 497 | 757 |
-| 2021 | 356 | 679 | 455 | 475 | 778 |
-| 2023 | 351 | 565 | 451 | 441 | 741 |
-| 2024 | 627 | 967 | 778 | 782 | 1 347 |
-| 2025 | **735** | 950 | 944 | 975 | **1 402** |
+| 2019 | 395 | 645 | 451 | 503 | 761 |
+| 2021 | 366 | 700 | 464 | 477 | 778 |
+| 2023 | 353 | 576 | 452 | 457 | 744 |
+| 2024 | 632 | 986 | 776 | 786 | 1 364 |
+| 2025 | **741** | 966 | 945 | 974 | **1 400** |
 | Celkem 2025 (mil. Kč) | 0,82 | 0,40 | 1,38 | 1,56 | 1,12 |
 
-- **2024:** všude skok o 70–80 % na obyvatele. To je státní konsolidační balíček (zvýšení sazeb), ne rozhodnutí obcí.
-- **2025:** v DD a Lučině další růst výnosu o 21 a 23 % (na obyvatele o 21 a 25 %) díky koeficientu 5,0 u rekreačních budov. V HD vzrostl výnos o 21 % (na obyvatele o 17 %) díky přechodu do kategorie 1,4: HD měly podle sčítání 2021 méně než 1 000 obyvatel, podle vyhlášky k rozpočtovému určení daní od roku 2025 už víc. Pazderna a Vojkovice bez podstatné změny (Vojkovice mají koeficient 2,0 už od roku 2022).
+- **2024:** všude skok o 71–83 % na obyvatele (absolutně o 74–85 %). To je státní konsolidační balíček (zvýšení sazeb), ne rozhodnutí obcí.
+- **2025:** v DD a Lučině další růst výnosu o 21 a 23 % (na obyvatele o 22 a 24 %) díky koeficientu 5,0 u rekreačních budov. V HD vzrostl výnos o 21 % (na obyvatele o 17 %) díky přechodu do kategorie 1,4: HD měly podle sčítání 2021 méně než 1 000 obyvatel, podle vyhlášky k rozpočtovému určení daní od roku 2025 už víc. Pazderna a Vojkovice bez podstatné změny (Vojkovice mají koeficient 2,0 už od roku 2022).
 - Vojkovice mají výnos na obyvatele nejvyšší z pěti obcí, zhruba dvojnásobný proti HD, díky místnímu koeficientu 2,0.
 - HD mají přesto výnos na obyvatele nejnižší z pěti obcí. Částečně je to tím, že mají málo chat a podnikatelských staveb a hodně nových rodinných domů, částečně tím, že HD nevyužily žádný z místních koeficientů.
 
@@ -52,4 +54,4 @@ Horní Domaslavice a Pazderna tedy žádný vlastní koeficient nezavedly. Vojko
 
 ## Metodika a zdroje
 
-Koeficienty jsou převzaty z obecně závazných vyhlášek obcí ve Sbírce právních předpisů ÚSC (sbirkapp.gov.cz) a ze zákona č. 338/1992 Sb. Výnos daně je skutečnost položky 1511 z výkazu FIN 2-12 M (Monitor státní pokladny MF, https://monitor.statnipokladna.gov.cz) za daný rok. Výnos na obyvatele je dělený počtem obyvatel k 31. 12. daného roku (ČSÚ). Podrobnější finanční údaje jsou na stránce [srovnání financí](srovnani-finance.html).
+Koeficienty jsou převzaty z obecně závazných vyhlášek obcí ve Sbírce právních předpisů ÚSC (sbirkapp.gov.cz) a ze zákona č. 338/1992 Sb. Výnos daně je skutečnost položky 1511 z výkazu FIN 2-12 M (Monitor státní pokladny MF, https://monitor.statnipokladna.gov.cz) za daný rok. Výnos na obyvatele je dělený počtem obyvatel k 1. 7. daného roku (ČSÚ, datová sada OBY01B01), stejně jako toky na stránce o financích. Do 1. 11. 2026 byl dělený počtem obyvatel k 31. 12., proto se hodnoty proti předchozí verzi liší o jednotky až desítky korun. Podrobnější finanční údaje jsou na stránce [srovnání financí](srovnani-finance.html).

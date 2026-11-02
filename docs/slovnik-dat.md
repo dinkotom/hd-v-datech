@@ -72,19 +72,19 @@ Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, 
 | `rok` | Rozpočtový rok. |
 | `obyv_1_7` | Počet obyvatel k 1. 7. daného roku (ČSÚ). Tímto číslem se dělí toky (příjmy, výdaje…) ve sloupcích `*_na_obyv`. |
 | `obyv_31_12` | Počet obyvatel k 31. 12. daného roku (ČSÚ). Tímto číslem se dělí stavy (`ucet_*`, `penize_*`, úvěry a závazky) ve sloupcích `*_na_obyv`. |
-| `prijmy` | Příjmy celkem = třídy 1–4 rozpočtové skladby bez převodů z vlastních fondů (položky 413x). Kč. |
-| `trida1` | Daňové příjmy (třída 1): sdílené daně, daň z nemovitých věcí, místní poplatky aj. Kč. |
+| `prijmy` | Příjmy celkem = třídy 1–4 rozpočtové skladby bez převodů z vlastních fondů (položky 413x) a bez daně z příjmů, kterou obec platí sama sobě (položka 1122, viz `dppo_obec`). Kč. |
+| `trida1` | Daňové příjmy (třída 1): sdílené daně, daň z nemovitých věcí, místní poplatky aj.; bez položky 1122 (daň placená obcí sama sobě). Kč. |
 | `rud` | Sdílené daně (rozpočtové určení daní: DPH, daně z příjmů fyzických a právnických osob). Kč. |
 | `dan_nemovitosti` | Daň z nemovitých věcí (položka 1511). Kč. |
-| `dppo_obec` | Daň z příjmů právnických osob za obec (položka 1122). Obec ji platí sama sobě, proto je stejná částka i ve `vyd_6399`. Kč. |
+| `dppo_obec` | Daň z příjmů právnických osob za obec (položka 1122). Obec ji platí sama sobě; částka je odečtena z `prijmy`, `trida1` i `vydaje` (protějšek ve výdajích bývá v § 6399, u některých obcí a let v § 6171). Kč. |
 | `trida2` | Nedaňové příjmy (třída 2): pronájmy, prodej služeb, úroky aj. Kč. |
 | `trida3` | Kapitálové příjmy (třída 3): prodej majetku. Kč. |
 | `trida4` | Přijaté transfery (třída 4) bez převodů z vlastních fondů = `dotace_neinv` + `dotace_inv`. Kč. |
 | `dotace_neinv` | Neinvestiční přijaté transfery (včetně souhrnného dotačního vztahu na výkon státní správy). Kč. |
 | `dotace_inv` | Investiční přijaté dotace. Kč. |
-| `vydaje` | Výdaje celkem = třídy 5 a 6, bez převodů mezi vlastními účty (§ 6330) a bez daně z příjmů za obec (§ 6399). Kč. |
+| `vydaje` | Výdaje celkem = třídy 5 a 6 bez převodů mezi vlastními účty (§ 6330), minus daň z příjmů placená obcí sama sobě (částka `dppo_obec`). Ostatní platby v § 6399 (např. odvody DPH) se počítají. Kč. |
 | `vydaje_sch` | Schválený rozpočet výdajů (stejné vymezení jako `vydaje`). Kč. |
-| `vydaje_upr` | Upravený rozpočet výdajů ke konci roku (po rozpočtových opatřeních). Kč. |
+| `vydaje_upr` | Upravený rozpočet výdajů ke konci roku (po rozpočtových opatřeních), stejné vymezení jako `vydaje`. Kč. |
 | `investice` | Investiční (kapitálové) výdaje, třída 6. Kč. |
 | `opravy` | Opravy a udržování, položka 5171. Kč. |
 | `io` | Investice a opravy = `investice` + `opravy`. Hlavní ukazatel webu pro „kolik obec dává do majetku“. Kč. |
@@ -111,7 +111,7 @@ Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, 
 | `pr_4134` | Převody z rozpočtových účtů (položka 4134); do `prijmy` se nepočítají. Kč. |
 | `pr_413x_ostatni` | Ostatní převody z vlastních fondů (413x kromě 4134); do `prijmy` se nepočítají. Kč. |
 | `vyd_6330` | Převody mezi vlastními účty (§ 6330); do `vydaje` se nepočítají. Kč. |
-| `vyd_6399` | Ostatní finanční operace (§ 6399), hlavně daň z příjmů za obec; do `vydaje` se nepočítají. Kč. |
+| `vyd_6399` | Ostatní finanční operace (§ 6399): hlavně daň z příjmů za obec, u některých obcí i odvody DPH. Do `vydaje` se počítají, odečte se jen částka `dppo_obec`. Kč. |
 | `*_na_obyv` (40 sloupců) | Stejnojmenný sloupec bez přípony na obyvatele: toky děleno `obyv_1_7`, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno `obyv_31_12`. Kč. |
 
 ## finance_LUC_2010-2025.csv
@@ -534,12 +534,13 @@ Výsledky stran ve volbách do Poslanecké sněmovny 2013–2025. HD a podobné 
 
 ## podobne_obce_vyber.csv
 
-Výběr podobných obcí: 231 obcí ČR s 650–1 800 obyvateli (2025), růstem od roku 2000 alespoň 35 % a rozlohou 3–11 km², a pro srovnání HD.
+Podklady k výběru podobných obcí: 231 obcí ČR s 650–1 800 obyvateli (2025), růstem od roku 2000 alespoň 35 % a rozlohou 3–11 km², a pro srovnání HD. Pro 93 z nich, které splňují užší filtr výběru (750–1 600 obyvatel, růst alespoň 55 %, rozloha 3–8,5 km²), je uvedeno i skóre a pořadí, podle kterého se vybíraly tři podobné obce.
 
 - Odkaz: [data/podobne_obce_vyber.csv](https://hd-v-datech.cz/data/podobne_obce_vyber.csv)
-- Řádků: 232; jeden řádek = jedna obec; seřazeno od nejpodobnější HD
+- Řádků: 232; jeden řádek = jedna obec; seřazeno podle indexu odlišnosti zástavby (sloupec poradi), ne podle pořadí výběru
 - Zdroj: ČSÚ (obyvatelé), ČÚZK (úhrnné hodnoty druhů pozemků k 1. 1. 2026), RÚIAN (budovy, stav 30. 9. 2026). Výpočet autora webu.
-- Pozor: Index odlišnosti je výpočet autora webu podle šesti ukazatelů (obyvatelé, růst, rozloha, největší část obce, vzdálenost od středu, propojení na dům); jiné váhy by daly jiné pořadí.
+- Pozor: Tři podobné obce se vybíraly podle skóre výběru (sloupce skore_vyberu a poradi_vyberu), ne podle indexu odlišnosti. Písková Lhota je v pořadí výběru 1., Rebešovice 11. a Závišice 19.; obce v zázemí Prahy a několik dalších obcí s podobným skóre byly při výběru přeskočeny ručně.
+- Pozor: Index odlišnosti je výpočet autora webu podle šesti ukazatelů (obyvatelé, růst, rozloha, největší část obce, vzdálenost od středu, propojení na dům); slouží k posouzení, jak běžná je zástavba podobná HD. Jiné váhy by daly jiné pořadí.
 - Pozor: Napojení na kanalizaci a plyn je z RÚIAN, údaje jsou neúplné.
 
 | Sloupec | Význam |
@@ -564,7 +565,9 @@ Výběr podobných obcí: 231 obcí ČR s 650–1 800 obyvateli (2025), růstem 
 | `plyn_pct` | Podíl domů se zjištěným údajem napojených na plyn z veřejné sítě, %. |
 | `domy_po_2000_pct` | Podíl domů dokončených po roce 2000, %. |
 | `katastralni_uzemi` | Počet katastrálních území obce. |
-| `index_odlisnosti_od_HD` | Index odlišnosti od HD (0 = HD; čím menší, tím podobnější). |
+| `index_odlisnosti_od_HD` | Index odlišnosti od HD (0 = HD; čím menší, tím podobnější). Odmocnina součtu čtverců: ln poměru obyvatel / 0,3, ln poměru (100 + růst %) / 0,2, ln poměru rozlohy / 0,35, rozdíl podílu největší části / 15 p. b., ln poměru vzdálenosti od středu / 0,35 a ln poměru propojení na dům / 0,3. |
+| `skore_vyberu` | Skóre výběru podobných obcí (0 = HD; čím menší, tím podobnější). Odmocnina součtu čtverců: ln poměru obyvatel 2025 / 0,25, ln poměru (100 + růst %) / 0,15, ln poměru rozlohy / 0,3, rozdíl podílu orné půdy / 20 p. b. a rozdíl podílu lesa / 15 p. b. Zástavbu nezohledňuje. |
+| `poradi_vyberu` | Pořadí podle skóre výběru mezi 93 obcemi, které splňují filtr výběru (750–1 600 obyvatel v roce 2025, růst od roku 2000 alespoň 55 %, rozloha 3–8,5 km²); prázdné u obcí, které filtr nesplňují. |
 
 ## podobne_obce_vydaje_kategorie_2010-2025.csv
 

@@ -1,7 +1,7 @@
 ---
 title: "Registr smluv"
 description: "Které smlouvy obce Horní Domaslavice a její mateřské školy jsou veřejně dostupné v registru smluv a na profilu zadavatele a proč jich v registru není víc."
-updated: "2026-10-31"
+updated: "2026-11-02"
 ---
 
 Tato stránka ukazuje, které smlouvy obce Horní Domaslavice a Mateřské školy Horní Domaslavice lze dohledat ve veřejných zdrojích: ve státním registru smluv (smlouvy.gov.cz), na Hlídači státu a na profilu zadavatele obce (vhodne-uverejneni.cz). Vysvětluje také, jaké povinnosti zveřejňovat smlouvy obec ze zákona má. Rešerše proběhla 30. 10. 2026 a pracovala jen s veřejnými zdroji.
@@ -15,7 +15,7 @@ Obec Horní Domaslavice: IČO 00536008, datová schránka gr4bkxm. Mateřská š
 3. U MŠ je v registru **10 smluv** (mzdová agenda a vzdělávání u KVIC, plavání ve Sportplexu Frýdek-Místek). Všechny vložila protistrana a ani jedna nemá uvedenou cenu.
 4. **Velké smlouvy obce v registru nejsou** (např. KANIA, d21 architekti, Sportovní podlahy Zlín, TISPOL, ALPINE, LOMPARK, smlouvy s bankami ani se svozovou firmou FCC).
 5. **Obec ale tuto povinnost nemá:** podle § 3 odst. 2 písm. k) zákona č. 340/2015 Sb. se povinnost zveřejnit smlouvu v registru **nevztahuje** na smlouvy, jejichž stranou je obec bez rozšířené působnosti nebo její příspěvková organizace. Horní Domaslavice obcí s rozšířenou působností (ORP) nejsou; ORP je Frýdek-Místek. **Chybějící smlouvy proto podle doslovného znění zákona porušením zákona o registru smluv nejsou.** Podrobnosti jsou v oddílu 2.
-6. Obec zveřejňuje smlouvy na veřejné zakázky na **profilu zadavatele** (vhodne-uverejneni.cz). Je tam **17 smluv z let 2015–2026** v hodnotě zhruba **30,5 mil. Kč bez DPH** a k tomu rekonstrukce MŠ za 10,7 mil. Kč (viz [veřejné zakázky](hd-zakazky.html)). Profil sám u všech 17 smluv uvádí „Stav v ISRS: Nezveřejněna“, tedy že nejsou v registru smluv.
+6. Obec zveřejňuje smlouvy na veřejné zakázky na **profilu zadavatele** (vhodne-uverejneni.cz). Je tam **17 smluv z let 2015–2026** v hodnotě zhruba **30,5 mil. Kč bez DPH** a k tomu rekonstrukce MŠ za 9,72 mil. Kč s DPH (konečná cena po třech dodatcích, původně 10,74 mil.; viz [veřejné zakázky](hd-zakazky.html)). Profil sám u všech 17 smluv uvádí „Stav v ISRS: Nezveřejněna“, tedy že nejsou v registru smluv.
 7. Ze závěrečného účtu za rok 2025 jsou známy smlouvy a objednávky nad 50 000 Kč, které nejsou ani v registru, ani na profilu: d21 architekti (284 000 Kč bez DPH), LF Interiéry (514 733 Kč), opravy komunikací (194 810 Kč) a TISPOL (54 450 Kč, pravděpodobně s DPH). Zákonnou povinnost je zveřejnit obec nemá; jde o otázku dobrovolné transparentnosti.
 
 ## 2. Právní rámec: proč v registru nic není
@@ -26,7 +26,7 @@ Obec Horní Domaslavice: IČO 00536008, datová schránka gr4bkxm. Mateřská š
 
 **Nepřímé potvrzení:** krajský přezkum hospodaření za rok 2025 výslovně uvádí mezi použitými předpisy zákon 340/2015 Sb. a nemá žádné výhrady. Kdyby obec povinnost měla a 10 let nic nezveřejnila, přezkum by to s velkou pravděpodobností zachytil.
 
-**Co obec povinně zveřejňuje jinde:** podle § 219 odst. 1 zákona č. 134/2016 Sb. (zákon o zadávání veřejných zakázek) zveřejňuje veřejný zadavatel smlouvu na veřejnou zakázku včetně změn a dodatků na **profilu zadavatele**, a to do **30 dnů** od uzavření. V aktuálním znění (od 3. 4. 2025) to neplatí pro smlouvy s cenou do **1 000 000 Kč bez DPH** a pro smlouvy zveřejněné v registru. Starší znění měla pravděpodobně nižší hranici (500 000 Kč) a kratší lhůtu (15 dní); historické znění ale nebylo ověřeno. Tuto povinnost má i obec bez ORP.
+**Co obec povinně zveřejňuje jinde:** podle § 219 odst. 1 zákona č. 134/2016 Sb. (zákon o zadávání veřejných zakázek) zveřejňuje veřejný zadavatel smlouvu na veřejnou zakázku včetně změn a dodatků na **profilu zadavatele**, a to do **30 dnů** od uzavření. V aktuálním znění (od 3. 4. 2025, novela č. 69/2025 Sb.) to neplatí pro smlouvy s cenou do **1 000 000 Kč bez DPH** a pro smlouvy zveřejněné v registru. Do 2. 4. 2025 byla hranice 500 000 Kč bez DPH. Lhůta 30 dnů platí od 16. 7. 2023 (novela č. 166/2023 Sb.), předtím bylo nutné smlouvu uveřejnit do 15 dnů. Tuto povinnost má i obec bez ORP.
 
 Hranice 50 000 Kč bez DPH je výjimka podle § 3 odst. 2 písm. h) zákona o registru smluv. Platí pro subjekty, které povinnost zveřejňovat mají, obcí bez ORP se ale netýká, protože ty jsou vyjmuty celé podle písm. k).
 
@@ -41,14 +41,14 @@ Roky jsou podle data uzavření smlouvy.
 | 2017 | 0 | – | 1 | 2 | 1 425 521 |
 | 2018 | 1 | 93 004 | 1 | 3 | 4 656 954 |
 | 2019 | 2 | 0 (bez ceny) | 2 | – | – |
-| 2020 | 1 | 398 978 | 1 | 1 | (10 738 397 s DPH) |
+| 2020 | 1 | 398 978 | 1 | 1 | (9 717 653 s DPH po dodatcích) |
 | 2021 | 0 | – | 0 | 1 | 1 890 050 (nabídková cena) |
 | 2022 | 1 | 0 (bez ceny) | 1 | 1 | 1 285 000 |
 | 2023 | 0 | – | 0 | 1 | 7 581 200 |
 | 2024 | 1 | 0 (bez ceny) | 2 | 2 | 4 705 961 (+ FCC, cena skryta) |
 | 2025 | 0 | – | 0 | 2 | 2 359 516 |
 | 2026 | 0 | – | 0 | 2 | 6 577 084 |
-| **Celkem** | **9** | **569 048** | **10** | **17** | **≈ 30 481 287 bez DPH + 10 738 397 s DPH (MŠ)** |
+| **Celkem** | **9** | **569 048** | **10** | **17** | **≈ 30 481 287 bez DPH + 9 717 653 s DPH (MŠ)** |
 
 ## 4. Kompletní seznam smluv v registru smluv
 
@@ -113,7 +113,7 @@ Profil uvádí u všech 17 smluv „Stav v ISRS: Nezveřejněna“. Ceny i dodav
 | 12. 1. 2018 | 18. 1. 2018 | Oplocení hřbitova (SoD + dodatek č. 1) | BESKYDGROUP s.r.o. | 28614321 | 1 612 813 | 1 951 503 |
 | 2. 5. 2018 | 2. 5. 2018 | Chodník mezi hřbitovy podél MK 6 (SoD + dodatek č. 1) | LOMPARK s.r.o. | 01914235 | 1 707 167 | 2 065 672 |
 | 17. 9. 2018 | 24. 9. 2018 | Oprava chodníků uvnitř hřbitova (SoD + dodatek č. 1) | LOMPARK s.r.o. | 01914235 | 1 336 974 | 1 617 739 |
-| 17. 7. 2020 | 19. 7. 2020 | Rekonstrukce vnitřní části MŠ (SoD + dodatky č. 1–3) | Haospol s.r.o. | 25855506 | neuvedena | 10 738 397 |
+| 17. 7. 2020 | 19. 7. 2020 | Rekonstrukce vnitřní části MŠ (SoD + dodatky č. 1–3) | Haospol s.r.o. | 25855506 | 8 031 118 (po dodatcích) | 9 717 653 (po dodatcích; profil uvádí původní cenu 10 738 397) |
 | 4. 8. 2021 | 11. 8. 2021 | Obnova soustavy veřejného osvětlení | ENCO group, s.r.o. | 26828570 | 1 890 050 (nabídka) | 2 286 961 |
 | 24. 1. 2022 | 1. 2. 2022 | Podpora domácího kompostování (kupní smlouva + dodatek č. 1) | SDO Technika s.r.o. | 29446619 | 1 285 000 | 1 554 850 |
 | 5. 4. 2023 | 9. 4. 2023 | Oprava MK1 | STRABAG a.s. | 60838744 | 7 581 200 | 9 173 252 |
@@ -129,7 +129,7 @@ Profil uvádí u všech 17 smluv „Stav v ISRS: Nezveřejněna“. Ceny i dodav
 **Postřehy z profilu** (doložená data; co je z nich vyvozeno, je výslovně uvedeno):
 
 - **Projektová dokumentace MŠ:** soutěžili 4 účastníci: KANIA 1 600 000, d21 architekti 1 733 000, MAZOK 1 797 400 a SD Ateliér 4 873 000 Kč bez DPH. Vyhrála nejnižší nabídka. Předpokládaná hodnota byla 1 918 000 Kč. Zakázka je dotovaná z programu „Vouchery pro veřejný sektor“ MSK.
-- **Stavební úpravy obecního domu:** vybrán byl Aklera Corp (1 120 119 Kč) a ten **nebyl nejlevnější bez DPH**. Levnější byly Kowollik s.r.o. (941 153), ELBAU-MONT (942 232) a Kantora s.r.o. (1 049 308 Kč bez DPH). Nabídka Akleru má stejnou cenu bez DPH i s DPH. **Odvozeno:** dodavatel je zřejmě neplátce DPH, a pokud obec u této akce nemá nárok na odpočet DPH, může být jeho nabídka pro obec ve skutečnosti nejlevnější (1 120 119 proti 1 138 795 Kč s DPH u Kowollik). Hodnoticí kritéria nebyla ověřována.
+- **Stavební úpravy obecního domu:** vybrán byl Aklera Corp (1 120 119 Kč), nejnižší nabídka podle ceny s DPH, podle které se hodnotilo. Bez DPH byly nižší nabídky Kowollik s.r.o. (941 153), ELBAU-MONT (942 232) a Kantora s.r.o. (1 049 308 Kč bez DPH). Nabídka Akleru má stejnou cenu bez DPH i s DPH. **Odvozeno:** dodavatel je zřejmě neplátce DPH, a pokud obec u této akce nemá nárok na odpočet DPH, může být jeho nabídka pro obec ve skutečnosti nejlevnější (1 120 119 proti 1 138 795 Kč s DPH u Kowollik). Hodnoticí kritéria nebyla ověřována.
 - **Oprava chodníků uvnitř hřbitova:** nabídka byla 1 127 426 Kč, smluvní cena po dodatku 1 336 974 Kč bez DPH, tedy o 18,6 % víc.
 - **Hřiště:** smlouva je uzavřená 7. 5. 2026 a na profil vložená 7. 7. 2026, tedy po 61 dnech. Zákonná lhůta je 30 dní (§ 219 ZZVZ, cena nad 1 mil. Kč). **Odvozeno:** pokud je datum vložení správné, mohlo jít o opožděné zveřejnění; datum ale může odrážet nahrání nové verze (viz Pozor, bod 4).
 - **Zpevněná sportovní plocha u hasičské klubovny:** první řízení (2025) bylo zrušeno, druhé je bez výsledku a smlouva zatím není (viz [veřejné zakázky](hd-zakazky.html)).
@@ -164,15 +164,15 @@ Profil uvádí u všech 17 smluv „Stav v ISRS: Nezveřejněna“. Ceny i dodav
 | Odpady (FCC) | 0,93–1,42 mil. Kč ročně (2022–2025) | Monitor MF 3722/5169 | smlouva z 2011 není nikde zveřejněna, jen příloha 2024 |
 | Nákup obecního auta 2024 | ≈ 0,75 mil. Kč (6171/6122) | Monitor MF | smlouva není ani na profilu |
 
-Kontrola řádů (odvozeno): výdaje v Monitoru MF velikostí odpovídají smlouvám z profilu. Oprava MK1 (9,17 mil. s DPH) odpovídá 2212/5171 v roce 2023 (8,27 mil.) s částečným doplatkem v roce 2024. Hřbitov 2018–2019 (3632/5171: 2,98 + 1,10 mil.) odpovídá oplocení a chodníkům (1,95 + 1,62 mil. s DPH). Rekonstrukce MŠ 2020–2021 (3111/6121: 4,18 + 7,97 mil.) odpovídá smlouvě s Haospol (10,74 mil.) a dalším nákladům. Podrobné párování faktur bez knihy faktur udělat nejde.
+Kontrola řádů (odvozeno): výdaje v Monitoru MF velikostí odpovídají smlouvám z profilu. Oprava MK1 (9,17 mil. s DPH) odpovídá 2212/5171 v roce 2023 (8,27 mil.) s částečným doplatkem v roce 2024. Hřbitov 2018–2019 (3632/5171: 2,98 + 1,10 mil.) odpovídá oplocení a chodníkům (1,95 + 1,62 mil. s DPH). Rekonstrukce MŠ 2020–2021 (3111/6121: 4,18 + 7,97 mil.) odpovídá smlouvě s Haospol (9,72 mil. s DPH po dodatcích) a dalším nákladům. Podrobné párování faktur bez knihy faktur udělat nejde.
 
 ## 9. Pozor: výhrady
 
 1. **Hlavní výhrada:** „není v registru“ **neznamená porušení zákona**. Obec bez ORP a její příspěvková organizace mají výjimku podle § 3 odst. 2 písm. k) zákona 340/2015 Sb. Téma je proto namístě chápat jako otázku **dobrovolné transparentnosti**, ne nezákonnosti. Některé obce bez ORP zveřejňují dobrovolně; např. sousední Dolní Domaslavice mají v registru nejméně 16 vlastních smluv z let 2016–2026 (viz [srovnání majetku a zakázek](srovnani-majetek-zakazky.html)).
 2. Že Horní Domaslavice nejsou ORP, je obecně známý údaj (ORP Frýdek-Místek). V registru územní identifikace nebyl zvlášť ověřován.
-3. Hranice v § 219 ZZVZ: aktuální znění (1 mil. Kč, 30 dní) je ověřené. Starší hodnoty (500 000 Kč, 15 dní) ověřené nejsou, proto u starších smluv není hodnoceno, zda byly vloženy včas.
+3. Hranice v § 219 ZZVZ: do 2. 4. 2025 500 000 Kč bez DPH, od 3. 4. 2025 1 mil. Kč; lhůta do 15. 7. 2023 15 dní, od 16. 7. 2023 30 dní. U starších smluv není hodnoceno, zda byly vloženy včas, protože datum vložení na profilu nemusí odpovídat prvnímu zveřejnění (bod 4).
 4. „Datum vložení“ na profilu může odrážet nahrání nové verze, ne první zveřejnění. Všechny zakázky mají poslední verzi ze 7. 7. 2026. Údaj o 61 dnech u hřiště je proto třeba brát s rezervou, dokud se neověří v historii profilu.
-5. U rekonstrukce MŠ (Haospol) profil uvádí 10 738 397,03 Kč jako cenu s DPH a cenu bez DPH nemá. Předpokládaná hodnota byla 10 041 149 Kč bez DPH. Podle oznámení ve Věstníku veřejných zakázek je původní cena 8 874 708,29 Kč bez DPH (10 738 397,03 Kč s DPH), viz [veřejné zakázky](hd-zakazky.html).
+5. U rekonstrukce MŠ (Haospol) profil uvádí 10 738 397,03 Kč jako cenu s DPH a cenu bez DPH nemá. Předpokládaná hodnota byla 10 041 149 Kč bez DPH. Podle oznámení ve Věstníku veřejných zakázek je původní cena 8 874 708,29 Kč bez DPH (10 738 397,03 Kč s DPH). Po třech dodatcích (vícepráce a méněpráce) byla konečná cena 8 031 117,97 Kč bez DPH (9 717 652,74 Kč s DPH), viz [veřejné zakázky](hd-zakazky.html).
 6. U veřejného osvětlení (ENCO) chybí cena na stránce smlouvy. Uvedena je nabídková cena vybraného účastníka.
 7. Detaily zakázek na Hlídači státu (ceny, dodavatelé, vazby na politiky) jsou jen pro přihlášené. Ceny jsou proto z profilu zadavatele. Vazby dodavatelů na politiky ověřeny nebyly.
 8. Výpočty bez DPH u TISPOLu jsou odvozené z podílu 1,21. Skutečné doklady k dispozici nebyly.

@@ -1,10 +1,10 @@
 ---
 title: "Veřejné zakázky obce"
 description: "Přehled 18 veřejných zakázek obce Horní Domaslavice z let 2014–2026: kdo soutěžil, kdo vyhrál, za kolik a s jakými dodatky."
-updated: "2026-10-31"
+updated: "2026-11-02"
 ---
 
-Když obec nakupuje stavby, služby nebo dodávky za větší částky, musí vybírat dodavatele ve veřejné zakázce a zveřejnit ji na svém profilu zadavatele. Tato stránka shrnuje všech 18 zakázek, které obec Horní Domaslavice (IČO 00536008) uveřejnila v letech 2014–2026: předpokládanou hodnotu, počet nabídek, vítěze, cenu a dodatky. Hlavním zdrojem je profil zadavatele obce na portálu vhodne-uverejneni.cz, doplněný o Věstník veřejných zakázek, NEN, Hlídač státu a archiv webu obce. Prověřena byla také Mateřská škola Horní Domaslavice, p. o. (IČO 72547839): žádnou vlastní zakázku nemá, všechny zakázky týkající se školky zadávala obec.
+Když obec nakupuje stavby, služby nebo dodávky, řídí se zákonem o zadávání veřejných zakázek (č. 134/2016 Sb., ZZVZ). Zakázky malého rozsahu (VZMR; od 3. 4. 2025 do 3 mil. Kč bez DPH u dodávek a služeb a do 9 mil. Kč bez DPH u stavebních prací, předtím 2 a 6 mil. Kč) obec nemusí zadávat v zadávacím řízení (§ 31 ZZVZ). Musí přitom jen dodržet zásady transparentnosti, přiměřenosti, rovného zacházení a zákazu diskriminace (§ 6). Uveřejnění výzvy u nich zákon nevyžaduje; může ho vyžadovat vnitřní směrnice obce nebo pravidla dotace. Povinně se na profilu zadavatele uveřejňuje smlouva na veřejnou zakázku s cenou nad 1 mil. Kč bez DPH (§ 219, od 3. 4. 2025; předtím nad 500 000 Kč), pokud není v registru smluv. Větší zakázky obec zadává v zadávacím řízení, například ve zjednodušeném podlimitním řízení. Tato stránka shrnuje všech 18 zakázek, které obec Horní Domaslavice (IČO 00536008) uveřejnila v letech 2014–2026: předpokládanou hodnotu, počet nabídek, vítěze, cenu a dodatky. Hlavním zdrojem je profil zadavatele obce na portálu vhodne-uverejneni.cz, doplněný o Věstník veřejných zakázek, NEN, Hlídač státu a archiv webu obce. Prověřena byla také Mateřská škola Horní Domaslavice, p. o. (IČO 72547839): žádnou vlastní zakázku nemá, všechny zakázky týkající se školky zadávala obec.
 
 Značení v textu: **[D]** je doloženo dokumentem nebo záznamem ve zdroji. **[O]** je odvozeno výpočtem nebo úvahou nad doloženými údaji. **[Z]** pochází ze zápisu ze zasedání zastupitelstva, tedy z tvrzení uvedeného na zasedání, které profil zadavatele nemusí potvrzovat.
 
@@ -38,7 +38,7 @@ Ve Věstníku veřejných zakázek (VVZ) jsou k těmto zakázkám tyto formulá�
 - U MK1 je oznámení o výsledku z 20. 4. 2023.
 - U MK 5 + MK 10 je oznámení o výsledku z 20. 8. 2024.
 
-Zakázky malého rozsahu se do VVZ neuveřejňují, uveřejňují se jen na profilu. Výzva k projektové dokumentaci MŠ proto ve VVZ není. Profil obce je ve VVZ zaregistrovaný pod evidenčním číslem 506517 od 28. 1. 2015 **[D]**.
+Zakázky malého rozsahu se do VVZ neuveřejňují; obec je uveřejňuje na profilu, i když to u výzev zákon nevyžaduje. Výzva k projektové dokumentaci MŠ proto ve VVZ není. Profil obce je ve VVZ zaregistrovaný pod evidenčním číslem 506517 od 28. 1. 2015 **[D]**.
 
 Smlouvy z profilu a jejich vztah k registru smluv rozebírá stránka [registr smluv](hd-registr-smluv.html).
 
@@ -117,6 +117,7 @@ Smlouvu obec uzavřela 7. 5. 2026 s **druhým v pořadí**, Sportovními podlaha
 
 - Na profilu chybí dokument o tom, že MERAT odmítl uzavřít smlouvu, i rozhodnutí o výběru druhého v pořadí **[D]**. Obojí je známo jen ze zápisů.
 - Zápisy se v popisu liší. Zápis ze zasedání ZO č. 30 (16. 4. 2026) uvádí, že „smlouva podepsána předchozím vedením“, a pověřuje starostu „odstoupením od smlouvy“ s firmou MERAT (usnesení 425/30/2026). Zápis ze zasedání ZO č. 31 naopak uvádí, že MERAT „odmítl součinnost k podpisu smlouvy“ **[Z]**. Smlouva s firmou MERAT na profilu není.
+- Důvody podle zápisů **[Z]**: zápis ze zasedání ZO č. 30 uvádí, že MERAT postupoval velmi zdlouhavě, práce byly „pozastaveny kvůli změně statutárního zástupce“ a zhotovitel kvůli neustálému rozporování detailů (výškopis, polohopis) dále nespolupracoval. Podle zápisu ze zasedání ZO č. 31 uzavřela obec smlouvu s druhým v pořadí na základě dříve schválených podmínek výběrového řízení a po konzultaci s administrátorem zakázky. Kontrolní výbor na témže zasedání upozornil, že z usnesení 388/26/2025 není jednoznačně zřejmé, zda se pověření k podpisu smlouvy vztahovalo i na jiného dodavatele, a doporučil seznámit zastupitelstvo s postupem.
 - Dřívější příprava (vizualizace z roku 2024 za 2,9 mil. Kč, povrch EPDM) je známa jen ze zápisů. Jiné řízení na toto hřiště na profilu není.
 
 ### 3.3 Hřiště u hasičské klubovny: jedno kolo zrušeno, druhé bez výsledku
@@ -135,7 +136,7 @@ Obě kola měla předpokládanou hodnotu 1 180 000 Kč bez DPH.
   - Sportovní podlahy Zlín: 1 862 235,48 Kč s DPH;
   - třetí uchazeč (fyzická osoba podnikající): 20. 1. 2026 vyloučen, protože nedoplnil doklady.
 - MERAT byl vybrán 20. 1. 2026. Od 21. 1. 2026 je na profilu stav **„Vyhodnocování“**, bez zrušení a bez smlouvy.
-- Podle zápisu ze zasedání ZO č. 30 MERAT odmítl součinnost (únosnost příjezdu, technika) a obec jedná se Sportovními podlahami Zlín **[Z]**. Výsledek jednání na profilu k 30. 10. 2026 není.
+- Podle zápisu ze zasedání ZO č. 30 MERAT odmítl součinnost k podpisu smlouvy. Jako důvody zápis uvádí nedostatečnou únosnost příjezdové komunikace (hrozbu jejího zničení), nevhodnost stávajícího asfaltového povrchu pro štěrkování a malou techniku (finišer), která by na ploše zanechala spáry. Obec jedná se Sportovními podlahami Zlín, druhými v pořadí **[Z]**. Výsledek jednání na profilu k 30. 10. 2026 není.
 
 Z profilu je tedy doloženo jedno zrušení a jedno kolo, jehož vítěz smlouvu neuzavřel, ale řízení zrušeno nebylo **[D]**.
 
@@ -154,7 +155,7 @@ Obě opravy obec zaplatila z vlastních peněz, viz [výdaje obce](hd-vydaje.htm
 
 1. **Zateplení Obecního domu**, 2014/2015 (FABRIKO MORAVA, 1 485 712 Kč bez DPH) **[D]**.
 2. **Elektroinstalace**, 2025: předpokládaná hodnota 969 248 Kč, **6 nabídek**. Vyhrál ELBAU-MONT za 759 515,92 Kč bez DPH. Smlouvu obec podepsala 11. 12. 2025 **[D]**.
-3. **Stavební úpravy**, 2026: předpokládaná hodnota 1 041 418 Kč, **5 nabídek**. Vyhrála Aklera Corp za 1 120 118,83 Kč, a to stejnou částkou bez i s DPH, takže firma je zjevně neplátce DPH **[O]**. Hodnotilo se podle ceny včetně DPH. **Bez DPH byly levnější Kowollik s.r.o. (941 153,26) i ELBAU-MONT (942 232,24)** **[D]**. Smluvní cena je o 7,6 % nad předpokládanou hodnotou **[O]**.
+3. **Stavební úpravy**, 2026: předpokládaná hodnota 1 041 418 Kč, **5 nabídek**. Vyhrála Aklera Corp za 1 120 118,83 Kč, a to stejnou částkou bez i s DPH, takže firma je zjevně neplátce DPH **[O]**. Hodnotilo se podle ceny včetně DPH a podle ní byla nabídka Akleru nejnižší. Bez DPH nabídly nižší cenu Kowollik s.r.o. (941 153,26) a ELBAU-MONT (942 232,24) **[D]**. Pokud obec u této akce DPH neodpočítává, platí ji jako konečný náklad a hodnocení podle ceny s DPH odpovídá tomu, kolik obec skutečně zaplatí **[O]**. Smluvní cena je o 7,6 % nad předpokládanou hodnotou **[O]**.
 4. **Akustické prvky a panely, lišty a dlažba**: obec je objednala u **LF Interiéry s.r.o.** na základě cenových nabídek (3 nabídky na akustiku, 2 na panely), usneseními 390/26/2025 a 391/26/2025 z 11. 12. 2025 (pro 7, proti 3) **[Z]**. Na profilu nejsou a částky zápis neuvádí; podle závěrečného účtu 2025 činila objednávka akustických panelů 514 733 Kč (viz [registr smluv](hd-registr-smluv.html)). Na zasedání ZO č. 25 byla akustika odhadována „přes 400 tis. Kč“ **[Z]**. Celkové náklady rekonstrukce Obecního domu jsou podle zápisu ze zasedání ZO č. 30 „řádově do 2 milionů“ **[Z]**.
 
 ## 4. Zjištění
@@ -201,7 +202,7 @@ Obě opravy obec zaplatila z vlastních peněz, viz [výdaje obce](hd-vydaje.htm
   - Zápis ze zasedání ZO č. 24 uvádí, že druhá nabídka na hasičskou plochu byla „o 1 mil. Kč vyšší“. Podle oznámení o výběru je rozdíl 635 425,97 Kč s DPH (525 145,43 Kč bez DPH) **[O]**.
   - Zápis ze zasedání ZO č. 28 uvádí, že odstoupivší firma nabídla v 2. kole „o 800 000 Kč více“. Skutečný rozdíl mezi nabídkami Sportovních podlah Zlín v 1. a 2. kole je 454 900,45 Kč s DPH **[O]**.
 - **Hřiště u Obecního domu:** zápisy ze zasedání ZO č. 30 a 31 se liší v tom, zda smlouva s firmou MERAT byla podepsána. Na profilu smlouva s firmou MERAT ani odstoupení od ní nejsou **[D]**.
-- **Stavební úpravy Obecního domu:** hodnocení podle ceny s DPH zvýhodnilo neplátce DPH. Zda obec u této akce DPH odpočítává (pak by kritérium bez DPH bylo pro obec výhodnější), z veřejných dat nevyplývá **[O]**.
+- **Stavební úpravy Obecního domu:** zakázka se hodnotila podle ceny s DPH. Pokud obec u této akce DPH neodpočítává, je to pro ni správné kritérium a vybraná nabídka byla pro obec nejlevnější. Pokud by DPH odpočítávala, byly by pro ni výhodnější nabídky s nižší cenou bez DPH. Zda obec u této akce nárok na odpočet má, z veřejných dat nevyplývá **[O]**.
 - **Registr smluv:** u všech 17 smluv na profilu je stav v informačním systému registru smluv „Nezveřejněna“ a Hlídač státu eviduje za obec jen 9 smluv (569 048 Kč). Obec bez rozšířené působnosti ale povinnost zveřejňovat v registru smluv nemá, podrobně viz [registr smluv](hd-registr-smluv.html).
 - **Zateplení Obecního domu 2015:** uveřejnění na profilu (30. 1. 2015) je datováno po lhůtě pro nabídky (5. 1. 2015) i po podpisu smlouvy (14. 1. 2015). Zakázka byla na profil zřejmě vložena dodatečně **[O]**.
 - **OCR:** ceny u zakázek z roku 2015, údaje o veřejném osvětlení 2021 a některé dodatky pocházejí ze strojového čtení skenů (OCR). Před citací je vhodné je ověřit v PDF na profilu.

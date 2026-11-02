@@ -1,6 +1,6 @@
 # Výstavba a infrastruktura
 
-Zdroj: https://hd-v-datech.cz/hd-vystavba.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-vystavba.html (aktualizováno 2026-11-02)
 
 > Kolik domů se v Horních Domaslavicích staví, jaký majetek obec vykazuje, jak je to s vodovodem a kanalizací a kolik ploch pro bydlení zbývá.
 
@@ -111,7 +111,7 @@ Hodnoty jsou v mil. Kč k 31. 12., u staveb jde o zůstatkovou hodnotu.
 **Odvozeno:**
 - **Hodnota pozemků obce vzrostla za 13 let asi o 0,8 mil. Kč**, z 1,17 na 1,97 mil. Kč. Obec tedy pozemky získávala jen v malém rozsahu, například při výkupech pro komunikace nebo bezúplatných převodech od státu. Informátor 2023 zmiňuje usnesení 152/9/2023 o převodu parcel 185/67 a 195/36 od Státního pozemkového úřadu.
 - Pozemky jsou ale vedeny v historických cenách, proto **hodnota neříká nic o počtu ani výměře parcel**.
-- Skok u staveb v roce 2021 (+13,7 mil. Kč) odpovídá zařazení velké investice z nedokončeného majetku. Nedokončený majetek v roce 2020 činil 6,37 mil. Kč, takže pravděpodobně jde o rekonstrukci MŠ nebo komunikace. Co přesně to bylo, by ukázal závěrečný účet za rok 2021.
+- Skok u staveb v roce 2021 (netto +13,7 mil. Kč, brutto +14,17 mil. Kč) odpovídá zařazení rekonstrukce MŠ z nedokončeného majetku (6,37 mil. Kč k 31. 12. 2020) a investici do veřejného osvětlení. Podle přílohy účetní závěrky připadá 11,78 mil. Kč na MŠ a 2,38 mil. Kč na komunikace a veřejné osvětlení; rozklad je na stránce [Majetek a účetnictví](https://hd-v-datech.cz/hd-majetek.html).
 
 ## 3. Vodovod a kanalizace
 

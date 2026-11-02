@@ -1,7 +1,7 @@
 ---
 title: "Roztříštěnost zástavby"
 description: "Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pazdernou, Dolními Domaslavicemi, Lučinou a Vojkovicemi a co to znamená pro délku sítí."
-updated: "2026-11-01"
+updated: "2026-11-02"
 ---
 
 Stránka ukazuje, jestli domy v obci tvoří jedno souvislé sídlo, nebo několik oddělených částí, a jak dlouhá síť (cesty, vodovod, kanalizace) by musela být, aby propojila všechny domy. Vychází z polohy budov v registru RÚIAN (výměnný formát za obce ke 30. 9. 2026, vdp.cuzk.gov.cz).
@@ -40,8 +40,8 @@ Za dům k bydlení se počítá stavební objekt evidovaný jako rodinný nebo b
 ## Co z toho plyne
 
 1. **Pazderna je jedno sídlo podél cesty.** 83 % domů tvoří jednu souvislou řadu, kde mezi sousedy není víc než 150 m. Mimo ni je jen pár domů. Při přísnějším měřítku (100 m) se řada rozpadá na několik úseků, protože domy podél cesty mají mezi sebou mezery. Typická silniční nebo lánová ves.
-2. **HD nejsou jedno sídlo, ale několik oddělených částí.** Ani při mezeře 150 m největší část nemá ani polovinu domů. Obec tvoří dvě velké části (174 a 119 domů) a čtyři menší osady po 10–31 domech, mezi nimi samoty. Polovina domů je dál než 1,2 km od středu zástavby, ve srovnání s 0,45–0,8 km v ostatních obcích.
-3. **Vojkovice jsou rozdělené podobně jako HD.** Největší část má jen 36 % domů a obec tvoří čtyři části po 37–89 domech. Jsou ale menší a kompaktnější: polovina domů je do 742 m od středu zástavby.
+2. **HD nejsou jedno sídlo, ale několik oddělených částí.** Ani při mezeře 150 m největší část nemá ani polovinu domů. Obec tvoří dvě velké části (174 a 119 domů) a sedm menších částí po 5–31 domech (čtyři z nich mají 10–31 domů, tři 5–9 domů), mezi nimi samoty a dvojice domů. Polovina domů je dál než 1,2 km od středu zástavby, ve srovnání s 0,45–0,8 km v ostatních obcích.
+3. **Vojkovice jsou rozdělené podobně jako HD.** Největší část má jen 36 % domů a obec tvoří čtyři části po 37–89 domech a tři menší skupiny po 5–9 domech. Jsou ale menší a kompaktnější: polovina domů je do 742 m od středu zástavby.
 4. **Uvnitř jednotlivých částí ale HD rozptýlené nejsou.** Na jeden dům připadá 61 m nejkratšího propojení, prakticky stejně jako v DD (59 m), Vojkovicích (57 m) a Pazderně (64 m). Dlouhé úseky mezi částmi tvoří jen 14 % délky propojení, nejméně z pěti obcí. Roztříštěnost HD je tedy v tom, že obec má několik vzdálených těžišť, ne v tom, že by domy stály každý zvlášť.
 5. **Lučina je nejkompaktnější:** 43 m propojení na dům, sousedé nejblíž (26 m) a největší hustota v obálce zástavby. Je to dané hustou zástavbou v jádru a bytovými domy.
 6. **Dopad na infrastrukturu:** délka sítě na dům, která rozhoduje o nákladech na kanalizaci nebo vodovod, je v HD srovnatelná s DD, Vojkovicemi a Pazdernou. HD znevýhodňuje spíš potřeba několika samostatných řešení (nebo dlouhých propojovacích stok) pro oddělené části. Odpovídá to tomu, že v obci je dnes podle RÚIAN 94 domů s vlastní domovní ČOV a 290 se žumpou.

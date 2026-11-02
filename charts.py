@@ -236,7 +236,7 @@ MF = 'Zdroj: Monitor státní pokladny MF.'
 def c_hd_io_roky():
     r = _fin(FIN_FILES['Horní Domaslavice'])
     xs = [x['rok'] for x in r]
-    return stacked_columns('Investice a opravy obce po letech', 'Mil. Kč; investice (třída 6) a opravy (položka 5171). ' + MF, xs,
+    return stacked_columns('Investice a opravy obce po letech', 'Mil. Kč v běžných cenách; investice (třída 6) a opravy (položka 5171). ' + MF, xs,
                            [('Investice', [float(x['investice']) / 1e6 for x in r], 'c1'),
                             ('Opravy', [float(x['opravy']) / 1e6 for x in r], 'c2')], 'mil. Kč', label_every=3)
 
@@ -244,7 +244,7 @@ def c_hd_io_roky():
 def c_hd_dotace_roky():
     r = _fin(FIN_FILES['Horní Domaslavice'])
     xs = [x['rok'] for x in r]
-    return stacked_columns('Přijaté dotace po letech', 'Mil. Kč; investiční a neinvestiční transfery (bez souhrnné dotace na výkon státní správy a školství). ' + MF, xs,
+    return stacked_columns('Přijaté dotace po letech', 'Mil. Kč; investiční (42xx) a neinvestiční (41xx) přijaté transfery. Neinvestiční zahrnují i příspěvek na výkon státní správy a jednorázové kompenzace (např. 2020 kompenzační bonus a volby). ' + MF, xs,
                            [('Investiční dotace', [float(x['dotace_inv']) / 1e6 for x in r], 'c1'),
                             ('Neinvestiční dotace', [float(x['dotace_neinv']) / 1e6 for x in r], 'c3')], 'mil. Kč', label_every=3)
 
@@ -255,7 +255,7 @@ def c_hd_prijmy_roky():
     rud = [float(x['rud']) / 1e6 for x in r]
     dzn = [float(x['dan_nemovitosti']) / 1e6 for x in r]
     ost = [float(x['trida1']) / 1e6 - a - b for x, a, b in zip(r, rud, dzn)]
-    return stacked_columns('Daňové příjmy obce po letech', 'Mil. Kč; sdílené daně (RUD), daň z nemovitých věcí a ostatní daně a poplatky. ' + MF, xs,
+    return stacked_columns('Daňové příjmy obce po letech', 'Mil. Kč; sdílené daně (RUD), daň z nemovitých věcí a ostatní daně a poplatky (bez daně z příjmů placené obcí sama sobě, položka 1122). ' + MF, xs,
                            [('Sdílené daně (RUD)', rud, 'c1'), ('Daň z nemovitých věcí', dzn, 'c2'),
                             ('Ostatní daně a poplatky', ost, 'c3')], 'mil. Kč', label_every=3)
 
@@ -294,11 +294,12 @@ def c_hd_obyvatele():
                            'osob', dec=0, label_every=4, total_label=False)
 
 
-def _per_capita_series(key):
+def _per_capita_series(key, per='obyv_1_7'):
+    # flows per population at 1 July, stocks (money on accounts) at 31 December, as in the tables
     out = {}
     for n in OBCE:
         r = _fin(FIN_FILES[n])
-        out[n] = [float(x[key]) / float(x['obyv_31_12']) for x in r]
+        out[n] = [float(x[key]) / float(x[per]) for x in r]
     return [x['rok'] for x in _fin(FIN_FILES[OBCE[0]])], out
 
 
@@ -308,13 +309,13 @@ def c_srov_io():
 
 
 def c_srov_penize():
-    xs, s = _per_capita_series('penize_231_244_245')
+    xs, s = _per_capita_series('penize_231_244_245', 'obyv_31_12')
     return lines_highlight('Peníze na účtech na obyvatele', 'Kč na obyvatele k 31. 12. ' + MF, xs, s, 'Kč', label_every=3)
 
 
 def c_srov_dane():
     xs, s = _per_capita_series('trida1')
-    return lines_highlight('Daňové příjmy na obyvatele', 'Kč na obyvatele a rok (třída 1). ' + MF, xs, s, 'Kč', label_every=3)
+    return lines_highlight('Daňové příjmy na obyvatele', 'Kč na obyvatele a rok (třída 1 bez položky 1122). ' + MF, xs, s, 'Kč', label_every=3)
 
 
 def c_srov_obyv():
@@ -375,8 +376,8 @@ def c_rozp_ucty():
     keys = list(r[0].keys())
     xs = [x[keys[0]][:7] for x in r]
     vals = [float(x[keys[-2]]) / 1e6 for x in r]
-    return stacked_columns('Peníze na účtech obce po čtvrtletích', 'Mil. Kč na konci čtvrtletí. ' + MF, xs,
-                           [('Peníze na účtech', vals, 'c1')], 'mil. Kč', label_every=2)
+    return stacked_columns('Peníze na účtech obce v jednotlivých okamžicích', 'Mil. Kč ke dni (rok-měsíc); body nejsou rovnoměrně rozložené v čase: konec září a prosince 2023–2025, pak čtvrtletně 2026. ' + MF, xs,
+                           [('Peníze na účtech', vals, 'c1')], 'mil. Kč', label_every=1)
 
 
 def c_usn_roky():
@@ -432,7 +433,7 @@ def c_pod_penize():
 
 def c_pod_dane():
     xs, s = _pod_series('trida1', 'obyv_1_7')
-    return lines_highlight('Daňové příjmy na obyvatele', 'Kč na obyvatele a rok (třída 1). ' + MF, xs, s, 'Kč', label_every=3)
+    return lines_highlight('Daňové příjmy na obyvatele', 'Kč na obyvatele a rok (třída 1 bez položky 1122). ' + MF, xs, s, 'Kč', label_every=3)
 
 
 def c_pod_dotace():

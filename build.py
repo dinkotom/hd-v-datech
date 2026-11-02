@@ -18,7 +18,7 @@ import slovnik  # noqa: E402
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'docs')
 SITE = 'Horní Domaslavice v datech'
-UPDATED = '31. 10. 2026'
+UPDATED = '2. 11. 2026'
 REPO_URL = 'https://github.com/dinkotom/hd-v-datech'
 DOMAIN = 'hd-v-datech.cz'
 SITE_URL = f'https://{DOMAIN}/'
@@ -172,7 +172,7 @@ def page(slug, title, body, description='', lede=''):
 </main>
 </div>
 <footer class="site-footer"><div class="inner">
-Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.horni-domaslavice.cz/">horni-domaslavice.cz</a>.
+Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.hornidomaslavice.cz/">hornidomaslavice.cz</a>.
 Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno {UPDATED}.
 Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
 </div></footer>
@@ -318,14 +318,14 @@ def build_index():
 <div class="tile"><div class="v">{num(int(pop[-1]["obyvatel_31_12"]))}</div><div class="l">obyvatel ke konci roku 2025, téměř dvakrát víc než v roce 2000 ({pop[0]["obyvatel_31_12"]})</div></div>
 <div class="tile"><div class="v">{num(cash[-1], 1)} mil. Kč</div><div class="l">na účtech obce ke konci roku 2025</div></div>
 <div class="tile"><div class="v">{num(per[("Horní Domaslavice", "io")])} Kč</div><div class="l">na investice a opravy na obyvatele a rok (2023–2025); sousední obce 12–31 tis. Kč</div></div>
-<div class="tile"><div class="v">0 Kč</div><div class="l">investičních dotací v letech 2023–2025</div></div>
+<div class="tile"><div class="v">0 Kč</div><div class="l">investičních dotací přišlo na účet v letech 2023–2025; v prosinci 2025 obec uzavřela smlouvu s krajem na dotaci až 2,7 mil. Kč</div></div>
 </div>'''
 
     c_io = chart_hbar('Investice a opravy na obyvatele a rok, 2023–2025',
                       'Kč na obyvatele a rok; investice (třída 6) + opravy (položka 5171). Zdroj: Monitor státní pokladny MF.',
                       [(n, per[(n, 'io')], n == names[0]) for n in names], 'Kč na obyvatele a rok')
     c_tax = chart_hbar('Daňové příjmy na obyvatele a rok, 2023–2025',
-                       'Kč na obyvatele a rok; třída 1 rozpočtu. Zdroj: Monitor státní pokladny MF.',
+                       'Kč na obyvatele a rok; třída 1 rozpočtu bez daně z příjmů placené obcí sama sobě (položka 1122). Zdroj: Monitor státní pokladny MF.',
                        [(n, per[(n, 'trida1')], n == names[0]) for n in names], 'Kč na obyvatele a rok')
     c_cash = chart_line('Peníze na účtech obce Horní Domaslavice',
                         'Mil. Kč ke 31. 12. (účty 231, 244, 245). Zdroj: Monitor státní pokladny MF.',
@@ -396,7 +396,7 @@ DATA_DESC = {
     'finance_PL_2010-2025.csv': 'Písková Lhota (okres Mladá Boleslav): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
     'finance_REB_2010-2025.csv': 'Rebešovice (okres Brno-venkov): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
     'finance_ZAV_2010-2025.csv': 'Závišice (okres Nový Jičín): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
-    'podobne_obce_vyber.csv': 'Výběr podobných obcí: 232 obcí ČR s parametry obyvatel, rozlohy a zástavby a indexem odlišnosti od HD.',
+    'podobne_obce_vyber.csv': 'Výběr podobných obcí: 232 obcí ČR s parametry obyvatel, rozlohy a zástavby, skóre a pořadím výběru a indexem odlišnosti zástavby od HD.',
     'podobne_obce_souhrn_po_obdobich.csv': 'Souhrny ukazatelů po volebních obdobích pro HD, Pískovou Lhotu, Rebešovice a Závišice.',
     'podobne_obce_investice_podle_ucelu_2016-2025.csv': 'Investice a opravy 2016–2025 podle účelu: HD, Písková Lhota, Rebešovice, Závišice.',
     'podobne_obce_investice_podle_paragrafu.csv': 'Investice a opravy HD, Pískové Lhoty, Rebešovic a Závišic podle paragrafu a roku.',
@@ -432,6 +432,12 @@ Co znamená který sloupec, popisuje <a href="slovnik-dat.html">slovník dat</a>
 
 
 def build_about():
+    if REPORT_FORM['action']:
+        REPORT_PRIVACY = '''<p>Hlášení odeslaná formulářem „Nahlásit chybu“ se ukládají do Google Formuláře autora webu. Obsahují stránku, citovaný text a váš popis.
+E-mail je nepovinný a použije se jen k odpovědi na hlášení.</p>'''
+    else:
+        REPORT_PRIVACY = f'''<p>Tlačítko „Nahlásit chybu“ otevře předvyplněné hlášení (issue) v <a href="{REPO_URL}/issues">repozitáři webu na GitHubu</a>.
+Hlášení je veřejné a je u něj vidět uživatelské jméno na GitHubu; nepište do něj osobní údaje. Web žádná hlášení sám neukládá.</p>'''
     body = f'''<h2>Co je tento web</h2>
 <p>Soukromá, nadstranická občanská iniciativa. Cílem je, aby měl každý občan Horních Domaslavic po ruce veřejná data o své obci
 v srozumitelné podobě a mohl je porovnat se sousedními obcemi. Web není stránkou obce a nevyjadřuje stanovisko žádné politické strany, hnutí ani kandidátky.</p>
@@ -446,16 +452,17 @@ Provedené opravy jsou zveřejněné na stránce <a href="opravy.html">Opravy</a
 <h2>Metodika v kostce</h2>
 <ul>
 <li><b>Finance</b> vycházejí z výkazu FIN 2-12 M a účetních výkazů obcí v Monitoru státní pokladny, roky 2010–2025.
-Výdaje bez převodů mezi vlastními účty (položky 6330, 6399), příjmy bez převodů z vlastních fondů (413x).
+Výdaje bez převodů mezi vlastními účty (§ 6330), příjmy bez převodů z vlastních fondů (413x). Daň z příjmů, kterou obec platí sama sobě (položka 1122), je odečtena z příjmů i výdajů.
 „Investice a opravy“ = investiční výdaje (třída 6) + opravy a udržování (položka 5171).</li>
-<li><b>Na obyvatele</b> se přepočítává průměrným počtem obyvatel podle ČSÚ.</li>
-<li><b>Částky</b> nejsou očištěné o inflaci. Rok 2026 zatím v datech chybí.</li>
+<li><b>Na obyvatele</b>: toky (příjmy, výdaje) se dělí počtem obyvatel k 1. 7., stavy (peníze na účtech, úvěry) počtem k 31. 12. daného roku (ČSÚ).</li>
+<li><b>Částky</b> nejsou očištěné o inflaci. Roční data končí rokem 2025; za rok 2026 je jen průběžný stav k 30. 9. (stránka Rozpočet 2026).</li>
 <li><b>Srovnávané obce</b> nejsou zcela srovnatelné (např. Dolní Domaslavice a Lučina zřizují základní školu,
 Lučina má výdaje spojené s nádrží Žermanice). Výhrady jsou uvedeny u jednotlivých stránek.</li>
 </ul>
 <h2>Hlášení chyb a osobní údaje</h2>
-<p>Hlášení odeslaná formulářem „Nahlásit chybu“ se ukládají do Google Formuláře autora webu. Obsahují stránku, citovaný text a váš popis.
-E-mail je nepovinný a použije se jen k odpovědi na hlášení. Web nepoužívá cookies ani analytické nástroje.</p>
+{REPORT_PRIVACY}
+<p>Web nepoužívá cookies ani analytické nástroje. Stránka Mapa načítá mapové podklady z OpenStreetMap a ČÚZK a knihovnu Leaflet z unpkg.com;
+jejich provozovatelé při tom vidí IP adresu návštěvníka.</p>
 <h2>Autor</h2>
 <p>Tomáš Dinkov</p>
 <p>Poslední aktualizace: {UPDATED}.</p>'''
@@ -492,10 +499,10 @@ def build_md_pages():
 
 # Shared by llms.txt and the "Zeptejte se AI" page, so agents and people read the same rules.
 AI_RULES = [
-    'Web je neoficiální občanský přehled veřejných dat, ne stránka obce. Oficiální web obce je https://www.horni-domaslavice.cz/.',
+    'Web je neoficiální občanský přehled veřejných dat, ne stránka obce. Oficiální web obce je https://www.hornidomaslavice.cz/.',
     'Částky jsou v Kč v běžných cenách (bez očištění o inflaci). „Na obyvatele“ = toky (příjmy, výdaje) děleno počtem obyvatel k 1. 7., stavy (peníze na účtech, úvěry) počtem k 31. 12. daného roku (ČSÚ).',
     'Roční finanční data končí rokem 2025; za rok 2026 je jen průběžný stav k 30. 9. (stránka Rozpočet 2026).',
-    'Výdaje jsou bez převodů mezi vlastními účty (§ 6330) a bez daně z příjmů za obec (§ 6399); příjmy bez převodů z vlastních fondů (413x). '
+    'Výdaje jsou bez převodů mezi vlastními účty (§ 6330), příjmy bez převodů z vlastních fondů (413x); daň z příjmů, kterou obec platí sama sobě (položka 1122), je odečtena z příjmů i výdajů. '
     'Proto se mohou mírně lišit od závěrečného účtu obce.',
     '„Investice a opravy“ = investiční výdaje (třída 6) + opravy a udržování (položka 5171).',
     'Srovnávané obce nejsou zcela srovnatelné: Dolní Domaslavice a Lučina zřizují základní školu, Lučina má výdaje spojené s nádrží Žermanice. '

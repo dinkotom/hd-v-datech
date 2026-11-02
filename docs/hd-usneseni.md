@@ -1,15 +1,15 @@
 # Usnesení zastupitelstva
 
-Zdroj: https://hd-v-datech.cz/hd-usneseni.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/hd-usneseni.html (aktualizováno 2026-11-02)
 
 > Databáze 547 usnesení zastupitelstva obce Horní Domaslavice z let 2022–2026: znění, výsledek hlasování, počty hlasů, téma a částka.
 
 Na této stránce najdete všechna usnesení, která zastupitelstvo obce Horní Domaslavice (ZO) přijalo nebo o kterých hlasovalo ve volebním období 2022–2026. To trvalo od ustavujícího zasedání 20. 10. 2022 do posledního zasedání 6. 10. 2026. Databáze zahrnuje i 62 usnesení z 25.–28. zasedání předchozího období 2018–2022, která proběhla od února do srpna 2022. Celkem obsahuje **547 usnesení ze 37 zasedání**:
 
-- 485 usnesení z období 2022–2026 z 33 zasedání, na kterých se jednalo. Ze 34 svolaných zasedání se 33. zasedání nekonalo, protože nebylo usnášeníschopné, viz níže.
+- 485 usnesení z období 2022–2026 z 33 zasedání, na kterých se jednalo. Ze 34 svolaných zasedání proběhlo i 33. zasedání, nebylo ale usnášeníschopné a žádné usnesení nepřijalo, viz níže.
 - 62 usnesení z dojezdu období 2018–2022 ze 4 zasedání.
 
-U každého usnesení je uvedeno číslo, datum, plné znění, druh rozhodnutí, výsledek, počty hlasů pro, proti a zdržel se, téma a hlavní částka, pokud ji usnesení obsahuje. Podkladem jsou zápisy ze zasedání, které obec zveřejňuje na svém webu jako skeny. Jedinou výjimkou je poslední, 34. zasedání. Jeho zápis obec nezveřejnila, a údaje proto pocházejí z přepisu zvukového záznamu.
+U každého usnesení je uvedeno číslo, datum, plné znění, druh rozhodnutí, výsledek, počty hlasů pro, proti a zdržel se, téma a hlavní částka, pokud ji usnesení obsahuje. Podkladem jsou zápisy ze zasedání, které obec zveřejňuje na svém webu jako skeny. Jedinou výjimkou je poslední, 34. zasedání. Zápis nebyl k 31. 10. 2026 na webu obce zveřejněn; zákon (§ 95 zákona o obcích) ukládá zápis pořídit do 10 dnů a uložit k nahlédnutí, zveřejnění na webu nevyžaduje. Údaje proto pocházejí z přepisu zvukového záznamu, který obec zveřejnila.
 
 Jména fyzických osob jsou v textech nahrazena funkcí („starosta obce“, „člen ZO“, „předseda finančního výboru“) nebo označením „fyzická osoba“. Názvy firem, spolků a úřadů zůstaly beze změny. Data lze stáhnout jako [CSV](https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv).
 
@@ -21,18 +21,18 @@ Seznam usnesení je v souboru https://hd-v-datech.cz/data/usneseni_zo_2022-2026.
 
 ### Usnesení podle roku
 
-Rok se počítá podle data zasedání. „Bez hlasování“ označuje usnesení, kterými zastupitelstvo jen vzalo něco na vědomí a zápis u nich hlasování neuvádí.
+Rok se počítá podle data zasedání. Poslední sloupec počítá přijatá usnesení, u kterých zápis (u 34. zasedání záznam) neuvádí počty hlasů. Jde hlavně o usnesení, kterými zastupitelstvo jen vzalo něco na vědomí bez hlasování; v roce 2026 k nim patří i dar KAFIRA o.p.s. z 34. zasedání, schválený souhlasem všech přítomných bez sečtení hlasů.
 
-| Rok (období) | Zasedání s usneseními | Usnesení | Přijato | Nepřijato | Výsledek neuveden | Z přijatých bez hlasování |
+| Rok (období) | Zasedání s usneseními | Usnesení | Přijato | Nepřijato | Výsledek neuveden | Z přijatých bez počtu hlasů |
 |---|---:|---:|---:|---:|---:|---:|
 | 2022 (2018–2022, 25.–28. zasedání) | 4 | 62 | 51 | 11 | 0 | 13 |
 | 2022 (2022–2026, od 20. 10.) | 2 | 47 | 38 | 9 | 0 | 2 |
 | 2023 | 8 | 126 | 118 | 8 | 0 | 26 |
 | 2024 | 9 | 117 | 110 | 7 | 0 | 32 |
 | 2025 | 7 | 102 | 94 | 8 | 0 | 19 |
-| 2026 | 7 | 93 | 89 | 3 | 1 | 15 |
-| **Období 2022–2026 celkem** | **33** | **485** | **449** | **35** | **1** | **94** |
-| **Databáze celkem** | **37** | **547** | **500** | **46** | **1** | **107** |
+| 2026 | 7 | 93 | 89 | 3 | 1 | 16 |
+| **Období 2022–2026 celkem** | **33** | **485** | **449** | **35** | **1** | **95** |
+| **Databáze celkem** | **37** | **547** | **500** | **46** | **1** | **108** |
 
 Roky 2022 a 2026 nejsou celé. Období 2022–2026 začalo v říjnu 2022 a v roce 2026 se po 6. 10. už nezasedalo.
 
@@ -153,7 +153,7 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
 
 ## 3. Pozor
 
-1. **34. zasedání (6. 10. 2026) nemá zveřejněný zápis.** Zastupitelstvo na něm rozhodlo, že místo zápisu zveřejní zvukový záznam. Devět usnesení tohoto zasedání proto pochází z automatického přepisu záznamu a nemá oficiální čísla, v databázi jsou uvedena jako „bez čísla (34/2026, bod …)“. Výsledek hlasování o školském obvodu v záznamu chybí, část audia je nesrozumitelná. U daru 10 000 Kč pro KAFIRA o.p.s. zazněl jen souhlas všech přítomných, počty hlasů proto nejsou vyplněny. U zprávy kontrolního výboru je známo jen 7 hlasů pro. Není jasné, zda se samostatně hlasovalo o ověřovatelích zápisu.
+1. **Zápis 34. zasedání (6. 10. 2026) nebyl k 31. 10. 2026 na webu obce zveřejněn.** Zákon o obcích (§ 95) ukládá zápis pořídit do 10 dnů a uložit k nahlédnutí, zveřejnění na webu nevyžaduje. Zda byl zápis pořízen, nebylo ověřeno. Podle záznamu zastupitelstvo na zasedání rozhodlo, že místo zápisu zveřejní zvukový záznam. Devět usnesení tohoto zasedání proto pochází z automatického přepisu záznamu a nemá oficiální čísla, v databázi jsou uvedena jako „bez čísla (34/2026, bod …)“. Výsledek hlasování o školském obvodu v záznamu chybí, část audia je nesrozumitelná. U daru 10 000 Kč pro KAFIRA o.p.s. zazněl jen souhlas všech přítomných, počty hlasů proto nejsou vyplněny. U zprávy kontrolního výboru je známo jen 7 hlasů pro. Není jasné, zda se samostatně hlasovalo o ověřovatelích zápisu.
 2. **Duplicitní a chybná čísla v zápisech.** Čísla jsou ponechána tak, jak je uvádí zápis:
    - Číslo 436/30/2026 má v zápisu dvě různá usnesení, dotaci pro SH ČMS a pro TJ Sokol. V databázi jsou obě se stejným číslem.
    - Číslo 469 bylo použito na 31. i 32. zasedání (469/31/2026 a 469/32/2026).
@@ -162,7 +162,7 @@ Výběr zohledňuje výši částky a dopad na obec. Částky, které usnesení 
 
    Kromě toho jsou čísla průběžná a bez mezer. V období 2022–2026 jde o řadu 1–474, v dojezdu předchozího období o řadu 387–448.
 3. **Texty jsou převzaty ze zápisu včetně jeho chyb.** Například usnesení 18/1/2022 začíná bez podmětu, u 56/3/2023 a 420/30/2026 chybí sloveso a 398/27/2026 uvádí smlouvu „ze dne 15. 10. 2026“, zřejmě místo 15. 10. 2025. Výčty příloh a poznámky přepisovatele byly odstraněny.
-4. **„Bere na vědomí“ bez hlasování.** Většinu informací zastupitelstvo bere na vědomí bez hlasování. Jde o 107 usnesení s prázdnými počty hlasů a výsledkem „přijato“. Stejně je v zápisu zapsáno i pětibodové usnesení 462/31/2026, které kontrolnímu výboru a starostovi ukládá úkoly a mění dřívější usnesení.
+4. **Usnesení bez počtu hlasů.** Většinu informací zastupitelstvo bere na vědomí bez hlasování. Usnesení s prázdnými počty hlasů a výsledkem „přijato“ je celkem 108: 105 vzetí na vědomí, konstatování k územnímu plánu 123/7/2023, pětibodové usnesení 462/31/2026, které kontrolnímu výboru a starostovi ukládá úkoly a mění dřívější usnesení, a dar KAFIRA o.p.s. z 34. zasedání (bod 1).
 5. **Hlasování podle jednacího řádu.** Na 31. zasedání kontrolní výbor uvedl, že hlasování o dotacích 429, 430 a 436/30/2026 neproběhlo v souladu s jednacím řádem, protože se hlasovalo nejdřív o žádosti, a ne o protinávrhu. Platnost usnesení přitom nezpochybnil.
 6. **Částka (`castka_kc`) je vyplněna jen tehdy, když ji obsahuje text usnesení.** U usnesení s více částkami je uvedena nejvyšší. Jednotkové ceny (Kč/m², Kč/měsíc, Kč/den) a měsíční odměny se nevyplňují, aby se daly částky sčítat. Ceny smluv, rozpočtů a zakázek usnesení většinou neuvádějí, jsou v příslušných zápisech a na stránce [veřejné zakázky](https://hd-v-datech.cz/hd-zakazky.html).
 7. **Téma a typ** jsou přiřazeny podle klíčových slov a ručně zkontrolovány. Jde o pomůcku pro vyhledávání, ne o úřední třídění.

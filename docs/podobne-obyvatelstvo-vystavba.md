@@ -1,6 +1,6 @@
 # Obyvatelstvo a výstavba (podobné obce)
 
-Zdroj: https://hd-v-datech.cz/podobne-obyvatelstvo-vystavba.html (aktualizováno 2026-11-01)
+Zdroj: https://hd-v-datech.cz/podobne-obyvatelstvo-vystavba.html (aktualizováno 2026-11-02)
 
 > Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a ve třech podobných obcích z jiných částí Česka: Písková Lhota, Rebešovice a Závišice.
 
@@ -348,7 +348,7 @@ Obě řady (RÚIAN a ČSÚ) se za 2001–2025 u všech čtyř obcí téměř sho
 2. **HD roste téměř jen přistěhováním.** Přirozený přírůstek je za roky 2002–2025 v HD +16, v Pískové Lhotě +79, v Závišicích +53 a v Rebešovicích +141. Přírůstek stěhováním je v HD nejstabilnější. Z Pískové Lhoty se od roku 2022 stěhuje výrazně víc lidí než dřív.
 3. **HD je nejmladší.** Má nejvyšší podíl dětí (22,1 %) a nejnižší index stáří (58). Písková Lhota má index 68, Rebešovice a Závišice 80 a 81, ČR 133. V Rebešovicích index stáří za 10 let stoupl z 54 na 80.
 4. **HD stavěla v posledních deseti letech nejvíc.** Za roky 2016–2025 dokončila 116 bytů na 1 000 obyvatel, Písková Lhota 105, Rebešovice 60 a Závišice 56. Rebešovice postavily nejvíc v letech 2001–2010, dvě třetiny jejich obydlených domů jsou z doby po roce 2000.
-5. **Infrastruktura: HD a Písková Lhota nemají kanalizaci a plyn mají jen málo domů, Rebešovice mají obojí téměř všude.** V roce 2021 měly HD a Písková Lhota 0 % domů na kanalizaci, Závišice 3 % a Rebešovice 88 %. Plynem topí v Rebešovicích 76 % bytů, v Závišicích 52 %, v HD 11 % a v Pískové Lhotě žádný byt. Uhlím topí v Pískové Lhotě 24 % bytů a v HD 21 %, v Závišicích 7 % a v Rebešovicích skoro nikdo.
+5. **Infrastruktura: HD a Písková Lhota neměly v roce 2021 kanalizaci (Písková Lhota ji má od roku 2023) a plyn mají jen málo domů, Rebešovice mají obojí téměř všude.** V roce 2021 měly HD a Písková Lhota 0 % domů na kanalizaci, Závišice 3 % a Rebešovice 88 %. Plynem topí v Rebešovicích 76 % bytů, v Závišicích 52 %, v HD 11 % a v Pískové Lhotě žádný byt. Uhlím topí v Pískové Lhotě 24 % bytů a v HD 21 %, v Závišicích 7 % a v Rebešovicích skoro nikdo.
 6. **Ostatní obce dojíždějí hlavně do jednoho blízkého města, HD do více měst.** Z Rebešovic jezdí 79 % vyjíždějících do Brna, z Pískové Lhoty 63 % do Mladé Boleslavi a ze Závišic 48 % do Kopřivnice. Z HD jezdí nejvíc lidí do Frýdku-Místku, ale jen 24 %. (Odvozeno: podíl na všech vyjíždějících.) Mimo obec pracují tři čtvrtiny zaměstnaných v HD, v Pískové Lhotě a v Závišicích, v Rebešovicích 71 %.
 7. **Vysokoškoláků mají nejvíc Rebešovice (26,0 %),** HD 21,9 %, Písková Lhota 16,6 % a Závišice 14,9 %.
 8. **HD má nejvíc nevyužitých ploch pro bydlení** (51 ha). Ostatní tři obce vymezují v územních plánech celkem 10–27 ha.

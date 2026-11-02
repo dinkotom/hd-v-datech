@@ -1,6 +1,6 @@
 # Mapa obce
 
-Zdroj: https://hd-v-datech.cz/mapa.html (aktualizováno 2026-10-31)
+Zdroj: https://hd-v-datech.cz/mapa.html (aktualizováno 2026-11-02)
 
 > Interaktivní mapa Horních Domaslavic: hranice obce, zástavba ve čtvercích 100 × 100 m s napojením na vodovod, plyn a odpady, veřejné budovy a autobusové zastávky.
 
@@ -41,7 +41,7 @@ Každý barevný čtverec obsahuje aspoň jeden dům k bydlení. Barvu lze přep
 Kvůli ochraně soukromí platí:
 
 - Čtverec s 1 až 4 domy ukazuje jen „méně než 5“. Vlastní podíly ani rok dokončení nemá.
-- Čtverce s méně než 5 domy ve stejném bloku 300 × 300 m se pro podíly a rok dokončení sečtou dohromady. Pokud mají společně aspoň 5 domů, mají všechny stejné hodnoty za celou skupinu a popup to uvádí. Takových skupin je 39 a je v nich 190 domů.
+- Čtverce s méně než 5 domy ve stejném bloku 300 × 300 m se pro podíly a rok dokončení sečtou dohromady. Pokud mají společně aspoň 5 domů, mají všechny stejné hodnoty za celou skupinu a popup to uvádí. Takových skupin je 34 a je v nich 280 domů.
 - Kde ani skupina nemá 5 domů, zůstane čtverec bez údajů (čárkovaný okraj). Týká se to 64 domů.
 - Podíl se neuvádí, ani když údaj chybí u tolika domů, že zbývá méně než 5 se zjištěnou hodnotou.
 

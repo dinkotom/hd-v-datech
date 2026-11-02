@@ -1,7 +1,7 @@
 ---
 title: "Roztříštěnost zástavby (podobné obce)"
 description: "Jak souvislá je zástavba Horních Domaslavic ve srovnání s Pískovou Lhotou, Rebešovicemi a Závišicemi a co to znamená pro délku sítí."
-updated: "2026-11-01"
+updated: "2026-11-02"
 ---
 
 Stránka ukazuje, jestli domy v obci tvoří jedno souvislé sídlo, nebo několik oddělených částí, a jak dlouhá síť (cesty, vodovod, kanalizace) by musela být, aby propojila všechny domy. Metoda je stejná jako na stránce [Roztříštěnost zástavby](srovnani-zastavba.html) u sousedních obcí a vychází z polohy budov v registru RÚIAN (stav ke 30. 9. 2026).
@@ -33,9 +33,9 @@ Stránka ukazuje, jestli domy v obci tvoří jedno souvislé sídlo, nebo někol
 1. **Písková Lhota a Rebešovice jsou jedno souvislé sídlo.** Všechny domy tvoří při mezeře 150 m jednu skupinu a polovina domů je do 250–380 m od středu. Nová zástavba v obou obcích tvoří s původní vsí jeden celek.
 2. **Závišice jsou údolní ves s několika osadami.** Hlavní část má 81 % domů, k ní patří tři menší osady (29, 20 a 10 domů) a samoty.
 3. **HD jsou ze čtyř obcí jednoznačně nejroztříštěnější.** Největší část nemá ani polovinu domů a polovina domů je dál než 1,2 km od středu. Na jeden dům připadá 61 m nejkratšího propojení, dvakrát až třikrát víc než v Pískové Lhotě a Rebešovicích.
-4. **Dopad na infrastrukturu:** síť ke každému domu (kanalizace, vodovod) je v HD na dům výrazně delší než v podobných obcích. Proto jsou HD ve srovnání s nimi u kanalizace skutečně v horší výchozí pozici. Na silnice mezi částmi obce, chodníky, veřejné budovy nebo sportoviště ale tento rozdíl nemá takový vliv (viz [souhrn](srovnani-podobne-obce.html)).
+4. **Dopad na infrastrukturu:** síť ke každému domu (kanalizace, vodovod) je v HD na dům výrazně delší než v podobných obcích. Proto jsou HD ve srovnání s nimi u kanalizace skutečně v horší výchozí pozici. Vliv rozptýlené zástavby na náklady komunikací, osvětlení a zimní údržby jsme nekvantifikovali (viz [souhrn](srovnani-podobne-obce.html)).
 
-Podobně roztříštěnou zástavbu jako HD mají ze sousedních obcí Vojkovice (největší část 36 % domů), viz [Roztříštěnost zástavby](srovnani-zastavba.html).
+Podobně roztříštěnou zástavbu jako HD mají ze sousedních obcí Vojkovice (největší část 36 % domů), viz [Roztříštěnost zástavby](srovnani-zastavba.html). Z 231 obcí podobné velikosti a růstu v celé ČR, u kterých byla zástavba spočítána, má největší část nejvýše polovinu domů jen 8 obcí; kromě Horních Tošanovic a Vojkovic například Modlany (31 %), Jeřmanice (36 %) a Rtyně nad Bílinou (49 %), viz [souhrn](srovnani-podobne-obce.html).
 
 ## Pozor
 
