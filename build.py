@@ -716,6 +716,13 @@ def check_links(slugs):
     return bad
 
 
+def build_404():
+    body = '''<p>Stránka na této adrese neexistuje. Mohla být přejmenována, nebo je v adrese překlep.</p>
+<p>Pokračujte na <a href="index.html">úvodní stránku</a> nebo do <a href="data.html">přehledu dat ke stažení</a>.</p>'''
+    # served for any missing path, so make relative links root-relative
+    return re.sub(r'(href|src)="(?![a-z]+:|/|#)', r'\1="/', page('404', 'Stránka nenalezena', body))
+
+
 def build_headers():
     theme = base64.b64encode(hashlib.sha256(THEME_JS.encode()).digest()).decode()
     csp = '; '.join([
@@ -753,6 +760,8 @@ def main():
         with open(os.path.join(OUT, name + '.html'), 'w', encoding='utf-8') as fh:
             fh.write(html_)
     bad = check_links(slugs)
+    with open(os.path.join(OUT, '404.html'), 'w', encoding='utf-8') as fh:  # after check_links: root-relative links
+        fh.write(build_404())
     print(f'{len(slugs)} stránek z obsah/, výstup v docs/')
     for f, h in bad:
         print(f'  ROZBITÝ ODKAZ: {f} -> {h}')
