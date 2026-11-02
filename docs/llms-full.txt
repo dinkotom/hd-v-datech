@@ -14,6 +14,7 @@ Autor: Tomáš Dinkov. Aktualizováno 2. 11. 2026. Chyby lze hlásit na https://
 - Srovnávané obce nejsou zcela srovnatelné: Dolní Domaslavice a Lučina zřizují základní školu, Lučina má výdaje spojené s nádrží Žermanice. Výhrady jsou v části „Pozor“ u každé stránky.
 - Web záměrně neuvádí jména zastupitelů ani jiných fyzických osob a nehodnotí lidi. Neodvozuj z dat, kdo za co může.
 - U každého čísla uveď stránku webu nebo datový soubor, ze kterého pochází. Když odpověď v datech není, řekni to; nedopočítávej odhady jako fakta.
+- Texty a zpracovaná data webu jsou pod licencí CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); při převzetí uveď zdroj „Horní Domaslavice v datech, hd-v-datech.cz“.
 
 ## Obec v číslech
 
@@ -78,7 +79,7 @@ Autor: Tomáš Dinkov. Aktualizováno 2. 11. 2026. Chyby lze hlásit na https://
 - [podobne_obce_RUIAN_souhrn_stav_20260930.csv](https://hd-v-datech.cz/data/podobne_obce_RUIAN_souhrn_stav_20260930.csv): Budovy, byty a technické vybavení podle RÚIAN (stav 30. 9. 2026) pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné řádky jako `RUIAN_souhrn_sousede_stav_20260930.csv`).
 - [podobne_obce_investice_podle_paragrafu.csv](https://hd-v-datech.cz/data/podobne_obce_investice_podle_paragrafu.csv): Investice a opravy HD, Pískové Lhoty, Rebešovic a Závišic podle paragrafu rozpočtové skladby (stejné sloupce jako `investice_opravy_podle_paragrafu_sousede.csv`).
 - [podobne_obce_investice_podle_ucelu_2016-2025.csv](https://hd-v-datech.cz/data/podobne_obce_investice_podle_ucelu_2016-2025.csv): Investice a opravy za roky 2016–2025 sečtené podle účelu (sloučené paragrafy) pro HD, Pískovou Lhotu, Rebešovice a Závišice.
-- [podobne_obce_obyvatel_rocne_2000-2025.csv](https://hd-v-datech.cz/data/podobne_obce_obyvatel_rocne_2000-2025.csv): Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).
+- [podobne_obce_obyvatel_rocne_2000-2025.csv](https://hd-v-datech.cz/data/podobne_obce_obyvatel_rocne_2000-2025.csv): Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).
 - [podobne_obce_obyvatele_2000-2025.csv](https://hd-v-datech.cz/data/podobne_obce_obyvatele_2000-2025.csv): Počet obyvatel HD, Pískové Lhoty, Rebešovic a Závišic 2000–2025.
 - [podobne_obce_roztrisenost.csv](https://hd-v-datech.cz/data/podobne_obce_roztrisenost.csv): Ukazatele roztříštěnosti zástavby HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) (stejné sloupce jako `roztrisenost_sousede.csv`).
 - [podobne_obce_souhrn_po_obdobich.csv](https://hd-v-datech.cz/data/podobne_obce_souhrn_po_obdobich.csv): Součty ukazatelů za volební období pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné sloupce jako `souhrn_po_obdobich_sousede.csv`).
@@ -109,7 +110,7 @@ Autor: Tomáš Dinkov. Aktualizováno 2. 11. 2026. Chyby lze hlásit na https://
 - [skolstvi_socialni_ovzdusi_CHMU.csv](https://hd-v-datech.cz/data/skolstvi_socialni_ovzdusi_CHMU.csv): Pětileté průměry znečištění ovzduší (benzo(a)pyren, PM10, PM2,5, NO2) v čtvercích 1 × 1 km: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
 - [skolstvi_socialni_skoly_rejstrik_2026-11.csv](https://hd-v-datech.cz/data/skolstvi_socialni_skoly_rejstrik_2026-11.csv): Školy a školská zařízení v obcích podle rejstříku škol MŠMT: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice) (a ZŠ a MŠ Dobratice, kam patří MŠ ve Vojkovicích).
 - [skolstvi_socialni_zdravotni_socialni_sluzby.csv](https://hd-v-datech.cz/data/skolstvi_socialni_zdravotni_socialni_sluzby.csv): Zdravotní a sociální služby s místem poskytování v obci: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
-- [souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv): Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
+- [souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv): Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
 - [souhrn_po_obdobich_sousede.csv](https://hd-v-datech.cz/data/souhrn_po_obdobich_sousede.csv): Součty ukazatelů za volební období a průměr na obyvatele a rok.
 - [subjekty_ARES_pravni_forma_sousede.csv](https://hd-v-datech.cz/data/subjekty_ARES_pravni_forma_sousede.csv): Ekonomické subjekty se sídlem v obci podle právní formy (ARES). HD a sousední obce.
 - [subjekty_ARES_souhrn_sousede.csv](https://hd-v-datech.cz/data/subjekty_ARES_souhrn_sousede.csv): Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 000 obyvatel. HD a sousední obce.
@@ -340,7 +341,7 @@ Každá pátá domácnost topila v roce 2021 uhlím, čtyřikrát víc než repu
 
 ## Metodika a zdroje
 
-Stav a věkové složení obyvatel 2000–2024 pocházejí z otevřených dat ČSÚ (datová sada 130149), pohyb obyvatel 2000–2024 ze sady 130141 a stav a pohyb do roku 2025 z nového katalogu ČSÚ (https://data.csu.gov.cz, tabulka OBY01B01). Údaje o vzdělání, práci, vyjížďce, domácnostech a bydlení jsou z otevřených dat Sčítání lidu, domů a bytů 2021 (ČSÚ), srovnání s okresem Frýdek-Místek, Moravskoslezským krajem a ČR pochází ze stejného zdroje. Údaje ze sčítání 2001 a 2011 jsou z profilu obce v RISY (MMR). Historické údaje a varianty vývoje porodnosti jsou z demografické studie EduRegio (12/2023). Souhrny za období a podíly jsou dopočítány z uvedených dat. Kód obce (ZÚJ) je 512192.
+Stav a věkové složení obyvatel 2000–2024 pocházejí z otevřených dat ČSÚ (datová sada 130149), pohyb obyvatel 2002–2024 ze sady 130141 (za roky 2000–2001 ČSÚ pohyb po obcích nevydává) a stav a pohyb do roku 2025 z nového katalogu ČSÚ (https://data.csu.gov.cz, tabulka OBY01B01). Údaje o vzdělání, práci, vyjížďce, domácnostech a bydlení jsou z otevřených dat Sčítání lidu, domů a bytů 2021 (ČSÚ), srovnání s okresem Frýdek-Místek, Moravskoslezským krajem a ČR pochází ze stejného zdroje. Údaje ze sčítání 2001 a 2011 jsou z profilu obce v RISY (MMR). Historické údaje a varianty vývoje porodnosti jsou z demografické studie EduRegio (12/2023). Souhrny za období a podíly jsou dopočítány z uvedených dat. Kód obce (ZÚJ) je 512192.
 
 
 ---
@@ -3164,7 +3165,7 @@ Srovnání se třemi obcemi z jiných částí ČR, které se HD podobají velik
 
 ## Hlavní závěr
 
-Horní Domaslavice jsou z pěti obcí nejrychleji rostoucí, spolu s Pazdernou nejmladší, mají nejvyšší podíl vysokoškoláků a po Vojkovicích nejnižší podíl osob v exekuci. Daňové příjmy na obyvatele mají srovnatelné se sousedy. **Do investic a oprav ale v letech 2023–2025 daly na obyvatele dvakrát až pětkrát méně a v rozvaze mají nejméně majetku na obyvatele.** Zároveň mají nejvíc peněz na účtech na obyvatele a jako jediné z pěti obcí v letech 2010–2025 nevydaly nic na vodovod ani kanalizaci (provozovatelem vodovodu v HD je SmVaK a komu síť patří, není doloženo). Pazderna, Dolní Domaslavice a Lučina získaly za roky 2011–2025 třikrát až pětkrát víc investičních dotací než HD (na obyvatele 2,1krát až 7,9krát víc) a dvě z nich si na stavby vzaly úvěr. Vojkovice získaly za roky 2011–2025 investičních dotací podobně jako HD, do investic a oprav přesto daly v letech 2023–2025 na obyvatele dvakrát víc.
+Horní Domaslavice jsou z pěti obcí nejrychleji rostoucí, spolu s Pazdernou nejmladší, mají nejvyšší podíl vysokoškoláků a po Vojkovicích nejnižší podíl osob v exekuci. Daňové příjmy na obyvatele mají srovnatelné se sousedy. Do investic a oprav v letech 2023–2025 daly na obyvatele dvakrát až pětkrát méně a v rozvaze mají nejméně majetku na obyvatele. Opravy silnic z let 2023–2024 (13,1 mil. Kč) se v majetku neprojevují, protože se účtují do nákladů. Na rok 2026 obec naplánovala investice a opravy za 19,2 mil. Kč a do 30. 9. z toho zaplatila 5,8 mil. Kč (viz [Rozpočet 2026](https://hd-v-datech.cz/hd-rozpocet-2026.html)). Zároveň mají nejvíc peněz na účtech na obyvatele a jako jediné z pěti obcí v letech 2010–2025 nevydaly nic na vodovod ani kanalizaci (provozovatelem vodovodu v HD je SmVaK a komu síť patří, není doloženo). Pazderna, Dolní Domaslavice a Lučina získaly za roky 2011–2025 třikrát až pětkrát víc investičních dotací než HD (na obyvatele 2,1krát až 7,9krát víc) a dvě z nich si na stavby vzaly úvěr. Vojkovice získaly za roky 2011–2025 investičních dotací podobně jako HD, do investic a oprav přesto daly v letech 2023–2025 na obyvatele dvakrát víc.
 
 ## Klíčová čísla vedle sebe
 
@@ -3261,7 +3262,7 @@ Vojkovice (VOJ) byly do srovnání přidány 1. 11. 2026.
 
 1. **Rozdíl mezi HD a sousedy není v příjmech, ale ve výdajích na investice a opravy.** Daňové příjmy na obyvatele jsou v HD srovnatelné s Pazdernou a Vojkovicemi (v letech 2023–2025 HD 18 404, Pazderna 18 030 a Vojkovice 18 413 Kč na obyvatele a rok) a o 9–17 % nižší než v Lučině a DD. Výdaje na investice a opravy na obyvatele jsou v letech 2023–2025 v HD dvakrát až pětkrát nižší.
 2. **HD získaly výrazně méně investičních dotací než tři ze sousedů.** Za roky 2011–2025 to bylo 14,7 mil. Kč, tedy 1 109 Kč na obyvatele a rok. Pazderna, která má zhruba dva a půlkrát méně obyvatel, získala 41,9 mil. Kč a DD 67,7 mil. Kč. Na obyvatele získala Lučina 2,1krát, DD 3,0krát a Pazderna 7,9krát víc než HD. V letech 2023–2025 HD na účet žádná investiční dotace nepřišla; v prosinci 2025 ale uzavřely s krajem smlouvu na investiční dotaci až 2,70 mil. Kč, která se vyplácí v letech 2026–2027. Vojkovice získaly za roky 2011–2025 podobně jako HD (13,0 mil. Kč, na obyvatele 1 252 Kč ročně) a další 7,54 mil. Kč v roce 2010. Rozdíl v investicích v letech 2023–2025 tedy samotné dotace nevysvětlují.
-3. **HD mají nejvíc peněz na účtech na obyvatele a v rozvaze nejméně majetku.** Lučina a Pazderna mají nejméně peněz na účtech a na stavby si vzaly úvěr. DD mají podobnou hotovost na obyvatele jako HD a přitom trojnásobný majetek na obyvatele.
+3. **HD mají nejvíc peněz na účtech na obyvatele a v rozvaze nejméně majetku.** Lučina a Pazderna mají nejméně peněz na účtech a na stavby si vzaly úvěr. DD mají podobnou hotovost na obyvatele jako HD a přitom trojnásobný majetek na obyvatele. Rozvaha ale ukazuje jen investice; opravy (u HD hlavně silnic za 13,1 mil. Kč v letech 2023–2024) se účtují do nákladů a hodnotu majetku nezvyšují, a to u všech obcí (viz [majetek HD](https://hd-v-datech.cz/hd-majetek.html)).
 4. **Vodovod a kanalizace:** HD jsou spolu s Pazdernou a Vojkovicemi bez kanalizace. Na rozdíl od ostatních obcí v letech 2010–2025 nevydaly na vodovod ani kanalizaci (paragrafy 2310 a 2321) nic. Samo o sobě to ale mnoho nevypovídá: provozovatelem vodovodu v HD je SmVaK a komu síť patří, není doloženo (viz [výstavba HD](https://hd-v-datech.cz/hd-vystavba.html)). Pokud obec síť nevlastní, výdaje na ni mít nemusí.
 5. **Čerpání rozpočtu je v HD nejnižší.** Za roky 2023–2025 dohromady vyčerpaly HD 34 % upraveného rozpočtu výdajů, Vojkovice 47 %, DD a Lučina 69 % a Pazderna 85 %; v jednotlivých letech HD 27–40 % a Vojkovice 36–53 %. Velkou rezervu mají v rozpočtu HD (řádek 3639/5169, v roce 2025 26,4 mil. Kč, 49 % upraveného rozpočtu výdajů), Vojkovice (položka 5901, v roce 2023 11,8 mil. Kč, 39 % upraveného rozpočtu, v letech 2024–2025 kolem 2,8 mil.) a do roku 2024 také Lučina (v roce 2023 11,3 mil. Kč). Bez rezerv vyčerpaly HD 53–76 %, Vojkovice 52–60 %, DD 50–86 %, Lučina 64–91 % a Pazderna 80–93 %; za tři roky dohromady HD 66 % a Vojkovice 56 %.
 6. **Zastupitelstvo HD je nejroztříštěnější** (pět kandidátek, nejsilnější s 25 % hlasů) a v roce 2026 se z pěti obcí obměnilo nejvíc. HD přitom měly v roce 2026 nejvyšší volební účast.
@@ -5179,7 +5180,7 @@ Počet voličů v HD se mezi lety 1994 a 2026 zdvojnásobil (+102 %). V Pazdern�
 |---|---|---|---|---|---|
 | 1994 | 2 / 15 | 3 / 7 | 4 / 11 | 4 / 15 | 2 / 9 |
 | 1998 | 2 / 15 | 5 / 7 | 6 / 11 | 5 / 15 | 2 / 9 |
-| 2002 | 2 / 15 | 2 / 7 | 7 / 11 | 3 / 15 | 2 / 9 |
+| 2002 | 2 / 15 | 2 / 7 | 6 / 11 | 3 / 15 | 2 / 9 |
 | 2006 | 3 / 13 | 2 / 7 | 6 / 15 | 5 / 15 | 2 / 9 |
 | 2010 | 5 / 13 | 1 / 7 | 3 / 11 | 6 / 15 | 2 / 9 |
 | 2014 | 5 / 13 | 2 / 7 | 5 / 11 | 5 / 15 | 2 / 9 |
@@ -5195,7 +5196,7 @@ Velikost zastupitelstva si obec stanoví sama. HD ho v roce 2006 zmenšila z 15 
 |---|---|---|---|---|---|
 | 1994 | 8 : 7 | 3 : 2 : 1 | 7 : 2 : 1 : 1 | 7 : 5 : 2 : 1 | 5 : 4 |
 | 1998 | 8 : 7 | 3 : 2 : 1 : 1 : 0 | 4 : 3 : 2 : 1 : 1 : 0 | 9 : 4 : 2 : 0 : 0 | 5 : 4 |
-| 2002 | 8 : 7 | 5 : 2 | 6 : 4 : 1 : 0 : 0 : 0 : 0 | 7 : 4 : 4 | 6 : 3 |
+| 2002 | 8 : 7 | 5 : 2 | 6 : 4 : 1 : 0 : 0 : 0 | 7 : 4 : 4 | 6 : 3 |
 | 2006 | 5 : 5 : 3 | 7 : 0 | 6 : 5 : 2 : 2 : 0 : 0 | 4 : 4 : 4 : 3 : 0 | 5 : 4 |
 | 2010 | 3 : 3 : 3 : 2 : 2 | 7 | 5 : 4 : 2 | 5 : 3 : 3 : 2 : 2 : 0 | 7 : 2 |
 | 2014 | 4 : 3 : 2 : 2 : 2 | 5 : 2 | 3 : 3 : 2 : 2 : 1 | 4 : 4 : 3 : 2 : 2 | 8 : 1 |
@@ -8838,7 +8839,7 @@ Investice a opravy za roky 2016–2025 sečtené podle účelu (sloučené parag
 
 ## podobne_obce_obyvatel_rocne_2000-2025.csv
 
-Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).
+Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).
 
 - Odkaz: [data/podobne_obce_obyvatel_rocne_2000-2025.csv](https://hd-v-datech.cz/data/podobne_obce_obyvatel_rocne_2000-2025.csv)
 - Řádků: 129; jeden řádek = jedno území × rok
@@ -9473,7 +9474,7 @@ Zdravotní a sociální služby s místem poskytování v obci: HD, sousední ob
 
 ## souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv
 
-Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
+Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
 
 - Odkaz: [data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv)
 - Řádků: 180; jeden řádek = jedno území × rok
@@ -9703,7 +9704,7 @@ Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 20
 Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený typ kandidátky. HD a sousední obce.
 
 - Odkaz: [data/volby_komunalni_kandidatky_sousede_1994-2026.csv](https://hd-v-datech.cz/data/volby_komunalni_kandidatky_sousede_1994-2026.csv)
-- Řádků: 145; jeden řádek = jedna obec × volby × kandidátka
+- Řádků: 144; jeden řádek = jedna obec × volby × kandidátka
 - Zdroj: volby.cz (jako u souhrnu komunálních voleb).
 - Pozor: Kandidátky pojmenované jménem jednotlivého kandidáta jsou nahrazeny textem „kandidátka jednotlivce (NK)“; web neuvádí jména fyzických osob.
 

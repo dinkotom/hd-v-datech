@@ -250,7 +250,7 @@ Investice a opravy za roky 2016–2025 sečtené podle účelu (sloučené parag
 
 ## podobne_obce_obyvatel_rocne_2000-2025.csv
 
-Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).
+Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).
 
 - Odkaz: [data/podobne_obce_obyvatel_rocne_2000-2025.csv](https://hd-v-datech.cz/data/podobne_obce_obyvatel_rocne_2000-2025.csv)
 - Řádků: 129; jeden řádek = jedno území × rok
@@ -885,7 +885,7 @@ Zdravotní a sociální služby s místem poskytování v obci: HD, sousední ob
 
 ## souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv
 
-Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
+Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
 
 - Odkaz: [data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv)
 - Řádků: 180; jeden řádek = jedno území × rok
@@ -1115,7 +1115,7 @@ Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 20
 Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený typ kandidátky. HD a sousední obce.
 
 - Odkaz: [data/volby_komunalni_kandidatky_sousede_1994-2026.csv](https://hd-v-datech.cz/data/volby_komunalni_kandidatky_sousede_1994-2026.csv)
-- Řádků: 145; jeden řádek = jedna obec × volby × kandidátka
+- Řádků: 144; jeden řádek = jedna obec × volby × kandidátka
 - Zdroj: volby.cz (jako u souhrnu komunálních voleb).
 - Pozor: Kandidátky pojmenované jménem jednotlivého kandidáta jsou nahrazeny textem „kandidátka jednotlivce (NK)“; web neuvádí jména fyzických osob.
 

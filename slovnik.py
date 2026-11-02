@@ -171,7 +171,7 @@ DATASETS = {
         },
     },
     'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv': {
-        'popis': 'Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.',
+        'popis': 'Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.',
         'radek': 'jedno území × rok',
         'zdroj': 'Český statistický úřad (sloupec `zdroj` uvádí kód datové sady).',
         'pozor': ['Pohyb obyvatel (narození … vystěhovalí) je u některých let a území prázdný.'],
@@ -402,7 +402,7 @@ DATASETS = {
     'podobne_obce_vydaje_kategorie_2010-2025.csv': {'stejne_jako': 'vydaje_kategorie_sousede_2010-2025.csv', 'popis': 'Výdaje HD, Pískové Lhoty, Rebešovic a Závišic podle účelu a druhu (stejné sloupce jako `vydaje_kategorie_sousede_2010-2025.csv`).'},
     'podobne_obce_CUZK_UHDP_2004_2014_2026.csv': {'stejne_jako': 'CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv', 'popis': 'Výměry druhů pozemků HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) v letech 2004, 2014 a 2026 (stejné sloupce jako `CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv`).'},
     'podobne_obce_roztrisenost.csv': {'stejne_jako': 'roztrisenost_sousede.csv', 'popis': 'Ukazatele roztříštěnosti zástavby HD, Pískové Lhoty (PL), Rebešovic (REB) a Závišic (ZAV) (stejné sloupce jako `roztrisenost_sousede.csv`).'},
-    'podobne_obce_obyvatel_rocne_2000-2025.csv': {'stejne_jako': 'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv', 'popis': 'Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).'},
+    'podobne_obce_obyvatel_rocne_2000-2025.csv': {'stejne_jako': 'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv', 'popis': 'Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, Pískovou Lhotu, Rebešovice, Závišice a ČR (stejné sloupce jako `souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv`).'},
     'podobne_obce_RUIAN_souhrn_stav_20260930.csv': {'stejne_jako': 'RUIAN_souhrn_sousede_stav_20260930.csv', 'popis': 'Budovy, byty a technické vybavení podle RÚIAN (stav 30. 9. 2026) pro HD, Pískovou Lhotu, Rebešovice a Závišice (stejné řádky jako `RUIAN_souhrn_sousede_stav_20260930.csv`).'},
     'podobne_obce_ukazatele_rozvaha_vzz.csv': {'stejne_jako': 'ukazatele_rozvaha_vzz_sousede.csv', 'popis': 'Rozvaha a výkaz zisku a ztráty HD, Pískové Lhoty, Rebešovic a Závišic (stejné sloupce jako `ukazatele_rozvaha_vzz_sousede.csv`).'},
     'podobne_obce_investice_podle_ucelu_2016-2025.csv': {

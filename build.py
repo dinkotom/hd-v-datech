@@ -173,7 +173,7 @@ def page(slug, title, body, description='', lede=''):
 </div>
 <footer class="site-footer"><div class="inner">
 Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.hornidomaslavice.cz/">hornidomaslavice.cz</a>.
-Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno {UPDATED}.
+Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno {UPDATED}. Obsah webu je pod licencí <a href="https://creativecommons.org/licenses/by/4.0/deed.cs">CC BY 4.0</a>.
 Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
 </div></footer>
 <script src="static/app.js"></script>
@@ -313,12 +313,16 @@ def build_index():
     cash = [float(r['penize_231_244_245']) / 1e6 for r in hd]
     io = [float(r['io']) / 1e6 for r in hd]
     pop = [r for r in read_csv('souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv') if r['uzemi'] == 'HD']
+    r26 = [r for r in read_csv('rozpocet_2026_investice_opravy.csv') if r['paragraf'].isdigit()]
+    io26 = sum(float(r['investice_skutecnost_9_2026_kc'] or 0) + float(r['opravy_5171_skutecnost_9_2026_kc'] or 0) for r in r26) / 1e6
+    io26_plan = sum(float(r['investice_upraveny_kc'] or 0) + float(r['opravy_5171_upraveny_kc'] or 0) for r in r26) / 1e6
 
     tiles = f'''<div class="tiles">
 <div class="tile"><div class="v">{num(int(pop[-1]["obyvatel_31_12"]))}</div><div class="l">obyvatel ke konci roku 2025, téměř dvakrát víc než v roce 2000 ({pop[0]["obyvatel_31_12"]})</div></div>
 <div class="tile"><div class="v">{num(cash[-1], 1)} mil. Kč</div><div class="l">na účtech obce ke konci roku 2025</div></div>
 <div class="tile"><div class="v">{num(per[("Horní Domaslavice", "io")])} Kč</div><div class="l">na investice a opravy na obyvatele a rok (2023–2025); sousední obce 12–31 tis. Kč</div></div>
 <div class="tile"><div class="v">0 Kč</div><div class="l">investičních dotací přišlo na účet v letech 2023–2025; v prosinci 2025 obec uzavřela smlouvu s krajem na dotaci až 2,7 mil. Kč</div></div>
+<div class="tile"><div class="v">{num(io26, 1)} mil. Kč</div><div class="l">zaplatila obec na investice a opravy v roce 2026 do 30. 9., tedy {num(io26 / io26_plan * 100)} % z plánovaných {num(io26_plan, 1)} mil. Kč</div></div>
 </div>'''
 
     c_io = chart_hbar('Investice a opravy na obyvatele a rok, 2023–2025',
@@ -354,7 +358,8 @@ a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina a Vo
 Všechna data lze stáhnout a ověřit. Na data se můžete <a href="zeptejte-se-ai.html">zeptat i svého AI asistenta</a>.</div>
 <h2>Hlavní zjištění</h2>
 <p>Horní Domaslavice jsou ze sousedních obcí nejrychleji rostoucí. Daňové příjmy na obyvatele mají srovnatelné se sousedy,
-do investic a oprav ale dávají na obyvatele dvakrát až pětkrát méně a mají nejvíc peněz na účtech.
+do investic a oprav ale v letech 2023–2025 dávaly na obyvatele dvakrát až pětkrát méně a mají nejvíc peněz na účtech.
+Na rok 2026 obec naplánovala investice a opravy za {num(io26_plan, 1)} mil. Kč, do 30. 9. z toho zaplatila {num(io26, 1)} mil. Kč (<a href="hd-rozpocet-2026.html">Rozpočet 2026</a>).
 Podrobnosti a výhrady ke srovnatelnosti jsou v <a href="srovnani-souhrn.html">souhrnu srovnání</a>.</p>
 {c_io}
 {c_tax}
@@ -380,7 +385,7 @@ DATA_DESC = {
     'ukazatele_sousede_2010-2025.csv': 'Ukazatele po letech v dlouhém formátu (HD a sousední obce).',
     'investice_opravy_podle_paragrafu_sousede.csv': 'Investice a opravy podle účelu výdaje (paragrafu rozpočtové skladby).',
     'ukazatele_rozvaha_vzz_sousede.csv': 'Rozvaha a výkaz zisku a ztráty: majetek, peníze, úvěry, odpisy (HD a sousední obce, 2010–2025).',
-    'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv': 'Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (HD a sousední obce, okres, ČR; ČSÚ).',
+    'souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv': 'Počet obyvatel a věkové skupiny 2000–2025, pohyb obyvatel 2002–2025 (HD a sousední obce, okres, ČR; ČSÚ).',
     'RUIAN_souhrn_sousede_stav_20260930.csv': 'Budovy, byty a napojení na vodovod, kanalizaci a plyn podle RÚIAN (stav 30. 9. 2026).',
     'CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv': 'Výměry druhů pozemků po katastrálních územích, 2004, 2014 a 2026 (ČÚZK).',
     'roztrisenost_sousede.csv': 'Ukazatele roztříštěnosti zástavby (skupiny domů, vzdálenosti, délka propojení).',
@@ -402,7 +407,7 @@ DATA_DESC = {
     'podobne_obce_investice_podle_paragrafu.csv': 'Investice a opravy HD, Pískové Lhoty, Rebešovic a Závišic podle paragrafu a roku.',
     'podobne_obce_CUZK_UHDP_2004_2014_2026.csv': 'Výměry druhů pozemků HD a podobných obcí, 2004, 2014 a 2026 (ČÚZK).',
     'podobne_obce_roztrisenost.csv': 'Ukazatele roztříštěnosti zástavby HD a podobných obcí.',
-    'podobne_obce_obyvatel_rocne_2000-2025.csv': 'Počet obyvatel, věkové skupiny a pohyb obyvatel 2000–2025 (HD, podobné obce, ČR; ČSÚ).',
+    'podobne_obce_obyvatel_rocne_2000-2025.csv': 'Počet obyvatel a věkové skupiny 2000–2025, pohyb obyvatel 2002–2025 (HD, podobné obce, ČR; ČSÚ).',
     'podobne_obce_RUIAN_souhrn_stav_20260930.csv': 'Budovy, byty a napojení na sítě podle RÚIAN, HD a podobné obce (stav 30. 9. 2026).',
     'podobne_obce_ukazatele_rozvaha_vzz.csv': 'Rozvaha a výkaz zisku a ztráty HD a podobných obcí, 2010–2025.',
     'podobne_obce_vydaje_kategorie_2010-2025.csv': 'Výdaje HD, Pískové Lhoty, Rebešovic a Závišic podle účelu a druhu, 2010–2025.',
@@ -463,6 +468,10 @@ Lučina má výdaje spojené s nádrží Žermanice). Výhrady jsou uvedeny u je
 {REPORT_PRIVACY}
 <p>Web nepoužívá cookies ani analytické nástroje. Stránka Mapa načítá mapové podklady z OpenStreetMap a ČÚZK a knihovnu Leaflet z unpkg.com;
 jejich provozovatelé při tom vidí IP adresu návštěvníka.</p>
+<h2>Licence</h2>
+<p>Texty, grafy a zpracovaná data tohoto webu můžete volně používat, upravovat a šířit, i komerčně, pokud uvedete zdroj („Horní Domaslavice v datech, hd-v-datech.cz“).
+Platí licence <a href="https://creativecommons.org/licenses/by/4.0/deed.cs">Creative Commons Uveďte původ 4.0 Mezinárodní (CC BY 4.0)</a>.
+Původní data se řídí podmínkami svých zdrojů (ČSÚ, Ministerstvo financí, ČÚZK a další), mapové podklady podmínkami OpenStreetMap a ČÚZK.</p>
 <h2>Autor</h2>
 <p>Tomáš Dinkov</p>
 <p>Poslední aktualizace: {UPDATED}.</p>'''
@@ -509,6 +518,7 @@ AI_RULES = [
     'Výhrady jsou v části „Pozor“ u každé stránky.',
     'Web záměrně neuvádí jména zastupitelů ani jiných fyzických osob a nehodnotí lidi. Neodvozuj z dat, kdo za co může.',
     'U každého čísla uveď stránku webu nebo datový soubor, ze kterého pochází. Když odpověď v datech není, řekni to; nedopočítávej odhady jako fakta.',
+    'Texty a zpracovaná data webu jsou pod licencí CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); při převzetí uveď zdroj „Horní Domaslavice v datech, hd-v-datech.cz“.',
 ]
 
 

@@ -30,3 +30,7 @@ Nastavení formuláře:
 5. V odpovědích formuláře zapněte *Dostávat e-mailová oznámení o nových odpovědích* a případně propojte s tabulkou.
 
 Opravy se zapisují do `obsah/opravy.md`.
+
+## Licence
+
+Texty, grafy a zpracovaná data (`obsah/`, `data/`, `docs/`) jsou pod licencí [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.cs). Uveďte zdroj „Horní Domaslavice v datech, hd-v-datech.cz“. Původní data se řídí podmínkami svých zdrojů (ČSÚ, MF, ČÚZK a další).
