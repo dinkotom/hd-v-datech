@@ -193,6 +193,8 @@
       if (cb.checked) l.addTo(map); else map.removeLayer(l);
     });
   });
+  var ctrl = document.querySelector('.mapa-ctrl');
+  if (ctrl) ctrl.addEventListener('submit', function (e) { e.preventDefault(); });
   var sel = document.getElementById('mapa-barva');
   if (sel) sel.addEventListener('change', function () { mode = sel.value; restyle(); });
   document.querySelectorAll('input[name="mapa-podklad"]').forEach(function (r) {

@@ -3,7 +3,9 @@
 Usage: /usr/bin/python3 -I build.py
 Markdown pages live in obsah/, datasets in data/, images in img/.
 """
+import base64
 import csv
+import hashlib
 import html
 import os
 import re
@@ -22,6 +24,10 @@ UPDATED = '2. 11. 2026'
 REPO_URL = 'https://github.com/dinkotom/hd-v-datech'
 DOMAIN = 'hd-v-datech.cz'
 SITE_URL = f'https://{DOMAIN}/'
+
+# Inline theme bootstrap (runs before CSS paint); its hash is allowed in the CSP.
+THEME_JS = ("try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')"
+            "document.documentElement.setAttribute('data-theme',t)}catch(e){}")
 
 # Google Form for error reports. Fill in after creating the form (see README.md);
 # while empty, reports open a prefilled GitHub issue instead.
@@ -156,7 +162,7 @@ def page(slug, title, body, description='', lede=''):
 <title>{esc(head_title)}</title>
 <meta name="description" content="{desc}">
 <link rel="stylesheet" href="static/style.css">
-{alt_md}<script>try{{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
+{alt_md}<script>{THEME_JS}</script>
 </head>
 <body{body_attrs()}>
 <header class="site-header"><div class="inner">
@@ -710,6 +716,24 @@ def check_links(slugs):
     return bad
 
 
+def build_headers():
+    theme = base64.b64encode(hashlib.sha256(THEME_JS.encode()).digest()).decode()
+    csp = '; '.join([
+        "default-src 'self'",
+        f"script-src 'self' 'sha256-{theme}' https://unpkg.com",
+        "style-src 'self' 'unsafe-inline' https://unpkg.com",
+        "img-src 'self' data: https://unpkg.com https://tile.openstreetmap.org https://ags.cuzk.gov.cz",
+        "connect-src 'self' https://docs.google.com",
+        "object-src 'none'", "base-uri 'self'", "form-action 'self'", "frame-ancestors 'none'",
+    ])
+    return f"""/*
+  Content-Security-Policy: {csp}
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+"""
+
+
 def main():
     if os.path.exists(OUT):
         shutil.rmtree(OUT)
@@ -719,6 +743,8 @@ def main():
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     with open(os.path.join(OUT, 'CNAME'), 'w') as fh:  # custom domain for GitHub Pages
         fh.write(DOMAIN)
+    with open(os.path.join(OUT, '_headers'), 'w') as fh:  # HTTP headers for Cloudflare Pages
+        fh.write(build_headers())
     slugs = build_md_pages()
     slovnik_html, warnings = build_slovnik()
     build_llms(slugs)
