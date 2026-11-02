@@ -88,7 +88,7 @@
     });
     root.appendChild(stats);
     var bar = el('div', { 'class': 'usn-filters' });
-    var q = el('input', { type: 'search', placeholder: 'Hledat v usneseních (např. chodník, MŠ, 872/2)…', 'aria-label': 'Hledat' });
+    var q = el('input', { type: 'search', placeholder: 'Hledat v usneseních (např. chodník, MŠ, 297/20/2025)…', 'aria-label': 'Hledat' });
     function select(label, opts) {
       var s = el('select', { 'aria-label': label });
       s.appendChild(el('option', { value: '' }, label));
