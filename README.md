@@ -34,9 +34,15 @@ Od 3. 11. 2026. Do 2. 11. 2026 web běžel na GitHub Pages; ty jsou vypnuté, pr
 - **DNSSEC:** podepisuje Cloudflare (DNS → Settings → DNSSEC). Do registru .cz se nezadává DS, ale veřejný klíč: u WEDOS *Nastavení DNSSEC → vytvořit a použít vlastní KEYSET*, Flag KSK, algoritmus 13, klíč z Cloudflare (*Public Key*, key tag 2371). Kontrola: `dig +short DS hd-v-datech.cz @a.ns.nic.cz` a `dig +dnssec hd-v-datech.cz @1.1.1.1` (příznak `ad`).
 - **Při změně DNS nebo vypnutí DNSSEC v Cloudflare** je nutné nejdřív u WEDOS zrušit KEYSET a počkat, až DS zmizí z registru (TTL 1 h), jinak doména přestane fungovat. WEDOS nedovolí měnit nameservery, dokud nemá vyřízený požadavek na DNSSEC (trvá i několik hodin).
 
+**Vyhledávače** (registrováno 3. 11. 2026):
+- Google Search Console – vlastnost typu Doména `hd-v-datech.cz` (ověření přes DNS v Cloudflare), odeslána sitemap `https://hd-v-datech.cz/sitemap.xml`;
+- Seznam Webmaster – `https://hd-v-datech.cz/`, ověření meta tagem `seznam-wmt` na úvodní stránce (`SITE_VERIFICATION` v `build.py`; tag neodstraňovat ani negenerovat nový), sitemap si Seznam bere z `robots.txt`;
+- Bing Webmaster Tools – import z Google Search Console, sitemap odeslána ručně.
+
 **Pravidla v Cloudflare:**
 - Rules → Redirect Rules: `https://www.*` → `https://${1}`, 301, se zachováním parametrů – `www` přesměrovává na doménu bez `www`;
 - SSL/TLS: certifikát vydává Cloudflare automaticky, http přesměrovává na https.
+- Caching → Crawler Hints zapnuto: Cloudflare po změnách obsahu sám ohlašuje vyhledávačům (IndexNow).
 - Návštěvnost: Pages projekt → Metrics → Web Analytics (Cloudflare skript `beacon.min.js` vkládá do stránek sám, bez cookies). V CSP jsou proto povoleny `static.cloudflareinsights.com` (skript) a `cloudflareinsights.com` (odesílání). Hrubé serverové statistiky jsou u domény v Analytics & Logs → HTTP Traffic.
 
 ## Hlášení chyb (Google Formulář)
