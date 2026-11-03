@@ -748,7 +748,6 @@ def main():
     os.makedirs(OUT)
     for d in ('static', 'img', 'data'):
         shutil.copytree(os.path.join(ROOT, d), os.path.join(OUT, d))
-    open(os.path.join(OUT, '.nojekyll'), 'w').close()
     with open(os.path.join(OUT, '_headers'), 'w') as fh:  # HTTP headers for Cloudflare Pages
         fh.write(build_headers())
     slugs = build_md_pages()
