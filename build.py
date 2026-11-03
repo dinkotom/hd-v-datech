@@ -1,4 +1,4 @@
-"""Build the static site into docs/ (served by GitHub Pages).
+"""Build the static site into docs/ (served by Cloudflare Pages).
 
 Usage: /usr/bin/python3 -I build.py
 Markdown pages live in obsah/, datasets in data/, images in img/.
@@ -736,6 +736,7 @@ def build_headers():
     return f"""/*
   Content-Security-Policy: {csp}
   Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
 """
@@ -748,8 +749,6 @@ def main():
     for d in ('static', 'img', 'data'):
         shutil.copytree(os.path.join(ROOT, d), os.path.join(OUT, d))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
-    with open(os.path.join(OUT, 'CNAME'), 'w') as fh:  # custom domain for GitHub Pages
-        fh.write(DOMAIN)
     with open(os.path.join(OUT, '_headers'), 'w') as fh:  # HTTP headers for Cloudflare Pages
         fh.write(build_headers())
     slugs = build_md_pages()

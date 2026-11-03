@@ -8,7 +8,7 @@ Neoficiální občanský web s veřejnými daty o obci Horní Domaslavice a srov
 /usr/bin/python3 -I build.py
 ```
 
-Vyžaduje `pandoc`. Texty stránek jsou v `obsah/*.md` (YAML hlavička `title`, `description`, `updated`), data v `data/`, obrázky v `img/`. Výstup jde do `docs/`, který zveřejňuje GitHub Pages (Settings → Pages → branch `main`, složka `/docs`).
+Vyžaduje `pandoc`. Texty stránek jsou v `obsah/*.md` (YAML hlavička `title`, `description`, `updated`), data v `data/`, obrázky v `img/`. Výstup jde do `docs/`, který zveřejňuje Cloudflare Pages (projekt `hd-v-datech`, napojený na GitHub: větev `main`, bez build příkazu, výstupní složka `docs`; po každém pushi se nasadí sám). Doména hd-v-datech.cz je registrovaná u WEDOS, DNS spravuje Cloudflare. HTTP hlavičky (CSP aj.) generuje build do `docs/_headers`, stránku 404 do `docs/404.html`.
 
 ## Hlášení chyb (Google Formulář)
 
