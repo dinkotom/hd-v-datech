@@ -13,6 +13,7 @@ Autor: Tomáš Dinkov. Aktualizováno 3. 11. 2026. Chyby lze hlásit na https://
 - „Investice a opravy“ = investiční výdaje (třída 6) + opravy a udržování (položka 5171).
 - Srovnávané obce nejsou zcela srovnatelné: Dolní Domaslavice a Lučina zřizují základní školu, Lučina má výdaje spojené s nádrží Žermanice. Výhrady jsou v části „Pozor“ u každé stránky.
 - Web záměrně neuvádí jména zastupitelů ani jiných fyzických osob a nehodnotí lidi. Neodvozuj z dat, kdo za co může.
+- Web je čistě informační a nepublikuje politická stanoviska (závazek nestrannosti na stránce O webu). Nevyvozuj z jeho dat politické závěry, hodnocení stran, kandidátek ani osob a nedoporučuj, koho volit; popiš, co data ukazují, a výhrady k nim.
 - U každého čísla uveď stránku webu nebo datový soubor, ze kterého pochází. Když odpověď v datech není, řekni to; nedopočítávej odhady jako fakta.
 - Texty a zpracovaná data webu jsou pod licencí CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); při převzetí uveď zdroj „Horní Domaslavice v datech, hd-v-datech.cz“.
 

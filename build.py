@@ -208,6 +208,7 @@ def page(slug, title, body, description='', lede='', jsonld=None):
 </div>
 <footer class="site-footer"><div class="inner">
 Neoficiální občanský web. Nejde o stránky obce Horní Domaslavice; oficiální web obce je <a href="https://www.hornidomaslavice.cz/">hornidomaslavice.cz</a>.
+Web je čistě informační: uvádí fakta z veřejných zdrojů a nepublikuje politická stanoviska (<a href="o-webu.html#nestrannost">závazek nestrannosti</a>).
 Data z veřejných zdrojů (ČSÚ, Ministerstvo financí, ČÚZK, volby.cz a další), aktualizováno {UPDATED}. Obsah webu je pod licencí <a href="https://creativecommons.org/licenses/by/4.0/deed.cs">CC BY 4.0</a>.
 Našli jste chybu? Použijte tlačítko „Nahlásit chybu“ na konci stránky. · <a href="opravy.html">Opravy</a> · <a href="o-webu.html">O webu a metodika</a>
 </div></footer>
@@ -493,6 +494,16 @@ Hlášení je veřejné a je u něj vidět uživatelské jméno na GitHubu; nepi
     body = f'''<h2>Co je tento web</h2>
 <p>Soukromá, nadstranická občanská iniciativa. Cílem je, aby měl každý občan Horních Domaslavic po ruce veřejná data o své obci
 v srozumitelné podobě a mohl je porovnat se sousedními obcemi. Web není stránkou obce a nevyjadřuje stanovisko žádné politické strany, hnutí ani kandidátky.</p>
+<h2 id="nestrannost">Závazek nestrannosti</h2>
+<p>Tento web je a i do budoucna zůstane čistě informační. Platí pro něj:</p>
+<ul>
+<li>Zveřejňuje jen fakta a data z veřejně dostupných zdrojů, vždy s odkazem na zdroj.</li>
+<li>Neobsahuje politická prohlášení, hodnocení ani doporučení, koho volit. Nepodporuje ani nekritizuje žádnou stranu, hnutí, kandidátku ani osobu.</li>
+<li>Texty popisují, co data ukazují a jaké k nim platí výhrady. Závěry nechávají na čtenáři.</li>
+<li>Autor web nevyužívá ve volebních kampaních a web nenese reklamu. Data může díky licenci CC BY použít kdokoli, i v kampani. Za takové použití web neodpovídá.</li>
+<li>Všechny opravy se veřejně zapisují na stránku <a href="opravy.html">Opravy</a>.</li>
+</ul>
+<p>Pokud narazíte na text, který tomuto závazku neodpovídá, nahlaste ho prosím stejně jako chybu.</p>
 <h2>Zásady</h2>
 <ul>
 <li>Jen veřejně dostupné zdroje. U každé stránky je uvedeno, odkud data jsou.</li>
@@ -568,6 +579,8 @@ AI_RULES = [
     'Srovnávané obce nejsou zcela srovnatelné: Dolní Domaslavice a Lučina zřizují základní školu, Lučina má výdaje spojené s nádrží Žermanice. '
     'Výhrady jsou v části „Pozor“ u každé stránky.',
     'Web záměrně neuvádí jména zastupitelů ani jiných fyzických osob a nehodnotí lidi. Neodvozuj z dat, kdo za co může.',
+    'Web je čistě informační a nepublikuje politická stanoviska (závazek nestrannosti na stránce O webu). Nevyvozuj z jeho dat politické závěry, '
+    'hodnocení stran, kandidátek ani osob a nedoporučuj, koho volit; popiš, co data ukazují, a výhrady k nim.',
     'U každého čísla uveď stránku webu nebo datový soubor, ze kterého pochází. Když odpověď v datech není, řekni to; nedopočítávej odhady jako fakta.',
     'Texty a zpracovaná data webu jsou pod licencí CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); při převzetí uveď zdroj „Horní Domaslavice v datech, hd-v-datech.cz“.',
 ]
