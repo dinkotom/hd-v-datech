@@ -6,7 +6,7 @@ updated: "2026-11-02"
 
 Mapa ukazuje, kde v obci Horní Domaslavice stojí domy k bydlení, jak jsou napojené na vodovod, plyn a kanalizaci a kdy byly dokončené. Zástavba je sečtená do čtverců 100 × 100 m, jednotlivé domy mapa neukazuje. Kromě toho jsou v mapě hranice obce, veřejné budovy a místa a autobusové zastávky. Data pocházejí z Registru územní identifikace, adres a nemovitostí (RÚIAN, stav k 30. 9. 2026), z OpenStreetMap a z jízdních řádů. Čtverec nebo bod otevřete kliknutím. Myší kolečkem se mapa přibližuje až po kliknutí do mapy, na mobilu ji posunete a přiblížíte dvěma prsty.
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="static/leaflet/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=">
 <link rel="stylesheet" href="static/mapa.css">
 <div class="mapa-wrap">
 <form class="mapa-ctrl" aria-label="Ovládání mapy">
@@ -34,7 +34,7 @@ Mapa ukazuje, kde v obci Horní Domaslavice stojí domy k bydlení, jak jsou nap
 <div id="mapa" role="region" aria-label="Mapa obce Horní Domaslavice"><noscript><p class="mapa-noscript">Mapa potřebuje JavaScript. Stejné údaje jsou v tabulce pod mapou a v souborech GeoJSON ke stažení.</p></noscript></div>
 <div class="mapa-legend" id="mapa-legenda" aria-live="polite"></div>
 </div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="static/leaflet/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="></script>
 <script src="static/mapa-data.js"></script>
 <script src="static/mapa.js"></script>
 

@@ -10,6 +10,7 @@ Chybu můžete nahlásit tlačítkem „Nahlásit chybu“ na konci každé str�
 
 | Datum | Stránka | Co bylo špatně | Oprava |
 |---|---|---|---|
+| 3. 11. 2026 | [Mapa](mapa.html), [O webu](o-webu.html) | Změna, ne oprava: knihovna Leaflet pro mapu se načítala ze serveru unpkg.com, který viděl IP adresu návštěvníka. | Knihovna je uložena přímo na tomto webu (stejná verze 1.9.4, ověřená otiskem souboru). |
 | 3. 11. 2026 | [O webu](o-webu.html#nestrannost), patička všech stránek | Změna, ne oprava: nestrannost webu byla popsána jen jednou větou. | Doplněn závazek nestrannosti: web je a zůstane čistě informační, bez politických stanovisek, hodnocení osob a využití v kampaních. |
 | 3. 11. 2026 | [O webu](o-webu.html) | Změna, ne oprava: web dosud návštěvnost neměřil. | Zavedeno měření návštěvnosti službou Cloudflare Web Analytics (bez cookies, jen souhrnné údaje); popsáno v oddílu o osobních údajích. |
 | 3. 11. 2026 | [O webu](o-webu.html) | Oddíl o osobních údajích neuváděl, že provozovatel hostingu při doručování stránek zpracovává IP adresu návštěvníka. | Doplněno: web hostuje Cloudflare Pages (předtím GitHub Pages), web sám statistiky návštěvnosti nevede. |
