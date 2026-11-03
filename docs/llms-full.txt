@@ -2,7 +2,7 @@
 
 > Neoficiální občanský přehled veřejných dat o obci Horní Domaslavice (okres Frýdek-Místek) a srovnání se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina a Vojkovice a s podobnými obcemi jinde v ČR: obyvatelstvo, rozpočet a hospodaření 2010–2026, investice, dotace, majetek, zakázky, usnesení zastupitelstva, výstavba, pozemky a občanská vybavenost. Zdroje: Ministerstvo financí (Monitor státní pokladny), ČSÚ, ČÚZK, volby.cz, registr smluv, dokumenty obce.
 
-Autor: Tomáš Dinkov. Aktualizováno 2. 11. 2026. Chyby lze hlásit na https://github.com/dinkotom/hd-v-datech/issues.
+Autor: Tomáš Dinkov. Aktualizováno 3. 11. 2026. Chyby lze hlásit na https://github.com/dinkotom/hd-v-datech/issues.
 
 ## Jak data číst a citovat
 

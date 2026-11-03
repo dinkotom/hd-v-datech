@@ -20,7 +20,7 @@ import slovnik  # noqa: E402
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'docs')
 SITE = 'Horní Domaslavice v datech'
-UPDATED = '2. 11. 2026'
+UPDATED = '3. 11. 2026'
 REPO_URL = 'https://github.com/dinkotom/hd-v-datech'
 DOMAIN = 'hd-v-datech.cz'
 SITE_URL = f'https://{DOMAIN}/'
@@ -472,8 +472,9 @@ Lučina má výdaje spojené s nádrží Žermanice). Výhrady jsou uvedeny u je
 </ul>
 <h2>Hlášení chyb a osobní údaje</h2>
 {REPORT_PRIVACY}
-<p>Web nepoužívá cookies ani analytické nástroje. Stránka Mapa načítá mapové podklady z OpenStreetMap a ČÚZK a knihovnu Leaflet z unpkg.com;
-jejich provozovatelé při tom vidí IP adresu návštěvníka.</p>
+<p>Web nepoužívá cookies ani analytické nástroje a sám žádné statistiky návštěvnosti nevede. Hostuje ho služba Cloudflare Pages;
+Cloudflare jako provozovatel hostingu při doručování stránek zpracovává technické údaje o přístupu, včetně IP adresy.
+Stránka Mapa načítá mapové podklady z OpenStreetMap a ČÚZK a knihovnu Leaflet z unpkg.com; jejich provozovatelé při tom také vidí IP adresu návštěvníka.</p>
 <h2>Licence</h2>
 <p>Texty, grafy a zpracovaná data tohoto webu můžete volně používat, upravovat a šířit, i komerčně, pokud uvedete zdroj („Horní Domaslavice v datech, hd-v-datech.cz“).
 Platí licence <a href="https://creativecommons.org/licenses/by/4.0/deed.cs">Creative Commons Uveďte původ 4.0 Mezinárodní (CC BY 4.0)</a>.

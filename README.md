@@ -8,7 +8,34 @@ Neoficiální občanský web s veřejnými daty o obci Horní Domaslavice a srov
 /usr/bin/python3 -I build.py
 ```
 
-Vyžaduje `pandoc`. Texty stránek jsou v `obsah/*.md` (YAML hlavička `title`, `description`, `updated`), data v `data/`, obrázky v `img/`. Výstup jde do `docs/`, který zveřejňuje Cloudflare Pages (projekt `hd-v-datech`, napojený na GitHub: větev `main`, bez build příkazu, výstupní složka `docs`; po každém pushi se nasadí sám). Doména hd-v-datech.cz je registrovaná u WEDOS, DNS spravuje Cloudflare. HTTP hlavičky (CSP aj.) generuje build do `docs/_headers`, stránku 404 do `docs/404.html`.
+Vyžaduje `pandoc`. Texty stránek jsou v `obsah/*.md` (YAML hlavička `title`, `description`, `updated`), data v `data/`, obrázky v `img/`. Výstup jde do `docs/`. Hotový `docs/` se commituje; po pushi do `main` ho Cloudflare Pages samo nasadí (viz Provoz).
+
+## Provoz
+
+Od 3. 11. 2026. Do 2. 11. 2026 web běžel na GitHub Pages; ty jsou vypnuté, protože GitHub pro doménu nedokázal vydat HTTPS certifikát.
+
+**Hosting – Cloudflare Pages**, projekt `hd-v-datech` (Workers & Pages):
+- napojení na GitHub repo `dinkotom/hd-v-datech`, větev `main`, framework *None*, build příkaz prázdný, výstupní složka `docs`;
+- náhled na https://hd-v-datech.pages.dev, vlastní domény `hd-v-datech.cz` a `www.hd-v-datech.cz` (Custom domains);
+- Cloudflare přesměrovává `/stranka.html` na `/stranka` (308). Odkazy v buildu zůstávají s `.html`, funguje obojí.
+
+**Soubory, které build generuje pro Cloudflare:**
+- `docs/_headers` – HTTP hlavičky (CSP, HSTS, Referrer-Policy, nosniff, Permissions-Policy), funkce `build_headers()`. Hash jediného inline skriptu (`THEME_JS`) se do CSP počítá sám. Když stránka začne načítat cokoli z dalšího webu (skript, styl, obrázek, `fetch`), je nutné doplnit doménu do CSP, jinak to prohlížeč zablokuje.
+- `docs/404.html` – bez ní by Cloudflare vracel na neexistující adresy úvodní stránku se stavem 200.
+- Vlastní `robots.txt` web nemá; Cloudflare ho generuje sám (volba *Bot Preference Sync*, všechny roboty včetně AI povoleny). Kdyby byl potřeba vlastní, je třeba sladit ho s nastavením v Cloudflare.
+
+**Doména a DNS:**
+- `hd-v-datech.cz` je registrovaná u WEDOS (expirace 31. 10. 2027, prodlužuje se tam). U WEDOS je nastaven jen NSSET s nameservery Cloudflare a KEYSET pro DNSSEC; DNS záznamy se u WEDOS needitují.
+- DNS spravuje Cloudflare (nameservery `isla.ns.cloudflare.com`, `lennon.ns.cloudflare.com`). Záznamy:
+  - `hd-v-datech.cz` a `www` – vytvořilo je Pages (Custom domains), přes proxy Cloudflare;
+  - TXT `hd-v-datech.cz` `v=spf1 -all` a TXT `_dmarc` `v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s` – doména neposílá ani nepřijímá e-mail (žádné MX), záznamy brání podvrhům odesílatele;
+  - TXT `_github-pages-challenge-dinkotom` – ověření domény na GitHubu; ponechat, aby si doménu nemohl na GitHub Pages zabrat nikdo jiný.
+- **DNSSEC:** podepisuje Cloudflare (DNS → Settings → DNSSEC). Do registru .cz se nezadává DS, ale veřejný klíč: u WEDOS *Nastavení DNSSEC → vytvořit a použít vlastní KEYSET*, Flag KSK, algoritmus 13, klíč z Cloudflare (*Public Key*, key tag 2371). Kontrola: `dig +short DS hd-v-datech.cz @a.ns.nic.cz` a `dig +dnssec hd-v-datech.cz @1.1.1.1` (příznak `ad`).
+- **Při změně DNS nebo vypnutí DNSSEC v Cloudflare** je nutné nejdřív u WEDOS zrušit KEYSET a počkat, až DS zmizí z registru (TTL 1 h), jinak doména přestane fungovat. WEDOS nedovolí měnit nameservery, dokud nemá vyřízený požadavek na DNSSEC (trvá i několik hodin).
+
+**Pravidla v Cloudflare:**
+- Rules → Redirect Rules: `https://www.*` → `https://${1}`, 301, se zachováním parametrů – `www` přesměrovává na doménu bez `www`;
+- SSL/TLS: certifikát vydává Cloudflare automaticky, http přesměrovává na https.
 
 ## Hlášení chyb (Google Formulář)
 

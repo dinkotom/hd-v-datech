@@ -1,7 +1,7 @@
 ---
 title: "Opravy"
 description: "Přehled opravených chyb a nepřesností na webu."
-updated: "2026-11-02"
+updated: "2026-11-03"
 ---
 
 Na této stránce zveřejňujeme opravy, které na webu provedeme na základě hlášení čtenářů nebo vlastní kontroly. U každé opravy je datum, stránka, co bylo špatně a co platí nyní.
@@ -10,6 +10,7 @@ Chybu můžete nahlásit tlačítkem „Nahlásit chybu“ na konci každé str�
 
 | Datum | Stránka | Co bylo špatně | Oprava |
 |---|---|---|---|
+| 3. 11. 2026 | [O webu](o-webu.html) | Oddíl o osobních údajích neuváděl, že provozovatel hostingu při doručování stránek zpracovává IP adresu návštěvníka. | Doplněno: web hostuje Cloudflare Pages (předtím GitHub Pages), web sám statistiky návštěvnosti nevede. |
 | 2. 11. 2026 | [Úvod](index.html), [Souhrn srovnání](srovnani-souhrn.html) | Hlavní závěr zdůrazňoval tučně nízké investice a nejmenší majetek na obyvatele bez výhrady, že opravy silnic z let 2023–2024 (13,1 mil. Kč) se účtují do nákladů a v majetku se neprojeví. Chyběl údaj o investicích a opravách v roce 2026. | Výhrada doplněna, závěr přepsán bez zdůraznění; doplněn stav 2026 (5,8 mil. Kč zaplaceno do 30. 9. z plánovaných 19,2 mil.). |
 | 2. 11. 2026 | [Data ke stažení](data.html), [Majetek a zakázky](srovnani-majetek-zakazky.html) | V souborech financí byly ostatní dlouhodobé závazky (účet 459) za roky 2010–2011 nulové, protože rozvahy těchto let mají starší členění. Týkalo se HD 2011 (1,61 mil. Kč) a Lučiny 2010–2011. | Doplněno podle rozvah; souhlasí se souborem ukazatelů rozvahy a s textem. |
 | 2. 11. 2026 | [Volby a spolky](srovnani-volby-spolky.html), data voleb | U Dolních Domaslavic v roce 2002 byla uvedena kandidátka bez kandidátů s 0 hlasy (7 kandidátek). | Kandidátka byla stažena, platné hlasy odpovídají šesti kandidátkám; počet opraven na 6. |
