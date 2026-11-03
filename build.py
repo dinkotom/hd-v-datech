@@ -472,8 +472,9 @@ Lučina má výdaje spojené s nádrží Žermanice). Výhrady jsou uvedeny u je
 </ul>
 <h2>Hlášení chyb a osobní údaje</h2>
 {REPORT_PRIVACY}
-<p>Web nepoužívá cookies ani analytické nástroje a sám žádné statistiky návštěvnosti nevede. Hostuje ho služba Cloudflare Pages;
-Cloudflare jako provozovatel hostingu při doručování stránek zpracovává technické údaje o přístupu, včetně IP adresy.
+<p>Web nepoužívá cookies. Hostuje ho služba Cloudflare Pages; Cloudflare jako provozovatel hostingu při doručování stránek zpracovává technické údaje o přístupu, včetně IP adresy.
+Návštěvnost měříme službou Cloudflare Web Analytics. Ta nepoužívá cookies ani jiné ukládání do prohlížeče a návštěvníky nesleduje mezi dny ani mezi weby;
+vidíme jen souhrnné údaje: kolikrát byla která stránka zobrazena, odkud návštěvníci přišli, typ zařízení, země a rychlost načítání.
 Stránka Mapa načítá mapové podklady z OpenStreetMap a ČÚZK a knihovnu Leaflet z unpkg.com; jejich provozovatelé při tom také vidí IP adresu návštěvníka.</p>
 <h2>Licence</h2>
 <p>Texty, grafy a zpracovaná data tohoto webu můžete volně používat, upravovat a šířit, i komerčně, pokud uvedete zdroj („Horní Domaslavice v datech, hd-v-datech.cz“).
@@ -728,10 +729,10 @@ def build_headers():
     theme = base64.b64encode(hashlib.sha256(THEME_JS.encode()).digest()).decode()
     csp = '; '.join([
         "default-src 'self'",
-        f"script-src 'self' 'sha256-{theme}' https://unpkg.com",
+        f"script-src 'self' 'sha256-{theme}' https://unpkg.com https://static.cloudflareinsights.com",
         "style-src 'self' 'unsafe-inline' https://unpkg.com",
         "img-src 'self' data: https://unpkg.com https://tile.openstreetmap.org https://ags.cuzk.gov.cz",
-        "connect-src 'self' https://docs.google.com",
+        "connect-src 'self' https://docs.google.com https://cloudflareinsights.com",
         "object-src 'none'", "base-uri 'self'", "form-action 'self'", "frame-ancestors 'none'",
     ])
     return f"""/*

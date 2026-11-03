@@ -36,6 +36,7 @@ Od 3. 11. 2026. Do 2. 11. 2026 web běžel na GitHub Pages; ty jsou vypnuté, pr
 **Pravidla v Cloudflare:**
 - Rules → Redirect Rules: `https://www.*` → `https://${1}`, 301, se zachováním parametrů – `www` přesměrovává na doménu bez `www`;
 - SSL/TLS: certifikát vydává Cloudflare automaticky, http přesměrovává na https.
+- Návštěvnost: Pages projekt → Metrics → Web Analytics (Cloudflare skript `beacon.min.js` vkládá do stránek sám, bez cookies). V CSP jsou proto povoleny `static.cloudflareinsights.com` (skript) a `cloudflareinsights.com` (odesílání). Hrubé serverové statistiky jsou u domény v Analytics & Logs → HTTP Traffic.
 
 ## Hlášení chyb (Google Formulář)
 

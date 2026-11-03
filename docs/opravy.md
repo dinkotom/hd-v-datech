@@ -10,6 +10,7 @@ Chybu můžete nahlásit tlačítkem „Nahlásit chybu“ na konci každé str�
 
 | Datum | Stránka | Co bylo špatně | Oprava |
 |---|---|---|---|
+| 3. 11. 2026 | [O webu](https://hd-v-datech.cz/o-webu.html) | Změna, ne oprava: web dosud návštěvnost neměřil. | Zavedeno měření návštěvnosti službou Cloudflare Web Analytics (bez cookies, jen souhrnné údaje); popsáno v oddílu o osobních údajích. |
 | 3. 11. 2026 | [O webu](https://hd-v-datech.cz/o-webu.html) | Oddíl o osobních údajích neuváděl, že provozovatel hostingu při doručování stránek zpracovává IP adresu návštěvníka. | Doplněno: web hostuje Cloudflare Pages (předtím GitHub Pages), web sám statistiky návštěvnosti nevede. |
 | 2. 11. 2026 | [Úvod](https://hd-v-datech.cz/index.html), [Souhrn srovnání](https://hd-v-datech.cz/srovnani-souhrn.html) | Hlavní závěr zdůrazňoval tučně nízké investice a nejmenší majetek na obyvatele bez výhrady, že opravy silnic z let 2023–2024 (13,1 mil. Kč) se účtují do nákladů a v majetku se neprojeví. Chyběl údaj o investicích a opravách v roce 2026. | Výhrada doplněna, závěr přepsán bez zdůraznění; doplněn stav 2026 (5,8 mil. Kč zaplaceno do 30. 9. z plánovaných 19,2 mil.). |
 | 2. 11. 2026 | [Data ke stažení](https://hd-v-datech.cz/data.html), [Majetek a zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.html) | V souborech financí byly ostatní dlouhodobé závazky (účet 459) za roky 2010–2011 nulové, protože rozvahy těchto let mají starší členění. Týkalo se HD 2011 (1,61 mil. Kč) a Lučiny 2010–2011. | Doplněno podle rozvah; souhlasí se souborem ukazatelů rozvahy a s textem. |
