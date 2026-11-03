@@ -22,6 +22,7 @@ Od 3. 11. 2026. Do 2. 11. 2026 web běžel na GitHub Pages; ty jsou vypnuté, pr
 **Soubory, které build generuje pro Cloudflare:**
 - `docs/_headers` – HTTP hlavičky (CSP, HSTS, Referrer-Policy, nosniff, Permissions-Policy), funkce `build_headers()`. Hash jediného inline skriptu (`THEME_JS`) se do CSP počítá sám. Když stránka začne načítat cokoli z dalšího webu (skript, styl, obrázek, `fetch`), je nutné doplnit doménu do CSP, jinak to prohlížeč zablokuje.
 - `docs/404.html` – bez ní by Cloudflare vracel na neexistující adresy úvodní stránku se stavem 200.
+- `docs/sitemap.xml` a `docs/robots.txt` (odkaz na sitemap; Cloudflare před něj sám přidává své nastavení pro roboty). Každá stránka má kanonickou adresu bez `.html`, Open Graph (náhled při sdílení, obrázek `img/og.png` 1200 × 630) a ikonu `static/favicon.svg` + `img/apple-touch-icon.png`. Úvod nese strukturovaná data `WebSite`, stránka Data `Dataset` (Google Dataset Search).
 - Vlastní `robots.txt` web nemá; Cloudflare ho generuje sám (volba *Bot Preference Sync*, všechny roboty včetně AI povoleny). Kdyby byl potřeba vlastní, je třeba sladit ho s nastavením v Cloudflare.
 
 **Doména a DNS:**

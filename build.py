@@ -7,6 +7,7 @@ import base64
 import csv
 import hashlib
 import html
+import json
 import os
 import re
 import shutil
@@ -24,6 +25,9 @@ UPDATED = '3. 11. 2026'
 REPO_URL = 'https://github.com/dinkotom/hd-v-datech'
 DOMAIN = 'hd-v-datech.cz'
 SITE_URL = f'https://{DOMAIN}/'
+LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/'
+AUTHOR = {'@type': 'Person', 'name': 'Tomáš Dinkov'}
+LASTMOD = {}  # slug -> ISO date from front matter, for sitemap.xml
 
 # Inline theme bootstrap (runs before CSS paint); its hash is allowed in the CSP.
 THEME_JS = ("try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')"
@@ -149,11 +153,34 @@ def body_attrs():
     return a
 
 
-def page(slug, title, body, description='', lede=''):
+def page_url(slug):
+    # Cloudflare Pages serves /x.html as /x (308), so canonical URLs have no extension
+    return SITE_URL if slug == 'index' else SITE_URL + slug
+
+
+def page(slug, title, body, description='', lede='', jsonld=None):
     desc = esc(description or lede or SITE)
     head_title = SITE if slug == 'index' else f'{title} – {SITE}'
     lede_html = f'<p class="lede">{esc(lede)}</p>' if lede else ''
     alt_md = f'<link rel="alternate" type="text/markdown" href="{slug}.md">\n' if os.path.exists(os.path.join(OUT, slug + '.md')) else ''
+    if slug == '404':
+        seo = '<meta name="robots" content="noindex">\n'
+    else:
+        url = page_url(slug)
+        seo = f'''<link rel="canonical" href="{url}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{SITE}">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:title" content="{esc(head_title)}">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{SITE_URL}img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+'''
+    if jsonld:
+        seo += f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>\n'
     return f'''<!doctype html>
 <html lang="cs">
 <head>
@@ -161,6 +188,8 @@ def page(slug, title, body, description='', lede=''):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(head_title)}</title>
 <meta name="description" content="{desc}">
+{seo}<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="stylesheet" href="static/style.css">
 {alt_md}<script>{THEME_JS}</script>
 </head>
@@ -379,7 +408,10 @@ Podrobnosti a výhrady ke srovnatelnosti jsou v <a href="srovnani-souhrn.html">s
 <h2>Srovnání s podobnými obcemi</h2>
 {cards("Srovnání s podobnými obcemi")}
 '''
-    return page('index', SITE, body, lede='Veřejná data o obci na jednom místě: lidé, peníze, majetek, výstavba a srovnání se sousedními obcemi.')
+    return page('index', SITE, body, lede='Veřejná data o obci na jednom místě: lidé, peníze, majetek, výstavba a srovnání se sousedními obcemi.',
+                description='Občanský přehled veřejných dat o obci Horní Domaslavice: obyvatelé, rozpočet a výdaje, majetek, výstavba, volby a srovnání se sousedními obcemi.',
+                jsonld={'@context': 'https://schema.org', '@type': 'WebSite', 'name': SITE, 'url': SITE_URL, 'inLanguage': 'cs',
+                        'description': 'Neoficiální občanský přehled veřejných dat o obci Horní Domaslavice.', 'author': AUTHOR, 'license': LICENSE_URL})
 
 
 DATA_DESC = {
@@ -439,7 +471,16 @@ Co znamená který sloupec, popisuje <a href="slovnik-dat.html">slovník dat</a>
 <li><a href="https://www.volby.cz/">volby.cz</a> – výsledky voleb</li>
 <li><a href="https://smlouvy.gov.cz/">Registr smluv</a>, profily zadavatelů, ARES a další rejstříky</li>
 </ul>'''
-    return page('data', 'Data ke stažení', body, lede='Všechna čísla na webu lze ověřit ve zdrojových datech.')
+    dataset = {'@context': 'https://schema.org', '@type': 'Dataset', 'name': f'{SITE} – data ke stažení',
+               'description': 'Výřezy a výpočty z veřejných zdrojů (Ministerstvo financí, ČSÚ, ČÚZK, volby.cz a další) o obci Horní Domaslavice '
+                              'a srovnávaných obcích: rozpočty a účetnictví, obyvatelstvo, výstavba, plochy, volby, usnesení zastupitelstva.',
+               'url': page_url('data'), 'inLanguage': 'cs', 'license': LICENSE_URL, 'isAccessibleForFree': True,
+               'creator': AUTHOR, 'spatialCoverage': {'@type': 'Place', 'name': 'Horní Domaslavice, okres Frýdek-Místek'},
+               'distribution': [{'@type': 'DataDownload', 'encodingFormat': 'text/csv', 'contentUrl': f'{SITE_URL}data/{f}', 'name': f}
+                                for f in sorted(os.listdir(os.path.join(ROOT, 'data'))) if f.endswith('.csv')]}
+    return page('data', 'Data ke stažení', body, lede='Všechna čísla na webu lze ověřit ve zdrojových datech.',
+                description='Data o obci Horní Domaslavice ke stažení v CSV: finance, obyvatelstvo, výstavba, volby, usnesení a srovnání se sousedními obcemi.',
+                jsonld=dataset)
 
 
 def build_about():
@@ -483,7 +524,8 @@ Původní data se řídí podmínkami svých zdrojů (ČSÚ, Ministerstvo financ
 <h2>Autor</h2>
 <p>Tomáš Dinkov</p>
 <p>Poslední aktualizace: {UPDATED}.</p>'''
-    return page('o-webu', 'O webu a metodika', body, lede='Kdo web dělá, z čeho vychází a jak se počítají čísla.')
+    return page('o-webu', 'O webu a metodika', body, lede='Kdo web dělá, z čeho vychází a jak se počítají čísla.',
+                description='Kdo web Horní Domaslavice v datech dělá, z jakých veřejných zdrojů vychází a jak se počítají čísla.')
 
 
 def build_md_pages():
@@ -500,6 +542,7 @@ def build_md_pages():
             body += '<script src="static/usneseni.js" defer></script>'
         if meta.get('updated'):
             d = meta['updated']
+            LASTMOD[slug] = d
             m = re.match(r'(\d{4})-(\d{2})-(\d{2})$', d)
             if m:
                 d = f'{int(m.group(3))}. {int(m.group(2))}. {m.group(1)}'
@@ -604,7 +647,8 @@ def build_slovnik():
         fh.write(md + '\n')
     body = md_to_html(re.sub(r'^# .*\n', '', md, count=1))
     body = body.replace(f'href="{SITE_URL}', 'href="')
-    html_ = page('slovnik-dat', 'Slovník dat', body, lede='Co znamená který sloupec v datech ke stažení.')
+    html_ = page('slovnik-dat', 'Slovník dat', body, lede='Co znamená který sloupec v datech ke stažení.',
+                 description='Slovník dat webu Horní Domaslavice v datech: co znamená který sloupec v souborech ke stažení.')
     return html_, warnings
 
 
@@ -699,7 +743,8 @@ V úvodní zprávě pak místo odkazu napište „Přečti si přiložený soubo
 <li><a href="slovnik-dat.html">Slovník dat</a> a <a href="data.html">CSV soubory</a> pro vlastní výpočty, třeba v Excelu nebo v Pythonu.</li>
 </ul>'''
     return page('zeptejte-se-ai', 'Zeptejte se AI', body,
-                lede='Ptejte se na data o obci vlastními slovy a nechte si odpověď vysvětlit.')
+                lede='Ptejte se na data o obci vlastními slovy a nechte si odpověď vysvětlit.',
+                description='Jak se na data o obci Horní Domaslavice zeptat AI asistenta vlastními slovy a nechat si odpověď vysvětlit.')
 
 
 def check_links(slugs):
@@ -723,6 +768,20 @@ def build_404():
 <p>Pokračujte na <a href="index.html">úvodní stránku</a> nebo do <a href="data.html">přehledu dat ke stažení</a>.</p>'''
     # served for any missing path, so make relative links root-relative
     return re.sub(r'(href|src)="(?![a-z]+:|/|#)', r'\1="/', page('404', 'Stránka nenalezena', body))
+
+
+def build_seo_files(slugs):
+    m = re.match(r'(\d+)\. (\d+)\. (\d{4})$', UPDATED)
+    site_date = f'{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}'
+    urls = []
+    for slug in ['index', 'data', 'o-webu', 'slovnik-dat', 'zeptejte-se-ai'] + list(slugs):
+        urls.append(f'<url><loc>{page_url(slug)}</loc><lastmod>{LASTMOD.get(slug, site_date)}</lastmod></url>')
+    with open(os.path.join(OUT, 'sitemap.xml'), 'w', encoding='utf-8') as fh:
+        fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                 + '\n'.join(urls) + '\n</urlset>\n')
+    # Cloudflare prepends its bot preferences (content signals) to this file
+    with open(os.path.join(OUT, 'robots.txt'), 'w', encoding='utf-8') as fh:
+        fh.write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n')
 
 
 def build_headers():
@@ -760,6 +819,7 @@ def main():
         with open(os.path.join(OUT, name + '.html'), 'w', encoding='utf-8') as fh:
             fh.write(html_)
     bad = check_links(slugs)
+    build_seo_files(slugs)
     with open(os.path.join(OUT, '404.html'), 'w', encoding='utf-8') as fh:  # after check_links: root-relative links
         fh.write(build_404())
     print(f'{len(slugs)} stránek z obsah/, výstup v docs/')

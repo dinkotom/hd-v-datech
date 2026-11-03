@@ -2,7 +2,7 @@
 
 Zdroj: https://hd-v-datech.cz/opravy.html (aktualizováno 2026-11-03)
 
-> Přehled opravených chyb a nepřesností na webu.
+> Přehled opravených chyb a nepřesností na webu Horní Domaslavice v datech.
 
 Na této stránce zveřejňujeme opravy, které na webu provedeme na základě hlášení čtenářů nebo vlastní kontroly. U každé opravy je datum, stránka, co bylo špatně a co platí nyní.
 

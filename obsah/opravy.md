@@ -1,6 +1,6 @@
 ---
 title: "Opravy"
-description: "Přehled opravených chyb a nepřesností na webu."
+description: "Přehled opravených chyb a nepřesností na webu Horní Domaslavice v datech."
 updated: "2026-11-03"
 ---
 
