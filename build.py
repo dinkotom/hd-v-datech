@@ -28,6 +28,8 @@ SITE_URL = f'https://{DOMAIN}/'
 LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/'
 AUTHOR = {'@type': 'Person', 'name': 'Tomáš Dinkov'}
 LASTMOD = {}  # slug -> ISO date from front matter, for sitemap.xml
+# search engine ownership checks, on the homepage only (Google is verified via DNS)
+SITE_VERIFICATION = {'seznam-wmt': 'OkVkoAlumkvjfsvLmZvDXsiE4ADYNBAq'}
 
 # Inline theme bootstrap (runs before CSS paint); its hash is allowed in the CSP.
 THEME_JS = ("try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')"
@@ -179,6 +181,8 @@ def page(slug, title, body, description='', lede='', jsonld=None):
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 '''
+    if slug == 'index':
+        seo += ''.join(f'<meta name="{k}" content="{v}">\n' for k, v in SITE_VERIFICATION.items())
     if jsonld:
         seo += f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>\n'
     return f'''<!doctype html>
