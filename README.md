@@ -34,6 +34,8 @@ Od 3. 11. 2026. Do 2. 11. 2026 web běžel na GitHub Pages; ty jsou vypnuté, pr
 - **DNSSEC:** podepisuje Cloudflare (DNS → Settings → DNSSEC). Do registru .cz se nezadává DS, ale veřejný klíč: u WEDOS *Nastavení DNSSEC → vytvořit a použít vlastní KEYSET*, Flag KSK, algoritmus 13, klíč z Cloudflare (*Public Key*, key tag 2371). Kontrola: `dig +short DS hd-v-datech.cz @a.ns.nic.cz` a `dig +dnssec hd-v-datech.cz @1.1.1.1` (příznak `ad`).
 - **Při změně DNS nebo vypnutí DNSSEC v Cloudflare** je nutné nejdřív u WEDOS zrušit KEYSET a počkat, až DS zmizí z registru (TTL 1 h), jinak doména přestane fungovat. WEDOS nedovolí měnit nameservery, dokud nemá vyřízený požadavek na DNSSEC (trvá i několik hodin).
 
+**Repozitář na GitHubu:** veřejný, zapnuté jen Issues (hlášení chyb). Wiki, Projects a GitHub Actions jsou vypnuté. Nasazení na Cloudflare Actions nepotřebuje, používá aplikaci Cloudflare s přístupem jen k tomuto repu. Kdo může do `main` pushovat, může změnit web, proto je na účtu nutné dvoufázové přihlášení (2FA).
+
 **Vyhledávače** (registrováno 3. 11. 2026):
 - Google Search Console – vlastnost typu Doména `hd-v-datech.cz` (ověření přes DNS v Cloudflare), odeslána sitemap `https://hd-v-datech.cz/sitemap.xml`;
 - Seznam Webmaster – `https://hd-v-datech.cz/`, ověření meta tagem `seznam-wmt` na úvodní stránce (`SITE_VERIFICATION` v `build.py`; tag neodstraňovat ani negenerovat nový), sitemap si Seznam bere z `robots.txt`;
