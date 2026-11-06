@@ -7,14 +7,14 @@ Popis datových souborů webu Horní Domaslavice v datech (https://hd-v-datech.c
 Výměry druhů pozemků po katastrálních územích HD a sousedních obcí (orná půda, louky, lesy, zastavěné plochy…).
 
 - Odkaz: [data/CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv](https://hd-v-datech.cz/data/CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv)
-- Řádků: 21; jeden řádek = jeden rok × katastrální území
+- Řádků: 27; jeden řádek = jeden rok × katastrální území
 - Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků (UHDP).
 - Pozor: Dolní Domaslavice mají dvě katastrální území (Dolní Domaslavice a Volovec), Lučina také (Lučina a Kocurovice). Za obec je třeba řádky sečíst podle sloupce `obec`.
 
 | Sloupec | Význam |
 |---|---|
 | `rok` | Rok stavu (1. 1. 2004, 1. 1. 2014, 1. 10. 2026). |
-| `obec` | Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice); v souboru podobných obcí PL, REB, ZAV. |
+| `obec` | Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice), NOS (Nošovice), DTO (Dolní Tošanovice); v souboru podobných obcí PL, REB, ZAV. |
 | `ku_kod` | Kód katastrálního území. |
 | `ku` | Název katastrálního území. |
 | `celkem_ha` | Výměra celkem, ha. |
@@ -345,7 +345,7 @@ Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 
 
 - Odkaz: [data/podobne_obce_subjekty_ARES_souhrn.csv](https://hd-v-datech.cz/data/podobne_obce_subjekty_ARES_souhrn.csv)
 - Řádků: 4; jeden řádek = jedna obec
-- Zdroj: ARES, vyhledání podle kódu obce sídla (POST /ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat); HD, Pazderna, DD a Lučina stav k 30. 10. 2026, ostatní obce k 1. 11. 2026.
+- Zdroj: ARES, vyhledání podle kódu obce sídla (POST /ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat); HD, Pazderna, DD a Lučina stav k 30. 10. 2026, Vojkovice k 1. 11. 2026, Nošovice a Dolní Tošanovice k 6. 11. 2026.
 - Pozor: Počítá se sídlo, ne místo působení. Podnikající FO jsou v ARES i tehdy, když aktivně nepodnikají.
 
 | Sloupec | Význam |
@@ -738,13 +738,13 @@ Rozpočet 2026: výdaje podle účelu – schváleno, upraveno, skutečnost k 30
 Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jsou domy a kolik tvoří skupin.
 
 - Odkaz: [data/roztrisenost_sousede.csv](https://hd-v-datech.cz/data/roztrisenost_sousede.csv)
-- Řádků: 5; jeden řádek = jedna obec
+- Řádků: 7; jeden řádek = jedna obec
 - Zdroj: Výpočet z polohy budov v RÚIAN (stav 30. 9. 2026).
 - Pozor: „Shluk N m“ = skupina domů, kde každý dům má souseda ve skupině blíž než N metrů.
 
 | Sloupec | Význam |
 |---|---|
-| `obec` | Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice); v souboru podobných obcí PL (Písková Lhota), REB (Rebešovice), ZAV (Závišice). |
+| `obec` | Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice), NOS (Nošovice), DTO (Dolní Tošanovice); v souboru podobných obcí PL (Písková Lhota), REB (Rebešovice), ZAV (Závišice). |
 | `domy_bydleni` | Počet budov pro bydlení. |
 | `rekreacni_objekty` | Počet rekreačních objektů (do výpočtu nezahrnuty). |
 | `mst_m_na_dum` | Délka nejkratší sítě spojující všechny domy (minimální kostra) na jeden dům, m. Hrubý odhad délky sítí na dům. |
@@ -774,10 +774,10 @@ Ukazatele roztříštěnosti zástavby: jak daleko od sebe a od středu obce jso
 
 ## skolstvi_socialni_exekuce_2026-10.csv
 
-Osoby v exekuci podle Exekutorské komory: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), jejich okresy, kraje a ČR.
+Osoby v exekuci podle Exekutorské komory: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice, Dolní Tošanovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), jejich okresy, kraje a ČR.
 
 - Odkaz: [data/skolstvi_socialni_exekuce_2026-10.csv](https://hd-v-datech.cz/data/skolstvi_socialni_exekuce_2026-10.csv)
-- Řádků: 16; jeden řádek = jedno území (obec, okres, kraj, ČR)
+- Řádků: 18; jeden řádek = jedno území (obec, okres, kraj, ČR)
 - Zdroj: Exekutorská komora ČR, mapa exekucí (obce.json, stav k 1. 10. 2026); obyvatelé 15+ ČSÚ.
 - Pozor: Podíl je počítán dvakrát: ze sčítání 2021 a z počtu obyvatel 15+ k 31. 12. 2024.
 
@@ -798,10 +798,10 @@ Osoby v exekuci podle Exekutorské komory: HD, sousední obce (Pazderna, Dolní 
 
 ## skolstvi_socialni_kriminalita_2013-2026.csv
 
-Trestné činy, přestupky a dopravní nehody podle mapy kriminality Policie ČR: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
+Trestné činy, přestupky a dopravní nehody podle mapy kriminality Policie ČR: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice, Dolní Tošanovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
 
 - Odkaz: [data/skolstvi_socialni_kriminalita_2013-2026.csv](https://hd-v-datech.cz/data/skolstvi_socialni_kriminalita_2013-2026.csv)
-- Řádků: 112; jeden řádek = jedna obec × rok
+- Řádků: 140; jeden řádek = jedna obec × rok
 - Zdroj: Policie ČR, mapa kriminality (API), 2013–2026; obyvatelé ČSÚ.
 - Pozor: Rok 2026 je neúplný (sloupec posledni_datum). Policie zveřejňuje jen vybrané druhy trestných činů. Na malých obcích jeden pachatel výrazně mění čísla.
 
@@ -823,10 +823,10 @@ Trestné činy, přestupky a dopravní nehody podle mapy kriminality Policie ČR
 
 ## skolstvi_socialni_nezamestnanost_MPSV_rocni.csv
 
-Podíl nezaměstnaných osob (PNO) podle MPSV, roční průměry: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), okresy a ČR.
+Podíl nezaměstnaných osob (PNO) podle MPSV, roční průměry: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice, Dolní Tošanovice) a podobné obce (Písková Lhota, Rebešovice, Závišice), okresy a ČR.
 
 - Odkaz: [data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv](https://hd-v-datech.cz/data/skolstvi_socialni_nezamestnanost_MPSV_rocni.csv)
-- Řádků: 26; jeden řádek = jedno území × rok
+- Řádků: 30; jeden řádek = jedno území × rok
 - Zdroj: MPSV, otevřená data evidence uchazečů (evid_pno_adresa_agr_frz_odata), data do 9/2026.
 - Pozor: Rok 2026 je průměr jen za dostupné měsíce (sloupec pocet_mesicu). U malých obcí kolísá podíl i o jednotlivce.
 
@@ -845,10 +845,10 @@ Podíl nezaměstnaných osob (PNO) podle MPSV, roční průměry: HD, sousední 
 
 ## skolstvi_socialni_ovzdusi_CHMU.csv
 
-Pětileté průměry znečištění ovzduší (benzo(a)pyren, PM10, PM2,5, NO2) v čtvercích 1 × 1 km: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
+Pětileté průměry znečištění ovzduší (benzo(a)pyren, PM10, PM2,5, NO2) v čtvercích 1 × 1 km: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice, Dolní Tošanovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
 
 - Odkaz: [data/skolstvi_socialni_ovzdusi_CHMU.csv](https://hd-v-datech.cz/data/skolstvi_socialni_ovzdusi_CHMU.csv)
-- Řádků: 240; jeden řádek = jedna obec × období × ukazatel
+- Řádků: 300; jeden řádek = jedna obec × období × ukazatel
 - Zdroj: ČHMÚ, pětileté průměrné koncentrace ve čtvercové síti 1 km (sit1000_5lprum); hranice obcí RÚIAN/MSK.
 - Pozor: Jde o modelové hodnoty pro čtverce 1 km, ne o měření v obci. Limit benzo(a)pyrenu je 1 ng/m³.
 
@@ -868,11 +868,11 @@ Pětileté průměry znečištění ovzduší (benzo(a)pyren, PM10, PM2,5, NO2) 
 
 ## skolstvi_socialni_skoly_rejstrik_2026-11.csv
 
-Školy a školská zařízení v obcích podle rejstříku škol MŠMT: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice) (a ZŠ a MŠ Dobratice, kam patří MŠ ve Vojkovicích).
+Školy a školská zařízení v obcích podle rejstříku škol MŠMT: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice, Dolní Tošanovice) a podobné obce (Písková Lhota, Rebešovice, Závišice) (a ZŠ a MŠ Dobratice, kam patří MŠ ve Vojkovicích).
 
 - Odkaz: [data/skolstvi_socialni_skoly_rejstrik_2026-11.csv](https://hd-v-datech.cz/data/skolstvi_socialni_skoly_rejstrik_2026-11.csv)
-- Řádků: 28; jeden řádek = jedna součást školy (MŠ, ZŠ, družina, jídelna…)
-- Zdroj: MŠMT, rejstřík škol a školských zařízení (krajské výstupy JSON-LD, stav k 1. 11. 2026).
+- Řádků: 33; jeden řádek = jedna součást školy (MŠ, ZŠ, družina, jídelna…)
+- Zdroj: MŠMT, rejstřík škol a školských zařízení (krajské výstupy JSON-LD, stav k 1. 11. 2026, u Nošovic a Dolních Tošanovic k 6. 11. 2026).
 
 | Sloupec | Význam |
 |---|---|
@@ -892,11 +892,11 @@ Pětileté průměry znečištění ovzduší (benzo(a)pyren, PM10, PM2,5, NO2) 
 
 ## skolstvi_socialni_zdravotni_socialni_sluzby.csv
 
-Zdravotní a sociální služby s místem poskytování v obci: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
+Zdravotní a sociální služby s místem poskytování v obci: HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice, Dolní Tošanovice) a podobné obce (Písková Lhota, Rebešovice, Závišice).
 
 - Odkaz: [data/skolstvi_socialni_zdravotni_socialni_sluzby.csv](https://hd-v-datech.cz/data/skolstvi_socialni_zdravotni_socialni_sluzby.csv)
-- Řádků: 12; jeden řádek = jedno místo poskytování nebo souhrnný řádek obce
-- Zdroj: Národní registr poskytovatelů zdravotních služeb (NRPZS) a registr poskytovatelů sociálních služeb MPSV, stav 1. 11. 2026.
+- Řádků: 20; jeden řádek = jedno místo poskytování nebo souhrnný řádek obce
+- Zdroj: Národní registr poskytovatelů zdravotních služeb (NRPZS) a registr poskytovatelů sociálních služeb MPSV, stav 1. 11. 2026, u Nošovic a Dolních Tošanovic 6. 11. 2026.
 - Pozor: Poskytovatelé, kteří jsou fyzickými osobami, jsou uvedeni jen jako „fyzická osoba“.
 
 | Sloupec | Význam |
@@ -957,13 +957,13 @@ Součty ukazatelů za volební období a průměr na obyvatele a rok.
 Ekonomické subjekty se sídlem v obci podle právní formy (ARES). HD a sousední obce.
 
 - Odkaz: [data/subjekty_ARES_pravni_forma_sousede.csv](https://hd-v-datech.cz/data/subjekty_ARES_pravni_forma_sousede.csv)
-- Řádků: 55; jeden řádek = jedna obec × právní forma
+- Řádků: 77; jeden řádek = jedna obec × právní forma
 - Zdroj: ARES (jako souhrn subjektů); názvy právních forem z číselníku ARES PravniForma.
 
 | Sloupec | Význam |
 |---|---|
 | `kod_obce` | Kód obce podle ČSÚ (HD 512192). |
-| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice. |
+| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice nebo Dolní Tošanovice. |
 | `pravni_forma_kod` | Kód právní formy. |
 | `pravni_forma` | Název právní formy. |
 | `pocet` | Počet subjektů. |
@@ -974,14 +974,14 @@ Ekonomické subjekty se sídlem v obci podle právní formy (ARES). HD a sousedn
 Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 000 obyvatel. HD a sousední obce.
 
 - Odkaz: [data/subjekty_ARES_souhrn_sousede.csv](https://hd-v-datech.cz/data/subjekty_ARES_souhrn_sousede.csv)
-- Řádků: 5; jeden řádek = jedna obec
-- Zdroj: ARES, vyhledání podle kódu obce sídla (POST /ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat); HD, Pazderna, DD a Lučina stav k 30. 10. 2026, ostatní obce k 1. 11. 2026.
+- Řádků: 7; jeden řádek = jedna obec
+- Zdroj: ARES, vyhledání podle kódu obce sídla (POST /ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat); HD, Pazderna, DD a Lučina stav k 30. 10. 2026, Vojkovice k 1. 11. 2026, Nošovice a Dolní Tošanovice k 6. 11. 2026.
 - Pozor: Počítá se sídlo, ne místo působení. Podnikající FO jsou v ARES i tehdy, když aktivně nepodnikají.
 
 | Sloupec | Význam |
 |---|---|
 | `kod_obce` | Kód obce podle ČSÚ (HD 512192). |
-| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice. |
+| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice nebo Dolní Tošanovice. |
 | `obyvatel_1_7_2025` | Obyvatelé k 1. 7. 2025 (ČSÚ), základ přepočtu. |
 | `subjektu_celkem` | Subjekty celkem. |
 | `na_1000` | Subjekty na 1 000 obyvatel. |
@@ -998,13 +998,13 @@ Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 
 Rozpis transferů z `transfery_NNO_*` podle paragrafu a položky. HD a sousední obce.
 
 - Odkaz: [data/transfery_NNO_paragrafy_sousede_2010-2025.csv](https://hd-v-datech.cz/data/transfery_NNO_paragrafy_sousede_2010-2025.csv)
-- Řádků: 495; jeden řádek = jedna obec × rok × paragraf × položka
+- Řádků: 673; jeden řádek = jedna obec × rok × paragraf × položka
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 
 | Sloupec | Význam |
 |---|---|
 | `kod_obce` | Kód obce podle ČSÚ (HD 512192). |
-| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice. |
+| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice nebo Dolní Tošanovice. |
 | `rok` | Rozpočtový rok. |
 | `paragraf` | Paragraf rozpočtové skladby. |
 | `polozka` | Položka (5221, 5222, 5223, 5229, 5492, 5493, 6322). |
@@ -1018,7 +1018,7 @@ Rozpis transferů z `transfery_NNO_*` podle paragrafu a položky. HD a sousední
 Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letech 2010–2025. HD a sousední obce.
 
 - Odkaz: [data/transfery_NNO_sousede_2010-2025.csv](https://hd-v-datech.cz/data/transfery_NNO_sousede_2010-2025.csv)
-- Řádků: 80; jeden řádek = jedna obec × rok
+- Řádků: 112; jeden řádek = jedna obec × rok
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M za prosinec (skutečnost); obyvatelé ČSÚ k 1. 7.
 - Pozor: Hlavní ukazatel webu je `NNO_bez_par_6171_52xx_62xx` (položky 5221 + 5222 + 5229 bez § 6171 a § 52xx, 62xx).
 - Pozor: Výkaz neukazuje příjemce plateb.
@@ -1026,7 +1026,7 @@ Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letec
 | Sloupec | Význam |
 |---|---|
 | `kod_obce` | Kód obce podle ČSÚ (HD 512192). |
-| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice. |
+| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice nebo Dolní Tošanovice. |
 | `rok` | Rozpočtový rok. |
 | `obyvatel_1_7` | Obyvatelé k 1. 7. |
 | `pol_5221` | Položka 5221 – obecně prospěšným společnostem. Kč. |
@@ -1045,16 +1045,16 @@ Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letec
 
 ## ukazatele_rozvaha_vzz_sousede.csv
 
-Rozvaha a výkaz zisku a ztráty HD a sousedních obcí (včetně Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.
+Rozvaha a výkaz zisku a ztráty HD a všech šesti sousedních obcí: majetek, peníze, závazky, náklady, výnosy, odpisy.
 
 - Odkaz: [data/ukazatele_rozvaha_vzz_sousede.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_sousede.csv)
-- Řádků: 80; jeden řádek = jedna obec × rok (stav k 31. 12.)
+- Řádků: 112; jeden řádek = jedna obec × rok (stav k 31. 12.)
 - Zdroj: Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.
 - Pozor: Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.
 
 | Sloupec | Význam |
 |---|---|
-| `obec` | Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina). |
+| `obec` | Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice), NOS (Nošovice), DTO (Dolní Tošanovice). |
 | `nazev` | Název obce. |
 | `kod_obce` | Kód obce ČSÚ. |
 | `rok` | Rok (stav k 31. 12.). |
@@ -1141,14 +1141,14 @@ Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 20
 Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený typ kandidátky. HD a sousední obce.
 
 - Odkaz: [data/volby_komunalni_kandidatky_sousede_1994-2026.csv](https://hd-v-datech.cz/data/volby_komunalni_kandidatky_sousede_1994-2026.csv)
-- Řádků: 144; jeden řádek = jedna obec × volby × kandidátka
+- Řádků: 193; jeden řádek = jedna obec × volby × kandidátka
 - Zdroj: volby.cz (jako u souhrnu komunálních voleb).
 - Pozor: Kandidátky pojmenované jménem jednotlivého kandidáta jsou nahrazeny textem „kandidátka jednotlivce (NK)“; web neuvádí jména fyzických osob.
 
 | Sloupec | Význam |
 |---|---|
 | `kod_obce` | Kód obce podle ČSÚ (HD 512192). |
-| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice. |
+| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice nebo Dolní Tošanovice. |
 | `rok` | Rok voleb. |
 | `cislo` | Číslo kandidátky (volební strany) podle volby.cz. |
 | `kandidatka` | Název kandidátky (zkrácený tak, jak ho uvádí volby.cz). |
@@ -1165,7 +1165,7 @@ Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený ty
 Kolik zastupitelů zvolených v daném roce bylo zvoleno už v předchozích volbách (bez jmen). HD a sousední obce.
 
 - Odkaz: [data/volby_komunalni_kontinuita_sousede_2002-2026.csv](https://hd-v-datech.cz/data/volby_komunalni_kontinuita_sousede_2002-2026.csv)
-- Řádků: 35; jeden řádek = jedna obec × volby (od roku 2002)
+- Řádků: 49; jeden řádek = jedna obec × volby (od roku 2002)
 - Zdroj: Výpočet ze seznamů zvolených na volby.cz; porovnává se příjmení a jméno bez titulů.
 - Pozor: Změny příjmení se nezjišťovaly (u HD je známý jeden případ v roce 2026, není započten).
 - Pozor: Ve Vojkovicích byli v letech 2018 a 2022 zvoleni dva lidé se stejným jménem; rozlišeni jsou podle věku.
@@ -1173,7 +1173,7 @@ Kolik zastupitelů zvolených v daném roce bylo zvoleno už v předchozích vol
 | Sloupec | Význam |
 |---|---|
 | `kod_obce` | Kód obce podle ČSÚ (HD 512192). |
-| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice. |
+| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice nebo Dolní Tošanovice. |
 | `rok` | Rok voleb. |
 | `zvolenych_se_jmenem` | Počet zvolených. |
 | `zvoleni_i_v_minulych_volbach` | Z nich zvolení i v bezprostředně předchozích volbách. |
@@ -1186,7 +1186,7 @@ Kolik zastupitelů zvolených v daném roce bylo zvoleno už v předchozích vol
 Komunální volby 1994–2026 po obcích: voliči, účast, počet kandidátek a mandátů, rozdělení mandátů, typ kandidátek. HD a sousední obce.
 
 - Odkaz: [data/volby_komunalni_sousede_1994-2026.csv](https://hd-v-datech.cz/data/volby_komunalni_sousede_1994-2026.csv)
-- Řádků: 45; jeden řádek = jedna obec × volby
+- Řádků: 63; jeden řádek = jedna obec × volby
 - Zdroj: volby.cz: výsledky za obec (kv1111) a seznamy zvolených (kv21111) 1994–2022, datové soubory kv2026 (vygenerováno 11. 10. 2026).
 - Pozor: Typ kandidátky je odvozený z navrhující strany zvolených kandidátů, u kandidátek bez mandátu a u roku 1994 z názvu.
 - Pozor: Pro rok 1994 volby.cz jména zvolených neuvádí, sloupce o zvolených jsou proto 0.
@@ -1194,7 +1194,7 @@ Komunální volby 1994–2026 po obcích: voliči, účast, počet kandidátek a
 | Sloupec | Význam |
 |---|---|
 | `kod_obce` | Kód obce podle ČSÚ (HD 512192). |
-| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice. |
+| `obec` | Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice nebo Dolní Tošanovice. |
 | `rok` | Rok voleb. |
 | `pocet_clenu_zo` | Počet členů zastupitelstva (mandátů). |
 | `volici` | Voliči v seznamu. |
@@ -1217,7 +1217,7 @@ Komunální volby 1994–2026 po obcích: voliči, účast, počet kandidátek a
 Prezidentská volba 2023: účast v obou kolech a výsledek 2. kola (bez jmen kandidátů). HD, sousední obce, okres FM a ČR.
 
 - Odkaz: [data/volby_prezidentska_2023_sousede.csv](https://hd-v-datech.cz/data/volby_prezidentska_2023_sousede.csv)
-- Řádků: 14; jeden řádek = jedno území × kolo
+- Řádků: 18; jeden řádek = jedno území × kolo
 - Zdroj: volby.cz, pls/prez2023 (pe311, pe2).
 
 | Sloupec | Význam |
@@ -1239,7 +1239,7 @@ Prezidentská volba 2023: účast v obou kolech a výsledek 2. kola (bez jmen ka
 Výsledky stran ve volbách do Poslanecké sněmovny 2013–2025. HD a sousední obce.
 
 - Odkaz: [data/volby_snemovni_strany_sousede_2013-2025.csv](https://hd-v-datech.cz/data/volby_snemovni_strany_sousede_2013-2025.csv)
-- Řádků: 612; jeden řádek = jedno území × volby × strana
+- Řádků: 782; jeden řádek = jedno území × volby × strana
 - Zdroj: volby.cz, appdata ps{rok}.
 
 | Sloupec | Význam |
@@ -1257,7 +1257,7 @@ Výsledky stran ve volbách do Poslanecké sněmovny 2013–2025. HD a sousední
 Účast ve volbách do Poslanecké sněmovny 2013–2025. HD a sousední obce.
 
 - Odkaz: [data/volby_snemovni_ucast_sousede_2013-2025.csv](https://hd-v-datech.cz/data/volby_snemovni_ucast_sousede_2013-2025.csv)
-- Řádků: 28; jeden řádek = jedno území × volby
+- Řádků: 36; jeden řádek = jedno území × volby
 - Zdroj: volby.cz, appdata ps{rok}: výsledky za obec, okres a ČR.
 
 | Sloupec | Význam |

@@ -396,7 +396,7 @@ def build_index():
 
     body = f'''{tiles}
 <div class="note">Tento web je soukromá občanská iniciativa. Shromažďuje veřejně dostupná data o obci Horní Domaslavice
-a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice a Dolní Tošanovice (poslední dvě zatím ve financích a obyvatelstvu) i s podobnými obcemi odjinud. Nehodnotí osoby, ukazuje čísla a jejich zdroje.
+a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice a Dolní Tošanovice i s podobnými obcemi odjinud. Nehodnotí osoby, ukazuje čísla a jejich zdroje.
 Všechna data lze stáhnout a ověřit. Na data se můžete <a href="zeptejte-se-ai.html">zeptat i svého AI asistenta</a>.</div>
 <h2>Hlavní zjištění</h2>
 <p>Horní Domaslavice jsou ze sousedních obcí nejrychleji rostoucí. Daňové příjmy na obyvatele mají srovnatelné s většinou sousedů

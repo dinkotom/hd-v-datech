@@ -1,6 +1,6 @@
 """Data dictionary entries for the school and social data (pages srovnani-skolstvi-socialni, podobne-skolstvi-socialni)."""
 
-_OBCE = 'HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice) a podobné obce (Písková Lhota, Rebešovice, Závišice)'
+_OBCE = 'HD, sousední obce (Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice, Dolní Tošanovice) a podobné obce (Písková Lhota, Rebešovice, Závišice)'
 
 SOCIALNI_DATASETS = {
     'skolstvi_socialni_exekuce_2026-10.csv': {
@@ -58,7 +58,7 @@ SOCIALNI_DATASETS = {
     'skolstvi_socialni_skoly_rejstrik_2026-11.csv': {
         'popis': f'Školy a školská zařízení v obcích podle rejstříku škol MŠMT: {_OBCE} (a ZŠ a MŠ Dobratice, kam patří MŠ ve Vojkovicích).',
         'radek': 'jedna součást školy (MŠ, ZŠ, družina, jídelna…)',
-        'zdroj': 'MŠMT, rejstřík škol a školských zařízení (krajské výstupy JSON-LD, stav k 1. 11. 2026).',
+        'zdroj': 'MŠMT, rejstřík škol a školských zařízení (krajské výstupy JSON-LD, stav k 1. 11. 2026, u Nošovic a Dolních Tošanovic k 6. 11. 2026).',
         'sloupce': {
             'obec': 'Obec.', 'red_izo': 'Identifikátor ředitelství školy (RED_IZO).', 'ico': 'IČO právnické osoby.',
             'pravnicka_osoba': 'Název školy (právnické osoby).', 'zrizovatel': 'Zřizovatel.', 'izo': 'Identifikátor součásti (IZO).',
@@ -70,7 +70,7 @@ SOCIALNI_DATASETS = {
     'skolstvi_socialni_zdravotni_socialni_sluzby.csv': {
         'popis': f'Zdravotní a sociální služby s místem poskytování v obci: {_OBCE}.',
         'radek': 'jedno místo poskytování nebo souhrnný řádek obce',
-        'zdroj': 'Národní registr poskytovatelů zdravotních služeb (NRPZS) a registr poskytovatelů sociálních služeb MPSV, stav 1. 11. 2026.',
+        'zdroj': 'Národní registr poskytovatelů zdravotních služeb (NRPZS) a registr poskytovatelů sociálních služeb MPSV, stav 1. 11. 2026, u Nošovic a Dolních Tošanovic 6. 11. 2026.',
         'pozor': ['Poskytovatelé, kteří jsou fyzickými osobami, jsou uvedeni jen jako „fyzická osoba“.'],
         'sloupce': {
             'obec': 'Obec.', 'registr': 'Registr (NRPZS, RPSS).', 'druh': 'Druh péče nebo služby.',

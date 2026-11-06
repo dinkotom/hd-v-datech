@@ -1,7 +1,7 @@
 """Doplněk do slovnik.py: položky DATASETS pro data stránek srovnani-volby-spolky a podobne-volby-spolky.
 Vložit do slovníku DATASETS (např. DATASETS.update(VOLBY_SPOLKY_DATASETS) za jeho definici)."""
 
-_OBEC5 = 'Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina nebo Vojkovice.'
+_OBEC5 = 'Název obce: Horní Domaslavice, Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice nebo Dolní Tošanovice.'
 _OBECP = 'Název obce: Horní Domaslavice, Písková Lhota, Rebešovice nebo Závišice.'
 _KOD = 'Kód obce podle ČSÚ (HD 512192).'
 _KOD_UZ = 'Kód území: kód obce ČSÚ, 8102 = okres Frýdek-Místek, CZ = Česká republika.'
@@ -84,7 +84,7 @@ _PE = {
 _ARS = {
     'popis': 'Ekonomické subjekty se sídlem v obci podle ARES, sloučené do skupin, i na 1 000 obyvatel.',
     'radek': 'jedna obec',
-    'zdroj': 'ARES, vyhledání podle kódu obce sídla (POST /ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat); HD, Pazderna, DD a Lučina stav k 30. 10. 2026, ostatní obce k 1. 11. 2026.',
+    'zdroj': 'ARES, vyhledání podle kódu obce sídla (POST /ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat); HD, Pazderna, DD a Lučina stav k 30. 10. 2026, Vojkovice k 1. 11. 2026, Nošovice a Dolní Tošanovice k 6. 11. 2026.',
     'pozor': ['Počítá se sídlo, ne místo působení. Podnikající FO jsou v ARES i tehdy, když aktivně nepodnikají.'],
     'sloupce': {'kod_obce': _KOD, 'obec': None, 'obyvatel_1_7_2025': 'Obyvatelé k 1. 7. 2025 (ČSÚ), základ přepočtu.',
                 'subjektu_celkem': 'Subjekty celkem.', 'na_1000': 'Subjekty na 1 000 obyvatel.',

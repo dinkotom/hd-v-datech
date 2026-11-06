@@ -239,3 +239,63 @@ kod_obce,obec,obdobi,ukazatel,vazeny_prumer,min_ctverec,max_ctverec,pocet_ctverc
 568473,Závišice,2020–2024,PM10,19.2,18.4,20.7,16,6.33,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
 568473,Závišice,2020–2024,PM10_36max,32.75,31.0,34.0,16,6.33,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
 568473,Závišice,2020–2024,PM25,13.8,13.0,15.2,16,6.33,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2015–2019,BaP,2.39,2.1,2.8,16,6.48,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2015–2019,NO2,13.08,11.9,14.9,16,6.48,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2015–2019,PM10,26.3,25.0,27.3,16,6.48,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2015–2019,PM10_36max,50.52,47.9,52.5,16,6.48,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2015–2019,PM25,21.02,19.9,22.0,16,6.48,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2016–2020,BaP,2.18,2.0,2.5,16,6.48,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2016–2020,NO2,12.81,11.5,13.9,16,6.48,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2016–2020,PM10,24.52,23.3,25.4,16,6.48,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2016–2020,PM10_36max,47.01,44.7,48.5,16,6.48,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2016–2020,PM25,19.68,18.7,20.5,16,6.48,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2017–2021,BaP,2.08,1.8,2.4,16,6.48,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2017–2021,NO2,12.6,11.3,14.1,16,6.48,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2017–2021,PM10,23.5,22.2,24.7,16,6.48,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2017–2021,PM10_36max,45.12,43.0,47.0,16,6.48,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2017–2021,PM25,18.95,17.8,19.8,16,6.48,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2018–2022,BaP,1.79,1.5,2.2,16,6.48,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2018–2022,NO2,12.23,11.1,13.6,16,6.48,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2018–2022,PM10,22.36,20.9,23.7,16,6.48,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2018–2022,PM10_36max,40.3,38.0,42.0,16,6.48,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2018–2022,PM25,17.97,16.8,18.8,16,6.48,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2019–2023,BaP,1.52,1.2,2.0,16,6.48,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2019–2023,NO2,11.6,10.4,12.9,16,6.48,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2019–2023,PM10,20.24,18.5,21.3,16,6.48,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2019–2023,PM10_36max,35.25,33.0,36.0,16,6.48,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2019–2023,PM25,15.97,14.6,16.7,16,6.48,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2020–2024,BaP,1.34,1.0,1.8,16,6.48,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2020–2024,NO2,11.02,9.8,12.3,16,6.48,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2020–2024,PM10,19.94,18.6,20.7,16,6.48,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2020–2024,PM10_36max,34.56,33.0,36.0,16,6.48,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552518,Nošovice,2020–2024,PM25,15.53,14.4,16.1,16,6.48,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2015–2019,BaP,2.28,2.0,2.5,12,3.7,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2015–2019,NO2,12.5,11.2,13.1,12,3.7,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2015–2019,PM10,26.44,24.0,28.1,12,3.7,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2015–2019,PM10_36max,49.88,45.3,52.8,12,3.7,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2015–2019,PM25,20.87,18.8,22.3,12,3.7,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2016–2020,BaP,2.06,1.8,2.3,12,3.7,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2016–2020,NO2,12.13,10.7,12.8,12,3.7,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2016–2020,PM10,24.63,22.0,26.3,12,3.7,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2016–2020,PM10_36max,45.99,41.6,48.7,12,3.7,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2016–2020,PM25,19.36,17.2,20.7,12,3.7,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2017–2021,BaP,1.84,1.5,2.1,12,3.7,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2017–2021,NO2,11.9,10.4,12.5,12,3.7,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2017–2021,PM10,23.37,21.0,24.9,12,3.7,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2017–2021,PM10_36max,43.47,39.0,46.0,12,3.7,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2017–2021,PM25,18.28,16.3,19.5,12,3.7,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2018–2022,BaP,1.55,1.2,1.8,12,3.7,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2018–2022,NO2,11.51,9.9,12.1,12,3.7,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2018–2022,PM10,22.24,19.9,23.3,12,3.7,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2018–2022,PM10_36max,39.06,36.0,41.0,12,3.7,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2018–2022,PM25,17.17,15.1,18.2,12,3.7,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2019–2023,BaP,1.27,0.9,1.5,12,3.7,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2019–2023,NO2,10.74,9.1,11.4,12,3.7,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2019–2023,PM10,20.19,18.0,21.0,12,3.7,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2019–2023,PM10_36max,34.09,31.0,35.0,12,3.7,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2019–2023,PM25,15.28,13.4,16.0,12,3.7,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2020–2024,BaP,1.08,0.7,1.3,12,3.7,BaP_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2020–2024,NO2,10.12,8.4,10.8,12,3.7,NO2_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2020–2024,PM10,19.7,17.7,20.3,12,3.7,PM10_rp_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2020–2024,PM10_36max,33.36,31.0,34.0,12,3.7,PM10h24_5l,MSK ArcGIS vz_tp_trh_prace
+552607,Dolní Tošanovice,2020–2024,PM25,14.71,13.0,15.3,12,3.7,PM25_rp_5l,MSK ArcGIS vz_tp_trh_prace

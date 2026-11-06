@@ -342,7 +342,8 @@ def c_srov_obyv():
 
 def c_srov_plochy():
     agg = collections.defaultdict(lambda: collections.Counter())
-    nm = {'HD': 'Horní Domaslavice', 'PA': 'Pazderna', 'DD': 'Dolní Domaslavice', 'LU': 'Lučina', 'VOJ': 'Vojkovice'}
+    nm = {'HD': 'Horní Domaslavice', 'PA': 'Pazderna', 'DD': 'Dolní Domaslavice', 'LU': 'Lučina', 'VOJ': 'Vojkovice',
+          'NOS': 'Nošovice', 'DTO': 'Dolní Tošanovice'}
     for x in read_csv('CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv'):
         if x['rok'] == '2026':
             a = agg[nm[x['obec']]]
@@ -355,7 +356,7 @@ def c_srov_plochy():
     # colour order validated as adjacent pairs (validate_palette.js, light + dark)
     cats = [('Orná půda', 'c2', 'orna'), ('Louky a pastviny', 'c3', 'travni'), ('Zahrady a sady', 'c4', 'zahrady'),
             ('Les', 'c6', 'les'), ('Vodní plocha', 'c1', 'voda'), ('Zastavěné a ostatní plochy', 'c5', 'zast')]
-    rows = [(n, [agg[n][c[2]] for c in cats]) for n in OBCE]
+    rows = [(n, [agg[n][c[2]] for c in cats]) for n in OBCE_VSE]
     return stacked100('Z čeho se skládá území obcí (2026)', 'Podíl druhů pozemků z rozlohy obce. Zdroj: ČÚZK, úhrnné hodnoty druhů pozemků k 1. 10. 2026.',
                       rows, [(c[0], c[1]) for c in cats])
 

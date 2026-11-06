@@ -128,12 +128,12 @@ DATASETS = {
         },
     },
     'ukazatele_rozvaha_vzz_sousede.csv': {
-        'popis': 'Rozvaha a výkaz zisku a ztráty HD a sousedních obcí (včetně Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.',
+        'popis': 'Rozvaha a výkaz zisku a ztráty HD a všech šesti sousedních obcí: majetek, peníze, závazky, náklady, výnosy, odpisy.',
         'radek': 'jedna obec × rok (stav k 31. 12.)',
         'zdroj': 'Monitor státní pokladny MF: rozvaha a výkaz zisku a ztráty.',
         'pozor': ['Účetní hodnoty, ne tržní ceny. Stavby se účetně odepisují od roku 2012.'],
         'sloupce': {
-            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina).',
+            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice), NOS (Nošovice), DTO (Dolní Tošanovice).',
             'nazev': 'Název obce.',
             'kod_obce': 'Kód obce ČSÚ.',
             'rok': 'Rok (stav k 31. 12.).',
@@ -225,7 +225,7 @@ DATASETS = {
                   'Za obec je třeba řádky sečíst podle sloupce `obec`.'],
         'sloupce': {
             'rok': 'Rok stavu (1. 1. 2004, 1. 1. 2014, 1. 10. 2026).',
-            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice); v souboru podobných obcí PL, REB, ZAV.',
+            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice), NOS (Nošovice), DTO (Dolní Tošanovice); v souboru podobných obcí PL, REB, ZAV.',
             'ku_kod': 'Kód katastrálního území.',
             'ku': 'Název katastrálního území.',
             'celkem_ha': 'Výměra celkem, ha.',
@@ -245,7 +245,7 @@ DATASETS = {
         'zdroj': 'Výpočet z polohy budov v RÚIAN (stav 30. 9. 2026).',
         'pozor': ['„Shluk N m“ = skupina domů, kde každý dům má souseda ve skupině blíž než N metrů.'],
         'sloupce': {
-            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice); v souboru podobných obcí PL (Písková Lhota), REB (Rebešovice), ZAV (Závišice).',
+            'obec': 'Zkratka obce: HD, PA (Pazderna), DD, LU (Lučina), VOJ (Vojkovice), NOS (Nošovice), DTO (Dolní Tošanovice); v souboru podobných obcí PL (Písková Lhota), REB (Rebešovice), ZAV (Závišice).',
             'domy_bydleni': 'Počet budov pro bydlení.',
             'rekreacni_objekty': 'Počet rekreačních objektů (do výpočtu nezahrnuty).',
             'mst_m_na_dum': 'Délka nejkratší sítě spojující všechny domy (minimální kostra) na jeden dům, m. Hrubý odhad délky sítí na dům.',
