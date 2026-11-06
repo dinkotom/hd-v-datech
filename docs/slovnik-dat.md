@@ -44,12 +44,26 @@ Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN
 | `DD` | Dolní Domaslavice. |
 | `Lucina` | Lučina. |
 | `Vojkovice` | Vojkovice. |
+| `Nosovice` | Nošovice. |
+| `DTosanovice` | Dolní Tošanovice. |
 
 ## finance_DD_2010-2025.csv
 
 Hospodaření obce Dolní Domaslavice po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu).
 
 - Odkaz: [data/finance_DD_2010-2025.csv](https://hd-v-datech.cz/data/finance_DD_2010-2025.csv)
+- Řádků: 16; jeden řádek = jeden rozpočtový rok
+- Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
+- Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
+- Pozor: Sloupec `X_na_obyv` = `X` na obyvatele: toky děleno `obyv_1_7`, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno `obyv_31_12`.
+
+Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
+
+## finance_DTO_2010-2025.csv
+
+Hospodaření obce Dolní Tošanovice (okres Frýdek-Místek, IČO 00576875), sousední obce HD, po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
+
+- Odkaz: [data/finance_DTO_2010-2025.csv](https://hd-v-datech.cz/data/finance_DTO_2010-2025.csv)
 - Řádků: 16; jeden řádek = jeden rozpočtový rok
 - Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
 - Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
@@ -126,6 +140,18 @@ Hospodaření obce Lučina po letech 2010–2025 (stejné sloupce jako `finance_
 
 Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
 
+## finance_NOS_2010-2025.csv
+
+Hospodaření obce Nošovice (okres Frýdek-Místek, IČO 00577049), sousední obce HD, po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
+
+- Odkaz: [data/finance_NOS_2010-2025.csv](https://hd-v-datech.cz/data/finance_NOS_2010-2025.csv)
+- Řádků: 16; jeden řádek = jeden rozpočtový rok
+- Zdroj: Monitor státní pokladny MF: výkaz FIN 2-12 M za prosinec (plnění rozpočtu) a rozvaha k 31. 12.
+- Pozor: Částky v Kč, běžné ceny. Rok 2026 zatím chybí (MF zveřejní roční data na jaře 2027).
+- Pozor: Sloupec `X_na_obyv` = `X` na obyvatele: toky děleno `obyv_1_7`, stavy k 31. 12. (účty, peníze, úvěry, závazky) děleno `obyv_31_12`.
+
+Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
+
 ## finance_PAZ_2010-2025.csv
 
 Hospodaření obce Pazderna po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
@@ -191,7 +217,7 @@ Sloupce jsou stejné jako v `finance_HD_2010-2025.csv`.
 Investice a opravy HD a sousedních obcí podle paragrafu rozpočtové skladby (na co šly).
 
 - Odkaz: [data/investice_opravy_podle_paragrafu_sousede.csv](https://hd-v-datech.cz/data/investice_opravy_podle_paragrafu_sousede.csv)
-- Řádků: 782; jeden řádek = jedna obec × rok × paragraf (jen nenulové)
+- Řádků: 1094; jeden řádek = jedna obec × rok × paragraf (jen nenulové)
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 
 | Sloupec | Význam |
@@ -888,13 +914,13 @@ Zdravotní a sociální služby s místem poskytování v obci: HD, sousední ob
 Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 2002, dřívější roky ČSÚ po obcích nevydává) pro HD, sousední obce, okres Frýdek-Místek a Českou republiku.
 
 - Odkaz: [data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv](https://hd-v-datech.cz/data/souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv)
-- Řádků: 180; jeden řádek = jedno území × rok
+- Řádků: 232; jeden řádek = jedno území × rok
 - Zdroj: Český statistický úřad (sloupec `zdroj` uvádí kód datové sady).
 - Pozor: Pohyb obyvatel (narození … vystěhovalí) je u některých let a území prázdný.
 
 | Sloupec | Význam |
 |---|---|
-| `uzemi` | HD, Pazderna, DD, Lucina, Vojkovice, okres (Frýdek-Místek), CR (Česká republika). |
+| `uzemi` | HD, Pazderna, DD, Lucina, Vojkovice, Nosovice (Nošovice), DTosanovice (Dolní Tošanovice), okres (Frýdek-Místek), CR (Česká republika). |
 | `rok` | Rok. |
 | `obyvatel_31_12` | Obyvatelé k 31. 12. |
 | `vek_0_14` | Obyvatelé ve věku 0–14 let. |
@@ -912,7 +938,7 @@ Počet obyvatel, věková struktura a pohyb obyvatel 2000–2025 (pohyb od roku 
 Součty ukazatelů za volební období a průměr na obyvatele a rok.
 
 - Odkaz: [data/souhrn_po_obdobich_sousede.csv](https://hd-v-datech.cz/data/souhrn_po_obdobich_sousede.csv)
-- Řádků: 320; jeden řádek = jedna obec × volební období × ukazatel
+- Řádků: 448; jeden řádek = jedna obec × volební období × ukazatel
 - Zdroj: Výpočet z `finance_*`.
 - Pozor: Za období se počítají rozpočtové roky, za které odpovídá dané zastupitelstvo (sloupec `roky`); období 2022–2026 zatím jen 2023–2025.
 - Pozor: Hodnoty sloupce `ukazatel` mají stejný význam jako stejnojmenné sloupce v souborech `finance_*_2010-2025.csv` (viz výše).
@@ -1066,10 +1092,10 @@ Rozvaha a výkaz zisku a ztráty HD a sousedních obcí (včetně Vojkovic): maj
 
 ## ukazatele_sousede_2010-2025.csv
 
-Stejné ukazatele jako `finance_*` pro HD a sousední obce (včetně Vojkovic) v dlouhém formátu (vhodné pro filtrování a grafy).
+Stejné ukazatele jako `finance_*` pro HD a všech šest sousedních obcí v dlouhém formátu (vhodné pro filtrování a grafy).
 
 - Odkaz: [data/ukazatele_sousede_2010-2025.csv](https://hd-v-datech.cz/data/ukazatele_sousede_2010-2025.csv)
-- Řádků: 3200; jeden řádek = jedna obec × rok × ukazatel
+- Řádků: 4480; jeden řádek = jedna obec × rok × ukazatel
 - Zdroj: Monitor státní pokladny MF; obyvatelé ČSÚ.
 - Pozor: Hodnoty sloupce `ukazatel` mají stejný význam jako stejnojmenné sloupce v souborech `finance_*_2010-2025.csv` (viz výše).
 
@@ -1249,7 +1275,7 @@ Výsledky stran ve volbách do Poslanecké sněmovny 2013–2025. HD a sousední
 Výdaje HD a sousedních obcí rozdělené podle účelu (sloučené paragrafy) a podle druhu (sloučené položky).
 
 - Odkaz: [data/vydaje_kategorie_sousede_2010-2025.csv](https://hd-v-datech.cz/data/vydaje_kategorie_sousede_2010-2025.csv)
-- Řádků: 1760; jeden řádek = jedna obec × rok × členění × kategorie
+- Řádků: 2464; jeden řádek = jedna obec × rok × členění × kategorie
 - Zdroj: Monitor státní pokladny MF, FIN 2-12 M.
 - Pozor: Obě členění (`ucel`, `druh`) dávají v součtu stejné celkové výdaje; nesčítat je dohromady.
 

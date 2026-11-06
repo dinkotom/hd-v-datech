@@ -11,7 +11,9 @@ import os
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OBCE = ['Horní Domaslavice', 'Pazderna', 'Dolní Domaslavice', 'Lučina', 'Vojkovice']
-SHORT = {'Horní Domaslavice': 'HD', 'Pazderna': 'Pazderna', 'Dolní Domaslavice': 'Dolní Dom.', 'Lučina': 'Lučina', 'Vojkovice': 'Vojkovice', 'Písková Lhota': 'Písk. Lhota', 'Rebešovice': 'Rebešovice', 'Závišice': 'Závišice'}
+# all six neighbours; topics not yet extended to Nošovice and Dolní Tošanovice still use OBCE
+OBCE_VSE = OBCE + ['Nošovice', 'Dolní Tošanovice']
+SHORT = {'Horní Domaslavice': 'HD', 'Pazderna': 'Pazderna', 'Dolní Domaslavice': 'Dolní Dom.', 'Lučina': 'Lučina', 'Vojkovice': 'Vojkovice', 'Nošovice': 'Nošovice', 'Dolní Tošanovice': 'Dol. Tošan.', 'Písková Lhota': 'Písk. Lhota', 'Rebešovice': 'Rebešovice', 'Závišice': 'Závišice'}
 
 
 def esc(s):
@@ -229,7 +231,8 @@ def _fin(obec_file):
 
 FIN_FILES = {'Horní Domaslavice': 'finance_HD_2010-2025.csv', 'Pazderna': 'finance_PAZ_2010-2025.csv',
              'Dolní Domaslavice': 'finance_DD_2010-2025.csv', 'Lučina': 'finance_LUC_2010-2025.csv',
-             'Vojkovice': 'finance_VOJ_2010-2025.csv'}
+             'Vojkovice': 'finance_VOJ_2010-2025.csv', 'Nošovice': 'finance_NOS_2010-2025.csv',
+             'Dolní Tošanovice': 'finance_DTO_2010-2025.csv'}
 MF = 'Zdroj: Monitor státní pokladny MF.'
 
 
@@ -294,10 +297,10 @@ def c_hd_obyvatele():
                            'osob', dec=0, label_every=4, total_label=False)
 
 
-def _per_capita_series(key, per='obyv_1_7'):
+def _per_capita_series(key, per='obyv_1_7', obce=OBCE_VSE):
     # flows per population at 1 July, stocks (money on accounts) at 31 December, as in the tables
     out = {}
-    for n in OBCE:
+    for n in obce:
         r = _fin(FIN_FILES[n])
         out[n] = [float(x[key]) / float(x[per]) for x in r]
     return [x['rok'] for x in _fin(FIN_FILES[OBCE[0]])], out
@@ -309,8 +312,11 @@ def c_srov_io():
 
 
 def c_srov_penize():
-    xs, s = _per_capita_series('penize_231_244_245', 'obyv_31_12')
-    return lines_highlight('Peníze na účtech na obyvatele', 'Kč na obyvatele k 31. 12. ' + MF, xs, s, 'Kč', label_every=3)
+    # Nošovice are an order of magnitude higher and would flatten the other lines
+    xs, s = _per_capita_series('penize_231_244_245', 'obyv_31_12', [n for n in OBCE_VSE if n != 'Nošovice'])
+    nos = _per_capita_series('penize_231_244_245', 'obyv_31_12', ['Nošovice'])[1]['Nošovice'][-1]
+    return lines_highlight('Peníze na účtech na obyvatele', f'Kč na obyvatele k 31. 12. Nošovice ({num(nos)} Kč na obyvatele v roce {xs[-1]}) '
+                           'nejsou kvůli měřítku v grafu, jejich hodnoty jsou v tabulce v oddílu 10. ' + MF, xs, s, 'Kč', label_every=3)
 
 
 def c_srov_dane():
@@ -319,7 +325,8 @@ def c_srov_dane():
 
 
 def c_srov_obyv():
-    key = {'HD': 'Horní Domaslavice', 'Pazderna': 'Pazderna', 'DD': 'Dolní Domaslavice', 'Lucina': 'Lučina', 'Vojkovice': 'Vojkovice'}
+    key = {'HD': 'Horní Domaslavice', 'Pazderna': 'Pazderna', 'DD': 'Dolní Domaslavice', 'Lucina': 'Lučina', 'Vojkovice': 'Vojkovice',
+           'Nosovice': 'Nošovice', 'DTosanovice': 'Dolní Tošanovice'}
     rows = read_csv('souhrn_obyvatel_rocne_2000-2025_sousede_okres_CR.csv')
     xs = sorted({x['rok'] for x in rows})
     s = {}
@@ -329,7 +336,7 @@ def c_srov_obyv():
             continue
         base = vals[xs[0]]
         s[n] = [100 * vals[y] / base if y in vals else None for y in xs]
-    s = {n: s[n] for n in OBCE if n in s}
+    s = {n: s[n] for n in OBCE_VSE if n in s}
     return lines_highlight('Růst počtu obyvatel (rok 2000 = 100)', 'Počet obyvatel ke 31. 12. jako index proti roku 2000. Zdroj: ČSÚ.', xs, s, '(index)', label_every=5)
 
 
@@ -355,7 +362,7 @@ def c_srov_plochy():
 
 def c_srov_dotace():
     rows = []
-    for n in OBCE:
+    for n in OBCE_VSE:
         r = _fin(FIN_FILES[n])
         rows.append((n, sum(float(x['dotace_inv']) for x in r if 2011 <= int(x['rok']) <= 2025) / 1e6))
     return hbar('Investiční dotace 2011–2025 celkem', 'Mil. Kč. ' + MF, rows, 'mil. Kč', dec=1, hl='Horní Domaslavice')

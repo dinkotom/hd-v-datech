@@ -1,8 +1,8 @@
 # Horní Domaslavice v datech
 
-> Neoficiální občanský přehled veřejných dat o obci Horní Domaslavice (okres Frýdek-Místek) a srovnání se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina a Vojkovice a s podobnými obcemi jinde v ČR: obyvatelstvo, rozpočet a hospodaření 2010–2026, investice, dotace, majetek, zakázky, usnesení zastupitelstva, výstavba, pozemky a občanská vybavenost. Zdroje: Ministerstvo financí (Monitor státní pokladny), ČSÚ, ČÚZK, volby.cz, registr smluv, dokumenty obce.
+> Neoficiální občanský přehled veřejných dat o obci Horní Domaslavice (okres Frýdek-Místek) a srovnání se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice a Dolní Tošanovice a s podobnými obcemi jinde v ČR: obyvatelstvo, rozpočet a hospodaření 2010–2026, investice, dotace, majetek, zakázky, usnesení zastupitelstva, výstavba, pozemky a občanská vybavenost. Zdroje: Ministerstvo financí (Monitor státní pokladny), ČSÚ, ČÚZK, volby.cz, registr smluv, dokumenty obce.
 
-Autor: Tomáš Dinkov. Aktualizováno 3. 11. 2026. Chyby lze hlásit na https://github.com/dinkotom/hd-v-datech/issues.
+Autor: Tomáš Dinkov. Aktualizováno 6. 11. 2026. Chyby lze hlásit na https://github.com/dinkotom/hd-v-datech/issues.
 
 ## Jak data číst a citovat
 
@@ -37,10 +37,10 @@ Autor: Tomáš Dinkov. Aktualizováno 3. 11. 2026. Chyby lze hlásit na https://
 
 ## Srovnání se sousedy
 
-- [Souhrn srovnání](https://hd-v-datech.cz/srovnani-souhrn.md): Souhrn klíčových čísel Horních Domaslavic vedle Pazderny, Dolních Domaslavic, Lučiny a Vojkovic: lidé, finance, majetek, služby, zakázky a volby.
-- [Finance](https://hd-v-datech.cz/srovnani-finance.md): Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic, Pazderny, Dolních Domaslavic, Lučiny a Vojkovic v letech 2010–2025.
+- [Souhrn srovnání](https://hd-v-datech.cz/srovnani-souhrn.md): Souhrn klíčových čísel Horních Domaslavic vedle sousedních obcí Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice a Dolní Tošanovice: lidé, finance, majetek, služby, zakázky a volby.
+- [Finance](https://hd-v-datech.cz/srovnani-finance.md): Příjmy, výdaje, investice a opravy, dotace, rezervy a peníze na účtech Horních Domaslavic a všech šesti sousedních obcí (Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice, Dolní Tošanovice) v letech 2010–2025.
 - [Majetek, smlouvy, zakázky](https://hd-v-datech.cz/srovnani-majetek-zakazky.md): Majetek a účetnictví, registr smluv a veřejné zakázky Horních Domaslavic ve srovnání s Dolními Domaslavicemi, Lučinou, Pazdernou a Vojkovicemi.
-- [Obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.md): Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a sousedních obcích.
+- [Obyvatelstvo a výstavba](https://hd-v-datech.cz/srovnani-obyvatelstvo-vystavba.md): Vývoj počtu obyvatel, věková struktura, sčítání 2021, výstavba a zbývající plochy pro bydlení v Horních Domaslavicích a všech šesti sousedních obcích.
 - [Školství a sociální data](https://hd-v-datech.cz/srovnani-skolstvi-socialni.md): Školy, nezaměstnanost, exekuce, kriminalita, ovzduší a zdravotní a sociální služby v Horních Domaslavicích a sousedních obcích.
 - [Volby a spolky](https://hd-v-datech.cz/srovnani-volby-spolky.md): Volební účast a výsledky kandidátek, subjekty a spolky se sídlem v obci a výdaje obcí na neziskové organizace v Horních Domaslavicích a sousedních obcích.
 - [Rozloha a druhy pozemků](https://hd-v-datech.cz/srovnani-plochy.md): Rozloha, hustota osídlení a skladba pozemků podle katastru v Horních Domaslavicích, Pazderně, Dolních Domaslavicích, Lučině a Vojkovicích a jejich vývoj od roku 2004.
@@ -68,8 +68,10 @@ Autor: Tomáš Dinkov. Aktualizováno 3. 11. 2026. Chyby lze hlásit na https://
 - [CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv](https://hd-v-datech.cz/data/CUZK_UHDP_druhy_pozemku_sousede_2004_2014_2026.csv): Výměry druhů pozemků po katastrálních územích HD a sousedních obcí (orná půda, louky, lesy, zastavěné plochy…).
 - [RUIAN_souhrn_sousede_stav_20260930.csv](https://hd-v-datech.cz/data/RUIAN_souhrn_sousede_stav_20260930.csv): Budovy, byty a technické vybavení podle Registru územní identifikace (RÚIAN), stav 30. 9. 2026.
 - [finance_DD_2010-2025.csv](https://hd-v-datech.cz/data/finance_DD_2010-2025.csv): Hospodaření obce Dolní Domaslavice po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu).
+- [finance_DTO_2010-2025.csv](https://hd-v-datech.cz/data/finance_DTO_2010-2025.csv): Hospodaření obce Dolní Tošanovice (okres Frýdek-Místek, IČO 00576875), sousední obce HD, po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
 - [finance_HD_2010-2025.csv](https://hd-v-datech.cz/data/finance_HD_2010-2025.csv): Hospodaření obce Horní Domaslavice po letech 2010–2025: příjmy, výdaje, investice, opravy, dotace, rezervy, peníze a úvěry.
 - [finance_LUC_2010-2025.csv](https://hd-v-datech.cz/data/finance_LUC_2010-2025.csv): Hospodaření obce Lučina po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`; obec zřizuje základní školu a má výdaje spojené s nádrží Žermanice).
+- [finance_NOS_2010-2025.csv](https://hd-v-datech.cz/data/finance_NOS_2010-2025.csv): Hospodaření obce Nošovice (okres Frýdek-Místek, IČO 00577049), sousední obce HD, po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
 - [finance_PAZ_2010-2025.csv](https://hd-v-datech.cz/data/finance_PAZ_2010-2025.csv): Hospodaření obce Pazderna po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`).
 - [finance_PL_2010-2025.csv](https://hd-v-datech.cz/data/finance_PL_2010-2025.csv): Hospodaření obce Písková Lhota (okres Mladá Boleslav, IČO 00509230) po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`). Podobná obec pro srovnání.
 - [finance_REB_2010-2025.csv](https://hd-v-datech.cz/data/finance_REB_2010-2025.csv): Hospodaření obce Rebešovice (okres Brno-venkov, IČO 00488089) po letech 2010–2025 (stejné sloupce jako `finance_HD_2010-2025.csv`). Podobná obec pro srovnání.
@@ -118,7 +120,7 @@ Autor: Tomáš Dinkov. Aktualizováno 3. 11. 2026. Chyby lze hlásit na https://
 - [transfery_NNO_paragrafy_sousede_2010-2025.csv](https://hd-v-datech.cz/data/transfery_NNO_paragrafy_sousede_2010-2025.csv): Rozpis transferů z `transfery_NNO_*` podle paragrafu a položky. HD a sousední obce.
 - [transfery_NNO_sousede_2010-2025.csv](https://hd-v-datech.cz/data/transfery_NNO_sousede_2010-2025.csv): Transfery obcí neziskovým organizacím, církvím a fyzickým osobám po letech 2010–2025. HD a sousední obce.
 - [ukazatele_rozvaha_vzz_sousede.csv](https://hd-v-datech.cz/data/ukazatele_rozvaha_vzz_sousede.csv): Rozvaha a výkaz zisku a ztráty HD a sousedních obcí (včetně Vojkovic): majetek, peníze, závazky, náklady, výnosy, odpisy.
-- [ukazatele_sousede_2010-2025.csv](https://hd-v-datech.cz/data/ukazatele_sousede_2010-2025.csv): Stejné ukazatele jako `finance_*` pro HD a sousední obce (včetně Vojkovic) v dlouhém formátu (vhodné pro filtrování a grafy).
+- [ukazatele_sousede_2010-2025.csv](https://hd-v-datech.cz/data/ukazatele_sousede_2010-2025.csv): Stejné ukazatele jako `finance_*` pro HD a všech šest sousedních obcí v dlouhém formátu (vhodné pro filtrování a grafy).
 - [usneseni_zo_2022-2026.csv](https://hd-v-datech.cz/data/usneseni_zo_2022-2026.csv): Usnesení zastupitelstva obce Horní Domaslavice 2022–2026 (a konec období 2018–2022).
 - [volby_komunalni_kandidatky_sousede_1994-2026.csv](https://hd-v-datech.cz/data/volby_komunalni_kandidatky_sousede_1994-2026.csv): Kandidátky v komunálních volbách 1994–2026: hlasy, mandáty a odvozený typ kandidátky. HD a sousední obce.
 - [volby_komunalni_kontinuita_sousede_2002-2026.csv](https://hd-v-datech.cz/data/volby_komunalni_kontinuita_sousede_2002-2026.csv): Kolik zastupitelů zvolených v daném roce bylo zvoleno už v předchozích volbách (bez jmen). HD a sousední obce.

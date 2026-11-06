@@ -21,7 +21,7 @@ import slovnik  # noqa: E402
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'docs')
 SITE = 'Horní Domaslavice v datech'
-UPDATED = '3. 11. 2026'
+UPDATED = '6. 11. 2026'
 REPO_URL = 'https://github.com/dinkotom/hd-v-datech'
 DOMAIN = 'hd-v-datech.cz'
 SITE_URL = f'https://{DOMAIN}/'
@@ -90,7 +90,8 @@ NAV = [
     ]),
 ]
 
-OBCE = [('HD', 'Horní Domaslavice'), ('PA', 'Pazderna'), ('DD', 'Dolní Domaslavice'), ('LU', 'Lučina'), ('VOJ', 'Vojkovice')]
+OBCE = [('HD', 'Horní Domaslavice'), ('PA', 'Pazderna'), ('DD', 'Dolní Domaslavice'), ('LU', 'Lučina'), ('VOJ', 'Vojkovice'),
+        ('NOS', 'Nošovice'), ('DTO', 'Dolní Tošanovice')]
 
 
 # ---------- helpers ----------
@@ -348,6 +349,7 @@ def build_index():
         if r['roky'] == '2023–2025':
             per[(r['obec'], r['ukazatel'])] = float(r['kc_na_obyv_a_rok'] or 0)
     names = [n for _, n in OBCE]
+    io_soused = [per[(n, 'io')] for n in names[1:]]
     hd = read_csv('finance_HD_2010-2025.csv')
     years = [r['rok'] for r in hd]
     cash = [float(r['penize_231_244_245']) / 1e6 for r in hd]
@@ -360,7 +362,7 @@ def build_index():
     tiles = f'''<div class="tiles">
 <div class="tile"><div class="v">{num(int(pop[-1]["obyvatel_31_12"]))}</div><div class="l">obyvatel ke konci roku 2025, téměř dvakrát víc než v roce 2000 ({pop[0]["obyvatel_31_12"]})</div></div>
 <div class="tile"><div class="v">{num(cash[-1], 1)} mil. Kč</div><div class="l">na účtech obce ke konci roku 2025</div></div>
-<div class="tile"><div class="v">{num(per[("Horní Domaslavice", "io")])} Kč</div><div class="l">na investice a opravy na obyvatele a rok (2023–2025); sousední obce 12–31 tis. Kč</div></div>
+<div class="tile"><div class="v">{num(per[("Horní Domaslavice", "io")])} Kč</div><div class="l">na investice a opravy na obyvatele a rok (2023–2025); sousední obce {num(min(io_soused) / 1000)}–{num(max(io_soused) / 1000)} tis. Kč</div></div>
 <div class="tile"><div class="v">0 Kč</div><div class="l">investičních dotací přišlo na účet v letech 2023–2025; v prosinci 2025 obec uzavřela smlouvu s krajem na dotaci až 2,7 mil. Kč</div></div>
 <div class="tile"><div class="v">{num(io26, 1)} mil. Kč</div><div class="l">zaplatila obec na investice a opravy v roce 2026 do 30. 9., tedy {num(io26 / io26_plan * 100)} % z plánovaných {num(io26_plan, 1)} mil. Kč</div></div>
 </div>'''
@@ -394,11 +396,12 @@ def build_index():
 
     body = f'''{tiles}
 <div class="note">Tento web je soukromá občanská iniciativa. Shromažďuje veřejně dostupná data o obci Horní Domaslavice
-a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina a Vojkovice i s podobnými obcemi odjinud. Nehodnotí osoby, ukazuje čísla a jejich zdroje.
+a srovnává je se sousedními obcemi Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice a Dolní Tošanovice (poslední dvě zatím ve financích a obyvatelstvu) i s podobnými obcemi odjinud. Nehodnotí osoby, ukazuje čísla a jejich zdroje.
 Všechna data lze stáhnout a ověřit. Na data se můžete <a href="zeptejte-se-ai.html">zeptat i svého AI asistenta</a>.</div>
 <h2>Hlavní zjištění</h2>
-<p>Horní Domaslavice jsou ze sousedních obcí nejrychleji rostoucí. Daňové příjmy na obyvatele mají srovnatelné se sousedy,
-do investic a oprav ale v letech 2023–2025 dávaly na obyvatele dvakrát až pětkrát méně a mají nejvíc peněz na účtech.
+<p>Horní Domaslavice jsou ze sousedních obcí nejrychleji rostoucí. Daňové příjmy na obyvatele mají srovnatelné s většinou sousedů
+(výjimkou jsou Nošovice s mimořádným výnosem daně z nemovitostí), do investic a oprav ale v letech 2023–2025 dávaly na obyvatele nejméně ze všech sedmi obcí.
+Peněz na účtech mají na obyvatele nejvíc ze sousedů kromě Nošovic.
 Na rok 2026 obec naplánovala investice a opravy za {num(io26_plan, 1)} mil. Kč, do 30. 9. z toho zaplatila {num(io26, 1)} mil. Kč (<a href="hd-rozpocet-2026.html">Rozpočet 2026</a>).
 Podrobnosti a výhrady ke srovnatelnosti jsou v <a href="srovnani-souhrn.html">souhrnu srovnání</a>.</p>
 {c_io}
@@ -441,6 +444,8 @@ DATA_DESC = {
     'rozpocet_2026_stav_uctu.csv': 'Peníze na účtech obce po čtvrtletích 2023–2026.',
     'rozpocet_2026_strednedoby_vyhled.csv': 'Střednědobý výhled rozpočtu 2025–2028.',
     'finance_VOJ_2010-2025.csv': 'Vojkovice (okres Frýdek-Místek, sousední obec): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
+    'finance_NOS_2010-2025.csv': 'Nošovice (okres Frýdek-Místek, sousední obec): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
+    'finance_DTO_2010-2025.csv': 'Dolní Tošanovice (okres Frýdek-Místek, sousední obec): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
     'finance_PL_2010-2025.csv': 'Písková Lhota (okres Mladá Boleslav): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
     'finance_REB_2010-2025.csv': 'Rebešovice (okres Brno-venkov): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
     'finance_ZAV_2010-2025.csv': 'Závišice (okres Nový Jičín): hospodaření po letech 2010–2025, stejné sloupce jako u HD.',
@@ -684,7 +689,7 @@ def build_llms(slugs):
         desc[s] = meta.get('description', '')
     lines = [f'# {SITE}', '',
              '> Neoficiální občanský přehled veřejných dat o obci Horní Domaslavice (okres Frýdek-Místek) a srovnání se sousedními '
-             'obcemi Pazderna, Dolní Domaslavice, Lučina a Vojkovice a s podobnými obcemi jinde v ČR: obyvatelstvo, rozpočet a hospodaření 2010–2026, investice, dotace, '
+             'obcemi Pazderna, Dolní Domaslavice, Lučina, Vojkovice, Nošovice a Dolní Tošanovice a s podobnými obcemi jinde v ČR: obyvatelstvo, rozpočet a hospodaření 2010–2026, investice, dotace, '
              'majetek, zakázky, usnesení zastupitelstva, výstavba, pozemky a občanská vybavenost. Zdroje: Ministerstvo financí '
              '(Monitor státní pokladny), ČSÚ, ČÚZK, volby.cz, registr smluv, dokumenty obce.', '',
              f'Autor: Tomáš Dinkov. Aktualizováno {UPDATED}. Chyby lze hlásit na {REPO_URL}/issues.', '',

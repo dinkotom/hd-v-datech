@@ -1,7 +1,7 @@
 ---
 title: "Opravy"
 description: "Přehled opravených chyb a nepřesností na webu Horní Domaslavice v datech."
-updated: "2026-11-03"
+updated: "2026-11-06"
 ---
 
 Na této stránce zveřejňujeme opravy, které na webu provedeme na základě hlášení čtenářů nebo vlastní kontroly. U každé opravy je datum, stránka, co bylo špatně a co platí nyní.
@@ -10,6 +10,7 @@ Chybu můžete nahlásit tlačítkem „Nahlásit chybu“ na konci každé str�
 
 | Datum | Stránka | Co bylo špatně | Oprava |
 |---|---|---|---|
+| 6. 11. 2026 | [Finance](srovnani-finance.html), [Obyvatelstvo a výstavba](srovnani-obyvatelstvo-vystavba.html), [Souhrn srovnání](srovnani-souhrn.html), [Úvod](index.html) | Změna, ne oprava: srovnání se sousedy nezahrnovalo dvě obce, které s HD také hraničí. | Doplněny Nošovice a Dolní Tošanovice (zatím finance a obyvatelstvo a výstavba). Tvrzení, která po doplnění přestala platit (např. „HD má nejvíc peněz na účtech“, „HD topí nejvíc uhlím“, „ve všech obcích klesl index stáří“), jsou upravena. Čísla ostatních obcí se nezměnila. |
 | 3. 11. 2026 | [Mapa](mapa.html), [O webu](o-webu.html) | Změna, ne oprava: knihovna Leaflet pro mapu se načítala ze serveru unpkg.com, který viděl IP adresu návštěvníka. | Knihovna je uložena přímo na tomto webu (stejná verze 1.9.4, ověřená otiskem souboru). |
 | 3. 11. 2026 | [O webu](o-webu.html#nestrannost), patička všech stránek | Změna, ne oprava: nestrannost webu byla popsána jen jednou větou. | Doplněn závazek nestrannosti: web je a zůstane čistě informační, bez politických stanovisek, hodnocení osob a využití v kampaních. |
 | 3. 11. 2026 | [O webu](o-webu.html) | Změna, ne oprava: web dosud návštěvnost neměřil. | Zavedeno měření návštěvnosti službou Cloudflare Web Analytics (bez cookies, jen souhrnné údaje); popsáno v oddílu o osobních údajích. |
